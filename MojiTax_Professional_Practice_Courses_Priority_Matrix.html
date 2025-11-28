@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MojiTax Professional Practice Courses - Priority Matrix</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #2d3748;
+            margin-bottom: 10px;
+            font-size: 32px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #718096;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        
+        .key-info {
+            background: #f7fafc;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        
+        .key-info h3 {
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+        
+        .key-info ul {
+            margin-left: 20px;
+            color: #4a5568;
+        }
+        
+        .filters {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 8px 16px;
+            border: 2px solid #e2e8f0;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+        
+        .filter-btn:hover {
+            border-color: #667eea;
+            background: #f7fafc;
+        }
+        
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        
+        .table-container {
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        
+        thead {
+            background: #2d3748;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        th {
+            padding: 15px 12px;
+            text-align: left;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        
+        td {
+            padding: 15px 12px;
+            border-bottom: 1px solid #e2e8f0;
+            vertical-align: top;
+        }
+        
+        tr:hover {
+            background: #f7fafc;
+        }
+        
+        .priority {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 12px;
+            text-align: center;
+            min-width: 80px;
+        }
+        
+        .priority-1 {
+            background: #fc8181;
+            color: #742a2a;
+        }
+        
+        .priority-2 {
+            background: #f6ad55;
+            color: #7c2d12;
+        }
+        
+        .priority-3 {
+            background: #68d391;
+            color: #22543d;
+        }
+        
+        .bundle {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            margin: 2px;
+        }
+        
+        .bundle-1 { background: #fef5e7; color: #7e5109; }
+        .bundle-2 { background: #e8f5e9; color: #1b5e20; }
+        .bundle-3 { background: #e3f2fd; color: #0d47a1; }
+        .bundle-4 { background: #f3e5f5; color: #4a148c; }
+        .bundle-5 { background: #fce4ec; color: #880e4f; }
+        .bundle-6 { background: #e0f2f1; color: #004d40; }
+        .bundle-7 { background: #fff3e0; color: #e65100; }
+        .bundle-standalone { background: #f5f5f5; color: #424242; }
+        
+        .price {
+            font-weight: 700;
+            color: #667eea;
+            font-size: 16px;
+        }
+        
+        .course-summary {
+            color: #4a5568;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+        
+        .course-summary strong {
+            color: #2d3748;
+            display: block;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        
+        .course-summary ul {
+            margin-left: 18px;
+            margin-top: 4px;
+        }
+        
+        .course-summary li {
+            margin-bottom: 3px;
+        }
+        
+        .study-time {
+            font-weight: 600;
+            color: #667eea;
+        }
+        
+        .urgency-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+        
+        .urgent {
+            background: #fee;
+            color: #c00;
+        }
+        
+        .legend {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            padding: 15px;
+            background: #f7fafc;
+            border-radius: 8px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MojiTax Professional Practice Courses</h1>
+        <div class="subtitle">Comprehensive 12-Hour Implementation-Focused Tax Training | 2025-2026 Portfolio</div>
+        
+        <div class="key-info">
+            <h3>Course Specifications</h3>
+            <ul>
+                <li><strong>Study Time:</strong> 12 hours per course (20-24 CPE credits)</li>
+                <li><strong>Pricing Range:</strong> £350-£600 per course</li>
+                <li><strong>Format:</strong> Implementation-focused with ready-to-use templates, forms, checklists, Excel calculators, and official resource directories</li>
+                <li><strong>Target Audience:</strong> Working tax professionals (2-15+ years experience) needing immediate practical application</li>
+                <li><strong>Priority Ranking:</strong> Based on compliance urgency, market demand, and practice gaps</li>
+            </ul>
+        </div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color priority-1"></div>
+                <span>Priority 1: Urgent (Q1-Q2 2026 deadlines)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color priority-2"></div>
+                <span>Priority 2: High Demand (Q3-Q4 2026)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color priority-3"></div>
+                <span>Priority 3: Strategic (2027+)</span>
+            </div>
+        </div>
+        
+        <div class="filters">
+            <button class="filter-btn active" onclick="filterBundle('all')">All Courses</button>
+            <button class="filter-btn" onclick="filterBundle('bundle-1')">Bundle 1: Pillar Two</button>
+            <button class="filter-btn" onclick="filterBundle('bundle-2')">Bundle 2: Transfer Pricing</button>
+            <button class="filter-btn" onclick="filterBundle('bundle-3')">Bundle 3: Tax Technology</button>
+            <button class="filter-btn" onclick="filterBundle('bundle-4')">Bundle 4: Digital Economy</button>
+            <button class="filter-btn" onclick="filterBundle('bundle-5')">Bundle 5: Controversy</button>
+            <button class="filter-btn" onclick="filterBundle('bundle-6')">Bundle 6: US International Tax</button>
+            <button class="filter-btn" onclick="filterBundle('bundle-7')">Bundle 7: Transparency</button>
+            <button class="filter-btn" onclick="filterBundle('standalone')">Standalone</button>
+        </div>
+        
+        <div class="table-container">
+            <table id="coursesTable">
+                <thead>
+                    <tr>
+                        <th style="width: 50px;">Priority</th>
+                        <th style="width: 280px;">Course Title</th>
+                        <th style="width: 150px;">Bundle(s)</th>
+                        <th style="width: 80px;">Study Time</th>
+                        <th style="width: 80px;">Price</th>
+                        <th>Course Summary & Key Deliverables</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- PRIORITY 1: URGENT COURSES -->
+                    <tr data-bundle="bundle-1">
+                        <td><span class="priority priority-1">Priority 1</span></td>
+                        <td><strong>GloBE Information Return: Complete Filing Implementation</strong><span class="urgency-badge urgent">JUNE 2026</span></td>
+                        <td><span class="bundle bundle-1">Bundle 1</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£600</span></td>
+                        <td class="course-summary">
+                            <strong>Why Priority 1:</strong> First GloBE Information Returns due June 30, 2026. Zero comprehensive training exists. Critical compliance gap.
+                            
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>XML Schema Package:</strong> Complete OECD XML schema with validation tools and error-checking templates</li>
+                                <li><strong>Data Gathering Workbook:</strong> 200+ data point tracker with ERP extraction guidance and gap analysis</li>
+                                <li><strong>GIR Completion Calculator:</strong> Excel model for all GIR tables (1-5) with automatic calculations and validation checks</li>
+                                <li><strong>Filing Process Guide:</strong> Step-by-step filing procedures for 15 jurisdictions with portal screenshots and submission checklists</li>
+                                <li><strong>Designated Filing Entity Template:</strong> Election forms and documentation for DFE designation across MNE group</li>
+                                <li><strong>Official Resource Directory:</strong> Direct links to 25+ tax authority GIR portals, XML validators, and technical guidance</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Complete GIR filing process from data extraction through submission. Includes jurisdictional variations (UK, Germany, Netherlands, Singapore, Australia), multi-constituent entity challenges, simplified reporting elections, and amendment procedures. Addresses practical issues: missing data, ERP limitations, intra-group transactions, and coordination with Pillar Two tax calculations.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-7">
+                        <td><span class="priority priority-1">Priority 1</span></td>
+                        <td><strong>CARF and DAC8: Crypto-Asset Reporting Implementation</strong><span class="urgency-badge urgent">JAN 2026</span></td>
+                        <td><span class="bundle bundle-7">Bundle 7</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£550</span></td>
+                        <td class="course-summary">
+                            <strong>Why Priority 1:</strong> CARF reporting starts January 1, 2026. Crypto platforms must implement systems by Q4 2025. New compliance framework.
+                            
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>CASP Classification Tool:</strong> Excel decision tree determining if entity is Crypto-Asset Service Provider with supporting documentation template</li>
+                                <li><strong>Reportable Transaction Database:</strong> Template for tracking all reportable transactions with automatic CARF categorization</li>
+                                <li><strong>Customer Due Diligence Checklist:</strong> 50-point verification process for reportable users with self-certification forms</li>
+                                <li><strong>XML Reporting Generator:</strong> Excel-to-XML conversion tool meeting OECD CARF schema with validation</li>
+                                <li><strong>Jurisdiction Filing Calendar:</strong> 40+ country deadlines, portal links, and filing requirements with automated reminders</li>
+                                <li><strong>CARF-DAC8 Comparison Matrix:</strong> Side-by-side EU vs global requirements with compliance strategy templates</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Complete CARF compliance from scope determination through filing. Covers CASP definition (exchanges, brokers, custodians), reportable crypto-assets (including DeFi, NFTs, stablecoins), customer identification procedures, transaction reporting requirements, XML schema structure, and multi-jurisdiction filing strategies. Includes 10+ worked examples across different platform types.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-4">
+                        <td><span class="priority priority-1">Priority 1</span></td>
+                        <td><strong>E-Invoicing Implementation: ViDA, Peppol, and Global Mandates</strong><span class="urgency-badge urgent">2025-2026</span></td>
+                        <td><span class="bundle bundle-4">Bundle 4</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£580</span></td>
+                        <td class="course-summary">
+                            <strong>Why Priority 1:</strong> EU ViDA package mandating e-invoicing from 2028 (member states implementing 2025-2027). 100+ countries now mandate.
+                            
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>20-Country Implementation Matrix:</strong> Complete requirements for EU, LatAm, Asia-Pacific with technical specifications and deadlines</li>
+                                <li><strong>System Requirements Checklist:</strong> Technical specs for Peppol, SDI (Italy), KSeF (Poland), CTC models with vendor evaluation framework</li>
+                                <li><strong>E-Invoice Format Templates:</strong> XML/UBL/Peppol BIS formats with field mapping guides and test files</li>
+                                <li><strong>Testing & Validation Toolkit:</strong> Pre-production testing procedures, sandbox access guides, and validation checklists</li>
+                                <li><strong>Integration Roadmap:</strong> 6-month implementation plan template with ERP integration steps, change management, and go-live checklist</li>
+                                <li><strong>Official Portal Directory:</strong> Direct links to 20+ national e-invoicing portals with registration guides and technical support contacts</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            End-to-end e-invoicing implementation across jurisdictions. Technical requirements (formats, schemas, validation rules), business process changes, ERP/accounting system integration, Peppol network setup, country-specific mandates (Italy SDI, France Chorus Pro, Poland KSeF, Spain SII), testing protocols, and common technical failures with solutions. Includes cross-border invoicing and exemption scenarios.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-1">
+                        <td><span class="priority priority-1">Priority 1</span></td>
+                        <td><strong>Pillar Two: QDMTT Implementation and Safe Harbour Calculations</strong></td>
+                        <td><span class="bundle bundle-1">Bundle 1</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£600</span></td>
+                        <td class="course-summary">
+                            <strong>Why Priority 1:</strong> 90% of MNEs subject to Pillar Two by 2025. QDMTT safe harbours critical for first filings. High technical complexity.
+                            
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>QDMTT Qualification Calculator:</strong> Excel model testing safe harbour eligibility (transitional & permanent) with 15% threshold testing</li>
+                                <li><strong>Jurisdiction-by-Jurisdiction ETR Model:</strong> Complete ETR calculation template for 30+ jurisdictions with QDMTT vs IIR comparison</li>
+                                <li><strong>Safe Harbour Election Forms:</strong> Templates for safe harbour elections with documentation requirements and filing procedures</li>
+                                <li><strong>QDMTT Design Comparison Matrix:</strong> Analysis of 25 countries' QDMTT regimes (rates, bases, timing, switch-off provisions)</li>
+                                <li><strong>Switch-Off Mechanics Guide:</strong> Decision tree and calculation templates for IIR/UTPR switch-off determination</li>
+                                <li><strong>OECD Guidance Library:</strong> Indexed links to Administrative Guidance releases with annotated references to QDMTT provisions</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Complete QDMTT implementation strategy including safe harbour qualification testing, transitional vs permanent safe harbours, domestic top-up tax calculations, IIR/UTPR switch-off mechanics, jurisdictional QDMTT design choices (rate, base, timing), and impact on global Pillar Two liability. Covers 15+ worked examples across different MNE structures and jurisdictions. Addresses data challenges and estimation techniques.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-4">
+                        <td><span class="priority priority-1">Priority 1</span></td>
+                        <td><strong>Real-Time Tax Compliance: SAF-T, CTC, and Continuous Controls</strong></td>
+                        <td><span class="bundle bundle-4">Bundle 4</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£550</span></td>
+                        <td class="course-summary">
+                            <strong>Why Priority 1:</strong> Real-time reporting mandates expanding globally (Portugal, Spain, France SAF-T; Italy CTC; Turkey e-Transformation).
+                            
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>SAF-T File Generator:</strong> Excel-to-SAF-T XML converter for standard accounting data with OECD schema compliance</li>
+                                <li><strong>CTC Implementation Guide:</strong> Clearance and continuous transaction control setup for 10 jurisdictions with technical specifications</li>
+                                <li><strong>Real-Time Compliance Calendar:</strong> Global mandate timeline (30+ countries) with implementation deadlines and grace periods</li>
+                                <li><strong>Data Quality Assurance Toolkit:</strong> Pre-submission validation checks, error detection templates, and correction procedures</li>
+                                <li><strong>System Integration Roadmap:</strong> ERP configuration guides for SAP, Oracle, Microsoft Dynamics with real-time data transmission setup</li>
+                                <li><strong>Authority Portal Directory:</strong> Direct links to 25+ national portals with technical specifications and API documentation</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Comprehensive real-time reporting compliance covering SAF-T (Standard Audit File for Tax) structure and generation, continuous transaction controls (pre-clearance vs post-reporting), jurisdiction-specific mandates, technical integration with accounting systems, data quality requirements, error handling and resubmission, and audit implications. Includes 8+ country deep-dives with actual portal demonstrations and filing procedures.
+                        </td>
+                    </tr>
+                    
+                    <!-- PRIORITY 2: HIGH DEMAND COURSES -->
+                    <tr data-bundle="bundle-2">
+                        <td><span class="priority priority-2">Priority 2</span></td>
+                        <td><strong>Transfer Pricing: Amount B Simplified Approach - Eligibility to Implementation</strong></td>
+                        <td><span class="bundle bundle-2">Bundle 2</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£500</span></td>
+                        <td class="course-summary">
+                            <strong>Why Priority 2:</strong> Amount B framework finalized Feb 2024. Countries implementing 2025-2026. Simplifies compliance for qualifying distributors.
+                            
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Amount B Eligibility Tool:</strong> Excel decision tree testing qualifications (baseline marketing, revenue thresholds, related party tests)</li>
+                                <li><strong>Return Calculation Model:</strong> Complete Amount B calculator with jurisdictional matrices and comparability adjustments</li>
+                                <li><strong>Documentation Template Package:</strong> Local file sections specifically for Amount B with OECD-compliant structure</li>
+                                <li><strong>Jurisdiction Implementation Tracker:</strong> 40+ country adoption status (mandatory vs optional) with effective dates and local variations</li>
+                                <li><strong>Pricing Policy Template:</strong> Transfer pricing policy document incorporating Amount B methodology with board approval format</li>
+                                <li><strong>Benchmarking Comparison Tool:</strong> Traditional TNMM vs Amount B analysis template for demonstrating consistency with arm's length standard</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Complete Amount B application from eligibility determination through documentation. Covers OECD framework, in-scope activities (baseline marketing and distribution), out-of-scope activities (manufacturing, R&D, IP), jurisdictional revenue thresholds, return calculation methodology, related party purchase requirements, and contemporaneous documentation. Includes 12+ worked examples across industries (pharma, consumer goods, technology) and planning considerations for multi-jurisdiction application.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-3">
+                        <td><span class="priority priority-2">Priority 2</span></td>
+                        <td><strong>Tax Data Analytics and Pillar Two ETR Monitoring</strong></td>
+                        <td><span class="bundle bundle-3">Bundle 3</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£550</span></td>
+                        <td class="course-summary">
+                            <strong>Why Priority 2:</strong> 95% of tax leaders need technology augmentation. Pillar Two requires sophisticated data analytics for ETR monitoring.
+                            
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Power BI ETR Dashboard:</strong> Pre-built Pillar Two dashboard with jurisdiction-level ETR tracking and variance analysis</li>
+                                <li><strong>Multi-ERP Data Integration Guide:</strong> SQL queries and data extraction scripts for SAP, Oracle, Microsoft Dynamics</li>
+                                <li><strong>Tax Provision Analytics Package:</strong> Excel/Power BI templates for ASC 740/IAS 12 analysis with roll-forward tracking</li>
+                                <li><strong>Data Quality Framework:</strong> Validation rules, reconciliation procedures, and data governance templates for tax analytics</li>
+                                <li><strong>Predictive Modeling Tools:</strong> Scenario analysis templates for ETR forecasting, planning rate changes, and structural optimization</li>
+                                <li><strong>Visualization Library:</strong> 50+ chart templates (waterfall, heatmaps, trend analysis) with best practices guide</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            End-to-end tax data analytics implementation covering data extraction from multiple sources, data transformation and cleansing, ETR calculation automation, real-time monitoring dashboards, anomaly detection, variance analysis, and predictive modeling. Technical training on Power BI, Tableau, and Excel Power Query specifically for tax use cases. Includes Pillar Two-specific analytics (jurisdictional ETR, substance carve-out tracking, top-up tax forecasting) and general tax department analytics (audit risk scoring, provision accuracy, compliance tracking).
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-2">
+                        <td><span class="priority priority-2">Priority 2</span></td>
+                        <td><strong>Transfer Pricing for Intangibles: Advanced DEMPE Analysis and Valuation</strong></td>
+                        <td><span class="bundle bundle-2">Bundle 2</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£600</span></td>
+                        <td class="course-summary">
+                            <strong>Why Priority 2:</strong> Intangible TP most challenged area globally. BEPS Actions 8-10 implementation continues. High audit risk with large adjustments.
+                            
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>DEMPE Analysis Framework:</strong> Complete function, asset, risk analysis template (100+ page Word template) for IP transactions</li>
+                                <li><strong>Valuation Toolkit:</strong> Excel models for DCF, relief from royalty, CUT method, and profit split with industry benchmarks</li>
+                                <li><strong>Hard-to-Value Intangibles (HTVI) Guide:</strong> HTVI identification checklist, ex-post analysis procedures, and contemporaneous documentation</li>
+                                <li><strong>CCA Agreement Template:</strong> Cost contribution arrangement template with buy-in/buy-out calculation methodology</li>
+                                <li><strong>IP Migration Analysis Tool:</strong> Exit charge calculator for IP transfers with jurisdictional requirement comparison (US, EU, Asia)</li>
+                                <li><strong>Case Study Library:</strong> Annotated summaries of 20+ major intangible TP cases (Apple, Amazon, Microsoft, Starbucks) with lessons learned</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Comprehensive intangible asset transfer pricing covering DEMPE framework (development, enhancement, maintenance, protection, exploitation), legal vs economic ownership, risk allocation, valuation methodologies, hard-to-value intangibles treatment, cost sharing arrangements, and IP migration strategies. Addresses marketing intangibles, technology intangibles, and customer-related intangibles separately. Includes 10+ detailed case studies with complete DEMPE analysis, benchmarking studies, and authority challenge defense strategies.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-1">
+                        <td><span class="priority priority-2">Priority 2</span></td>
+                        <td><strong>Pillar Two: UTPR Allocation Mechanics and Cross-Border Top-Up Tax</strong></td>
+                        <td><span class="bundle bundle-1">Bundle 1</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£580</span></td>
+                        <td class="course-summary">
+                            <strong>Why Priority 2:</strong> UTPR implementation begins 2025-2026. Complex allocation formulas. Critical for MNEs with low-tax jurisdictions.
+                            
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>UTPR Allocation Calculator:</strong> Complete Excel model for UTPR allocation across constituent entities with ordering rules and safe harbours</li>
+                                <li><strong>Substance Carve-Out Tracker:</strong> Tangible assets and payroll calculator with 5%/7.5% phase-in schedule by year</li>
+                                <li><strong>Jurisdictional UTPR Status Matrix:</strong> Real-time tracker of UTPR implementation across 50+ jurisdictions with effective dates</li>
+                                <li><strong>US Safe Harbour Tool:</strong> Qualification testing for US groups under OECD safe harbour with documentation requirements</li>
+                                <li><strong>Top-Up Tax Allocation Simulation:</strong> Multi-scenario modeling tool for planning UTPR exposure under different structures</li>
+                                <li><strong>Filing Coordination Template:</strong> Multi-jurisdiction UTPR filing tracker with deadlines, forms, and submission confirmations</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Complete UTPR mechanics including ordering rules (IIR before UTPR), allocation formula (UTPR numerator and denominator), substance-based income exclusion impacts, primary vs secondary UTPR, UTPR safe harbours (transitional and US-specific), and multi-jurisdiction filing requirements. Covers interaction with QDMTT, IIR, and treaty considerations. Includes 8+ complex allocation examples with partial UTPR implementation scenarios and planning strategies to minimize UTPR exposure.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-3">
+                        <td><span class="priority priority-2">Priority 2</span></td>
+                        <td><strong>GenAI Applications in Tax: Practical Implementation for Practitioners</strong></td>
+                        <td><span class="bundle bundle-3">Bundle 3</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£500</span></td>
+                        <td class="course-summary">
+                            <strong>Why Priority 2:</strong> 84% of CFOs report talent shortages. GenAI can augment tax teams. Early adopters gaining competitive advantage.
+                            
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Prompt Library:</strong> 100+ tested prompts for tax research, TP documentation, provision calculations, and compliance tasks</li>
+                                <li><strong>Claude/ChatGPT Tax Workflows:</strong> Step-by-step guides for 15 common tax tasks with prompt sequences and quality checks</li>
+                                <li><strong>TP Documentation Generator:</strong> GenAI-assisted Local File creation workflow with templates and review checklists</li>
+                                <li><strong>Tax Research Automation Guide:</strong> Using GenAI for legislation searches, case law analysis, and authority guidance interpretation</li>
+                                <li><strong>Audit Response Template Generator:</strong> Automated first-draft creation for IDR responses with human review framework</li>
+                                <li><strong>Risk Assessment Framework:</strong> GenAI limitations, hallucination prevention, and quality control procedures for tax use cases</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Practical GenAI implementation for tax professionals covering use cases (research, documentation, calculation checking, client communications), tool selection (Claude, ChatGPT, specialized tax AI), prompt engineering for tax contexts, quality control and verification procedures, ethical considerations, and integration with existing workflows. Includes hands-on exercises generating TP documentation, researching complex tax issues, automating routine tasks, and building custom GPTs for tax departments. Addresses accuracy risks and professional responsibility considerations.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-5">
+                        <td><span class="priority priority-2">Priority 2</span></td>
+                        <td><strong>Transfer Pricing Controversy: Defense Strategies and Penalty Protection</strong></td>
+                        <td><span class="bundle bundle-5">Bundle 5</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£550</span></td>
+                        <td class="course-summary">
+                            <strong>Why Priority 2:</strong> TP disputes at all-time high. 65% of MNEs face TP audits. Average adjustment $10M+. Penalty exposure significant.
+                            
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Pre-Audit Readiness Checklist:</strong> 75-point verification before audit notice including documentation review and data room setup</li>
+                                <li><strong>Recharacterization Defense Toolkit:</strong> Arguments, case law references, and documentation templates for defending against recharacterization</li>
+                                <li><strong>Penalty Protection Documentation:</strong> Contemporaneous documentation templates meeting IRC 6662(e), EU penalties, and OECD standards</li>
+                                <li><strong>IDR Response Templates:</strong> 20+ example responses to common information document requests with privilege considerations</li>
+                                <li><strong>Case Analysis Library:</strong> Deep-dive analysis of 15 major TP controversies (Apple, Amazon, Microsoft, GlaxoSmithKline, Coca-Cola) with lessons</li>
+                                <li><strong>Settlement Negotiation Framework:</strong> Economic analysis tools and negotiation strategies for reaching favorable settlements</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Complete TP controversy management from pre-audit preparation through resolution. Covers common authority challenges (comparability, method selection, profit splits, intangible valuation), defending against recharacterization, penalty protection strategies (reasonable cause, good faith), MAP and APA procedures, litigation vs settlement analysis, and learning from major cases. Includes practical exercises in responding to IDRs, preparing for audit meetings, building settlement positions, and managing multi-jurisdiction disputes. Addresses simultaneous exams and correlative adjustments.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-4">
+                        <td><span class="priority priority-2">Priority 2</span></td>
+                        <td><strong>VAT in the Digital Economy: Platform Compliance and OSS/IOSS</strong></td>
+                        <td><span class="bundle bundle-4">Bundle 4</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£550</span></td>
+                        <td class="course-summary">
+                            <strong>Why Priority 2:</strong> Digital services VAT rules constantly evolving. Platform economy obligations expanding. OSS/IOSS simplification schemes critical for cross-border.
+                            
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Platform VAT Liability Matrix:</strong> Deemed supplier determination across 30+ jurisdictions with threshold and scope analysis</li>
+                                <li><strong>OSS/IOSS Registration Toolkit:</strong> Registration procedures, portal access guides, and filing templates for EU One-Stop Shop schemes</li>
+                                <li><strong>Place of Supply Decision Tree:</strong> Comprehensive flowcharts for B2B vs B2C, digital services vs goods, with country-specific variations</li>
+                                <li><strong>Marketplace Calculation Model:</strong> VAT liability calculator for platform operators with commission-based and deemed supplier scenarios</li>
+                                <li><strong>SaaS VAT Compliance Guide:</strong> Software-as-a-Service specific requirements across jurisdictions with contract language templates</li>
+                                <li><strong>Cross-Border Filing Calendar:</strong> 27 EU member states plus UK, Norway, Switzerland deadlines with OSS vs local filing comparison</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Comprehensive digital economy VAT compliance covering place of supply rules (digital services, electronically supplied services), platform operator obligations (deemed supplier rules, record-keeping), OSS (One-Stop Shop) and IOSS (Import One-Stop Shop) schemes, threshold monitoring, and multi-country compliance strategies. Addresses SaaS, streaming services, e-books, online platforms, and marketplace operators separately. Includes 10+ case studies across different business models with complete registration, calculation, and filing procedures for OSS/IOSS schemes.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-6">
+                        <td><span class="priority priority-2">Priority 2</span></td>
+                        <td><strong>US International Tax: Post-OBBBA Reform and NCTI Implementation</strong></td>
+                        <td><span class="bundle bundle-6">Bundle 6</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£580</span></td>
+                        <td class="course-summary">
+                            <strong>Why Priority 2:</strong> One Big Beautiful Bill Act (OBBBA) 2025 reforms US international tax. NCTI replaces GILTI. Major compliance changes.
+                            
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>NCTI Calculation Model:</strong> Complete Excel calculator for Net Corporate Tax Income with tested income vs tested loss tracking</li>
+                                <li><strong>FDDEI vs FDII Comparison Tool:</strong> Foreign Derived Deduction Eligible Income calculator with OBBBA rule changes</li>
+                                <li><strong>Subpart F Interaction Analysis:</strong> Decision tree for Subpart F vs NCTI inclusion with high-tax exception testing</li>
+                                <li><strong>FTC Planning Templates:</strong> Foreign tax credit calculation worksheets with Section 904 limitation categories under new rules</li>
+                                <li><strong>Form 5471 Compliance Package:</strong> Updated instructions and completion guide for NCTI reporting on CFC forms</li>
+                                <li><strong>OBBBA Implementation Roadmap:</strong> Timeline for transitional compliance, system changes, and estimated tax adjustments</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Complete US international tax reform implementation covering OBBBA provisions, NCTI (Net Corporate Tax Income) replacing GILTI with calculation methodology changes, FDDEI (Foreign Derived Deduction Eligible Income) replacing FDII, interaction with Pillar Two (G7 side-by-side solution), Subpart F modifications, foreign tax credit reforms, and check-the-box planning under new rules. Includes 8+ worked examples with different CFC structures, high-tax elections, and planning strategies for US multinationals. Addresses transition rules and amended return considerations.
+                        </td>
+                    </tr>
+                    
+                    <!-- PRIORITY 3: STRATEGIC COURSES -->
+                    <tr data-bundle="bundle-2">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Transfer Pricing for Financial Transactions: Intra-Group Financing</strong></td>
+                        <td><span class="bundle bundle-2">Bundle 2</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£550</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Arm's Length Interest Rate Model:</strong> Excel calculator for intra-group loans with credit rating adjustment and Bloomberg/Reuters alternatives</li>
+                                <li><strong>Guarantee Fee Calculator:</strong> Implicit vs explicit support analysis with fee calculation methodologies</li>
+                                <li><strong>Cash Pool TP Analysis:</strong> Treasury function benchmarking and interest allocation for physical vs notional cash pools</li>
+                                <li><strong>Financial Transaction Documentation:</strong> Loan agreements, guarantee agreements, and cash pool documentation with TP terms</li>
+                                <li><strong>OECD Chapter X Compliance Guide:</strong> Checklist applying accurate delineation to financial transactions with recharacterization risk assessment</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Comprehensive financial transaction TP covering intra-group loans (interest rate determination, credit ratings, term and conditions), guarantees (explicit support, implicit support, shareholder activity), cash pooling arrangements, captive insurance, derivatives, and treasury centers. Applies OECD Transfer Pricing Guidelines Chapter X with worked examples for accurate delineation, realistic alternatives analysis, and arm's length pricing. Includes authority perspectives (US IRS, UK HMRC, German BZSt) and common challenges in financial transaction audits.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-7">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>International Tax Transparency: CRS, FATCA, and DAC7 Compliance</strong></td>
+                        <td><span class="bundle bundle-7">Bundle 7</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£500</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>CRS/FATCA Classification Tool:</strong> Entity classification decision tree with self-certification forms for financial institutions</li>
+                                <li><strong>Due Diligence Procedures Manual:</strong> Step-by-step customer identification and documentation for new vs pre-existing accounts</li>
+                                <li><strong>XML Reporting Package:</strong> CRS and FATCA XML schema generators with validation tools and portal submission guides</li>
+                                <li><strong>DAC7 Platform Operator Toolkit:</strong> Reportable seller identification, transaction reporting templates, and EU portal filing procedures</li>
+                                <li><strong>Multi-Jurisdiction Filing Tracker:</strong> 120+ country reporting obligations with deadlines, penalties, and local variations</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Complete automatic exchange of information compliance covering CRS (Common Reporting Standard), FATCA (Foreign Account Tax Compliance Act), and DAC7 (platform economy reporting). Includes entity classification, due diligence procedures, self-certification forms, reportable account determination, XML schema structure, filing procedures across jurisdictions, and penalty regimes. Addresses financial institutions, investment entities, and platform operators with separate modules for each. Includes 12+ practical scenarios with complete documentation and filing procedures.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-5">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Tax Risk Management: Building Effective Tax Control Frameworks</strong></td>
+                        <td><span class="bundle bundle-5">Bundle 5</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£480</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Tax Control Framework Template:</strong> Complete TCF manual (150+ pages) with policies, procedures, and control matrix</li>
+                                <li><strong>Risk Assessment Matrix:</strong> Tax risk identification, quantification, and heat mapping tools with inherent vs residual risk analysis</li>
+                                <li><strong>Tax Governance Charter:</strong> Board-level tax governance documents including tax strategy, risk appetite statement, and escalation procedures</li>
+                                <li><strong>Process Documentation Library:</strong> Workflow diagrams and control descriptions for 25+ key tax processes (provision, compliance, planning, controversy)</li>
+                                <li><strong>Authority Relationship Guide:</strong> Cooperative compliance framework templates for enhanced relationships with tax authorities</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Comprehensive tax control framework design and implementation covering risk identification and assessment, control design (preventive vs detective), tax process documentation, tax governance structures, authority relationship management (cooperative compliance, horizontal monitoring), and assurance procedures. Addresses SOX compliance for tax, COSO framework application, three lines of defense model, and board/audit committee reporting. Includes practical implementation roadmap, maturity assessment tools, and examples from leading MNEs.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-3">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Tax Function Automation: RPA and Workflow Optimization</strong></td>
+                        <td><span class="bundle bundle-3">Bundle 3</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£500</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Process Automation Opportunity Matrix:</strong> Assessment framework identifying automation candidates in tax compliance, provision, and reporting</li>
+                                <li><strong>RPA Use Case Library:</strong> 15+ pre-built automation scripts for common tax tasks (VAT return data extraction, FX rate collection, reconciliations)</li>
+                                <li><strong>Business Case Template:</strong> ROI calculator and executive presentation for automation investments with cost-benefit analysis</li>
+                                <li><strong>Workflow Design Toolkit:</strong> Process mapping tools, automation design templates, and change management plans</li>
+                                <li><strong>Vendor Selection Framework:</strong> RPA platform comparison (UiPath, Automation Anywhere, Blue Prism) with evaluation criteria for tax use cases</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            End-to-end tax automation implementation covering process identification and prioritization, RPA (Robotic Process Automation) for tax, workflow design and optimization, bot development fundamentals, testing and deployment, change management, and maintenance. Addresses specific tax automation opportunities: VAT return compilation, provision data gathering, compliance workflow routing, audit request management, and reporting automation. Includes hands-on exercises building simple bots and complete implementation project plan templates.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-1">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Pillar Two for Financial Services: Insurance and Banking Complexities</strong></td>
+                        <td><span class="bundle bundle-1">Bundle 1</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£520</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Insurance Investment Entity Tool:</strong> Qualification testing for investment entity exclusion with segregated account tracking</li>
+                                <li><strong>Banking Group ETR Calculator:</strong> Specialized model for deposit-taking institutions with jurisdiction-specific adjustments</li>
+                                <li><strong>Excluded Dividend Tracker:</strong> Portfolio equity investment monitoring with ownership threshold testing (10%/80% rules)</li>
+                                <li><strong>Insurance Underwriting Income Analysis:</strong> GloBE income calculations for insurance technical reserves and actuarial adjustments</li>
+                                <li><strong>Financial Services QDMTT Guide:</strong> Sector-specific domestic minimum tax design choices across jurisdictions</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Sector-specific Pillar Two implementation for financial services covering insurance investment entity carve-out, excluded dividends for portfolio investments, banking group complexities (trading book, loan loss provisions), insurance underwriting income determination, reinsurance structures, and captive insurance treatment. Addresses calculation challenges unique to financial services with worked examples from global banks and insurers. Includes jurisdictional variations in financial services Pillar Two rules.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-6">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Outbound US Tax Planning: CFCs, PFIC, and Foreign Tax Credits</strong></td>
+                        <td><span class="bundle bundle-6">Bundle 6</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£550</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>CFC Classification Tool:</strong> Decision tree and testing templates for controlled foreign corporation determination</li>
+                                <li><strong>PFIC Analysis Framework:</strong> Passive Foreign Investment Company qualification testing with QEF election analysis</li>
+                                <li><strong>FTC Limitation Calculator:</strong> Foreign tax credit calculation with Section 904 basket allocation and carryforward tracking</li>
+                                <li><strong>Check-the-Box Planning Guide:</strong> Entity classification elections strategy with disregarded entity structures and treaty impacts</li>
+                                <li><strong>Form 5471 Compliance Package:</strong> Complete filing instructions with Schedules E, G, H, I-1, M, O, P, Q with line-by-line guidance</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Comprehensive outbound US tax covering CFC rules (Subpart F inclusions, GILTI/NCTI), PFIC taxation (MTM vs QEF vs excess distribution regime), foreign tax credit mechanics (direct vs deemed paid, Section 904 limitations, high-tax kickout), check-the-box planning for hybrid entities, and documentation requirements (Forms 5471, 8992, 1118). Includes 10+ planning structures with treaty considerations and anti-abuse rule navigation. Addresses Pillar Two interaction with US outbound rules.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-4">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Cryptocurrency Taxation: Trading, DeFi, Staking, and NFT Compliance</strong></td>
+                        <td><span class="bundle bundle-4">Bundle 4</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£580</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Crypto Transaction Tracker:</strong> Excel ledger for recording all crypto transactions with tax calculation by jurisdiction (FIFO, LIFO, Specific ID)</li>
+                                <li><strong>DeFi Tax Treatment Guide:</strong> Decision trees for liquidity pools, yield farming, and decentralized exchanges with income vs capital gain analysis</li>
+                                <li><strong>Staking & Mining Calculator:</strong> Income recognition templates for Proof-of-Stake rewards and mining with FMV determination methodology</li>
+                                <li><strong>NFT Valuation Framework:</strong> NFT transaction analysis (minting, selling, royalties) with valuation techniques for tax purposes</li>
+                                <li><strong>Multi-Jurisdiction Comparison Matrix:</strong> Crypto tax treatment across 25 countries (US, UK, EU, Asia-Pacific) with compliance requirements</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Comprehensive crypto tax compliance covering transaction categorization (trading, exchanges, payments), cost basis tracking (FIFO, LIFO, specific identification), DeFi protocol taxation (liquidity provision, yield farming, airdrops), staking rewards (PoS vs PoW), NFT taxation (creators vs collectors), hard forks and airdrops, and reporting requirements across jurisdictions. Includes practical recordkeeping systems, blockchain data extraction, and tools for managing high-volume transactions. Addresses tax planning opportunities and common compliance failures.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-5">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>International Tax Disputes: MAP, APA, and Arbitration Procedures</strong></td>
+                        <td><span class="bundle bundle-5">Bundle 5</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£520</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>MAP Application Templates:</strong> Mutual Agreement Procedure request forms for major jurisdictions with supporting documentation requirements</li>
+                                <li><strong>APA Strategy Framework:</strong> Advance Pricing Agreement feasibility assessment, application templates, and negotiation preparation</li>
+                                <li><strong>Arbitration Case Analysis:</strong> Detailed review of MAP arbitration under MLI with procedural guides for mandatory binding arbitration</li>
+                                <li><strong>EU Dispute Resolution Toolkit:</strong> EU Directive 2017/1852 compliance guide with timelines, forms, and advisory commission procedures</li>
+                                <li><strong>Cost-Benefit Calculator:</strong> Financial analysis tool for dispute resolution alternatives (MAP vs litigation vs settlement vs APA)</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Complete international dispute resolution covering MAP (Mutual Agreement Procedure) process and strategies, bilateral and multilateral APAs (Advance Pricing Agreements), mandatory binding arbitration under MLI (Multilateral Instrument), EU Tax Dispute Resolution Directive procedures, and litigation alternatives. Includes practical guidance on when to pursue each remedy, application preparation, competent authority negotiations, evidence presentation, and time value of money considerations. Case studies from actual MAP cases and APA programs globally with success factors and common pitfalls.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-2">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Transfer Pricing Documentation: Master File, Local File, and CbCR Excellence</strong></td>
+                        <td><span class="bundle bundle-2">Bundle 2</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£520</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Master File Template (120 pages):</strong> Complete OECD-compliant structure with all required sections and formatting</li>
+                                <li><strong>Local File Template (80 pages):</strong> Jurisdiction-specific templates for 15 countries with local variations incorporated</li>
+                                <li><strong>CbC Report XML Generator:</strong> Excel-to-XML tool with OECD schema validation and filing portal links</li>
+                                <li><strong>Documentation Timeline:</strong> 40-country comparison of filing deadlines, materiality thresholds, and penalties</li>
+                                <li><strong>Benchmarking Integration Guide:</strong> How to present database searches and comparability adjustments in Local File format</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Comprehensive three-tiered TP documentation approach covering Master File (group structure, value chain, intangibles, financing, financial position), Local File (local entity functional analysis, transactions, comparability analysis, selection of method), and Country-by-Country Report (revenue, profit, taxes paid, employees, tangible assets by jurisdiction). Includes contemporaneous documentation best practices, materiality thresholds, filing deadlines globally, XML reporting for CbCR, public CbCR considerations, and strategic documentation approaches balancing compliance with confidentiality. 10+ complete examples across industries with quality control checklists.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-6">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Inbound US Tax: FDAP Withholding, FIRPTA, and Branch Profits Tax</strong></td>
+                        <td><span class="bundle bundle-6">Bundle 6</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£520</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Withholding Calculator:</strong> FDAP (Fixed, Determinable, Annual, Periodical) income withholding with treaty rate application</li>
+                                <li><strong>FIRPTA Compliance Toolkit:</strong> Real estate transaction withholding (10%/15%) with Form 8288 and exemption certificates</li>
+                                <li><strong>Branch Profits Tax Model:</strong> Excel calculator for dividend equivalent amount and branch-level interest tax</li>
+                                <li><strong>Treaty Benefits Analyzer:</strong> LOB (Limitation on Benefits) testing and documentation for treaty relief claims</li>
+                                <li><strong>Form W-8 Package:</strong> Complete W-8BEN, W-8BEN-E, W-8ECI, W-8IMY guidance with completion instructions and withholding agent procedures</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Complete inbound US tax compliance covering FDAP withholding (dividends, interest, royalties, services), FIRPTA (Foreign Investment in Real Property Tax Act) real estate rules, branch profits tax calculations (dividend equivalent amount, excess interest), ECI (Effectively Connected Income) vs FDAP determinations, and treaty benefits (LOB provisions, permanent establishment). Includes Form 1042, 1042-S, 1120-F filing requirements, withholding agent obligations, and common structures for minimizing inbound tax. 8+ practical scenarios with complete calculations and form preparation.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-3">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Tax Technology Implementation: ERP Integration and Change Management</strong></td>
+                        <td><span class="bundle bundle-3">Bundle 3</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£520</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Tax Engine Selection Framework:</strong> Vendor comparison matrix (Vertex, Avalara, Sovos, Thomson Reuters) with RFP templates</li>
+                                <li><strong>SAP Tax Configuration Guide:</strong> Tax determination procedures, condition types, and jurisdiction code setup with best practices</li>
+                                <li><strong>Oracle Tax Module Optimization:</strong> E-Business Tax and Oracle Tax Reporting Cloud configuration guides</li>
+                                <li><strong>Implementation Project Plan:</strong> 12-month Gantt chart with phases (scoping, configuration, testing, UAT, deployment, hypercare)</li>
+                                <li><strong>Change Management Toolkit:</strong> Stakeholder analysis, training materials, communication plans, and adoption metrics</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            End-to-end tax technology implementation covering requirements gathering, vendor selection, tax engine implementation, ERP integration (SAP, Oracle, Microsoft Dynamics), data migration and cleansing, testing protocols (unit, integration, UAT), change management, training, and post-go-live support. Addresses tax determination engine configuration, compliance workflow automation, data governance, and system maintenance. Includes case studies from large-scale implementations with lessons learned, common pitfalls, and success factors. Practical guidance on managing IT-tax relationships and building business cases.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="standalone">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>CBAM and Carbon Border Tax: Compliance and Strategic Planning</strong></td>
+                        <td><span class="bundle bundle-standalone">Standalone</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£550</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>CBAM Scope Assessment Tool:</strong> Product classification (CN codes) and covered sectors determination (steel, cement, aluminum, fertilizers, electricity, hydrogen)</li>
+                                <li><strong>Embedded Emissions Calculator:</strong> Excel model for direct and indirect emissions with default values database and actual emissions methodology</li>
+                                <li><strong>CBAM Declaration Template:</strong> Quarterly filing template with certificate calculation and purchasing guide</li>
+                                <li><strong>Third Country Carbon Price Database:</strong> Deduction calculator for carbon prices paid in country of origin with documentation requirements</li>
+                                <li><strong>UK vs EU CBAM Comparison:</strong> Side-by-side analysis of UK CBAM (Jan 2027) vs EU CBAM with compliance strategy</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Comprehensive CBAM (Carbon Border Adjustment Mechanism) compliance covering scope and covered goods, embedded emissions calculations (default values vs actual emissions), quarterly reporting requirements, CBAM certificate purchasing and surrender, carbon price deductions, and authorized declarant procedures. Addresses both EU CBAM (operational Oct 2023 transitional, Jan 2026 definitive) and UK CBAM (Jan 2027 implementation). Includes supply chain implications, customs and tax alignment, and strategic planning for carbon-intensive imports. 6+ complete filing examples with emissions calculations.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="standalone">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Supply Chain Restructuring: Post-Pandemic Tax-Efficient Models</strong></td>
+                        <td><span class="bundle bundle-standalone">Standalone</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£520</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Supply Chain Analysis Framework:</strong> Current state assessment with cost, tax, and risk evaluation matrix</li>
+                                <li><strong>Manufacturing Footprint Optimizer:</strong> Location analysis tool balancing ETR, customs duties, WHT, and operational costs</li>
+                                <li><strong>IP Migration Strategy Guide:</strong> Tax-efficient IP holding structures with exit charge calculations and treaty analysis</li>
+                                <li><strong>Pillar Two Impact Calculator:</strong> GloBE Rules implications for supply chain restructuring with substance carve-out optimization</li>
+                                <li><strong>Implementation Roadmap:</strong> Legal entity restructuring, transfer pricing documentation, customs valuation alignment, and transition management</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Strategic supply chain restructuring covering drivers (pandemic resilience, nearshoring, friend-shoring, tariffs), location analysis (labor, tax, trade, risk), legal entity rationalization, IP migration strategies, principal vs contract manufacturing models, regional headquarters optimization, and customs-TP alignment. Includes Pillar Two implications for substance decisions, transfer pricing documentation for restructuring, and implementation project management. 5+ complete restructuring case studies with before/after tax analysis and transition planning.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="standalone">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Customs Valuation and Transfer Pricing Alignment</strong></td>
+                        <td><span class="bundle bundle-standalone">Standalone</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£500</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Customs-TP Comparison Matrix:</strong> Side-by-side analysis of valuation methodologies under WTO vs OECD rules</li>
+                                <li><strong>Related Party Transaction Tool:</strong> Article 1 transaction value test with circumstances of sale analysis</li>
+                                <li><strong>Royalty and License Fee Analysis:</strong> Inclusion/exclusion determination for customs valuation with TP alignment strategies</li>
+                                <li><strong>Post-Importation Adjustment Guide:</strong> Procedures for TP adjustments after customs clearance with refund claim templates</li>
+                                <li><strong>CBAM Integration Framework:</strong> Carbon costs in customs value and TP analysis with calculation examples</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Alignment of transfer pricing and customs valuation covering WTO Valuation Agreement vs OECD TP Guidelines, transaction value method, related party relationships, circumstances of sale test, royalty and license fee treatment, post-importation adjustments, and advance rulings (APAs vs binding tariff information). Addresses common conflicts (TP adjustments after import, IP charges, management fees) with resolution strategies. Includes CBAM carbon cost integration with customs and TP. 8+ practical scenarios showing alignment strategies and authority positions globally.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="standalone">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Digital Nomad and Multi-Residency Tax Planning</strong></td>
+                        <td><span class="bundle bundle-standalone">Standalone</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£500</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Tax Residency Decision Tree:</strong> Comprehensive tool for determining residence under 40+ countries' rules (183-day, domicile, permanent home, center of vital interests)</li>
+                                <li><strong>Digital Nomad Visa Tracker:</strong> 30+ countries with digital nomad programs, requirements, tax treatment, and application procedures</li>
+                                <li><strong>Multi-Jurisdiction Day Counter:</strong> Excel tracker for physical presence in multiple countries with treaty tiebreaker analysis</li>
+                                <li><strong>Remote Worker Tax Compliance Guide:</strong> Employee vs independent contractor, permanent establishment risk, social security/payroll obligations</li>
+                                <li><strong>Treaty Analysis Templates:</strong> Tiebreaker provisions (permanent home, habitual abode, nationality, competent authority) with practical examples</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Comprehensive individual tax residency planning for location-independent professionals covering tax residence determination (physical presence, domicile, permanent home tests), treaty tiebreakers, digital nomad visa programs globally, multi-residency strategies, remote work taxation (PE risk, employment tax), social security territoriality, and compliance obligations across jurisdictions. Addresses common scenarios: perpetual travelers, partial year residence, treaty shopping considerations, and documentation. Includes US-specific rules (citizen-based taxation, FEIE, FTC) and planning for flexibility. 10+ case studies with different mobility patterns.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-7">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Tax Transparency and ESG: Public CbCR and Stakeholder Reporting</strong></td>
+                        <td><span class="bundle bundle-7">Bundle 7</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£450</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Public CbCR Template:</strong> EU public Country-by-Country Report format with narrative explanations and disclosure strategy</li>
+                                <li><strong>Tax Strategy Publication Guide:</strong> UK, Australia, and other jurisdictions' tax strategy requirements with example publications</li>
+                                <li><strong>ESG Tax Metrics Framework:</strong> GRI 207, B-Team, and other tax transparency frameworks with KPI definitions</li>
+                                <li><strong>Stakeholder Communication Templates:</strong> Investor relations, media, NGO engagement strategies for tax transparency</li>
+                                <li><strong>Board-Level Tax Reporting:</strong> Executive summary templates for audit committees and board tax governance updates</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Tax transparency and ESG integration covering public Country-by-Country reporting (EU directive requirements), tax strategy publication (UK, Australia), voluntary tax transparency frameworks (GRI 207, B-Team), ESG integration with tax reporting, stakeholder engagement strategies, and board-level tax governance. Addresses balancing transparency with confidentiality, narrative development for public CbCR, managing reputational risk, and responding to tax controversy in public forums. Includes examples from leading multinationals' tax transparency reports and crisis management scenarios.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-2">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Transfer Pricing Benchmarking: Comparables Selection and Adjustments</strong></td>
+                        <td><span class="bundle bundle-2">Bundle 2</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£550</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Database Search Guide:</strong> Step-by-step instructions for Orbis, TP Catalyst, Amadeus, Royalty Range with search strategy documentation</li>
+                                <li><strong>Comparability Analysis Framework:</strong> Five comparability factors assessment with rejection rationale templates</li>
+                                <li><strong>Financial Adjustments Calculator:</strong> Working capital, risk, geographic, and other adjustments with statistical testing</li>
+                                <li><strong>Interquartile Range Analyzer:</strong> Statistical tools for arm's length range determination with 3-sigma testing</li>
+                                <li><strong>Tested Party Selection Guide:</strong> Decision framework for selecting tested party in TP analysis with functional analysis integration</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Comprehensive benchmarking and comparables analysis covering database navigation (Orbis, TP Catalyst, Amadeus, RoyaltyRange), search strategies, screening criteria, five comparability factors assessment, financial adjustments (working capital, risk, geographic, scale), statistical analysis (interquartile range, full range), tested party selection, and documentation of search process. Addresses authority perspectives on comparable searches and common challenges (limited comparables, secret comparables, multi-year data). 10+ complete searches with detailed documentation showing professional-grade benchmarking studies.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-5">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Tax Audit Management: Pre-Audit Preparation to Settlement</strong></td>
+                        <td><span class="bundle bundle-5">Bundle 5</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£480</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Pre-Audit Readiness Checklist:</strong> 100-point verification across compliance, documentation, calculations, and systems</li>
+                                <li><strong>Data Room Setup Guide:</strong> Electronic data room organization with privilege considerations and document management protocols</li>
+                                <li><strong>IDR Response Template Library:</strong> 30+ example responses to common information document requests with timelines</li>
+                                <li><strong>Audit Meeting Preparation:</strong> Agenda templates, presentation strategies, and Q&A preparation with witness preparation guides</li>
+                                <li><strong>Settlement Negotiation Framework:</strong> Economic analysis tools, opening position development, and negotiation tactics</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Complete audit lifecycle management from pre-audit preparation through settlement covering audit notification responses, information document requests (IDR) management, interview preparation, meeting strategies, substantiation techniques, and settlement negotiation. Addresses privilege considerations, managing advisor relationships, escalation procedures, and payment dispute alternatives. Includes specific guidance for transfer pricing audits, VAT/GST audits, WHT audits, and Pillar Two audits. 8+ role-play scenarios with authority interactions and negotiation exercises.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-6">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>US Transfer Pricing: Section 482 Compliance and Penalty Protection</strong></td>
+                        <td><span class="bundle bundle-6">Bundle 6</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£550</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Section 482 Method Selection Guide:</strong> CUP, RPM, CPM, PSM application with best method rule analysis</li>
+                                <li><strong>Form 5471 Complete Package:</strong> Line-by-line instructions for all schedules with Section 482 specific reporting</li>
+                                <li><strong>Form 5472 Compliance Toolkit:</strong> 25% foreign-owned US corporation reporting with related party transaction disclosure</li>
+                                <li><strong>Penalty Protection Documentation:</strong> IRC 6662(e) substantial valuation misstatement defense with contemporaneous documentation</li>
+                                <li><strong>IRS Audit Defense Strategies:</strong> Common IRS challenges and rebuttal arguments with case law references</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            US-specific transfer pricing covering Section 482 regulations and procedures, method selection (CUP, resale price, cost plus, CPM, profit split), comparable analysis, arm's length range, periodic adjustments, and penalty protection under IRC 6662(e). Documentation requirements (Forms 5471, 5472, 8858, 8865), substantial compliance standard, and penalty protection strategies. IRS audit procedures, common adjustments, and defense strategies with case examples. Addresses US-specific issues: superroyalty provision for intangibles, services cost method, cost sharing regulations, and coordination with OECD Guidelines.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-1">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Pillar Two: Article 9.1 Transitional Rules and Treaty Considerations</strong></td>
+                        <td><span class="bundle bundle-1">Bundle 1</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£520</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Transitional Safe Harbour Tool:</strong> CbCR, routine profits, and de minimis safe harbour qualification testing with documentation</li>
+                                <li><strong>DTA Qualification Analysis:</strong> Treaty provisions potentially affected by GloBE Rules with OECD coordination guidance</li>
+                                <li><strong>Article 9.1 Application Guide:</strong> Step-by-step analysis of double taxation prevention including MAP interaction</li>
+                                <li><strong>Grace Period Tracker:</strong> Transitional safe harbour expiration dates (2025-2026) with exit strategy planning</li>
+                                <li><strong>Treaty Shopping Analysis:</strong> MLI implications for Pillar Two structures with residence vs source taxation considerations</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Transitional aspects of Pillar Two covering transitional safe harbours (CbCR safe harbour, routine profits safe harbour, de minimis exclusion), Article 9.1 double tax adjustment mechanism, treaty considerations (DTA vs GloBE), and implementation grace periods. Addresses treaty override concerns, MAP interaction with GloBE disputes, and planning for safe harbour expiration. Includes jurisdictional variations in implementing transitional rules and worked examples showing safe harbour qualification testing and treaty analysis for cross-border structures affected by Pillar Two.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-6">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>State and Local Tax (SALT) for Multinationals</strong></td>
+                        <td><span class="bundle bundle-6">Bundle 6</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£450</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Nexus Monitoring Tool:</strong> Economic nexus tracker for 50 states with bright-line thresholds (Public Law 86-272 analysis)</li>
+                                <li><strong>Apportionment Calculator:</strong> Single-factor, three-factor, and state-specific formulas with market-based sourcing rules</li>
+                                <li><strong>Combined Reporting Analysis:</strong> Water's-edge vs worldwide election, Joyce vs Finnigan rules, and unitary determination</li>
+                                <li><strong>SALT Credits Inventory:</strong> State tax incentives database (R&D credits, investment credits, job creation) with compliance requirements</li>
+                                <li><strong>SALT Controversy Tracker:</strong> Voluntary disclosure procedures, amnesty programs, and audit defense strategies by state</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            State and local tax compliance for multinationals covering nexus determination (physical presence, economic nexus, affiliate nexus), apportionment methodologies (three-factor, single sales factor, market-based sourcing), combined reporting (unitary business principle, water's-edge elections), and state tax credits and incentives. Addresses state-specific variations, SALT planning strategies, voluntary disclosure programs, and controversy management. Includes interaction between state tax and federal international provisions (GILTI, FDII, Subpart F treatment at state level). 10+ state-specific examples showing calculation and compliance differences.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-2">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Transfer Pricing for Business Restructurings</strong></td>
+                        <td><span class="bundle bundle-2">Bundle 2</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£550</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Restructuring Valuation Model:</strong> DCF and relief from royalty methods for transfer of functions, assets, and risks</li>
+                                <li><strong>Buy-In Payment Calculator:</strong> Cost sharing arrangement buy-in valuation with periodic payment alternatives</li>
+                                <li><strong>Principal vs Limited-Risk Analysis:</strong> Before/after comparisons showing profit potential changes and compensation</li>
+                                <li><strong>Exit Charge Assessment Tool:</strong> Jurisdiction-by-jurisdiction exit taxation rules (immediate vs deferred, installments)</li>
+                                <li><strong>Post-BEPS Restructuring Guide:</strong> BEPS Actions 8-10 considerations including options realistically available analysis</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Transfer pricing for business restructurings covering identification of restructurings (conversion from full-risk to limited-risk, principal company creation, centralization of functions), valuation methodologies (going concern value, loss of profit potential), buy-in and buy-out payments, post-restructuring remuneration, and documentation requirements. Addresses OECD Chapter IX guidance including realistic alternatives, ongoing remuneration consistency, and authority challenges to restructuring compensation. Exit taxation considerations across jurisdictions and integration with post-BEPS transfer pricing analysis. 6+ complete restructuring case studies with valuation and defense strategies.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-4">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Digital Services Taxes: Global Implementation and Pillar One Transition</strong></td>
+                        <td><span class="bundle bundle-4">Bundle 4</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£480</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>DST Jurisdiction Matrix:</strong> 20+ countries with DST (UK, France, Italy, Spain, Turkey, India) with rates, bases, and thresholds</li>
+                                <li><strong>Revenue Allocation Calculator:</strong> User/customer location determination and revenue attribution methodologies</li>
+                                <li><strong>Pillar One Transition Tracker:</strong> Amount A implementation timeline with DST repeal coordination</li>
+                                <li><strong>Double Tax Relief Analysis:</strong> Corporate income tax credit mechanisms for DST payments by jurisdiction</li>
+                                <li><strong>Compliance Calendar:</strong> Registration, filing, and payment deadlines for all DST jurisdictions with penalty schedules</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Digital services tax compliance across jurisdictions covering DST scope (online advertising, marketplaces, data transmission), revenue thresholds (€750M global, local thresholds), rate structures (2-7%), user location determination, and filing procedures. Includes country-specific deep-dives on UK DST, French GAFA tax, Italian web tax, Indian equalization levy, and others. Addresses relationship between DST and Pillar One Amount A (DST repeal provisions, transitional arrangements) and corporate income tax credit mechanisms. Planning strategies for reducing DST exposure and managing multi-country DST compliance.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-5">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Tax Uncertainty Quantification: FIN 48, IAS 12, and Provision Management</strong></td>
+                        <td><span class="bundle bundle-5">Bundle 5</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£520</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>FIN 48 Calculation Model:</strong> Recognition and measurement of uncertain tax positions with probability-weighted analysis</li>
+                                <li><strong>IAS 12 Uncertainty Guidance:</strong> IFRIC 23 application with comparison to ASC 740 (FIN 48) approach</li>
+                                <li><strong>Tax Risk Quantification Framework:</strong> Monte Carlo simulation and scenario modeling for uncertain positions</li>
+                                <li><strong>Disclosure Template Package:</strong> Financial statement footnote templates for tax uncertainties with roll-forward schedules</li>
+                                <li><strong>Audit Committee Reporting:</strong> Executive summary templates for significant uncertain tax positions with risk ratings</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Tax accounting for uncertain positions covering FIN 48/ASC 740 recognition and measurement (more-likely-than-not threshold, probability-weighted expected value), IAS 12/IFRIC 23 (most likely amount vs expected value), disclosure requirements, and roll-forward schedules. Addresses quantification methodologies, documentation to support technical merit, interaction with tax risk management, and audit committee reporting. Includes common uncertain positions (transfer pricing, permanent establishment, tax credits) with complete technical analysis, probability assessment, and measurement. Coordination with external auditors and tax authority dispute positions.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-6">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>Pillar Two and US Tax: G7 Side-by-Side Implementation</strong></td>
+                        <td><span class="bundle bundle-6">Bundle 6</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£520</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Side-by-Side Calculator:</strong> GILTI/NCTI vs IIR/UTPR comparison model with jurisdictional allocation testing</li>
+                                <li><strong>NCTI vs GloBE ETR Reconciliation:</strong> Differences in tax base, rate calculation, and timing with adjustment schedules</li>
+                                <li><strong>US Safe Harbour Analysis:</strong> Transitional CbCR safe harbour and QDMTT-IIR coordination for US groups</li>
+                                <li><strong>Planning Opportunity Matrix:</strong> Structures optimizing both US international tax and Pillar Two exposure</li>
+                                <li><strong>Documentation Coordination:</strong> Integration of Country-by-Country Report with Form 5471 and GloBE Information Return</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            Interaction between US international tax regime and Pillar Two covering G7 side-by-side solution mechanics, GILTI/NCTI vs IIR comparison, jurisdictional blending vs ETR calculation differences, QDMTT coordination with US domestic minimum tax, and safe harbour applications for US groups. Addresses planning considerations for US multinationals under dual system, compliance coordination (CbCR, GIR, Form 5471), and treaty implications. Includes worked examples showing calculation under both regimes and structural planning to optimize overall tax position.
+                        </td>
+                    </tr>
+                    
+                    <tr data-bundle="bundle-7">
+                        <td><span class="priority priority-3">Priority 3</span></td>
+                        <td><strong>DAC7 Platform Economy Reporting: Compliance for Digital Platforms</strong></td>
+                        <td><span class="bundle bundle-7">Bundle 7</span></td>
+                        <td><span class="study-time">12 hours</span></td>
+                        <td><span class="price">£480</span></td>
+                        <td class="course-summary">
+                            <strong>What You'll Get:</strong>
+                            <ul>
+                                <li><strong>Platform Operator Definition Tool:</strong> Scope determination with presumption rules and EU nexus testing</li>
+                                <li><strong>Reportable Seller Identification:</strong> Due diligence procedures with 2,000 transaction/30 listing thresholds and exemptions</li>
+                                <li><strong>DAC7 XML Generator:</strong> Excel-to-XML reporting tool with OECD schema compliance and validation</li>
+                                <li><strong>Jurisdiction Filing Matrix:</strong> 27 EU member states reporting requirements with deadlines and penalties</li>
+                                <li><strong>Excluded Seller Documentation:</strong> Templates for documenting exclusions (government entities, listed entities, <2K threshold)</li>
+                            </ul>
+                            
+                            <strong>Course Coverage:</strong>
+                            EU DAC7 (Directive 2021/514) platform economy reporting covering reporting platform operator definition, reportable sellers identification, consideration types (rental income, personal services, sale of goods), due diligence and verification procedures, reporting thresholds, exclusions, and XML reporting requirements. Addresses cross-border platforms, multi-jurisdiction filing, penalties for non-compliance, and relationship with national platform reporting regimes. Practical guidance on implementing seller identification systems, data collection, and reporting workflows. 8+ platform type examples (accommodation, ridesharing, freelance services, e-commerce) with complete compliance procedures.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script>
+        function filterBundle(bundle) {
+            const rows = document.querySelectorAll('#coursesTable tbody tr');
+            const buttons = document.querySelectorAll('.filter-btn');
+            
+            // Update button states
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Filter rows
+            rows.forEach(row => {
+                if (bundle === 'all') {
+                    row.style.display = '';
+                } else {
+                    if (row.dataset.bundle === bundle) {
+                        row.style.display = '';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
