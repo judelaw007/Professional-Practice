@@ -4,6 +4,9 @@
 
 **Document Purpose:** This structural plan serves as the definitive guide for course developers to create a comprehensive, implementation-focused Professional Practice Course on GloBE Information Return (GIR) filing.
 
+**Research Verification Date:** November 2025
+**Key Sources:** OECD GIR Template (January 2025), OECD XML Schema User Guide (January 2025), HMRC Pillar 2 Guidance, OECD Administrative Guidance releases (February 2023, July 2023, December 2023, June 2024, January 2025)
+
 ---
 
 ## Course Metadata
@@ -16,7 +19,10 @@
 | **Target Study Time** | 12 hours |
 | **CPE/CPD Credits** | 20-24 credits |
 | **Price Point** | £600 |
-| **Critical Deadline** | First GIR filings due June 30, 2026 |
+| **Critical Deadline** | First GIR filings due June 30, 2026 (for FY ending Dec 31, 2024) |
+| **Filing Timeline** | 18 months for first year; 15 months thereafter |
+| **Data Points** | ~480 data points across 3 GIR sections |
+| **Implementation Status** | 35+ countries with rules effective 2024; 60+ expected by 2025 |
 | **Market Gap** | Zero comprehensive training currently exists |
 
 ---
@@ -49,13 +55,13 @@
 
 Upon completion, participants will be able to:
 
-1. **Identify** all data points required for a complete GIR submission across their MNE group
+1. **Identify** all ~480 data points required for a complete GIR submission across their MNE group
 2. **Extract** necessary data from multiple ERP systems using provided templates and guidance
-3. **Complete** all five GIR tables accurately using provided Excel calculators with validation checks
-4. **Generate** compliant XML files meeting OECD schema requirements
+3. **Complete** all three GIR sections accurately using provided Excel calculators with validation checks
+4. **Generate** compliant XML files meeting the OECD schema (January 2025 version)
 5. **File** GIR submissions across 15+ jurisdictions using correct portals and procedures
 6. **Elect** Designated Filing Entity status with proper documentation
-7. **Apply** simplified reporting options where eligible
+7. **Apply** simplified reporting and safe harbour options where eligible
 8. **Troubleshoot** common data gaps, system limitations, and submission errors
 9. **Amend** previously filed GIRs when corrections are required
 10. **Coordinate** GIR filings with Pillar Two tax calculations and other compliance obligations
@@ -65,9 +71,9 @@ Upon completion, participants will be able to:
 ## Mandatory Deliverables Checklist
 
 ### Excel Tools (Minimum 6)
-- [ ] GIR Data Point Tracker (200+ fields with source mapping)
-- [ ] GIR Table 1-5 Completion Calculator with validation
-- [ ] XML Schema Validator Tool
+- [ ] GIR Data Point Tracker (~480 fields across 3 sections with source mapping)
+- [ ] GIR Section 1-3 Completion Calculator with validation
+- [ ] XML Schema Validator Tool (compatible with January 2025 OECD schema)
 - [ ] Multi-Jurisdiction Deadline Calendar
 - [ ] Constituent Entity Database Template
 - [ ] GIR-to-Tax Calculation Reconciliation Tool
@@ -111,17 +117,20 @@ Upon completion, participants will be able to:
 **Pages: 20-25 | Time: 45 minutes**
 
 ### 1.1 The Compliance Imperative (3-4 pages)
-- First GIR filing deadline: June 30, 2026 (for calendar year 2025)
+- First GIR filing deadline: June 30, 2026 (for fiscal years ending December 31, 2024)
+- 18-month extended deadline for first year; 15 months thereafter
 - Scope: All MNE groups with consolidated revenue ≥€750M
 - Consequence of non-filing: Penalties by jurisdiction (table provided)
+- Transitional penalty relief available for years beginning on or before December 31, 2026
 - No existing comprehensive guidance or training available
 - **DO NOT INCLUDE:** History of Pillar Two, BEPS background, policy rationale
 
 ### 1.2 Who Must File and When (4-5 pages)
 - In-scope MNE groups determination
-- Filing timelines by fiscal year end
-- Transitional period considerations
+- Filing timelines by fiscal year end (18 months first year, 15 months thereafter)
+- Transitional period considerations (no filing before June 30, 2026 per OECD AG)
 - Extension procedures where available
+- UK-specific: Registration required within 6 months of first accounting period end
 - **Template Reference:** Scope Determination Checklist
 
 ### 1.3 Complete Deliverables Inventory (8-10 pages)
@@ -145,7 +154,10 @@ Upon completion, participants will be able to:
 **Pages: 25-30 | Time: 45 minutes**
 
 ### 2.1 The GIR at a Glance (6-8 pages)
-- Five GIR tables explained in plain language
+- Three GIR sections explained in plain language:
+  - Section 1: MNE Group Information (~50+ data points)
+  - Section 2: Jurisdictional Safe Harbours and Exclusions
+  - Section 3: GloBE Computations (~400 data points)
 - Data flow from financial statements to GIR
 - Visual overview: Single-page GIR process map
 - **Diagram:** Complete GIR workflow (1-page visual)
@@ -178,42 +190,86 @@ Upon completion, participants will be able to:
 ## Section 3: Understanding the GIR Structure
 **Pages: 40-50 | Time: 1.5 hours**
 
+*Note: The GIR comprises three main sections per the OECD GIR Template (January 2025). The structure evolved from earlier consultation documents which had four sections.*
+
 ### 3.1 GIR Architecture Overview (8-10 pages)
-- Five tables and their relationships
-- Data dependencies between tables
+- Three sections and their relationships (per January 2025 OECD template)
+- Data dependencies between sections
 - Filing structure (single vs multiple GIRs)
-- **Diagram:** GIR table relationship flowchart
+- XML schema structure: Filing Info, General Section, Summary, Jurisdiction Section
+- **Diagram:** GIR section relationship flowchart
 
-### 3.2 Table 1: Group Information (8-10 pages)
-- Required data fields (complete list)
-- Source data identification
-- Common completion issues
-- **Template Reference:** Table 1 field-by-field guide
+### 3.2 GIR Section 1: MNE Group Information (12-15 pages)
+**~50+ data points covering:**
 
-### 3.3 Table 2: Constituent Entity Information (10-12 pages)
-- Entity identification requirements
+#### 3.2.1 Filing Constituent Entity Identification (3-4 pages)
+- Entity submitting the GIR
+- General accounting information
+- **Template Reference:** Filing CE Identification Guide
+
+#### 3.2.2 Ultimate Parent Entity Information (3-4 pages)
+- UPE identification and details
+- Tax Identification Numbers (TIN) - use "NOTIN" if none issued
+- **Template Reference:** UPE Data Collection Form
+
+#### 3.2.3 Corporate Structure Information (4-5 pages)
+- All constituent entities in the group
+- Entity status for GloBE purposes
 - Ownership structure documentation
+- QIIR and UTPR applicability indicators
 - Excluded entities handling
 - Flow-through entity treatment
 - **Template Reference:** Constituent Entity Database (Excel)
 
-### 3.4 Table 3: Jurisdictional Information (8-10 pages)
+#### 3.2.4 Summary Information (2-3 pages)
+- High-level ETR range by jurisdiction
+- Top-level group metrics
+- **Template Reference:** Summary Dashboard
+
+### 3.3 GIR Section 2: Jurisdictional Safe Harbours and Exclusions (8-10 pages)
+**Characteristics and elections for each jurisdiction:**
+
+#### 3.3.1 Safe Harbour Elections (4-5 pages)
+- Transitional CbCR Safe Harbour
+- Transitional UTPR Safe Harbour
+- QDMTT Safe Harbour
+- Election documentation requirements
+- **Template Reference:** Safe Harbour Election Forms
+
+#### 3.3.2 Jurisdictional Exclusions (4-5 pages)
+- Excluded jurisdictions and rationale
+- Reduced reporting where safe harbours apply
+- Documentation of exclusion basis
+- **Template Reference:** Exclusion Documentation Checklist
+
+### 3.4 GIR Section 3: GloBE Computations (15-18 pages)
+**~400 data points (increases with each jurisdiction and constituent entity)**
+
+#### 3.4.1 ETR Computation Data (4-5 pages)
 - GloBE Income/Loss by jurisdiction
 - Covered Taxes allocation
-- Substance-Based Income Exclusion data
-- **Template Reference:** Jurisdictional Summary Calculator
+- Adjusted Covered Taxes
+- ETR calculation components
+- **Template Reference:** ETR Calculation Worksheet
 
-### 3.5 Table 4: Top-Up Tax Information (8-10 pages)
+#### 3.4.2 Substance-Based Income Exclusion (3-4 pages)
+- Payroll carve-out data
+- Tangible asset carve-out data
+- SBIE calculation by jurisdiction
+- **Template Reference:** SBIE Calculator
+
+#### 3.4.3 Top-Up Tax Computation (4-5 pages)
 - Top-up tax by jurisdiction
-- IIR, UTPR, and QDMTT amounts
+- Top-up tax percentage calculation
+- Excess profit determination
+- **Template Reference:** Top-Up Tax Calculator
+
+#### 3.4.4 Top-Up Tax Allocation and Attribution (4-5 pages)
+- IIR amounts and allocation
+- UTPR amounts and allocation
+- QDMTT interaction and offsets
 - Allocation among constituent entities
 - **Template Reference:** Top-Up Tax Allocation Tool
-
-### 3.6 Table 5: Additional Information (6-8 pages)
-- Elections made and their effect
-- Safe harbour applications
-- Special circumstances reporting
-- **Template Reference:** Elections Register Template
 
 ---
 
@@ -221,11 +277,14 @@ Upon completion, participants will be able to:
 **Pages: 80-100 | Time: 3 hours**
 
 ### 4.1 Complete Data Point Inventory (15-20 pages)
-- All 200+ data points required for GIR
-- Categorized by GIR table
+- All ~480 data points required for GIR (per January 2025 OECD template)
+- Categorized by GIR section:
+  - Section 1: MNE Group Information (~50+ data points)
+  - Section 2: Safe Harbours and Exclusions (variable)
+  - Section 3: GloBE Computations (~400 data points, scales with jurisdictions/entities)
 - Source system mapping
 - Priority ranking (critical vs supplementary)
-- **Deliverable:** GIR Data Point Tracker (Excel, 200+ rows)
+- **Deliverable:** GIR Data Point Tracker (Excel, ~480 rows)
 
 ### 4.2 ERP Data Extraction Strategies (20-25 pages)
 
@@ -288,56 +347,87 @@ Upon completion, participants will be able to:
 
 ---
 
-## Section 5: GIR Completion Calculator - Tables 1-5
+## Section 5: GIR Completion Calculator - Sections 1-3
 **Pages: 100-120 | Time: 3.5 hours**
 
 ### 5.1 Calculator Overview and Setup (10-12 pages)
-- Calculator structure and navigation
+- Calculator structure aligned with OECD January 2025 GIR template
 - Input cell identification (colour coding)
 - Validation and error checking features
 - How to use sample data for testing
 - **Deliverable:** GIR Completion Calculator (Excel)
 
-### 5.2 Completing Table 1: Group Information (15-18 pages)
-- Step-by-step completion guide
-- Each field explained with examples
-- Common errors and prevention
-- Validation check interpretation
-- **Screenshots:** Calculator Table 1 interface
+### 5.2 Completing GIR Section 1: MNE Group Information (25-30 pages)
 
-### 5.3 Completing Table 2: Constituent Entities (20-25 pages)
+#### 5.2.1 Filing Constituent Entity Data (6-8 pages)
+- Step-by-step completion guide for FCE identification
+- General accounting information fields
+- Common errors and prevention
+- **Screenshots:** Calculator Section 1.1 interface
+
+#### 5.2.2 Corporate Structure Data Entry (12-15 pages)
 - Entity-by-entity data entry
 - Ownership chain documentation
+- QIIR and UTPR indicator fields
 - Excluded entity processing
 - Multi-tier structure handling
 - **Worked Example:** 50-entity MNE group
-- **Screenshots:** Calculator Table 2 interface
+- **Screenshots:** Calculator Corporate Structure interface
 
-### 5.4 Completing Table 3: Jurisdictional Data (20-25 pages)
+#### 5.2.3 Summary Table Completion (5-7 pages)
+- ETR range by jurisdiction
+- High-level metrics population
+- Validation check interpretation
+- **Screenshots:** Calculator Summary interface
+
+### 5.3 Completing GIR Section 2: Safe Harbours and Exclusions (15-20 pages)
+
+#### 5.3.1 Safe Harbour Elections (8-10 pages)
+- Transitional CbCR Safe Harbour data entry
+- QDMTT Safe Harbour fields
+- Documentation of elections
+- **Worked Example:** Safe harbour election scenarios
+- **Screenshots:** Calculator Section 2 interface
+
+#### 5.3.2 Exclusion Documentation (7-10 pages)
+- Recording excluded jurisdictions
+- Rationale fields
+- Impact on Section 3 requirements
+- **Screenshots:** Exclusion entry screens
+
+### 5.4 Completing GIR Section 3: GloBE Computations (40-50 pages)
+
+#### 5.4.1 ETR Computation Data Entry (12-15 pages)
 - GloBE Income/Loss input procedures
 - Covered Taxes allocation methodology
-- Substance carve-out data entry
+- Adjusted Covered Taxes calculations
 - ETR calculation verification
 - **Worked Example:** 15-jurisdiction calculation
-- **Screenshots:** Calculator Table 3 interface
+- **Screenshots:** Calculator ETR computation interface
 
-### 5.5 Completing Table 4: Top-Up Tax Allocation (20-25 pages)
-- Top-up tax calculation verification
-- IIR amount allocation
-- UTPR amount allocation
-- QDMTT interaction
+#### 5.4.2 Substance-Based Income Exclusion (10-12 pages)
+- Payroll carve-out data entry
+- Tangible asset data entry
+- SBIE calculation by jurisdiction
+- Phase-in schedule application (5%/7.5%)
+- **Screenshots:** SBIE calculator interface
+
+#### 5.4.3 Top-Up Tax Computation (10-12 pages)
+- Top-up tax percentage calculation
+- Excess profit determination
+- Top-up tax by jurisdiction
+- **Worked Example:** Complex computation scenario
+- **Screenshots:** Top-up tax computation interface
+
+#### 5.4.4 Top-Up Tax Allocation (8-10 pages)
+- IIR amount allocation procedures
+- UTPR amount allocation procedures
+- QDMTT offset calculations
 - Multi-entity allocation procedures
 - **Worked Example:** Complex allocation scenario
-- **Screenshots:** Calculator Table 4 interface
+- **Screenshots:** Allocation interface
 
-### 5.6 Completing Table 5: Elections and Additional Info (12-15 pages)
-- Recording elections properly
-- Safe harbour documentation
-- Special circumstances entries
-- Supporting documentation references
-- **Screenshots:** Calculator Table 5 interface
-
-### 5.7 Calculator Validation and Reconciliation (10-12 pages)
+### 5.5 Calculator Validation and Reconciliation (10-12 pages)
 - Running validation checks
 - Interpreting error messages
 - Reconciliation to tax calculations
@@ -403,10 +493,15 @@ Upon completion, participants will be able to:
 - **Deliverable:** Multi-Jurisdiction Filing Coordination Checklist
 
 ### 7.2 United Kingdom (12-15 pages)
-- HMRC GIR filing portal
+- HMRC GIR filing portal and registration process
 - Step-by-step submission process
+- **UK-Specific Requirements:**
+  - Registration within 6 months of first accounting period end (e.g., June 30, 2025 for Dec 2024 year-end)
+  - Overseas Return Notification (ORN) if filing GIR elsewhere
+  - UK Self Assessment Return required in addition to GIR/ORN
+  - UTPR effective for periods starting on or after December 31, 2024
 - **Screenshots:** Portal navigation
-- Deadline: [Specific date]
+- Deadline: June 30, 2026 (for FY ending Dec 31, 2024)
 - Penalties for late filing
 - Amendment procedures
 - **Portal Link:** Direct to UK GIR submission
@@ -511,7 +606,7 @@ Upon completion, participants will be able to:
 - **Template Reference:** Simplified Reporting Election Forms
 
 ### 9.4 Safe Harbour Documentation for GIR (8-10 pages)
-- Recording safe harbour elections in Table 5
+- Recording safe harbour elections in GIR Section 2
 - Supporting documentation requirements
 - Audit defence preparation
 - **Deliverable:** Safe Harbour Documentation Checklist
@@ -524,8 +619,8 @@ Upon completion, participants will be able to:
 ### 10.1 Scenario 1: Standard MNE First Filing (12-15 pages)
 **Facts:** UK-headquartered MNE, 75 entities, 20 jurisdictions, standard operating model
 - Complete GIR completion walkthrough
-- All five tables populated with commentary
-- XML generation and validation
+- All three sections populated with commentary
+- XML generation and validation (January 2025 schema)
 - Filing across multiple jurisdictions
 - **Deliverable:** Complete worked example files
 
@@ -534,7 +629,7 @@ Upon completion, participants will be able to:
 - Constituent entity determination challenges
 - Ownership percentage calculations
 - Excluded entity handling
-- Table 2 complexities addressed
+- Section 1 corporate structure complexities addressed
 
 ### 10.3 Scenario 3: Data Gap Challenges (10-12 pages)
 **Facts:** Newly acquired subsidiary, legacy ERP, incomplete records
@@ -545,7 +640,7 @@ Upon completion, participants will be able to:
 
 ### 10.4 Scenario 4: Multi-QDMTT Jurisdictions (8-10 pages)
 **Facts:** Operations in 5 QDMTT jurisdictions with different regimes
-- Table 4 coordination
+- Section 3 top-up tax coordination
 - QDMTT offset calculations
 - Filing sequence considerations
 
@@ -722,8 +817,8 @@ United Kingdom, Germany, Netherlands, France, Italy, Spain, Ireland, Luxembourg,
 ## Appendix A: Complete Template Library
 
 ### A.1 Excel Tools Package
-- **GIR Data Point Tracker** (200+ data points with source mapping)
-- **GIR Completion Calculator** (Tables 1-5 with validation)
+- **GIR Data Point Tracker** (~480 data points across 3 sections with source mapping)
+- **GIR Completion Calculator** (Sections 1-3 with validation per January 2025 OECD template)
 - **Constituent Entity Database Template**
 - **Multi-Jurisdiction Deadline Calendar** (with iCal export)
 - **GIR-to-Tax Calculation Reconciliation Tool**
@@ -762,12 +857,12 @@ United Kingdom, Germany, Netherlands, France, Italy, Spain, Ireland, Luxembourg,
 - Schema documentation
 - Element reference guide
 
-### B.2 Sample Completed GIR Tables
-- Table 1 annotated example
-- Table 2 annotated example (complex structure)
-- Table 3 annotated example (multi-jurisdiction)
-- Table 4 annotated example
-- Table 5 annotated example
+### B.2 Sample Completed GIR Sections
+- Section 1: MNE Group Information annotated example (50+ data points)
+- Section 1: Corporate Structure annotated example (complex multi-tier ownership)
+- Section 2: Safe Harbours and Exclusions annotated example
+- Section 3: GloBE Computations annotated example (multi-jurisdiction ETR calculation)
+- Section 3: Top-Up Tax Allocation annotated example
 
 ### B.3 Jurisdiction-Specific Forms
 - DFE election forms by jurisdiction
@@ -830,8 +925,8 @@ United Kingdom, Germany, Netherlands, France, Italy, Spain, Ireland, Luxembourg,
 - ERP extraction examples
 - Gap analysis and resolution
 
-### E.3 All Five Tables Completed
-- Full Table 1-5 with commentary
+### E.3 All Three GIR Sections Completed
+- Full Sections 1-3 with commentary (per January 2025 OECD template)
 - Validation check results
 - Error resolution demonstration
 
@@ -854,7 +949,7 @@ United Kingdom, Germany, Netherlands, France, Italy, Spain, Ireland, Luxembourg,
 - Desk reference format
 
 ### F.2 GIR Field Reference Card
-- All fields by table
+- All ~480 fields by section (Section 1, 2, 3)
 - Data type and format requirements
 - Common error alerts
 
@@ -902,12 +997,12 @@ United Kingdom, Germany, Netherlands, France, Italy, Spain, Ireland, Luxembourg,
 ### Quality Assurance Checklist
 
 Before launch, verify:
-- [ ] All 200+ data points in tracker are accurate per OECD schema
+- [ ] All ~480 data points in tracker are accurate per OECD January 2025 schema
 - [ ] Calculator formulas tested with multiple scenarios
-- [ ] XML generation produces valid output
+- [ ] XML generation produces valid output per January 2025 schema
 - [ ] All 25+ portal links tested and working
 - [ ] All deadlines verified against official sources
-- [ ] Sample GIR tables reviewed by Pillar Two specialist
+- [ ] Sample GIR sections reviewed by Pillar Two specialist
 - [ ] Worked examples validated by practitioner unfamiliar with content
 - [ ] All templates can be used without additional instruction
 
@@ -917,7 +1012,8 @@ Before launch, verify:
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | [Date] | [Developer] | Initial structural plan |
+| 1.0 | November 2025 | [Developer] | Initial structural plan |
+| 1.1 | November 2025 | [Developer] | Updated with web research verification: corrected GIR structure from 5 tables to 3 sections per OECD January 2025 template; updated data point count to ~480; added transitional penalty relief details; added UK-specific registration requirements |
 
 ---
 
