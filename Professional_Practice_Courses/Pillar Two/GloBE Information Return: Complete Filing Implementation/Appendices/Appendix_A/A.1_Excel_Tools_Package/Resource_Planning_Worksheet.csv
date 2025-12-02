@@ -1,0 +1,78 @@
+Category,Item,Description,Month_1,Month_2,Month_3,Month_4,Month_5,Month_6,Total_Hours,Hourly_Rate,Total_Cost,Notes
+,,,,,,,,,,,
+HEADER,,,RESOURCE PLANNING WORKSHEET - GIR IMPLEMENTATION,,,,,,,,,
+,,,,,,,,,,,
+SECTION_A,,,A. INTERNAL TEAM ALLOCATION (FTE %),,,,,,,,,
+ROLE,Project Sponsor,Executive oversight and approval,10%,5%,5%,5%,10%,10%,~70 hrs,N/A,N/A,CFO or Tax Director
+ROLE,Project Manager,Overall coordination and timeline,40%,30%,30%,30%,40%,30%,~340 hrs,N/A,N/A,Dedicated PM
+ROLE,GIR Technical Lead,GIR completion and filing,20%,40%,60%,80%,80%,60%,~580 hrs,N/A,N/A,Core delivery role
+ROLE,Data Manager,Data mapping and validation,20%,60%,60%,40%,20%,10%,~360 hrs,N/A,N/A,Finance/Tax
+ROLE,Entity Coordinator,Local entity data collection,30%,50%,60%,30%,10%,10%,~320 hrs,N/A,N/A,May need multiple
+ROLE,ERP/Systems Lead,Technical extraction support,10%,20%,40%,20%,10%,5%,~180 hrs,N/A,N/A,IT Department
+ROLE,Extended Team,Controllers/HR/Legal support,10%,30%,40%,30%,20%,10%,~240 hrs,N/A,N/A,Part-time support
+SUBTOTAL_A,Internal FTE Hours,Total internal hours,,,,,,,2090,N/A,N/A,Based on 170 hrs/month
+,,,,,,,,,,,
+SECTION_B,,,B. INTERNAL LABOUR COSTS,,,,,,,,,
+COST,Project Sponsor,Executive time cost,17,8.5,8.5,8.5,17,17,77,250,19250,Loaded cost
+COST,Project Manager,PM time cost,68,51,51,51,68,51,340,150,51000,Loaded cost
+COST,GIR Technical Lead,Technical lead time,34,68,102,136,136,102,578,175,101150,Loaded cost
+COST,Data Manager,Data management time,34,102,102,68,34,17,357,125,44625,Loaded cost
+COST,Entity Coordinator,Coordination time,51,85,102,51,17,17,323,100,32300,Loaded cost
+COST,ERP/Systems Lead,IT support time,17,34,68,34,17,8.5,179,140,25060,Loaded cost
+COST,Extended Team,Support time,17,51,68,51,34,17,238,100,23800,Loaded cost
+SUBTOTAL_B,Total Internal Labour,Sum of internal costs,,,,,,,2092,,297185,GBP
+,,,,,,,,,,,
+SECTION_C,,,C. EXTERNAL ADVISORY COSTS,,,,,,,,,
+ADVISORY,Technical Advisory,Pillar Two technical guidance,20,20,10,20,30,10,110,350,38500,Big 4/Mid-tier
+ADVISORY,Implementation Support,Data mapping and setup,10,30,40,20,10,0,110,300,33000,Implementation firm
+ADVISORY,Quality Review,Pre-filing review,0,0,0,0,40,20,60,400,24000,Independent review
+ADVISORY,Training,Team training delivery,20,10,0,0,0,0,30,250,7500,External trainer
+SUBTOTAL_C,Total External Advisory,Sum of advisory costs,,,,,,,310,,103000,GBP
+,,,,,,,,,,,
+SECTION_D,,,D. TECHNOLOGY COSTS,,,,,,,,,
+TECH,GIR Software License,Commercial platform annual fee,,,,,,,,,50000,Annual license
+TECH,Implementation Services,Platform configuration,,,,,,,,,25000,One-time setup
+TECH,XML Validation Tools,Validation software,,,,,,,,,5000,One-time purchase
+TECH,Data Integration,ETL development,,,,,,,,,15000,IT development
+TECH,Testing Environment,Sandbox/UAT access,,,,,,,,,5000,Per year
+SUBTOTAL_D,Total Technology,Sum of technology costs,,,,,,,,,100000,GBP
+,,,,,,,,,,,
+SECTION_E,,,E. OTHER COSTS,,,,,,,,,
+OTHER,Travel,Multi-jurisdiction coordination,,,,,,,,,10000,If required
+OTHER,Training Materials,Course materials and CPE,,,,,,,,,5000,Team training
+OTHER,Contingency,15% of total budget,,,,,,,,,77028,Buffer
+SUBTOTAL_E,Total Other,Sum of other costs,,,,,,,,,92028,GBP
+,,,,,,,,,,,
+SECTION_F,,,F. BUDGET SUMMARY,,,,,,,,,
+SUMMARY,Internal Labour (B),,,,,,,,,297185,
+SUMMARY,External Advisory (C),,,,,,,,,103000,
+SUMMARY,Technology (D),,,,,,,,,100000,
+SUMMARY,Other Costs (E),,,,,,,,,92028,
+TOTAL,TOTAL YEAR 1 BUDGET,,,,,,,,,592213,GBP
+,,,,,,,,,,,
+SECTION_G,,,G. YEAR 2+ ONGOING COSTS (ESTIMATED),,,,,,,,,
+ONGOING,Internal Labour (reduced),Ongoing compliance,,,,,,,,,150000,~50% of Year 1
+ONGOING,External Advisory (reduced),Annual support,,,,,,,,,50000,~50% of Year 1
+ONGOING,Technology (maintenance),License renewal,,,,,,,,,55000,Annual fees
+ONGOING,Other (reduced),Travel/training,,,,,,,,,10000,Reduced
+TOTAL_ONGOING,TOTAL YEAR 2+ ANNUAL,,,,,,,,,265000,GBP
+,,,,,,,,,,,
+SECTION_H,,,H. TEAM SKILLS ASSESSMENT,,,,,,,,,
+SKILL,Pillar Two Technical,GloBE rules expertise,Strong,Moderate,Limited,,,,,Action: Training/Advisory
+SKILL,GIR/XML Technical,XML schema knowledge,Strong,Moderate,Limited,,,,,Action: Training
+SKILL,Data/Systems,ERP extraction skills,Strong,Moderate,Limited,,,,,Action: IT support
+SKILL,Project Management,PM capability,Strong,Moderate,Limited,,,,,Action: Dedicated PM
+SKILL,Multi-Jurisdiction,Global coordination,Strong,Moderate,Limited,,,,,Action: Regional leads
+,,,,,,,,,,,
+SECTION_I,,,I. APPROVAL,,,,,,,,,
+APPROVAL,Prepared by:,Name:,Date:,,,,,,,,
+APPROVAL,Reviewed by:,Name:,Date:,,,,,,,,
+APPROVAL,Budget approved by:,Name:,Date:,,,,,,,,
+,,,,,,,,,,,
+INSTRUCTIONS:,,,,,,,,,,,
+1. Adjust FTE percentages based on organisation size and complexity,,,,,,,,,,,
+2. Update hourly rates to reflect actual loaded costs in your organisation,,,,,,,,,,,
+3. Scale advisory costs based on entity count and jurisdictions,,,,,,,,,,,
+4. Technology costs vary significantly based on platform choice,,,,,,,,,,,
+5. Add contingency buffer for unexpected requirements (15-20% recommended),,,,,,,,,,,
+6. Complete skills assessment to identify training/advisory needs,,,,,,,,,,,

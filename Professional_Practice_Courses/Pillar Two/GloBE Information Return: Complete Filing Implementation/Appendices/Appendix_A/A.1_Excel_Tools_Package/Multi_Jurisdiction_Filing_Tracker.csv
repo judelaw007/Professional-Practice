@@ -1,0 +1,41 @@
+Filing_ID,Fiscal_Year,Jurisdiction,Country_Code,Filing_Type,Filing_Deadline,Planned_Filing_Date,Actual_Filing_Date,Portal_Used,XML_File_Name,XML_File_Version,Confirmation_Number,Filing_Status,Top_Up_Tax_Amount,Payment_Due_Date,Payment_Made_Date,Payment_Reference,Filed_By,Reviewed_By,Approved_By,Notes,Issues_Encountered,Resolution
+F2024-GB-01,2024,United Kingdom,GB,GIR,2026-06-30,2026-06-15,,,HMRC Pillar 2,GIR_2024_GB_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,Primary filing jurisdiction,No issues,N/A
+F2024-GB-02,2024,United Kingdom,GB,UK SA Return,2026-06-30,2026-06-15,,,HMRC Pillar 2,N/A,N/A,,Not Started,0,2026-06-30,,,,,Required with GIR,No issues,N/A
+F2024-DE-01,2024,Germany,DE,GIR,2026-06-30,2026-06-20,,,BZSt,GIR_2024_DE_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,German language filing,No issues,N/A
+F2024-NL-01,2024,Netherlands,NL,GIR,2026-06-30,2026-06-20,,,Belastingdienst,GIR_2024_NL_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,,No issues,N/A
+F2024-FR-01,2024,France,FR,GIR,2026-06-30,2026-06-20,,,impots.gouv.fr,GIR_2024_FR_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,Form 2065-INT-SD,No issues,N/A
+F2024-IE-01,2024,Ireland,IE,GIR,2026-06-30,2026-06-20,,,ROS,GIR_2024_IE_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,,No issues,N/A
+F2024-LU-01,2024,Luxembourg,LU,GIR,2026-06-30,2026-06-20,,,MyGuichet,GIR_2024_LU_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,,No issues,N/A
+F2024-SG-01,2024,Singapore,SG,GIR,2026-06-30,2026-06-20,,,myTax Portal,GIR_2024_SG_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,,No issues,N/A
+F2024-AU-01,2024,Australia,AU,GIR,2026-06-30,2026-06-20,,,ATO Business Portal,GIR_2024_AU_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,,No issues,N/A
+F2024-JP-01,2024,Japan,JP,GIR,2026-06-30,2026-06-20,,,e-Tax,GIR_2024_JP_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,Japanese language,No issues,N/A
+F2024-CA-01,2024,Canada,CA,GIR,2026-06-30,2026-06-20,,,My Business Account,GIR_2024_CA_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,,No issues,N/A
+F2024-CH-01,2024,Switzerland,CH,GIR,2026-06-30,2026-06-20,,,ESTV Portal,GIR_2024_CH_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,Swiss rules from 2025,No issues,N/A
+F2024-ES-01,2024,Spain,ES,GIR,2026-06-30,2026-06-20,,,AEAT,GIR_2024_ES_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,Form 241,No issues,N/A
+F2024-IT-01,2024,Italy,IT,GIR,2026-06-30,2026-06-20,,,Agenzia delle Entrate,GIR_2024_IT_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,Italian language,No issues,N/A
+F2024-BE-01,2024,Belgium,BE,GIR,2026-06-30,2026-06-20,,,MyMinfin,GIR_2024_BE_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,,No issues,N/A
+F2024-AT-01,2024,Austria,AT,GIR,2026-06-30,2026-06-20,,,FinanzOnline,GIR_2024_AT_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,,No issues,N/A
+F2024-SE-01,2024,Sweden,SE,GIR,2026-06-30,2026-06-20,,,Skatteverket,GIR_2024_SE_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,,No issues,N/A
+F2024-DK-01,2024,Denmark,DK,GIR,2026-06-30,2026-06-20,,,TastSelv,GIR_2024_DK_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,,No issues,N/A
+F2024-NO-01,2024,Norway,NO,GIR,2026-06-30,2026-06-20,,,Altinn,GIR_2024_NO_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,,No issues,N/A
+F2024-KR-01,2024,South Korea,KR,GIR,2026-06-30,2026-06-20,,,HomeTax,GIR_2024_KR_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,Korean language,No issues,N/A
+F2024-NZ-01,2024,New Zealand,NZ,GIR,2026-06-30,2026-06-20,,,myIR,GIR_2024_NZ_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,,No issues,N/A
+F2024-HK-01,2024,Hong Kong,HK,GIR,2026-06-30,2026-06-20,,,IRD,GIR_2024_HK_v1.xml,1.0,,Not Started,0,2026-06-30,,,,,HK rules from 2025,No issues,N/A
+F2024-IN-01,2024,India,IN,GIR,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not Required,N/A,N/A,N/A,N/A,N/A,N/A,N/A,India not implementing Pillar Two,N/A,N/A
+F2024-US-01,2024,United States,US,GIR,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not Required,N/A,N/A,N/A,N/A,N/A,N/A,N/A,US not implementing Pillar Two; GILTI applies,N/A,N/A
+F2024-BR-01,2024,Brazil,BR,GIR,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Not Required,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Brazil not implementing Pillar Two,N/A,N/A
+,,,,,,,,,,,,,,,,,,,,,
+SUMMARY,,,,,,,,,,,,,,,,,,,,,
+Total_Filings_Required,,,,22,,,,,,,,,,,,,,,,,
+Total_Filed,,,,0,,,,,,,,,,,,,,,,,
+Total_Pending,,,,22,,,,,,,,,,,,,,,,,
+Total_Top_Up_Tax,,,,0,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+INSTRUCTIONS:,,,,,,,,,,,,,,,,,,,,,
+1. Filing_ID: Unique identifier format F[Year]-[CountryCode]-[Sequence],,,,,,,,,,,,,,,,,,,,,
+2. Filing_Status: Not Started / In Progress / XML Generated / Validated / Filed / Confirmed / Issues,,,,,,,,,,,,,,,,,,,,,
+3. XML_File_Version: Increment version number for each revision,,,,,,,,,,,,,,,,,,,,,
+4. Update Actual_Filing_Date and Confirmation_Number immediately upon filing,,,,,,,,,,,,,,,,,,,,,
+5. Track payment separately - deadline may differ from filing deadline in some jurisdictions,,,,,,,,,,,,,,,,,,,,,
+6. Document all Issues_Encountered and Resolution for audit trail,,,,,,,,,,,,,,,,,,,,,
+7. Maintain sign-off chain: Filed_By -> Reviewed_By -> Approved_By,,,,,,,,,,,,,,,,,,,,,
