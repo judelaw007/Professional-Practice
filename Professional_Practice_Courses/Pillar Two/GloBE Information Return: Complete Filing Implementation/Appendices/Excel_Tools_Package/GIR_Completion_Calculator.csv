@@ -1,0 +1,339 @@
+Sheet_Name,Row_ID,Field_Reference,Field_Name,Field_Description,Data_Type,Required,XML_Element,Validation_Rule,Source_Reference,Input_Value,Calculated_Value,Validation_Status,Notes
+,,,,,,,,,,,,,
+HEADER,,,GIR COMPLETION CALCULATOR - SECTIONS 1-3,Per January 2025 OECD GloBE Information Return Template,,,,,,,,,
+HEADER,,,Version 2.0 - Fiscal Year 2024/2025,Aligned with OECD XML Schema v2.0 (January 2025),,,,,,,,,
+HEADER,,,Professional Practice Course Deliverable,GloBE Information Return: Complete Filing Implementation,,,,,,,,,
+,,,,,,,,,,,,,
+INSTRUCTIONS,,,USER GUIDE,,,,,,,,,
+,,,,,,,,,,,,,
+INSTRUCTIONS,1,,Complete Section 1 first,Entity information is required for Sections 2 and 3,,,,,,,,
+INSTRUCTIONS,2,,Enter Safe Harbour elections in Section 2,Qualifying jurisdictions bypass Section 3 detailed calculations,,,,,,,,
+INSTRUCTIONS,3,,Complete Section 3 for each jurisdiction,For each jurisdiction NOT covered by a safe harbour election,,,,,,,,
+INSTRUCTIONS,4,,Review Validation Dashboard,All validation checks must PASS before XML export,,,,,,,,
+INSTRUCTIONS,5,,Use SBIE rates table,Verify correct transitional rates applied for fiscal year,,,,,,,,
+INSTRUCTIONS,6,,Summary section provides group totals,Use for reconciliation and management reporting,,,,,,,,
+INSTRUCTIONS,7,,Template aligned with January 2025 OECD,All fields per OECD GloBE Information Return specifications,,,,,,,,
+INSTRUCTIONS,8,,Export to XML using conversion tools,Dedicated XML generation or platform integration required,,,,,,,,
+,,,,,,,,,,,,,
+COLOUR_LEGEND,,,Cell Colour Coding Guide,,,,,,,,,
+,,,,,,,,,,,,,
+COLOUR_LEGEND,1,,Light Yellow (#FFFF99),INPUT REQUIRED - Enter your data here,,,,,,,,
+COLOUR_LEGEND,2,,Light Green (#E2EFDA),CALCULATION - Formula cell do not edit,,,,,,,,
+COLOUR_LEGEND,3,,Light Blue (#DDEBF7),REFERENCE DATA - Lookup values do not edit,,,,,,,,
+COLOUR_LEGEND,4,,Light Orange (#FCE4D6),CONDITIONAL INPUT - Enter if applicable,,,,,,,,
+COLOUR_LEGEND,5,,Light Grey (#F2F2F2),LOCKED - Protected cell cannot edit,,,,,,,,
+COLOUR_LEGEND,6,,Light Red (#FF6B6B),ERROR - Validation failed review and correct,,,,,,,,
+COLOUR_LEGEND,7,,White (#FFFFFF),OUTPUT/DISPLAY - Read only result,,,,,,,,
+,,,,,,,,,,,,,
+SECTION_1,,,SECTION 1: MNE GROUP INFORMATION (50+ Data Points),,,,,,,,,
+,,,,,,,,,,,,,
+SECTION_1_HEADER,,,1.1 Filing Constituent Entity Identification,,,,,,,,,
+,,,,,,,,,,,,,
+SEC1_1.1,1.1.1,GIR/MNEGroup/Name,MNE Group Name,Legal name of ultimate parent entity or group,Text,Yes,<Name>,Cannot be empty - must match registered name,UPE registration,,,PENDING,Primary identifier
+SEC1_1.1,1.1.2,GIR/MNEGroup/TIN,Filing Entity TIN,Tax identification number of DFE/UPE,Text,Yes,<TIN>,Valid TIN format per jurisdiction,Tax registration,,,PENDING,Local format required
+SEC1_1.1,1.1.3,GIR/MNEGroup/TINIssuedBy,TIN Issuing Jurisdiction,Country that issued the TIN,ISO3166-Alpha2,Yes,<TINIssuedBy>,Valid ISO 3166-1 alpha-2 country code,Tax registration,,,PENDING,Two-letter code
+SEC1_1.1,1.1.4,GIR/MNEGroup/Address,Registered Address,Complete registered address of UPE,Text,Yes,<Address>,Street City PostCode Country - cannot be empty,Company records,,,PENDING,Include postal code
+SEC1_1.1,1.1.5,GIR/FiscalYear/Start,Fiscal Year Start,Start date of reporting period,Date,Yes,<StartDate>,Format YYYY-MM-DD valid date,Accounting records,,,PENDING,Calendar or fiscal year
+SEC1_1.1,1.1.6,GIR/FiscalYear/End,Fiscal Year End,End date of reporting period,Date,Yes,<EndDate>,Format YYYY-MM-DD must be after start date,Accounting records,,,PENDING,Maximum 18 months
+SEC1_1.1,1.1.7,GIR/Currency,Reporting Currency,Currency for all monetary amounts,ISO4217,Yes,<Currency>,Valid ISO 4217 currency code,Accounting policy,,,PENDING,Usually EUR or local
+SEC1_1.1,1.1.8,GIR/Threshold,Revenue Threshold Met,Confirms EUR 750m threshold met in 2 of 4 prior years,Boolean,Yes,<ThresholdMet>,TRUE or FALSE,CFS/CbCR,,,PENDING,Scope determination
+SEC1_1.1,1.1.9,GIR/SchemaVersion,XML Schema Version,Version of GIR schema used,Text,Yes,<SchemaVersion>,Must be v2.0 for January 2025,OECD template,,,PENDING,January 2025 schema
+SEC1_1.1,1.1.10,GIR/SubmissionType,Submission Type,Original or Amended filing,Enum,Yes,<SubmissionType>,ORIGINAL or AMENDED,Filing status,,,PENDING,Track amendments
+,,,,,,,,,,,,,
+SECTION_1_HEADER,,,1.2 Filing Entity Identification,,,,,,,,,
+,,,,,,,,,,,,,
+SEC1_1.2,1.2.1,GIR/FilingEntity/Role,Filing Entity Role,DFE UPE or Designated Filing Entity role,Enum,Yes,<FilingRole>,UPE or DFE or POPE,Entity records,,,PENDING,Determines obligations
+SEC1_1.2,1.2.2,GIR/FilingEntity/Name,Filing Entity Name,Legal name of entity filing the GIR,Text,Yes,<FilingEntityName>,Cannot be empty - must match registered name,Registration,,,PENDING,May differ from UPE
+SEC1_1.2,1.2.3,GIR/FilingEntity/TIN,Filing Entity TIN,Tax identification number of filing entity,Text,Yes,<FilingEntityTIN>,Valid TIN format per jurisdiction,Tax registration,,,PENDING,Local format
+SEC1_1.2,1.2.4,GIR/FilingEntity/Country,Filing Jurisdiction,Country where GIR is filed,ISO3166-Alpha2,Yes,<FilingCountry>,Valid ISO 3166-1 alpha-2 country code,Registration,,,PENDING,Filing location
+SEC1_1.2,1.2.5,GIR/FilingEntity/Address,Filing Entity Address,Registered address of filing entity,Text,Yes,<FilingAddress>,Complete address with postal code,Company records,,,PENDING,Official address
+SEC1_1.2,1.2.6,GIR/FilingEntity/Election,DFE Election Status,Whether DFE election made,Boolean,Conditional,<DFEElection>,TRUE or FALSE - required if not UPE,Election records,,,PENDING,If not UPE filing
+SEC1_1.2,1.2.7,GIR/FilingEntity/ElectionDate,DFE Election Date,Date DFE election was made,Date,Conditional,<DFEElectionDate>,Valid date if election made,Election records,,,PENDING,For audit trail
+SEC1_1.2,1.2.8,GIR/Contact/Name,Contact Person Name,Primary contact for GIR queries,Text,Yes,<ContactName>,Cannot be empty,HR system,,,PENDING,Authority contact
+SEC1_1.2,1.2.9,GIR/Contact/Email,Contact Email,Email address for correspondence,Text,Yes,<ContactEmail>,Valid email format,HR system,,,PENDING,Official email
+SEC1_1.2,1.2.10,GIR/Contact/Phone,Contact Phone,Phone number for queries,Text,No,<ContactPhone>,Valid phone format if provided,HR system,,,PENDING,Optional
+,,,,,,,,,,,,,
+SECTION_1_HEADER,,,1.3 Corporate Structure - Constituent Entity Details,,,,,,,,,
+,,,,,,,,,,,,,
+SEC1_1.3,1.3.1,GIR/ConstituentEntities/Count,Total CE Count,Total number of Constituent Entities in group,Integer,Yes,<CECount>,Must be >= 1,Entity database,,,PENDING,Include all owned entities
+SEC1_1.3,1.3.2,GIR/ConstituentEntities/Jurisdictions,Jurisdiction Count,Number of jurisdictions with CEs,Integer,Yes,<JurisdictionCount>,Must be >= 1,Entity database,,,PENDING,Distinct countries
+SEC1_1.3,1.3.3,GIR/ConstituentEntities/Excluded,Excluded Entity Count,Number of excluded entities,Integer,No,<ExcludedCount>,Must be >= 0,Entity database,,,PENDING,Per Article 1.5
+SEC1_1.3,1.3.4,GIR/ConstituentEntities/PEs,PE Count,Number of Permanent Establishments,Integer,No,<PECount>,Must be >= 0,Entity database,,,PENDING,Branch operations
+SEC1_1.3,1.3.5,GIR/ConstituentEntities/JVs,JV Count,Number of Joint Ventures,Integer,No,<JVCount>,Must be >= 0,Entity database,,,PENDING,50%+ ownership
+,,,,,,,,,,,,,
+SEC1_1.3,1.3.6,GIR/CE[n]/EntityID,CE Entity ID,Unique identifier per entity,Text,Yes (per CE),<EntityID>,Must be unique within GIR,Entity database,,,PENDING,Internal reference
+SEC1_1.3,1.3.7,GIR/CE[n]/LegalName,CE Legal Name,Registered legal name of entity,Text,Yes (per CE),<LegalName>,Cannot be empty - must match registered name,Company records,,,PENDING,Full legal name
+SEC1_1.3,1.3.8,GIR/CE[n]/TIN,CE TIN,Tax identification number of CE,Text,Conditional,<TIN>,Valid TIN format or NOTIN if not issued,Tax registration,,,PENDING,NOTIN acceptable
+SEC1_1.3,1.3.9,GIR/CE[n]/TINIssuedBy,CE TIN Jurisdiction,Country that issued TIN,ISO3166-Alpha2,Conditional,<TINIssuedBy>,Valid ISO code if TIN provided,Tax registration,,,PENDING,Required if TIN provided
+SEC1_1.3,1.3.10,GIR/CE[n]/Country,CE Jurisdiction,Tax jurisdiction of Constituent Entity,ISO3166-Alpha2,Yes (per CE),<Country>,Valid ISO 3166-1 alpha-2 country code,Entity database,,,PENDING,Location for GloBE
+SEC1_1.3,1.3.11,GIR/CE[n]/EntityType,CE Entity Type,Legal form - Corporation/Partnership/PE/Trust,Enum,Yes (per CE),<EntityType>,Valid GloBE entity type code,Entity database,,,PENDING,Legal classification
+SEC1_1.3,1.3.12,GIR/CE[n]/GloBEStatus,GloBE Classification,Status - UPE/CE/PE/POPE/Excluded,Enum,Yes (per CE),<GloBEStatus>,Valid GloBE status code,Entity database,,,PENDING,Determines treatment
+SEC1_1.3,1.3.13,GIR/CE[n]/Ownership,UPE Ownership %,Ultimate ownership percentage,Decimal,Yes (per CE),<Ownership>,0.00-100.00 valid percentage,Ownership records,,,PENDING,Chain calculation
+SEC1_1.3,1.3.14,GIR/CE[n]/ConsolidationMethod,Consolidation Method,How entity consolidated - Full/Equity/Proportionate,Enum,Yes (per CE),<ConsolidationMethod>,Full or Equity or Proportionate,Accounting policy,,,PENDING,Per accounting standards
+SEC1_1.3,1.3.15,GIR/CE[n]/ParentEntityID,Parent Entity ID,Entity ID of immediate parent,Text,Yes (per CE),<ParentEntityID>,Must reference valid EntityID,Entity database,,,PENDING,Ownership chain
+SEC1_1.3,1.3.16,GIR/CE[n]/DirectOwnership,Direct Ownership %,Immediate parent ownership,Decimal,Yes (per CE),<DirectOwnership>,0.00-100.00 valid percentage,Ownership records,,,PENDING,Single level
+SEC1_1.3,1.3.17,GIR/CE[n]/NACE,NACE Code,Main business activity code,Text,No,<NACECode>,Valid 4-digit NACE code if provided,Entity database,,,PENDING,Primary activity
+SEC1_1.3,1.3.18,GIR/CE[n]/LEI,Legal Entity Identifier,20-character global identifier,Text,No,<LEI>,Valid LEI format if provided,Entity database,,,PENDING,Optional identifier
+SEC1_1.3,1.3.19,GIR/CE[n]/IncorporationDate,Incorporation Date,Date entity was incorporated,Date,No,<IncorporationDate>,Valid date format,Company records,,,PENDING,For transitional rules
+SEC1_1.3,1.3.20,GIR/CE[n]/FunctionalCurrency,Functional Currency,Entity functional currency,ISO4217,Yes (per CE),<FunctionalCurrency>,Valid ISO 4217 currency code,Accounting records,,,PENDING,For translation
+,,,,,,,,,,,,,
+SECTION_1_HEADER,,,1.4 High-Level Summary,,,,,,,,,
+,,,,,,,,,,,,,
+SEC1_1.4,1.4.1,GIR/Summary/ConsolidatedRevenue,Consolidated Revenue,Total group consolidated revenue (EUR),Decimal,Yes,<ConsolidatedRevenue>,Must be >= 750000000 if in scope,CFS,,,PENDING,Threshold test
+SEC1_1.4,1.4.2,GIR/Summary/TotalAssets,Total Consolidated Assets,Total group assets (EUR),Decimal,No,<TotalAssets>,Must be >= 0,CFS,,,PENDING,Reference only
+SEC1_1.4,1.4.3,GIR/Summary/TotalEmployees,Total Employees,Worldwide employee count,Integer,No,<TotalEmployees>,Must be >= 0,HR system,,,PENDING,For UTPR allocation
+SEC1_1.4,1.4.4,GIR/Summary/AccountingStandard,Accounting Framework,IFRS or Local GAAP or US GAAP,Enum,Yes,<AccountingStandard>,Valid accounting framework,Accounting policy,,,PENDING,Affects adjustments
+SEC1_1.4,1.4.5,GIR/Summary/AuditStatus,Financial Statement Audit,Audited or Unaudited,Enum,Yes,<AuditStatus>,Audited or Unaudited,Audit records,,,PENDING,Data quality indicator
+,,,,,,,,,,,,,
+SECTION_2,,,SECTION 2: SAFE HARBOURS AND EXCLUSIONS (40+ Data Points),,,,,,,,,
+,,,,,,,,,,,,,
+SECTION_2_HEADER,,,2.1 Transitional CbCR Safe Harbour (TSH),,,,,,,,,
+,,,,,,,,,,,,,
+SEC2_TSH,2.1.1,GIR/SafeHarbour/TSH/Jurisdiction,TSH Jurisdiction,Jurisdiction for transitional safe harbour election,ISO3166-Alpha2,Conditional,<TSHJurisdiction>,Valid ISO country code - repeats per jurisdiction,Analysis,,,PENDING,Per jurisdiction
+SEC2_TSH,2.1.2,GIR/SafeHarbour/TSH/Election,TSH Election Made,Whether TSH elected for jurisdiction,Boolean,Conditional,<TSHElection>,TRUE or FALSE,Election records,,,PENDING,5-year binding
+SEC2_TSH,2.1.3,GIR/SafeHarbour/TSH/ElectionDate,TSH Election Date,Date election first made,Date,Conditional,<TSHElectionDate>,Valid date if election made,Election records,,,PENDING,Audit trail
+SEC2_TSH,2.1.4,GIR/SafeHarbour/TSH/Test,TSH Test Applied,Which test qualifies - De Minimis/Routine Profits/ETR,Enum,Conditional,<TSHTest>,DM or RP or ETR - only one needed,Calculation,,,PENDING,Any test passes
+SEC2_TSH,2.1.5,GIR/SafeHarbour/TSH/Revenue,CbCR Revenue,Revenue per CbCR for jurisdiction (EUR),Decimal,Conditional,<TSHRevenue>,Must be >= 0 - from qualified CbCR,CbCR,,,PENDING,CbCR Table 1
+SEC2_TSH,2.1.6,GIR/SafeHarbour/TSH/PBT,CbCR Profit Before Tax,PBT per CbCR for jurisdiction (EUR),Decimal,Conditional,<TSHPBT>,Can be negative - from qualified CbCR,CbCR,,,PENDING,CbCR Table 1
+SEC2_TSH,2.1.7,GIR/SafeHarbour/TSH/Tax,CbCR Tax Accrued,Tax accrued per CbCR (EUR),Decimal,Conditional,<TSHTax>,Can be negative - from qualified CbCR,CbCR,,,PENDING,CbCR Table 1
+SEC2_TSH,2.1.8,GIR/SafeHarbour/TSH/SimplifiedETR,Simplified ETR,Tax/PBT from CbCR data,Decimal,Calculated,<SimplifiedETR>,Auto-calculated percentage,Calculator,,,PENDING,Test 2 metric
+SEC2_TSH,2.1.9,GIR/SafeHarbour/TSH/TransitionRate,Transition ETR Threshold,Applicable threshold for year (15-16%),Decimal,Reference,<TransitionRate>,15% 2024-2025 then 16% 2026,Reference data,,,PENDING,Year dependent
+SEC2_TSH,2.1.10,GIR/SafeHarbour/TSH/Payroll,CbCR Payroll,Employee costs per CbCR (EUR),Decimal,Conditional,<TSHPayroll>,Must be >= 0 - from qualified CbCR,CbCR,,,PENDING,CbCR Table 1
+SEC2_TSH,2.1.11,GIR/SafeHarbour/TSH/TangibleAssets,CbCR Tangible Assets,Tangible assets per CbCR (EUR),Decimal,Conditional,<TSHTangible>,Must be >= 0 - from qualified CbCR,CbCR,,,PENDING,CbCR Table 1
+SEC2_TSH,2.1.12,GIR/SafeHarbour/TSH/SBIEAmount,SBIE for Routine Test,Substance exclusion for Test 3,Decimal,Calculated,<TSHSBIE>,Auto-calculated from CbCR data,Calculator,,,PENDING,Payroll + Tangible
+SEC2_TSH,2.1.13,GIR/SafeHarbour/TSH/DeMinimisResult,De Minimis Test Result,Revenue < EUR 10M AND PBT < EUR 1M,Boolean,Calculated,<TSHDMResult>,TRUE if both thresholds met,Calculator,,,PENDING,Test 1 result
+SEC2_TSH,2.1.14,GIR/SafeHarbour/TSH/ETRResult,Simplified ETR Test Result,ETR >= transition threshold,Boolean,Calculated,<TSHETRResult>,TRUE if ETR >= threshold,Calculator,,,PENDING,Test 2 result
+SEC2_TSH,2.1.15,GIR/SafeHarbour/TSH/RoutineResult,Routine Profits Test Result,PBT <= SBIE amount,Boolean,Calculated,<TSHRoutineResult>,TRUE if PBT <= SBIE,Calculator,,,PENDING,Test 3 result
+SEC2_TSH,2.1.16,GIR/SafeHarbour/TSH/Qualified,TSH Qualification Status,Overall TSH qualification,Boolean,Calculated,<TSHQualified>,TRUE if any test passes,Calculator,,,PENDING,Final determination
+SEC2_TSH,2.1.17,GIR/SafeHarbour/TSH/TopUpTax,Deemed Top-Up Tax,Zero if TSH qualified,Decimal,Calculated,<TSHTopUp>,0 if Qualified=TRUE else N/A,Calculator,,,PENDING,Simplified result
+,,,,,,,,,,,,,
+SECTION_2_HEADER,,,2.2 QDMTT Safe Harbour,,,,,,,,,
+,,,,,,,,,,,,,
+SEC2_QDMTT,2.2.1,GIR/SafeHarbour/QDMTT/Jurisdiction,QDMTT SH Jurisdiction,Jurisdiction claiming QDMTT safe harbour,ISO3166-Alpha2,Conditional,<QDMTTSHJurisdiction>,Must have implemented qualified QDMTT,Analysis,,,PENDING,Check IF status
+SEC2_QDMTT,2.2.2,GIR/SafeHarbour/QDMTT/Election,QDMTT SH Election,Whether QDMTT SH elected,Boolean,Conditional,<QDMTTSHElection>,TRUE or FALSE,Election records,,,PENDING,Annual election
+SEC2_QDMTT,2.2.3,GIR/SafeHarbour/QDMTT/Qualified,QDMTT Qualified Status,Confirmation QDMTT is IF-qualified,Boolean,Conditional,<QDMTTQualified>,Must be TRUE for safe harbour,IF review,,,PENDING,Peer review status
+SEC2_QDMTT,2.2.4,GIR/SafeHarbour/QDMTT/ImplementationDate,QDMTT Implementation Date,Date jurisdiction implemented QDMTT,Date,Conditional,<QDMTTImplDate>,Valid date,Reference data,,,PENDING,Effective date
+SEC2_QDMTT,2.2.5,GIR/SafeHarbour/QDMTT/Consistency,QDMTT Consistency,QDMTT consistent with GloBE rules,Boolean,Conditional,<QDMTTConsistent>,Must be TRUE for credit,Analysis,,,PENDING,Key requirement
+SEC2_QDMTT,2.2.6,GIR/SafeHarbour/QDMTT/Amount,QDMTT Amount Paid,Top-up tax paid under QDMTT (EUR),Decimal,Conditional,<QDMTTAmount>,Must be >= 0 - from local return,Local return,,,PENDING,Credit amount
+SEC2_QDMTT,2.2.7,GIR/SafeHarbour/QDMTT/FilingReference,QDMTT Filing Reference,Reference to local QDMTT filing,Text,Conditional,<QDMTTRef>,Filing reference number,Local filing,,,PENDING,Audit trail
+,,,,,,,,,,,,,
+SECTION_2_HEADER,,,2.3 Transitional UTPR Safe Harbour,,,,,,,,,
+,,,,,,,,,,,,,
+SEC2_UTPR,2.3.1,GIR/SafeHarbour/UTPR/Election,UTPR SH Election,Whether transitional UTPR SH elected,Boolean,Conditional,<UTPRSHElection>,TRUE or FALSE - transitional only,Election records,,,PENDING,Initial periods
+SEC2_UTPR,2.3.2,GIR/SafeHarbour/UTPR/UPEJurisdiction,UPE Jurisdiction,Location of UPE for UTPR SH,ISO3166-Alpha2,Conditional,<UPEJurisdiction>,Valid ISO country code,Entity database,,,PENDING,Rate verification
+SEC2_UTPR,2.3.3,GIR/SafeHarbour/UTPR/CITRate,UPE Jurisdiction CIT Rate,Corporate tax rate in UPE jurisdiction,Decimal,Conditional,<UPECITRate>,Must be >= 20% for safe harbour,Tax research,,,PENDING,20% threshold
+SEC2_UTPR,2.3.4,GIR/SafeHarbour/UTPR/Qualified,UTPR SH Qualification,Whether UTPR SH applies,Boolean,Calculated,<UTPRSHQualified>,TRUE if CIT >= 20%,Calculator,,,PENDING,Rate test
+,,,,,,,,,,,,,
+SECTION_2_HEADER,,,2.4 Excluded Entities and Jurisdictions,,,,,,,,,
+,,,,,,,,,,,,,
+SEC2_EXCL,2.4.1,GIR/Exclusions/GovernmentEntity,Government Entity Exclusion,Article 1.5.1 exclusion claimed,Boolean,No,<ExclGovt>,TRUE if government entities excluded,Legal analysis,,,PENDING,Per model rules
+SEC2_EXCL,2.4.2,GIR/Exclusions/InternationalOrg,International Org Exclusion,Article 1.5.2 exclusion claimed,Boolean,No,<ExclIntlOrg>,TRUE if intl orgs excluded,Legal analysis,,,PENDING,Per model rules
+SEC2_EXCL,2.4.3,GIR/Exclusions/NonProfit,Non-Profit Exclusion,Article 1.5.3 exclusion claimed,Boolean,No,<ExclNonProfit>,TRUE if non-profits excluded,Legal analysis,,,PENDING,Per model rules
+SEC2_EXCL,2.4.4,GIR/Exclusions/PensionFund,Pension Fund Exclusion,Article 1.5.4 exclusion claimed,Boolean,No,<ExclPension>,TRUE if pension funds excluded,Legal analysis,,,PENDING,Per model rules
+SEC2_EXCL,2.4.5,GIR/Exclusions/InvestmentFund,Investment Fund Exclusion,Article 1.5.5 exclusion claimed,Boolean,No,<ExclInvFund>,TRUE if investment funds excluded,Legal analysis,,,PENDING,Per model rules
+SEC2_EXCL,2.4.6,GIR/Exclusions/REIV,Real Estate Vehicle Exclusion,Article 1.5.6 exclusion claimed,Boolean,No,<ExclREIV>,TRUE if REIVs excluded,Legal analysis,,,PENDING,Per model rules
+SEC2_EXCL,2.4.7,GIR/Exclusions/MinorityOwned,Minority-Owned CE Exclusion,Less than 30% ownership exclusion,Boolean,No,<ExclMinority>,TRUE if minority CEs excluded,Ownership analysis,,,PENDING,< 30% ownership
+SEC2_EXCL,2.4.8,GIR/Exclusions/DeMinimis,De Minimis Exclusion,Jurisdiction de minimis exclusion,Boolean,No,<ExclDeMinimis>,TRUE if Rev < EUR 10M and PBT < EUR 1M,Calculation,,,PENDING,Per jurisdiction
+SEC2_EXCL,2.4.9,GIR/Exclusions/Documentation,Exclusion Documentation,Supporting documentation reference,Text,Conditional,<ExclDocRef>,File reference required if exclusions claimed,Document mgmt,,,PENDING,Audit support
+,,,,,,,,,,,,,
+SECTION_3,,,SECTION 3: GloBE COMPUTATIONS - Per Jurisdiction (400+ Data Points),,,,,,,,,
+,,,,,,,,,,,,,
+SECTION_3_HEADER,,,3.1 Jurisdiction Identification,,,,,,,,,
+,,,,,,,,,,,,,
+SEC3_3.1,3.1.1,GIR/Jurisdiction[n]/Code,Jurisdiction Code,ISO country code for computation jurisdiction,ISO3166-Alpha2,Yes,<JurisdictionCode>,Valid ISO 3166-1 alpha-2 code,Entity database,,,PENDING,Per jurisdiction
+SEC3_3.1,3.1.2,GIR/Jurisdiction[n]/Name,Jurisdiction Name,Full country name,Text,Yes,<JurisdictionName>,Standard country name,Reference data,,,PENDING,For reporting
+SEC3_3.1,3.1.3,GIR/Jurisdiction[n]/CECount,CE Count in Jurisdiction,Number of CEs in this jurisdiction,Integer,Yes,<JurisdictionCECount>,Must be >= 1,Entity database,,,PENDING,Entity count
+SEC3_3.1,3.1.4,GIR/Jurisdiction[n]/ComputationRequired,Full Computation Required,Whether Section 3 detail required,Boolean,Calculated,<CompRequired>,FALSE if safe harbour applies,Calculator,,,PENDING,SH override
+,,,,,,,,,,,,,
+SECTION_3_HEADER,,,3.2 GloBE Income Computation,,,,,,,,,
+,,,,,,,,,,,,,
+SEC3_3.2,3.2.1,GIR/Jurisdiction[n]/FANI,Financial Accounting Net Income,Starting point per consolidated accounts (EUR),Decimal,Yes,<FANI>,From consolidated financial statements,CFS,,,PENDING,Per accounts
+SEC3_3.2,3.2.2,GIR/Jurisdiction[n]/NetTaxAdj,Net Tax Expense Adjustment,Add back income tax expense (EUR),Decimal,Yes,<NetTaxAdj>,Usually positive - current plus deferred tax,CFS,,,PENDING,Remove tax P&L
+SEC3_3.2,3.2.3,GIR/Jurisdiction[n]/ExclDividends,Excluded Dividends,Qualifying dividend exclusion (EUR),Decimal,No,<ExclDividends>,Usually negative - Article 3.2.1(a),Calculation,,,PENDING,Portfolio dividends
+SEC3_3.2,3.2.4,GIR/Jurisdiction[n]/ExclEquity,Excluded Equity Gains/Losses,Portfolio shareholding exclusion (EUR),Decimal,No,<ExclEquity>,Can be positive or negative - Article 3.2.1(b),Calculation,,,PENDING,Ownership interest
+SEC3_3.2,3.2.5,GIR/Jurisdiction[n]/AsymCurrency,Asymmetric Currency Gains/Losses,FX adjustment (EUR),Decimal,No,<AsymCurrency>,Can be positive or negative - Article 3.2.1(c),Calculation,,,PENDING,Functional currency
+SEC3_3.2,3.2.6,GIR/Jurisdiction[n]/PolicyDisallowed,Policy Disallowed Expenses,Fines bribes illegal payments (EUR),Decimal,No,<PolicyDisallowed>,Usually positive - Article 3.2.1(d),Calculation,,,PENDING,Non-deductible
+SEC3_3.2,3.2.7,GIR/Jurisdiction[n]/PriorPeriod,Prior Period Errors/Adjustments,Material restatements (EUR),Decimal,No,<PriorPeriod>,Can be positive or negative - Article 3.2.1(e),Calculation,,,PENDING,Restatements
+SEC3_3.2,3.2.8,GIR/Jurisdiction[n]/AccruedPension,Accrued Pension Expense,Pension timing adjustment (EUR),Decimal,No,<AccruedPension>,Can be positive or negative - Article 3.2.1(f),Calculation,,,PENDING,Funding vs accrual
+SEC3_3.2,3.2.9,GIR/Jurisdiction[n]/StockComp,Stock-Based Compensation,SBC timing adjustment (EUR),Decimal,No,<StockComp>,Can be positive or negative - Article 3.2.2,Calculation,,,PENDING,Election available
+SEC3_3.2,3.2.10,GIR/Jurisdiction[n]/FairValue,Fair Value Adjustments,Mark-to-market adjustments (EUR),Decimal,No,<FairValue>,Can be positive or negative - Article 3.2.1(g),Calculation,,,PENDING,Asset revaluation
+SEC3_3.2,3.2.11,GIR/Jurisdiction[n]/IntlShipping,International Shipping Exclusion,Qualifying shipping income (EUR),Decimal,No,<IntlShipping>,Usually negative - Article 3.3,Calculation,,,PENDING,Special regime
+SEC3_3.2,3.2.12,GIR/Jurisdiction[n]/RecharIncome,Recharacterised Income,Income recharacterised (EUR),Decimal,No,<RecharIncome>,Can be positive or negative - Article 3.2.2,Calculation,,,PENDING,Anti-avoidance
+SEC3_3.2,3.2.13,GIR/Jurisdiction[n]/IntraGroup,Intra-Group Adjustments,Related party transaction adjustments (EUR),Decimal,No,<IntraGroup>,Can be positive or negative - arm's length,Calculation,,,PENDING,TP adjustments
+SEC3_3.2,3.2.14,GIR/Jurisdiction[n]/OtherAdj,Other GloBE Adjustments,All other adjustments (EUR),Decimal,No,<OtherAdj>,Can be positive or negative - catch-all,Calculation,,,PENDING,Miscellaneous
+SEC3_3.2,3.2.15,GIR/Jurisdiction[n]/GloBEIncome,Total GloBE Income,Sum of FANI plus all adjustments (EUR),Decimal,Calculated,<GloBEIncome>,Auto-calculated - can be negative (loss),Calculator,,,PENDING,Key output
+SEC3_3.2,3.2.16,GIR/Jurisdiction[n]/GloBELossCF,GloBE Loss Carryforward,Prior year GloBE losses available (EUR),Decimal,No,<GloBELossCF>,Must be >= 0 - from prior periods,Prior GIR,,,PENDING,Loss utilisation
+SEC3_3.2,3.2.17,GIR/Jurisdiction[n]/NetGloBEIncome,Net GloBE Income After Losses,GloBE Income less loss offset (EUR),Decimal,Calculated,<NetGloBEIncome>,Auto-calculated,Calculator,,,PENDING,For ETR calc
+,,,,,,,,,,,,,
+SECTION_3_HEADER,,,3.3 Adjusted Covered Taxes,,,,,,,,,
+,,,,,,,,,,,,,
+SEC3_3.3,3.3.1,GIR/Jurisdiction[n]/CurrentTax,Current Tax Expense,Per financial statements (EUR),Decimal,Yes,<CurrentTax>,From P&L - can be negative,CFS,,,PENDING,Primary input
+SEC3_3.3,3.3.2,GIR/Jurisdiction[n]/DeferredTax,Deferred Tax Expense,Per financial statements (EUR),Decimal,Yes,<DeferredTax>,From P&L - can be negative,CFS,,,PENDING,P&L movement
+SEC3_3.3,3.3.3,GIR/Jurisdiction[n]/DTACapped,DTA Adjustment to 15%,DTA capped at 15% rate (EUR),Decimal,Calculated,<DTACapped>,Auto-calculated - 15% cap,Calculator,,,PENDING,Rate adjustment
+SEC3_3.3,3.3.4,GIR/Jurisdiction[n]/DTLCapped,DTL Adjustment to 15%,DTL capped at 15% rate (EUR),Decimal,Calculated,<DTLCapped>,Auto-calculated - 15% cap,Calculator,,,PENDING,Rate adjustment
+SEC3_3.3,3.3.5,GIR/Jurisdiction[n]/DTLRecapture,DTL Recapture,5-year recapture amount (EUR),Decimal,No,<DTLRecapture>,Must be >= 0 - see DTL tracking,DTL tracker,,,PENDING,Monitoring rule
+SEC3_3.3,3.3.6,GIR/Jurisdiction[n]/CFCIn,CFC Tax Allocated In,Taxes pushed down from parent (EUR),Decimal,No,<CFCIn>,Usually positive,Calculation,,,PENDING,CFC allocation
+SEC3_3.3,3.3.7,GIR/Jurisdiction[n]/CFCOut,CFC Tax Allocated Out,Taxes pushed to subsidiaries (EUR),Decimal,No,<CFCOut>,Usually negative,Calculation,,,PENDING,CFC allocation
+SEC3_3.3,3.3.8,GIR/Jurisdiction[n]/UTPAdj,Uncertain Tax Position Adj,UTP reserve adjustments (EUR),Decimal,No,<UTPAdj>,Can be positive or negative,Tax provision,,,PENDING,Recognition changes
+SEC3_3.3,3.3.9,GIR/Jurisdiction[n]/QRTCAdj,QRTC Adjustment,Qualified refundable tax credit (EUR),Decimal,No,<QRTCAdj>,Usually positive - treated as income not tax,Calculation,,,PENDING,Article 3.2.4
+SEC3_3.3,3.3.10,GIR/Jurisdiction[n]/TaxOnExcluded,Tax on Excluded Income,Taxes on excluded income removed (EUR),Decimal,No,<TaxOnExcluded>,Usually negative,Calculation,,,PENDING,Matching principle
+SEC3_3.3,3.3.11,GIR/Jurisdiction[n]/NonCoveredTax,Non-Covered Taxes Excluded,Taxes not meeting covered tax definition (EUR),Decimal,No,<NonCoveredTax>,Usually negative,Calculation,,,PENDING,Non-income taxes
+SEC3_3.3,3.3.12,GIR/Jurisdiction[n]/CoveredTaxes,Total Adjusted Covered Taxes,Sum of tax adjustments (EUR),Decimal,Calculated,<CoveredTaxes>,Auto-calculated - ETR numerator,Calculator,,,PENDING,Key output
+,,,,,,,,,,,,,
+SECTION_3_HEADER,,,3.4 ETR Calculation,,,,,,,,,
+,,,,,,,,,,,,,
+SEC3_3.4,3.4.1,GIR/Jurisdiction[n]/ETR,Jurisdictional ETR,Covered Taxes divided by GloBE Income,Decimal,Calculated,<ETR>,Auto-calculated - can exceed 100%,Calculator,,,PENDING,Percentage
+SEC3_3.4,3.4.2,GIR/Jurisdiction[n]/ETRBelowMin,ETR Below Minimum,Whether ETR is less than 15%,Boolean,Calculated,<ETRBelowMin>,TRUE if ETR < 15%,Calculator,,,PENDING,Top-up trigger
+SEC3_3.4,3.4.3,GIR/Jurisdiction[n]/TopUpPct,Top-Up Tax Percentage,15% minus ETR if positive,Decimal,Calculated,<TopUpPct>,MAX(0 and 15% - ETR),Calculator,,,PENDING,Shortfall rate
+SEC3_3.4,3.4.4,GIR/Jurisdiction[n]/MinimumRate,Minimum Tax Rate,15% reference rate,Decimal,Reference,<MinRate>,Fixed at 15%,Reference data,,,PENDING,GloBE rate
+,,,,,,,,,,,,,
+SECTION_3_HEADER,,,3.5 Substance-Based Income Exclusion (SBIE),,,,,,,,,
+,,,,,,,,,,,,,
+SEC3_3.5,3.5.1,GIR/Jurisdiction[n]/PayrollRate,Payroll Carve-Out Rate,SBIE payroll rate per transitional schedule,Decimal,Reference,<PayrollRate>,Per SBIE rate table for fiscal year,OECD rates,,,PENDING,Year dependent
+SEC3_3.5,3.5.2,GIR/Jurisdiction[n]/TangibleRate,Tangible Asset Carve-Out Rate,SBIE asset rate per transitional schedule,Decimal,Reference,<TangibleRate>,Per SBIE rate table for fiscal year,OECD rates,,,PENDING,Year dependent
+SEC3_3.5,3.5.3,GIR/Jurisdiction[n]/EligiblePayroll,Eligible Payroll Costs,Qualifying payroll for SBIE (EUR),Decimal,Yes,<EligiblePayroll>,Must be >= 0 - defined categories only,HR/Payroll,,,PENDING,Location verified
+SEC3_3.5,3.5.4,GIR/Jurisdiction[n]/TangibleAssets,Eligible Tangible Assets,NBV of qualifying assets (EUR),Decimal,Yes,<TangibleAssets>,Must be >= 0 - PPE in jurisdiction,Fixed assets,,,PENDING,Year-end or average
+SEC3_3.5,3.5.5,GIR/Jurisdiction[n]/SBIEPayroll,SBIE - Payroll Component,Payroll rate times eligible payroll (EUR),Decimal,Calculated,<SBIEPayroll>,Auto-calculated,Calculator,,,PENDING,Carve-out 1
+SEC3_3.5,3.5.6,GIR/Jurisdiction[n]/SBIETangible,SBIE - Tangible Component,Asset rate times tangible assets (EUR),Decimal,Calculated,<SBIETangible>,Auto-calculated,Calculator,,,PENDING,Carve-out 2
+SEC3_3.5,3.5.7,GIR/Jurisdiction[n]/TotalSBIE,Total SBIE,Sum of payroll and tangible carve-outs (EUR),Decimal,Calculated,<TotalSBIE>,Auto-calculated,Calculator,,,PENDING,Total exclusion
+SEC3_3.5,3.5.8,GIR/Jurisdiction[n]/EmployeeCount,Eligible Employee Count,Number of employees for SBIE,Integer,No,<EmployeeCount>,Must be >= 0,HR system,,,PENDING,Supporting data
+,,,,,,,,,,,,,
+SECTION_3_HEADER,,,3.6 Top-Up Tax Computation,,,,,,,,,
+,,,,,,,,,,,,,
+SEC3_3.6,3.6.1,GIR/Jurisdiction[n]/ExcessProfit,Excess Profit,GloBE Income minus SBIE (EUR),Decimal,Calculated,<ExcessProfit>,MAX(0 and GloBE Income - SBIE),Calculator,,,PENDING,Tax base
+SEC3_3.6,3.6.2,GIR/Jurisdiction[n]/TopUpPreQDMTT,Top-Up Tax Before QDMTT,Top-Up % times Excess Profit (EUR),Decimal,Calculated,<TopUpPreQDMTT>,Auto-calculated,Calculator,,,PENDING,Gross top-up
+SEC3_3.6,3.6.3,GIR/Jurisdiction[n]/AdditionalTopUp,Additional Top-Up Tax,Recapture and prior period amounts (EUR),Decimal,No,<AdditionalTopUp>,Must be >= 0,Calculation,,,PENDING,True-up
+SEC3_3.6,3.6.4,GIR/Jurisdiction[n]/QDMTTOffset,QDMTT Offset,Domestic minimum tax credit (EUR),Decimal,No,<QDMTTOffset>,Must be <= Top-Up Tax,Local return,,,PENDING,Primary reduction
+SEC3_3.6,3.6.5,GIR/Jurisdiction[n]/TopUpNet,Net Top-Up Tax,After QDMTT offset (EUR),Decimal,Calculated,<TopUpNet>,Auto-calculated - for allocation,Calculator,,,PENDING,Allocable amount
+,,,,,,,,,,,,,
+SECTION_3_HEADER,,,3.7 Top-Up Tax Allocation (IIR/UTPR),,,,,,,,,
+,,,,,,,,,,,,,
+SEC3_3.7,3.7.1,GIR/Jurisdiction[n]/IIRApplicable,IIR Applicable,Whether IIR applies to this jurisdiction,Boolean,Calculated,<IIRApplicable>,TRUE if parent has qualified IIR,Analysis,,,PENDING,Priority rule
+SEC3_3.7,3.7.2,GIR/Jurisdiction[n]/IIRParent,IIR Parent Entity,Parent entity applying IIR,Text,Conditional,<IIRParent>,Entity ID of charging parent,Ownership chain,,,PENDING,Allocation target
+SEC3_3.7,3.7.3,GIR/Jurisdiction[n]/IIROwnership,IIR Ownership Percentage,Allocable share for IIR,Decimal,Calculated,<IIROwnership>,Per ownership chain calculation,Calculator,,,PENDING,Pro-rata basis
+SEC3_3.7,3.7.4,GIR/Jurisdiction[n]/IIRAllocation,IIR Allocation,Top-up allocated via IIR (EUR),Decimal,Calculated,<IIRAllocation>,Per ownership chain,Calculator,,,PENDING,Primary allocation
+SEC3_3.7,3.7.5,GIR/Jurisdiction[n]/UTPRResidual,UTPR Residual Amount,Top-up remaining after IIR (EUR),Decimal,Calculated,<UTPRResidual>,Top-Up Net minus IIR Allocation,Calculator,,,PENDING,Backstop amount
+SEC3_3.7,3.7.6,GIR/Jurisdiction[n]/UTPREmployees,UTPR Employee Count,Employees for UTPR allocation key,Integer,Conditional,<UTPREmployees>,Must be >= 0 - in UTPR jurisdictions,HR system,,,PENDING,50% weighting
+SEC3_3.7,3.7.7,GIR/Jurisdiction[n]/UTPRTangible,UTPR Tangible Assets,Assets for UTPR allocation key (EUR),Decimal,Conditional,<UTPRTangible>,Must be >= 0 - in UTPR jurisdictions,Fixed assets,,,PENDING,50% weighting
+SEC3_3.7,3.7.8,GIR/Jurisdiction[n]/UTPRKey,UTPR Allocation Key,Combined allocation percentage,Decimal,Calculated,<UTPRKey>,50% employees plus 50% assets,Calculator,,,PENDING,Blended factor
+SEC3_3.7,3.7.9,GIR/Jurisdiction[n]/UTPRAllocation,UTPR Allocation,Top-up allocated via UTPR (EUR),Decimal,Calculated,<UTPRAllocation>,UTPR Residual times UTPR Key,Calculator,,,PENDING,Backstop allocation
+SEC3_3.7,3.7.10,GIR/Jurisdiction[n]/TotalTopUp,Total Top-Up Tax,Final jurisdictional top-up (EUR),Decimal,Calculated,<TotalTopUp>,Auto-calculated,Calculator,,,PENDING,Key output
+,,,,,,,,,,,,,
+SECTION_3_HEADER,,,3.8 DTL Tracking (5-Year Rule),,,,,,,,,
+,,,,,,,,,,,,,
+SEC3_3.8,3.8.1,GIR/Jurisdiction[n]/DTL/Item[n]/Description,DTL Item Description,Description of deferred tax liability item,Text,Conditional,<DTLDescription>,Non-empty string per item,Tax provision,,,PENDING,Item detail
+SEC3_3.8,3.8.2,GIR/Jurisdiction[n]/DTL/Item[n]/OriginYear,DTL Origin Year,Year DTL item originated,Integer,Conditional,<DTLOriginYear>,Valid fiscal year,Tax provision,,,PENDING,For 5-year rule
+SEC3_3.8,3.8.3,GIR/Jurisdiction[n]/DTL/Item[n]/OriginalAmount,DTL Original Amount,Original amount when recognised (EUR),Decimal,Conditional,<DTLOriginalAmt>,Must be >= 0,Tax provision,,,PENDING,Baseline
+SEC3_3.8,3.8.4,GIR/Jurisdiction[n]/DTL/Item[n]/CurrentBalance,DTL Current Balance,Balance at period end (EUR),Decimal,Conditional,<DTLCurrentBal>,Must be >= 0,Tax provision,,,PENDING,Monitoring
+SEC3_3.8,3.8.5,GIR/Jurisdiction[n]/DTL/Item[n]/YearsRemaining,Years Before Recapture,Years until 5-year recapture,Integer,Calculated,<DTLYearsLeft>,0-5 years,Calculator,,,PENDING,Countdown
+SEC3_3.8,3.8.6,GIR/Jurisdiction[n]/DTL/Item[n]/RecaptureRequired,Recapture Required,Whether recapture triggered,Boolean,Calculated,<DTLRecaptureReq>,TRUE if YearsLeft = 0 and not reversed,Calculator,,,PENDING,Action flag
+,,,,,,,,,,,,,
+VALIDATION,,,VALIDATION DASHBOARD,,,,,,,,,
+,,,,,,,,,,,,,
+VALIDATION_HEADER,,,Section 1 Validation Checks,,,,,,,,,
+,,,,,,,,,,,,,
+VAL_SEC1,V1.1,SEC1_ALL_REQUIRED,Section 1 Complete,All required Section 1 fields populated,Boolean,Calculated,N/A,All Section 1 Required fields have values,Validation,,,PENDING,Gate check
+VAL_SEC1,V1.2,SEC1_CE_MATCH,CE Count Matches,CE details match declared count,Boolean,Calculated,N/A,Actual CE rows = Declared CECount,Validation,,,PENDING,Reconciliation
+VAL_SEC1,V1.3,SEC1_JURIS_VALID,Jurisdictions Validated,All jurisdiction codes are valid ISO codes,Boolean,Calculated,N/A,All codes in ISO 3166-1 list,Validation,,,PENDING,Data quality
+VAL_SEC1,V1.4,SEC1_TIN_VALID,TINs Validated,All TINs properly formatted or NOTIN,Boolean,Calculated,N/A,Valid format per jurisdiction or NOTIN,Validation,,,PENDING,Format check
+VAL_SEC1,V1.5,SEC1_OWNERSHIP,Ownership Totals Logical,Ownership percentages are valid,Boolean,Calculated,N/A,Direct <= 100% and UPE chain logical,Validation,,,PENDING,Chain check
+VAL_SEC1,V1.6,SEC1_HIERARCHY,Entity Hierarchy Valid,All entities trace to UPE,Boolean,Calculated,N/A,No orphan entities or circular refs,Validation,,,PENDING,Structure check
+VAL_SEC1,V1.7,SEC1_DATES,Fiscal Period Valid,Start date before end date,Boolean,Calculated,N/A,End > Start and period <= 18 months,Validation,,,PENDING,Date logic
+,,,,,,,,,,,,,
+VALIDATION_HEADER,,,Section 2 Validation Checks,,,,,,,,,
+,,,,,,,,,,,,,
+VAL_SEC2,V2.1,SEC2_SH_VALID,Safe Harbour Elections Valid,All SH elections properly documented,Boolean,Calculated,N/A,If elected then required data complete,Validation,,,PENDING,Documentation
+VAL_SEC2,V2.2,SEC2_TSH_CALC,TSH Test Results Correct,Transitional SH calculations accurate,Boolean,Calculated,N/A,Recalculated result = Reported result,Validation,,,PENDING,Math check
+VAL_SEC2,V2.3,SEC2_QDMTT_VALID,QDMTT SH Jurisdictions Valid,QDMTT SH only for qualified QDMTTs,Boolean,Calculated,N/A,Jurisdiction on IF qualified list,Validation,,,PENDING,Eligibility
+VAL_SEC2,V2.4,SEC2_UTPR_VALID,UTPR SH Rate Valid,UPE jurisdiction CIT >= 20%,Boolean,Calculated,N/A,Rate >= 20% if elected,Validation,,,PENDING,Threshold check
+VAL_SEC2,V2.5,SEC2_EXCL_DOC,Exclusion Documentation,Exclusions have supporting docs,Boolean,Calculated,N/A,If exclusion claimed then doc ref provided,Validation,,,PENDING,Audit trail
+,,,,,,,,,,,,,
+VALIDATION_HEADER,,,Section 3 Validation Checks,,,,,,,,,
+,,,,,,,,,,,,,
+VAL_SEC3,V3.1,SEC3_INCOME_CALC,GloBE Income Calculated,All jurisdictional totals calculated,Boolean,Calculated,N/A,All GloBE Income fields have values,Validation,,,PENDING,Completeness
+VAL_SEC3,V3.2,SEC3_TAX_CALC,Covered Taxes Calculated,All covered tax totals calculated,Boolean,Calculated,N/A,All Covered Tax fields have values,Validation,,,PENDING,Completeness
+VAL_SEC3,V3.3,SEC3_ETR_CHECK,ETR Calculation Verified,ETR = Covered Taxes / GloBE Income,Boolean,Calculated,N/A,Formula verified for all jurisdictions,Validation,,,PENDING,Math check
+VAL_SEC3,V3.4,SEC3_SBIE_RATES,SBIE Rates Correct,SBIE uses correct transitional rates,Boolean,Calculated,N/A,Rates match SBIE table for fiscal year,Validation,,,PENDING,Rate lookup
+VAL_SEC3,V3.5,SEC3_TOPUP_POS,Top-Up Tax Non-Negative,No negative top-up tax amounts,Boolean,Calculated,N/A,All Top-Up >= 0,Validation,,,PENDING,Sign check
+VAL_SEC3,V3.6,SEC3_ALLOC_COMPLETE,IIR/UTPR Allocation Complete,All top-up tax allocated,Boolean,Calculated,N/A,IIR + UTPR = Total Top-Up,Validation,,,PENDING,Reconciliation
+VAL_SEC3,V3.7,SEC3_DTL_TRACK,DTL Tracking Updated,5-year DTL items monitored,Boolean,Calculated,N/A,All tracked DTLs have current status,Validation,,,PENDING,Monitoring
+VAL_SEC3,V3.8,SEC3_SBIE_LIMIT,SBIE Not Exceeding Income,SBIE <= GloBE Income check,Boolean,Calculated,N/A,If SBIE > Income then Excess Profit = 0,Validation,,,PENDING,Logic check
+,,,,,,,,,,,,,
+VALIDATION_HEADER,,,Cross-Section Validation,,,,,,,,,
+,,,,,,,,,,,,,
+VAL_CROSS,V4.1,CROSS_ENTITY_MATCH,Section 1-3 Entity Match,All Section 3 entities in Section 1,Boolean,Calculated,N/A,No orphan entities in Section 3,Validation,,,PENDING,Cross-check
+VAL_CROSS,V4.2,CROSS_CURRENCY,Currency Consistency,All amounts in reporting currency,Boolean,Calculated,N/A,Single currency used throughout,Validation,,,PENDING,Consistency
+VAL_CROSS,V4.3,CROSS_PERIOD,Fiscal Year Alignment,All data for same fiscal period,Boolean,Calculated,N/A,Consistent period across all sections,Validation,,,PENDING,Period check
+VAL_CROSS,V4.4,CROSS_SH_EXCL,Safe Harbour Exclusions,SH jurisdictions excluded from Section 3,Boolean,Calculated,N/A,No detailed calcs for SH jurisdictions,Validation,,,PENDING,No duplication
+VAL_CROSS,V4.5,CROSS_JURIS_COUNT,Jurisdiction Count Match,Declared count matches actual,Boolean,Calculated,N/A,JurisdictionCount = distinct Section 3 jurisdictions,Validation,,,PENDING,Reconciliation
+,,,,,,,,,,,,,
+VALIDATION_HEADER,,,XML Schema Compliance,,,,,,,,,
+,,,,,,,,,,,,,
+VAL_XML,V5.1,XML_SCHEMA,XML Schema Compliance,Data matches OECD XSD requirements,Boolean,Calculated,N/A,All elements conform to schema v2.0,Validation,,,PENDING,Technical check
+VAL_XML,V5.2,XML_MANDATORY,Mandatory Elements Present,All required XML elements populated,Boolean,Calculated,N/A,No missing required elements,Validation,,,PENDING,Completeness
+VAL_XML,V5.3,XML_DATATYPE,Data Type Compliance,All values match schema data types,Boolean,Calculated,N/A,Correct formats for all fields,Validation,,,PENDING,Format check
+VAL_XML,V5.4,XML_ENUM_VALID,Enumeration Values Valid,All codes from valid lists,Boolean,Calculated,N/A,All enum values in schema enumeration,Validation,,,PENDING,Code check
+VAL_XML,V5.5,XML_SPECIAL_CHARS,Special Characters Handled,No invalid XML characters,Boolean,Calculated,N/A,XML-safe encoding applied,Validation,,,PENDING,Encoding check
+,,,,,,,,,,,,,
+SUMMARY,,,CALCULATION SUMMARY,,,,,,,,,
+,,,,,,,,,,,,,
+SUMMARY_HEADER,,,Group-Level Totals,,,,,,,,,
+,,,,,,,,,,,,,
+SUM_01,S1,TOTAL_CEs,Total Constituent Entities,Count of all CEs in group,Integer,Calculated,N/A,Count from Section 1,Calculator,,0,PENDING,Entity count
+SUM_02,S2,TOTAL_JURISDICTIONS,Total Jurisdictions,Count of jurisdictions with CEs,Integer,Calculated,N/A,Distinct jurisdiction count,Calculator,,0,PENDING,Geographic spread
+SUM_03,S3,TOTAL_GLOBE_INCOME,Total GloBE Income,Group-wide GloBE income (EUR),Decimal,Calculated,N/A,Sum all jurisdictions,Calculator,,0,PENDING,Income base
+SUM_04,S4,TOTAL_COVERED_TAXES,Total Covered Taxes,Group-wide covered taxes (EUR),Decimal,Calculated,N/A,Sum all jurisdictions,Calculator,,0,PENDING,Tax base
+SUM_05,S5,WEIGHTED_ETR,Weighted Average ETR,Group ETR (reference only),Decimal,Calculated,N/A,Total Taxes / Total Income,Calculator,,0.00%,PENDING,Indicative only
+SUM_06,S6,TOTAL_SBIE,Total SBIE,Group-wide substance exclusion (EUR),Decimal,Calculated,N/A,Sum all jurisdictions,Calculator,,0,PENDING,Carve-out total
+SUM_07,S7,TOTAL_EXCESS_PROFIT,Total Excess Profit,Group-wide excess profit (EUR),Decimal,Calculated,N/A,Sum all jurisdictions,Calculator,,0,PENDING,Top-up base
+SUM_08,S8,TOTAL_TOPUP_PRE_QDMTT,Total Top-Up Tax Pre-QDMTT,Before QDMTT offset (EUR),Decimal,Calculated,N/A,Sum all jurisdictions,Calculator,,0,PENDING,Gross liability
+SUM_09,S9,TOTAL_QDMTT_OFFSET,Total QDMTT Offset,QDMTT credits applied (EUR),Decimal,Calculated,N/A,Sum all jurisdictions,Calculator,,0,PENDING,Primary offset
+SUM_10,S10,TOTAL_NET_TOPUP,Total Net Top-Up Tax,Final group top-up liability (EUR),Decimal,Calculated,N/A,Sum all jurisdictions,Calculator,,0,PENDING,Key output
+SUM_11,S11,TOTAL_IIR,Total IIR Allocation,Top-up via Income Inclusion Rule (EUR),Decimal,Calculated,N/A,Sum IIR allocations,Calculator,,0,PENDING,Primary mechanism
+SUM_12,S12,TOTAL_UTPR,Total UTPR Allocation,Top-up via Undertaxed Profits Rule (EUR),Decimal,Calculated,N/A,Sum UTPR allocations,Calculator,,0,PENDING,Backstop amount
+SUM_13,S13,JURISDICTIONS_BELOW_MIN,Jurisdictions Below 15%,Count of low-tax jurisdictions,Integer,Calculated,N/A,Count where ETR < 15%,Calculator,,0,PENDING,Risk indicator
+SUM_14,S14,SAFE_HARBOUR_COUNT,Safe Harbour Jurisdictions,Count using safe harbours,Integer,Calculated,N/A,TSH + QDMTT SH + UTPR SH count,Calculator,,0,PENDING,Simplification
+SUM_15,S15,VALIDATION_STATUS,Overall Validation Status,GIR validation status,Enum,Calculated,N/A,PASS if all validations pass else FAIL,Calculator,,INCOMPLETE,PENDING,Gate status
+,,,,,,,,,,,,,
+SBIE_RATES,,,SBIE TRANSITIONAL RATE TABLE (Article 5.3),,,,,,,,,
+,,,,,,,,,,,,,
+SBIE_RATES_HEADER,,,Year,Description,Payroll Rate,Tangible Rate,Authority,,,,,
+,,,,,,,,,,,,,
+RATE_2024,FY2024,2024,Fiscal years beginning in 2024,9.80%,7.80%,OECD Model Rules Article 5.3.3,,,,,,,
+RATE_2025,FY2025,2025,Fiscal years beginning in 2025,9.60%,7.60%,OECD Model Rules Article 5.3.3,,,,,,,
+RATE_2026,FY2026,2026,Fiscal years beginning in 2026,9.40%,7.40%,OECD Model Rules Article 5.3.3,,,,,,,
+RATE_2027,FY2027,2027,Fiscal years beginning in 2027,9.20%,7.20%,OECD Model Rules Article 5.3.3,,,,,,,
+RATE_2028,FY2028,2028,Fiscal years beginning in 2028,9.00%,7.00%,OECD Model Rules Article 5.3.3,,,,,,,
+RATE_2029,FY2029,2029,Fiscal years beginning in 2029,8.20%,6.60%,OECD Model Rules Article 5.3.3,,,,,,,
+RATE_2030,FY2030,2030,Fiscal years beginning in 2030,7.40%,6.20%,OECD Model Rules Article 5.3.3,,,,,,,
+RATE_2031,FY2031,2031,Fiscal years beginning in 2031,6.60%,5.80%,OECD Model Rules Article 5.3.3,,,,,,,
+RATE_2032,FY2032,2032,Fiscal years beginning in 2032,5.80%,5.40%,OECD Model Rules Article 5.3.3,,,,,,,
+RATE_2033,FY2033,2033+,Fiscal years beginning 2033 and later,5.00%,5.00%,OECD Model Rules Article 5.3.3 - Final rates,,,,,,,
+,,,,,,,,,,,,,
+TSH_RATES,,,TRANSITIONAL SAFE HARBOUR ETR THRESHOLDS,,,,,,,,,
+,,,,,,,,,,,,,
+TSH_RATES_HEADER,,,Year,ETR Threshold,De Minimis Revenue,De Minimis PBT,Authority,,,,,
+,,,,,,,,,,,,,
+TSH_2024,TSH2024,2024,15.00%,EUR 10M,EUR 1M,OECD Administrative Guidance,,,,,,,
+TSH_2025,TSH2025,2025,15.00%,EUR 10M,EUR 1M,OECD Administrative Guidance,,,,,,,
+TSH_2026,TSH2026,2026,16.00%,EUR 10M,EUR 1M,OECD Administrative Guidance - final year,,,,,,,
+,,,,,,,,,,,,,
+FORMULA_REFERENCE,,,KEY CALCULATION FORMULAS,,,,,,,,,
+,,,,,,,,,,,,,
+FORMULA_01,F1,ETR,Jurisdictional ETR,Adjusted Covered Taxes / GloBE Income,Percentage,Calculated,,Result rounded to 4 decimal places,,,,,
+FORMULA_02,F2,TOPUP_PCT,Top-Up Tax Percentage,MAX(0 and 15% - ETR),Percentage,Calculated,,Cannot be negative,,,,,
+FORMULA_03,F3,SBIE,Total SBIE,(Payroll x Payroll Rate) + (Tangible x Tangible Rate),Currency,Calculated,,Use rates per fiscal year,,,,,
+FORMULA_04,F4,EXCESS_PROFIT,Excess Profit,MAX(0 and GloBE Income - SBIE),Currency,Calculated,,Floor at zero,,,,,
+FORMULA_05,F5,TOPUP_TAX,Top-Up Tax,(Top-Up % x Excess Profit) + Additional - QDMTT,Currency,Calculated,,Final allocable amount,,,,,
+FORMULA_06,F6,IIR_ALLOC,IIR Allocation,Top-Up Tax x Parent Ownership %,Currency,Calculated,,Per ownership chain,,,,,
+FORMULA_07,F7,UTPR_KEY,UTPR Allocation Key,(50% x Employee %) + (50% x Asset %),Percentage,Calculated,,Blended factor,,,,,
+FORMULA_08,F8,UTPR_ALLOC,UTPR Allocation,UTPR Residual x UTPR Key,Currency,Calculated,,After IIR,,,,,
+,,,,,,,,,,,,,
+SOURCES,,,REFERENCE SOURCES AND AUTHORITY,,,,,,,,,
+,,,,,,,,,,,,,
+SOURCE_01,R1,OECD Model Rules,Tax Challenges Arising from Digitalisation - Model Rules,December 2021 with subsequent amendments,,,,,,,,
+SOURCE_02,R2,OECD Commentary,Commentary to the Model GloBE Rules,March 2022,,,,,,,,
+SOURCE_03,R3,OECD Admin Guidance,Administrative Guidance on the GloBE Rules,February 2023 July 2023 December 2023 June 2024,,,,,,,,
+SOURCE_04,R4,OECD GIR Template,GloBE Information Return Template,January 2025 version,,,,,,,,
+SOURCE_05,R5,OECD XML Schema,GIR XML Schema Documentation,Version 2.0 January 2025,,,,,,,,
+SOURCE_06,R6,OECD User Guide,Draft User Guide for GIR XML Schema,Public consultation 2024,,,,,,,,
