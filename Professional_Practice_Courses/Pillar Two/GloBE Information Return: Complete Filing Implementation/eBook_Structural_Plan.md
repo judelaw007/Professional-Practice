@@ -809,159 +809,67 @@ United Kingdom, Germany, Netherlands, France, Italy, Spain, Ireland, Luxembourg,
 
 ---
 
-# APPENDICES
-**Pages: 60-80 | Reference materials**
+# APPENDIX: PRACTICAL TOOLS LIBRARY
+**Pages: 15-20 | Ready-to-use deliverables**
+
+> **Note:** This appendix contains only practical, non-redundant tools that complement the main chapters. Materials originally planned for Appendices B-F (Forms Package, Deadline Calendar, Resource Links, Worked Examples, Quick Reference) are already comprehensively covered within the relevant chapters:
+> - **Forms & XML Schema** → Chapter 6 (XML Generation)
+> - **Deadline Calendar** → Included in Section 1 below
+> - **Resource Links** → Chapter 13 (Essential Resources)
+> - **Worked Examples** → Chapter 10 (Case Studies with GlobalCo plc)
+> - **Quick Reference** → Section 2 (Quick Reference Overview) and Data Point Tracker
 
 ---
 
-## Appendix A: Complete Template Library
+## 1. Excel Calculators & Trackers (5 tools)
 
-### A.1 Excel Tools Package
-- **GIR Data Point Tracker** (~480 data points across 3 sections with source mapping)
-- **GIR Completion Calculator** (Sections 1-3 with validation per January 2025 OECD template)
-- **Constituent Entity Database Template**
-- **Multi-Jurisdiction Deadline Calendar** (with iCal export)
-- **GIR-to-Tax Calculation Reconciliation Tool**
-- **Jurisdiction Comparison Matrix**
-- **Multi-Jurisdiction Filing Tracker**
-- **Resource Planning Worksheet**
-- **Implementation Gantt Chart**
-- **Penalty Calculator by Jurisdiction**
+| Tool | Description | Key Features |
+|------|-------------|--------------|
+| **GIR Data Point Tracker** | Master inventory of all ~480 GIR data points | Source mapping, completion tracking, Section 1-3 coverage |
+| **GIR Completion Calculator** | Core working tool for GIR Sections 1-3 | January 2025 OECD schema, built-in validation, ETR calculations |
+| **Multi-Jurisdiction Deadline Calendar** | Consolidated deadline tracker | 25+ jurisdictions, alert system, extension tracking |
+| **GIR-to-Tax Reconciliation Tool** | Reconcile GIR to tax provision | Variance analysis, adjustment documentation |
+| **Penalty Calculator by Jurisdiction** | Estimate penalty exposure | 15+ jurisdictions, mitigation factors, transitional relief |
 
-### A.2 Word Templates Package
-- **Designated Filing Entity Election Documentation**
-- **Data Request Memo for Internal Teams**
-- **GIR Filing Confirmation Record Template**
-- **Amendment Request Documentation**
-- **Board/Management Briefing Memo**
-- **External Auditor Notification Letter**
-- **Audit File Index Template**
-- **Safe Harbour Election Documentation**
-
-### A.3 Checklists Package (PDF/Excel)
-- **Pre-Filing Data Verification Checklist** (50+ checkpoints)
-- **XML Validation Checklist** (25 checkpoints)
-- **Multi-Jurisdiction Filing Coordination Checklist**
-- **Post-Filing Confirmation Checklist**
-- **Audit Readiness Checklist**
-- **Go-Live Checklist** (35 checkpoints)
-- **Year-2+ Annual Update Checklist**
-- **Data Quality Assurance Checklist**
+**Folder:** `/Appendix_Practical_Tools_Library/1_Excel_Calculators/`
 
 ---
 
-## Appendix B: Forms Package
+## 2. Communication Templates (5 templates)
 
-### B.1 OECD GIR XML Schema
-- Current schema version with download link
-- Schema documentation
-- Element reference guide
+| Template | Purpose | Format |
+|----------|---------|--------|
+| **Data Request Memo for Internal Teams** | Request data from Finance, HR, Fixed Assets teams | Word (.docx) |
+| **Board/Management Briefing Memo** | Executive summary of GIR filing status and obligations | Word (.docx) |
+| **External Auditor Notification Letter** | Formal notification to external auditors of GIR filing | Word (.docx) |
+| **GIR Filing Confirmation Record** | Document filing confirmations and reference numbers | Word (.docx) |
+| **Audit File Index Template** | Organize and index audit documentation | Word (.docx) |
 
-### B.2 Sample Completed GIR Sections
-- Section 1: MNE Group Information annotated example (50+ data points)
-- Section 1: Corporate Structure annotated example (complex multi-tier ownership)
-- Section 2: Safe Harbours and Exclusions annotated example
-- Section 3: GloBE Computations annotated example (multi-jurisdiction ETR calculation)
-- Section 3: Top-Up Tax Allocation annotated example
-
-### B.3 Jurisdiction-Specific Forms
-- DFE election forms by jurisdiction
-- Local filing forms where required
-- Amendment request forms
+**Folder:** `/Appendix_Practical_Tools_Library/2_Communication_Templates/`
 
 ---
 
-## Appendix C: Deadline Calendar
+## 3. Supplementary Checklists (2 checklists)
 
-### C.1 Master Deadline Calendar
-- Excel file with all deadlines by jurisdiction
-- Sortable by deadline date
-- Filterable by jurisdiction
-- Status tracking columns
+| Checklist | Description | Checkpoints |
+|-----------|-------------|-------------|
+| **Post-Filing Confirmation Checklist** | Track confirmations across multiple jurisdictions | 40 items |
+| **Year-2+ Annual Update Checklist** | Annual refresh cycle with year-over-year comparison | 36 tasks |
 
-### C.2 iCal/Google Calendar Export
-- Downloadable calendar file
-- Import instructions for Outlook, Google, Apple
-- Reminder configuration guidance
+**Folder:** `/Appendix_Practical_Tools_Library/3_Supplementary_Checklists/`
 
-### C.3 Multi-Year Calendar (2025-2028)
-- Recurring deadline projections
-- Extension deadline tracking
-- Amendment window tracking
+> **Note on Checklists:** Detailed checklists for Pre-Filing Data Verification (55 checkpoints), XML Validation (25 checkpoints), Multi-Jurisdiction Filing Coordination, Go-Live (35 checkpoints), Data Quality Assurance (55 checkpoints), and Audit Readiness are embedded directly within their respective chapters (Sections 4.3, 6.3, 7.1, 11.2, 14.4) in print-ready markdown format.
 
 ---
 
-## Appendix D: Resource Links (Live Document)
+## Appendix Summary
 
-### D.1 Government Portal Links
-- Organized by jurisdiction
-- Last verified date
-- Backup links where available
-
-### D.2 OECD Document Links
-- Model Rules
-- Commentary
-- Administrative Guidance (all releases)
-- XML Schema
-
-### D.3 Validation Tool Links
-- Official validators
-- Third-party tools
-- Testing environments
-
----
-
-## Appendix E: Comprehensive Worked Example
-
-### E.1 Fact Pattern
-- GlobalCo plc: UK-headquartered MNE
-- €15 billion consolidated revenue
-- 120 constituent entities
-- 25 jurisdictions
-- Fiscal year ending December 31, 2025
-
-### E.2 Complete Data Gathering Demonstration
-- Data point tracker fully populated
-- ERP extraction examples
-- Gap analysis and resolution
-
-### E.3 All Three GIR Sections Completed
-- Full Sections 1-3 with commentary (per January 2025 OECD template)
-- Validation check results
-- Error resolution demonstration
-
-### E.4 XML Generation and Validation
-- Generated XML file (sample)
-- Validation report
-- Error correction examples
-
-### E.5 Filing Documentation
-- DFE election package
-- Multi-jurisdiction filing tracker
-- Confirmation documentation
-
----
-
-## Appendix F: Quick Reference Materials
-
-### F.1 One-Page GIR Process Map
-- Visual workflow from data to filing
-- Desk reference format
-
-### F.2 GIR Field Reference Card
-- All ~480 fields by section (Section 1, 2, 3)
-- Data type and format requirements
-- Common error alerts
-
-### F.3 Acronym and Terminology Guide
-- GIR-specific terms
-- Pillar Two terminology
-- Technical XML terms
-
-### F.4 Emergency Contact Directory
-- Tax authority help desks
-- Portal technical support
-- OECD contact information
+| Section | Items | Total Files |
+|---------|-------|-------------|
+| 1. Excel Calculators & Trackers | 5 | 5 .xlsx |
+| 2. Communication Templates | 5 | 5 .docx |
+| 3. Supplementary Checklists | 2 | 2 .xlsx |
+| **Total** | **12** | **12 files** |
 
 ---
 
