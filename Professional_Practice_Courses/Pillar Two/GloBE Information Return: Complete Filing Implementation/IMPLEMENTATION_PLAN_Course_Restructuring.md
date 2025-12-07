@@ -26,26 +26,34 @@ This implementation plan provides a phased approach to restructuring the "GloBE 
 
 **Duration:** 1-2 hours
 
-### Tasks
+**STATUS: COMPLETED**
 
-1. **Archive Current Appendix Files**
-   - The `Appendices/Archive/` folder already exists
-   - Move contents of `Appendices/Appendix_Practical_Tools_Library/` to `Archive/`
-   - This preserves all Excel/Word files for reference
+### Completed Actions
 
-2. **Create Backup of Current Course**
-   - Create a dated backup of the entire course folder
-   - Document the current structure for reference
+1. **Archived Current Appendix Files**
+   - Moved `Appendices/Appendix_Practical_Tools_Library/` to `Appendices/Archive/`
+   - All Excel/Word files preserved for reference
 
-3. **Document What Exists**
-   - List all Excel tools and their purposes
-   - List all Word templates and their purposes
-   - This becomes the source for tool specifications
+2. **Created New Case Study Structure**
+   - Created 5 case study folders matching Section 10 scenarios
+   - Added README.md explaining new structure
+
+3. **Folder Structure Now:**
+   ```
+   Appendices/
+   ├── README.md (new - explains structure)
+   ├── Archive/ (contains all original templates)
+   ├── Case_Study_1_GlobalTech_First_Filing/
+   ├── Case_Study_2_Complex_Ownership/
+   ├── Case_Study_3_Data_Gap_Challenges/
+   ├── Case_Study_4_Multi_QDMTT_Jurisdictions/
+   └── Case_Study_5_Amendment_Required/
+   ```
 
 ### Verification
-- [ ] All files safely archived
-- [ ] No files deleted
-- [ ] Current structure documented
+- [x] All files safely archived
+- [x] No files deleted
+- [x] New case study structure created
 
 ---
 
@@ -55,77 +63,39 @@ This implementation plan provides a phased approach to restructuring the "GloBE 
 
 **Duration:** 2-3 hours
 
+**STATUS: COMPLETED**
+
+### Tools Added to TOOLS-REGISTRY (2).csv
+
+The following tools have been specified in the central Tools Registry:
+
+| Tool_ID | Tool_Name | Form | Chapter Reference |
+|---------|-----------|------|-------------------|
+| GIR-001 | GIR ETR Calculator | Calculator | Section 5.4.1 (ETR Computation) |
+| GIR-002 | GIR SBIE Calculator | Calculator | Section 5.4.2 (SBIE Calculation) |
+| GIR-003 | GIR Top-Up Tax Calculator | Calculator | Section 5.4.3 (Top-up Tax) |
+| GIR-004 | Safe Harbour Qualification Tool | Assessment | Section 9.1 (CbCR Safe Harbour) |
+
+### Tool-to-Case Study Mapping
+
+| Tool | Case Study | Expected Outcome (Ireland) |
+|------|------------|---------------------------|
+| GIR-001 | Case Study 1: GlobalTech | ETR = 11.59% |
+| GIR-002 | Case Study 1: GlobalTech | SBIE = €3,188,000 |
+| GIR-003 | Case Study 1: GlobalTech | Top-up Tax = €1,010,000 |
+| GIR-004 | Case Study 1: GlobalTech | Ireland = FAIL (requires full calculation) |
+
 ### Understanding the Course Developer's Role
 
 The Course Developer:
-- **Specifies** what tools are needed
+- **Specifies** what tools are needed (in TOOLS-REGISTRY CSV)
 - **Writes** tool specifications (purpose, inputs, outputs)
 - **Does NOT** build the tools (App Developer does that)
 
-### Tools to Specify
-
-Based on the current Excel tools, identify demo tools needed:
-
-| Current Excel Tool | Proposed Demo Tool | Priority |
-|--------------------|-------------------|----------|
-| GIR Completion Calculator | GIR Section 1-3 Practice Tool | HIGH |
-| GIR Data Point Tracker | Not needed as tool (reference content) | N/A |
-| Multi-Jurisdiction Deadline Calendar | GIR Deadline Lookup Tool | MEDIUM |
-| GIR-to-Tax Reconciliation Tool | GIR Reconciliation Practice Tool | MEDIUM |
-| Penalty Calculator by Jurisdiction | Penalty Estimator Tool | LOW |
-
-### Tool Specification Template
-
-For each tool needed, the Course Developer writes:
-
-```
-TOOL SPECIFICATION
-==================
-
-Tool Name: [Name]
-Tool Type: Calculator / Lookup / Form Practice / etc.
-Category: Pillar Two > GIR
-
-PURPOSE:
-What specific skill does this tool help learners practice?
-
-RELATED COURSE MODULES:
-Which modules in the course will reference this tool?
-
-INPUTS:
-What data will learners enter?
-
-OUTPUTS:
-What results will the tool show?
-
-CASE STUDY CONNECTION:
-Which Appendix case study provides the practice data?
-
-EXPECTED OUTCOMES:
-What results should learners get with the sample data?
-
-WHY THIS TOOL ADDS VALUE:
-Why is hands-on practice better than just reading about it?
-```
-
-### Tasks
-
-1. **Check Tools Registry**
-   - Determine if any relevant Pillar Two tools already exist
-   - Identify reusable tools
-
-2. **Write Tool Specifications**
-   - Complete specification for each HIGH priority tool
-   - Submit to App Developer when ready
-
-3. **Map Tools to Chapters**
-   - Identify exactly where in the course each tool will be introduced
-   - Document the chapter/section references
-
 ### Verification
-- [ ] Tools Registry checked
-- [ ] Tool specifications written for priority tools
-- [ ] Tool-to-chapter mapping complete
+- [x] Tools Registry checked
+- [x] Tool specifications written in TOOLS-REGISTRY (2).csv
+- [x] Tool-to-chapter mapping complete
 
 ---
 
