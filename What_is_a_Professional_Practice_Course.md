@@ -206,12 +206,36 @@ Every Professional Practice Course includes access to **demo tools on tools.moji
 - Demo tools bridge the gap between learning concepts and applying them in practice
 - Progressive scenarios on tools help reinforce learning across the course
 
+**Introducing Tools Within Chapters:**
+When a tool is relevant to your course, **describe it within the chapter where it becomes relevant**—not in a separate tools overview section. Learners should encounter tools naturally as they learn the concepts those tools help them practice.
+
+**Example of Good Tool Introduction:**
+> "Now that you understand the ETR calculation methodology, you can practice using the QDMTT Safe Harbour Calculator on tools.mojitax.com. This demo tool lets you work through the calculations we've just covered using the GlobalCo scenario in Appendix A."
+
+**Demo Tools vs. Professional Tools:**
+It's important to clarify the difference between demo tools on the platform and tools practitioners use in professional practice:
+
+| Aspect | Demo Tools (tools.mojitax.com) | Professional Tools |
+|--------|-------------------------------|-------------------|
+| **Purpose** | Learning and practice | Real-world production use |
+| **Complexity** | Simplified for educational focus | Full-featured with all edge cases |
+| **Data** | Sample data from case studies | Actual client/company data |
+| **Output** | Practice results (not for filing) | Actual filings and deliverables |
+| **Liability** | Educational disclaimer applies | Professional responsibility applies |
+
+**When introducing a tool in your content, clarify:**
+- This is a demo tool for learning—not a replacement for professional tools
+- What the tool helps learners practice (tied to concepts just taught)
+- Where to find the relevant case study data (Appendix reference)
+- What outcome to expect (so learners can verify their practice)
+
 **Tool Integration Requirements:**
 - ✅ Identify tools needed at course design stage (not as afterthought)
 - ✅ Check Tools Registry for existing tools before requesting new ones
 - ✅ Design progressive scenarios that build on each other
 - ✅ Create Appendices with practice data and expected outcomes
-- ✅ Reference tools naturally within module content
+- ✅ Introduce and describe tools within the relevant chapter content
+- ✅ Clarify the difference between demo tools and professional tools
 
 **Example Tool Integration:**
 Instead of just explaining QDMTT safe harbour calculations:
