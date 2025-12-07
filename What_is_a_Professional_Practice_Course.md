@@ -18,13 +18,12 @@ Professional Practice Courses serve practitioners who need to:
 
 Every Professional Practice Course delivers:
 - ✅ **Implementation roadmaps** - Step-by-step processes for compliance
-- ✅ **Templates and tools** - Excel models, checklists, documentation templates ready to adapt
-- ✅ **Demo tools access** - Hands-on practice tools on tools.mojitax.com with progressive scenarios
+- ✅ **Hands-on practice** - Demo tools on tools.mojitax.com integrated with progressive case studies
 - ✅ **Forms and procedures** - Specific forms to file, where to file them, how to complete them
-- ✅ **Critical dates** - Deadline calendars, filing schedules, and planning timelines
-- ✅ **Resource directories** - Links to official government portals, tax authority guidance, free tools
+- ✅ **Critical dates** - Filing deadlines and planning timelines by jurisdiction
+- ✅ **Official resources** - Direct links to government portals, tax authority guidance, and free tools
 - ✅ **Common pitfalls** - Real challenges practitioners face and how to avoid them
-- ✅ **Progressive practice scenarios** - Storyline-based exercises that build skills across modules
+- ✅ **Case studies** - Progressive scenarios that build skills across the course
 
 ---
 
@@ -67,22 +66,31 @@ Professional Practice Courses skip definitions, history, and policy rationale. T
 
 **Example**: A course on "GloBE Information Return Compliance" would NOT explain the BEPS project history or why Pillar Two was created. It WOULD provide a 10-step filing process, show which forms to complete, identify where to find the XML schema, and include a checklist for data gathering.
 
-### 2. **Template and Tool Library**
-Every course must include **ready-to-use, adaptable templates**:
+### 2. **Practical Learning Through Content and Tools**
+Professional Practice Courses focus on **learning by doing**. When practitioners need to understand templates, forms, or processes, show them **directly in the eBook content**. When they need to practice, provide **demo tools on tools.mojitax.com** integrated with case studies.
 
-**Mandatory Templates (Minimum 3 per course):**
-- Excel calculation models with formulas pre-built
-- Word documentation templates (reports, memos, disclosures)
-- Compliance checklists with yes/no checkboxes
-- Process flowcharts showing decision points
+**How to Handle Different Needs:**
 
-**Example Templates:**
-- ✅ "QDMTT Safe Harbour Calculation Template.xlsx" - Formulas already built, just enter your data
-- ✅ "Local File Transfer Pricing Documentation Template.docx" - 40-page template with guidance notes
-- ✅ "E-Invoicing Implementation Checklist by Jurisdiction.xlsx" - Status tracker for 10 countries
-- ✅ "UTPR Allocation Calculation Worksheet.xlsx" - With substance carve-out calculator
+| Need | Approach |
+|------|----------|
+| Explain a template or form structure | Show it inline in the eBook content |
+| Demonstrate a calculation | Walk through it step-by-step in the content |
+| Let learners practice calculations | Use a tool on tools.mojitax.com with case study data |
+| Show what a completed form looks like | Include the example directly in the content |
+| Let learners practice completing forms | Use an interactive form tool with case studies |
 
-Templates should be **immediately usable** - a practitioner can download and start filling them in within minutes, not hours.
+**No Separate Downloadable Files:**
+- ❌ Don't create separate Excel or Word files for learners to download
+- ✅ Show examples and templates directly in the eBook where they're explained
+- ✅ Create tools on tools.mojitax.com where learners need to practice
+
+**When to Create a Tool:**
+Apply the Gate Question: **"If this tool didn't exist, what would the learner miss?"**
+
+Create a tool when learners need to:
+- Practice calculations with different inputs
+- Work through multi-step processes interactively
+- Apply what they've learned to case study scenarios
 
 ### 3. **Forms, Dates, and Process Mapping**
 Courses must identify **specific administrative requirements**:
@@ -198,12 +206,36 @@ Every Professional Practice Course includes access to **demo tools on tools.moji
 - Demo tools bridge the gap between learning concepts and applying them in practice
 - Progressive scenarios on tools help reinforce learning across the course
 
+**Introducing Tools Within Chapters:**
+When a tool is relevant to your course, **describe it within the chapter where it becomes relevant**—not in a separate tools overview section. Learners should encounter tools naturally as they learn the concepts those tools help them practice.
+
+**Example of Good Tool Introduction:**
+> "Now that you understand the ETR calculation methodology, you can practice using the QDMTT Safe Harbour Calculator on tools.mojitax.com. This demo tool lets you work through the calculations we've just covered using the GlobalCo scenario in Appendix A."
+
+**Demo Tools vs. Professional Tools:**
+It's important to clarify the difference between demo tools on the platform and tools practitioners use in professional practice:
+
+| Aspect | Demo Tools (tools.mojitax.com) | Professional Tools |
+|--------|-------------------------------|-------------------|
+| **Purpose** | Learning and practice | Real-world production use |
+| **Complexity** | Simplified for educational focus | Full-featured with all edge cases |
+| **Data** | Sample data from case studies | Actual client/company data |
+| **Output** | Practice results (not for filing) | Actual filings and deliverables |
+| **Liability** | Educational disclaimer applies | Professional responsibility applies |
+
+**When introducing a tool in your content, clarify:**
+- This is a demo tool for learning—not a replacement for professional tools
+- What the tool helps learners practice (tied to concepts just taught)
+- Where to find the relevant case study data (Appendix reference)
+- What outcome to expect (so learners can verify their practice)
+
 **Tool Integration Requirements:**
 - ✅ Identify tools needed at course design stage (not as afterthought)
 - ✅ Check Tools Registry for existing tools before requesting new ones
 - ✅ Design progressive scenarios that build on each other
 - ✅ Create Appendices with practice data and expected outcomes
-- ✅ Reference tools naturally within module content
+- ✅ Introduce and describe tools within the relevant chapter content
+- ✅ Clarify the difference between demo tools and professional tools
 
 **Example Tool Integration:**
 Instead of just explaining QDMTT safe harbour calculations:
@@ -243,12 +275,12 @@ Courses must explicitly identify **problems practitioners actually encounter**:
 **Challenge #1: Missing Comparable Data**
 - **Problem**: Can't find 3 independent comparables for niche intangible licensing
 - **Solution**: Document search strategy exhaustively; consider alternative methods; use secret comparables if available; explain why traditional methods aren't reliable
-- **Tools**: Search documentation template (Appendix C)
+- **Practice**: Work through Case Study 3 using the TP Search Documentation tool
 
 **Challenge #2: Group Policy Conflicts with Local Requirements**
 - **Problem**: HQ mandates standard markup, but local TP rules require market benchmarking
 - **Solution**: Prepare both analyses; document reconciliation; flag for MAP if challenged
-- **Tools**: Dual-position memo template (Appendix F)
+- **Practice**: Case Study 4 walks through this exact scenario
 
 ### 10. **Real-World Integration**
 - Uses **actual scenarios** from practice, not theoretical hypotheticals
@@ -377,45 +409,36 @@ While structure is flexible, certain elements must appear somewhere in every Pro
 - ✅ What tax authorities focus on in audits
 - ✅ How to document defensible positions
 
-### Appendices Structure
+### Appendices: Case Studies Only
 
-While course chapters are flexible, **Appendices should follow a consistent structure** across all Professional Practice Courses. This helps practitioners know where to find resources:
+Appendices in Professional Practice Courses serve one purpose: **providing case studies and practice scenarios** for use with tools.mojitax.com.
 
 ```
 APPENDICES
 
-Appendix A: Template Library
-├── All Excel calculation tools (.xlsx files)
-├── All Word documentation templates (.docx files)
-├── All checklists (PDF or Excel)
-└── All flowcharts and diagrams (PDF)
+Case Study 1: [Title - e.g., "GlobalCo's First GIR Filing"]
+├── Scenario context and company background
+├── Sample data for the case
+├── Which tool(s) to use on tools.mojitax.com
+├── Expected outcomes
+└── Learning points
 
-Appendix B: Forms Package
-├── All blank forms with links to official sources
-├── Sample completed forms (annotated)
-└── Form completion guidance
+Case Study 2: [Title - building on Case Study 1]
+├── How the scenario has evolved
+├── New data and complications
+├── Tool usage instructions
+├── Expected outcomes
+└── Learning points
 
-Appendix C: Deadline Calendar
-├── Master deadline calendar by jurisdiction [EXCEL]
-├── iCal/Google Calendar file for import
-└── Reminder system setup instructions
-
-Appendix D: Resource Directory
-├── Government portal links (organized by jurisdiction)
-├── Form download links
-├── Guidance document links
-└── Free tool links
-
-Appendix E: Practice Scenarios (for tools.mojitax.com)
-├── Progressive storyline scenarios with sample data
-├── Expected outcomes for each scenario
-└── Learning points and discussion questions
-
-Appendix F: Quick Reference
-├── Technical terms with plain English explanations
-├── Acronym decoder
-└── One-page quick reference card (for desk reference)
+[Continue as needed for the course...]
 ```
+
+**What does NOT belong in Appendices:**
+- ❌ Template libraries (use tools.mojitax.com instead)
+- ❌ Forms packages (link directly in course content)
+- ❌ Deadline calendars (integrate into content or use a tool)
+- ❌ Resource directories (embed links in relevant sections)
+- ❌ Glossaries or quick reference cards (integrate into content)
 
 ### Structure Guidance by Course Type
 
@@ -439,19 +462,17 @@ Appendix F: Quick Reference
 
 **The key principle: Let the content drive the structure, not the other way around.**
 
-### Template Integration Philosophy
+### Tool and Case Study Integration
 
-**Every major topic must include AT LEAST:**
-1. ✅ One Excel tool or calculator
-2. ✅ One process checklist
-3. ✅ One completed example or sample output
-4. ✅ Direct links to official forms or portals
+**For each major topic, consider:**
+- Does this topic benefit from hands-on practice? → If yes, integrate a tool from tools.mojitax.com
+- Can learners work through a realistic scenario? → If yes, create a case study in the Appendices
+- Are there official resources practitioners need? → If yes, link directly in the content
 
 **Example from "QDMTT Safe Harbour Calculations":**
-- Excel Tool: QDMTT_Safe_Harbour_Calculator.xlsx (pre-built formulas)
-- Checklist: QDMTT_Eligibility_Verification_Checklist.pdf (20 checkpoints)
-- Example: Completed calculation for fictional MNE with commentary
-- Links: OECD qualified jurisdiction list + jurisdiction-specific QDMTT guidance pages
+- **Tool**: QDMTT Safe Harbour Calculator on tools.mojitax.com
+- **Case Study**: "GlobalCo's QDMTT Assessment" in Appendix - provides sample data, walks through tool usage, shows expected outcomes
+- **Resources**: Links to OECD qualified jurisdiction list and jurisdiction-specific guidance embedded in content
 
 ---
 
@@ -968,316 +989,70 @@ Have a practitioner unfamiliar with the content:
 
 ---
 
-## Templates, Forms, and Tools: Non-Negotiable Standards
-
-### Every Professional Practice Course MUST Include:
-
-#### **1. Excel Calculation Tools (Minimum 2 per course)**
-
-**Purpose**: Enable practitioners to perform calculations immediately without building spreadsheets from scratch
-
-**Required Features:**
-- ✅ Pre-built formulas (no manual calculation required)
-- ✅ Clear input cells (colored differently from calculation cells)
-- ✅ Instructions tab explaining each field
-- ✅ Sample data/worked example tab
-- ✅ Error prevention (data validation, #DIV/0 checks)
-- ✅ Professional formatting (not raw spreadsheet)
-- ✅ Formulas locked (to prevent accidental deletion)
-
-**Quality Test**: Hand the Excel file to someone unfamiliar with the topic. Can they:
-- Identify where to enter their data?
-- Complete a calculation in under 10 minutes?
-- Understand the output without additional help?
-
-**Examples of Required Excel Tools:**
-- QDMTT safe harbour qualification calculator
-- UTPR top-up tax allocation model
-- E-invoicing jurisdiction comparison tracker
-- Transfer pricing return calculation worksheet
-- CBAM emissions calculation spreadsheet
-- Deadline calendar by jurisdiction
-
-#### **2. Documentation Templates (Minimum 2 per course)**
-
-**Purpose**: Provide starting point for memos, reports, and client deliverables
-
-**Required Format:**
-- ✅ Word document with professional formatting
-- ✅ [Bracketed guidance notes] explaining what goes in each section
-- ✅ Example sentences showing appropriate depth and style
-- ✅ Placeholder text (e.g., "[Client Name]", "[Tax Year]")
-- ✅ Table of contents (for multi-page templates)
-- ✅ Footnote/citation format included
-- ✅ Headers/footers with document name
-
-**Quality Test**: Can a practitioner:
-- Understand the purpose of each section?
-- Replace placeholder text with their specific information?
-- Deliver a professional product with minimal additional formatting?
-
-**Examples of Required Documentation Templates:**
-- Tax position memo (analysis and conclusion)
-- Client advisory letter
-- Management briefing on new requirement
-- Supporting documentation for filing
-- Authority response letter
-- Internal analysis memo for uncertain positions
-
-#### **3. Process Checklists (Minimum 3 per course)**
-
-**Purpose**: Ensure practitioners don't miss critical steps
-
-**Required Format:**
-- ✅ Checkbox (☐) format for completion tracking
-- ✅ 20-50 specific, actionable items
-- ✅ Organized by process stage or topic
-- ✅ Includes "N/A" option where appropriate
-- ✅ Notes/evidence column for documentation
-- ✅ Can be printed as PDF or used in Excel
-
-**Types of Checklists Needed:**
-1. **Pre-Filing Verification Checklist** - Final quality control before submission
-2. **Data Gathering Checklist** - All information needed with sources
-3. **Compliance Checklist** - All requirements to meet regulation
-
-**Quality Test**: If a practitioner uses only the checklist (no other course materials), would they:
-- Know exactly what to do at each step?
-- Catch all major errors before filing?
-- Have documentation of completion?
-
-#### **4. Forms Package with Completion Guidance**
-
-**Purpose**: Show practitioners exactly which forms to file and how to complete them
-
-**Required Components:**
-- ✅ **Exact form identification**: Form number/name, current version
-- ✅ **Where to obtain**: Direct link to official source
-- ✅ **Sample completed form**: Annotated example showing what goes in each field
-- ✅ **Line-by-line guidance**: For complex forms, explain each field
-- ✅ **Common errors**: Top mistakes in completing this form
-
-**Quality Test**: Can a practitioner:
-- Find and download the correct form?
-- Understand what information goes in each field?
-- Avoid the most common mistakes?
-
-**Example Forms Package Content:**
-```
-Form: CBAM Quarterly Declaration
-
-1. OFFICIAL FORM
-   • Name: CBAM Declaration Form
-   • Version: 2025 v1.2
-   • Download: [Direct link to EU portal]
-   • Format: Electronic submission only (no paper)
-
-2. COMPLETION GUIDE
-   • Section 1 - Importer Details: [Guidance]
-   • Section 2 - Goods Information: [Guidance]
-   • Section 3 - Embedded Emissions: [Guidance]
-   • Section 4 - Supporting Documentation: [Guidance]
-
-3. SAMPLE COMPLETED FORM
-   • Download: CBAM_Declaration_Example_Annotated.pdf
-   • Scenario: Steel importer from Turkey, Q1 2025
-   • Annotations: Yellow highlights explain each entry
-
-4. COMMON ERRORS
-   ❌ Error #1: Using wrong CN code
-   ✅ Solution: Use EU CN code lookup tool [link]
-   
-   ❌ Error #2: Incorrect emissions calculation method
-   ✅ Solution: Follow default value guidance or actual emissions protocol
-   
-   [Continue for 5-10 common errors...]
-
-5. SUBMISSION PROCESS
-   • Portal: https://cbam.ec.europa.eu
-   • Login requirements: [Details]
-   • Confirmation: Save confirmation email for 7 years
-```
-
-#### **5. Official Resource Directory (Comprehensive)**
-
-**Purpose**: Give practitioners direct access to all authoritative sources and free tools
-
-**Required Sections:**
-
-**A. Government Filing Portals**
-```
-For each jurisdiction, provide:
-• Portal name
-• URL (direct link, not homepage)
-• What you file/register here
-• How to create account/get access
-• Help desk contact (phone/email)
-• Link to user guide or tutorial
-• System requirements (browsers, software)
-```
-
-**Example:**
-```
-UK HMRC PORTAL (Making Tax Digital)
-• URL: https://www.access.service.gov.uk/login/signin/creds
-• Purpose: VAT returns, Corporation Tax, PAYE
-• Access: Government Gateway ID required [how to register link]
-• Help: 0300 200 3600 | Open M-F 8am-6pm
-• User Guide: https://www.gov.uk/guidance/making-tax-digital...
-• Requirements: Compatible software from HMRC list [link]
-```
-
-**B. Official Forms and Guidance**
-```
-For each form/guidance, provide:
-• Official name and number
-• Direct download link
-• Purpose/when to use
-• Filing deadline or frequency
-• Related forms (cross-reference)
-```
-
-**C. Free Tools and Calculators**
-```
-For each tool, provide:
-• Tool name
-• URL
-• What it calculates/does
-• When to use it
-• How to use it (brief instructions or link)
-• Limitations (what it doesn't cover)
-• Alternative tools if any
-```
-
-**Example:**
-```
-OECD AMOUNT B CALCULATOR
-• URL: https://www.oecd.org/tax/transfer-pricing/amount-b-calculator/
-• Purpose: Calculate simplified TP return for qualifying distributors
-• When: Use for baseline marketing/distribution activities if eligible
-• How: Enter revenue, jurisdiction, activity type → outputs return range
-• Limitations: Only for in-scope transactions; doesn't replace full TP analysis
-• See also: OECD Amount B Report for eligibility guidance
-```
-
-**D. Currency and Data Sources**
-```
-• Official exchange rates (central bank sources)
-• Inflation indices (government statistics)
-• Interest rate benchmarks (official sources)
-• Public company databases (free or trial options)
-• Trade databases (customs data, tariff schedules)
-```
-
-**E. Legislation and Guidance Libraries**
-```
-• Primary legislation (with direct section links)
-• Secondary regulations
-• Tax authority guidance (specific topics, not general)
-• OECD/EU official guidance
-• Treaty texts (if relevant)
-```
-
-#### **6. Deadline Calendar (Jurisdiction-Specific)**
-
-**Purpose**: Help practitioners track all relevant deadlines
-
-**Required Format:**
-- ✅ Excel spreadsheet with sortable columns
-- ✅ Columns: Jurisdiction | Deadline Date | What's Due | Where to File | Notes
-- ✅ iCal or Google Calendar export file for import
-- ✅ Color coding by urgency or type
-- ✅ Multi-year view (recurring deadlines shown)
-
-**Example Deadline Calendar Entries:**
-```
-| Jurisdiction | Date       | Requirement          | Where to File    | Notes                          |
-|-------------|-----------|---------------------|-----------------|-------------------------------|
-| UK          | Jan 31    | CBAM Q4 Report      | EU CBAM Portal  | Previous quarter's imports     |
-| Germany     | Feb 10    | Advance TP Pricing  | BZSt Portal     | Annual submission if changed   |
-| EU (All)    | Apr 30    | CBAM Q1 Report      | EU CBAM Portal  | Q1 Jan-Mar reporting          |
-| US          | May 15    | Form 5471 (CFCs)    | IRS e-file      | With corporate return          |
-| Singapore   | Nov 30    | Transfer Pricing    | IRAS Portal     | Within 30 days of FYE          |
-```
-
----
-
 ## Quality Standards for Professional Practice Courses
 
 ### Content Quality Indicators
 
 #### ✅ **Excellent Professional Practice Course**
 - ✅ **Implementation-focused**: Starts at "here's how to comply" not "here's what this is"
-- ✅ **Template-rich**: Includes minimum 6-8 ready-to-use tools (Excel, Word, checklists)
-- ✅ **Forms-specific**: Identifies exact forms with numbers, links, completion guidance
-- ✅ **Date-explicit**: All deadlines by jurisdiction in downloadable calendar
-- ✅ **Resource-comprehensive**: Direct links to 20+ official portals, guidance docs, free tools
-- ✅ **Challenge-aware**: Identifies 10+ common practical problems with solutions
+- ✅ **Examples inline**: Shows templates, forms, and calculations directly in the content
+- ✅ **Forms-specific**: Identifies exact forms with numbers, links, completion guidance shown in context
+- ✅ **Date-explicit**: All deadlines by jurisdiction clearly stated in content
+- ✅ **Resource-linked**: Direct links to official portals and guidance embedded where relevant
+- ✅ **Challenge-aware**: Identifies common practical problems with solutions
 - ✅ **Process-mapped**: Visual flowcharts showing step-by-step workflows
-- ✅ **Example-complete**: Full worked example using all templates from start to finish
+- ✅ **Tool-integrated**: Demo tools on tools.mojitax.com for hands-on practice
+- ✅ **Case study driven**: Progressive scenarios in Appendices that build skills
+- ✅ **Example-complete**: Full worked example shown in the content from start to finish
 - ✅ **Screenshot-supported**: Shows actual portal screens, forms, calculator interfaces
-- ✅ **Current**: All links verified within 30 days of launch, forms are latest versions
+- ✅ **Current**: All links verified, forms are latest versions
 
 #### ❌ **Poor Professional Practice Course**
 - ❌ Spends time on definitions, history, policy background
-- ❌ Describes what should be done but provides no tools to do it
+- ❌ Describes what should be done but doesn't show how
 - ❌ Generic content ("file the appropriate form") without specifics
 - ❌ Vague deadlines ("by year-end" vs "December 31")
-- ❌ Resources are general websites, not specific pages or tools
+- ❌ Resources are general websites, not specific pages
 - ❌ Ignores practical problems practitioners actually face
 - ❌ Text-only descriptions of processes without visual aids
-- ❌ Simplified hypotheticals that don't reflect real complexity
-- ❌ No visual examples, just descriptions
-- ❌ Links broken or outdated, forms are superseded versions
+- ❌ No hands-on practice opportunities (tools or case studies)
+- ❌ Examples described but not shown inline
+- ❌ Links broken or outdated
 
-### Mandatory Course Elements Checklist
+### Course Readiness Checklist
 
 Before a course is ready to launch, verify:
 
-**Templates and Tools (Must Have ALL):**
-- [ ] Minimum 2 Excel calculation tools with formulas
-- [ ] Minimum 2 Word documentation templates
-- [ ] Minimum 3 process checklists
-- [ ] All templates tested by someone unfamiliar with content
-- [ ] Instructions included for every tool
-- [ ] Sample/example data provided in Excel tools
+**Content Quality:**
+- [ ] Implementation-focused (no definitions or history sections)
+- [ ] Examples and templates shown inline in content (not as separate files)
+- [ ] Step-by-step processes clearly explained
+- [ ] Visual aids included (flowcharts, diagrams, screenshots)
+- [ ] Common errors and challenges addressed with solutions
 
-**Forms and Procedures (Must Have ALL):**
+**Forms and Deadlines:**
 - [ ] All required forms identified by exact name/number
-- [ ] Direct links to download each form
-- [ ] At least one sample completed form with annotations
-- [ ] Common form completion errors identified (5-10 per major form)
-- [ ] Filing/submission process described step-by-step
+- [ ] Direct links to official form sources embedded in content
+- [ ] Sample completed forms shown inline with annotations
+- [ ] Deadlines specified by jurisdiction
+- [ ] Filing/submission processes described step-by-step
 
-**Dates and Deadlines (Must Have ALL):**
-- [ ] Deadline calendar in Excel format
-- [ ] All deadlines verified against official sources
-- [ ] Deadlines specified by jurisdiction (not "generally")
-- [ ] Extension procedures identified (if available)
-- [ ] Multiple year view for recurring deadlines
+**Tools Integration (if applicable):**
+- [ ] Tools Registry checked for existing tools
+- [ ] New tools specified only where practice genuinely adds value
+- [ ] Tools deployed on tools.mojitax.com
+- [ ] Tool references integrated naturally in content
 
-**Official Resources (Must Have ALL):**
-- [ ] Government portals section with 5+ direct links
-- [ ] Official forms library with download links
-- [ ] Free tools section with 3+ calculator/database links
-- [ ] Legislation/guidance links (primary sources only)
-- [ ] Help desk contacts for major jurisdictions
-- [ ] All links tested and working within 30 days
+**Case Studies:**
+- [ ] Progressive case studies in Appendices
+- [ ] Case studies provide sample data for tool practice
+- [ ] Expected outcomes included for learner self-check
+- [ ] Case studies build on each other across the course
 
-**Practical Implementation (Must Have ALL):**
-- [ ] Step-by-step process flowchart (visual)
-- [ ] "What if" scenarios addressing 5+ common challenges
-- [ ] Common errors section (10+ mistakes and prevention)
-- [ ] Data gathering checklist with sources
-- [ ] Complete worked example using real fact pattern
-- [ ] Screenshots of portals, forms, or tools (where applicable)
-
-**Resource Organization:**
-- [ ] Appendices include all templates in ready-to-use format
-- [ ] Resource directory organized by type (portals/forms/tools)
-- [ ] One-page quick reference card created
-- [ ] Table of contents with hyperlinks (for PDF)
-- [ ] File naming convention clear (e.g., "QDMTT_Calculator.xlsx")
+**Links and Resources:**
+- [ ] Official resource links embedded where relevant in content
+- [ ] All links tested and working
+- [ ] Links point to specific pages, not general homepages
 
 ---
 
@@ -1292,7 +1067,7 @@ Before a course is ready to launch, verify:
 | **Learning Level** | Foundation to application | Application and strategy | Application to mastery | Knowledge to analysis | Knowledge/awareness |
 | **Content Structure** | Exam syllabus order | Exam question types | Practice workflow | Academic logic | Topic highlights |
 | **Assessment** | Mock exams | Exam simulation | CPE quiz (optional) | University exams | None typically |
-| **Tools Provided** | Study summaries | Templates and checklists | Templates, models, examples | Problem sets | Slide deck |
+| **Tools Provided** | Study summaries | Templates and checklists | Demo tools + case studies | Problem sets | Slide deck |
 | **Update Frequency** | When exam changes | When exam changes | When regulations change | Occasional revisions | Event-specific |
 | **Certification** | Leads to qualification | Supports qualification | CPE/CPD credits | Academic credit | Certificate of attendance |
 | **Price Point** | £1,000-5,000+ | £100-200 | £200-500 | £1,000-10,000+ | Free-£200 |
@@ -1364,15 +1139,13 @@ They generally assume levels 1-2 (Remember, Understand) are already achieved thr
 Every Professional Practice Course should include:
 
 **Core Deliverables:**
-- Course slides or workbook (PDF)
-- Key templates and tools (Excel, Word)
-- Reference guide or job aid (1-2 page summary)
-- Links to authoritative sources
+- Course content (eBook format)
+- Case studies in Appendices with sample data
+- Links to authoritative sources embedded in content
+- Access to demo tools on tools.mojitax.com (where applicable)
 
 **Enhanced Options:**
-- Excel calculation models with instructions
-- Sample client deliverables or internal memos
-- Jurisdiction-specific addendums
+- Jurisdiction-specific content sections
 - Update bulletins when regulations change
 
 ---
@@ -1463,29 +1236,27 @@ A high-quality Professional Practice Course enables practitioners to:
 
 - [ ] Authoritative sources gathered and cited appropriately
 - [ ] Outline structured around practitioner workflow, not regulatory structure
-- [ ] 2-3 comprehensive worked examples developed from realistic scenarios
-- [ ] Minimum 2 usable tools/templates created (checklists, models, etc.)
+- [ ] Worked examples developed and shown inline in content
 - [ ] Jurisdiction-specific variations addressed (if applicable)
 - [ ] Common errors and pitfalls identified and preventions included
 - [ ] Visual aids created (flowcharts, diagrams, comparison tables)
 - [ ] Practical constraints acknowledged (time, data availability, etc.)
-- [ ] Progressive storyline designed for practice scenarios (single fictional company/scenario)
+- [ ] Progressive case studies designed (single fictional company/scenario)
 - [ ] Demo tool specifications submitted to App Developer (if new tools needed)
-- [ ] Appendices created with practice scenarios, sample data, and expected outcomes
-- [ ] Tool references integrated naturally into module content
+- [ ] Case studies created in Appendices with sample data and expected outcomes
+- [ ] Tool references integrated naturally into content
 
 ### Post-Development (Quality Assurance Phase)
 
 - [ ] Technical accuracy verified by practitioner reviewer
 - [ ] All citations checked and updated to latest versions
 - [ ] Calculations in examples validated
-- [ ] Templates tested for usability by someone unfamiliar with content
 - [ ] CPE/CPD compliance requirements met
 - [ ] Course length and credit hours calculated appropriately
 - [ ] Assessment questions drafted (if needed for CPE)
 - [ ] All links to external resources functional
-- [ ] Demo tools tested with practice scenarios from Appendices
-- [ ] Complete learner journey tested (module → Appendix scenario → tool → outcome check)
+- [ ] Demo tools tested with case study scenarios
+- [ ] Complete learner journey tested (content → case study → tool → outcome check)
 
 ### Launch Readiness
 
@@ -1512,18 +1283,18 @@ A high-quality Professional Practice Course enables practitioners to:
 > "The Global Anti-Base Erosion (GloBE) Rules were developed by the OECD in response to BEPS..."
 
 **Good Example:**
-> "To calculate your Pillar Two top-up tax: Step 1 - Download this Excel calculator..."
+> "To calculate your Pillar Two top-up tax, follow these steps: [Step-by-step process shown inline]"
 
-### ❌ Pitfall #2: Describing Tools Instead of Providing Them
-**Problem**: Course explains what practitioners should create, but doesn't give them the template
-**Why This Fails**: Practitioners want ready-to-use tools, not homework assignments
-**Solution**: Provide actual Excel files, Word templates, filled-in examples
+### ❌ Pitfall #2: Describing Instead of Showing
+**Problem**: Course explains what something looks like but doesn't show it
+**Why This Fails**: Practitioners need to see examples, not just read descriptions
+**Solution**: Show examples inline in the content—completed forms, calculation walkthroughs, process diagrams
 
 **Bad Example:**
-> "You should create a spreadsheet to track deadlines across jurisdictions..."
+> "The deadline tracker should include columns for jurisdiction, date, and requirement type..."
 
 **Good Example:**
-> "Download this deadline tracker: Jurisdiction_Deadlines_2025.xlsx [Link to actual file with 15 jurisdictions pre-populated]"
+> [Shows actual deadline table inline in the content with real jurisdictions and dates]
 
 ### ❌ Pitfall #3: Generic Form References
 **Problem**: Course mentions "the applicable form" without specifics
@@ -1534,7 +1305,7 @@ A high-quality Professional Practice Course enables practitioners to:
 > "You'll need to complete the appropriate declaration form for your jurisdiction..."
 
 **Good Example:**
-> "UK: Complete Form VAT100 (download: [link]) | See sample completed form: Appendix B | Due by [date] via MTD portal [link]"
+> "UK: Complete Form VAT100 (download: [link]) | See worked example in Case Study 2 | Due by [date] via MTD portal [link]"
 
 ### ❌ Pitfall #4: Vague Deadlines and Processes
 **Problem**: "File by year-end" or "Submit in accordance with local requirements"
@@ -1545,7 +1316,7 @@ A high-quality Professional Practice Course enables practitioners to:
 > "Deadlines vary by jurisdiction and should be checked with local tax authorities..."
 
 **Good Example:**
-> "Deadline Calendar (Appendix C): UK-January 31 | Germany-February 28 | France-March 15 | [Continue for all jurisdictions] + iCal download for calendar sync"
+> "Filing Deadlines: UK-January 31 | Germany-February 28 | France-March 15 | [Full deadline table in Section 4] | Use the Deadline Tracker tool on tools.mojitax.com"
 
 ### ❌ Pitfall #5: Missing Official Resource Links
 **Problem**: Course references "government portals" or "official guidance" without links
@@ -1558,16 +1329,16 @@ A high-quality Professional Practice Course enables practitioners to:
 **Good Example:**
 > "OECD Amount B Guidance: https://www.oecd.org/tax/transfer-pricing/amount-b-pillar-one.htm | Download Amount B Report: [direct PDF link] | Use Calculator: [direct tool link]"
 
-### ❌ Pitfall #6: Theoretical Examples Without Real Templates
-**Problem**: Worked examples show the concepts but not the actual deliverables
-**Why This Fails**: Practitioners can't translate concepts to real documents
-**Solution**: Show filled-in templates, actual forms, complete memos
+### ❌ Pitfall #6: Theoretical Examples Without Showing the Work
+**Problem**: Worked examples describe the concepts but don't show actual outputs
+**Why This Fails**: Practitioners can't visualize what the end result looks like
+**Solution**: Show the complete calculation, filled-in form, or finished deliverable inline in the content
 
 **Bad Example:**
 > "The calculation follows a three-step process: first calculate X, then adjust for Y, finally determine Z..."
 
 **Good Example:**
-> "Open Calculation_Template.xlsx | Enter your data in yellow cells | Formula automatically calculates: [Screenshot showing completed example] | Export results to Filing_Form.pdf [sample included]"
+> [Shows complete calculation with actual numbers, step by step, inline in the content, with the final result clearly displayed]
 
 ### ❌ Pitfall #7: No Troubleshooting or "What If" Guidance
 **Problem**: Course assumes everything goes smoothly, ignores real challenges
@@ -1588,7 +1359,7 @@ CHALLENGE #3: Required comparable data not available
 → Solution A: Document exhaustive search process
 → Solution B: Consider alternative method with justification
 → Solution C: Use secret comparables if available
-→ Template: Search_Documentation_Template.docx (Appendix E)
+→ Practice: Use the Search Documentation tool with Case Study 3 data
 ```
 
 ### ❌ Pitfall #8: Outdated or Broken Links
@@ -1601,56 +1372,37 @@ CHALLENGE #3: Required comparable data not available
 - [ ] Verify forms are current versions (check effective dates)
 - [ ] Confirm portals haven't changed URLs
 - [ ] Check if guidance has been superseded
-- [ ] Test downloads work (forms, templates)
+- [ ] Test all links work
 
-### ❌ Pitfall #9: Templates That Need Extensive Modification
-**Problem**: Templates are skeletal or conceptual, requiring significant build-out
-**Why This Fails**: Practitioners want 80% done, not 20% done
-**Solution**: Templates should be 80-90% complete; just need client-specific details
+### ❌ Pitfall #9: Skeletal Examples That Need Filling In
+**Problem**: Examples are conceptual outlines rather than complete demonstrations
+**Why This Fails**: Practitioners need to see fully worked examples, not partial sketches
+**Solution**: Show complete examples inline—if it's a memo, show the full memo; if it's a calculation, show all the numbers
 
-**Bad Template:**
+**Bad Example:**
 ```
-Memo Template:
+Memo structure:
 Introduction: [Describe the situation]
 Analysis: [Provide analysis]
 Conclusion: [State conclusion]
 ```
 
-**Good Template:**
+**Good Example:**
 ```
-TRANSFER PRICING POSITION MEMORANDUM
-
-TO: [Tax Director Name]
-FROM: [Tax Manager Name]
-DATE: [Current Date]
-RE: Transfer Pricing Analysis for [Transaction Description]
-
-EXECUTIVE SUMMARY
-Based on our functional analysis and benchmarking study, we recommend applying the [Method Name] to determine arm's length pricing for [transaction type]. Our analysis supports a [range/point] return of [X%], which we believe satisfies the arm's length standard under Section 482 and OECD Guidelines.
-
-[Continue with 6-8 more detailed sections with actual sentence structures and example content...]
+[Shows complete memo with actual content, real analysis, specific conclusions—
+not placeholders, but a full demonstration the practitioner can reference]
 ```
 
-### ❌ Pitfall #10: Excel Tools Without Instructions or Error Prevention
-**Problem**: Spreadsheet with formulas but no guidance on use
-**Why This Fails**: Practitioners make errors, don't understand outputs, don't trust results
-**Solution**: Instructions tab + example data + validation + locked formulas
+### ❌ Pitfall #10: Case Studies Without Clear Expected Outcomes
+**Problem**: Practice scenarios don't tell learners what result they should get
+**Why This Fails**: Learners can't verify they've done it correctly
+**Solution**: Every case study should include the expected outcome so learners can check their work
 
-**Poor Excel:**
-- Formulas in cells with no color coding
-- No instructions sheet
-- No example/sample data
-- No explanation of outputs
-- Unlocked cells (easy to accidentally break)
+**Incomplete Case Study:**
+> "Calculate the top-up tax for GlobalCo using the data provided."
 
-**Excellent Excel:**
-- ✅ Instructions tab explaining each input and output
-- ✅ Input cells highlighted (e.g., yellow background)
-- ✅ Formula cells locked to prevent accidental changes
-- ✅ Example tab with sample data and completed calculation
-- ✅ Data validation (dropdowns, number limits)
-- ✅ Error checks (#DIV/0 prevented, warnings for unusual inputs)
-- ✅ Professional formatting with clear labels
+**Complete Case Study:**
+> "Calculate the top-up tax for GlobalCo using the data provided. Expected result: Top-up tax of €2.3M allocated across three jurisdictions (UK: €1.2M, Germany: €0.8M, France: €0.3M). If your result differs significantly, review steps 3-5 of the calculation."
 
 ---
 
@@ -1660,53 +1412,46 @@ Professional Practice Courses occupy a critical position in the tax education ec
 
 ### The Core Promise
 
-**Professional Practice Courses are implementation manuals, not textbooks.** They don't teach what something is; they show how to do it. They don't explain history; they provide step-by-step workflows. They don't describe concepts; they deliver ready-to-use tools—both downloadable templates and hands-on demo tools on tools.mojitax.com.
+**Professional Practice Courses are implementation manuals, not textbooks.** They don't teach what something is; they show how to do it. They don't explain history; they provide step-by-step workflows. They don't describe concepts; they show complete examples inline and provide hands-on practice through demo tools on tools.mojitax.com.
 
 ### What Makes Them Valuable
 
 The perfect Professional Practice Course enables a practitioner to:
 
-1. **Start implementing immediately** - Within 30 minutes of starting the course, practitioners have downloaded templates and know their first action step
+1. **Start implementing immediately** - Within 30 minutes of starting the course, practitioners understand the process and know their first action step
 
-2. **Practice hands-on with demo tools** - Access tools.mojitax.com to work through progressive scenarios that reinforce learning and build real skills
+2. **See complete examples** - Full worked examples shown inline in the content, not described abstractly
 
-3. **Find every official resource** - Direct links to all government portals, forms (with numbers), free tools, and guidance documents organized in one place
+3. **Practice hands-on** - Access demo tools on tools.mojitax.com to work through progressive case studies that build real skills
 
-4. **Meet every deadline** - Jurisdiction-specific calendar with exact dates, not vague "year-end" references
+4. **Find every official resource** - Direct links to government portals, forms, and guidance embedded where relevant in the content
 
-5. **Complete every form correctly** - Sample completed forms with annotations showing what goes in each field
+5. **Know every deadline** - Jurisdiction-specific deadlines clearly stated in context
 
-6. **Calculate accurately** - Excel tools with pre-built formulas; just enter data and get results
+6. **Complete forms correctly** - Sample completed forms shown inline with annotations
 
-7. **Document defensibly** - Word templates for memos, reports, and client deliverables that are 80% complete
+7. **Avoid common errors** - Mistakes practitioners make, identified with prevention strategies
 
-8. **Avoid common errors** - Explicit list of 10+ mistakes practitioners make with prevention strategies
-
-9. **Navigate real challenges** - "What if" scenarios addressing data gaps, deadline conflicts, system failures
+8. **Navigate real challenges** - "What if" scenarios addressing data gaps, deadline conflicts, system failures
 
 ### What Course Developers Must Deliver
 
-**Minimum Deliverables for Every Course:**
-- ✅ 2+ Excel calculation tools with formulas
-- ✅ 2+ Word documentation templates
-- ✅ 3+ process checklists (20-50 items each)
-- ✅ Complete forms package (names, links, samples, guidance)
-- ✅ Deadline calendar by jurisdiction (Excel + iCal)
-- ✅ Resource directory (20+ direct links to portals, guidance, tools)
-- ✅ 10+ common challenges identified with solutions
-- ✅ Full worked example using all templates start-to-finish
-- ✅ Process flowcharts (visual workflows)
-- ✅ Screenshots of portals, forms, or tools
-- ✅ Demo tools integration (existing or newly specified) on tools.mojitax.com
-- ✅ Progressive practice scenarios in Appendices with sample data and expected outcomes
+**Core Deliverables:**
+- ✅ Implementation-focused content (no definitions or history)
+- ✅ Examples and templates shown inline in the eBook
+- ✅ Official resource links embedded in relevant sections
+- ✅ Visual aids (flowcharts, diagrams, screenshots)
+- ✅ Common challenges addressed with solutions
+- ✅ Case studies in Appendices with sample data and expected outcomes
+- ✅ Demo tools on tools.mojitax.com (where hands-on practice adds value)
 
 **Development Philosophy:**
 - **Skip**: Definitions, history, policy rationale, academic theory
 - **Start**: "Here's the form to file, here's how to complete it, here's the deadline"
-- **Provide**: Tools they can use TODAY, not concepts to apply someday
-- **Show**: Actual forms, real portals, completed examples, specific links
+- **Show**: Examples inline—actual forms, completed calculations, finished deliverables
+- **Link**: Official resources embedded where relevant, not in a separate directory
 - **Solve**: Real problems practitioners encounter, not theoretical issues
-- **Practice**: Hands-on scenarios with demo tools that reinforce learning
+- **Practice**: Case studies with demo tools that reinforce learning
 
 ### Quality Test
 
@@ -1714,14 +1459,13 @@ Before launching a Professional Practice Course, ask:
 
 **The 24-Hour Test:**
 If a practitioner takes this course today, can they:
-- [ ] Download 6+ ready-to-use tools?
-- [ ] Find exact forms with direct download links?
+- [ ] See complete examples inline that show exactly what to do?
+- [ ] Find the exact forms they need with direct links?
 - [ ] Know specific deadlines for their jurisdiction?
-- [ ] Access 20+ official resources (portals, guidance, tools)?
-- [ ] Complete a real filing/calculation using course templates?
-- [ ] Avoid the 10 most common errors in this area?
-- [ ] Practice with demo tools on tools.mojitax.com using provided scenarios?
-- [ ] Work through a progressive storyline that builds their skills across the course?
+- [ ] Access official resources via embedded links?
+- [ ] Understand how to avoid common errors?
+- [ ] Practice with demo tools using case study scenarios?
+- [ ] Work through progressive case studies that build their skills?
 
 If the answer to any is "No," the course isn't ready.
 
@@ -1729,9 +1473,9 @@ If the answer to any is "No," the course isn't ready.
 
 Professional Practice Courses represent the bridge between certification preparation and ongoing professional development. They position MojiTax not just as an exam prep provider, but as a **comprehensive professional development partner throughout a tax practitioner's career**.
 
-**The ultimate goal is simple but demanding**: Enable tax professionals to confidently handle complex, current tax challenges with **tools they can use immediately**, **forms they can file correctly**, **deadlines they won't miss**, and **resources they can access instantly**—delivering professional education that immediately translates into completed compliance work and better client service.
+**The ultimate goal is simple but demanding**: Enable tax professionals to confidently handle complex, current tax challenges with **clear implementation guidance**, **forms they can file correctly**, **deadlines they won't miss**, and **hands-on practice through demo tools**—delivering professional education that immediately translates into completed compliance work and better client service.
 
-**Remember**: A Professional Practice Course succeeds when a practitioner can complete actual work using course tools, not when they understand concepts better. The measure of success is **completed filings, finished calculations, and documented positions**—not knowledge acquired.
+**Remember**: A Professional Practice Course succeeds when a practitioner can complete actual work based on what they've learned, not when they understand concepts better. The measure of success is **completed filings, finished calculations, and documented positions**—not knowledge acquired.
 
 ---
 
@@ -1745,51 +1489,35 @@ Before declaring a Professional Practice Course complete, verify:
 - [ ] No policy debates or theoretical frameworks
 - [ ] Every section answers "how do I do this?"
 
-### Templates and Tools
-- [ ] Minimum 6-8 downloadable tools (Excel, Word, checklists)
-- [ ] Every Excel has instructions, examples, locked formulas
-- [ ] Every Word template is 80%+ complete
-- [ ] All checklists have 20+ specific checkboxes
+### Content Quality
+- [ ] Examples and templates shown inline in the eBook (not as separate files)
+- [ ] Complete worked examples that show the full process
+- [ ] Visual aids included (flowcharts, diagrams, screenshots)
+- [ ] Common challenges addressed with practical solutions
 
-### Demo Tools Platform Integration
+### Case Studies and Tools
+- [ ] Progressive case studies in Appendices
+- [ ] Case studies include sample data and expected outcomes
 - [ ] Tools Registry checked for existing demo tools
-- [ ] New tools specified only where hands-on practice genuinely adds value
-- [ ] Demo tools deployed on tools.mojitax.com
-- [ ] Progressive practice storyline designed (single fictional company/scenario)
-- [ ] Appendices contain scenarios, sample data, and expected outcomes
-- [ ] Tool references integrated naturally into module content
-- [ ] Complete learner journey tested (module → Appendix → tool → outcome)
-- [ ] Tools Registry updated with any new tools created
+- [ ] New tools specified only where hands-on practice adds value
+- [ ] Demo tools deployed on tools.mojitax.com (if applicable)
+- [ ] Tool references integrated naturally into content
+- [ ] Complete learner journey tested (content → case study → tool → outcome)
 
-### Forms and Procedures
-- [ ] Every form identified by exact name/number
-- [ ] Direct download links for all forms
-- [ ] At least one sample completed form
-- [ ] Step-by-step filing/submission process
+### Forms and Deadlines
+- [ ] Forms identified by exact name/number with direct links
+- [ ] Sample completed forms shown inline with annotations
+- [ ] Jurisdiction-specific deadlines clearly stated
+- [ ] Filing/submission processes described step-by-step
 
-### Dates and Deadlines
-- [ ] Jurisdiction-specific deadline table (not vague)
-- [ ] Downloadable calendar (Excel + iCal)
-- [ ] Multi-year view for recurring deadlines
-- [ ] Extension procedures noted where available
-
-### Official Resources
-- [ ] 20+ direct links to official sources
-- [ ] Government portals section (5+ jurisdictions)
-- [ ] Free tools section (3+ calculators/databases)
-- [ ] All links tested within 30 days
-
-### Practical Implementation
-- [ ] Process flowchart (visual)
-- [ ] 10+ common challenges with solutions
-- [ ] Complete worked example using all templates
-- [ ] Screenshots of portals, forms, tools
-- [ ] "What if" troubleshooting section
+### Resources and Links
+- [ ] Official resource links embedded where relevant in content
+- [ ] Links point to specific pages (not general homepages)
+- [ ] All links tested and working
 
 ### Professional Standards
 - [ ] CPE/CPD compliant (if offering credits)
 - [ ] All citations current and verified
-- [ ] Templates meet actual legal/filing requirements
 - [ ] Practitioner reviewer validated content
 - [ ] Course and demo tools ready for simultaneous launch
 
