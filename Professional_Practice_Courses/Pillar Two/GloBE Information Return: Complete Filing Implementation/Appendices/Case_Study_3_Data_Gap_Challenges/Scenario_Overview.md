@@ -42,10 +42,12 @@ By completing this case study, you will be able to:
 
 ## Demo Tools to Use
 
-| Tool | Tool ID | Purpose |
-|------|---------|---------|
+| Tool | Tool ID | Purpose in This Case Study |
+|------|---------|----------------------------|
+| GIR ETR Calculator | GIR-001 | Calculate ETR with adjusted/estimated data |
 | GIR SBIE Calculator | GIR-002 | Practice SBIE calculation with estimated inputs |
-| GIR ETR Calculator | GIR-001 | Calculate ETR with adjusted data |
+| GIR Data Point Reference | GIR-006 | Identify which data points are missing and their requirements |
+| GIR Practice Form | GIR-008 | Practice entering estimated values with documentation notes |
 
 ## Related Course Sections
 

@@ -45,11 +45,14 @@ The QDMTT allows source countries to collect Top-up Tax locally, rather than hav
 
 ## Demo Tools to Use
 
-| Tool | Tool ID | Purpose |
-|------|---------|---------|
+| Tool | Tool ID | Purpose in This Case Study |
+|------|---------|----------------------------|
 | GIR ETR Calculator | GIR-001 | Calculate ETR for each QDMTT jurisdiction |
 | GIR SBIE Calculator | GIR-002 | Calculate SBIE for low-tax jurisdictions |
 | GIR Top-Up Tax Calculator | GIR-003 | Calculate Top-up Tax and QDMTT offset |
+| GIR Filing Deadline Calculator | GIR-005 | Compare filing deadlines across 5 QDMTT jurisdictions |
+| DFE Election Assessment Tool | GIR-007 | Assess filing coordination across QDMTT jurisdictions |
+| GIR Practice Form | GIR-008 | Practice Section 2 (Safe Harbours) and Section 3 entries |
 
 ## Related Course Sections
 

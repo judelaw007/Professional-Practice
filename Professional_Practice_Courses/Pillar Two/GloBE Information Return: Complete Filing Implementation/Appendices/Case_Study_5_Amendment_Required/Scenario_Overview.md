@@ -55,10 +55,12 @@ The OECD transitional period (FY2024 within scope) provides relief where MNE dem
 
 ## Demo Tools to Use
 
-| Tool | Tool ID | Purpose |
-|------|---------|---------|
-| GIR ETR Calculator | GIR-001 | Recalculate correct ETR |
+| Tool | Tool ID | Purpose in This Case Study |
+|------|---------|----------------------------|
+| GIR ETR Calculator | GIR-001 | Recalculate correct ETR (original vs. amended) |
 | GIR Top-Up Tax Calculator | GIR-003 | Calculate amended Top-up Tax |
+| GIR Practice Form | GIR-008 | Practice entering corrected values in Section 3 |
+| GIR Audit File Checklist | GIR-009 | Prepare amendment documentation package |
 
 ## Related Course Sections
 

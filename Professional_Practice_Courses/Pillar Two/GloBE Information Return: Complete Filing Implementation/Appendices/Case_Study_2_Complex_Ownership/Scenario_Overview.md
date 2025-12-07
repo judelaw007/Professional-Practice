@@ -46,10 +46,13 @@ By completing this case study, you will be able to:
 
 ## Demo Tools to Use
 
-| Tool | Tool ID | Purpose |
-|------|---------|---------|
-| GIR ETR Calculator | GIR-001 | Calculate ETR for POPE subsidiaries |
+| Tool | Tool ID | Purpose in This Case Study |
+|------|---------|----------------------------|
+| GIR ETR Calculator | GIR-001 | Calculate ETR for POPE subsidiaries (e.g., Meridian AI Ireland) |
+| GIR SBIE Calculator | GIR-002 | Calculate SBIE for low-tax entities in ownership chains |
 | GIR Top-Up Tax Calculator | GIR-003 | Calculate allocation between POPE and UPE |
+| GIR Data Point Reference | GIR-006 | Look up ownership percentage and POPE-specific fields |
+| GIR Practice Form | GIR-008 | Practice Section 1 entity relationships and ownership structures |
 
 ## Key Learning Points
 

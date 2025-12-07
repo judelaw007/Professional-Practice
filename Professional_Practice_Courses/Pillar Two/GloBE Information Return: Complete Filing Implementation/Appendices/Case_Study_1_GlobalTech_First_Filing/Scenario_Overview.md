@@ -35,12 +35,19 @@ Two jurisdictions fail the Transitional CbCR Safe Harbour and require full GloBE
 
 ## Demo Tools to Use
 
-| Tool | Tool ID | Purpose |
-|------|---------|---------|
+This comprehensive case study uses **all 9 demo tools** as it covers the full first-filing process:
+
+| Tool | Tool ID | Purpose in This Case Study |
+|------|---------|----------------------------|
 | GIR ETR Calculator | GIR-001 | Calculate ETR for Ireland and Switzerland |
-| GIR SBIE Calculator | GIR-002 | Calculate substance carve-outs |
-| GIR Top-Up Tax Calculator | GIR-003 | Calculate final Top-up Tax |
-| Safe Harbour Qualification Tool | GIR-004 | Verify safe harbour eligibility for other jurisdictions |
+| GIR SBIE Calculator | GIR-002 | Calculate substance carve-outs for low-tax jurisdictions |
+| GIR Top-Up Tax Calculator | GIR-003 | Calculate final Top-up Tax amounts |
+| Safe Harbour Qualification Tool | GIR-004 | Verify safe harbour eligibility for other 18 jurisdictions |
+| GIR Filing Deadline Calculator | GIR-005 | Determine UK filing deadline for FY2024 (first year) |
+| GIR Data Point Reference | GIR-006 | Look up the ~480 data points needed for Section 1-3 |
+| DFE Election Assessment Tool | GIR-007 | Assess whether UK UPE or another entity should file |
+| GIR Practice Form | GIR-008 | Practice populating Sections 1, 2, and 3 with sample data |
+| GIR Audit File Checklist | GIR-009 | Build documentation package for first filing |
 
 ## Related Course Sections
 
