@@ -105,94 +105,39 @@ The Course Developer:
 
 **Duration:** 4-6 hours
 
-### New Appendix Structure
+**STATUS: COMPLETED**
 
-```
-Appendices/
-├── Case_Study_1_GlobalTech_First_Filing/
-│   ├── Scenario_Overview.md
-│   ├── Company_Profile_Data.md
-│   ├── Section_1_Sample_Data.md
-│   ├── Section_2_Safe_Harbour_Data.md
-│   ├── Section_3_GloBE_Computation_Data.md
-│   └── Expected_Outcomes.md
-│
-├── Case_Study_2_Complex_Ownership/
-│   ├── [Similar structure]
-│   └── ...
-│
-├── Case_Study_3_Data_Gap_Challenges/
-│   └── ...
-│
-└── Archive/
-    └── [Preserved original templates]
-```
+### Case Studies Created
 
-### Case Study Format
+| Case Study | Source | Files Created |
+|------------|--------|---------------|
+| Case_Study_1_GlobalTech_First_Filing | Section 10.1 | Scenario_Overview.md, Sample_Data.md, Expected_Outcomes.md |
+| Case_Study_2_Complex_Ownership | Section 10.2 | Scenario_Overview.md, Sample_Data.md, Expected_Outcomes.md |
+| Case_Study_3_Data_Gap_Challenges | Section 10.3 | Scenario_Overview.md, Sample_Data.md, Expected_Outcomes.md |
+| Case_Study_4_Multi_QDMTT_Jurisdictions | Section 10.4 | Scenario_Overview.md, Sample_Data.md, Expected_Outcomes.md |
+| Case_Study_5_Amendment_Required | Section 10.5 | Scenario_Overview.md, Sample_Data.md, Expected_Outcomes.md |
 
-Each case study should include:
+### Case Study Format Used
 
-```markdown
-# Case Study [N]: [Title]
+Each case study includes:
+- **Scenario_Overview.md** - Context, learning objectives, company profile, tools to use
+- **Sample_Data.md** - Input data for demo tools, structured for practice
+- **Expected_Outcomes.md** - Expected results, calculation breakdowns, learning points
 
-## Scenario Context
-[How does this connect to the course? What situation does the learner face?]
+### Tool References in Case Studies
 
-## Company/Group Profile
-[Background on the fictional company]
-
-## Learning Objectives
-[What skills will learners practice?]
-
-## Sample Data Provided
-[The actual data learners will use]
-
-## Tool to Use
-[Which tool on tools.mojitax.com]
-
-## Task Instructions
-[Step-by-step what to do]
-
-## Expected Outcomes
-[What results learners should get - for self-verification]
-
-## Learning Points
-[Key takeaways from completing this exercise]
-```
-
-### Source Material
-
-The existing Section 10 scenarios are excellent source material:
-- **Section 10.1** (GlobalTech Manufacturing) → Case Study 1
-- **Section 10.2** (Complex Ownership Structure) → Case Study 2
-- **Section 10.3** (Data Gap Challenges) → Case Study 3
-- **Section 10.4** (Multi-QDMTT Jurisdictions) → Case Study 4
-- **Section 10.5** (Amendment Required) → Case Study 5
-
-### Tasks
-
-1. **Create Case Study Folder Structure**
-   - Set up new Appendix folder structure
-   - Maintain Archive for original files
-
-2. **Extract Case Study Data from Section 10**
-   - Pull the sample data from Section 10 scenarios
-   - Reformat into case study structure
-   - Add expected outcomes for each
-
-3. **Write Case Study Introduction Files**
-   - Create Scenario_Overview.md for each case study
-   - Include tool references and learning objectives
-
-4. **Add Expected Outcomes**
-   - Document what results learners should get
-   - This enables self-verification
+| Tool ID | Tool Name | Used In Case Studies |
+|---------|-----------|---------------------|
+| GIR-001 | GIR ETR Calculator | 1, 2, 3, 4, 5 |
+| GIR-002 | GIR SBIE Calculator | 1, 2, 3, 4 |
+| GIR-003 | GIR Top-Up Tax Calculator | 1, 2, 3, 4, 5 |
+| GIR-004 | Safe Harbour Qualification Tool | 1 |
 
 ### Verification
-- [ ] Case study folders created
-- [ ] Data extracted from Section 10
-- [ ] Expected outcomes documented for each
-- [ ] Tool references added
+- [x] Case study folders created
+- [x] Data extracted from Section 10
+- [x] Expected outcomes documented for each
+- [x] Tool references added
 
 ---
 
