@@ -68,39 +68,44 @@ Upon completion, participants will be able to:
 
 ---
 
-## Mandatory Deliverables Checklist
+## Learning Approach
 
-### Excel Tools (Minimum 6)
-- [ ] GIR Data Point Tracker (~480 fields across 3 sections with source mapping)
-- [ ] GIR Section 1-3 Completion Calculator with validation
-- [ ] XML Schema Validator Tool (compatible with January 2025 OECD schema)
-- [ ] Multi-Jurisdiction Deadline Calendar
-- [ ] Constituent Entity Database Template
-- [ ] GIR-to-Tax Calculation Reconciliation Tool
+This course uses a practical, hands-on learning approach aligned with the updated Professional Practice Course guidelines:
 
-### Word Templates (Minimum 4)
-- [ ] Designated Filing Entity Election Documentation
-- [ ] Data Request Memo for Internal Teams
-- [ ] GIR Filing Confirmation Record Template
-- [ ] Amendment Request Documentation
+### How Learners Will Learn
 
-### Process Checklists (Minimum 5)
-- [ ] Pre-Filing Data Verification Checklist (50+ items)
-- [ ] XML Validation Checklist
-- [ ] Multi-Jurisdiction Filing Coordination Checklist
-- [ ] Post-Filing Confirmation Checklist
-- [ ] Year-2+ Annual Update Checklist
+| Component | Description |
+|-----------|-------------|
+| **Inline Examples** | Templates, forms, and calculation structures shown directly in the eBook content |
+| **Demo Tools** | Practice calculators on tools.mojitax.com for hands-on skill building |
+| **Case Studies** | Progressive scenarios in Appendices with sample data for practice |
 
-### Forms Package
-- [ ] All GIR forms/schemas with direct download links
-- [ ] Sample completed GIR tables with annotations
-- [ ] Jurisdiction-specific form variations documented
+### Demo Tools on tools.mojitax.com
 
-### Resource Directory
-- [ ] 25+ tax authority GIR portal links
-- [ ] XML validators and technical tools
-- [ ] OECD Administrative Guidance references
-- [ ] National implementation guidance links
+| Tool ID | Tool Name | Purpose |
+|---------|-----------|---------|
+| GIR-001 | GIR ETR Calculator | Practice jurisdictional ETR calculation |
+| GIR-002 | GIR SBIE Calculator | Practice substance carve-out calculation |
+| GIR-003 | GIR Top-Up Tax Calculator | Practice complete Top-up Tax calculation |
+| GIR-004 | Safe Harbour Qualification Tool | Practice safe harbour assessment |
+
+### Case Studies in Appendices
+
+| Case Study | Scenario | Key Learning |
+|------------|----------|--------------|
+| Case Study 1 | GlobalTech First Filing | ETR, SBIE, Top-up Tax basics |
+| Case Study 2 | Complex Ownership | POPE, JV, MOCE structures |
+| Case Study 3 | Data Gap Challenges | Estimation methodologies |
+| Case Study 4 | Multi-QDMTT Jurisdictions | QDMTT offset mechanism |
+| Case Study 5 | Amendment Required | Amendment procedures, penalty mitigation |
+
+### What This Course Does NOT Provide
+
+- ❌ Separate downloadable Excel or Word files
+- ❌ Template libraries in Appendices
+- ❌ Files that replace professional Pillar Two software
+
+Instead, templates and examples are shown **inline in the eBook content** where they're explained, and learners practice using **demo tools on tools.mojitax.com** with **case study data from the Appendices**.
 
 ---
 
@@ -133,13 +138,13 @@ Upon completion, participants will be able to:
 - UK-specific: Registration required within 6 months of first accounting period end
 - **Template Reference:** Scope Determination Checklist
 
-### 1.3 Complete Deliverables Inventory (8-10 pages)
-- Full catalogue of all tools provided in this course
-- Excel tools with screenshots and descriptions
-- Word templates with use cases
-- Checklists with checkpoint counts
-- Resource directory overview
-- **Action:** Download all materials before proceeding
+### 1.3 How This Course Helps You Learn (4-5 pages)
+- Learning approach: Inline examples + demo tools + case studies
+- Demo tools on tools.mojitax.com with purpose and practice references
+- Case studies overview (5 progressive scenarios)
+- Demo tools vs professional tools distinction
+- Recommended learning path
+- **Action:** Familiarize yourself with tools.mojitax.com and case study locations
 
 ### 1.4 Your 6-Month Implementation Timeline (4-5 pages)
 - Month-by-month milestones for first filing

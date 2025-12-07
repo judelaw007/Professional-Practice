@@ -105,94 +105,39 @@ The Course Developer:
 
 **Duration:** 4-6 hours
 
-### New Appendix Structure
+**STATUS: COMPLETED**
 
-```
-Appendices/
-├── Case_Study_1_GlobalTech_First_Filing/
-│   ├── Scenario_Overview.md
-│   ├── Company_Profile_Data.md
-│   ├── Section_1_Sample_Data.md
-│   ├── Section_2_Safe_Harbour_Data.md
-│   ├── Section_3_GloBE_Computation_Data.md
-│   └── Expected_Outcomes.md
-│
-├── Case_Study_2_Complex_Ownership/
-│   ├── [Similar structure]
-│   └── ...
-│
-├── Case_Study_3_Data_Gap_Challenges/
-│   └── ...
-│
-└── Archive/
-    └── [Preserved original templates]
-```
+### Case Studies Created
 
-### Case Study Format
+| Case Study | Source | Files Created |
+|------------|--------|---------------|
+| Case_Study_1_GlobalTech_First_Filing | Section 10.1 | Scenario_Overview.md, Sample_Data.md, Expected_Outcomes.md |
+| Case_Study_2_Complex_Ownership | Section 10.2 | Scenario_Overview.md, Sample_Data.md, Expected_Outcomes.md |
+| Case_Study_3_Data_Gap_Challenges | Section 10.3 | Scenario_Overview.md, Sample_Data.md, Expected_Outcomes.md |
+| Case_Study_4_Multi_QDMTT_Jurisdictions | Section 10.4 | Scenario_Overview.md, Sample_Data.md, Expected_Outcomes.md |
+| Case_Study_5_Amendment_Required | Section 10.5 | Scenario_Overview.md, Sample_Data.md, Expected_Outcomes.md |
 
-Each case study should include:
+### Case Study Format Used
 
-```markdown
-# Case Study [N]: [Title]
+Each case study includes:
+- **Scenario_Overview.md** - Context, learning objectives, company profile, tools to use
+- **Sample_Data.md** - Input data for demo tools, structured for practice
+- **Expected_Outcomes.md** - Expected results, calculation breakdowns, learning points
 
-## Scenario Context
-[How does this connect to the course? What situation does the learner face?]
+### Tool References in Case Studies
 
-## Company/Group Profile
-[Background on the fictional company]
-
-## Learning Objectives
-[What skills will learners practice?]
-
-## Sample Data Provided
-[The actual data learners will use]
-
-## Tool to Use
-[Which tool on tools.mojitax.com]
-
-## Task Instructions
-[Step-by-step what to do]
-
-## Expected Outcomes
-[What results learners should get - for self-verification]
-
-## Learning Points
-[Key takeaways from completing this exercise]
-```
-
-### Source Material
-
-The existing Section 10 scenarios are excellent source material:
-- **Section 10.1** (GlobalTech Manufacturing) → Case Study 1
-- **Section 10.2** (Complex Ownership Structure) → Case Study 2
-- **Section 10.3** (Data Gap Challenges) → Case Study 3
-- **Section 10.4** (Multi-QDMTT Jurisdictions) → Case Study 4
-- **Section 10.5** (Amendment Required) → Case Study 5
-
-### Tasks
-
-1. **Create Case Study Folder Structure**
-   - Set up new Appendix folder structure
-   - Maintain Archive for original files
-
-2. **Extract Case Study Data from Section 10**
-   - Pull the sample data from Section 10 scenarios
-   - Reformat into case study structure
-   - Add expected outcomes for each
-
-3. **Write Case Study Introduction Files**
-   - Create Scenario_Overview.md for each case study
-   - Include tool references and learning objectives
-
-4. **Add Expected Outcomes**
-   - Document what results learners should get
-   - This enables self-verification
+| Tool ID | Tool Name | Used In Case Studies |
+|---------|-----------|---------------------|
+| GIR-001 | GIR ETR Calculator | 1, 2, 3, 4, 5 |
+| GIR-002 | GIR SBIE Calculator | 1, 2, 3, 4 |
+| GIR-003 | GIR Top-Up Tax Calculator | 1, 2, 3, 4, 5 |
+| GIR-004 | Safe Harbour Qualification Tool | 1 |
 
 ### Verification
-- [ ] Case study folders created
-- [ ] Data extracted from Section 10
-- [ ] Expected outcomes documented for each
-- [ ] Tool references added
+- [x] Case study folders created
+- [x] Data extracted from Section 10
+- [x] Expected outcomes documented for each
+- [x] Tool references added
 
 ---
 
@@ -202,74 +147,46 @@ The existing Section 10 scenarios are excellent source material:
 
 **Duration:** 6-10 hours (largest phase)
 
-### What This Means
+**STATUS: IN PROGRESS**
 
-**Before (Old Style):**
-> "Download the DFE Election Template from Appendix A and complete it for your group."
+### Completed Updates
 
-**After (New Style):**
-> [Shows the complete DFE Election Template structure inline in the content, with annotations explaining each section, followed by:]
-> "Practice completing a DFE election using the GlobalTech scenario in Case Study 1."
+1. **Section 1.3 (Deliverables Inventory) - REWRITTEN**
+   - Removed all downloadable file inventory (Excel tools, Word templates, checklists)
+   - Replaced with "How This Course Helps You Learn" explaining new approach
+   - Added demo tools table with tool IDs and purposes
+   - Added case studies overview table
+   - Added demo vs professional tools distinction
+   - Added recommended learning path
 
-### Sections Requiring Updates
+2. **Section 5.1 (Calculator Overview) - UPDATED**
+   - Added "Demo Tools vs Professional Tools" section at beginning
+   - Listed all 4 demo tools with IDs and purposes
+   - Added comparison table: when to use demo vs professional tools
+   - Added "Practice with Case Studies" section with tool mapping
+   - Clarified that demo tools are for learning, not production use
 
-| Section | Current State | Update Needed |
-|---------|---------------|---------------|
-| 1.3 Deliverables Inventory | Lists downloadable files | Rewrite to describe inline examples + tools |
-| 5.1 Calculator Overview | Dedicated tool section | Integrate tool intro into relevant sections |
-| Various chapters | Reference "download template" | Show template inline, reference case study |
+3. **eBook_Structural_Plan.md - UPDATED**
+   - Replaced "Mandatory Deliverables Checklist" with "Learning Approach"
+   - Updated Section 1.3 description from deliverables to learning approach
+   - Added tools and case studies tables
 
-### Content Update Approach
+4. **Section 1 Summary - UPDATED**
+   - Changed "Tools" row to "Learning Approach"
+   - Updated Next Steps to remove download references
 
-For each template/tool currently offered as download:
-
-1. **Identify where it's referenced** in the course
-2. **Show the example inline** in the eBook at that location
-3. **Add practice reference** pointing to case study + tool
-4. **Remove download reference** from Deliverables Inventory
-
-### Key Sections to Update
-
-#### Section 1.3 (Deliverables Inventory)
-- **Current:** 8-10 pages listing downloadable packages
-- **Target:** Describe learning approach (inline examples + tools.mojitax.com + case studies)
-
-#### Section 5.1 (Calculator Overview)
-- **Current:** Standalone tool introduction
-- **Target:** Redistribute tool introductions to relevant chapters; add demo vs professional tool clarification
-
-#### All Template References
-- **Current:** "See Appendix A for template"
-- **Target:** Show template inline; "Practice with Case Study X on tools.mojitax.com"
-
-### Tasks
-
-1. **Update Section 1.3**
-   - Rewrite to explain new learning model
-   - Remove file download inventory
-   - Describe: inline examples + demo tools + case studies
-
-2. **Update Section 5.1**
-   - Add demo tools vs professional tools clarification
-   - Add case study references
-   - Consider redistributing some content to where tools are used
-
-3. **Update Template References Throughout**
-   - Search for "Appendix A", "download", "template" references
-   - Replace with inline examples where appropriate
-   - Add case study and tool references
-
-4. **Show Key Templates Inline**
-   - DFE Election Documentation
-   - Data Request Memo
-   - Filing Confirmation Record
-   - Safe Harbour Election Forms
+5. **Section 1.4 (Implementation Timeline) - UPDATED**
+   - Replaced all 6 "Template Used:" references with "Learning Resources:"
+   - Now points to relevant course sections, demo tools, and case studies
+   - Months 4-6 reference specific demo tools and case studies
 
 ### Verification
-- [ ] Section 1.3 rewritten
-- [ ] Section 5.1 updated with demo/professional tool distinction
-- [ ] Template references updated
-- [ ] Key templates shown inline
+- [x] Section 1.3 rewritten
+- [x] Section 5.1 updated with demo/professional tool distinction
+- [x] Template references updated (all "Template Used:" references fixed)
+- [ ] Key templates shown inline (optional - lower priority)
+
+**STATUS: PHASE 4 COMPLETE**
 
 ---
 
