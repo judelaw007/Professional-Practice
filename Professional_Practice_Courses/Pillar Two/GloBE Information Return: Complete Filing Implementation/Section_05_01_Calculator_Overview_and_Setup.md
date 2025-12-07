@@ -817,6 +817,32 @@ Before proceeding to data entry, confirm:
 
 ---
 
+## Practice This Skill: GIR Practice Form
+
+Before working with production calculators, practice data entry using the **GIR Practice Form (GIR-008)** on tools.mojitax.com.
+
+| Tool | Tool ID | Purpose |
+|------|---------|---------|
+| GIR Practice Form | GIR-008 | Practice populating GIR Sections 1, 2, and 3 with sample data |
+
+**Demo Tool vs Professional Tool**
+
+This is a demo tool for learning purposes. In professional practice, you would use enterprise Pillar Two software or the official GIR Completion Calculator. The demo tool helps you understand form structure and field relationships.
+
+**To Practice:**
+
+1. Go to tools.mojitax.com and find **GIR Practice Form**
+2. Start with **Case Study 1** (GlobalTech) sample data:
+   - Practice Section 1: Enter MNE Group information
+   - Practice Section 2: Enter Safe Harbour elections
+   - Practice Section 3: Enter GloBE computations
+3. The form provides real-time validation and guidance
+4. Review completion percentage and cross-reference checks
+
+Use all 5 case studies in the Appendices to practice different scenarios.
+
+---
+
 ## Sources and References
 
 - [OECD: GloBE Information Return (Pillar Two) XML Schema (January 2025)](https://www.oecd.org/en/publications/globe-information-return-pillar-two-xml-schema_c594935a-en.html)

@@ -246,11 +246,27 @@ If your result differs, review [specific section] to check your understanding.
    - Link between chapters, case studies, and tools
 
 ### Verification
-- [ ] Tool introductions drafted
-- [ ] Introductions inserted at correct locations
-- [ ] Demo vs professional clarification included
-- [ ] Case study references added
-- [ ] Expected outcomes stated
+- [x] Tool introductions drafted
+- [x] Introductions inserted at correct locations
+- [x] Demo vs professional clarification included
+- [x] Case study references added
+- [x] Expected outcomes stated
+
+### Completed Tool Introductions
+
+| Tool ID | Tool Name | Added To Section |
+|---------|-----------|------------------|
+| GIR-001 | ETR Calculator | Section 5.4.1 |
+| GIR-002 | SBIE Calculator | Section 5.4.2 |
+| GIR-003 | Top-Up Tax Calculator | Section 5.4.3 |
+| GIR-004 | Safe Harbour Qualification | Section 9.1 |
+| GIR-005 | Filing Deadline Calculator | Section 7.1 |
+| GIR-006 | Data Point Reference | Section 4.1 |
+| GIR-007 | DFE Election Assessment | Section 8.1 |
+| GIR-008 | GIR Practice Form | Section 5.1 |
+| GIR-009 | Audit File Checklist | Section 11.4 |
+
+**STATUS: PHASE 5 COMPLETE**
 
 ---
 
@@ -284,10 +300,20 @@ If your result differs, review [specific section] to check your understanding.
    - Update appendix structure
    - Add tools.mojitax.com integration notes
 
+### Completed Updates
+
+1. **Demo Tools Table** - Expanded from 4 to 9 tools with "Introduced In" column
+2. **Appendix Section** - Replaced template library with case studies only structure
+3. **Development Notes** - Updated "Template Quality" to "Demo Tools Integration" and "Case Study Quality"
+4. **QA Checklist** - Reorganized into Content Quality, Case Studies, and Appendix Structure sections
+5. **Version Control** - Added v2.0 entry documenting restructuring
+
 ### Verification
-- [ ] Structural plan updated
-- [ ] Mandatory minimums removed
-- [ ] New approach documented
+- [x] Structural plan updated
+- [x] Mandatory minimums removed
+- [x] New approach documented
+
+**STATUS: PHASE 6 COMPLETE**
 
 ---
 
@@ -300,27 +326,41 @@ If your result differs, review [specific section] to check your understanding.
 ### Checklist
 
 **Content Quality:**
-- [ ] All template examples shown inline in content
-- [ ] All tool references include case study connections
-- [ ] Demo vs professional tool distinction added
-- [ ] No broken references to old appendix structure
+- [x] All template examples shown inline in content
+- [x] All tool references include case study connections
+- [x] Demo vs professional tool distinction added (9 sections)
+- [x] No broken references to old appendix structure
 
 **Appendix Structure:**
-- [ ] Appendices contain case studies only
-- [ ] Each case study has complete data
-- [ ] Expected outcomes documented
-- [ ] Original templates archived (not deleted)
+- [x] Appendices contain case studies only (5 case studies)
+- [x] Each case study has complete data (15 files total)
+- [x] Expected outcomes documented
+- [x] Original templates archived (not deleted) in `Archive/` folder
 
 **Tool Integration:**
-- [ ] Tool specifications written
-- [ ] Tools introduced within relevant chapters
-- [ ] Case study data connects to tools
-- [ ] Expected outcomes enable verification
+- [x] Tool specifications written (9 tools in TOOLS-REGISTRY)
+- [x] Tools introduced within relevant chapters (9 "Practice This Skill" sections)
+- [x] Case study data connects to tools (tool mapping in each Scenario_Overview.md)
+- [x] Expected outcomes enable verification
 
 **Overall Coherence:**
-- [ ] Course flows logically
-- [ ] No contradictions between sections
-- [ ] Consistent terminology throughout
+- [x] Course flows logically
+- [x] No contradictions between sections
+- [x] Consistent terminology throughout
+
+### QA Summary
+
+| Check | Result | Notes |
+|-------|--------|-------|
+| Tools in registry | 9/9 | GIR-001 through GIR-009 |
+| "Practice This Skill" sections | 9/9 | One per tool |
+| "Demo vs Professional" distinction | 9/9 | In each tool intro |
+| Case studies complete | 5/5 | All have 3 files each |
+| Archive preserved | Yes | `Appendices/Archive/` with all original templates |
+| README updated | Yes | Reflects all 9 tools and correct mappings |
+| Appendices README | Fixed | Updated tool references and case study mappings |
+
+**STATUS: PHASE 7 COMPLETE**
 
 ---
 

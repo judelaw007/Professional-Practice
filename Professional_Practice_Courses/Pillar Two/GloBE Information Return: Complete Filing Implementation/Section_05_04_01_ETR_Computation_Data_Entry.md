@@ -697,6 +697,33 @@ Use this checklist to ensure complete and accurate ETR computation:
 
 ---
 
+## Practice This Skill: GIR ETR Calculator
+
+Now that you understand the ETR calculation methodology, you can practice using the **GIR ETR Calculator (GIR-001)** on tools.mojitax.com.
+
+| Tool | Tool ID | Purpose |
+|------|---------|---------|
+| GIR ETR Calculator | GIR-001 | Calculate jurisdictional ETR from GloBE Income and Adjusted Covered Taxes |
+
+**Demo Tool vs Professional Tool**
+
+This is a demo tool for learning purposes. In professional practice, you would use enterprise Pillar Two software with full audit trails, multi-entity processing, and compliance features. The demo tool helps you understand the mechanics without the complexity of production systems.
+
+**To Practice:**
+
+1. Go to tools.mojitax.com and find **GIR ETR Calculator**
+2. Use the GlobalTech data from **Case Study 1** in the Appendices:
+   - Ireland: GloBE Income €45,000,000 | Adjusted Covered Taxes €5,625,000
+   - Switzerland: GloBE Income €28,000,000 | Adjusted Covered Taxes €3,640,000
+3. Enter the values and calculate
+4. **Expected Results:**
+   - Ireland ETR: 12.5000% (below 15% minimum)
+   - Switzerland ETR: 13.0000% (below 15% minimum)
+
+If your results differ, review Section 5.4.1.2 (The ETR Calculation Formula) to check your understanding.
+
+---
+
 ## Section Summary
 
 Section 3.1 of the GIR captures the detailed ETR computation for each jurisdiction. Key requirements include:

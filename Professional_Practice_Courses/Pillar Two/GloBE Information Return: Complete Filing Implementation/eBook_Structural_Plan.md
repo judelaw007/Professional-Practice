@@ -82,12 +82,17 @@ This course uses a practical, hands-on learning approach aligned with the update
 
 ### Demo Tools on tools.mojitax.com
 
-| Tool ID | Tool Name | Purpose |
-|---------|-----------|---------|
-| GIR-001 | GIR ETR Calculator | Practice jurisdictional ETR calculation |
-| GIR-002 | GIR SBIE Calculator | Practice substance carve-out calculation |
-| GIR-003 | GIR Top-Up Tax Calculator | Practice complete Top-up Tax calculation |
-| GIR-004 | Safe Harbour Qualification Tool | Practice safe harbour assessment |
+| Tool ID | Tool Name | Purpose | Introduced In |
+|---------|-----------|---------|---------------|
+| GIR-001 | GIR ETR Calculator | Practice jurisdictional ETR calculation | Section 5.4.1 |
+| GIR-002 | GIR SBIE Calculator | Practice substance carve-out calculation | Section 5.4.2 |
+| GIR-003 | GIR Top-Up Tax Calculator | Practice complete Top-up Tax calculation | Section 5.4.3 |
+| GIR-004 | Safe Harbour Qualification Tool | Practice safe harbour assessment | Section 9.1 |
+| GIR-005 | GIR Filing Deadline Calculator | Practice deadline determination | Section 7.1 |
+| GIR-006 | GIR Data Point Reference | Searchable reference of ~480 data points | Section 4.1 |
+| GIR-007 | DFE Election Assessment Tool | Practice DFE election evaluation | Section 8.1 |
+| GIR-008 | GIR Practice Form | Practice GIR Sections 1-3 data entry | Section 5.1 |
+| GIR-009 | GIR Audit File Checklist | Practice building audit documentation | Section 11.4 |
 
 ### Case Studies in Appendices
 
@@ -814,67 +819,60 @@ United Kingdom, Germany, Netherlands, France, Italy, Spain, Ireland, Luxembourg,
 
 ---
 
-# APPENDIX: PRACTICAL TOOLS LIBRARY
-**Pages: 15-20 | Ready-to-use deliverables**
+# APPENDICES: CASE STUDIES
+**Pages: 15-20 | Practice scenarios with sample data**
 
-> **Note:** This appendix contains only practical, non-redundant tools that complement the main chapters. Materials originally planned for Appendices B-F (Forms Package, Deadline Calendar, Resource Links, Worked Examples, Quick Reference) are already comprehensively covered within the relevant chapters:
-> - **Forms & XML Schema** → Chapter 6 (XML Generation)
-> - **Deadline Calendar** → Included in Section 1 below
-> - **Resource Links** → Chapter 13 (Essential Resources)
-> - **Worked Examples** → Chapter 10 (Case Studies with GlobalCo plc)
-> - **Quick Reference** → Section 2 (Quick Reference Overview) and Data Point Tracker
+> **Updated Approach:** The Appendices contain **case studies only**. Templates and examples are shown inline in the eBook content where they're explained. Learners practice using demo tools on tools.mojitax.com with case study data.
 
 ---
 
-## 1. Excel Calculators & Trackers (5 tools)
+## Case Study Structure
 
-| Tool | Description | Key Features |
-|------|-------------|--------------|
-| **GIR Data Point Tracker** | Master inventory of all ~480 GIR data points | Source mapping, completion tracking, Section 1-3 coverage |
-| **GIR Completion Calculator** | Core working tool for GIR Sections 1-3 | January 2025 OECD schema, built-in validation, ETR calculations |
-| **Multi-Jurisdiction Deadline Calendar** | Consolidated deadline tracker | 25+ jurisdictions, alert system, extension tracking |
-| **GIR-to-Tax Reconciliation Tool** | Reconcile GIR to tax provision | Variance analysis, adjustment documentation |
-| **Penalty Calculator by Jurisdiction** | Estimate penalty exposure | 15+ jurisdictions, mitigation factors, transitional relief |
+Each case study folder contains:
 
-**Folder:** `/Appendix_Practical_Tools_Library/1_Excel_Calculators/`
+| File | Purpose |
+|------|---------|
+| `Scenario_Overview.md` | Context, company profile, key challenges, tools to use |
+| `Sample_Data.md` | Complete practice data for the scenario |
+| `Expected_Outcomes.md` | Results learners should achieve |
 
 ---
 
-## 2. Communication Templates (5 templates)
+## Case Studies
 
-| Template | Purpose | Format |
-|----------|---------|--------|
-| **Data Request Memo for Internal Teams** | Request data from Finance, HR, Fixed Assets teams | Word (.docx) |
-| **Board/Management Briefing Memo** | Executive summary of GIR filing status and obligations | Word (.docx) |
-| **External Auditor Notification Letter** | Formal notification to external auditors of GIR filing | Word (.docx) |
-| **GIR Filing Confirmation Record** | Document filing confirmations and reference numbers | Word (.docx) |
-| **Audit File Index Template** | Organize and index audit documentation | Word (.docx) |
+| Case Study | Folder | Focus | Tools Used |
+|------------|--------|-------|------------|
+| **1. GlobalTech First Filing** | `Case_Study_1_GlobalTech_First_Filing/` | Complete first-time GIR preparation | All 9 tools |
+| **2. Complex Ownership** | `Case_Study_2_Complex_Ownership/` | POPEs, JVs, MOCEs | 5 tools |
+| **3. Data Gap Challenges** | `Case_Study_3_Data_Gap_Challenges/` | Estimation techniques | 4 tools |
+| **4. Multi-QDMTT Jurisdictions** | `Case_Study_4_Multi_QDMTT_Jurisdictions/` | QDMTT offset mechanism | 6 tools |
+| **5. Amendment Required** | `Case_Study_5_Amendment_Required/` | Amendment procedures | 4 tools |
 
-**Folder:** `/Appendix_Practical_Tools_Library/2_Communication_Templates/`
+**Location:** `/Appendices/`
 
 ---
 
-## 3. Supplementary Checklists (2 checklists)
+## Archived Materials
 
-| Checklist | Description | Checkpoints |
-|-----------|-------------|-------------|
-| **Post-Filing Confirmation Checklist** | Track confirmations across multiple jurisdictions | 40 items |
-| **Year-2+ Annual Update Checklist** | Annual refresh cycle with year-over-year comparison | 36 tasks |
+Original template files from the prior course structure have been preserved in `/Archive/` for reference. These are not part of the active course content.
 
-**Folder:** `/Appendix_Practical_Tools_Library/3_Supplementary_Checklists/`
+---
 
-> **Note on Checklists:** Detailed checklists for Pre-Filing Data Verification (55 checkpoints), XML Validation (25 checkpoints), Multi-Jurisdiction Filing Coordination, Go-Live (35 checkpoints), Data Quality Assurance (55 checkpoints), and Audit Readiness are embedded directly within their respective chapters (Sections 4.3, 6.3, 7.1, 11.2, 14.4) in print-ready markdown format.
+## External Tools Library
+
+Free third-party tools (XML validators, OECD resources, jurisdiction portals) are documented centrally in:
+
+**Location:** `/External_Tools_Library/Pillar_Two/GloBE_Information_Return/`
 
 ---
 
 ## Appendix Summary
 
-| Section | Items | Total Files |
-|---------|-------|-------------|
-| 1. Excel Calculators & Trackers | 5 | 5 .xlsx |
-| 2. Communication Templates | 5 | 5 .docx |
-| 3. Supplementary Checklists | 2 | 2 .xlsx |
-| **Total** | **12** | **12 files** |
+| Content Type | Count |
+|--------------|-------|
+| Case Studies | 5 |
+| Files per Case Study | 3 |
+| **Total Case Study Files** | **15** |
 
 ---
 
@@ -887,22 +885,29 @@ United Kingdom, Germany, Netherlands, France, Italy, Spain, Ireland, Luxembourg,
    - Skip all Pillar Two history, policy rationale, and conceptual explanations
    - Assume learners already understand GloBE Rules basics
 
-2. **Template Quality**
-   - All Excel tools must have working formulas, validation, and instructions
-   - All Word templates must be 80%+ complete - just fill in specifics
-   - All checklists must have actionable, specific checkpoints
+2. **Demo Tools Integration**
+   - All 9 demo tools registered in TOOLS-REGISTRY (2).csv
+   - Each tool introduced in the relevant chapter with "Practice This Skill" section
+   - Clear distinction between demo tools (learning) and professional tools (production)
+   - Case study data aligned with tool practice exercises
 
-3. **Screenshot Requirements**
+3. **Case Study Quality**
+   - Each case study has complete sample data for practice
+   - Expected outcomes documented for self-assessment
+   - Progressive complexity across 5 case studies
+   - Tools mapped to case studies in Scenario_Overview.md
+
+4. **Screenshot Requirements**
    - Include actual portal screenshots for all 15 main jurisdictions
    - Show real XML validation tool interfaces
-   - Display Calculator screens with sample data
+   - Display demo tool interfaces with sample data
 
-4. **Currency and Accuracy**
+5. **Currency and Accuracy**
    - Verify all portal links within 30 days of launch
    - Update deadline calendar annually
    - Monitor for OECD Administrative Guidance updates
 
-5. **Practical Problem-Solving**
+6. **Practical Problem-Solving**
    - Address real data gaps practitioners face
    - Provide workarounds for ERP limitations
    - Include troubleshooting for common XML errors
@@ -910,14 +915,26 @@ United Kingdom, Germany, Netherlands, France, Italy, Spain, Ireland, Luxembourg,
 ### Quality Assurance Checklist
 
 Before launch, verify:
-- [ ] All ~480 data points in tracker are accurate per OECD January 2025 schema
-- [ ] Calculator formulas tested with multiple scenarios
-- [ ] XML generation produces valid output per January 2025 schema
+
+**Content Quality:**
+- [ ] All ~480 data points documented per OECD January 2025 schema
+- [ ] All 9 demo tools specified in TOOLS-REGISTRY (2).csv
+- [ ] "Practice This Skill" sections added to all relevant chapters
+- [ ] Demo vs professional tool distinction included
 - [ ] All 25+ portal links tested and working
 - [ ] All deadlines verified against official sources
-- [ ] Sample GIR sections reviewed by Pillar Two specialist
-- [ ] Worked examples validated by practitioner unfamiliar with content
-- [ ] All templates can be used without additional instruction
+
+**Case Studies:**
+- [ ] All 5 case studies have complete sample data
+- [ ] Expected outcomes documented for each case study
+- [ ] Tool-to-case study mapping verified
+- [ ] Case studies referenced in "Practice This Skill" sections
+
+**Appendix Structure:**
+- [ ] Appendices contain case studies only (no template libraries)
+- [ ] Archive folder contains original templates (preserved, not deleted)
+- [ ] External_Tools_Library populated with third-party resources
+- [ ] README.md in Appendices explains new structure
 
 ---
 
@@ -927,6 +944,7 @@ Before launch, verify:
 |---------|------|--------|---------|
 | 1.0 | November 2025 | [Developer] | Initial structural plan |
 | 1.1 | November 2025 | [Developer] | Updated with web research verification: corrected GIR structure from 5 tables to 3 sections per OECD January 2025 template; updated data point count to ~480; added transitional penalty relief details; added UK-specific registration requirements |
+| 2.0 | December 2025 | [Developer] | Major restructuring aligned with updated Professional Practice Course guidelines: Replaced downloadable template libraries with case studies only; Added 9 demo tools on tools.mojitax.com with "Practice This Skill" sections; Created External_Tools_Library for third-party resources; Archived original template files; Updated QA checklist for new approach |
 
 ---
 

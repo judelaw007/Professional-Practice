@@ -606,6 +606,34 @@ Approved By: _________________________________ Date: ____ / ____ / ____
 
 ---
 
+## Practice This Skill: DFE Election Assessment Tool
+
+Before making a DFE election, you can practice the assessment process using the **DFE Election Assessment Tool (GIR-007)** on tools.mojitax.com.
+
+| Tool | Tool ID | Purpose |
+|------|---------|---------|
+| DFE Election Assessment Tool | GIR-007 | Evaluate which entity should be designated as the DFE |
+
+**Demo Tool vs Professional Tool**
+
+This is a demo tool for learning purposes. In professional practice, DFE decisions involve multiple stakeholders, legal review, and formal election filings. The demo tool helps you understand the evaluation criteria.
+
+**To Practice:**
+
+1. Go to tools.mojitax.com and find **DFE Election Assessment Tool**
+2. Use data from **Case Study 1** (GlobalTech) or **Case Study 4** (Multi-QDMTT):
+   - UPE Jurisdiction: United Kingdom
+   - UPE Files GIR Locally: Yes (UK has implemented Pillar Two)
+   - Potential DFE Jurisdictions: UK, Netherlands, Germany
+3. Enter the values and assess DFE options
+4. **Expected Results:**
+   - For UK-parented groups: UPE can file directly (no DFE election needed)
+   - For US-parented groups: DFE election required (select based on criteria)
+
+If your assessment differs, review the evaluation criteria in Part 2 of this section.
+
+---
+
 ## Summary
 
 The Designated Filing Entity (DFE) enables MNE groups to streamline Pillar Two compliance through centralised filing:

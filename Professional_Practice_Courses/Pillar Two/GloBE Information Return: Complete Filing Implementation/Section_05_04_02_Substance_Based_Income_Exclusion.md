@@ -650,6 +650,34 @@ Use this checklist to ensure complete and accurate SBIE calculation:
 
 ---
 
+## Practice This Skill: GIR SBIE Calculator
+
+Now that you understand the Substance-Based Income Exclusion methodology, you can practice using the **GIR SBIE Calculator (GIR-002)** on tools.mojitax.com.
+
+| Tool | Tool ID | Purpose |
+|------|---------|---------|
+| GIR SBIE Calculator | GIR-002 | Calculate payroll and tangible asset carve-outs with transitional rates |
+
+**Demo Tool vs Professional Tool**
+
+This is a demo tool for learning purposes. In professional practice, you would use enterprise Pillar Two software that handles multi-entity SBIE with asset tracking and payroll integration. The demo tool helps you understand the mechanics and transitional rate calculations.
+
+**To Practice:**
+
+1. Go to tools.mojitax.com and find **GIR SBIE Calculator**
+2. Use the GlobalTech data from **Case Study 1** in the Appendices:
+   - Select Fiscal Year: 2024
+   - Ireland: Eligible Payroll €8,500,000 | Eligible Tangible Assets €12,000,000
+3. Enter the values and calculate
+4. **Expected Results (FY 2024 rates: 9.8% payroll, 7.8% assets):**
+   - Payroll SBIE: €833,000
+   - Asset SBIE: €936,000
+   - Total SBIE: €1,769,000
+
+If your results differ, review Section 5.4.2.4 (Transitional Carve-out Rates) to verify the applicable rates.
+
+---
+
 ## Section Summary
 
 The Substance-Based Income Exclusion provides meaningful relief from Top-up Tax for jurisdictions with genuine economic substance. Key requirements include:

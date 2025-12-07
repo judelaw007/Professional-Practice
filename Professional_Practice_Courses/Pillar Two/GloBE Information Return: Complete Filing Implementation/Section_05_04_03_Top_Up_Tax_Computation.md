@@ -660,6 +660,37 @@ Use this checklist to ensure complete and accurate Top-up Tax computation:
 
 ---
 
+## Practice This Skill: GIR Top-Up Tax Calculator
+
+Now that you understand the complete Top-up Tax computation, you can practice using the **GIR Top-Up Tax Calculator (GIR-003)** on tools.mojitax.com.
+
+| Tool | Tool ID | Purpose |
+|------|---------|---------|
+| GIR Top-Up Tax Calculator | GIR-003 | Calculate Top-up Tax by combining ETR and SBIE to determine final liability |
+
+**Demo Tool vs Professional Tool**
+
+This is a demo tool for learning purposes. In professional practice, you would use enterprise Pillar Two software that handles multi-entity allocation, QDMTT offsets, and IIR/UTPR coordination. The demo tool helps you understand the calculation mechanics.
+
+**To Practice:**
+
+1. Go to tools.mojitax.com and find **GIR Top-Up Tax Calculator**
+2. Use the GlobalTech Ireland data from **Case Study 1**:
+   - GloBE Income: €45,000,000
+   - Adjusted Covered Taxes: €5,625,000
+   - Total SBIE: €1,769,000
+   - QDMTT Amount: €0 (Ireland has no QDMTT in 2024)
+3. Enter the values and calculate
+4. **Expected Results:**
+   - ETR: 12.5000%
+   - Top-up Tax %: 2.5000%
+   - Excess Profit: €43,231,000
+   - Top-up Tax: €1,080,775
+
+If your results differ, review the calculation steps in this section.
+
+---
+
 ## Section Summary
 
 The Top-Up Tax computation determines the final liability for each low-taxed jurisdiction. Key requirements include:
