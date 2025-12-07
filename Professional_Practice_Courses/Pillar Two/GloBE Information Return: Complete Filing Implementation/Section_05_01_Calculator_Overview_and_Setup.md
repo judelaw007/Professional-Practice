@@ -4,18 +4,81 @@
 
 ## Introduction
 
-The GIR Completion Calculator is the central tool for preparing your GloBE Information Return. This Excel-based calculator aligns with the OECD January 2025 GIR template structure and provides a systematic framework for data entry, computation, and validation across all three GIR sections.
+Preparing a GloBE Information Return requires calculating approximately **480 data points** spanning three sections. The calculations increase in complexity with each additional jurisdiction and Constituent Entity. A structured approach is essential.
 
-With approximately **480 data points** spanning the GIR's three sections, and calculations that increase in complexity with each additional jurisdiction and Constituent Entity, a structured calculator approach is essential. The calculator eliminates manual computation errors, ensures consistency across jurisdictions, and provides validation checks that identify issues before XML generation.
+This section explains:
+- **GIR calculation architecture** aligned with the OECD structure
+- **Key formulas** for ETR, SBIE, and Top-up Tax
+- **Validation approaches** for error checking
+- **How to practice** using demo tools on tools.mojitax.com
 
-This section covers:
-- **Calculator architecture** aligned with the OECD GIR structure
-- **Input cell identification** using standardized colour coding
-- **Built-in validation** and error checking features
-- **Sample data** for testing and familiarization
-- **Setup procedures** for your first GIR preparation
+---
 
-> **Deliverable**: The GIR Completion Calculator (Excel) accompanies this course. Download and save the file before proceeding with this section. The calculator is designed for immediate use—enter your data in the designated input cells and the calculator handles all computations.
+## Demo Tools vs Professional Tools
+
+Before diving into the calculations, it's important to understand the difference between the demo tools you'll use for learning and the professional tools used in practice.
+
+### Demo Tools (tools.mojitax.com)
+
+This course integrates with **demo tools on tools.mojitax.com** for hands-on practice:
+
+| Demo Tool | Tool ID | Purpose |
+|-----------|---------|---------|
+| GIR ETR Calculator | GIR-001 | Calculate jurisdictional ETR |
+| GIR SBIE Calculator | GIR-002 | Calculate Substance-Based Income Exclusion |
+| GIR Top-Up Tax Calculator | GIR-003 | Calculate complete Top-up Tax |
+| Safe Harbour Qualification Tool | GIR-004 | Assess CbCR Safe Harbour eligibility |
+
+**Demo tools are for learning.** They are:
+- Simplified for educational focus
+- Use sample data from course case studies
+- Produce practice results (not for actual filing)
+- Help you understand the calculation mechanics
+
+### Professional Tools
+
+In professional practice, you would use **enterprise Pillar Two software** such as:
+- Big 4 firm proprietary solutions (e.g., KPMG Pillar Two Engine, PwC GloBE Calculator)
+- Tax technology platforms (e.g., Thomson Reuters ONESOURCE, Vertex)
+- ERP-integrated solutions (e.g., SAP Pillar Two modules)
+- Specialist Pillar Two software providers
+
+**Professional tools provide:**
+- Full audit trails and version control
+- Multi-user access with role-based permissions
+- Integration with ERP and consolidation systems
+- Automated XML generation and validation
+- Compliance documentation and reporting
+
+### When to Use Each
+
+| Use Demo Tools When... | Use Professional Tools When... |
+|------------------------|-------------------------------|
+| Learning GIR calculations | Preparing actual GIR filings |
+| Practicing with case study data | Working with real MNE data |
+| Verifying your understanding | Generating XML for submission |
+| Training team members | Documenting for audit purposes |
+
+---
+
+## Practice with Case Studies
+
+As you learn the calculations in this section, practice using the **demo tools on tools.mojitax.com** with data from the course case studies:
+
+| Case Study | Location | Demo Tools to Use |
+|------------|----------|-------------------|
+| GlobalTech First Filing | Appendix: Case Study 1 | GIR-001, GIR-002, GIR-003, GIR-004 |
+| Complex Ownership | Appendix: Case Study 2 | GIR-001, GIR-002, GIR-003 |
+| Data Gap Challenges | Appendix: Case Study 3 | GIR-001, GIR-002 |
+| Multi-QDMTT Jurisdictions | Appendix: Case Study 4 | GIR-001, GIR-002, GIR-003 |
+
+Each case study includes:
+- **Sample_Data.md** - Input values to enter into demo tools
+- **Expected_Outcomes.md** - Results to verify your calculations
+
+---
+
+## GIR Calculation Architecture
 
 ---
 

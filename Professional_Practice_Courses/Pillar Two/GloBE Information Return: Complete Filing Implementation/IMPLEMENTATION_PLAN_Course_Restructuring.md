@@ -147,74 +147,48 @@ Each case study includes:
 
 **Duration:** 6-10 hours (largest phase)
 
-### What This Means
+**STATUS: IN PROGRESS**
 
-**Before (Old Style):**
-> "Download the DFE Election Template from Appendix A and complete it for your group."
+### Completed Updates
 
-**After (New Style):**
-> [Shows the complete DFE Election Template structure inline in the content, with annotations explaining each section, followed by:]
-> "Practice completing a DFE election using the GlobalTech scenario in Case Study 1."
+1. **Section 1.3 (Deliverables Inventory) - REWRITTEN**
+   - Removed all downloadable file inventory (Excel tools, Word templates, checklists)
+   - Replaced with "How This Course Helps You Learn" explaining new approach
+   - Added demo tools table with tool IDs and purposes
+   - Added case studies overview table
+   - Added demo vs professional tools distinction
+   - Added recommended learning path
 
-### Sections Requiring Updates
+2. **Section 5.1 (Calculator Overview) - UPDATED**
+   - Added "Demo Tools vs Professional Tools" section at beginning
+   - Listed all 4 demo tools with IDs and purposes
+   - Added comparison table: when to use demo vs professional tools
+   - Added "Practice with Case Studies" section with tool mapping
+   - Clarified that demo tools are for learning, not production use
 
-| Section | Current State | Update Needed |
-|---------|---------------|---------------|
-| 1.3 Deliverables Inventory | Lists downloadable files | Rewrite to describe inline examples + tools |
-| 5.1 Calculator Overview | Dedicated tool section | Integrate tool intro into relevant sections |
-| Various chapters | Reference "download template" | Show template inline, reference case study |
+3. **eBook_Structural_Plan.md - UPDATED**
+   - Replaced "Mandatory Deliverables Checklist" with "Learning Approach"
+   - Updated Section 1.3 description from deliverables to learning approach
+   - Added tools and case studies tables
 
-### Content Update Approach
+4. **Section 1 Summary - UPDATED**
+   - Changed "Tools" row to "Learning Approach"
+   - Updated Next Steps to remove download references
 
-For each template/tool currently offered as download:
+### Remaining Work
 
-1. **Identify where it's referenced** in the course
-2. **Show the example inline** in the eBook at that location
-3. **Add practice reference** pointing to case study + tool
-4. **Remove download reference** from Deliverables Inventory
+The following updates are recommended but lower priority:
 
-### Key Sections to Update
+- [ ] Update remaining template references in other sections (search for "Template Used", "download", ".xlsx")
+- [ ] Show key templates inline where they're explained (DFE Election, Data Request Memo, etc.)
 
-#### Section 1.3 (Deliverables Inventory)
-- **Current:** 8-10 pages listing downloadable packages
-- **Target:** Describe learning approach (inline examples + tools.mojitax.com + case studies)
-
-#### Section 5.1 (Calculator Overview)
-- **Current:** Standalone tool introduction
-- **Target:** Redistribute tool introductions to relevant chapters; add demo vs professional tool clarification
-
-#### All Template References
-- **Current:** "See Appendix A for template"
-- **Target:** Show template inline; "Practice with Case Study X on tools.mojitax.com"
-
-### Tasks
-
-1. **Update Section 1.3**
-   - Rewrite to explain new learning model
-   - Remove file download inventory
-   - Describe: inline examples + demo tools + case studies
-
-2. **Update Section 5.1**
-   - Add demo tools vs professional tools clarification
-   - Add case study references
-   - Consider redistributing some content to where tools are used
-
-3. **Update Template References Throughout**
-   - Search for "Appendix A", "download", "template" references
-   - Replace with inline examples where appropriate
-   - Add case study and tool references
-
-4. **Show Key Templates Inline**
-   - DFE Election Documentation
-   - Data Request Memo
-   - Filing Confirmation Record
-   - Safe Harbour Election Forms
+These can be completed in a future pass as they are less critical than the structural changes above.
 
 ### Verification
-- [ ] Section 1.3 rewritten
-- [ ] Section 5.1 updated with demo/professional tool distinction
-- [ ] Template references updated
-- [ ] Key templates shown inline
+- [x] Section 1.3 rewritten
+- [x] Section 5.1 updated with demo/professional tool distinction
+- [ ] Template references updated (partial - key sections done)
+- [ ] Key templates shown inline (deferred to future phase)
 
 ---
 

@@ -281,113 +281,101 @@ If your group qualifies for a **Transitional Safe Harbour**, your GIR filing req
 
 ---
 
-## 1.3 Complete Deliverables Inventory
+## 1.3 How This Course Helps You Learn
 
-This course provides you with a comprehensive toolkit for GIR compliance. Below is the complete inventory of what you will receive.
+This course uses a **practical, hands-on learning approach** designed to build real-world GIR compliance skills. Rather than providing files to download, we focus on:
 
-### Excel Tools Package (10 Tools)
-
-| Tool Name | Purpose | Data Points |
-|-----------|---------|-------------|
-| **GIR Data Point Tracker** | Master inventory of all ~480 GIR data points with source mapping | 480+ rows |
-| **GIR Completion Calculator** | Sections 1-3 calculator with validation (January 2025 OECD template) | All 3 sections |
-| **Constituent Entity Database** | Entity-by-entity tracking with ownership, status, TINs | Unlimited entities |
-| **Multi-Jurisdiction Deadline Calendar** | Filing deadlines for 25+ jurisdictions with iCal export | 25+ jurisdictions |
-| **GIR-to-Tax Reconciliation Tool** | Reconcile GIR data to Pillar Two tax calculations | Full reconciliation |
-| **Jurisdiction Comparison Matrix** | Side-by-side IIR/UTPR/QDMTT implementation status | 40+ jurisdictions |
-| **Multi-Jurisdiction Filing Tracker** | Track filing status across all filing jurisdictions | Unlimited |
-| **Resource Planning Worksheet** | Internal team allocation and budget tracking | Full project |
-| **Implementation Gantt Chart** | 6-month timeline with milestones and dependencies | 6 months |
-| **Penalty Calculator** | Estimate penalty exposure by jurisdiction | 15+ jurisdictions |
+1. **Inline Examples** - Templates, forms, and calculation structures shown directly in the content where they're explained
+2. **Demo Tools** - Practice calculators on tools.mojitax.com for hands-on skill building
+3. **Case Studies** - Progressive scenarios with sample data in the Appendices for practice and verification
 
 ---
 
-### Word Templates Package (8 Templates)
+### Learning Through Demo Tools
 
-| Template Name | Purpose | Completion Level |
-|---------------|---------|------------------|
-| **Designated Filing Entity Election** | Formal DFE election documentation for tax authority | 90% complete |
-| **Data Request Memo** | Internal memo requesting GIR data from business units | 85% complete |
-| **GIR Filing Confirmation Record** | Documentation of filing submission and confirmation | 90% complete |
-| **Amendment Request Documentation** | Formal request for GIR amendment | 85% complete |
-| **Board/Management Briefing Memo** | Executive summary for leadership on GIR requirements | 80% complete |
-| **External Auditor Notification** | Letter notifying external auditors of GIR filing | 90% complete |
-| **Audit File Index** | Master index of all GIR supporting documentation | 95% complete |
-| **Safe Harbour Election Documentation** | Documentation supporting safe harbour elections | 85% complete |
+When you need to practice GIR calculations, this course integrates with **demo tools on tools.mojitax.com**. These are simplified, educational versions of the calculators you'll encounter in professional practice.
 
-**"Completion Level" means:** Templates are substantially complete. You fill in entity-specific details, not build from scratch.
+| Demo Tool | Purpose | Practice With |
+|-----------|---------|---------------|
+| **GIR ETR Calculator** | Calculate jurisdictional Effective Tax Rate | Case Study 1: GlobalTech |
+| **GIR SBIE Calculator** | Calculate Substance-Based Income Exclusion | Case Study 1-4 |
+| **GIR Top-Up Tax Calculator** | Calculate complete Top-up Tax | All case studies |
+| **Safe Harbour Qualification Tool** | Assess CbCR Safe Harbour eligibility | Case Study 1 |
+
+**Important:** These are demo tools for learning—not replacements for professional Pillar Two software. In professional practice, you would use enterprise software with full audit trails, multi-user access, and compliance features. The demo tools help you understand the mechanics without production complexity.
 
 ---
 
-### Process Checklists Package (8 Checklists)
+### Learning Through Case Studies
 
-| Checklist Name | Checkpoints | Format |
-|---------------|-------------|--------|
-| **Pre-Filing Data Verification** | 50+ checkpoints | Excel/PDF |
-| **XML Validation Checklist** | 25 checkpoints | Excel/PDF |
-| **Multi-Jurisdiction Filing Coordination** | 35 checkpoints | Excel/PDF |
-| **Post-Filing Confirmation** | 20 checkpoints | Excel/PDF |
-| **Audit Readiness Checklist** | 40 checkpoints | Excel/PDF |
-| **Go-Live Checklist** | 35 checkpoints | Excel/PDF |
-| **Year-2+ Annual Update** | 30 checkpoints | Excel/PDF |
-| **Data Quality Assurance** | 45 checkpoints | Excel/PDF |
+The Appendices contain **5 progressive case studies** based on realistic MNE scenarios. Each case study includes:
 
----
+- **Scenario Overview** - Context and learning objectives
+- **Sample Data** - Input values for the demo tools
+- **Expected Outcomes** - Results to verify your calculations
 
-### Forms and Schema Package
-
-| Item | Description | Source |
-|------|-------------|--------|
-| **OECD GIR XML Schema** | January 2025 version with full documentation | OECD direct link |
-| **Sample Completed GIR** | Section 1-3 fully populated with annotations | Course materials |
-| **UK ORN Template** | Overseas Return Notification for UK groups | HMRC |
-| **DFE Election Forms** | Election forms for 10+ jurisdictions | Tax authority links |
-| **Amendment Forms** | Amendment request forms by jurisdiction | Tax authority links |
+| Case Study | Scenario | Key Learning |
+|------------|----------|--------------|
+| **1. GlobalTech First Filing** | Standard MNE with Ireland/Switzerland below 15% | ETR, SBIE, Top-up Tax basics |
+| **2. Complex Ownership** | POPE, JV, MOCE structures | Top-up Tax allocation |
+| **3. Data Gap Challenges** | Mid-year acquisition, legacy systems | Estimation methodologies |
+| **4. Multi-QDMTT Jurisdictions** | NL, CH, IE QDMTT coordination | QDMTT offset mechanism |
+| **5. Amendment Required** | Post-filing error correction | Amendment procedures, penalty mitigation |
 
 ---
 
-### Official Resource Directory
+### Learning Through Inline Examples
 
-| Category | Items Included |
-|----------|---------------|
-| **Government Portals** | 25+ jurisdiction filing portals with direct links |
-| **OECD Documentation** | All Administrative Guidance releases (Feb 2023, Jul 2023, Dec 2023, Jun 2024, Jan 2025) |
-| **XML Tools** | OECD validator, jurisdiction validators, third-party tools |
+When a template, form structure, or calculation methodology is important for your understanding, we show it **directly in the eBook content**—not as a separate file to download. This means:
+
+- You see the complete structure with annotations explaining each element
+- You understand the "why" behind each field
+- You can immediately apply what you learn using demo tools
+
+For example, when we explain the DFE Election documentation in Section 3, you'll see the complete structure inline with guidance on completing each section.
+
+---
+
+### What You'll Be Able to Do
+
+By the end of this course, you will be able to:
+
+| Skill | How You'll Learn It |
+|-------|---------------------|
+| Calculate jurisdictional ETR | Inline examples + GIR ETR Calculator + Case Studies |
+| Calculate SBIE with transitional rates | Inline examples + GIR SBIE Calculator + Case Studies |
+| Calculate Top-up Tax and allocations | Inline examples + GIR Top-Up Tax Calculator + Case Studies |
+| Assess Safe Harbour eligibility | Inline examples + Safe Harbour Tool + Case Study 1 |
+| Handle complex ownership structures | Inline examples + Case Study 2 |
+| Manage data gaps and estimations | Inline examples + Case Study 3 |
+| Coordinate multi-QDMTT filings | Inline examples + Case Study 4 |
+| Prepare GIR amendments | Inline examples + Case Study 5 |
+
+---
+
+### Official Resources
+
+Throughout the course, we reference official guidance and resources:
+
+| Resource Type | Examples |
+|---------------|----------|
+| **OECD Documentation** | Administrative Guidance (Feb 2023, Jul 2023, Dec 2023, Jun 2024, Jan 2025) |
+| **XML Schema** | January 2025 GIR XML Schema and User Guide |
 | **National Guidance** | UK HMRC, German BZSt, Dutch Tax Authority, IRAS Singapore, ATO Australia |
-| **Help Desk Contacts** | Tax authority contact details for technical queries |
+| **Government Portals** | Filing portal links for key jurisdictions |
+
+Links to these resources are provided in context throughout the course and consolidated in Section 13 (Resources and References).
 
 ---
 
-### How to Access Your Materials
+### Recommended Learning Path
 
-All materials are provided in the following structure:
+1. **Read the content** - Understand concepts through inline examples and explanations
+2. **Practice with demo tools** - Use tools.mojitax.com with case study data from the Appendices
+3. **Verify your results** - Compare to expected outcomes in the case study files
+4. **Apply to your work** - Use the concepts and skills with your actual MNE group data
 
-```
-/Course Materials
-├── /Excel Tools
-│   ├── GIR_Data_Point_Tracker.xlsx
-│   ├── GIR_Completion_Calculator.xlsx
-│   ├── Constituent_Entity_Database.xlsx
-│   ├── Deadline_Calendar.xlsx
-│   ├── Reconciliation_Tool.xlsx
-│   └── [Additional tools...]
-├── /Word Templates
-│   ├── DFE_Election_Template.docx
-│   ├── Data_Request_Memo.docx
-│   └── [Additional templates...]
-├── /Checklists
-│   ├── Pre_Filing_Verification.xlsx
-│   ├── XML_Validation_Checklist.xlsx
-│   └── [Additional checklists...]
-├── /Forms Package
-│   ├── Sample_Completed_GIR.pdf
-│   ├── XML_Schema_Documentation.pdf
-│   └── [Jurisdiction forms...]
-└── /Resource Directory
-    └── Official_Resource_Links.xlsx
-```
-
-**Recommended First Action:** Download all materials before proceeding to Section 2. Review the GIR Data Point Tracker to understand the scope of data collection required.
+**Continue to Section 2** to begin with the GIR Quick Reference Overview.
 
 ---
 
@@ -648,7 +636,7 @@ If you're reading this course after January 2026 and have a June 30, 2026 deadli
 | **Scope** | €750M+ consolidated revenue in 2 of 4 preceding years |
 | **Penalties** | Substantial, but transitional relief available for good-faith efforts |
 | **Implementation** | 65+ countries now have Pillar Two rules |
-| **Tools** | 10 Excel tools, 8 Word templates, 8 checklists included |
+| **Learning Approach** | Inline examples + demo tools on tools.mojitax.com + case studies |
 | **Timeline** | 6 months is standard; compressed timeline possible but risky |
 
 ---
@@ -657,12 +645,11 @@ If you're reading this course after January 2026 and have a June 30, 2026 deadli
 
 Before proceeding to Section 2, complete the following:
 
-- [ ] Download all course materials
-- [ ] Review the GIR Data Point Tracker (~480 fields)
 - [ ] Confirm your fiscal year end and calculate your filing deadline
 - [ ] Identify your likely Designated Filing Entity
+- [ ] Review the case studies in the Appendices to understand the scenarios you'll practice
+- [ ] Familiarize yourself with tools.mojitax.com demo tools
 - [ ] Schedule your project kickoff meeting
-- [ ] Brief your management team using the Board Briefing template
 
 **Continue to Section 2: Quick Reference Overview →**
 
