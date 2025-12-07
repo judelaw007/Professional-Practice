@@ -420,7 +420,7 @@ Month 6 (Jun 2026)     │ Filing, Confirmation, and Documentation
 - Tax team members: 20 hours each
 - IT support: 10 hours (system access)
 
-**Template Used:** Implementation Gantt Chart, Board/Management Briefing Memo
+**Learning Resources:** Section 2 (Scope and Structure) covers CE identification in detail.
 
 **Checkpoint:** By end of Month 1, you should have a complete list of Constituent Entities and confirmed project team.
 
@@ -449,7 +449,7 @@ Month 6 (Jun 2026)     │ Filing, Confirmation, and Documentation
 - Tax team members: 40 hours each
 - IT/ERP specialists: 30 hours
 
-**Template Used:** GIR Data Point Tracker, Data Request Memo
+**Learning Resources:** Section 6 (Data Extraction and Mapping) provides detailed guidance on data point mapping and gap analysis.
 
 **Checkpoint:** By end of Month 2, you should know exactly what data you have and what's missing.
 
@@ -477,7 +477,7 @@ Month 6 (Jun 2026)     │ Filing, Confirmation, and Documentation
 - Tax team members: 60 hours each
 - IT/ERP specialists: 80 hours
 
-**Template Used:** SAP-to-GIR Mapping Guide, Oracle-to-GIR Mapping Guide, Data Quality Checklist
+**Learning Resources:** Section 6.3 covers ERP-to-GIR field mapping with inline examples for major systems.
 
 **Checkpoint:** By end of Month 3, you should have raw data extracted for all entities.
 
@@ -506,7 +506,7 @@ Month 6 (Jun 2026)     │ Filing, Confirmation, and Documentation
 - Tax team members: 80 hours each
 - Tax technology specialist: 40 hours
 
-**Template Used:** GIR Completion Calculator, GIR-to-Tax Reconciliation Tool, Pre-Filing Verification Checklist
+**Learning Resources:** Use demo tools at tools.mojitax.com: GIR ETR Calculator (GIR-001), GIR SBIE Calculator (GIR-002), GIR Top-Up Tax Calculator (GIR-003). Practice with Case Studies 1-3 in the Appendices.
 
 **Checkpoint:** By end of Month 4, your Calculator should be fully populated with validated data.
 
@@ -536,7 +536,7 @@ Month 6 (Jun 2026)     │ Filing, Confirmation, and Documentation
 - Tax team members: 40 hours each
 - IT/XML specialist: 60 hours
 
-**Template Used:** XML Validation Checklist, Filing Coordination Checklist
+**Learning Resources:** Section 8 (XML Generation and Validation) covers the validation process. Practice with Case Study 4 (Multi-Jurisdiction Filing).
 
 **Checkpoint:** By end of Month 5, you should have a validated XML file ready for submission.
 
@@ -567,7 +567,7 @@ Month 6 (Jun 2026)     │ Filing, Confirmation, and Documentation
 - Tax team members: 30 hours each
 - Finance (payment): 10 hours
 
-**Template Used:** Go-Live Checklist, Post-Filing Confirmation Checklist, GIR Filing Confirmation Record, Audit File Index
+**Learning Resources:** Section 9 covers filing procedures. Section 10 covers post-filing requirements. Practice with Case Study 5 (Amendment Required) for post-filing scenarios.
 
 **Checkpoint:** By June 30, 2026, all filings complete with documented confirmations.
 

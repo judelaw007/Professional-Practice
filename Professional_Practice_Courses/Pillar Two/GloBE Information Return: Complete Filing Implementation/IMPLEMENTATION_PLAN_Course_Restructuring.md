@@ -175,20 +175,18 @@ Each case study includes:
    - Changed "Tools" row to "Learning Approach"
    - Updated Next Steps to remove download references
 
-### Remaining Work
-
-The following updates are recommended but lower priority:
-
-- [ ] Update remaining template references in other sections (search for "Template Used", "download", ".xlsx")
-- [ ] Show key templates inline where they're explained (DFE Election, Data Request Memo, etc.)
-
-These can be completed in a future pass as they are less critical than the structural changes above.
+5. **Section 1.4 (Implementation Timeline) - UPDATED**
+   - Replaced all 6 "Template Used:" references with "Learning Resources:"
+   - Now points to relevant course sections, demo tools, and case studies
+   - Months 4-6 reference specific demo tools and case studies
 
 ### Verification
 - [x] Section 1.3 rewritten
 - [x] Section 5.1 updated with demo/professional tool distinction
-- [ ] Template references updated (partial - key sections done)
-- [ ] Key templates shown inline (deferred to future phase)
+- [x] Template references updated (all "Template Used:" references fixed)
+- [ ] Key templates shown inline (optional - lower priority)
+
+**STATUS: PHASE 4 COMPLETE**
 
 ---
 
