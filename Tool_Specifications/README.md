@@ -25,7 +25,7 @@ The specifications in this folder replace the summary-level `TOOLS-REGISTRY (2).
 | GIR-001 | ETR Calculator | Draft | [GIR-001_ETR_Calculator.md](GIR-001_ETR_Calculator.md) |
 | GIR-002 | SBIE Calculator | Draft | [GIR-002_SBIE_Calculator.md](GIR-002_SBIE_Calculator.md) |
 | GIR-003 | Top-Up Tax Calculator | Draft | [GIR-003_TopUp_Tax_Calculator.md](GIR-003_TopUp_Tax_Calculator.md) |
-| GIR-004 | Safe Harbour Qualification Tool | Pending | GIR-004_Safe_Harbour_Tool.md |
+| GIR-004 | Safe Harbour Qualification Tool | Draft | [GIR-004_Safe_Harbour_Tool.md](GIR-004_Safe_Harbour_Tool.md) |
 | GIR-005 | Filing Deadline Calculator | Pending | GIR-005_Deadline_Calculator.md |
 | GIR-006 | Data Point Reference | Pending | GIR-006_Data_Point_Reference.md |
 | GIR-007 | DFE Election Assessment Tool | Pending | GIR-007_DFE_Election_Tool.md |
