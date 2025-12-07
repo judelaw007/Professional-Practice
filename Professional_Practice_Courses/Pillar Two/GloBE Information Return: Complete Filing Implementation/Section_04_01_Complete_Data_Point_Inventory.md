@@ -524,7 +524,34 @@ The complete Data Point Inventory Template (Excel) includes:
 5. **Gap Tracker** - Log of missing data with resolution status
 6. **Change Log** - Record of all data changes
 
-**Template included in course deliverables.**
+---
+
+## Practice This Skill: GIR Data Point Reference
+
+Navigating the ~480 GIR data points can be challenging. Practice using the **GIR Data Point Reference (GIR-006)** on tools.mojitax.com.
+
+| Tool | Tool ID | Purpose |
+|------|---------|---------|
+| GIR Data Point Reference | GIR-006 | Searchable reference of all GIR data points with field requirements |
+
+**Demo Tool vs Professional Tool**
+
+This is a demo tool for learning purposes. In professional practice, you would use integrated Pillar Two software with built-in field guidance and ERP mappings. The demo tool helps you understand data requirements.
+
+**To Practice:**
+
+1. Go to tools.mojitax.com and find **GIR Data Point Reference**
+2. Try these searches:
+   - Search "revenue" to find revenue-related fields
+   - Filter by Section 3 to see GloBE computation fields
+   - Search "ownership" to find entity relationship fields
+3. For each field, review:
+   - Field ID and name
+   - Data type and format
+   - Required vs optional status
+   - Typical ERP source
+
+Use this tool alongside **Case Study 3** (Data Gap Challenges) to identify which data points are missing and their requirements.
 
 ---
 

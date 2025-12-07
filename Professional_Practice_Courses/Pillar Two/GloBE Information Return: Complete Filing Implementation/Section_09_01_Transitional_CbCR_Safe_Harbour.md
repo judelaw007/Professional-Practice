@@ -788,6 +788,36 @@ However, the **"once out, always out"** rule requires careful planning, as failu
 
 ---
 
+## Practice This Skill: Safe Harbour Qualification Tool
+
+Now that you understand the Transitional CbCR Safe Harbour, you can practice using the **Safe Harbour Qualification Tool (GIR-004)** on tools.mojitax.com.
+
+| Tool | Tool ID | Purpose |
+|------|---------|---------|
+| Safe Harbour Qualification Tool | GIR-004 | Assess whether a jurisdiction qualifies for Transitional CbCR Safe Harbour |
+
+**Demo Tool vs Professional Tool**
+
+This is a demo tool for learning purposes. In professional practice, you would use enterprise Pillar Two software that tracks safe harbour status across all jurisdictions with proper "once out, always out" monitoring. The demo tool helps you understand the three tests.
+
+**To Practice:**
+
+1. Go to tools.mojitax.com and find **Safe Harbour Qualification Tool**
+2. Use data from **Case Study 1** (GlobalTech - testing a small jurisdiction):
+   - Fiscal Year: 2024
+   - CbCR Revenue: €8,500,000
+   - CbCR Profit Before Tax: €750,000
+   - Simplified Covered Taxes: €180,000
+   - SBIE Amount: €200,000
+3. Enter the values and check safe harbour status
+4. **Expected Results:**
+   - De Minimis Test: PASS (Revenue <€10m AND PBT <€1m)
+   - Overall Status: Safe Harbour Applies
+
+If your results differ, review the test thresholds in this section.
+
+---
+
 ## Sources
 
 Key references for this section include:

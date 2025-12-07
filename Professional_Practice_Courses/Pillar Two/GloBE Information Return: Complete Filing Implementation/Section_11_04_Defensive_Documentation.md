@@ -584,6 +584,32 @@ Signed: _________________ Date: _________________
 
 ---
 
+## Practice This Skill: GIR Audit File Checklist
+
+Building a complete audit file is essential for compliance. Practice using the **GIR Audit File Checklist (GIR-009)** on tools.mojitax.com.
+
+| Tool | Tool ID | Purpose |
+|------|---------|---------|
+| GIR Audit File Checklist | GIR-009 | Interactive checklist for building a complete GIR audit file |
+
+**Demo Tool vs Professional Tool**
+
+This is a demo tool for learning purposes. In professional practice, you would use document management systems with full audit trails and access controls. The demo tool helps you understand documentation requirements.
+
+**To Practice:**
+
+1. Go to tools.mojitax.com and find **GIR Audit File Checklist**
+2. Use **Case Study 1** (GlobalTech) or **Case Study 5** (Amendment Required):
+   - Enter the filing period and jurisdiction
+   - Work through each documentation category
+   - Track completion status and identify gaps
+3. **Expected outcome:** Understanding of the 64+ documents typically required
+4. Export the checklist as a starting point for your own audit file
+
+Use this alongside the Audit File Master Index template in this section.
+
+---
+
 ## Further Reading and Resources
 
 - [PwC: Pillar Two Compliance Challenges](https://www.pwc.com/us/en/services/tax/library/pillar-two-compliance-challenges.html)

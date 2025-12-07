@@ -682,6 +682,35 @@ When issues cannot be resolved through troubleshooting, contact the relevant tax
 
 ---
 
+## Practice This Skill: GIR Filing Deadline Calculator
+
+Understanding filing deadlines is critical for compliance. Practice using the **GIR Filing Deadline Calculator (GIR-005)** on tools.mojitax.com.
+
+| Tool | Tool ID | Purpose |
+|------|---------|---------|
+| GIR Filing Deadline Calculator | GIR-005 | Determine GIR filing deadlines based on fiscal year end and jurisdiction |
+
+**Demo Tool vs Professional Tool**
+
+This is a demo tool for learning purposes. In professional practice, you would use compliance management software that tracks deadlines across all jurisdictions with automated reminders. The demo tool helps you understand deadline rules.
+
+**To Practice:**
+
+1. Go to tools.mojitax.com and find **GIR Filing Deadline Calculator**
+2. Use the GlobalTech data from **Case Study 1**:
+   - Fiscal Year End: 31 December 2024
+   - Filing Jurisdiction: United Kingdom
+   - First Filing Year: Yes
+3. Enter the values and calculate
+4. **Expected Results:**
+   - Standard Deadline: 31 March 2026 (15 months from FYE)
+   - First Year Extension: 30 June 2026 (18 months available)
+   - Recommended milestones for preparation
+
+If your results differ, review the deadline rules earlier in this section.
+
+---
+
 ## Summary
 
 This section has provided comprehensive guidance on the universal GIR filing process and portal navigation, covering:

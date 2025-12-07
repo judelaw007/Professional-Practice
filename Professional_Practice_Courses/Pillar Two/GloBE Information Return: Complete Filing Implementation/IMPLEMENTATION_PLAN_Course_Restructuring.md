@@ -246,11 +246,27 @@ If your result differs, review [specific section] to check your understanding.
    - Link between chapters, case studies, and tools
 
 ### Verification
-- [ ] Tool introductions drafted
-- [ ] Introductions inserted at correct locations
-- [ ] Demo vs professional clarification included
-- [ ] Case study references added
-- [ ] Expected outcomes stated
+- [x] Tool introductions drafted
+- [x] Introductions inserted at correct locations
+- [x] Demo vs professional clarification included
+- [x] Case study references added
+- [x] Expected outcomes stated
+
+### Completed Tool Introductions
+
+| Tool ID | Tool Name | Added To Section |
+|---------|-----------|------------------|
+| GIR-001 | ETR Calculator | Section 5.4.1 |
+| GIR-002 | SBIE Calculator | Section 5.4.2 |
+| GIR-003 | Top-Up Tax Calculator | Section 5.4.3 |
+| GIR-004 | Safe Harbour Qualification | Section 9.1 |
+| GIR-005 | Filing Deadline Calculator | Section 7.1 |
+| GIR-006 | Data Point Reference | Section 4.1 |
+| GIR-007 | DFE Election Assessment | Section 8.1 |
+| GIR-008 | GIR Practice Form | Section 5.1 |
+| GIR-009 | Audit File Checklist | Section 11.4 |
+
+**STATUS: PHASE 5 COMPLETE**
 
 ---
 
