@@ -328,192 +328,116 @@ Courses must explicitly identify **problems practitioners actually encounter**:
 
 ## Professional Practice Course Structure
 
-### Recommended Module Architecture
+### Flexible Structure Based on Content Needs
+
+**There is no fixed template for course structure.** The organization of each Professional Practice Course should flow naturally from the subject matter and what practitioners need to learn. Some topics require extensive jurisdiction-by-jurisdiction treatment; others are more calculation-focused; still others center on documentation and process.
+
+**Design your structure around:**
+- The practitioner's workflow (how they'll actually do this work)
+- The complexity and breadth of the topic
+- What sequence makes the content easiest to apply
+- Where practitioners are most likely to get stuck
+
+### Essential Elements (Include Somewhere)
+
+While structure is flexible, certain elements must appear somewhere in every Professional Practice Course. How you organize and integrate them depends on your content:
+
+**Implementation Content:**
+- ✅ Step-by-step compliance processes (the core "how to" content)
+- ✅ Visual workflow diagrams showing the process
+- ✅ Worked examples from realistic scenarios
+- ✅ Common challenges and how to handle them
+- ✅ Troubleshooting guidance ("what if" scenarios)
+
+**Forms and Procedures:**
+- ✅ Specific forms identified by name/number with direct links
+- ✅ Sample completed forms with annotations
+- ✅ Line-by-line guidance for complex forms
+- ✅ Filing/submission procedures with portal links
+
+**Dates and Deadlines:**
+- ✅ Jurisdiction-specific deadline information
+- ✅ Downloadable deadline calendar
+- ✅ Extension procedures where applicable
+
+**Tools and Templates:**
+- ✅ Excel calculation tools with pre-built formulas
+- ✅ Word documentation templates
+- ✅ Process checklists
+- ✅ Demo tools integration on tools.mojitax.com
+
+**Official Resources:**
+- ✅ Government portal links with access guidance
+- ✅ Links to authoritative legislation and guidance
+- ✅ Free tools and calculators
+- ✅ Help desk contacts for major jurisdictions
+
+**Risk and Quality:**
+- ✅ Common errors and how to avoid them
+- ✅ What tax authorities focus on in audits
+- ✅ How to document defensible positions
+
+### Appendices Structure
+
+While course chapters are flexible, **Appendices should follow a consistent structure** across all Professional Practice Courses. This helps practitioners know where to find resources:
 
 ```
-MODULE STRUCTURE (2-3 hours of content)
+APPENDICES
 
-PART 1: CONTEXT AND IMMEDIATE ACTION (10-15% of time)
-│
-├── Section 1: Why This Matters Now + What You'll Get
-│   ├── 1.1 Regulatory driver (what changed and when)
-│   ├── 1.2 Who this affects (scope and deadlines)
-│   ├── 1.3 Consequences of non-compliance (penalties, audit risk)
-│   ├── 1.4 Templates and tools included in this course [LIST EXPLICITLY]
-│   └── 1.5 Implementation timeline (how long this will take)
-│
-└── Section 2: Quick Reference Overview
-    ├── 2.1 Key forms and where to find them [WITH LINKS]
-    ├── 2.2 Critical deadlines calendar [DOWNLOADABLE]
-    ├── 2.3 Essential resources directory [GOVERNMENT PORTALS]
-    └── 2.4 5-minute process overview (before deep dive)
+Appendix A: Template Library
+├── All Excel calculation tools (.xlsx files)
+├── All Word documentation templates (.docx files)
+├── All checklists (PDF or Excel)
+└── All flowcharts and diagrams (PDF)
 
-PART 2: STEP-BY-STEP IMPLEMENTATION (60-70% of time)
-│
-├── Section 3: The Compliance Process
-│   ├── 3.1 Process flowchart (visual workflow)
-│   │   └── Template: Workflow diagram showing each step with timing
-│   ├── 3.2 Step 1: Data Gathering
-│   │   ├── Checklist: Required data points [DOWNLOADABLE EXCEL]
-│   │   ├── Template: Data request form for internal teams
-│   │   └── Common challenge: What if data doesn't exist? [SOLUTIONS]
-│   ├── 3.3 Step 2: Calculations (if applicable)
-│   │   ├── Template: Calculation spreadsheet with pre-built formulas [EXCEL]
-│   │   ├── Worked example: Complete calculation from real scenario
-│   │   └── Common errors: Top 5 calculation mistakes to avoid
-│   ├── 3.4 Step 3: Form Completion
-│   │   ├── Forms required: [EXACT NAMES AND NUMBERS]
-│   │   ├── Where to obtain forms: [DIRECT LINKS]
-│   │   ├── Line-by-line completion guide [SCREENSHOTS]
-│   │   └── Template: Completed example form with annotations
-│   ├── 3.5 Step 4: Documentation
-│   │   ├── Template: Supporting documentation memo [WORD TEMPLATE]
-│   │   ├── Required attachments checklist
-│   │   └── Retention requirements (how long to keep records)
-│   └── 3.6 Step 5: Filing and Submission
-│       ├── Electronic filing portal: [LINK AND LOGIN GUIDANCE]
-│       ├── Template: Filing checklist and confirmation tracker
-│       └── What to do if submission fails [TROUBLESHOOTING]
-│
-├── Section 4: Tools and Templates Library
-│   ├── 4.1 Excel Calculation Tools
-│   │   ├── Tool 1: [Name].xlsx - Pre-built formulas, input your data
-│   │   ├── Tool 2: [Name].xlsx - Comparison matrix or allocation model
-│   │   └── Tool 3: [Name].xlsx - Deadline tracker by jurisdiction
-│   ├── 4.2 Documentation Templates
-│   │   ├── Template 1: [Name].docx - Client memo or report format
-│   │   ├── Template 2: [Name].docx - Internal tax position memo
-│   │   └── Template 3: [Name].docx - Authority correspondence template
-│   ├── 4.3 Process Checklists
-│   │   ├── Checklist 1: Pre-filing verification (25 checkpoints)
-│   │   ├── Checklist 2: Data quality assurance
-│   │   └── Checklist 3: Multi-jurisdiction coordination
-│   └── 4.4 Official Forms Package
-│       ├── All required blank forms with instructions [LINKS]
-│       ├── Sample completed forms with annotations
-│       └── Form field mapping guide
-│
-├── Section 5: Jurisdiction-Specific Implementation (if applicable)
-│   ├── 5.1 Jurisdiction Comparison Matrix [EXCEL OR PDF TABLE]
-│   │   └── Columns: Deadline, Form, Portal Link, Special Rules
-│   ├── 5.2 Major Jurisdiction Deep Dives
-│   │   ├── UK: Specific process + forms + portal + deadline
-│   │   ├── US: Specific process + forms + portal + deadline
-│   │   ├── EU: Specific process + forms + portal + deadline
-│   │   └── [Other key jurisdictions]
-│   └── 5.3 Multi-Jurisdiction Coordination
-│       ├── Template: Master tracking spreadsheet (all jurisdictions)
-│       └── Common challenge: Conflicting deadlines [PRIORITIZATION]
-│
-└── Section 6: Real-World Scenarios and Edge Cases
-    ├── 6.1 Scenario 1: [Common complex situation with solution]
-    │   ├── Facts presented
-    │   ├── Step-by-step resolution using templates
-    │   └── Alternative approaches if constraints exist
-    ├── 6.2 Scenario 2: [Frequent edge case with solution]
-    ├── 6.3 Scenario 3: [Data limitation workaround]
-    └── 6.4 Decision framework for unusual situations
+Appendix B: Forms Package
+├── All blank forms with links to official sources
+├── Sample completed forms (annotated)
+└── Form completion guidance
 
-PART 3: RISK MANAGEMENT AND OPTIMIZATION (10-15% of time)
-│
-├── Section 7: Common Pitfalls and Prevention
-│   ├── 7.1 Top 10 Errors Made by Practitioners
-│   │   └── Template: Error prevention checklist
-│   ├── 7.2 Authority Audit Focus Areas
-│   │   ├── What tax authorities actually check
-│   │   └── How to document defensible positions
-│   ├── 7.3 Penalty Regimes by Jurisdiction
-│   │   └── Template: Penalty exposure calculator
-│   └── 7.4 When to Seek Advance Clearance
-│       ├── Rulings vs. opinions vs. APAs (when to use each)
-│       └── Template: Ruling request outline
-│
-└── Section 8: Planning and Optimization (if applicable)
-    ├── 8.1 Legitimate planning opportunities
-    ├── 8.2 Elections and options to consider
-    │   └── Template: Election comparison matrix
-    └── 8.3 Interplay with other tax requirements
+Appendix C: Deadline Calendar
+├── Master deadline calendar by jurisdiction [EXCEL]
+├── iCal/Google Calendar file for import
+└── Reminder system setup instructions
 
-PART 4: ESSENTIAL RESOURCES (10-15% of time)
-│
-├── Section 9: Official Resource Directory
-│   ├── 9.1 Government Portals and Filing Systems
-│   │   ├── [Country 1]: Filing portal [LINK] + Help desk contact
-│   │   ├── [Country 2]: Filing portal [LINK] + Help desk contact
-│   │   └── [Continue for all relevant jurisdictions]
-│   ├── 9.2 Authoritative Guidance and Legislation
-│   │   ├── Primary legislation: [LINK to official text]
-│   │   ├── Official regulations: [LINK]
-│   │   ├── Tax authority guidance: [LINK to specific pages]
-│   │   └── OECD/EU guidance: [LINK to relevant documents]
-│   ├── 9.3 Free Tools and Calculators
-│   │   ├── Official calculator: [LINK to government tool if exists]
-│   │   ├── Currency converter: [LINK to central bank rates]
-│   │   ├── Exchange rate database: [LINK]
-│   │   └── Public company database: [LINK to free resources]
-│   ├── 9.4 Forms and Instructions Library
-│   │   ├── Complete list of all required forms with form numbers
-│   │   ├── Direct download links for each form
-│   │   ├── Fillable vs. manual forms (specify which)
-│   │   └── Instructions document links
-│   └── 9.5 Professional Organization Resources
-│       ├── Big 4 publications on this topic [LINKS to free content]
-│       ├── Professional body guidance (CIOT, AICPA, etc.)
-│       └── Academic or research papers (if practical value)
-│
-└── Section 10: Implementation Roadmap
-    ├── 10.1 Timeline Planning
-    │   └── Template: Gantt chart or timeline for implementation
-    ├── 10.2 Resource Requirements
-    │   ├── Internal: Tax, accounting, IT, legal involvement
-    │   ├── External: When to engage advisors
-    │   └── Cost estimation worksheet [TEMPLATE]
-    ├── 10.3 Critical Path and Milestones
-    │   └── Template: Project plan with key decision points
-    ├── 10.4 Communication Strategy
-    │   ├── Template: Management briefing memo
-    │   ├── Template: Client notification letter
-    │   └── Template: Internal stakeholder updates
-    └── 10.5 Go-Live Checklist
-        ├── Pre-filing verification (final checks)
-        ├── Submission confirmation procedures
-        └── Post-filing monitoring and record retention
+Appendix D: Resource Directory
+├── Government portal links (organized by jurisdiction)
+├── Form download links
+├── Guidance document links
+└── Free tool links
 
-APPENDICES (As Extensive As Needed)
-│
-├── Appendix A: Complete Template Library (All in Ready-to-Use Format)
-│   ├── A1: All Excel calculation tools (.xlsx files)
-│   ├── A2: All Word documentation templates (.docx files)
-│   ├── A3: All checklists (PDF or Excel)
-│   └── A4: All flowcharts and diagrams (PDF)
-│
-├── Appendix B: Forms Package
-│   ├── B1: All blank forms with links to official sources
-│   ├── B2: Sample completed forms (annotated)
-│   └── B3: Form completion checklist
-│
-├── Appendix C: Deadline Calendar
-│   ├── C1: Master deadline calendar by jurisdiction [EXCEL]
-│   ├── C2: iCal/Google Calendar file for import
-│   └── C3: Reminder system setup instructions
-│
-├── Appendix D: Resource Links (Live Document)
-│   ├── D1: All government portal links (organized by jurisdiction)
-│   ├── D2: All form download links
-│   ├── D3: All guidance document links
-│   └── D4: All free tool links
-│
-├── Appendix E: Comprehensive Worked Example
-│   ├── E1: Complete fact pattern (realistic company scenario)
-│   ├── E2: Full compliance process walked through
-│   ├── E3: All templates populated with example data
-│   └── E4: Final deliverables (forms, memos, calculations)
-│
-└── Appendix F: Glossary and Quick Reference
-    ├── F1: Technical terms with plain English explanations
-    ├── F2: Acronym decoder
-    └── F3: One-page quick reference card (for desk reference)
+Appendix E: Practice Scenarios (for tools.mojitax.com)
+├── Progressive storyline scenarios with sample data
+├── Expected outcomes for each scenario
+└── Learning points and discussion questions
+
+Appendix F: Quick Reference
+├── Technical terms with plain English explanations
+├── Acronym decoder
+└── One-page quick reference card (for desk reference)
 ```
+
+### Structure Guidance by Course Type
+
+**Calculation-Heavy Courses** (e.g., QDMTT, Top-Up Tax):
+- Lead with the calculation methodology
+- Integrate Excel tools throughout
+- Build complexity progressively
+- Include extensive worked examples
+
+**Multi-Jurisdiction Courses** (e.g., E-Invoicing, CbC Reporting):
+- Consider jurisdiction-by-jurisdiction organization
+- Use comparison matrices to highlight differences
+- Address coordination challenges explicitly
+- Provide jurisdiction-specific checklists
+
+**Process-Heavy Courses** (e.g., GIR Filing, TP Documentation):
+- Follow the natural workflow sequence
+- Integrate forms and templates at each step
+- Include detailed troubleshooting sections
+- Build toward a complete worked example
+
+**The key principle: Let the content drive the structure, not the other way around.**
 
 ### Template Integration Philosophy
 
