@@ -19,10 +19,12 @@ Professional Practice Courses serve practitioners who need to:
 Every Professional Practice Course delivers:
 - ✅ **Implementation roadmaps** - Step-by-step processes for compliance
 - ✅ **Templates and tools** - Excel models, checklists, documentation templates ready to adapt
+- ✅ **Demo tools access** - Hands-on practice tools on tools.mojitax.com with progressive scenarios
 - ✅ **Forms and procedures** - Specific forms to file, where to file them, how to complete them
 - ✅ **Critical dates** - Deadline calendars, filing schedules, and planning timelines
 - ✅ **Resource directories** - Links to official government portals, tax authority guidance, free tools
 - ✅ **Common pitfalls** - Real challenges practitioners face and how to avoid them
+- ✅ **Progressive practice scenarios** - Storyline-based exercises that build skills across modules
 
 ---
 
@@ -188,7 +190,34 @@ FORMS:
 - No prior compliance infrastructure exists
 - Official forms just released October 2025
 
-### 8. **Common Challenge Identification**
+### 8. **Integrated Demo Tools for Hands-On Practice**
+Every Professional Practice Course includes access to **demo tools on tools.mojitax.com** that enable hands-on practice:
+
+**Why Demo Tools Matter:**
+- Reading about calculations isn't enough—practitioners need to perform them
+- Demo tools bridge the gap between learning concepts and applying them in practice
+- Progressive scenarios on tools help reinforce learning across the course
+
+**Tool Integration Requirements:**
+- ✅ Identify tools needed at course design stage (not as afterthought)
+- ✅ Check Tools Registry for existing tools before requesting new ones
+- ✅ Design progressive scenarios that build on each other
+- ✅ Create Appendices with practice data and expected outcomes
+- ✅ Reference tools naturally within module content
+
+**Example Tool Integration:**
+Instead of just explaining QDMTT safe harbour calculations:
+- **In Module**: Teach the calculation methodology step-by-step
+- **In Appendices**: Provide "GlobalCo" scenario with sample data and expected results
+- **On tools.mojitax.com**: Learner uses QDMTT Safe Harbour Calculator to practice
+- **Learning Check**: Compare results to expected outcomes in Appendix
+
+**The Gate Question for Any Tool:**
+> "If this tool didn't exist, what would the learner miss?"
+
+Only request tools where hands-on practice genuinely enhances understanding beyond what reading alone provides.
+
+### 9. **Common Challenge Identification**
 Courses must explicitly identify **problems practitioners actually encounter**:
 
 **Technical Challenges:**
@@ -221,7 +250,7 @@ Courses must explicitly identify **problems practitioners actually encounter**:
 - **Solution**: Prepare both analyses; document reconciliation; flag for MAP if challenged
 - **Tools**: Dual-position memo template (Appendix F)
 
-### 9. **Real-World Integration**
+### 10. **Real-World Integration**
 - Uses **actual scenarios** from practice, not theoretical hypotheticals
 - References **real forms, real deadlines, real portals** (with screenshots)
 - Includes **jurisdiction-specific variations** where relevant (not theoretical universal rules)
@@ -299,192 +328,116 @@ Courses must explicitly identify **problems practitioners actually encounter**:
 
 ## Professional Practice Course Structure
 
-### Recommended Module Architecture
+### Flexible Structure Based on Content Needs
+
+**There is no fixed template for course structure.** The organization of each Professional Practice Course should flow naturally from the subject matter and what practitioners need to learn. Some topics require extensive jurisdiction-by-jurisdiction treatment; others are more calculation-focused; still others center on documentation and process.
+
+**Design your structure around:**
+- The practitioner's workflow (how they'll actually do this work)
+- The complexity and breadth of the topic
+- What sequence makes the content easiest to apply
+- Where practitioners are most likely to get stuck
+
+### Essential Elements (Include Somewhere)
+
+While structure is flexible, certain elements must appear somewhere in every Professional Practice Course. How you organize and integrate them depends on your content:
+
+**Implementation Content:**
+- ✅ Step-by-step compliance processes (the core "how to" content)
+- ✅ Visual workflow diagrams showing the process
+- ✅ Worked examples from realistic scenarios
+- ✅ Common challenges and how to handle them
+- ✅ Troubleshooting guidance ("what if" scenarios)
+
+**Forms and Procedures:**
+- ✅ Specific forms identified by name/number with direct links
+- ✅ Sample completed forms with annotations
+- ✅ Line-by-line guidance for complex forms
+- ✅ Filing/submission procedures with portal links
+
+**Dates and Deadlines:**
+- ✅ Jurisdiction-specific deadline information
+- ✅ Downloadable deadline calendar
+- ✅ Extension procedures where applicable
+
+**Tools and Templates:**
+- ✅ Excel calculation tools with pre-built formulas
+- ✅ Word documentation templates
+- ✅ Process checklists
+- ✅ Demo tools integration on tools.mojitax.com
+
+**Official Resources:**
+- ✅ Government portal links with access guidance
+- ✅ Links to authoritative legislation and guidance
+- ✅ Free tools and calculators
+- ✅ Help desk contacts for major jurisdictions
+
+**Risk and Quality:**
+- ✅ Common errors and how to avoid them
+- ✅ What tax authorities focus on in audits
+- ✅ How to document defensible positions
+
+### Appendices Structure
+
+While course chapters are flexible, **Appendices should follow a consistent structure** across all Professional Practice Courses. This helps practitioners know where to find resources:
 
 ```
-MODULE STRUCTURE (2-3 hours of content)
+APPENDICES
 
-PART 1: CONTEXT AND IMMEDIATE ACTION (10-15% of time)
-│
-├── Section 1: Why This Matters Now + What You'll Get
-│   ├── 1.1 Regulatory driver (what changed and when)
-│   ├── 1.2 Who this affects (scope and deadlines)
-│   ├── 1.3 Consequences of non-compliance (penalties, audit risk)
-│   ├── 1.4 Templates and tools included in this course [LIST EXPLICITLY]
-│   └── 1.5 Implementation timeline (how long this will take)
-│
-└── Section 2: Quick Reference Overview
-    ├── 2.1 Key forms and where to find them [WITH LINKS]
-    ├── 2.2 Critical deadlines calendar [DOWNLOADABLE]
-    ├── 2.3 Essential resources directory [GOVERNMENT PORTALS]
-    └── 2.4 5-minute process overview (before deep dive)
+Appendix A: Template Library
+├── All Excel calculation tools (.xlsx files)
+├── All Word documentation templates (.docx files)
+├── All checklists (PDF or Excel)
+└── All flowcharts and diagrams (PDF)
 
-PART 2: STEP-BY-STEP IMPLEMENTATION (60-70% of time)
-│
-├── Section 3: The Compliance Process
-│   ├── 3.1 Process flowchart (visual workflow)
-│   │   └── Template: Workflow diagram showing each step with timing
-│   ├── 3.2 Step 1: Data Gathering
-│   │   ├── Checklist: Required data points [DOWNLOADABLE EXCEL]
-│   │   ├── Template: Data request form for internal teams
-│   │   └── Common challenge: What if data doesn't exist? [SOLUTIONS]
-│   ├── 3.3 Step 2: Calculations (if applicable)
-│   │   ├── Template: Calculation spreadsheet with pre-built formulas [EXCEL]
-│   │   ├── Worked example: Complete calculation from real scenario
-│   │   └── Common errors: Top 5 calculation mistakes to avoid
-│   ├── 3.4 Step 3: Form Completion
-│   │   ├── Forms required: [EXACT NAMES AND NUMBERS]
-│   │   ├── Where to obtain forms: [DIRECT LINKS]
-│   │   ├── Line-by-line completion guide [SCREENSHOTS]
-│   │   └── Template: Completed example form with annotations
-│   ├── 3.5 Step 4: Documentation
-│   │   ├── Template: Supporting documentation memo [WORD TEMPLATE]
-│   │   ├── Required attachments checklist
-│   │   └── Retention requirements (how long to keep records)
-│   └── 3.6 Step 5: Filing and Submission
-│       ├── Electronic filing portal: [LINK AND LOGIN GUIDANCE]
-│       ├── Template: Filing checklist and confirmation tracker
-│       └── What to do if submission fails [TROUBLESHOOTING]
-│
-├── Section 4: Tools and Templates Library
-│   ├── 4.1 Excel Calculation Tools
-│   │   ├── Tool 1: [Name].xlsx - Pre-built formulas, input your data
-│   │   ├── Tool 2: [Name].xlsx - Comparison matrix or allocation model
-│   │   └── Tool 3: [Name].xlsx - Deadline tracker by jurisdiction
-│   ├── 4.2 Documentation Templates
-│   │   ├── Template 1: [Name].docx - Client memo or report format
-│   │   ├── Template 2: [Name].docx - Internal tax position memo
-│   │   └── Template 3: [Name].docx - Authority correspondence template
-│   ├── 4.3 Process Checklists
-│   │   ├── Checklist 1: Pre-filing verification (25 checkpoints)
-│   │   ├── Checklist 2: Data quality assurance
-│   │   └── Checklist 3: Multi-jurisdiction coordination
-│   └── 4.4 Official Forms Package
-│       ├── All required blank forms with instructions [LINKS]
-│       ├── Sample completed forms with annotations
-│       └── Form field mapping guide
-│
-├── Section 5: Jurisdiction-Specific Implementation (if applicable)
-│   ├── 5.1 Jurisdiction Comparison Matrix [EXCEL OR PDF TABLE]
-│   │   └── Columns: Deadline, Form, Portal Link, Special Rules
-│   ├── 5.2 Major Jurisdiction Deep Dives
-│   │   ├── UK: Specific process + forms + portal + deadline
-│   │   ├── US: Specific process + forms + portal + deadline
-│   │   ├── EU: Specific process + forms + portal + deadline
-│   │   └── [Other key jurisdictions]
-│   └── 5.3 Multi-Jurisdiction Coordination
-│       ├── Template: Master tracking spreadsheet (all jurisdictions)
-│       └── Common challenge: Conflicting deadlines [PRIORITIZATION]
-│
-└── Section 6: Real-World Scenarios and Edge Cases
-    ├── 6.1 Scenario 1: [Common complex situation with solution]
-    │   ├── Facts presented
-    │   ├── Step-by-step resolution using templates
-    │   └── Alternative approaches if constraints exist
-    ├── 6.2 Scenario 2: [Frequent edge case with solution]
-    ├── 6.3 Scenario 3: [Data limitation workaround]
-    └── 6.4 Decision framework for unusual situations
+Appendix B: Forms Package
+├── All blank forms with links to official sources
+├── Sample completed forms (annotated)
+└── Form completion guidance
 
-PART 3: RISK MANAGEMENT AND OPTIMIZATION (10-15% of time)
-│
-├── Section 7: Common Pitfalls and Prevention
-│   ├── 7.1 Top 10 Errors Made by Practitioners
-│   │   └── Template: Error prevention checklist
-│   ├── 7.2 Authority Audit Focus Areas
-│   │   ├── What tax authorities actually check
-│   │   └── How to document defensible positions
-│   ├── 7.3 Penalty Regimes by Jurisdiction
-│   │   └── Template: Penalty exposure calculator
-│   └── 7.4 When to Seek Advance Clearance
-│       ├── Rulings vs. opinions vs. APAs (when to use each)
-│       └── Template: Ruling request outline
-│
-└── Section 8: Planning and Optimization (if applicable)
-    ├── 8.1 Legitimate planning opportunities
-    ├── 8.2 Elections and options to consider
-    │   └── Template: Election comparison matrix
-    └── 8.3 Interplay with other tax requirements
+Appendix C: Deadline Calendar
+├── Master deadline calendar by jurisdiction [EXCEL]
+├── iCal/Google Calendar file for import
+└── Reminder system setup instructions
 
-PART 4: ESSENTIAL RESOURCES (10-15% of time)
-│
-├── Section 9: Official Resource Directory
-│   ├── 9.1 Government Portals and Filing Systems
-│   │   ├── [Country 1]: Filing portal [LINK] + Help desk contact
-│   │   ├── [Country 2]: Filing portal [LINK] + Help desk contact
-│   │   └── [Continue for all relevant jurisdictions]
-│   ├── 9.2 Authoritative Guidance and Legislation
-│   │   ├── Primary legislation: [LINK to official text]
-│   │   ├── Official regulations: [LINK]
-│   │   ├── Tax authority guidance: [LINK to specific pages]
-│   │   └── OECD/EU guidance: [LINK to relevant documents]
-│   ├── 9.3 Free Tools and Calculators
-│   │   ├── Official calculator: [LINK to government tool if exists]
-│   │   ├── Currency converter: [LINK to central bank rates]
-│   │   ├── Exchange rate database: [LINK]
-│   │   └── Public company database: [LINK to free resources]
-│   ├── 9.4 Forms and Instructions Library
-│   │   ├── Complete list of all required forms with form numbers
-│   │   ├── Direct download links for each form
-│   │   ├── Fillable vs. manual forms (specify which)
-│   │   └── Instructions document links
-│   └── 9.5 Professional Organization Resources
-│       ├── Big 4 publications on this topic [LINKS to free content]
-│       ├── Professional body guidance (CIOT, AICPA, etc.)
-│       └── Academic or research papers (if practical value)
-│
-└── Section 10: Implementation Roadmap
-    ├── 10.1 Timeline Planning
-    │   └── Template: Gantt chart or timeline for implementation
-    ├── 10.2 Resource Requirements
-    │   ├── Internal: Tax, accounting, IT, legal involvement
-    │   ├── External: When to engage advisors
-    │   └── Cost estimation worksheet [TEMPLATE]
-    ├── 10.3 Critical Path and Milestones
-    │   └── Template: Project plan with key decision points
-    ├── 10.4 Communication Strategy
-    │   ├── Template: Management briefing memo
-    │   ├── Template: Client notification letter
-    │   └── Template: Internal stakeholder updates
-    └── 10.5 Go-Live Checklist
-        ├── Pre-filing verification (final checks)
-        ├── Submission confirmation procedures
-        └── Post-filing monitoring and record retention
+Appendix D: Resource Directory
+├── Government portal links (organized by jurisdiction)
+├── Form download links
+├── Guidance document links
+└── Free tool links
 
-APPENDICES (As Extensive As Needed)
-│
-├── Appendix A: Complete Template Library (All in Ready-to-Use Format)
-│   ├── A1: All Excel calculation tools (.xlsx files)
-│   ├── A2: All Word documentation templates (.docx files)
-│   ├── A3: All checklists (PDF or Excel)
-│   └── A4: All flowcharts and diagrams (PDF)
-│
-├── Appendix B: Forms Package
-│   ├── B1: All blank forms with links to official sources
-│   ├── B2: Sample completed forms (annotated)
-│   └── B3: Form completion checklist
-│
-├── Appendix C: Deadline Calendar
-│   ├── C1: Master deadline calendar by jurisdiction [EXCEL]
-│   ├── C2: iCal/Google Calendar file for import
-│   └── C3: Reminder system setup instructions
-│
-├── Appendix D: Resource Links (Live Document)
-│   ├── D1: All government portal links (organized by jurisdiction)
-│   ├── D2: All form download links
-│   ├── D3: All guidance document links
-│   └── D4: All free tool links
-│
-├── Appendix E: Comprehensive Worked Example
-│   ├── E1: Complete fact pattern (realistic company scenario)
-│   ├── E2: Full compliance process walked through
-│   ├── E3: All templates populated with example data
-│   └── E4: Final deliverables (forms, memos, calculations)
-│
-└── Appendix F: Glossary and Quick Reference
-    ├── F1: Technical terms with plain English explanations
-    ├── F2: Acronym decoder
-    └── F3: One-page quick reference card (for desk reference)
+Appendix E: Practice Scenarios (for tools.mojitax.com)
+├── Progressive storyline scenarios with sample data
+├── Expected outcomes for each scenario
+└── Learning points and discussion questions
+
+Appendix F: Quick Reference
+├── Technical terms with plain English explanations
+├── Acronym decoder
+└── One-page quick reference card (for desk reference)
 ```
+
+### Structure Guidance by Course Type
+
+**Calculation-Heavy Courses** (e.g., QDMTT, Top-Up Tax):
+- Lead with the calculation methodology
+- Integrate Excel tools throughout
+- Build complexity progressively
+- Include extensive worked examples
+
+**Multi-Jurisdiction Courses** (e.g., E-Invoicing, CbC Reporting):
+- Consider jurisdiction-by-jurisdiction organization
+- Use comparison matrices to highlight differences
+- Address coordination challenges explicitly
+- Provide jurisdiction-specific checklists
+
+**Process-Heavy Courses** (e.g., GIR Filing, TP Documentation):
+- Follow the natural workflow sequence
+- Integrate forms and templates at each step
+- Include detailed troubleshooting sections
+- Build toward a complete worked example
+
+**The key principle: Let the content drive the structure, not the other way around.**
 
 ### Template Integration Philosophy
 
@@ -499,6 +452,192 @@ APPENDICES (As Extensive As Needed)
 - Checklist: QDMTT_Eligibility_Verification_Checklist.pdf (20 checkpoints)
 - Example: Completed calculation for fictional MNE with commentary
 - Links: OECD qualified jurisdiction list + jurisdiction-specific QDMTT guidance pages
+
+---
+
+## The MojiTax Tools Platform Integration
+
+### What is tools.mojitax.com?
+
+**tools.mojitax.com** is a companion platform to MojiTax eBooks and Professional Practice Courses that provides **practical demo tools** for learners. When you build a course, you're not just creating written content—you're creating an integrated learning experience that includes hands-on practice.
+
+Think of it as the "lab" component of a science course. The course teaches the implementation; the tools provide the practice environment.
+
+### The Course + Tools Model
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                     INTEGRATED LEARNING EXPERIENCE                       │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│   COURSE CONTENT                           TOOLS (tools.mojitax.com)    │
+│   ┌─────────────────────────────┐      ┌─────────────────────────────┐  │
+│   │                             │      │                             │  │
+│   │  📖 Module Content          │      │                             │  │
+│   │  📋 Implementation Steps    │  ──► │  🛠️ Practical Demo Tools    │  │
+│   │  📎 Appendices              │      │     (whatever form serves   │  │
+│   │     (scenarios & data)      │      │      the learning best)     │  │
+│   │                             │      │                             │  │
+│   └─────────────────────────────┘      └─────────────────────────────┘  │
+│                                                                          │
+│   "Learn the implementation"           "Practice the skill"             │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### Why Plan Tools at the Course Design Stage?
+
+Tools should be planned **at the course design stage**, not added as an afterthought:
+
+| If you plan tools early... | If you add tools later... |
+|---------------------------|---------------------------|
+| Tools align with what you're teaching | Tools feel disconnected from content |
+| Practice flows naturally from modules | Exercises feel bolted on |
+| The learner journey is coherent | Learners struggle to connect theory to practice |
+| Development is coordinated | Development is rushed and fragmented |
+
+### What Are Demo Tools?
+
+Demo tools are **simplified, educational versions** of professional tax software. They're designed for learning, not production use.
+
+| Aspect | Description |
+|--------|-------------|
+| **Purpose** | Help learners practice concepts through hands-on use |
+| **Complexity** | Simplified—focused on core functionality |
+| **Data** | Sample/practice data provided in course Appendices |
+| **Output** | Practice results—no feedback or assessment |
+| **Liability** | Educational only—every tool carries a disclaimer |
+
+**Important: Tools Are for Practice Only**
+
+Tools do not provide feedback. They are instruments for hands-on practice—like a calculator or a form. The learning happens through:
+- Using the tool with the scenarios from your course
+- Comparing results to expected outcomes in the Appendices
+- Working through progressive case studies that build understanding
+
+**Standard Disclaimer (On Every Tool):**
+> *"This is a demo tool for learning purposes only. Results are illustrative and should not be used for actual tax filings or professional advice. Always consult qualified tax professionals for real-world applications."*
+
+### Demo Tool Types
+
+Tools can take **any form that serves the learning objective**. There is no fixed template—design what's practical and valuable for your course:
+
+- Calculators (ETR, top-up tax, safe harbour qualification)
+- Search/lookup tools (jurisdiction requirements, treaty provisions)
+- Validators and format checkers (XML schema, data quality)
+- Interactive forms (GIR completion, documentation generation)
+- Document generators (memos, reports, filings)
+- Compliance report tools (multi-jurisdiction tracking)
+- Trackers and monitors (deadline calendars, filing status)
+- Reference libraries (rate tables, threshold lookups)
+- Verification tools (entity classification, scope determination)
+
+**The key question is not "which template should I use?" but "what tool would genuinely help learners practice this skill?"**
+
+### The Golden Rule: Fewer, Better Tools
+
+**Quality Over Quantity**
+
+Don't aim for many tools. Aim for the right tools. A single well-designed tool that directly supports your course content is worth more than five generic tools that don't quite fit.
+
+**The Gate Question**
+
+Before requesting any tool, answer this:
+
+> **"If this tool didn't exist, what would the learner miss?"**
+
+If your answer is vague or uncertain, no tool is needed. If you can clearly articulate what practice opportunity would be lost, the tool may be worth building.
+
+**Signs You've Got It Right:**
+- ✅ Each tool has a clear purpose tied to specific modules
+- ✅ Practice scenarios build naturally from the course content
+- ✅ Learners can immediately see how the tool applies to what they've learned
+- ✅ The tool fills a gap that reading alone couldn't fill
+
+**Signs You've Gone Wrong:**
+- ❌ Tools exist because "we should have some tools"
+- ❌ Generic tools that could belong to any course
+- ❌ Many tools with little connection to the course narrative
+- ❌ Practice scenarios that feel like afterthoughts
+
+### Progressive Storylines for Practice Scenarios
+
+Rather than thinking "which tools do I need?", start with a different question:
+
+> **"What's the one fictional company or scenario that will carry through this entire course?"**
+
+The storyline comes first. Tools serve it.
+
+When you anchor your course to a single evolving scenario, practice becomes natural. Learners follow a company through challenges, apply what they've learned at each stage, and see how concepts connect across modules.
+
+**Build on your storyline progressively:**
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    PROGRESSIVE PRACTICE STORYLINE                        │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  Module 2 Scenario: "You've just joined the tax team at GlobalCo..."    │
+│                ↓                                                        │
+│  Module 4 Scenario: "Three months later, GlobalCo acquires a            │
+│                      subsidiary. Using what you've learned..."          │
+│                ↓                                                        │
+│  Module 6 Scenario: "The tax authority has now raised questions         │
+│                      about GlobalCo's structure. You need to..."        │
+│                ↓                                                        │
+│  Final Scenario: "It's year-end at GlobalCo. Pulling together           │
+│                   everything you've practiced..."                       │
+│                                                                          │
+│  The learner grows alongside the fictional scenario.                    │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+**Why Progressive Storylines Work:**
+
+| Disconnected Exercises | Progressive Storyline |
+|------------------------|----------------------|
+| Each exercise starts fresh | Learner builds on previous work |
+| No sense of development | Clear sense of growth |
+| Exercises feel like tests | Exercises feel like real work |
+| Easy to skip | Engaging—learners want to see what happens next |
+
+### Scenario Structure for Appendices
+
+Each scenario in your Appendices should include:
+
+```
+SCENARIO: [Title that connects to the storyline]
+MODULE: [Which module this follows]
+TOOL: [Which tool to use on tools.mojitax.com]
+
+CONTEXT:
+[How does this connect to the previous scenario? What's new?]
+
+TASK:
+[What should the learner do?]
+
+DATA PROVIDED:
+[The specific inputs they'll need]
+
+EXPECTED OUTCOME:
+[What results should they get?]
+
+LEARNING POINT:
+[What should they take away from this?]
+```
+
+### Tool Reference Integration
+
+**In Module Content:**
+> "Now let's see how this works in practice. On the tools platform (tools.mojitax.com), you'll find the [Tool Name]. Head to the Appendices for Scenario 3, which walks you through applying what we've just covered."
+
+**In Appendices:**
+The Appendices should contain:
+1. All practice scenarios in progressive order
+2. Sample data for each scenario
+3. Expected outcomes so learners can check their work
+4. Discussion points for deeper understanding
 
 ---
 
@@ -565,7 +704,65 @@ DEADLINES:
 
 ### Phase 2: Template and Tool Development (35% of development time)
 
-**Step 5: Create Excel Calculation Tools**
+**Step 5: Check the Tools Registry and Plan Demo Tools**
+
+Before designing new tools, **check what already exists on tools.mojitax.com**.
+
+Many tools are reusable across courses. Reusing existing tools means:
+- No development time needed
+- Learners who take multiple courses see familiar tools
+- Consistency across the platform
+
+If a tool doesn't exist and you genuinely need one, define it clearly:
+
+```
+TOOL NAME: [Name]
+FORM: [What type of tool is this?]
+CATEGORY: [Tax area]
+
+PURPOSE:
+What specific skill does this tool help learners practice?
+
+RELATED MODULES:
+Which modules in your course will reference this tool?
+
+WHY THIS TOOL ADDS VALUE:
+Why is hands-on practice with this tool better than just reading about it?
+```
+
+**Coordinated Development Workflow:**
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    COORDINATED DEVELOPMENT                               │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  COURSE DEVELOPER                        APP DEVELOPER                   │
+│  ─────────────────                       ─────────────────               │
+│                                                                          │
+│  1. Plans course outline                 (waits)                         │
+│     ↓                                                                    │
+│  2. Identifies where practice            (waits)                         │
+│     would add real value                                                 │
+│     ↓                                                                    │
+│  3. Checks Tools Registry                (waits)                         │
+│     ↓                                                                    │
+│  4. Specifies any new tools         ───► Receives specifications        │
+│     (only if truly needed)                ↓                              │
+│     ↓                                    5. Develops tools               │
+│  6. Writes course content                 ↓                              │
+│     ↓                                    7. Tools ready                  │
+│  7. Creates Appendices with          ◄───                                │
+│     progressive scenarios                                                │
+│     ↓                                                                    │
+│  8. Tests complete flow                                                  │
+│     ↓                                                                    │
+│  9. Course + Tools launch together                                       │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+**Step 6: Create Excel Calculation Tools**
 Every Professional Practice Course must include working Excel tools:
 
 **Minimum Excel Deliverables:**
@@ -582,7 +779,7 @@ Every Professional Practice Course must include working Excel tools:
 - [ ] Locked formula cells to prevent accidental changes
 - [ ] Professional formatting (not just raw spreadsheet)
 
-**Step 6: Develop Documentation Templates**
+**Step 7: Develop Documentation Templates**
 Provide Word templates for key deliverables:
 
 **Common Documentation Templates:**
@@ -601,7 +798,7 @@ Provide Word templates for key deliverables:
 - [ ] Footnote/citation format included
 - [ ] Ready to customize, not build from scratch
 
-**Step 7: Create Process Checklists**
+**Step 8: Create Process Checklists**
 Develop comprehensive checklists for key processes:
 
 **Checklist Types Needed:**
@@ -618,7 +815,7 @@ Develop comprehensive checklists for key processes:
 ☐ Responsible party column for assignment
 ☐ Due date column for tracking
 
-**Step 8: Compile Forms Package**
+**Step 9: Compile Forms Package**
 Gather all official forms and create completion guidance:
 
 **Forms Package Contents:**
@@ -653,7 +850,7 @@ Form 3: CbC Report XML
 
 ### Phase 3: Content Writing with Practical Focus (35% of development time)
 
-**Step 9: Write with "How-To" Structure**
+**Step 10: Write with "How-To" Structure**
 Every section should answer a practical question:
 
 **Avoid:** "The QDMTT safe harbour provides..."
@@ -669,14 +866,14 @@ Every section should answer a practical question:
 - Italy: [Step-by-step with SDI system guide]
 - Poland: [Step-by-step with KSeF setup]
 
-**Step 10: Use Real Screenshots and Examples**
+**Step 11: Use Real Screenshots and Examples**
 Don't just describe—show:
 - Screenshot of government portal login page
 - Screenshot of form with fields marked
 - Screenshot of where to find official guidance
 - Screenshot of calculator tool with data entered
 
-**Step 11: Write Troubleshooting Sections**
+**Step 12: Write Troubleshooting Sections**
 Address real problems practitioners encounter:
 
 **"What If" Scenarios:**
@@ -692,7 +889,7 @@ For each "what if," provide:
 3. 2-3 practical solutions
 4. Documentation approach if problem can't be fully resolved
 
-**Step 12: Develop Worked Examples from Real Scenarios**
+**Step 13: Develop Worked Examples from Real Scenarios**
 Create comprehensive worked examples showing entire process:
 
 **Worked Example Structure:**
@@ -706,7 +903,7 @@ Create comprehensive worked examples showing entire process:
 
 ### Phase 4: Resource Compilation and Quality Assurance (15% of development time)
 
-**Step 13: Build Resource Directory**
+**Step 14: Build Resource Directory**
 Compile comprehensive list of official resources:
 
 **Resource Directory Format:**
@@ -740,7 +937,7 @@ OECD Amount B Calculator
 [Continue for all relevant tools...]
 ```
 
-**Step 14: Create Deadline Calendar**
+**Step 15: Create Deadline Calendar**
 Develop comprehensive deadline tracking:
 
 **Calendar Requirements:**
@@ -750,7 +947,7 @@ Develop comprehensive deadline tracking:
 - Automated reminders if possible
 - Multi-year view showing recurring deadlines
 
-**Step 15: Technical Accuracy Verification**
+**Step 16: Technical Accuracy Verification**
 Before launch, verify:
 - [ ] All form links work and point to current versions
 - [ ] All portal links are correct and accessible
@@ -760,7 +957,7 @@ Before launch, verify:
 - [ ] All templates meet actual filing requirements
 - [ ] Screenshots reflect current portal/system appearance
 
-**Step 16: Usability Testing**
+**Step 17: Usability Testing**
 Have a practitioner unfamiliar with the content:
 - [ ] Attempt to use each Excel tool without additional instruction
 - [ ] Complete forms using templates and guidance
@@ -1259,6 +1456,8 @@ A high-quality Professional Practice Course enables practitioners to:
 - [ ] Learning objectives drafted (3-5 specific, measurable outcomes)
 - [ ] Competitive landscape assessed
 - [ ] Practitioner SME identified for input (if available)
+- [ ] Tools Registry checked for existing demo tools that can be reused
+- [ ] New demo tools identified (using the Gate Question: "What would learners miss?")
 
 ### During Development (Content Creation Phase)
 
@@ -1270,6 +1469,10 @@ A high-quality Professional Practice Course enables practitioners to:
 - [ ] Common errors and pitfalls identified and preventions included
 - [ ] Visual aids created (flowcharts, diagrams, comparison tables)
 - [ ] Practical constraints acknowledged (time, data availability, etc.)
+- [ ] Progressive storyline designed for practice scenarios (single fictional company/scenario)
+- [ ] Demo tool specifications submitted to App Developer (if new tools needed)
+- [ ] Appendices created with practice scenarios, sample data, and expected outcomes
+- [ ] Tool references integrated naturally into module content
 
 ### Post-Development (Quality Assurance Phase)
 
@@ -1281,6 +1484,8 @@ A high-quality Professional Practice Course enables practitioners to:
 - [ ] Course length and credit hours calculated appropriately
 - [ ] Assessment questions drafted (if needed for CPE)
 - [ ] All links to external resources functional
+- [ ] Demo tools tested with practice scenarios from Appendices
+- [ ] Complete learner journey tested (module → Appendix scenario → tool → outcome check)
 
 ### Launch Readiness
 
@@ -1290,6 +1495,9 @@ A high-quality Professional Practice Course enables practitioners to:
 - [ ] CPE certificate template prepared
 - [ ] Pricing determined and aligned with positioning strategy
 - [ ] Launch timeline coordinated with regulatory deadlines (if applicable)
+- [ ] Demo tools deployed and accessible on tools.mojitax.com
+- [ ] Tools Registry updated with any new tools created for this course
+- [ ] Course and tools ready for simultaneous launch
 
 ---
 
@@ -1452,7 +1660,7 @@ Professional Practice Courses occupy a critical position in the tax education ec
 
 ### The Core Promise
 
-**Professional Practice Courses are implementation manuals, not textbooks.** They don't teach what something is; they show how to do it. They don't explain history; they provide step-by-step workflows. They don't describe concepts; they deliver ready-to-use tools.
+**Professional Practice Courses are implementation manuals, not textbooks.** They don't teach what something is; they show how to do it. They don't explain history; they provide step-by-step workflows. They don't describe concepts; they deliver ready-to-use tools—both downloadable templates and hands-on demo tools on tools.mojitax.com.
 
 ### What Makes Them Valuable
 
@@ -1460,25 +1668,27 @@ The perfect Professional Practice Course enables a practitioner to:
 
 1. **Start implementing immediately** - Within 30 minutes of starting the course, practitioners have downloaded templates and know their first action step
 
-2. **Find every official resource** - Direct links to all government portals, forms (with numbers), free tools, and guidance documents organized in one place
+2. **Practice hands-on with demo tools** - Access tools.mojitax.com to work through progressive scenarios that reinforce learning and build real skills
 
-3. **Meet every deadline** - Jurisdiction-specific calendar with exact dates, not vague "year-end" references
+3. **Find every official resource** - Direct links to all government portals, forms (with numbers), free tools, and guidance documents organized in one place
 
-4. **Complete every form correctly** - Sample completed forms with annotations showing what goes in each field
+4. **Meet every deadline** - Jurisdiction-specific calendar with exact dates, not vague "year-end" references
 
-5. **Calculate accurately** - Excel tools with pre-built formulas; just enter data and get results
+5. **Complete every form correctly** - Sample completed forms with annotations showing what goes in each field
 
-6. **Document defensibly** - Word templates for memos, reports, and client deliverables that are 80% complete
+6. **Calculate accurately** - Excel tools with pre-built formulas; just enter data and get results
 
-7. **Avoid common errors** - Explicit list of 10+ mistakes practitioners make with prevention strategies
+7. **Document defensibly** - Word templates for memos, reports, and client deliverables that are 80% complete
 
-8. **Navigate real challenges** - "What if" scenarios addressing data gaps, deadline conflicts, system failures
+8. **Avoid common errors** - Explicit list of 10+ mistakes practitioners make with prevention strategies
+
+9. **Navigate real challenges** - "What if" scenarios addressing data gaps, deadline conflicts, system failures
 
 ### What Course Developers Must Deliver
 
 **Minimum Deliverables for Every Course:**
 - ✅ 2+ Excel calculation tools with formulas
-- ✅ 2+ Word documentation templates  
+- ✅ 2+ Word documentation templates
 - ✅ 3+ process checklists (20-50 items each)
 - ✅ Complete forms package (names, links, samples, guidance)
 - ✅ Deadline calendar by jurisdiction (Excel + iCal)
@@ -1487,6 +1697,8 @@ The perfect Professional Practice Course enables a practitioner to:
 - ✅ Full worked example using all templates start-to-finish
 - ✅ Process flowcharts (visual workflows)
 - ✅ Screenshots of portals, forms, or tools
+- ✅ Demo tools integration (existing or newly specified) on tools.mojitax.com
+- ✅ Progressive practice scenarios in Appendices with sample data and expected outcomes
 
 **Development Philosophy:**
 - **Skip**: Definitions, history, policy rationale, academic theory
@@ -1494,6 +1706,7 @@ The perfect Professional Practice Course enables a practitioner to:
 - **Provide**: Tools they can use TODAY, not concepts to apply someday
 - **Show**: Actual forms, real portals, completed examples, specific links
 - **Solve**: Real problems practitioners encounter, not theoretical issues
+- **Practice**: Hands-on scenarios with demo tools that reinforce learning
 
 ### Quality Test
 
@@ -1507,6 +1720,8 @@ If a practitioner takes this course today, can they:
 - [ ] Access 20+ official resources (portals, guidance, tools)?
 - [ ] Complete a real filing/calculation using course templates?
 - [ ] Avoid the 10 most common errors in this area?
+- [ ] Practice with demo tools on tools.mojitax.com using provided scenarios?
+- [ ] Work through a progressive storyline that builds their skills across the course?
 
 If the answer to any is "No," the course isn't ready.
 
@@ -1530,11 +1745,21 @@ Before declaring a Professional Practice Course complete, verify:
 - [ ] No policy debates or theoretical frameworks
 - [ ] Every section answers "how do I do this?"
 
-### Templates and Tools  
+### Templates and Tools
 - [ ] Minimum 6-8 downloadable tools (Excel, Word, checklists)
 - [ ] Every Excel has instructions, examples, locked formulas
 - [ ] Every Word template is 80%+ complete
 - [ ] All checklists have 20+ specific checkboxes
+
+### Demo Tools Platform Integration
+- [ ] Tools Registry checked for existing demo tools
+- [ ] New tools specified only where hands-on practice genuinely adds value
+- [ ] Demo tools deployed on tools.mojitax.com
+- [ ] Progressive practice storyline designed (single fictional company/scenario)
+- [ ] Appendices contain scenarios, sample data, and expected outcomes
+- [ ] Tool references integrated naturally into module content
+- [ ] Complete learner journey tested (module → Appendix → tool → outcome)
+- [ ] Tools Registry updated with any new tools created
 
 ### Forms and Procedures
 - [ ] Every form identified by exact name/number
@@ -1566,5 +1791,6 @@ Before declaring a Professional Practice Course complete, verify:
 - [ ] All citations current and verified
 - [ ] Templates meet actual legal/filing requirements
 - [ ] Practitioner reviewer validated content
+- [ ] Course and demo tools ready for simultaneous launch
 
 **If you can check every box, you have a Professional Practice Course worthy of the name. If not, keep developing.**
