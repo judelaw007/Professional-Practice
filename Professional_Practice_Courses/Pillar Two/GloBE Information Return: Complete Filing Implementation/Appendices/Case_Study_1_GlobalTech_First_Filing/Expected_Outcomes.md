@@ -6,7 +6,7 @@ Use these expected outcomes to verify your calculations with the demo tools.
 
 ## Ireland - Expected Results
 
-### GIR ETR Calculator (GIR-001)
+### GloBE Calculator - Step 1: ETR (GIR-001)
 
 | Output | Expected Value |
 |--------|----------------|
@@ -25,7 +25,7 @@ Top-up Tax % = 15% - 11.59%
 Top-up Tax % = 3.41%
 ```
 
-### GIR SBIE Calculator (GIR-002)
+### GloBE Calculator - Step 2: SBIE (GIR-001)
 
 | Output | Expected Value |
 |--------|----------------|
@@ -42,7 +42,7 @@ Asset SBIE = €17,000,000 × 7.8% = €1,326,000
 Total SBIE = €1,862,000 + €1,326,000 = €3,188,000
 ```
 
-### GIR Top-Up Tax Calculator (GIR-003)
+### GloBE Calculator - Step 3: Top-Up Tax (GIR-001)
 
 | Output | Expected Value |
 |--------|----------------|
@@ -72,7 +72,7 @@ Net Top-up Tax = €1,009,769
 
 ## Switzerland - Expected Results
 
-### GIR ETR Calculator (GIR-001)
+### GloBE Calculator - Step 1: ETR (GIR-001)
 
 | Output | Expected Value |
 |--------|----------------|
@@ -86,7 +86,7 @@ ETR = €2,520,000 / €18,000,000 = 14.00%
 Top-up Tax % = 15% - 14.00% = 1.00%
 ```
 
-### GIR SBIE Calculator (GIR-002)
+### GloBE Calculator - Step 2: SBIE (GIR-001)
 
 | Output | Expected Value |
 |--------|----------------|
@@ -101,7 +101,7 @@ Asset SBIE = €4,200,000 × 7.8% = €327,600
 Total SBIE = €833,000 + €327,600 = €1,160,600
 ```
 
-### GIR Top-Up Tax Calculator (GIR-003)
+### GloBE Calculator - Step 3: Top-Up Tax (GIR-001)
 
 | Output | Expected Value |
 |--------|----------------|
@@ -117,7 +117,7 @@ Top-up Tax = €16,839,400 × 1.00% = €168,394
 
 ---
 
-## Safe Harbour Qualification Tool (GIR-004) - UK Test
+## Safe Harbour Qualifier (GIR-002) - UK Test
 
 | Output | Expected Value |
 |--------|----------------|
@@ -149,7 +149,7 @@ UK qualifies for Transitional CbCR Safe Harbour
 
 ---
 
-## GIR Filing Deadline Calculator (GIR-005) - UK Filing
+## Filing Deadline Calculator (GIR-003) - UK Filing
 
 | Output | Expected Value |
 |--------|----------------|
@@ -184,7 +184,7 @@ Extended Deadline = 30 June 2026
 
 ---
 
-## GIR Data Point Reference Tool (GIR-006) - Sample Searches
+## GIR Practice Form - Data Point Search (GIR-004) - Sample Searches
 
 | Search Query | Expected Results |
 |--------------|------------------|
@@ -194,11 +194,11 @@ Extended Deadline = 30 June 2026
 | "Top-up Tax" | Section 3, Fields 3.5.x - Top-up Tax computation |
 
 **Learning Outcome:**
-Students should be able to navigate the ~480 GIR data points and identify which fields correspond to each calculation performed in GIR-001 through GIR-004.
+Students should be able to navigate the ~480 GIR data points using the integrated search bar and identify which fields correspond to each calculation performed in GIR-001.
 
 ---
 
-## DFE Election Assessment Tool (GIR-007) - GlobalTech Assessment
+## DFE Assessment Tool (GIR-005) - GlobalTech Assessment
 
 | Output | Expected Value |
 |--------|----------------|
@@ -244,7 +244,7 @@ Considerations:
 
 ---
 
-## GIR Practice Form (GIR-008) - Validation Results
+## GIR Practice Form (GIR-004) - Validation Results
 
 **Section 1 Validation:**
 
@@ -280,7 +280,7 @@ Considerations:
 
 ---
 
-## GIR Audit File Checklist (GIR-009) - Completion Status
+## Audit File Checklist (GIR-006) - Completion Status
 
 **Overall Progress:**
 
@@ -357,15 +357,12 @@ Estimated Completion: 2-3 weeks of focused effort
 
 | Tool ID | Tool Name | Used For | Key Output |
 |---------|-----------|----------|------------|
-| GIR-001 | ETR Calculator | IE, CH calculations | ETR 11.59%, 14.00% |
-| GIR-002 | SBIE Calculator | IE, CH substance exclusion | €3,188,000, €1,160,600 |
-| GIR-003 | Top-Up Tax Calculator | Final tax liability | €1,178,163 total |
-| GIR-004 | Safe Harbour Tool | UK qualification test | Safe Harbour APPLIES |
-| GIR-005 | Deadline Calculator | Filing timeline | 30 June 2026 (extended) |
-| GIR-006 | Data Point Reference | Form field lookup | ~480 data points |
-| GIR-007 | DFE Assessment | Filing entity selection | UK UPE recommended (92/100) |
-| GIR-008 | Practice Form | GIR population practice | Validation passed |
-| GIR-009 | Audit Checklist | Documentation tracking | 71.4% complete |
+| GIR-001 | GloBE Calculator | ETR, SBIE, Top-up Tax for IE & CH | ETR 11.59%/14.00%, SBIE €3.19M/€1.16M, Top-up €1.18M |
+| GIR-002 | Safe Harbour Qualifier | UK qualification test | Safe Harbour APPLIES (CbCR data) |
+| GIR-003 | Filing Deadline Calculator | Filing timeline | 30 June 2026 (18-month extended) |
+| GIR-004 | GIR Practice Form | Form population + data point lookup | Validation passed, ~480 data points |
+| GIR-005 | DFE Assessment Tool | Filing entity selection | UK UPE recommended (92/100) |
+| GIR-006 | Audit File Checklist | Documentation tracking | 71.4% complete (45/63 items) |
 
 ---
 
@@ -373,18 +370,18 @@ Estimated Completion: 2-3 weeks of focused effort
 
 If your results differ from these expected outcomes:
 
-1. **ETR differs**: Check you're using Adjusted Covered Taxes (not Total Tax Expense) divided by GloBE Income (not Accounting Income)
+1. **ETR differs (GIR-001 Step 1)**: Check you're using Adjusted Covered Taxes (not Total Tax Expense) divided by GloBE Income (not Accounting Income)
 
-2. **SBIE differs**: Verify you're using the correct FY2024 rates (9.8% payroll, 7.8% assets) and check your input totals
+2. **SBIE differs (GIR-001 Step 2)**: Verify you're using the correct FY2024 rates (9.8% payroll, 7.8% assets) and check your input totals
 
-3. **Top-up Tax differs**: Ensure you're calculating Excess Profit correctly (GloBE Income minus SBIE, not minus taxes)
+3. **Top-up Tax differs (GIR-001 Step 3)**: Ensure you're calculating Excess Profit correctly (GloBE Income minus SBIE, not minus taxes)
 
-4. **Safe Harbour fails unexpectedly**: Check you're using CbCR data (not GloBE-adjusted figures) for the safe harbour test
+4. **Safe Harbour fails unexpectedly (GIR-002)**: Check you're using CbCR data (not GloBE-adjusted figures) for the safe harbour test
 
-5. **Filing deadline incorrect**: Verify you selected "First Filing Year = Yes" to get the 18-month extension
+5. **Filing deadline incorrect (GIR-003)**: Verify you selected "First Filing Year = Yes" to get the 18-month extension
 
-6. **DFE score differs**: Check you're assessing all six factors and applying correct weights
+6. **DFE score differs (GIR-005)**: Check you're assessing all six factors and applying correct weights
 
-7. **Form validation fails**: Ensure cross-reference checks match (ETR calculation, SBIE totals, etc.)
+7. **Form validation fails (GIR-004)**: Ensure cross-reference checks match (ETR calculation, SBIE totals, etc.)
 
-8. **Audit checklist incomplete**: Focus on Critical priority items first before addressing High/Medium items
+8. **Audit checklist incomplete (GIR-006)**: Focus on Critical priority items first before addressing High/Medium items

@@ -13,7 +13,7 @@
 
 ### GloBE Income Calculation
 
-**Input Data for GIR ETR Calculator (GIR-001):**
+**Input Data for GloBE Calculator - Step 1: ETR (GIR-001):**
 
 | Data Point | Amount (EUR) |
 |------------|--------------|
@@ -39,7 +39,7 @@
 
 ### SBIE Calculation Data
 
-**Input Data for GIR SBIE Calculator (GIR-002):**
+**Input Data for GloBE Calculator - Step 2: SBIE (GIR-001):**
 
 | Data Point | Amount (EUR) |
 |------------|--------------|
@@ -67,13 +67,13 @@
 
 ### Top-Up Tax Calculation
 
-**Input Data for GIR Top-Up Tax Calculator (GIR-003):**
+**Input Data for GloBE Calculator - Step 3: Top-Up Tax (GIR-001):**
 
 | Data Point | Value |
 |------------|-------|
 | GloBE Income | €32,800,000 |
 | Adjusted Covered Taxes | €3,800,000 |
-| Total SBIE (from GIR-002) | €3,188,000 |
+| Total SBIE (from Step 2) | €3,188,000 |
 | QDMTT Amount | €0 (not applicable) |
 
 ---
@@ -114,7 +114,7 @@
 
 ## Safe Harbour Qualification Data
 
-**Input Data for Safe Harbour Qualification Tool (GIR-004):**
+**Input Data for Safe Harbour Qualifier (GIR-002):**
 
 Test whether UK qualifies for Transitional CbCR Safe Harbour:
 
@@ -130,7 +130,7 @@ Test whether UK qualifies for Transitional CbCR Safe Harbour:
 
 ## SBIE Rates for FY2024
 
-For reference when using GIR-002:
+For reference when using GIR-001 Step 2:
 
 | Rate Type | FY2024 Rate |
 |-----------|-------------|
@@ -141,7 +141,7 @@ For reference when using GIR-002:
 
 ## Filing Deadline Data
 
-**Input Data for GIR Filing Deadline Calculator (GIR-005):**
+**Input Data for Filing Deadline Calculator (GIR-003):**
 
 | Data Point | Value |
 |------------|-------|
@@ -155,7 +155,7 @@ For reference when using GIR-002:
 
 ## Designated Filing Entity Assessment Data
 
-**Input Data for DFE Election Assessment Tool (GIR-007):**
+**Input Data for DFE Assessment Tool (GIR-005):**
 
 **Candidate Entities for DFE Role:**
 
@@ -179,11 +179,13 @@ For reference when using GIR-002:
 
 ---
 
-## GIR Data Point Reference Examples
+## GIR Practice Form Data
 
-**Sample Data Points to Look Up (GIR-006):**
+**Input Data for GIR Practice Form (GIR-004):**
 
-For practicing the GIR Data Point Reference tool, search for these data points relevant to Case Study 1:
+Use the data below to practice populating the GIR form sections. The integrated data point reference (search bar) can be used to look up field definitions.
+
+**Sample Data Point Searches:**
 
 | Search Query | Expected Section | Purpose |
 |--------------|------------------|---------|
@@ -195,14 +197,6 @@ For practicing the GIR Data Point Reference tool, search for these data points r
 | "SBIE" | Section 3 | Locate substance exclusion fields |
 | "Top-up Tax" | Section 3 | Find top-up tax allocation fields |
 | "Safe Harbour" | Section 3 | Identify safe harbour election fields |
-
----
-
-## GIR Practice Form Data
-
-**Input Data for GIR Practice Form (GIR-008):**
-
-Use the data below to practice populating the GIR form sections:
 
 ### Section 1: General Information
 
@@ -259,7 +253,7 @@ Use the data below to practice populating the GIR form sections:
 
 ## Audit File Checklist Data
 
-**Input Data for GIR Audit File Checklist (GIR-009):**
+**Input Data for Audit File Checklist (GIR-006):**
 
 | Data Point | Value |
 |------------|-------|
