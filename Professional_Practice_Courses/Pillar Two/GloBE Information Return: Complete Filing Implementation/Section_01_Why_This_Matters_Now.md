@@ -76,16 +76,16 @@ Penalties for GIR non-compliance vary by jurisdiction but are substantial:
 | **Incomplete Filing** | Penalties for missing data fields or incomplete sections | MEDIUM-HIGH |
 | **Incorrect Information** | Additional tax plus penalties for material misstatements | HIGH |
 | **Failure to Register** | Penalties for not registering as filing entity by deadline | MEDIUM |
-| **Record-Keeping Failures** | Penalties for inadequate documentation (records must be kept 9+ years in UK) | MEDIUM |
+| **Record-Keeping Failures** | Penalties for inadequate documentation | MEDIUM |
 
 **Example: UK HMRC Approach**
 - Groups must register within **6 months** of first accounting period end
 - For December 31, 2024 year-end groups: registration deadline is **June 30, 2025**
 - Late registration and late filing penalties apply
-- Records must be retained for at least 9 years after the accounting period end
+- Standard UK corporate tax record retention requirements apply
 
 **Example: Australia ATO Approach**
-- The ATO has released Draft PCG 2025/D3 outlining a "soft-landing" approach
+- The ATO has released Practical Compliance Guideline PCG 2025/4 (formerly Draft PCG 2025/D3) outlining a "soft-landing" approach
 - Transitional penalty relief available but **not automatic**
 - MNE groups must demonstrate "reasonable measures" to comply
 - The onus is on the taxpayer to prove good faith compliance efforts
@@ -154,7 +154,7 @@ As of late 2025, the Pillar Two implementation landscape is mature and accelerat
 | Singapore | Jan 1, 2025 | TBD | Jan 1, 2025 |
 | South Korea | Jan 1, 2024 | Jan 1, 2025 | - |
 | Hong Kong | Jan 1, 2025 | TBD | Jan 1, 2025 |
-| Switzerland | Jan 1, 2024 (QDMTT only) | Not planned | Jan 1, 2024 |
+| Switzerland | Jan 1, 2025 | Not planned | Jan 1, 2024 |
 
 ---
 
