@@ -28,7 +28,7 @@ The specifications in this folder replace the summary-level `TOOLS-REGISTRY (2).
 | GIR-004 | Safe Harbour Qualification Tool | Draft | [GIR-004_Safe_Harbour_Tool.md](GIR-004_Safe_Harbour_Tool.md) |
 | GIR-005 | Filing Deadline Calculator | Draft | [GIR-005_Deadline_Calculator.md](GIR-005_Deadline_Calculator.md) |
 | GIR-006 | Data Point Reference | Draft | [GIR-006_Data_Point_Reference.md](GIR-006_Data_Point_Reference.md) |
-| GIR-007 | DFE Election Assessment Tool | Pending | GIR-007_DFE_Election_Tool.md |
+| GIR-007 | DFE Election Assessment Tool | Draft | [GIR-007_DFE_Election_Tool.md](GIR-007_DFE_Election_Tool.md) |
 | GIR-008 | GIR Practice Form | Pending | GIR-008_Practice_Form.md |
 | GIR-009 | Audit File Checklist | Pending | GIR-009_Audit_Checklist.md |
 
