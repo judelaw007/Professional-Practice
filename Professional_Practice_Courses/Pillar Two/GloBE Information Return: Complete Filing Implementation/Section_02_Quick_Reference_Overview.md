@@ -585,7 +585,7 @@ This section provides a preview of the key resources you will need. The full Off
 | **UK** | HMRC MTT/DTT Guidance Manual | Published (with updates) |
 | **Germany** | BZSt FAQ and Procedures | Published |
 | **Netherlands** | Belastingdienst Implementation Guidance | Published |
-| **Australia** | ATO Pillar Two Guidance | Published (including PCG 2025/D3) |
+| **Australia** | ATO Pillar Two Guidance | Published (including PCG 2025/4) |
 | **Singapore** | IRAS GMT Implementation Guide | Published |
 | **France** | DGFiP Pillar Two Instructions | Published |
 
