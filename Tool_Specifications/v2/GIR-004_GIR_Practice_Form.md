@@ -332,10 +332,10 @@ When a field is selected, display:
 │  ✅ XR-002: SBIE Total                   PASS (€3,188,000 = €1.86M + €1.33M)│
 │  ✅ XR-003: Excess Profit                PASS (€29,612,000)                 │
 │  ✅ XR-004: Top-up Tax                   PASS (€1,009,769)                  │
-│  ⚠️ XR-005: Ownership Sum               WARNING (Check Ireland entities)    │
+│  ✅ XR-005: Ownership Sum                PASS (All entities 100% owned)     │
 │  ✅ XR-006: Entity Count                 PASS (7 entities, 3 jurisdictions) │
 │                                                                             │
-│  Overall: 5 PASS | 1 WARNING | 0 FAIL                                      │
+│  Overall: 6 PASS | 0 WARNING | 0 FAIL                                      │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -441,7 +441,7 @@ When a field is selected, display:
 
 | ID | Name | Description | Entities | Jurisdictions |
 |----|------|-------------|----------|---------------|
-| CS1 | GlobalTech Manufacturing | Standard first filing | 75 | 20 |
+| CS1 | GlobalTech Manufacturing | Standard first filing | 7 | 3 |
 | CS2 | Complex Ownership | POPEs, JVs, MOCEs | 120 | 15 |
 | CS3 | Data Gap Challenges | Estimation scenarios | 45 | 12 |
 | CS4 | Multi-QDMTT | Multiple QDMTT jurisdictions | 60 | 8 |
@@ -460,35 +460,85 @@ When user selects a case study:
 
 ## 11. Test Cases
 
-### 11.1 Case Study 1: GlobalTech - Ireland
+### 11.1 Case Study 1: GlobalTech - Complete Form Data
 
-**Section 1 Input:**
+**Section 1 Input (General Information):**
 | Field | Value |
 |-------|-------|
 | UPE Legal Name | GlobalTech Manufacturing Ltd |
 | UPE Jurisdiction | United Kingdom |
-| Fiscal Year | 1 January 2024 - 31 December 2024 |
+| UPE Tax ID (UTR) | 1234567890 |
+| Fiscal Year Start | 1 January 2024 |
+| Fiscal Year End | 31 December 2024 |
+| Accounting Standard | IFRS |
 | Consolidated Revenue | €1,350,000,000 |
+| Reporting Currency | EUR |
 | DFE Name | GlobalTech Manufacturing Ltd |
-| First Filing | Yes |
+| DFE Jurisdiction | United Kingdom |
+| First Filing Year | Yes |
 
-**Section 3 Input (Ireland):**
+**Section 2 Input (Corporate Structure):**
+| Entity Name | Jurisdiction | Entity Type | Ownership % | Tax ID |
+|-------------|--------------|-------------|-------------|--------|
+| GlobalTech Manufacturing Ltd | United Kingdom | UPE | 100% | GB1234567890 |
+| GT IP Holdings Ltd | Ireland | CE | 100% | IE1234567A |
+| GT Services Ireland Ltd | Ireland | CE | 100% | IE2345678B |
+| GT Technology Ireland Ltd | Ireland | CE | 100% | IE3456789C |
+| GT Sales Ireland Ltd | Ireland | CE | 100% | IE4567890D |
+| GT Trading AG | Switzerland | CE | 100% | CHE-123.456.789 |
+| GT Finance AG | Switzerland | CE | 100% | CHE-234.567.890 |
+
+**Section 3 Input (Ireland - 4 entities):**
 | Field | Value |
 |-------|-------|
+| Jurisdiction | Ireland |
+| Number of CEs | 4 |
 | Financial Accounting Net Income | €28,000,000 |
-| GloBE Adjustments (net) | €4,800,000 |
-| GloBE Income | €32,800,000 |
-| Adjusted Covered Taxes | €3,800,000 |
+| Net Taxes Included in Income | €3,500,000 |
+| Excluded Dividends | €0 |
+| Policy Disallowed Expenses | (€200,000) |
+| Stock-based Compensation Adjustment | €1,200,000 |
+| Other Adjustments | €300,000 |
+| **GloBE Income (calculated)** | **€32,800,000** |
+| Current Tax Expense | €3,200,000 |
+| Deferred Tax Expense | €800,000 |
+| UTP Adjustment | (€150,000) |
+| Non-Covered Tax Adjustment | (€50,000) |
+| **Adjusted Covered Taxes (calculated)** | **€3,800,000** |
 | Eligible Payroll | €19,000,000 |
 | Tangible Assets NBV | €17,000,000 |
 
-**Expected Validation Results:**
+**Section 3 Input (Switzerland - 2 entities):**
+| Field | Value |
+|-------|-------|
+| Jurisdiction | Switzerland |
+| Number of CEs | 2 |
+| Financial Accounting Net Income | €16,500,000 |
+| GloBE Adjustments (net) | €1,500,000 |
+| **GloBE Income (calculated)** | **€18,000,000** |
+| Total Tax Expense | €2,700,000 |
+| Tax Adjustments | (€180,000) |
+| **Adjusted Covered Taxes (calculated)** | **€2,520,000** |
+| Eligible Payroll | €8,500,000 |
+| Tangible Assets NBV | €4,200,000 |
+
+**Expected Validation Results (Ireland):**
 | Check | Expected | Status |
 |-------|----------|--------|
-| ETR Calculation | 11.59% | ✅ PASS |
-| SBIE Total | €3,188,000 | ✅ PASS |
-| Excess Profit | €29,612,000 | ✅ PASS |
+| ETR Calculation | 11.59% (€3.8M / €32.8M) | ✅ PASS |
+| SBIE Total | €3,188,000 (€1,862,000 + €1,326,000) | ✅ PASS |
+| Excess Profit | €29,612,000 (€32.8M - €3.188M) | ✅ PASS |
+| Top-up Tax % | 3.41% (15% - 11.59%) | ✅ PASS |
 | Top-up Tax | €1,009,769 | ✅ PASS |
+
+**Expected Validation Results (Switzerland):**
+| Check | Expected | Status |
+|-------|----------|--------|
+| ETR Calculation | 14.00% (€2.52M / €18M) | ✅ PASS |
+| SBIE Total | €1,160,600 (€833,000 + €327,600) | ✅ PASS |
+| Excess Profit | €16,839,400 (€18M - €1.16M) | ✅ PASS |
+| Top-up Tax % | 1.00% (15% - 14%) | ✅ PASS |
+| Top-up Tax | €168,394 | ✅ PASS |
 
 ### 11.2 Data Point Search Tests
 
