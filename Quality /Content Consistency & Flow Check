@@ -1,0 +1,77 @@
+Conduct a comprehensive consistency and flow audit of the attached course section. Build and maintain a master reference document that will guide harmonization across all course sections.
+
+**IMPORTANT:** If this is your first section, create the master reference document. If continuing from a previous section, update the existing master reference document before harmonizing.
+
+**YOUR TASK:**
+
+**Step 1: Update Master Reference Document**
+
+Create or update a document containing:
+
+**A. TERMINOLOGY GLOSSARY**
+- Term | First Definition | Standard Usage | Variations Found | Sections Where Used
+- Add new terms, flag conflicts with existing definitions
+- Note if different sections define terms differently
+
+**B. CONCEPT TRACKER**
+- Concept | Where First Introduced | Where Referenced Again | Issues
+- Track how concepts build across sections
+- Identify redundant introductions
+
+**C. CROSS-REFERENCE MAP**
+- Reference Made | Source Section | Target Section | Status (Valid/Broken/Needs Update)
+
+**D. NAMING CONVENTIONS LOG**
+- Element Type (headings, numbering, etc.) | Pattern Used | Sections Affected
+
+**E. ISSUES TO RESOLVE**
+- Contradictions between sections
+- Terms needing standardization
+- Content requiring reorganization
+
+**Step 2: Harmonize Current Section**
+
+Using the Master Reference Document:
+- Standardize all terminology to match established definitions
+- Remove redundancies (content already covered in previous sections)
+- Resolve contradictions with earlier sections
+- Fix cross-references
+- Apply consistent naming conventions
+- Improve transitions and flow
+
+**Step 3: Document Changes Made**
+
+For each section harmonized, provide:
+- What was standardized (terminology aligned)
+- What was removed (redundant content)
+- What was revised (flow improvements, contradiction resolutions)
+- Cross-references updated
+
+**OUTPUT FORMAT:**
+
+**1. UPDATED MASTER REFERENCE DOCUMENT**
+[Complete updated version with all new terms, concepts, and issues logged]
+
+**2. HARMONIZED SECTION**
+[Fully corrected content with all consistency edits applied]
+
+**3. CHANGE LOG FOR THIS SECTION**
+- Changes made: [list]
+- Alignment with previous sections: [details]
+- New issues discovered: [details]
+
+**4. INSTRUCTIONS FOR NEXT SECTION**
+[Note any terms, conventions, or issues the next section must address]
+
+**CRITICAL RULES:**
+✓ Always start by updating the Master Reference Document
+✓ Harmonize current section against all previous sections
+✓ Remove content that duplicates earlier sections
+✓ Ensure terminology matches established definitions
+✓ Flag conflicts that require cross-section resolution
+✓ Every section must seamlessly connect to previous sections
+
+**For First Section:** Create the Master Reference Document from scratch
+**For Subsequent Sections:** Provide the existing Master Reference Document along with the new section
+
+Begin by reviewing/creating the Master Reference Document, then harmonize the attached section.
