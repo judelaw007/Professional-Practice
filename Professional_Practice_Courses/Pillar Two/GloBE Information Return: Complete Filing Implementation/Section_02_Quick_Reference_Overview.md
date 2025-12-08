@@ -531,7 +531,7 @@ The Excel calendar included in this course provides:
 
 ## 2.4 Essential Resources Directory Preview
 
-This section provides a preview of the key resources you will need. The full Official Resource Directory (Section 13) contains 25+ jurisdictions with complete contact details.
+This section provides a preview of the key resources you will need. A comprehensive Official Resource Directory with 25+ jurisdictions and complete contact details is provided later in this course.
 
 ---
 
@@ -623,7 +623,7 @@ This section provides a preview of the key resources you will need. The full Off
 | **Australia ATO** | Phone / Online services | 5-10 business days |
 | **Singapore IRAS** | Email / myTax Portal | 5-10 business days |
 
-**Full contact details including phone numbers, email addresses, and escalation procedures are provided in Section 13: Official Resource Directory.**
+**Full contact details including phone numbers, email addresses, and escalation procedures are provided in the comprehensive Official Resource Directory later in this course.**
 
 ---
 
@@ -698,7 +698,7 @@ Before proceeding to Part 2 (Step-by-Step Implementation), complete the followin
 - [ ] Add key deadlines to your calendar (use provided Excel calendar)
 - [ ] Bookmark the OECD Pillar Two Main Portal
 
-**Continue to Section 3: Understanding the GIR Structure →**
+**You're now ready to dive deeper into the detailed GIR structure and begin the step-by-step implementation process.**
 
 ---
 
