@@ -550,7 +550,7 @@ The following jurisdictions have signed the GIR Multilateral Competent Authority
 - Website: https://www.ato.gov.au/businesses-and-organisations/international-tax-for-business/in-detail/multinationals/global-and-domestic-minimum-tax
 
 **User Guides:**
-- Draft PCG 2025/D3 (transitional approach)
+- PCG 2025/4 (formerly Draft PCG 2025/D3) - transitional approach
 - https://www.ato.gov.au/businesses-and-organisations/international-tax-for-business/in-detail/multinationals/global-and-domestic-minimum-tax/lodging-paying-and-other-obligations-for-pillar-two
 
 ---

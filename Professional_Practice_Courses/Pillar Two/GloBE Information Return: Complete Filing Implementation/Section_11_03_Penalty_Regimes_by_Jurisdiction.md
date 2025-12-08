@@ -33,7 +33,7 @@ The OECD Inclusive Framework agreed on a transitional penalty relief regime reco
 > "No penalties or sanctions should apply during a transitional period in connection with filing GloBE Information Returns where an MNE has taken reasonable measures to ensure the correct application of the GloBE rules."
 
 **Transitional Period:**
-- **Start:** Fiscal years beginning on or after 31 December 2023
+- **Start:** Fiscal years beginning on or before 31 December 2026
 - **End:** Fiscal years ending on or before 30 June 2028
 
 **"Reasonable Measures" Standard:**
@@ -56,7 +56,7 @@ The OECD Inclusive Framework agreed on a transitional penalty relief regime reco
 | Netherlands | Yes | Soft-landing approach |
 | France | Yes | Good faith compliance |
 | Ireland | Yes | No penalties if reasonable care taken |
-| Australia | Yes | ATO "soft-landing" PCG 2025/D3 |
+| Australia | Yes | ATO "soft-landing" PCG 2025/4 (formerly Draft PCG 2025/D3) |
 | Luxembourg | Yes | Per OECD framework |
 | Switzerland | Yes | CIT analogy provisions |
 | Japan | Yes | Per OECD framework |
@@ -188,7 +188,7 @@ Taxpayers must actively provide correct and complete information within two week
 
 ### 2.7 Australia
 
-**Legal Basis:** Taxation (Multinational—Global and Domestic Minimum Tax) Act 2024; ATO PCG 2025/D3
+**Legal Basis:** Taxation (Multinational—Global and Domestic Minimum Tax) Act 2024; ATO PCG 2025/4 (formerly Draft PCG 2025/D3)
 
 **Penalty Framework:**
 
@@ -198,7 +198,7 @@ Taxpayers must actively provide correct and complete information within two week
 | Late lodgement | FTL penalty | Can be substantial |
 | Incorrect information | Inaccuracy penalties | Behaviour-based |
 
-**ATO Soft-Landing Approach (PCG 2025/D3):**
+**ATO Soft-Landing Approach (PCG 2025/4):**
 
 During the Transition Period (FY beginning on or before 31 December 2026, ending on or before 30 June 2028):
 - FTL penalties typically remitted to ONE penalty per MNE group for CGDMTR obligations
@@ -419,7 +419,7 @@ If no Designated Filing Entity is properly elected:
 | **Ireland** | €10,000/month (€480K max) | €10,000/month | €10,000 | Yes - reasonable care | 8% p.a. |
 | **Netherlands** | €469-€6,709 | vergrijpboete | verzuimboete | Yes - soft landing | ~4% p.a. |
 | **Luxembourg** | Up to €250,000 | Up to €250,000 | Up to €300,000 | Yes | 7.2% p.a. |
-| **Australia** | FTL × 500 multiplier | Shortfall penalty 25-75% | FTL per entity | Yes - PCG 2025/D3 | ~11% p.a. |
+| **Australia** | FTL × 500 multiplier | Shortfall penalty 25-75% | FTL per entity | Yes - PCG 2025/4 | ~11% p.a. |
 | **Switzerland** | CIT penalties | CIT penalties | CIT penalties | Yes | 4-4.5% |
 | **Japan** | 10-20% additional tax | 10-40% additional tax | National tax penalties | Yes | 8.7-14.6% |
 | **Singapore** | TBD | TBD | TBD | Expected | TBD |
@@ -469,7 +469,7 @@ If no Designated Filing Entity is properly elected:
 - [Ireland: Finance (No. 2) Act 2023 - Pillar Two](https://www.pwc.ie/issues/finance-act-2023/pillar-two.html)
 - [Netherlands: Minimum Tax 2024](https://www.belastingdienst.nl/wps/wcm/connect/en/business/content/minimum-tax)
 - [Luxembourg: Pillar 2 Law](https://www.pwc.lu/en/newsletter/2025/luxembourg-amends-pillar-2-law.html)
-- [Australia: ATO PCG 2025/D3](https://www.ato.gov.au/businesses-and-organisations/international-tax-for-business/in-detail/multinationals/global-and-domestic-minimum-tax)
+- [Australia: ATO PCG 2025/4 (formerly Draft PCG 2025/D3)](https://www.ato.gov.au/businesses-and-organisations/international-tax-for-business/in-detail/multinationals/global-and-domestic-minimum-tax)
 - [Switzerland: Pillar Two Registration](https://blogs.deloitte.ch/tax/2024/12/pillar-two-registration-in-switzerland-as-of-1-january-2025.html)
 - [Wolters Kluwer: BEPS Practical Compliance Guidelines](https://www.wolterskluwer.com/en-au/expert-insights/beps-practical-guidance)
 
