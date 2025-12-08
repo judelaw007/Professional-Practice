@@ -1,6 +1,12 @@
-Conduct a comprehensive consistency and flow audit of the attached course section. Build and maintain a master reference document that will guide harmonization across all course sections.
+Conduct a comprehensive consistency audit of the attached course section. Build and maintain a master reference document that will guide consistency fixes across all course sections.
 
-**IMPORTANT:** If this is your first section, create the master reference document. If continuing from a previous section, update the existing master reference document before harmonizing.
+**IMPORTANT:** If this is your first section, create the master reference document. If continuing from a previous section, update the existing master reference document before fixing inconsistencies.
+
+**CRITICAL: DO NOT REWRITE**
+- Only fix inconsistencies, contradictions, and redundancies
+- Preserve the original author's voice, style, and structure
+- Make minimal edits - change only what's inconsistent or redundant
+- Do not improve or enhance consistent content
 
 **YOUR TASK:**
 
@@ -11,67 +17,62 @@ Create or update a document containing:
 **A. TERMINOLOGY GLOSSARY**
 - Term | First Definition | Standard Usage | Variations Found | Sections Where Used
 - Add new terms, flag conflicts with existing definitions
-- Note if different sections define terms differently
 
 **B. CONCEPT TRACKER**
 - Concept | Where First Introduced | Where Referenced Again | Issues
-- Track how concepts build across sections
-- Identify redundant introductions
+- Track redundant introductions
 
 **C. CROSS-REFERENCE MAP**
-- Reference Made | Source Section | Target Section | Status (Valid/Broken/Needs Update)
+- Reference Made | Source Section | Target Section | Status (Valid/Broken)
 
 **D. NAMING CONVENTIONS LOG**
-- Element Type (headings, numbering, etc.) | Pattern Used | Sections Affected
+- Element Type | Pattern Used | Sections Affected
 
 **E. ISSUES TO RESOLVE**
 - Contradictions between sections
 - Terms needing standardization
-- Content requiring reorganization
+- Redundant content to remove
 
-**Step 2: Harmonize Current Section**
+**Step 2: Fix Inconsistencies in Current Section**
 
-Using the Master Reference Document:
-- Standardize all terminology to match established definitions
-- Remove redundancies (content already covered in previous sections)
-- Resolve contradictions with earlier sections
-- Fix cross-references
-- Apply consistent naming conventions
-- Improve transitions and flow
+Using the Master Reference Document, fix ONLY:
+- Terminology variations (standardize to established term)
+- Redundant content (delete duplicate explanations)
+- Contradictions (fix conflicting information)
+- Broken cross-references (correct section numbers)
+- Inconsistent naming conventions (apply standard pattern)
 
-**Step 3: Document Changes Made**
-
-For each section harmonized, provide:
-- What was standardized (terminology aligned)
-- What was removed (redundant content)
-- What was revised (flow improvements, contradiction resolutions)
-- Cross-references updated
+**DO NOT change:**
+- Accurate, consistent content
+- Original explanations and examples
+- Author's writing style or voice
+- Structure unless absolutely necessary for consistency
 
 **OUTPUT FORMAT:**
 
 **1. UPDATED MASTER REFERENCE DOCUMENT**
 [Complete updated version with all new terms, concepts, and issues logged]
 
-**2. HARMONIZED SECTION**
-[Fully corrected content with all consistency edits applied]
+**2. CORRECTED SECTION**
+[Original content with ONLY consistency fixes applied - all other text unchanged]
 
-**3. CHANGE LOG FOR THIS SECTION**
-- Changes made: [list]
-- Alignment with previous sections: [details]
-- New issues discovered: [details]
+**3. FIX LOG FOR THIS SECTION**
+- Terminology standardized: [list]
+- Redundant content removed: [list]
+- Contradictions resolved: [list]
+- Cross-references fixed: [list]
 
 **4. INSTRUCTIONS FOR NEXT SECTION**
 [Note any terms, conventions, or issues the next section must address]
 
 **CRITICAL RULES:**
-✓ Always start by updating the Master Reference Document
-✓ Harmonize current section against all previous sections
-✓ Remove content that duplicates earlier sections
-✓ Ensure terminology matches established definitions
-✓ Flag conflicts that require cross-section resolution
-✓ Every section must seamlessly connect to previous sections
+✓ Fix inconsistencies only - do not rewrite consistent content
+✓ Preserve original wording wherever possible
+✓ Make surgical edits - change minimal text necessary
+✓ Delete only truly redundant content
+✓ Maintain author's voice and style completely
 
-**For First Section:** Create the Master Reference Document from scratch
-**For Subsequent Sections:** Provide the existing Master Reference Document along with the new section
+**For First Section:** Create the Master Reference Document
+**For Subsequent Sections:** Provide existing Master Reference Document + new section
 
-Begin by reviewing/creating the Master Reference Document, then harmonize the attached section.
+Begin by updating the Master Reference Document, then fix inconsistencies in the attached section.
