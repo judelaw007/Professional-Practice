@@ -1,12 +1,18 @@
-Conduct a comprehensive accuracy audit and immediate correction of the attached professional course material. Use today's date as your reference point for current information.
+Conduct a comprehensive accuracy audit of the attached professional course material. Use today's date as your reference point for current information.
 
 **MANDATORY REQUIREMENT:**
 Use web_search extensively to verify EVERY factual claim against current authoritative sources. Do NOT rely on training data. Regulations, standards, best practices, and industry data change frequently.
 
 **YOUR TASK:**
 1. Search the web to verify every date, statistic, regulation, standard, technical term, and industry reference
-2. Immediately rewrite any inaccurate or outdated content with current information
+2. Fix ONLY inaccurate or outdated information - preserve all original wording where accurate
 3. Cite the specific web source (URL + date) for each correction
+
+**CRITICAL: DO NOT REWRITE**
+- Only change text that contains factual errors
+- Preserve the original author's voice, style, and structure
+- Make minimal edits - change only what's inaccurate
+- Keep original phrasing when facts are correct
 
 **WHAT TO VERIFY (via web search):**
 - Dates, deadlines, and implementation timelines
@@ -30,17 +36,17 @@ Use web_search extensively to verify EVERY factual claim against current authori
 **1. SEARCH LOG**
 List the key web searches you conducted (minimum 15-20 searches)
 
-**2. CHANGE LOG**
+**2. CORRECTION LOG**
 For each correction:
 - Original text
 - Web search performed
-- Current information found
-- Corrected text
+- Current accurate information
+- Corrected text (minimal change from original)
 - Source URL and date
 - Impact level (Critical/High/Medium/Low)
 
-**3. FULLY CORRECTED SECTION**
-Complete rewritten content with all corrections integrated, maintaining original structure and tone
+**3. CORRECTED SECTION**
+Original content with ONLY factual corrections applied - all other text unchanged
 
 **4. SUMMARY**
 - Total searches conducted
@@ -49,10 +55,10 @@ Complete rewritten content with all corrections integrated, maintaining original
 - Items needing expert review (if any)
 
 **CRITICAL RULES:**
-✓ Search first, correct immediately - every factual claim requires web verification
-✓ Cite specific URLs with access dates for all corrections
-✓ Preserve original style and structure unless accuracy demands changes
+✓ Fix inaccuracies only - do not improve, enhance, or rewrite accurate content
+✓ Preserve original wording wherever possible
+✓ Make surgical corrections - change minimal text necessary
+✓ Maintain author's voice and style completely
 ✓ If sources conflict, note this and recommend expert review
-✓ No assumptions - if you can't verify via search, explicitly state this
 
-Begin by conducting your web searches, then provide the corrected content.
+Begin by conducting your web searches, then provide corrections with minimal text changes.
