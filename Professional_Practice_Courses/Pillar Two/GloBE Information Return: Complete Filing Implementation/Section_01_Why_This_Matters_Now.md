@@ -420,7 +420,7 @@ Month 6 (Jun 2026)     │ Filing, Confirmation, and Documentation
 - Tax team members: 20 hours each
 - IT support: 10 hours (system access)
 
-**Learning Resources:** Section 3 (Understanding the GIR Structure) covers CE identification in detail.
+**Learning Resources:** Constituent entity identification and GIR structure are covered in detail later in this course.
 
 **Checkpoint:** By end of Month 1, you should have a complete list of Constituent Entities and confirmed project team.
 
@@ -449,7 +449,7 @@ Month 6 (Jun 2026)     │ Filing, Confirmation, and Documentation
 - Tax team members: 40 hours each
 - IT/ERP specialists: 30 hours
 
-**Learning Resources:** Section 4 (Data Gathering and Extraction) provides detailed guidance on data point mapping and gap analysis.
+**Learning Resources:** Data point mapping and gap analysis methodologies are covered in detail later in this course.
 
 **Checkpoint:** By end of Month 2, you should know exactly what data you have and what's missing.
 
@@ -477,7 +477,7 @@ Month 6 (Jun 2026)     │ Filing, Confirmation, and Documentation
 - Tax team members: 60 hours each
 - IT/ERP specialists: 80 hours
 
-**Learning Resources:** Section 4.2 (ERP Data Extraction Strategies) covers ERP-to-GIR field mapping with inline examples for major systems.
+**Learning Resources:** ERP data extraction strategies and field mapping for major systems are covered in detail later in this course.
 
 **Checkpoint:** By end of Month 3, you should have raw data extracted for all entities.
 
@@ -536,7 +536,7 @@ Month 6 (Jun 2026)     │ Filing, Confirmation, and Documentation
 - Tax team members: 40 hours each
 - IT/XML specialist: 60 hours
 
-**Learning Resources:** Section 6 (XML Generation and Validation) covers the validation process. Practice with Case Study 4 (Multi-Jurisdiction Filing).
+**Learning Resources:** XML generation and validation processes are covered in detail later in this course. Case Study 4 provides multi-jurisdiction filing practice scenarios.
 
 **Checkpoint:** By end of Month 5, you should have a validated XML file ready for submission.
 
@@ -567,7 +567,7 @@ Month 6 (Jun 2026)     │ Filing, Confirmation, and Documentation
 - Tax team members: 30 hours each
 - Finance (payment): 10 hours
 
-**Learning Resources:** Section 7 (Jurisdiction-Specific Filing Procedures) covers filing procedures. Section 12.4 (Ongoing Compliance Cycle) covers post-filing requirements. Practice with Case Study 5 (Amendment Required) for post-filing scenarios.
+**Learning Resources:** Jurisdiction-specific filing procedures and ongoing compliance requirements are covered in detail later in this course. Case Study 5 provides amendment and post-filing practice scenarios.
 
 **Checkpoint:** By June 30, 2026, all filings complete with documented confirmations.
 
