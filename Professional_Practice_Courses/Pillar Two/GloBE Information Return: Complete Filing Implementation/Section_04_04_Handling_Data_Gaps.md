@@ -597,7 +597,7 @@ The transitional relief does not apply to:
 
 ### Australian Example: ATO Practical Compliance
 
-The Australian Taxation Office (ATO) has provided guidance on transitional compliance in Draft Practical Compliance Guideline PCG 2025/D3:
+The Australian Taxation Office (ATO) has provided guidance on transitional compliance in Practical Compliance Guideline PCG 2025/4 (formerly Draft PCG 2025/D3):
 
 > "Remission of penalties and/or suspension of lodgment enforcement actions may be possible if applicable MNE groups act in good faith and take 'reasonable measures' to comply with the Minimum Tax law during the transition period."
 
