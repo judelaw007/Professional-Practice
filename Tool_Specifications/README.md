@@ -30,7 +30,7 @@ The specifications in this folder replace the summary-level `TOOLS-REGISTRY (2).
 | GIR-006 | Data Point Reference | Draft | [GIR-006_Data_Point_Reference.md](GIR-006_Data_Point_Reference.md) |
 | GIR-007 | DFE Election Assessment Tool | Draft | [GIR-007_DFE_Election_Tool.md](GIR-007_DFE_Election_Tool.md) |
 | GIR-008 | GIR Practice Form | Draft | [GIR-008_Practice_Form.md](GIR-008_Practice_Form.md) |
-| GIR-009 | Audit File Checklist | Pending | GIR-009_Audit_Checklist.md |
+| GIR-009 | Audit File Checklist | Draft | [GIR-009_Audit_Checklist.md](GIR-009_Audit_Checklist.md) |
 
 ---
 
