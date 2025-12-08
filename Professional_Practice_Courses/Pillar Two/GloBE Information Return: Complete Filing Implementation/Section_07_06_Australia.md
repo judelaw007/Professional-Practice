@@ -6,7 +6,7 @@ By the end of this section, you will be able to:
 - Navigate the ATO Online Services for Pillar Two filings
 - Understand Australia's four filing obligations (GIR, FNF, AIUTR, DMTR)
 - Submit the Combined Global and Domestic Minimum Tax Return (CGDMTR)
-- Apply transitional relief provisions under PCG 2025/D3
+- Apply transitional relief provisions under PCG 2025/4 (formerly Draft PCG 2025/D3)
 - Understand the penalty framework and maximum exposures
 - Apply the Australia Pillar Two Filing Checklist for compliance assurance
 
@@ -39,7 +39,7 @@ Australian Pillar Two Legislation:
 │   └── Detailed computational rules as legislative instrument
 │
 └── ADMINISTRATIVE GUIDANCE
-    ├── PCG 2025/D3: Transitional lodgment approach
+    ├── PCG 2025/4: Transitional lodgment approach (formerly Draft PCG 2025/D3)
     └── ATO website guidance
 ```
 
@@ -416,7 +416,7 @@ Australian Pillar Two Penalties:
     └── General administration penalties
 ```
 
-### Transitional Relief (PCG 2025/D3)
+### Transitional Relief (PCG 2025/4)
 
 ```
 Transitional Penalty Relief:
@@ -673,7 +673,7 @@ Approved By: _____________________________________________ Date: ____ / ____ / _
 
 | Resource | Description |
 |----------|-------------|
-| PCG 2025/D3 | Transitional lodgment approach |
+| PCG 2025/4 | Transitional lodgment approach (formerly Draft PCG 2025/D3) |
 | ATO Website Updates | Latest developments and form availability |
 
 ---
@@ -686,7 +686,7 @@ Australia's implementation through the Taxation (Multinational—Global and Dome
 2. **CGDMTR** - Combined Australian return (FNF + AIUTR + DMTR)
 3. **First deadline** - 30 June 2026 for December year-end groups
 4. **Maximum penalty** - A$825,000 per entity per obligation
-5. **Transitional relief** - Soft landing through PCG 2025/D3
+5. **Transitional relief** - Soft landing through PCG 2025/4
 
 Key considerations:
 - Retrospective application from 1 January 2024
