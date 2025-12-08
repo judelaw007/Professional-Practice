@@ -136,3 +136,155 @@ For reference when using GIR-002:
 |-----------|-------------|
 | Payroll Carve-out | 9.8% |
 | Asset Carve-out | 7.8% |
+
+---
+
+## Filing Deadline Data
+
+**Input Data for GIR Filing Deadline Calculator (GIR-005):**
+
+| Data Point | Value |
+|------------|-------|
+| UPE Jurisdiction | United Kingdom |
+| Fiscal Year End Date | 31 December 2024 |
+| Is First GIR Filing Year? | Yes |
+| Jurisdiction Filing In | United Kingdom |
+| Has Transition Year Extension? | Yes (first year eligible) |
+
+---
+
+## Designated Filing Entity Assessment Data
+
+**Input Data for DFE Election Assessment Tool (GIR-007):**
+
+**Candidate Entities for DFE Role:**
+
+| Entity | Jurisdiction | Pillar Two Status | Tax Team Size | Systems Capability | Current GIR Filer? |
+|--------|--------------|-------------------|---------------|--------------------|--------------------|
+| GlobalTech Manufacturing Ltd | UK | IIR Effective 2024 | 8 FTE | ERP integrated | No (first year) |
+| GlobalTech Europe BV | Netherlands | IIR Effective 2024 | 3 FTE | Local system | No |
+| GlobalTech GmbH | Germany | IIR Effective 2024 | 4 FTE | SAP | No |
+| GT IP Holdings Ltd | Ireland | IIR Effective 2024 | 1 FTE | Limited | No |
+
+**Additional DFE Assessment Factors:**
+
+| Factor | GlobalTech Manufacturing Ltd (UK) | GlobalTech Europe BV (NL) |
+|--------|-----------------------------------|---------------------------|
+| Is UPE? | Yes | No |
+| Group Revenue Visibility | Full consolidated view | Regional only |
+| Existing Tax Authority Relationships | Strong (UK HMRC) | Moderate |
+| Language Capability | English (GIR language) | Dutch/English |
+| Time Zone Coverage | GMT (central) | CET |
+| External Advisor Support | Big 4 engaged | Local firm |
+
+---
+
+## GIR Data Point Reference Examples
+
+**Sample Data Points to Look Up (GIR-006):**
+
+For practicing the GIR Data Point Reference tool, search for these data points relevant to Case Study 1:
+
+| Search Query | Expected Section | Purpose |
+|--------------|------------------|---------|
+| "UPE name" | Section 1 | Identify field for GlobalTech Manufacturing Ltd |
+| "Fiscal year" | Section 1 | Determine reporting period fields |
+| "Constituent Entity" | Section 2 | Find CE listing requirements |
+| "GloBE Income" | Section 3 | Locate income computation fields |
+| "Adjusted Covered Taxes" | Section 3 | Find tax computation fields |
+| "SBIE" | Section 3 | Locate substance exclusion fields |
+| "Top-up Tax" | Section 3 | Find top-up tax allocation fields |
+| "Safe Harbour" | Section 3 | Identify safe harbour election fields |
+
+---
+
+## GIR Practice Form Data
+
+**Input Data for GIR Practice Form (GIR-008):**
+
+Use the data below to practice populating the GIR form sections:
+
+### Section 1: General Information
+
+| Field | Value |
+|-------|-------|
+| UPE Legal Name | GlobalTech Manufacturing Ltd |
+| UPE Jurisdiction | United Kingdom |
+| UPE Tax ID (UTR) | 1234567890 |
+| Reporting Fiscal Year | 2024 |
+| Fiscal Year Start | 1 January 2024 |
+| Fiscal Year End | 31 December 2024 |
+| Accounting Standard | IFRS |
+| Consolidated Revenue | €1,350,000,000 |
+| Designated Filing Entity | GlobalTech Manufacturing Ltd |
+| DFE Jurisdiction | United Kingdom |
+| First GIR Filing? | Yes |
+| Currency | EUR |
+
+### Section 2: Corporate Structure (Sample Entities)
+
+| Entity Name | Jurisdiction | Entity Type | Ownership % | Tax ID |
+|-------------|--------------|-------------|-------------|--------|
+| GlobalTech Manufacturing Ltd | UK | UPE | 100% | GB1234567890 |
+| GT IP Holdings Ltd | Ireland | CE | 100% | IE1234567A |
+| GT Services Ireland Ltd | Ireland | CE | 100% | IE2345678B |
+| GT Technology Ireland Ltd | Ireland | CE | 100% | IE3456789C |
+| GT Sales Ireland Ltd | Ireland | CE | 100% | IE4567890D |
+| GT Trading AG | Switzerland | CE | 100% | CHE-123.456.789 |
+| GT Finance AG | Switzerland | CE | 100% | CHE-234.567.890 |
+
+### Section 3: GloBE Computation (Ireland)
+
+| Field | Value |
+|-------|-------|
+| Jurisdiction | Ireland |
+| Number of CEs | 4 |
+| Financial Accounting Net Income | €28,000,000 |
+| GloBE Adjustments (net) | €4,800,000 |
+| GloBE Income | €32,800,000 |
+| Adjusted Covered Taxes | €3,800,000 |
+| ETR | 11.59% |
+| Eligible Payroll | €19,000,000 |
+| Tangible Assets NBV | €17,000,000 |
+| Payroll SBIE | €1,862,000 |
+| Asset SBIE | €1,326,000 |
+| Total SBIE | €3,188,000 |
+| Excess Profit | €29,612,000 |
+| Top-up Tax Percentage | 3.41% |
+| Top-up Tax Amount | €1,009,769 |
+| QDMTT Applied | €0 |
+| IIR Top-up Tax | €1,009,769 |
+
+---
+
+## Audit File Checklist Data
+
+**Input Data for GIR Audit File Checklist (GIR-009):**
+
+| Data Point | Value |
+|------------|-------|
+| Entity/Group Name | GlobalTech Manufacturing Ltd |
+| Fiscal Year | 2024 |
+| Number of Jurisdictions | 20 |
+| Filing Entity | GlobalTech Manufacturing Ltd |
+| GIR Filing Status | Draft - First Filing |
+| Audit Date | [Current Date] |
+
+**Sections to Include:**
+- ☑ Section 1: General Information
+- ☑ Section 2: Corporate Structure
+- ☑ Section 3: GloBE Computation
+- ☑ Elections Documentation
+- ☑ Safe Harbour Documentation
+- ☑ System & Process Controls
+
+**Key Documentation Items to Track:**
+
+| Category | Sample Items |
+|----------|--------------|
+| Section 1 | UPE incorporation certificate, Group org chart, DFE appointment letter |
+| Section 2 | Entity listing with TINs, Ownership schedules, Entity classification memos |
+| Section 3 | GloBE Income workpapers, Covered Tax calculations, SBIE schedules |
+| Elections | Policy choice memorandum (none for first year) |
+| Safe Harbour | CbCR report, Safe Harbour analysis by jurisdiction |
+| Controls | Data collection process, Review sign-off procedures |
