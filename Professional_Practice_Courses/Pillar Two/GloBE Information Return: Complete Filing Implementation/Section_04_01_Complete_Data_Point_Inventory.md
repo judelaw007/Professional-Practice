@@ -24,7 +24,7 @@ By the end of this section, you will be able to:
 
 The GloBE Information Return is a **complex, data-intensive filing** requiring approximately **480 data points** at the base level. The actual number of data points scales significantly based on:
 
-- Number of constituent entities
+- Number of Constituent Entities
 - Number of jurisdictions
 - Complexity of corporate structure
 - Number of elections made
@@ -557,9 +557,7 @@ Use this tool alongside **Case Study 3** (Data Gap Challenges) to identify which
 
 ## Next Steps
 
-Continue to the detailed section guidance:
-- **Section 4.2:** Data Source Mapping and System Requirements
-- **Section 4.3:** Data Collection Templates
+You now have a comprehensive understanding of all ~480 data points required for the GIR. The following subsections will cover practical strategies for extracting this data from your systems, ensuring data quality, and handling common data gaps.
 
 ---
 

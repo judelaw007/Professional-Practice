@@ -710,6 +710,6 @@ The GIR Completion Calculator automates these calculations while maintaining val
 
 **Previous:** [Section 5.4.2: Substance-Based Income Exclusion](Section_05_04_02_Substance_Based_Income_Exclusion.md)
 
-**Next:** [Section 5.4.4: Top-Up Tax Allocation](Section_05_04_04_Top_Up_Tax_Allocation.md)
+You have completed the Top-Up Tax computation. Continue with the Top-Up Tax allocation in the subsequent subsection.
 
 **Return to:** [Table of Contents](00_Table_of_Contents.md)

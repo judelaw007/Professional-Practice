@@ -877,4 +877,4 @@ Many large MNEs operate with multiple ERP systems across different entities or r
 
 ---
 
-*This section provides ERP-specific guidance for extracting the ~480 data points required for GIR preparation. The next section (4.3 Data Collection Templates) provides the standardized templates for capturing this data regardless of source system.*
+*This section provides ERP-specific guidance for extracting the ~480 data points required for GIR preparation. The following subsection provides standardized templates for capturing this data regardless of source system.*

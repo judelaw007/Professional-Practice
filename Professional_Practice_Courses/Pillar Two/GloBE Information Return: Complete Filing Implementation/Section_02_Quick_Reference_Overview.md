@@ -47,7 +47,7 @@ Section 1 establishes **who you are** and **how your group is structured**. This
 |-------------|---------|-------------------|
 | **1.1 Filing Constituent Entity** | Entity submitting the GIR | Legal name, TIN, jurisdiction, address, fiscal year |
 | **1.2 Ultimate Parent Entity** | Top-level parent identification | UPE name, TIN (or "NOTIN"), jurisdiction, GloBE status |
-| **1.3 Corporate Structure** | All constituent entities | Entity list, ownership %, GloBE status, QIIR/UTPR indicators |
+| **1.3 Corporate Structure** | All Constituent Entities | Entity list, ownership %, GloBE status, QIIR/UTPR indicators |
 | **1.4 Summary Information** | High-level group metrics | ETR range by jurisdiction, total top-up tax |
 
 **Critical Fields in Section 1:**
@@ -108,7 +108,7 @@ Section 2 documents **where simplified reporting applies**. If you qualify for s
 
 Section 3 is the **substantive calculation section**. It contains approximately 400 data points, but the actual number scales with:
 - Number of jurisdictions where you have operations
-- Number of constituent entities in each jurisdiction
+- Number of Constituent Entities in each jurisdiction
 - Complexity of your GloBE calculations
 
 **Section 3 Components:**
@@ -375,7 +375,7 @@ The following documents are essential for GIR preparation. All are available fro
 
 ### Designated Filing Entity Election Forms
 
-If designating a DFE to file centrally, you need election documentation for each jurisdiction where constituent entities are located.
+If designating a DFE to file centrally, you need election documentation for each jurisdiction where Constituent Entities are located.
 
 | Jurisdiction | Election Method | Timing |
 |-------------|-----------------|--------|
@@ -408,7 +408,7 @@ If you need to amend a previously filed GIR:
 
 ### Master Filing Deadline: June 30, 2026
 
-For most MNE groups with a December 31, 2024 fiscal year end, the first GIR filing deadline is **June 30, 2026**.
+For most MNE Groups with a December 31, 2024 fiscal year end, the first GIR filing deadline is **June 30, 2026**.
 
 This date is driven by:
 1. **18-month rule** for first year (December 31, 2024 + 18 months = June 30, 2026)
@@ -531,7 +531,7 @@ The Excel calendar included in this course provides:
 
 ## 2.4 Essential Resources Directory Preview
 
-This section provides a preview of the key resources you will need. The full Official Resource Directory (Section 13) contains 25+ jurisdictions with complete contact details.
+This section provides a preview of the key resources you will need. A comprehensive Official Resource Directory with 25+ jurisdictions and complete contact details is provided later in this course.
 
 ---
 
@@ -623,7 +623,7 @@ This section provides a preview of the key resources you will need. The full Off
 | **Australia ATO** | Phone / Online services | 5-10 business days |
 | **Singapore IRAS** | Email / myTax Portal | 5-10 business days |
 
-**Full contact details including phone numbers, email addresses, and escalation procedures are provided in Section 13: Official Resource Directory.**
+**Full contact details including phone numbers, email addresses, and escalation procedures are provided in the comprehensive Official Resource Directory later in this course.**
 
 ---
 
@@ -698,7 +698,7 @@ Before proceeding to Part 2 (Step-by-Step Implementation), complete the followin
 - [ ] Add key deadlines to your calendar (use provided Excel calendar)
 - [ ] Bookmark the OECD Pillar Two Main Portal
 
-**Continue to Section 3: Understanding the GIR Structure →**
+**You're now ready to dive deeper into the detailed GIR structure and begin the step-by-step implementation process.**
 
 ---
 

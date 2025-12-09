@@ -14,7 +14,7 @@ By the end of this section, you will be able to:
 - Complete Filing Constituent Entity identification fields accurately
 - Report Ultimate Parent Entity information including TIN requirements
 - Document the complete corporate structure with ownership percentages
-- Assign correct GloBE status categories to each constituent entity
+- Assign correct GloBE status categories to each Constituent Entity
 - Identify QIIR and UTPR applicability for each entity
 - Complete the High-Level Summary (Section 1.4) with ETR ranges
 
@@ -30,7 +30,7 @@ GIR Section 1 (MNE Group Information) is the **foundation** of your GloBE Inform
 - **Where** the group operates (jurisdiction summary)
 
 **Data Points:** Section 1 contains approximately **50+ base data points**, which expand based on:
-- Number of constituent entities in the group
+- Number of Constituent Entities in the group
 - Number of ownership changes during the fiscal year
 - Complexity of the corporate structure
 
@@ -248,7 +248,7 @@ Section 1.3 is the most extensive part of GIR Section 1. It requires identificat
 
 ### GloBE Status Categories for Constituent Entities
 
-Each constituent entity must be assigned one of the following GloBE status categories:
+Each Constituent Entity must be assigned one of the following GloBE status categories:
 
 **Standard Constituent Entity Types:**
 
@@ -348,7 +348,7 @@ GlobalCo Malaysia Sdn      GlobalCo France SAS       1.0000
 
 ### QIIR and UTPR Applicability Indicators
 
-For each constituent entity, you must indicate whether:
+For each Constituent Entity, you must indicate whether:
 
 **QIIR Applicability (Section 1.3.2.1.12-1.3.2.1.13):**
 
@@ -611,7 +611,7 @@ Before proceeding to Section 2, verify the following:
 
 ### Corporate Structure Checklist
 
-- [ ] All constituent entities listed
+- [ ] All Constituent Entities listed
 - [ ] All permanent establishments included
 - [ ] All joint ventures and JV subsidiaries listed
 - [ ] All excluded entities identified and categorized
@@ -650,15 +650,7 @@ Before proceeding to Section 2, verify the following:
 
 ## Next Steps
 
-Continue to the detailed section guidance:
-- **Section 3.3:** GIR Section 2 - Jurisdictional Safe Harbours and Exclusions
-- **Section 3.4:** GIR Section 3 - GloBE Computations
-
-**Template References for This Section:**
-- Filing CE Identification Guide (Excel)
-- UPE Data Collection Form (Excel)
-- Constituent Entity Database Template (Excel)
-- Summary Dashboard (Excel)
+You now understand how to complete GIR Section 1 (MNE Group Information). The following subsections will cover safe harbour elections and the detailed GloBE computations.
 
 ---
 

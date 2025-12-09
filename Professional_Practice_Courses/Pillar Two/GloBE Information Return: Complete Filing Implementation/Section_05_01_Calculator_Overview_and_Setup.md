@@ -517,7 +517,7 @@ The calculator includes sample data to help you understand the data entry proces
 
 ### Accessing Sample Data
 
-The **Sample_Data** worksheet contains a complete worked example for a fictional MNE group:
+The **Sample_Data** worksheet contains a complete worked example for a fictional MNE Group:
 
 | Sample MNE Group | Details |
 |------------------|---------|
@@ -605,7 +605,7 @@ The sample data produces a clean validation result:
 
 ## 5.1.6 Calculator Setup Procedures
 
-Follow these steps to configure the calculator for your MNE group's GIR preparation.
+Follow these steps to configure the calculator for your MNE Group's GIR preparation.
 
 ### Step 1: Initial Configuration
 
@@ -633,7 +633,7 @@ Follow these steps to configure the calculator for your MNE group's GIR preparat
 
 **1.4 Configure Jurisdictions**
 
-Add all jurisdictions where the MNE group has Constituent Entities:
+Add all jurisdictions where the MNE Group has Constituent Entities:
 
 | Jurisdiction Code | Jurisdiction Name | Active | QDMTT? | IIR? | UTPR? |
 |-------------------|-------------------|--------|--------|------|-------|
@@ -715,7 +715,7 @@ After completing setup:
 ✅ Jurisdiction worksheets generated
 ✅ Data entry mode selected
 
-**You are now ready to proceed to Section 5.2: Completing GIR Section 1**
+**You are now ready to begin entering your GIR data using the calculator.**
 
 ---
 
@@ -855,4 +855,4 @@ Use all 5 case studies in the Appendices to practice different scenarios.
 
 ---
 
-*This section provides the foundation for using the GIR Completion Calculator. The next section (5.2 Completing GIR Section 1: MNE Group Information) guides you through entering data for the first section of the GloBE Information Return.*
+*This section provides the foundation for using the GIR Completion Calculator. The following subsections will guide you through entering data for each section of the GloBE Information Return.*

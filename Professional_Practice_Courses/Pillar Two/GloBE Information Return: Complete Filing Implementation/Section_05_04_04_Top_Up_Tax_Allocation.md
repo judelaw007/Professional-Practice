@@ -684,6 +684,6 @@ The GIR Completion Calculator automates allocation calculations while maintainin
 
 **Previous:** [Section 5.4.3: Top-Up Tax Computation](Section_05_04_03_Top_Up_Tax_Computation.md)
 
-**Next:** [Section 5.5: Calculator Validation and Reconciliation](Section_05_05_Calculator_Validation_and_Reconciliation.md)
+You have completed the Top-Up Tax allocation. Continue with calculator validation and reconciliation in the subsequent subsection.
 
 **Return to:** [Table of Contents](00_Table_of_Contents.md)

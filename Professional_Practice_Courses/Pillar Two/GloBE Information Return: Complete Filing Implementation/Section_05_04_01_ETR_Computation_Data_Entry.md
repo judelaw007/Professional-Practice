@@ -4,7 +4,7 @@
 
 ### Introduction
 
-GIR Section 3 represents the computational heart of the GloBE Information Return. With approximately 400+ data points that scale with each jurisdiction and constituent entity, this section captures the detailed calculations underlying each jurisdiction's Effective Tax Rate (ETR) and any resulting Top-up Tax liability.
+GIR Section 3 represents the computational heart of the GloBE Information Return. With approximately 400+ data points that scale with each jurisdiction and Constituent Entity, this section captures the detailed calculations underlying each jurisdiction's Effective Tax Rate (ETR) and any resulting Top-up Tax liability.
 
 This section provides step-by-step guidance for completing the ETR computation portion of Section 3, covering GloBE Income/Loss determination, Covered Taxes allocation, and the jurisdictional ETR calculation.
 
@@ -741,6 +741,6 @@ The GIR Completion Calculator automates calculations while maintaining audit tra
 
 **Previous:** [Section 5.3: Completing GIR Section 2: Safe Harbours and Exclusions](Section_05_03_Completing_GIR_Section_2.md)
 
-**Next:** [Section 5.4.2: Substance-Based Income Exclusion](Section_05_04_02_Substance_Based_Income_Exclusion.md)
+You have completed the ETR computation. Continue with the remaining GloBE computation components in the subsequent subsections.
 
 **Return to:** [Table of Contents](00_Table_of_Contents.md)

@@ -292,7 +292,7 @@ If in ANY fiscal year:
 │  EXCEPTION: First year of presence                                          │
 │                                                                              │
 │  If the current fiscal year is the FIRST fiscal year within the transition  │
-│  period that the MNE group has a constituent entity in the jurisdiction,    │
+│  period that the MNE Group has a Constituent Entity in the jurisdiction,    │
 │  the safe harbour can still be elected.                                     │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -463,7 +463,7 @@ For each excluded jurisdiction, document:
 
 ### Section 2.1: Jurisdictional Characteristics
 
-For each jurisdiction where the MNE has constituent entities:
+For each jurisdiction where the MNE has Constituent Entities:
 
 | Field | Description | Format |
 |-------|-------------|--------|
@@ -598,7 +598,7 @@ Before proceeding to Section 3, verify the following for **each jurisdiction**:
 
 ### Safe Harbour Eligibility Check
 
-- [ ] Identified all jurisdictions where MNE has constituent entities
+- [ ] Identified all jurisdictions where MNE has Constituent Entities
 - [ ] Determined if UPE jurisdiction qualifies for Transitional UTPR Safe Harbour (≥ 20% rate)
 - [ ] Checked if jurisdiction has QDMTT with Safe Harbour status
 - [ ] Verified jurisdiction is within Transitional CbCR period (if applicable)
@@ -667,14 +667,7 @@ The elections made in Section 2 directly determine Section 3 requirements:
 
 ## Next Steps
 
-Continue to the detailed section guidance:
-- **Section 3.4:** GIR Section 3 - GloBE Computations
-
-**Template References for This Section:**
-- Safe Harbour Eligibility Tracker (Excel)
-- Safe Harbour Election Forms (Word)
-- CbCR-to-Safe Harbour Data Mapping (Excel)
-- SBIE Calculator (Excel) - for Routine Profits Test
+You now understand how to evaluate and elect safe harbours in GIR Section 2. The next subsection will cover the detailed GloBE computations required for jurisdictions that do not qualify for safe harbour treatment.
 
 ---
 

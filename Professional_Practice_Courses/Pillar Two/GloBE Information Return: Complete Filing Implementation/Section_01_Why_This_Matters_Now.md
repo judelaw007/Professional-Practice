@@ -13,7 +13,7 @@
 
 By the end of this section, you will be able to:
 
-- Identify the critical filing deadline for your MNE group's first GloBE Information Return
+- Identify the critical filing deadline for your MNE Group's first GloBE Information Return
 - Determine whether your group is in scope for GIR filing requirements
 - Understand the penalty framework and transitional relief provisions
 - Access the complete inventory of tools and templates included in this course
@@ -25,7 +25,7 @@ By the end of this section, you will be able to:
 
 ### Your First Filing Deadline: June 30, 2026
 
-If your MNE group has a fiscal year ending December 31, 2024, your first GloBE Information Return (GIR) must be filed by **June 30, 2026**.
+If your MNE Group has a fiscal year ending December 31, 2024, your first GloBE Information Return (GIR) must be filed by **June 30, 2026**.
 
 This is not optional. This is not "best practice." This is a legal compliance requirement in 65+ jurisdictions worldwide.
 
@@ -87,7 +87,7 @@ Penalties for GIR non-compliance vary by jurisdiction but are substantial:
 **Example: Australia ATO Approach**
 - The ATO has released Practical Compliance Guideline PCG 2025/4 (formerly Draft PCG 2025/D3) outlining a "soft-landing" approach
 - Transitional penalty relief available but **not automatic**
-- MNE groups must demonstrate "reasonable measures" to comply
+- MNE Groups must demonstrate "reasonable measures" to comply
 - The onus is on the taxpayer to prove good faith compliance efforts
 
 ---
@@ -177,13 +177,13 @@ This is a **Professional Practice Course**. We assume you already understand:
 
 ### Filing Entity Determination
 
-Not every entity in your MNE group files a GIR. The filing obligation works as follows:
+Not every entity in your MNE Group files a GIR. The filing obligation works as follows:
 
 **Default Rule:** Each Constituent Entity must file a GIR with its local tax authority.
 
 **Exception (Most Common):** If the group designates a **Designated Filing Entity (DFE)**, the DFE files centrally, and other entities rely on exchange of information agreements.
 
-**Practical Reality:** Most groups will designate a single DFE (usually the Ultimate Parent Entity location) to file one consolidated GIR.
+**Practical Reality:** Most groups will designate a single DFE (usually the Ultimate Parent Entity (UPE) location) to file one consolidated GIR.
 
 ---
 
@@ -373,7 +373,7 @@ Links to these resources are provided in context throughout the course and conso
 1. **Read the content** - Understand concepts through inline examples and explanations
 2. **Practice with demo tools** - Use tools.mojitax.com with case study data from the Appendices
 3. **Verify your results** - Compare to expected outcomes in the case study files
-4. **Apply to your work** - Use the concepts and skills with your actual MNE group data
+4. **Apply to your work** - Use the concepts and skills with your actual MNE Group data
 
 **Continue to Section 2** to begin with the GIR Quick Reference Overview.
 
@@ -420,7 +420,7 @@ Month 6 (Jun 2026)     │ Filing, Confirmation, and Documentation
 - Tax team members: 20 hours each
 - IT support: 10 hours (system access)
 
-**Learning Resources:** Constituent entity identification and GIR structure are covered in detail later in this course.
+**Learning Resources:** Constituent Entity identification and GIR structure are covered in detail later in this course.
 
 **Checkpoint:** By end of Month 1, you should have a complete list of Constituent Entities and confirmed project team.
 

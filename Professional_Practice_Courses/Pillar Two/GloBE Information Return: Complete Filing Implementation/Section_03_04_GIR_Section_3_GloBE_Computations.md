@@ -27,7 +27,7 @@ GIR Section 3 (GloBE Computations) is the **substantive calculation section** of
 
 **Data Points:** Section 3 contains approximately **400+ data points**, which scale significantly based on:
 - Number of jurisdictions (each requires separate computation)
-- Number of constituent entities per jurisdiction
+- Number of Constituent Entities per jurisdiction
 - Complexity of deferred tax positions
 - Number of elections made
 
@@ -701,15 +701,7 @@ Step 10: Allocate Residual Under UTPR
 
 ## Next Steps
 
-Continue to the next sections:
-- **Section 4:** Data Gathering and Extraction
-- **Section 5:** GIR Completion Calculator - Sections 1-3
-
-**Template References for This Section:**
-- ETR Calculation Worksheet (Excel)
-- SBIE Calculator (Excel)
-- Top-Up Tax Calculator (Excel)
-- Top-Up Tax Allocation Tool (Excel)
+You now have a comprehensive understanding of the GIR structure and how to complete all three sections. The following sections of this course will cover the practical implementation: data gathering strategies, calculator tools, XML generation, and jurisdiction-specific filing procedures.
 
 ---
 

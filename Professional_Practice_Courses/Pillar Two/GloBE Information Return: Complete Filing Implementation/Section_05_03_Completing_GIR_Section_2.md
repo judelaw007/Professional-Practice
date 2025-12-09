@@ -937,6 +937,6 @@ The GIR Completion Calculator automates test calculations, validates elections, 
 
 **Previous:** [Section 5.2: Completing GIR Section 1: MNE Group Information](Section_05_02_Completing_GIR_Section_1.md)
 
-**Next:** [Section 5.4: Completing GIR Section 3: GloBE Computations](Section_05_04_Completing_GIR_Section_3.md)
+You can now proceed with completing GIR Section 3 (GloBE Computations) in the subsequent subsections.
 
 **Return to:** [Table of Contents](00_Table_of_Contents.md)
