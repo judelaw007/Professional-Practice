@@ -39,6 +39,18 @@ This is a professional exam course — cite authorities strategically:
 - **Do not discuss** the authority itself — just cite and move on
 - **Key references section** at the end can summarise, but main citations should appear in context
 
+## Verification Through Web Searches
+
+**Accuracy is critical** — perform multiple web searches when drafting each note:
+
+- **Verify Article numbers** — confirm that Article references (e.g., Article 1.1.1, Article 3.2.1) match the actual OECD GloBE Model Rules
+- **Check Commentary paragraphs** — ensure Commentary paragraph numbers cited are correct
+- **Confirm thresholds and rates** — verify figures like €750M threshold, 15% minimum rate, SBIE transition percentages
+- **Validate administrative guidance** — check for latest OECD Administrative Guidance that may affect the content
+- **Cross-reference multiple sources** — don't rely on a single search; verify key facts from at least 2-3 authoritative sources
+
+**When in doubt, search again.** Incorrect citations in exam preparation material can mislead candidates.
+
 ## Quality Check
 
 Does this note enable a practitioner to DO something tomorrow? If not, revise.
