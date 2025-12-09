@@ -8,7 +8,7 @@ After completing this chapter, you will be able to determine whether an MNE grou
 
 ## The Threshold Test
 
-An MNE group falls within scope of the GloBE Rules if consolidated group revenue equals or exceeds **€750 million** in at least **two of the four fiscal years** immediately preceding the tested fiscal year.
+An MNE group falls within scope of the GloBE Rules if consolidated group revenue equals or exceeds **€750 million** in at least **two of the four fiscal years** immediately preceding the tested fiscal year *(Article 1.1.1)*.
 
 This is a binary test applied at the group level—individual entity revenues are irrelevant for this purpose.
 
@@ -35,7 +35,7 @@ Use **total revenue** from the consolidated financial statements of the Ultimate
 
 ### Which Financial Statements?
 
-Use the **audited consolidated financial statements** filed with regulators or prepared under statutory requirements. If audited statements are unavailable for a historic year, use the best available figures and document the source.
+Use the **audited consolidated financial statements** filed with regulators or prepared under statutory requirements *(Article 1.1.1; Commentary, para. 6)*. If audited statements are unavailable for a historic year, use the best available figures and document the source.
 
 For groups reporting under multiple accounting standards (e.g., IFRS for group reporting, local GAAP for statutory accounts), use the figures from the **primary consolidated financial statements** used for external reporting.
 
@@ -47,7 +47,7 @@ If the consolidated financial statements are prepared in a currency other than E
 
 ### Conversion Methodology
 
-Use the **average exchange rate for the fiscal year** being tested.
+Use the **average exchange rate for the fiscal year** being tested *(Commentary, para. 8)*.
 
 **Acceptable sources for exchange rates:**
 - European Central Bank (ECB) annual average rates
@@ -86,7 +86,7 @@ If the group has existed for fewer than four fiscal years, the test applies to t
 - **Two years of history:** Must meet threshold in at least two of two years (i.e., both years)
 - **One year of history:** Must meet threshold in that year
 
-Newly formed groups from mergers are assessed based on the combined historical revenues of the predecessor groups as if they had been consolidated throughout the look-back period.
+Newly formed groups from mergers are assessed based on the combined historical revenues of the predecessor groups as if they had been consolidated throughout the look-back period *(Article 6.1.1)*.
 
 ---
 
