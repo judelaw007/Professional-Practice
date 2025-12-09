@@ -842,4 +842,4 @@ Pillar Two compliance is not a one-time exercise:
 
 **End of Course**
 
-For questions or feedback on this course, contact the ADIT Professional Practice Course development team.
+For questions or feedback on this course, contact the MojiTax team at admin@mojitax.com.
