@@ -21,6 +21,14 @@
 - **Tools reference** — mention GIR-001 to GIR-006 where practice adds value
 - **Case study at end** — only if Part benefits from hands-on practice
 
+## Tool References in Examples
+
+Readers should be acquainted with tools **before** case studies:
+
+- **In worked examples**, reference which tool can assist with the task (e.g., "Use GIR-001 GloBE Calculator to verify this computation")
+- **Even if a chapter has no dedicated tool**, note how the data gathered feeds into tools used in later Parts
+- **Purpose:** Build familiarity so learners are ready for hands-on practice in case studies
+
 ## Citing Authorities (ADIT Exam Requirement)
 
 This is a professional exam course — cite authorities strategically:

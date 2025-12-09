@@ -221,6 +221,19 @@ Maintain a threshold assessment file containing:
 
 ---
 
+## Tools
+
+This chapter covers threshold assessment, which is a preliminary determination before GloBE calculations begin. While no dedicated tool is required for this step, note how this work connects to tools used later:
+
+| Tool | How This Chapter Connects |
+|------|---------------------------|
+| **GIR-001 GloBE Calculator** | Once scope is confirmed, you will use GIR-001 to calculate ETR, SBIE, and Top-Up Tax for each jurisdiction (Parts 3-5) |
+| **GIR-002 Safe Harbour Qualifier** | The revenue data gathered here is also used in the De Minimis Test (revenue < €10M), which you will assess in Part 7 using GIR-002 |
+
+The revenue figures and documentation prepared in this chapter form the foundation for all subsequent compliance work.
+
+---
+
 ## Summary
 
 The revenue threshold assessment requires:
