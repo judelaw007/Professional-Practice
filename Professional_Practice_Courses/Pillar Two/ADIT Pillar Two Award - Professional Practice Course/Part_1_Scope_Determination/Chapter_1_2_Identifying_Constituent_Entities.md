@@ -112,11 +112,11 @@ Associates accounted for under the equity method are generally **not** Constitue
 
 ---
 
-## Worked Example: GlobalTech's Constituent Entity Mapping
+## Worked Example: Stratos's Constituent Entity Mapping
 
 ### Background
 
-Following the scope assessment in Chapter 1.1, GlobalTech's tax team must now identify all Constituent Entities. GlobalTech's group structure includes 52 legal entities across 12 jurisdictions.
+Following the scope assessment in Chapter 1.1, Stratos's tax team must now identify all Constituent Entities. Stratos's group structure includes 52 legal entities across 12 jurisdictions.
 
 ### Data Extraction
 
@@ -124,18 +124,18 @@ The team obtains the consolidation schedule from the FY 2024 annual report:
 
 | Entity | Jurisdiction | Ownership | Consolidation Method | PE? |
 |--------|--------------|-----------|---------------------|-----|
-| GlobalTech plc | UK | — | UPE | No |
-| GT Holdings Ltd | UK | 100% | Full | No |
-| GT Germany GmbH | Germany | 100% | Full | No |
-| GT France SAS | France | 100% | Full | Yes (Belgium) |
-| GT Singapore Pte | Singapore | 100% | Full | No |
-| GT Ireland Ltd | Ireland | 100% | Full | No |
-| GT Netherlands BV | Netherlands | 100% | Full | No |
-| GT US Inc | USA | 100% | Full | No |
-| GT Australia Pty | Australia | 100% | Full | No |
+| Stratos Group plc | UK | — | UPE | No |
+| SG Holdings Ltd | UK | 100% | Full | No |
+| SG Germany GmbH | Germany | 100% | Full | No |
+| SG France SAS | France | 100% | Full | Yes (Belgium) |
+| SG Singapore Pte | Singapore | 100% | Full | No |
+| SG Ireland Ltd | Ireland | 100% | Full | No |
+| SG Netherlands BV | Netherlands | 100% | Full | No |
+| SG US Inc | USA | 100% | Full | No |
+| SG Australia Pty | Australia | 100% | Full | No |
 | TechStart Ltd | Ireland | 100% | Full (from Jul 2024) | No |
 | Asian JV Ltd | Hong Kong | 40% | Equity | No |
-| GT Pension Trustees | UK | 100% | Excluded (materiality) | No |
+| SG Pension Trustees | UK | 100% | Excluded (materiality) | No |
 | ... | ... | ... | ... | ... |
 
 *(52 entities total; extract shown for illustration)*
@@ -144,20 +144,20 @@ The team obtains the consolidation schedule from the FY 2024 annual report:
 
 | Entity | Classification | Reasoning |
 |--------|---------------|-----------|
-| GlobalTech plc | **CE** (UPE) | Ultimate Parent Entity |
-| GT Holdings Ltd | **CE** | 100% owned, fully consolidated |
-| GT Germany GmbH | **CE** | 100% owned, fully consolidated |
-| GT France SAS | **CE** | 100% owned, fully consolidated |
-| GT France SAS - Belgium PE | **CE** (separate) | PE treated as separate CE |
-| GT Singapore Pte | **CE** | 100% owned, fully consolidated |
+| Stratos Group plc | **CE** (UPE) | Ultimate Parent Entity |
+| SG Holdings Ltd | **CE** | 100% owned, fully consolidated |
+| SG Germany GmbH | **CE** | 100% owned, fully consolidated |
+| SG France SAS | **CE** | 100% owned, fully consolidated |
+| SG France SAS - Belgium PE | **CE** (separate) | PE treated as separate CE |
+| SG Singapore Pte | **CE** | 100% owned, fully consolidated |
 | Asian JV Ltd | **Not CE** | 40% equity method—not controlled |
-| GT Pension Trustees | **CE** | Excluded on materiality, but would otherwise consolidate |
+| SG Pension Trustees | **CE** | Excluded on materiality, but would otherwise consolidate |
 
 ### Result
 
-GlobalTech identifies **47 Constituent Entities**:
+Stratos identifies **47 Constituent Entities**:
 - 45 fully consolidated subsidiaries
-- 1 PE (Belgium PE of GT France SAS)
+- 1 PE (Belgium PE of SG France SAS)
 - 1 entity excluded on materiality grounds
 
 5 entities are **not** Constituent Entities (equity method associates).
@@ -182,7 +182,7 @@ When an entity is acquired during the fiscal year:
 - It becomes a Constituent Entity from the **acquisition date**
 - GloBE calculations for that entity cover the post-acquisition period only *(Article 6.2.1)*
 
-**GlobalTech example:** TechStart Ltd was acquired on 1 July 2024. It is a Constituent Entity for FY 2024, but GloBE Income and Covered Taxes are calculated for the period 1 July to 31 December 2024 only.
+**Stratos example:** TechStart Ltd was acquired on 1 July 2024. It is a Constituent Entity for FY 2024, but GloBE Income and Covered Taxes are calculated for the period 1 July to 31 December 2024 only.
 
 ### Entities Leaving Mid-Year
 
