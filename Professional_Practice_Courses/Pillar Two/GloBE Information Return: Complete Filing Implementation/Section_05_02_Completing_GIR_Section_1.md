@@ -763,4 +763,4 @@ Before proceeding to Section 2, verify Section 1 is complete:
 
 ---
 
-*This section provides comprehensive guidance for completing GIR Section 1: MNE Group Information. The next section (5.3 Completing GIR Section 2: Safe Harbours and Exclusions) covers the election and documentation of safe harbour provisions.*
+*This section provides comprehensive guidance for completing GIR Section 1: MNE Group Information. The following subsections will cover safe harbour elections and detailed GloBE computations.*

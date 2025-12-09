@@ -705,6 +705,6 @@ The GIR Completion Calculator automates validation checks while maintaining comp
 
 **Previous:** [Section 5.4.4: Top-Up Tax Allocation](Section_05_04_04_Top_Up_Tax_Allocation.md)
 
-**Next:** [Section 6: XML Generation and Validation](Section_06_XML_Generation_and_Validation.md)
+You have now completed all GIR calculations and validations. The following sections will cover XML generation and jurisdiction-specific filing procedures.
 
 **Return to:** [Table of Contents](00_Table_of_Contents.md)

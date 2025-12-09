@@ -696,6 +696,6 @@ The GIR Completion Calculator automates rate lookups and calculations while main
 
 **Previous:** [Section 5.4.1: ETR Computation Data Entry](Section_05_04_01_ETR_Computation_Data_Entry.md)
 
-**Next:** [Section 5.4.3: Top-Up Tax Computation](Section_05_04_03_Top_Up_Tax_Computation.md)
+You have completed the SBIE calculation. Continue with the remaining GloBE computation components in the subsequent subsections.
 
 **Return to:** [Table of Contents](00_Table_of_Contents.md)
