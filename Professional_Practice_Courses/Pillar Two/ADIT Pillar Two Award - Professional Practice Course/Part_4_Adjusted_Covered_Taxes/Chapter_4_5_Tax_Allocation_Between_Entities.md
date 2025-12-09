@@ -606,6 +606,25 @@ Proper allocation prevents ETR distortions and ensures Top-up Tax calculations r
 
 ---
 
+## Integration with GIR Tools
+
+The tax allocation calculations from this chapter feed into the ETR computation workflow:
+
+| Tool | Application |
+|------|-------------|
+| **GIR-001 GloBE Calculator** | After completing tax allocations, enter the final Adjusted Covered Taxes into GIR-001 alongside GloBE Income. The tool calculates jurisdictional ETRs that reflect the allocation adjustments. |
+
+**Workflow:**
+
+1. Calculate pre-allocation Covered Taxes per entity (Chapters 4.1-4.4)
+2. Apply tax allocation adjustments from this chapter
+3. Derive post-allocation Adjusted Covered Taxes per jurisdiction
+4. Enter into **GIR-001 GloBE Calculator** for ETR → SBIE → Top-up Tax calculation
+
+Use **GIR-001 GloBE Calculator** at tools.mojitax.com to verify that your allocation calculations produce the expected jurisdictional ETRs.
+
+---
+
 ## Next Step
 
 You have learned how to allocate Covered Taxes between Constituent Entities. Proceed to **Chapter 4.6: Post-Filing Adjustments** to understand how adjustments to prior-year Covered Taxes are handled under GloBE's asymmetric treatment rules.

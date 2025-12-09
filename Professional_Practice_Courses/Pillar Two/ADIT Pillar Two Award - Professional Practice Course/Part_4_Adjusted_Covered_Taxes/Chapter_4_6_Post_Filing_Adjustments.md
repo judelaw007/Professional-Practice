@@ -534,6 +534,26 @@ The asymmetric treatment ensures MNEs cannot retrospectively reduce Top-up Tax t
 
 ---
 
+## Integration with GIR Tools
+
+Post-filing adjustments affect both current and prior-year GloBE calculations:
+
+| Tool | Application |
+|------|-------------|
+| **GIR-001 GloBE Calculator** | For **increases**: Add adjustment to current year Covered Taxes and recalculate ETR. For **decreases**: Recalculate prior year ETR using original GloBE Income and adjusted Covered Taxes. |
+
+**Workflow for Decreases (Recalculation Required):**
+
+1. Retrieve prior-year GloBE Income from original calculation
+2. Recalculate Adjusted Covered Taxes with the decrease applied
+3. Re-run **GIR-001 GloBE Calculator** with revised inputs
+4. Compare new ETR to original ETR
+5. Calculate Additional Current Top-up Tax if new ETR < 15%
+
+**Note:** The €1M immaterial election (Article 4.6.4) allows current-year treatment instead of recalculation for jurisdictions meeting the threshold.
+
+---
+
 ## Next Step
 
 You have completed Part 4: Adjusted Covered Taxes. You now understand how to calculate Covered Taxes from classification through current tax adjustments, deferred tax adjustments, tax allocation, and post-filing corrections. Proceed to **Case Study 4: Stratos's Covered Tax Computation** to apply these concepts in a comprehensive worked example.
