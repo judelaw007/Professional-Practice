@@ -815,4 +815,4 @@ Tax authorities may request supporting documentation for GIR submissions. Ensure
 
 ---
 
-*This section establishes the data quality assurance framework essential for accurate GIR preparation. The next section (4.4 Handling Data Gaps) addresses procedures for managing situations where required data is unavailable or incomplete.*
+*This section establishes the data quality assurance framework essential for accurate GIR preparation. The following subsection addresses procedures for managing situations where required data is unavailable or incomplete.*

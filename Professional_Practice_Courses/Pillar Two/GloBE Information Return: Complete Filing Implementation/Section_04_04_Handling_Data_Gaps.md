@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Data gaps are an inevitable reality of GloBE Information Return preparation, particularly in the initial years of Pillar Two compliance. With approximately 480 data points required across multiple entities and jurisdictions—many of which may reside in systems outside traditional tax processes—even well-prepared MNE groups will encounter situations where required data is unavailable, incomplete, or unreliable.
+Data gaps are an inevitable reality of GloBE Information Return preparation, particularly in the initial years of Pillar Two compliance. With approximately 480 data points required across multiple entities and jurisdictions—many of which may reside in systems outside traditional tax processes—even well-prepared MNE Groups will encounter situations where required data is unavailable, incomplete, or unreliable.
 
 According to Wolters Kluwer's BEPS Pillar Two Readiness Survey (Q4/2023), **77.42% of respondents** anticipated difficulties in obtaining the necessary data and information required for Pillar Two compliance. The primary challenge identified was understanding the data requirements (37.63%), followed by sourcing data that resides outside tax department control.
 
@@ -195,7 +195,7 @@ For each identified gap, document:
 
 ## 4.4.2 Estimation Techniques
 
-When data gaps cannot be filled with actual data, MNE groups must use estimation techniques to derive reasonable values. The OECD GloBE Rules do not provide explicit guidance on estimation methods, but the principle of "reasonable measures" and the intent of the transitional penalty relief provisions support good-faith estimates that are documented and defensible.
+When data gaps cannot be filled with actual data, MNE Groups must use estimation techniques to derive reasonable values. The OECD GloBE Rules do not provide explicit guidance on estimation methods, but the principle of "reasonable measures" and the intent of the transitional penalty relief provisions support good-faith estimates that are documented and defensible.
 
 ### Estimation Principles
 
@@ -317,7 +317,7 @@ The OECD provides a **Transitional Simplified Jurisdictional Reporting Framework
 1. No Top-up Tax liability arises in the jurisdiction, OR
 2. Top-up Tax liability arises but does not need to be allocated on a CE-by-CE basis
 
-**Documentation Requirement**: MNE groups must document the process by which accounting information is allocated to each jurisdiction.
+**Documentation Requirement**: MNE Groups must document the process by which accounting information is allocated to each jurisdiction.
 
 ### Safe Harbour Estimation Approaches
 
@@ -547,7 +547,7 @@ Track remediation progress with metrics:
 
 ## 4.4.5 Transitional Penalty Relief
 
-The OECD's transitional penalty relief provisions provide important protection during the initial years of GloBE compliance, but MNE groups must demonstrate "reasonable measures" to benefit from this relief.
+The OECD's transitional penalty relief provisions provide important protection during the initial years of GloBE compliance, but MNE Groups must demonstrate "reasonable measures" to benefit from this relief.
 
 ### Transitional Period Coverage
 
@@ -599,10 +599,10 @@ The transitional relief does not apply to:
 
 The Australian Taxation Office (ATO) has provided guidance on transitional compliance in Practical Compliance Guideline PCG 2025/4 (formerly Draft PCG 2025/D3):
 
-> "Remission of penalties and/or suspension of lodgment enforcement actions may be possible if applicable MNE groups act in good faith and take 'reasonable measures' to comply with the Minimum Tax law during the transition period."
+> "Remission of penalties and/or suspension of lodgment enforcement actions may be possible if applicable MNE Groups act in good faith and take 'reasonable measures' to comply with the Minimum Tax law during the transition period."
 
 **Key ATO Points**:
-- Onus is on MNE groups to demonstrate reasonable measures
+- Onus is on MNE Groups to demonstrate reasonable measures
 - ATO will not provide blanket penalty concession
 - Documentation of compliance efforts is essential
 - Penalty relief is transitional, not permanent
@@ -714,4 +714,4 @@ The Australian Taxation Office (ATO) has provided guidance on transitional compl
 
 ---
 
-*This section provides practical guidance for handling data gaps that are inevitable in GIR preparation. The next section (4.5 Data Request Process) covers procedures for formally requesting data from internal stakeholders and external parties.*
+*This section provides practical guidance for handling data gaps that are inevitable in GIR preparation. With comprehensive data gathering strategies now established, the following sections will cover the practical implementation of GIR completion tools and calculators.*
