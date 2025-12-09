@@ -49,7 +49,7 @@ If the entity at the top holds less than a controlling interest in all subsidiar
 
 Most common scenario. A publicly listed company sits at the top, prepares consolidated financial statements, and is the UPE.
 
-**Example:** GlobalTech Industries plc (listed on LSE) is the UPE of the GlobalTech group.
+**Example:** Stratos Group plc (listed on LSE) is the UPE of the Stratos group.
 
 ### Private Holding Company as UPE
 
@@ -83,28 +83,28 @@ From your Constituent Entity register (Chapter 1.2), identify entities that:
 
 ---
 
-## Worked Example: GlobalTech's UPE and IPE Analysis
+## Worked Example: Stratos's UPE and IPE Analysis
 
 ### Group Structure
 
 ```
-GlobalTech Industries plc (UK) ← UPE
+Stratos Group plc (UK) ← UPE
     │
-    ├── GT Holdings Ltd (UK) 100% ← IPE
+    ├── SG Holdings Ltd (UK) 100% ← IPE
     │       │
-    │       ├── GT Germany GmbH (Germany) 100%
-    │       ├── GT France SAS (France) 100%
+    │       ├── SG Germany GmbH (Germany) 100%
+    │       ├── SG France SAS (France) 100%
     │       │       └── [Belgium PE]
-    │       └── GT Netherlands BV (Netherlands) 100%
+    │       └── SG Netherlands BV (Netherlands) 100%
     │               │
-    │               ├── GT Ireland Ltd (Ireland) 100%
-    │               └── GT Singapore Pte (Singapore) 100%
+    │               ├── SG Ireland Ltd (Ireland) 100%
+    │               └── SG Singapore Pte (Singapore) 100%
     │
-    ├── GT US Holdings Inc (USA) 100% ← IPE
+    ├── SG US Holdings Inc (USA) 100% ← IPE
     │       │
-    │       └── GT US Operating Inc (USA) 100%
+    │       └── SG US Operating Inc (USA) 100%
     │
-    └── GT Australia Pty (Australia) 100%
+    └── SG Australia Pty (Australia) 100%
 ```
 
 ### Analysis
@@ -113,29 +113,29 @@ GlobalTech Industries plc (UK) ← UPE
 
 | Question | Answer |
 |----------|--------|
-| Which entity prepares consolidated financial statements? | GlobalTech Industries plc |
+| Which entity prepares consolidated financial statements? | Stratos Group plc |
 | Is it consolidated by another entity? | No—listed company with no parent |
-| Does it hold controlling interest in other entities? | Yes—100% of GT Holdings Ltd, GT US Holdings Inc, GT Australia Pty |
+| Does it hold controlling interest in other entities? | Yes—100% of SG Holdings Ltd, SG US Holdings Inc, SG Australia Pty |
 
-**Conclusion:** GlobalTech Industries plc is the **UPE**.
+**Conclusion:** Stratos Group plc is the **UPE**.
 
 **IPE Identification:**
 
 | Entity | Owned by CE? | Owns >50% of another CE? | IPE? |
 |--------|--------------|--------------------------|------|
-| GT Holdings Ltd | Yes (UPE) | Yes (GT Germany, GT France, GT Netherlands) | **Yes** |
-| GT Netherlands BV | Yes (GT Holdings) | Yes (GT Ireland, GT Singapore) | **Yes** |
-| GT US Holdings Inc | Yes (UPE) | Yes (GT US Operating) | **Yes** |
-| GT Germany GmbH | Yes (GT Holdings) | No | No |
-| GT France SAS | Yes (GT Holdings) | No (PE is not a separate legal entity) | No |
+| SG Holdings Ltd | Yes (UPE) | Yes (SG Germany, SG France, SG Netherlands) | **Yes** |
+| SG Netherlands BV | Yes (SG Holdings) | Yes (SG Ireland, SG Singapore) | **Yes** |
+| SG US Holdings Inc | Yes (UPE) | Yes (SG US Operating) | **Yes** |
+| SG Germany GmbH | Yes (SG Holdings) | No | No |
+| SG France SAS | Yes (SG Holdings) | No (PE is not a separate legal entity) | No |
 
 **Result:** 3 Intermediate Parent Entities identified.
 
 ### Documentation
 
 The tax team records in the CE register:
-- UPE: GlobalTech Industries plc
-- IPEs: GT Holdings Ltd, GT Netherlands BV, GT US Holdings Inc
+- UPE: Stratos Group plc
+- IPEs: SG Holdings Ltd, SG Netherlands BV, SG US Holdings Inc
 - Direct ownership chain for each CE
 
 ---
@@ -180,7 +180,7 @@ The UPE's jurisdiction determines:
 | **Filing obligations** | GIR filing typically occurs in the UPE jurisdiction |
 | **UTPR exposure** | If UPE jurisdiction has no IIR, UTPR in other jurisdictions may apply |
 
-**GlobalTech example:** The UK has implemented a Qualified IIR effective from 2024. GlobalTech Industries plc (UK UPE) will apply the IIR and be responsible for UK Multinational Top-Up Tax on low-taxed jurisdictions.
+**Stratos example:** The UK has implemented a Qualified IIR effective from 2024. Stratos Group plc (UK UPE) will apply the IIR and be responsible for UK Multinational Top-Up Tax on low-taxed jurisdictions.
 
 ---
 

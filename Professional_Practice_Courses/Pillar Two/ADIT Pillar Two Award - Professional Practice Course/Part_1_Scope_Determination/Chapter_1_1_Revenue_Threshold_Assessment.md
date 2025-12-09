@@ -90,11 +90,11 @@ Newly formed groups from mergers are assessed based on the combined historical r
 
 ---
 
-## Worked Example: GlobalTech Industries
+## Worked Example: Stratos Group
 
 ### Background
 
-GlobalTech Industries plc is a UK-headquartered technology company with a 31 December year-end. The group CFO needs to determine whether GlobalTech is in scope for Pillar Two for FY 2025.
+Stratos Group plc is a UK-headquartered technology company with a 31 December year-end. The group CFO needs to determine whether Stratos is in scope for Pillar Two for FY 2025.
 
 ### Data Gathering
 
@@ -109,7 +109,7 @@ The finance team extracts revenue figures from the past four years of audited co
 
 ### Currency Conversion
 
-GlobalTech reports in GBP. The team obtains ECB annual average EUR/GBP rates:
+Stratos reports in GBP. The team obtains ECB annual average EUR/GBP rates:
 
 | Fiscal Year | ECB Average Rate (EUR/GBP) |
 |-------------|---------------------------|
@@ -129,7 +129,7 @@ GlobalTech reports in GBP. The team obtains ECB annual average EUR/GBP rates:
 
 ### Conclusion
 
-Three of four years exceed the €750 million threshold. GlobalTech is **in scope for Pillar Two for FY 2025**.
+Three of four years exceed the €750 million threshold. Stratos is **in scope for Pillar Two for FY 2025**.
 
 ### Documentation
 
@@ -172,7 +172,7 @@ When an entity is acquired mid-year:
 - Do not annualise or gross up partial-year revenue
 - The acquiring group's look-back includes the target's post-acquisition revenue
 
-**Example:** GlobalTech acquires TechStart on 1 July 2024. For the FY 2024 threshold assessment, include TechStart's revenue from 1 July to 31 December 2024 only (six months).
+**Example:** Stratos acquires TechStart on 1 July 2024. For the FY 2024 threshold assessment, include TechStart's revenue from 1 July to 31 December 2024 only (six months).
 
 ### Disposals During Look-Back Period
 
