@@ -1,8 +1,8 @@
 # Chapter 4.5: Tax Allocation Between Entities
 
-## Purpose
+## Learning Objective
 
-This chapter provides the methodology for allocating Covered Taxes between Constituent Entities when the tax is recorded in one entity's accounts but relates to income of another entity. Proper allocation ensures taxes are matched with the income that generated them—critical for accurate jurisdictional ETR calculations.
+After completing this chapter, you will be able to allocate Covered Taxes between Constituent Entities using the Article 4.3 framework, including PE tax allocation, CFC tax push-down with passive income limitation, hybrid entity allocations, and distribution tax reallocation.
 
 ---
 
@@ -571,6 +571,7 @@ Allocation:
 
 ## Key References
 
+**OECD GloBE Model Rules:**
 - Article 4.3.1 — Tax allocation introduction
 - Article 4.3.2(a)-(b) — PE tax allocation
 - Article 4.3.2(c) — CFC tax push-down
@@ -578,13 +579,18 @@ Allocation:
 - Article 4.3.2(e) — Distribution tax allocation
 - Article 4.3.3 — Passive income limitation
 - Article 4.3.4 — PE loss recapture tax allocation
-- June 2024 Administrative Guidance — Four-step cross-crediting formula; five-step deferred tax formula
-- February 2023 Administrative Guidance — GILTI temporary allocation rule
-- AG 2.6 — Deemed distributions clarification
+
+**Administrative Guidance:**
+- June 2024: Four-step cross-crediting formula; five-step deferred tax formula
+- February 2023: GILTI temporary allocation rule
+- AG 2.6: Deemed distributions clarification
+
+**OECD Commentary:**
+- Chapter 4, paragraphs 25-45 — Tax allocation principles and mechanics
 
 ---
 
-## Chapter Summary
+## Summary
 
 Tax allocation ensures Covered Taxes are matched with the income that generated them. The key implementation steps are:
 
@@ -597,3 +603,9 @@ Tax allocation ensures Covered Taxes are matched with the income that generated 
 7. **Document thoroughly** — Maintain workpapers for each allocation type
 
 Proper allocation prevents ETR distortions and ensures Top-up Tax calculations reflect economic reality.
+
+---
+
+## Next Step
+
+You have learned how to allocate Covered Taxes between Constituent Entities. Proceed to **Chapter 4.6: Post-Filing Adjustments** to understand how adjustments to prior-year Covered Taxes are handled under GloBE's asymmetric treatment rules.

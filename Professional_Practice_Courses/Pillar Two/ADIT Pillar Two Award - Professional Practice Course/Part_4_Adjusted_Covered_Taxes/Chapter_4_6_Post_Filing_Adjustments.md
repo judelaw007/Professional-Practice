@@ -1,8 +1,8 @@
 # Chapter 4.6: Post-Filing Adjustments
 
-## Purpose
+## Learning Objective
 
-This chapter provides the methodology for handling adjustments to Covered Taxes and GloBE Income after the GloBE Information Return (GIR) has been filed. Tax positions change—audits conclude, amended returns are filed, rate changes take effect. Article 4.6 establishes asymmetric rules: increases are treated differently from decreases to protect the integrity of the minimum tax.
+After completing this chapter, you will be able to apply Article 4.6's asymmetric treatment rules for post-filing adjustments, distinguishing between increases (added to current year) and decreases (requiring prior-year recalculation) in Covered Taxes, and understand the immaterial exception, rate change rules, and recapture mechanisms.
 
 ---
 
@@ -500,6 +500,7 @@ Article 4.6.1 applies:
 
 ## Key References
 
+**OECD GloBE Model Rules:**
 - Article 4.6.1 — Increases treated as current year adjustment
 - Article 4.6.2 — Rate decrease: prior year DT recalculation
 - Article 4.6.3 — Rate increase: adjustment when tax paid
@@ -507,11 +508,17 @@ Article 4.6.1 applies:
 - Article 4.4.4 — 5-year recapture for unreversed DTLs
 - Article 5.2.3 — Additional Current Top-up Tax
 - Article 5.4.1 — ETR recalculation mechanics
-- Commentary Chapter 4, paragraphs 52-68 — Post-filing adjustment guidance
+
+**Administrative Guidance:**
+- December 2023: Clarification on €1M immaterial threshold application
+- July 2023: Interaction with transfer pricing adjustments
+
+**OECD Commentary:**
+- Chapter 4, paragraphs 52-68 — Post-filing adjustment guidance
 
 ---
 
-## Chapter Summary
+## Summary
 
 Post-filing adjustments require careful application of asymmetric rules that treat increases differently from decreases. The key implementation steps are:
 
@@ -524,3 +531,9 @@ Post-filing adjustments require careful application of asymmetric rules that tre
 7. **Document thoroughly** — Maintain workpapers showing recalculation methodology
 
 The asymmetric treatment ensures MNEs cannot retrospectively reduce Top-up Tax through later adjustments while maintaining administrative simplicity for increases.
+
+---
+
+## Next Step
+
+You have completed Part 4: Adjusted Covered Taxes. You now understand how to calculate Covered Taxes from classification through current tax adjustments, deferred tax adjustments, tax allocation, and post-filing corrections. Proceed to **Case Study 4: Stratos's Covered Tax Computation** to apply these concepts in a comprehensive worked example.

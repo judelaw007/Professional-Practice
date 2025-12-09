@@ -1,6 +1,6 @@
 # Case Study 4: Stratos's Covered Tax Computation
 
-## Scenario Context
+## Introduction
 
 Following the GloBE Income calculations in Case Study 3, Stratos Group's tax team must now compute Adjusted Covered Taxes for each jurisdiction to determine jurisdictional ETRs. This case study focuses on the complete Covered Tax workpaper for three key jurisdictions: Germany, Singapore, and Ireland.
 
@@ -714,3 +714,9 @@ Each tax item requires explicit classification with reference to Article 4.2.1. 
 - Article 4.4.1(d) — Rate change exclusion
 - Article 3.2.4 — QRTC treatment as income
 - Article 10.1 — QRTC definition
+
+---
+
+## Next Step
+
+You have completed Part 4: Adjusted Covered Taxes. With GloBE Income (Part 3) and Adjusted Covered Taxes (Part 4) calculated, you now have both components needed for the ETR calculation. Proceed to **Part 5: Top-Up Tax Calculation** to learn how to compute SBIE, the Top-Up Tax Percentage, and allocate Top-Up Tax under the IIR and UTPR charging mechanisms.
