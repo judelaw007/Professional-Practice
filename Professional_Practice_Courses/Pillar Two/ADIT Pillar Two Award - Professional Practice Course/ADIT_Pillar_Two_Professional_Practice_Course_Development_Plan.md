@@ -40,11 +40,11 @@ This Professional Practice Course transforms the ADIT Pillar Two Award syllabus 
 
 The course is organised into **8 Parts**, aligned with the ADIT syllabus sections but restructured around practitioner workflows. Case studies appear **at the end of each Part** where hands-on practice adds genuine value—they are not included merely for the sake of having them.
 
-### Progressive Storyline: GlobalTech Industries
+### Progressive Storyline: Stratos Group
 
-Throughout this course, learners follow **GlobalTech Industries**, a fictional multinational enterprise, through its first Pillar Two compliance cycle. The scenario evolves across Parts, building complexity as learners develop skills.
+Throughout this course, learners follow **Stratos Group**, a fictional multinational enterprise, through its first Pillar Two compliance cycle. The scenario evolves across Parts, building complexity as learners develop skills.
 
-**GlobalTech Profile:**
+**Stratos Profile:**
 - UK-headquartered technology company
 - €950 million consolidated revenue (approaching threshold)
 - Operations in 12 jurisdictions
@@ -107,13 +107,13 @@ Scope determination is a one-time analytical exercise that doesn't benefit from 
 - **Entity Classification Checklist:** Printable checklist for CE/Excluded Entity assessment
 - **Revenue Threshold Worksheet:** Inline example showing the calculation methodology
 
-The Case Study demonstrates the complete process using GlobalTech's actual data.
+The Case Study demonstrates the complete process using Stratos's actual data.
 
-### Case Study 1: GlobalTech's Scope Assessment
+### Case Study 1: Stratos's Scope Assessment
 *Placed at end of Part 1*
 
 **Scenario Context:**
-GlobalTech Industries is preparing for its first Pillar Two assessment. The group CFO has asked the tax team to determine whether the group is in scope and identify all Constituent Entities.
+Stratos Group is preparing for its first Pillar Two assessment. The group CFO has asked the tax team to determine whether the group is in scope and identify all Constituent Entities.
 
 **Data Provided:**
 - Consolidated financial statements (3 years)
@@ -195,11 +195,11 @@ Allocation calculations (ownership % × top-up tax) are straightforward arithmet
 - **UTPR Allocation Formula:** With employee/asset weighting examples
 - **Ordering Rules Decision Matrix:** Visual guide for determining which rule applies
 
-### Case Study 2: GlobalTech's First Top-Up Tax Allocation
+### Case Study 2: Stratos's First Top-Up Tax Allocation
 *Placed at end of Part 2*
 
 **Scenario Context:**
-GlobalTech has completed its ETR calculations (previewed from Part 5) and identified two low-taxed jurisdictions: Singapore (ETR 12.3%) and Ireland (ETR 14.1%). The tax team must now determine how to allocate the resulting top-up tax.
+Stratos has completed its ETR calculations (previewed from Part 5) and identified two low-taxed jurisdictions: Singapore (ETR 12.3%) and Ireland (ETR 14.1%). The tax team must now determine how to allocate the resulting top-up tax.
 
 **Data Provided:**
 - Ownership structure showing UK parent → various intermediate holding companies → operating entities
@@ -288,11 +288,11 @@ GloBE Income adjustments are primarily classification decisions (include/exclude
 
 **Integration with GIR-001:** Learners derive GloBE Income through the content, then enter it into GIR-001 GloBE Calculator to practice the ETR → SBIE → Top-Up Tax workflow.
 
-### Case Study 3: GlobalTech's GloBE Income Calculation
+### Case Study 3: Stratos's GloBE Income Calculation
 *Placed at end of Part 3*
 
 **Scenario Context:**
-GlobalTech's finance team has provided entity-level financial data for the German operating subsidiary. The tax team must calculate GloBE Income for this entity.
+Stratos's finance team has provided entity-level financial data for the German operating subsidiary. The tax team must calculate GloBE Income for this entity.
 
 **Data Provided:**
 - Financial accounting net income: €45.2 million
@@ -393,11 +393,11 @@ After completing Part 4, practitioners will be able to:
 
 **Integration:** Learners derive Adjusted Covered Taxes through the content, then enter into GIR-001 alongside GloBE Income for calculation practice.
 
-### Case Study 4: GlobalTech's Covered Tax Computation
+### Case Study 4: Stratos's Covered Tax Computation
 *Placed at end of Part 4*
 
 **Scenario Context:**
-Continuing with GlobalTech's German subsidiary, the tax team must now calculate Adjusted Covered Taxes to determine the jurisdiction's ETR.
+Continuing with Stratos's German subsidiary, the tax team must now calculate Adjusted Covered Taxes to determine the jurisdiction's ETR.
 
 **Data Provided:**
 - Current tax expense per accounts: €11.2 million
@@ -495,11 +495,11 @@ This single tool provides complete coverage for all Part 5 calculations.
 
 **De minimis check:** Simple threshold comparison (revenue < €10M AND income < €1M) shown inline—no tool needed.
 
-### Case Study 5: GlobalTech's Complete ETR and Top-Up Tax Calculation
+### Case Study 5: Stratos's Complete ETR and Top-Up Tax Calculation
 *Placed at end of Part 5*
 
 **Scenario Context:**
-GlobalTech must now bring together the GloBE Income (Part 3) and Covered Taxes (Part 4) calculations to determine ETR and any top-up tax liability for all jurisdictions.
+Stratos must now bring together the GloBE Income (Part 3) and Covered Taxes (Part 4) calculations to determine ETR and any top-up tax liability for all jurisdictions.
 
 **Data Provided:**
 - GloBE Income and Covered Taxes for all 12 jurisdictions
@@ -594,13 +594,13 @@ After completing Part 6, practitioners will be able to:
 - **JV Calculation Methodology:** How to apply GIR-001 to JV structures
 - **Election Checklist:** Comprehensive list of available elections with decision criteria
 
-The Case Study demonstrates M&A implications through GlobalTech's acquisition of TechStart.
+The Case Study demonstrates M&A implications through Stratos's acquisition of TechStart.
 
-### Case Study 6: GlobalTech's Acquisition of TechStart
+### Case Study 6: Stratos's Acquisition of TechStart
 *Placed at end of Part 6*
 
 **Scenario Context:**
-GlobalTech acquired TechStart Ltd (an Irish technology company) on July 1, 2025. The tax team must determine the Pillar Two implications of this acquisition.
+Stratos acquired TechStart Ltd (an Irish technology company) on July 1, 2025. The tax team must determine the Pillar Two implications of this acquisition.
 
 **Data Provided:**
 - TechStart group structure (parent + 3 subsidiaries)
@@ -611,14 +611,14 @@ GlobalTech acquired TechStart Ltd (an Irish technology company) on July 1, 2025.
 **Tasks:**
 1. Determine when TechStart entities become Constituent Entities
 2. Calculate partial-year GloBE Income for TechStart entities
-3. Assess impact on GlobalTech's revenue threshold
+3. Assess impact on Stratos's revenue threshold
 4. Evaluate basis step-up election opportunity
 5. Update group structure mapping
 
 **Expected Outcomes:**
 - TechStart entities become CEs from July 1, 2025
 - Partial year calculations required for 6 months
-- Revenue threshold impact: +€45M to GlobalTech group
+- Revenue threshold impact: +€45M to Stratos group
 - Basis step-up election beneficial for Ireland IP assets
 - Election documentation prepared
 
@@ -697,11 +697,11 @@ After completing Part 7, practitioners will be able to:
 
 These five tools provide comprehensive coverage for Part 7 compliance and filing practice.
 
-### Case Study 7: GlobalTech's First GIR Filing
+### Case Study 7: Stratos's First GIR Filing
 *Placed at end of Part 7*
 
 **Scenario Context:**
-GlobalTech must prepare and file its first GloBE Information Return for FY 2025. The tax team needs to gather data, assess safe harbour eligibility, and complete the filing.
+Stratos must prepare and file its first GloBE Information Return for FY 2025. The tax team needs to gather data, assess safe harbour eligibility, and complete the filing.
 
 **Data Provided:**
 - Complete Pillar Two calculations from Parts 3-5
@@ -793,8 +793,8 @@ This Part is policy and framework-focused with limited calculation content. STTR
 Instead, Part 8 concludes with a **practical exercise**:
 
 **Practical Exercise 8: Staying Current**
-- Task: Using the official OECD resources, identify any administrative guidance issued in the past 6 months relevant to GlobalTech's Pillar Two compliance
-- Deliverable: Summary memo of guidance updates and their impact on GlobalTech's calculations or elections
+- Task: Using the official OECD resources, identify any administrative guidance issued in the past 6 months relevant to Stratos's Pillar Two compliance
+- Deliverable: Summary memo of guidance updates and their impact on Stratos's calculations or elections
 
 This exercise reinforces the practitioner's ability to monitor and incorporate evolving guidance without forcing a case study where one doesn't naturally fit.
 
@@ -840,7 +840,7 @@ The GloBE Information Return course has 6 tools already built on tools.mojitax.c
 **Decision:** **NO TOOLS NEEDED**
 - Use inline flowcharts and decision trees in content
 - Provide a comprehensive checklist learners can use with their own data
-- The worked example (GlobalTech) demonstrates the process sufficiently
+- The worked example (Stratos) demonstrates the process sufficiently
 
 ---
 
@@ -1056,7 +1056,7 @@ For Parts where no tools are specified, the content must include robust alternat
 1. Draft chapters following implementation-first approach
 2. Create worked examples with actual numbers
 3. Develop process flowcharts and decision trees
-4. Build case studies with GlobalTech data
+4. Build case studies with Stratos data
 5. Embed official resource links
 
 ### Phase 2: Content Development (Parts 5-8)
@@ -1095,7 +1095,7 @@ For Parts where no tools are specified, the content must include robust alternat
 - [ ] Process steps clearly numbered
 
 ### Case Studies
-- [ ] Progressive storyline with GlobalTech
+- [ ] Progressive storyline with Stratos
 - [ ] Case studies placed at end of Parts (not appendices)
 - [ ] Sample data and expected outcomes provided
 - [ ] Learning points identified
@@ -1121,7 +1121,7 @@ This development plan transforms the ADIT Pillar Two Award syllabus into a true 
 1. **Reorganising content** around practitioner workflows rather than regulatory structure
 2. **Focusing on implementation** with step-by-step processes and calculations
 3. **Integrating tools** for hands-on practice throughout the course
-4. **Using progressive case studies** that build skills across the GlobalTech storyline
+4. **Using progressive case studies** that build skills across the Stratos storyline
 5. **Embedding official resources** directly where practitioners need them
 6. **Placing case studies strategically** at the end of each Part where practice adds genuine value
 

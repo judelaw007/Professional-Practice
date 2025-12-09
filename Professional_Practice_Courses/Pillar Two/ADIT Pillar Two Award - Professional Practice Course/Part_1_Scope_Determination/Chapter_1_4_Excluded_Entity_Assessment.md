@@ -183,29 +183,29 @@ Prepare a memo for each excluded entity covering:
 
 ---
 
-## Worked Example: GlobalTech's Excluded Entity Assessment
+## Worked Example: Stratos's Excluded Entity Assessment
 
 ### Potential Exclusions Identified
 
-From GlobalTech's 47 Constituent Entities, the tax team identifies three potential exclusions:
+From Stratos's 47 Constituent Entities, the tax team identifies three potential exclusions:
 
 | Entity | Category | Initial Assessment |
 |--------|----------|-------------------|
-| GT Pension Trustees Ltd (UK) | Pension Fund | UK registered occupational pension scheme |
-| GlobalTech Foundation (UK) | NPO | Charitable foundation making grants |
+| SG Pension Trustees Ltd (UK) | Pension Fund | UK registered occupational pension scheme |
+| Stratos Foundation (UK) | NPO | Charitable foundation making grants |
 | Singapore Gov JV Pte Ltd | Government Entity | 51% owned by Singapore government agency |
 
-### Analysis: GT Pension Trustees Ltd
+### Analysis: SG Pension Trustees Ltd
 
 | Criterion | Assessment | Evidence |
 |-----------|------------|----------|
-| Provides retirement benefits | **Yes** | Defined benefit scheme for GlobalTech employees |
+| Provides retirement benefits | **Yes** | Defined benefit scheme for Stratos employees |
 | Regulated | **Yes** | Registered with The Pensions Regulator (UK) |
 | Tax status | **Yes** | Income exempt under UK registered pension scheme rules |
 
-**Conclusion:** GT Pension Trustees Ltd is an **Excluded Entity** (Pension Fund).
+**Conclusion:** SG Pension Trustees Ltd is an **Excluded Entity** (Pension Fund).
 
-### Analysis: GlobalTech Foundation
+### Analysis: Stratos Foundation
 
 | NPO Criterion | Assessment | Evidence |
 |---------------|------------|----------|
@@ -215,26 +215,26 @@ From GlobalTech's 47 Constituent Entities, the tax team identifies three potenti
 | No distribution to private persons | **Yes** | Constitution prohibits private benefit |
 | Assets to charity on winding up | **Yes** | Constitution requires distribution to similar charities |
 
-**Conclusion:** GlobalTech Foundation is an **Excluded Entity** (NPO).
+**Conclusion:** Stratos Foundation is an **Excluded Entity** (NPO).
 
 ### Analysis: Singapore Gov JV Pte Ltd
 
 | Criterion | Assessment | Evidence |
 |-----------|------------|----------|
-| Government ownership | **Partial** | 51% by government agency; 49% by GlobalTech |
+| Government ownership | **Partial** | 51% by government agency; 49% by Stratos |
 | Trading activities | **Yes** | Operates technology park, generates commercial revenue |
 
 **Conclusion:** Singapore Gov JV Pte Ltd is **NOT an Excluded Entity**.
 
 The entity is engaged in commercial trading activities despite government majority ownership. It fails the "government functions only" test *(Commentary, para. 39)*.
 
-This entity remains a Constituent Entity and will be included in GloBE calculations. However, as a joint arrangement with only 51% government ownership (and 49% owned by GlobalTech), the treatment depends on whether it meets the JV definition under Article 6.4—see Part 6.
+This entity remains a Constituent Entity and will be included in GloBE calculations. However, as a joint arrangement with only 51% government ownership (and 49% owned by Stratos), the treatment depends on whether it meets the JV definition under Article 6.4—see Part 6.
 
 ### Result
 
-GlobalTech has **2 Excluded Entities**:
-- GT Pension Trustees Ltd (Pension Fund)
-- GlobalTech Foundation (NPO)
+Stratos has **2 Excluded Entities**:
+- SG Pension Trustees Ltd (Pension Fund)
+- Stratos Foundation (NPO)
 
 **45 Constituent Entities remain in scope** for GloBE calculations.
 
@@ -343,4 +343,4 @@ You have now completed **Part 1: Scope Determination**. You should have:
 - Determined the UPE and mapped IPEs (Chapter 1.3)
 - Assessed and documented Excluded Entities (Chapter 1.4)
 
-Proceed to **Part 1 Case Study: GlobalTech's Scope Assessment** to practice applying these concepts to a comprehensive scenario, then continue to **Part 2: The Charging Mechanism—IIR and UTPR**.
+Proceed to **Part 1 Case Study: Stratos's Scope Assessment** to practice applying these concepts to a comprehensive scenario, then continue to **Part 2: The Charging Mechanism—IIR and UTPR**.

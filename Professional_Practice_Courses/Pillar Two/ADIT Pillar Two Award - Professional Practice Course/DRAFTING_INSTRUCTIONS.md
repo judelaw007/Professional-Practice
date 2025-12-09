@@ -17,7 +17,7 @@
 - **Start with HOW**, not WHAT — assume reader knows Pillar Two basics
 - **Show, don't describe** — include worked examples, flowcharts, checklists inline
 - **One note at a time** — complete and review before moving to next
-- **GlobalTech storyline** — use consistent scenario data across Parts
+- **Stratos storyline** — use consistent scenario data across Parts
 - **Tools reference** — mention GIR-001 to GIR-006 where practice adds value
 - **Case study at end** — only if Part benefits from hands-on practice
 

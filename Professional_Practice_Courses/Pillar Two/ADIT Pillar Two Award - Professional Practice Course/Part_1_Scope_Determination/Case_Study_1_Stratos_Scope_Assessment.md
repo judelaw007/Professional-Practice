@@ -1,22 +1,22 @@
-# Case Study 1: GlobalTech's Scope Assessment
+# Case Study 1: Stratos's Scope Assessment
 
 ## Introduction
 
-This case study brings together the concepts from Chapters 1.1 to 1.4. You will complete a full scope determination for GlobalTech Industries plc, the same company used in the chapter worked examples. This exercise simulates the actual scope assessment process you would perform for a client or employer.
+This case study brings together the concepts from Chapters 1.1 to 1.4. You will complete a full scope determination for Stratos Group plc, the same company used in the chapter worked examples. This exercise simulates the actual scope assessment process you would perform for a client or employer.
 
 **Time estimate:** 45-60 minutes
 
 ---
 
-## Background: GlobalTech Industries plc
+## Background: Stratos Group plc
 
-GlobalTech Industries plc is a UK-headquartered technology company specialising in enterprise software and cloud services. The group has grown through a combination of organic expansion and strategic acquisitions.
+Stratos Group plc is a UK-headquartered technology company specialising in enterprise software and cloud services. The group has grown through a combination of organic expansion and strategic acquisitions.
 
 ### Key Facts
 
 | Item | Detail |
 |------|--------|
-| UPE | GlobalTech Industries plc |
+| UPE | Stratos Group plc |
 | Jurisdiction | UK (London Stock Exchange listed) |
 | Fiscal year-end | 31 December |
 | Accounting standard | IFRS |
@@ -29,7 +29,7 @@ GlobalTech Industries plc is a UK-headquartered technology company specialising 
 
 ### Data Provided
 
-Extract from GlobalTech's audited consolidated financial statements:
+Extract from Stratos's audited consolidated financial statements:
 
 **Revenue (per consolidated income statement)**
 
@@ -53,7 +53,7 @@ Extract from GlobalTech's audited consolidated financial statements:
 
 1. Convert each year's revenue from GBP to EUR
 2. Determine how many of the four preceding fiscal years exceed €750 million
-3. Conclude whether GlobalTech is in scope for FY 2025
+3. Conclude whether Stratos is in scope for FY 2025
 4. Document your assessment
 
 ### Expected Deliverable
@@ -67,7 +67,7 @@ Complete the revenue threshold assessment table:
 | FY 2023 | £744.6M | | €_____M | Yes / No |
 | FY 2024 | £819.5M | | €_____M | Yes / No |
 
-**Conclusion:** _____ of 4 years exceed the threshold. GlobalTech [is / is not] in scope for FY 2025.
+**Conclusion:** _____ of 4 years exceed the threshold. Stratos [is / is not] in scope for FY 2025.
 
 ---
 
@@ -75,48 +75,48 @@ Complete the revenue threshold assessment table:
 
 ### Data Provided
 
-**GlobalTech Group Structure (as at 31 December 2024)**
+**Stratos Group Structure (as at 31 December 2024)**
 
 ```
-GlobalTech Industries plc (UK) — UPE
+Stratos Group plc (UK) — UPE
     │
-    ├── GT Holdings Ltd (UK) 100%
+    ├── SG Holdings Ltd (UK) 100%
     │       │
-    │       ├── GT Germany GmbH (Germany) 100%
-    │       │       └── GT Germany Sales GmbH (Germany) 100%
+    │       ├── SG Germany GmbH (Germany) 100%
+    │       │       └── SG Germany Sales GmbH (Germany) 100%
     │       │
-    │       ├── GT France SAS (France) 100%
+    │       ├── SG France SAS (France) 100%
     │       │       └── [Belgium PE] ← Branch, not separate legal entity
     │       │
-    │       └── GT Netherlands BV (Netherlands) 100%
+    │       └── SG Netherlands BV (Netherlands) 100%
     │               │
-    │               ├── GT Ireland Ltd (Ireland) 100%
-    │               │       └── GT Ireland IP Ltd (Ireland) 100%
+    │               ├── SG Ireland Ltd (Ireland) 100%
+    │               │       └── SG Ireland IP Ltd (Ireland) 100%
     │               │
-    │               └── GT Singapore Pte Ltd (Singapore) 100%
+    │               └── SG Singapore Pte Ltd (Singapore) 100%
     │                       │
-    │                       ├── GT Singapore Tech Pte Ltd (Singapore) 100%
-    │                       └── GT Hong Kong Ltd (Hong Kong) 100%
+    │                       ├── SG Singapore Tech Pte Ltd (Singapore) 100%
+    │                       └── SG Hong Kong Ltd (Hong Kong) 100%
     │
-    ├── GT US Holdings Inc (Delaware, USA) 100%
+    ├── SG US Holdings Inc (Delaware, USA) 100%
     │       │
-    │       ├── GT US Operating Inc (Delaware, USA) 100%
+    │       ├── SG US Operating Inc (Delaware, USA) 100%
     │       │       └── [California branch] ← Branch
     │       │
-    │       └── GT US Services Inc (Delaware, USA) 100%
+    │       └── SG US Services Inc (Delaware, USA) 100%
     │
-    ├── GT Australia Pty Ltd (Australia) 100%
+    ├── SG Australia Pty Ltd (Australia) 100%
     │
-    ├── GT Japan KK (Japan) 100%
+    ├── SG Japan KK (Japan) 100%
     │
     ├── TechStart Ltd (Ireland) 100% ← Acquired 1 July 2024
     │       │
     │       ├── TechStart US Inc (Delaware, USA) 100%
     │       └── TechStart UK Ltd (UK) 100%
     │
-    ├── GT Pension Trustees Ltd (UK) 100% ← Excluded on materiality
+    ├── SG Pension Trustees Ltd (UK) 100% ← Excluded on materiality
     │
-    ├── GlobalTech Foundation (UK) 100% ← Charity
+    ├── Stratos Foundation (UK) 100% ← Charity
     │
     ├── Asian Technology JV Ltd (Hong Kong) 40% ← Equity method
     │
@@ -127,26 +127,26 @@ GlobalTech Industries plc (UK) — UPE
 
 | Entity | Ownership | Consolidation Method | Notes |
 |--------|-----------|---------------------|-------|
-| GT Holdings Ltd | 100% | Full | — |
-| GT Germany GmbH | 100% | Full | — |
-| GT Germany Sales GmbH | 100% | Full | — |
-| GT France SAS | 100% | Full | Has Belgium PE |
-| GT Netherlands BV | 100% | Full | — |
-| GT Ireland Ltd | 100% | Full | — |
-| GT Ireland IP Ltd | 100% | Full | IP holding company |
-| GT Singapore Pte Ltd | 100% | Full | Regional HQ |
-| GT Singapore Tech Pte Ltd | 100% | Full | R&D centre |
-| GT Hong Kong Ltd | 100% | Full | — |
-| GT US Holdings Inc | 100% | Full | — |
-| GT US Operating Inc | 100% | Full | Has California branch |
-| GT US Services Inc | 100% | Full | — |
-| GT Australia Pty Ltd | 100% | Full | — |
-| GT Japan KK | 100% | Full | — |
+| SG Holdings Ltd | 100% | Full | — |
+| SG Germany GmbH | 100% | Full | — |
+| SG Germany Sales GmbH | 100% | Full | — |
+| SG France SAS | 100% | Full | Has Belgium PE |
+| SG Netherlands BV | 100% | Full | — |
+| SG Ireland Ltd | 100% | Full | — |
+| SG Ireland IP Ltd | 100% | Full | IP holding company |
+| SG Singapore Pte Ltd | 100% | Full | Regional HQ |
+| SG Singapore Tech Pte Ltd | 100% | Full | R&D centre |
+| SG Hong Kong Ltd | 100% | Full | — |
+| SG US Holdings Inc | 100% | Full | — |
+| SG US Operating Inc | 100% | Full | Has California branch |
+| SG US Services Inc | 100% | Full | — |
+| SG Australia Pty Ltd | 100% | Full | — |
+| SG Japan KK | 100% | Full | — |
 | TechStart Ltd | 100% | Full (from 1 Jul 2024) | Acquisition |
 | TechStart US Inc | 100% | Full (from 1 Jul 2024) | — |
 | TechStart UK Ltd | 100% | Full (from 1 Jul 2024) | — |
-| GT Pension Trustees Ltd | 100% | Excluded | Below materiality threshold |
-| GlobalTech Foundation | 100% | Excluded | Charitable entity |
+| SG Pension Trustees Ltd | 100% | Excluded | Below materiality threshold |
+| Stratos Foundation | 100% | Excluded | Charitable entity |
 | Asian Technology JV Ltd | 40% | Equity method | Not controlled |
 | Singapore Gov JV Pte Ltd | 49% | Equity method | JV with government |
 
@@ -163,11 +163,11 @@ Complete the Constituent Entity classification:
 
 | Entity | CE? | Reasoning |
 |--------|-----|-----------|
-| GlobalTech Industries plc | Yes / No | |
-| GT Holdings Ltd | Yes / No | |
-| GT Germany GmbH | Yes / No | |
-| GT France SAS | Yes / No | |
-| [Belgium PE of GT France] | Yes / No | |
+| Stratos Group plc | Yes / No | |
+| SG Holdings Ltd | Yes / No | |
+| SG Germany GmbH | Yes / No | |
+| SG France SAS | Yes / No | |
+| [Belgium PE of SG France] | Yes / No | |
 | ... (complete for all entities) | | |
 
 **Total Constituent Entities:** _____
@@ -202,11 +202,11 @@ Using the group structure from Task 2:
 
 | Entity | Owned by CE? | Owns >50% of another CE? | IPE? |
 |--------|--------------|--------------------------|------|
-| GT Holdings Ltd | Yes / No | Yes / No | Yes / No |
-| GT Netherlands BV | Yes / No | Yes / No | Yes / No |
-| GT Singapore Pte Ltd | Yes / No | Yes / No | Yes / No |
-| GT US Holdings Inc | Yes / No | Yes / No | Yes / No |
-| GT Ireland Ltd | Yes / No | Yes / No | Yes / No |
+| SG Holdings Ltd | Yes / No | Yes / No | Yes / No |
+| SG Netherlands BV | Yes / No | Yes / No | Yes / No |
+| SG Singapore Pte Ltd | Yes / No | Yes / No | Yes / No |
+| SG US Holdings Inc | Yes / No | Yes / No | Yes / No |
+| SG Ireland Ltd | Yes / No | Yes / No | Yes / No |
 | TechStart Ltd | Yes / No | Yes / No | Yes / No |
 
 **Total IPEs:** _____
@@ -217,14 +217,14 @@ Using the group structure from Task 2:
 
 ### Data Provided
 
-**GT Pension Trustees Ltd**
+**SG Pension Trustees Ltd**
 - UK-registered occupational pension scheme
-- Provides defined benefit retirement benefits to GlobalTech employees
+- Provides defined benefit retirement benefits to Stratos employees
 - Regulated by The Pensions Regulator (UK)
 - Income exempt under Finance Act 2004 (registered pension scheme)
 - Excluded from consolidation on materiality grounds
 
-**GlobalTech Foundation**
+**Stratos Foundation**
 - UK-registered charity (Charity Commission No. 123456)
 - Objects: advancement of education in technology for underserved communities
 - Income exempt from UK corporation tax
@@ -235,7 +235,7 @@ Using the group structure from Task 2:
 
 **Singapore Gov JV Pte Ltd**
 - 51% owned by Singapore Economic Development Board (government agency)
-- 49% owned by GT Singapore Pte Ltd
+- 49% owned by SG Singapore Pte Ltd
 - Operates technology business park
 - Generates commercial revenue from leases and services
 - Subject to Singapore corporate income tax
@@ -251,7 +251,7 @@ For each of the three entities:
 
 ### Expected Deliverable
 
-**GT Pension Trustees Ltd Assessment:**
+**SG Pension Trustees Ltd Assessment:**
 
 | Criterion | Assessment | Evidence |
 |-----------|------------|----------|
@@ -261,7 +261,7 @@ For each of the three entities:
 
 **Conclusion:** Excluded Entity? Yes / No
 
-**GlobalTech Foundation Assessment:**
+**Stratos Foundation Assessment:**
 
 | NPO Criterion | Assessment | Evidence |
 |---------------|------------|----------|
@@ -288,7 +288,7 @@ For each of the three entities:
 
 ### Your Task
 
-Consolidate your analysis into a scope determination memo for GlobalTech's tax director.
+Consolidate your analysis into a scope determination memo for Stratos's tax director.
 
 ### Expected Deliverable
 
@@ -296,12 +296,12 @@ Complete the summary template:
 
 ---
 
-**GLOBALTECH INDUSTRIES PLC**
+**STRATOS GROUP PLC**
 **Pillar Two Scope Determination — FY 2025**
 
 **1. Revenue Threshold**
 
-GlobalTech [meets / does not meet] the €750 million revenue threshold for FY 2025.
+Stratos [meets / does not meet] the €750 million revenue threshold for FY 2025.
 
 - Years exceeding threshold: _____ of 4
 - Threshold years: FY _____, FY _____, FY _____
@@ -342,7 +342,7 @@ IPEs identified: _____
 
 **6. Conclusion**
 
-GlobalTech Industries plc [is / is not] within scope of the GloBE Rules for FY 2025.
+Stratos Group plc [is / is not] within scope of the GloBE Rules for FY 2025.
 
 The group has _____ Constituent Entities across _____ jurisdictions subject to GloBE calculations.
 
@@ -363,35 +363,35 @@ The group has _____ Constituent Entities across _____ jurisdictions subject to G
 | FY 2023 | £744.6M | 1.1499 | €856.2M | **Yes** |
 | FY 2024 | £819.5M | 1.1453 | €938.6M | **Yes** |
 
-**Conclusion:** 3 of 4 years exceed the threshold. GlobalTech **is in scope** for FY 2025.
+**Conclusion:** 3 of 4 years exceed the threshold. Stratos **is in scope** for FY 2025.
 
 ### Task 2: Constituent Entity Identification
 
 | Entity | CE? | Reasoning |
 |--------|-----|-----------|
-| GlobalTech Industries plc | **Yes** | UPE |
-| GT Holdings Ltd | **Yes** | 100% owned, fully consolidated |
-| GT Germany GmbH | **Yes** | 100% owned, fully consolidated |
-| GT Germany Sales GmbH | **Yes** | 100% owned, fully consolidated |
-| GT France SAS | **Yes** | 100% owned, fully consolidated |
-| Belgium PE (of GT France) | **Yes** | PE treated as separate CE |
-| GT Netherlands BV | **Yes** | 100% owned, fully consolidated |
-| GT Ireland Ltd | **Yes** | 100% owned, fully consolidated |
-| GT Ireland IP Ltd | **Yes** | 100% owned, fully consolidated |
-| GT Singapore Pte Ltd | **Yes** | 100% owned, fully consolidated |
-| GT Singapore Tech Pte Ltd | **Yes** | 100% owned, fully consolidated |
-| GT Hong Kong Ltd | **Yes** | 100% owned, fully consolidated |
-| GT US Holdings Inc | **Yes** | 100% owned, fully consolidated |
-| GT US Operating Inc | **Yes** | 100% owned, fully consolidated |
-| California branch (of GT US Operating) | **No** | US branch, not separate CE for US domestic operations |
-| GT US Services Inc | **Yes** | 100% owned, fully consolidated |
-| GT Australia Pty Ltd | **Yes** | 100% owned, fully consolidated |
-| GT Japan KK | **Yes** | 100% owned, fully consolidated |
+| Stratos Group plc | **Yes** | UPE |
+| SG Holdings Ltd | **Yes** | 100% owned, fully consolidated |
+| SG Germany GmbH | **Yes** | 100% owned, fully consolidated |
+| SG Germany Sales GmbH | **Yes** | 100% owned, fully consolidated |
+| SG France SAS | **Yes** | 100% owned, fully consolidated |
+| Belgium PE (of SG France) | **Yes** | PE treated as separate CE |
+| SG Netherlands BV | **Yes** | 100% owned, fully consolidated |
+| SG Ireland Ltd | **Yes** | 100% owned, fully consolidated |
+| SG Ireland IP Ltd | **Yes** | 100% owned, fully consolidated |
+| SG Singapore Pte Ltd | **Yes** | 100% owned, fully consolidated |
+| SG Singapore Tech Pte Ltd | **Yes** | 100% owned, fully consolidated |
+| SG Hong Kong Ltd | **Yes** | 100% owned, fully consolidated |
+| SG US Holdings Inc | **Yes** | 100% owned, fully consolidated |
+| SG US Operating Inc | **Yes** | 100% owned, fully consolidated |
+| California branch (of SG US Operating) | **No** | US branch, not separate CE for US domestic operations |
+| SG US Services Inc | **Yes** | 100% owned, fully consolidated |
+| SG Australia Pty Ltd | **Yes** | 100% owned, fully consolidated |
+| SG Japan KK | **Yes** | 100% owned, fully consolidated |
 | TechStart Ltd | **Yes** | 100% owned, fully consolidated (from 1 Jul 2024) |
 | TechStart US Inc | **Yes** | 100% owned, fully consolidated (from 1 Jul 2024) |
 | TechStart UK Ltd | **Yes** | 100% owned, fully consolidated (from 1 Jul 2024) |
-| GT Pension Trustees Ltd | **Yes** | Excluded on materiality—still a CE |
-| GlobalTech Foundation | **Yes** | Excluded from consolidation—assess for Excluded Entity status |
+| SG Pension Trustees Ltd | **Yes** | Excluded on materiality—still a CE |
+| Stratos Foundation | **Yes** | Excluded from consolidation—assess for Excluded Entity status |
 | Asian Technology JV Ltd | **No** | 40% equity method—not controlled |
 | Singapore Gov JV Pte Ltd | **No** | 49% equity method—not controlled |
 
@@ -405,38 +405,38 @@ The group has _____ Constituent Entities across _____ jurisdictions subject to G
 
 | Question | Answer |
 |----------|--------|
-| Which entity prepares consolidated financial statements? | GlobalTech Industries plc |
+| Which entity prepares consolidated financial statements? | Stratos Group plc |
 | Is it consolidated by another entity? | No—listed company, no parent |
-| Does it hold controlling interest in at least one CE? | Yes—100% of GT Holdings Ltd, GT US Holdings Inc, GT Australia Pty Ltd, GT Japan KK, TechStart Ltd |
+| Does it hold controlling interest in at least one CE? | Yes—100% of SG Holdings Ltd, SG US Holdings Inc, SG Australia Pty Ltd, SG Japan KK, TechStart Ltd |
 
-**UPE:** GlobalTech Industries plc (UK)
+**UPE:** Stratos Group plc (UK)
 
 **IPE Identification:**
 
 | Entity | Owned by CE? | Owns >50% of another CE? | IPE? |
 |--------|--------------|--------------------------|------|
-| GT Holdings Ltd | Yes (UPE) | Yes (Germany, France, Netherlands) | **Yes** |
-| GT Netherlands BV | Yes (GT Holdings) | Yes (Ireland, Singapore) | **Yes** |
-| GT Singapore Pte Ltd | Yes (Netherlands) | Yes (Singapore Tech, Hong Kong) | **Yes** |
-| GT US Holdings Inc | Yes (UPE) | Yes (US Operating, US Services) | **Yes** |
-| GT Ireland Ltd | Yes (Netherlands) | Yes (Ireland IP) | **Yes** |
+| SG Holdings Ltd | Yes (UPE) | Yes (Germany, France, Netherlands) | **Yes** |
+| SG Netherlands BV | Yes (SG Holdings) | Yes (Ireland, Singapore) | **Yes** |
+| SG Singapore Pte Ltd | Yes (Netherlands) | Yes (Singapore Tech, Hong Kong) | **Yes** |
+| SG US Holdings Inc | Yes (UPE) | Yes (US Operating, US Services) | **Yes** |
+| SG Ireland Ltd | Yes (Netherlands) | Yes (Ireland IP) | **Yes** |
 | TechStart Ltd | Yes (UPE) | Yes (TechStart US, UK) | **Yes** |
 
 **Total IPEs:** 6
 
 ### Task 4: Excluded Entity Assessment
 
-**GT Pension Trustees Ltd:**
+**SG Pension Trustees Ltd:**
 
 | Criterion | Assessment | Evidence |
 |-----------|------------|----------|
-| Provides retirement benefits | **Yes** | Defined benefit scheme for GlobalTech employees |
+| Provides retirement benefits | **Yes** | Defined benefit scheme for Stratos employees |
 | Regulated | **Yes** | Registered with The Pensions Regulator (UK) |
 | Tax status | **Yes** | Exempt under Finance Act 2004 |
 
 **Conclusion:** **Excluded Entity** (Pension Fund)
 
-**GlobalTech Foundation:**
+**Stratos Foundation:**
 
 | NPO Criterion | Assessment | Evidence |
 |---------------|------------|----------|
@@ -461,12 +461,12 @@ The group has _____ Constituent Entities across _____ jurisdictions subject to G
 
 ---
 
-**GLOBALTECH INDUSTRIES PLC**
+**STRATOS GROUP PLC**
 **Pillar Two Scope Determination — FY 2025**
 
 **1. Revenue Threshold**
 
-GlobalTech **meets** the €750 million revenue threshold for FY 2025.
+Stratos **meets** the €750 million revenue threshold for FY 2025.
 
 - Years exceeding threshold: **3** of 4
 - Threshold years: FY 2022, FY 2023, FY 2024
@@ -478,7 +478,7 @@ Total Constituent Entities in scope: **20**
 Comprising:
 - Fully consolidated subsidiaries: **18**
 - PEs as separate CEs: **1** (Belgium PE)
-- Entities excluded on materiality (but initially counted as CEs): **1** (GT Pension Trustees Ltd)
+- Entities excluded on materiality (but initially counted as CEs): **1** (SG Pension Trustees Ltd)
 
 **3. Excluded Entities**
 
@@ -486,31 +486,31 @@ Total Excluded Entities: **2**
 
 | Entity | Exclusion Category |
 |--------|-------------------|
-| GT Pension Trustees Ltd | Pension Fund |
-| GlobalTech Foundation | Non-Profit Organisation |
+| SG Pension Trustees Ltd | Pension Fund |
+| Stratos Foundation | Non-Profit Organisation |
 
 **4. UPE and IPEs**
 
-UPE: **GlobalTech Industries plc** (Jurisdiction: **UK**)
+UPE: **Stratos Group plc** (Jurisdiction: **UK**)
 
 IPEs identified: **6**
 
 | IPE | Jurisdiction |
 |-----|--------------|
-| GT Holdings Ltd | UK |
-| GT Netherlands BV | Netherlands |
-| GT Singapore Pte Ltd | Singapore |
-| GT US Holdings Inc | USA |
-| GT Ireland Ltd | Ireland |
+| SG Holdings Ltd | UK |
+| SG Netherlands BV | Netherlands |
+| SG Singapore Pte Ltd | Singapore |
+| SG US Holdings Inc | USA |
+| SG Ireland Ltd | Ireland |
 | TechStart Ltd | Ireland |
 
 **5. Key Observations**
 
 1. **Mid-year acquisition:** TechStart Ltd and its subsidiaries were acquired on 1 July 2024. GloBE calculations for these entities will cover only the post-acquisition period (1 July – 31 December 2024) for FY 2024.
 
-2. **Belgium PE:** GT France SAS has a PE in Belgium that must be treated as a separate CE. Belgium PE income and taxes must be calculated separately from the French main entity.
+2. **Belgium PE:** SG France SAS has a PE in Belgium that must be treated as a separate CE. Belgium PE income and taxes must be calculated separately from the French main entity.
 
-3. **IIR application:** The UK has implemented a Qualified IIR. GlobalTech Industries plc (UK UPE) will apply the IIR and bear Top-Up Tax liability for low-taxed jurisdictions.
+3. **IIR application:** The UK has implemented a Qualified IIR. Stratos Group plc (UK UPE) will apply the IIR and bear Top-Up Tax liability for low-taxed jurisdictions.
 
 4. **Jurisdictional spread:** The group operates in 10 jurisdictions: UK, Germany, France, Belgium, Netherlands, Ireland, Singapore, Hong Kong, USA, Australia, Japan. Each requires separate ETR calculation.
 
@@ -518,7 +518,7 @@ IPEs identified: **6**
 
 **6. Conclusion**
 
-GlobalTech Industries plc **is within scope** of the GloBE Rules for FY 2025.
+Stratos Group plc **is within scope** of the GloBE Rules for FY 2025.
 
 The group has **20 Constituent Entities** across **10 jurisdictions** subject to GloBE calculations.
 
@@ -532,7 +532,7 @@ The group has **20 Constituent Entities** across **10 jurisdictions** subject to
 
 3. **PEs are separate CEs** — Belgium PE income must be carved out from France and calculated separately for Belgian jurisdictional ETR.
 
-4. **Excluded entities are still identified through the CE process** — GT Pension Trustees was initially a CE (excluded from consolidation on materiality, not on substance), then separately assessed for Excluded Entity status.
+4. **Excluded entities are still identified through the CE process** — SG Pension Trustees was initially a CE (excluded from consolidation on materiality, not on substance), then separately assessed for Excluded Entity status.
 
 5. **Not all equity method investments need Excluded Entity analysis** — Asian Technology JV Ltd and Singapore Gov JV Pte Ltd are not CEs (under 50% ownership), so they are outside GloBE scope without needing exclusion analysis.
 

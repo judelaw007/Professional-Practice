@@ -43,9 +43,9 @@ ADIT Pillar Two Award - Professional Practice Course/
 
 ---
 
-## Progressive Storyline: GlobalTech Industries
+## Progressive Storyline: Stratos Group
 
-Throughout this course, learners follow **GlobalTech Industries** through its first Pillar Two compliance cycle:
+Throughout this course, learners follow **Stratos Group** through its first Pillar Two compliance cycle:
 
 - UK-headquartered technology company
 - €950 million consolidated revenue
@@ -70,15 +70,15 @@ Throughout this course, learners follow **GlobalTech Industries** through its fi
 
 ## Case Studies
 
-Each Part (except Part 8) concludes with a case study using GlobalTech data:
+Each Part (except Part 8) concludes with a case study using Stratos data:
 
-1. **Part 1:** GlobalTech's Scope Assessment
-2. **Part 2:** GlobalTech's First Top-Up Tax Allocation
-3. **Part 3:** GlobalTech's GloBE Income Calculation
-4. **Part 4:** GlobalTech's Covered Tax Computation
-5. **Part 5:** GlobalTech's Complete ETR and Top-Up Tax Calculation
-6. **Part 6:** GlobalTech's Acquisition of TechStart
-7. **Part 7:** GlobalTech's First GIR Filing
+1. **Part 1:** Stratos's Scope Assessment
+2. **Part 2:** Stratos's First Top-Up Tax Allocation
+3. **Part 3:** Stratos's GloBE Income Calculation
+4. **Part 4:** Stratos's Covered Tax Computation
+5. **Part 5:** Stratos's Complete ETR and Top-Up Tax Calculation
+6. **Part 6:** Stratos's Acquisition of TechStart
+7. **Part 7:** Stratos's First GIR Filing
 8. **Part 8:** Practical Exercise (Staying Current)
 
 ---
