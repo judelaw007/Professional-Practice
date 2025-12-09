@@ -8,7 +8,7 @@ After completing this chapter, you will be able to determine whether an MNE grou
 
 ## The Threshold Test
 
-An MNE group falls within scope of the GloBE Rules if consolidated group revenue equals or exceeds **€750 million** in at least **two of the four fiscal years** immediately preceding the tested fiscal year.
+An MNE group falls within scope of the GloBE Rules if consolidated group revenue equals or exceeds **€750 million** in at least **two of the four fiscal years** immediately preceding the tested fiscal year *(Article 1.1.1)*.
 
 This is a binary test applied at the group level—individual entity revenues are irrelevant for this purpose.
 
@@ -35,7 +35,7 @@ Use **total revenue** from the consolidated financial statements of the Ultimate
 
 ### Which Financial Statements?
 
-Use the **audited consolidated financial statements** filed with regulators or prepared under statutory requirements. If audited statements are unavailable for a historic year, use the best available figures and document the source.
+Use the **audited consolidated financial statements** filed with regulators or prepared under statutory requirements *(Article 1.1.1; Commentary, para. 6)*. If audited statements are unavailable for a historic year, use the best available figures and document the source.
 
 For groups reporting under multiple accounting standards (e.g., IFRS for group reporting, local GAAP for statutory accounts), use the figures from the **primary consolidated financial statements** used for external reporting.
 
@@ -47,7 +47,7 @@ If the consolidated financial statements are prepared in a currency other than E
 
 ### Conversion Methodology
 
-Use the **average exchange rate for the fiscal year** being tested.
+Use the **average exchange rate for the fiscal year** being tested *(Commentary, para. 8)*.
 
 **Acceptable sources for exchange rates:**
 - European Central Bank (ECB) annual average rates
@@ -86,7 +86,7 @@ If the group has existed for fewer than four fiscal years, the test applies to t
 - **Two years of history:** Must meet threshold in at least two of two years (i.e., both years)
 - **One year of history:** Must meet threshold in that year
 
-Newly formed groups from mergers are assessed based on the combined historical revenues of the predecessor groups as if they had been consolidated throughout the look-back period.
+Newly formed groups from mergers are assessed based on the combined historical revenues of the predecessor groups as if they had been consolidated throughout the look-back period *(Article 6.1.1)*.
 
 ---
 
@@ -218,6 +218,19 @@ Maintain a threshold assessment file containing:
 > "The GloBE Rules apply to Constituent Entities that are members of an MNE Group that has annual revenue of EUR 750 million or more in the Consolidated Financial Statements of the Ultimate Parent Entity in at least two of the four Fiscal Years immediately preceding the tested Fiscal Year."
 
 **OECD Commentary, paragraphs 5-12** provide additional guidance on revenue calculation and corporate events.
+
+---
+
+## Tools
+
+This chapter covers threshold assessment, which is a preliminary determination before GloBE calculations begin. While no dedicated tool is required for this step, note how this work connects to tools used later:
+
+| Tool | How This Chapter Connects |
+|------|---------------------------|
+| **GIR-001 GloBE Calculator** | Once scope is confirmed, you will use GIR-001 to calculate ETR, SBIE, and Top-Up Tax for each jurisdiction (Parts 3-5) |
+| **GIR-002 Safe Harbour Qualifier** | The revenue data gathered here is also used in the De Minimis Test (revenue < €10M), which you will assess in Part 7 using GIR-002 |
+
+The revenue figures and documentation prepared in this chapter form the foundation for all subsequent compliance work.
 
 ---
 
