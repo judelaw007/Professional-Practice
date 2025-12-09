@@ -100,11 +100,14 @@ After completing Part 1, practitioners will be able to:
 
 ### Tools for Part 1
 
-| Tool | Purpose | Platform |
-|------|---------|----------|
-| **MNE Scope Assessment Tool** | Interactive questionnaire to determine if group is in scope | tools.mojitax.com |
-| **Revenue Threshold Calculator** | Calculate consolidated revenue with currency conversion | tools.mojitax.com |
-| **Entity Classification Tool** | Classify entities as CE, Excluded Entity, or out of scope | tools.mojitax.com |
+**No dedicated tools required for Part 1.**
+
+Scope determination is a one-time analytical exercise that doesn't benefit from repeated tool-based practice. Instead, the content provides:
+- **Decision Flowchart:** Visual guide for scope determination
+- **Entity Classification Checklist:** Printable checklist for CE/Excluded Entity assessment
+- **Revenue Threshold Worksheet:** Inline example showing the calculation methodology
+
+The Case Study demonstrates the complete process using GlobalTech's actual data.
 
 ### Case Study 1: GlobalTech's Scope Assessment
 *Placed at end of Part 1*
@@ -184,11 +187,13 @@ After completing Part 2, practitioners will be able to:
 
 ### Tools for Part 2
 
-| Tool | Purpose | Platform |
-|------|---------|----------|
-| **IIR Allocation Calculator** | Calculate top-up tax allocation under IIR | tools.mojitax.com |
-| **UTPR Allocation Calculator** | Calculate UTPR allocation based on substance factors | tools.mojitax.com |
-| **Charging Rule Navigator** | Determine which charging rule applies to each low-tax jurisdiction | tools.mojitax.com |
+**Reuse existing tool:**
+- **GIR-003 Top-Up Tax Calculator** - Calculates the top-up tax amount that feeds into IIR/UTPR allocation
+
+Allocation calculations (ownership % × top-up tax) are straightforward arithmetic that don't require dedicated tools. The content provides:
+- **IIR Allocation Formula:** With worked examples showing ownership chain calculations
+- **UTPR Allocation Formula:** With employee/asset weighting examples
+- **Ordering Rules Decision Matrix:** Visual guide for determining which rule applies
 
 ### Case Study 2: GlobalTech's First Top-Up Tax Allocation
 *Placed at end of Part 2*
@@ -274,11 +279,12 @@ After completing Part 3, practitioners will be able to:
 
 ### Tools for Part 3
 
-| Tool | Purpose | Platform |
-|------|---------|----------|
-| **GloBE Income Calculator** | Calculate GloBE Income from financial accounts with all adjustments | tools.mojitax.com |
-| **Adjustment Tracker** | Track and document each adjustment with references | tools.mojitax.com |
-| **PE Income Allocator** | Allocate income between main entity and PE | tools.mojitax.com |
+**New tool required (passes Gate Question):**
+- **ADIT-001 GloBE Income Adjustment Calculator** - Multi-step worksheet for applying 25+ adjustment categories to financial data
+
+**Why this tool is needed:** GloBE Income calculation involves numerous adjustment types (tax expense add-back, dividend exclusions, equity adjustments, stock-based compensation elections, FX adjustments, policy disallowances). Hands-on practice with these adjustments builds competence that reading alone cannot achieve.
+
+**Output Integration:** The calculated GloBE Income feeds directly into GIR-001 ETR Calculator for subsequent calculations.
 
 ### Case Study 3: GlobalTech's GloBE Income Calculation
 *Placed at end of Part 3*
@@ -375,11 +381,15 @@ After completing Part 4, practitioners will be able to:
 
 ### Tools for Part 4
 
-| Tool | Purpose | Platform |
-|------|---------|----------|
-| **Covered Tax Calculator** | Calculate adjusted covered taxes with all adjustments | tools.mojitax.com |
-| **DTA Tracker** | Track deferred tax adjustments across years | tools.mojitax.com |
-| **Tax Allocation Tool** | Allocate taxes between entities (PE, CFC, hybrid) | tools.mojitax.com |
+**Reuse existing tool:**
+- **GIR-001 ETR Calculator** - Takes Adjusted Covered Taxes as an input for ETR calculation
+
+**No additional tools required.** Covered tax identification is primarily a classification exercise (which taxes qualify?) rather than a calculation. The content provides:
+- **Covered Tax Classification Checklist:** Yes/no criteria for each tax type
+- **DTA Adjustment Methodology:** Step-by-step process shown inline with worked examples
+- **Tax Allocation Rules:** Clear formulas for PE, CFC, and hybrid allocations
+
+The Case Study walks through the complete Covered Tax computation process.
 
 ### Case Study 4: GlobalTech's Covered Tax Computation
 *Placed at end of Part 4*
@@ -473,12 +483,14 @@ After completing Part 5, practitioners will be able to:
 
 ### Tools for Part 5
 
-| Tool | Purpose | Platform |
-|------|---------|----------|
-| **ETR Calculator** | Full jurisdictional ETR calculation | tools.mojitax.com |
-| **SBIE Calculator** | Calculate substance-based income exclusion | tools.mojitax.com |
-| **Top-Up Tax Calculator** | Calculate jurisdictional and allocated top-up tax | tools.mojitax.com |
-| **De Minimis Assessment Tool** | Quick check for de minimis exclusion eligibility | tools.mojitax.com |
+**Reuse existing tools (core calculation suite):**
+- **GIR-001 ETR Calculator** - Calculates jurisdictional ETR from GloBE Income and Covered Taxes
+- **GIR-002 SBIE Calculator** - Calculates Substance-Based Income Exclusion with current transition rates
+- **GIR-003 Top-Up Tax Calculator** - Integrates all inputs to calculate final top-up tax
+
+These three tools working together provide complete coverage for Part 5 calculations.
+
+**De minimis check:** Simple threshold comparison (revenue < €10M AND income < €1M) shown inline—no tool needed.
 
 ### Case Study 5: GlobalTech's Complete ETR and Top-Up Tax Calculation
 *Placed at end of Part 5*
@@ -571,11 +583,15 @@ After completing Part 6, practitioners will be able to:
 
 ### Tools for Part 6
 
-| Tool | Purpose | Platform |
-|------|---------|----------|
-| **M&A Impact Assessor** | Assess Pillar Two implications of transactions | tools.mojitax.com |
-| **JV Calculator** | Calculate separate ETR and top-up tax for joint ventures | tools.mojitax.com |
-| **Election Tracker** | Track all Pillar Two elections and their status | tools.mojitax.com |
+**Reuse existing tools for JV calculations:**
+- **GIR-001, GIR-002, GIR-003** - Apply to JV entities using the same methodology with JV-specific data inputs
+
+**No new tools required.** Special structures and restructurings are highly fact-dependent scenarios that don't benefit from generic tools. The content provides:
+- **M&A Impact Analysis Framework:** Decision tree for assessing transaction impacts
+- **JV Calculation Methodology:** How to apply existing tools to JV structures
+- **Election Checklist:** Comprehensive list of available elections with decision criteria
+
+The Case Study demonstrates M&A implications through GlobalTech's acquisition of TechStart.
 
 ### Case Study 6: GlobalTech's Acquisition of TechStart
 *Placed at end of Part 6*
@@ -669,12 +685,14 @@ After completing Part 7, practitioners will be able to:
 
 ### Tools for Part 7
 
-| Tool | Purpose | Platform |
-|------|---------|----------|
-| **GIR Preparation Tool** | Step-by-step GIR completion assistance | tools.mojitax.com |
-| **Safe Harbour Qualification Tool** | Assess eligibility for safe harbour treatments | tools.mojitax.com |
-| **Compliance Calendar** | Jurisdiction-specific deadline tracker | tools.mojitax.com |
-| **Data Mapping Tool** | Map data sources to GIR requirements | tools.mojitax.com |
+**Reuse existing tools (compliance suite):**
+- **GIR-004 Safe Harbour Qualification Tool** - Assesses transitional and permanent safe harbour eligibility
+- **GIR-005 Filing Deadline Calculator** - Calculates jurisdiction-specific filing deadlines
+- **GIR-006 Data Point Reference** - Searchable reference for GIR data elements
+- **GIR-007 DFE Election Assessment Tool** - Guides Designated Filing Entity election decisions
+- **GIR-008 GIR Practice Form** - Interactive practice completing the GloBE Information Return
+
+These five tools provide comprehensive coverage for Part 7 compliance and filing practice.
 
 ### Case Study 7: GlobalTech's First GIR Filing
 *Placed at end of Part 7*
@@ -758,10 +776,12 @@ After completing Part 8, practitioners will be able to:
 
 ### Tools for Part 8
 
-| Tool | Purpose | Platform |
-|------|---------|----------|
-| **STTR Impact Calculator** | Assess STTR exposure on covered payments | tools.mojitax.com |
-| **Jurisdiction Status Tracker** | Track QDMTT, IIR, UTPR, and STTR status by country | tools.mojitax.com |
+**No tools required for Part 8.**
+
+This Part is policy and framework-focused with limited calculation content. STTR calculations are treaty-specific and rarely performed. Instead:
+- **External Resource Links:** Direct links to OECD's official jurisdiction status trackers
+- **Worked STTR Example:** Single comprehensive example shown inline in content
+- **Practical Exercise:** Staying current with administrative guidance (replaces case study)
 
 ### Case Study Consideration for Part 8
 
@@ -777,37 +797,224 @@ This exercise reinforces the practitioner's ability to monitor and incorporate e
 
 ---
 
-## Tool Requirements Summary
+## Tool Requirements: Critical Analysis
 
-### Tools to Build on tools.mojitax.com
+### The Gate Question
 
-| Tool Name | Part | Primary Function | Priority |
-|-----------|------|------------------|----------|
-| MNE Scope Assessment Tool | 1 | Interactive questionnaire for scope determination | High |
-| Revenue Threshold Calculator | 1 | Calculate consolidated revenue with adjustments | High |
-| Entity Classification Tool | 1 | Classify entities (CE, Excluded, Out of scope) | High |
-| IIR Allocation Calculator | 2 | Calculate IIR top-up tax allocation | High |
-| UTPR Allocation Calculator | 2 | Calculate UTPR allocation by substance factors | High |
-| Charging Rule Navigator | 2 | Determine which rule applies | Medium |
-| GloBE Income Calculator | 3 | Full income calculation with adjustments | High |
-| Adjustment Tracker | 3 | Document all adjustments | High |
-| PE Income Allocator | 3 | Allocate income between entity and PE | Medium |
-| Covered Tax Calculator | 4 | Calculate adjusted covered taxes | High |
-| DTA Tracker | 4 | Multi-year deferred tax tracking | High |
-| Tax Allocation Tool | 4 | Allocate taxes between entities | Medium |
-| ETR Calculator | 5 | Jurisdictional ETR calculation | High |
-| SBIE Calculator | 5 | Substance-based income exclusion | High |
-| Top-Up Tax Calculator | 5 | Calculate top-up tax | High |
-| De Minimis Assessment Tool | 5 | Quick de minimis check | Medium |
-| M&A Impact Assessor | 6 | Assess transaction impacts | Medium |
-| JV Calculator | 6 | JV-specific calculations | Medium |
-| Election Tracker | 6 | Track all elections | High |
-| GIR Preparation Tool | 7 | Step-by-step GIR completion | High |
-| Safe Harbour Qualification Tool | 7 | Assess safe harbour eligibility | High |
-| Compliance Calendar | 7 | Deadline tracking | High |
-| Data Mapping Tool | 7 | Map data to GIR requirements | Medium |
-| STTR Impact Calculator | 8 | Assess STTR exposure | Low |
-| Jurisdiction Status Tracker | 8 | Track global implementation status | Medium |
+Before proposing any tool, we must answer: **"If this tool didn't exist, what would the learner miss?"**
+
+If the answer is vague or the skill can be adequately learned through worked examples in the content, **no tool is needed**.
+
+---
+
+### Existing Tools to Reuse
+
+The GloBE Information Return course has already specified 9 tools. **These should be reused across this course** rather than creating duplicates:
+
+| Tool ID | Tool Name | Reuse In Parts | Why Reuse |
+|---------|-----------|----------------|-----------|
+| GIR-001 | ETR Calculator | Parts 4, 5 | Core calculation - already handles GloBE Income and Covered Taxes inputs |
+| GIR-002 | SBIE Calculator | Part 5 | Complete SBIE calculation with transition rates |
+| GIR-003 | Top-Up Tax Calculator | Parts 2, 5 | Integrates ETR, SBIE, and QDMTT for full top-up tax |
+| GIR-004 | Safe Harbour Qualification Tool | Part 7 | Assesses transitional and permanent safe harbour eligibility |
+| GIR-005 | Filing Deadline Calculator | Part 7 | Jurisdiction-specific deadline calculation |
+| GIR-006 | Data Point Reference | Part 7 | Searchable GIR data element reference |
+| GIR-007 | DFE Election Assessment Tool | Part 7 | Designated Filing Entity election analysis |
+| GIR-008 | GIR Practice Form | Part 7 | Interactive GIR completion practice |
+
+---
+
+### Part-by-Part Tool Analysis
+
+#### Part 1: Scope Determination
+**Proposed tools eliminated:** MNE Scope Assessment Tool, Revenue Threshold Calculator, Entity Classification Tool
+
+**Gate Question Analysis:**
+- Revenue threshold calculation is a straightforward arithmetic exercise (sum revenues, compare to €750M)
+- Entity classification follows a decision tree that is better shown as a flowchart in content
+- Scope determination is a one-time analytical exercise, not a skill requiring repeated practice
+
+**Decision:** **NO TOOLS NEEDED**
+- Use inline flowcharts and decision trees in content
+- Provide a comprehensive checklist learners can use with their own data
+- The worked example (GlobalTech) demonstrates the process sufficiently
+
+---
+
+#### Part 2: Charging Mechanism (IIR/UTPR)
+**Proposed tools eliminated:** IIR Allocation Calculator, UTPR Allocation Calculator, Charging Rule Navigator
+
+**Gate Question Analysis:**
+- IIR allocation follows ownership percentages - straightforward multiplication
+- UTPR allocation uses a formula (employees + assets) - can be shown in worked examples
+- Ordering rules are logic-based, not calculation-based
+
+**Decision:** **REUSE GIR-003 (Top-Up Tax Calculator)**
+- GIR-003 already handles the top-up tax calculation that feeds into allocation
+- Allocation itself is arithmetic that doesn't benefit from a separate tool
+- Use decision matrices and flowcharts in content for ordering rules
+
+---
+
+#### Part 3: GloBE Income Calculation
+**Proposed tools eliminated:** GloBE Income Calculator, Adjustment Tracker, PE Income Allocator
+
+**Gate Question Analysis:**
+- GloBE Income calculation involves 25+ adjustment types - this IS genuinely complex
+- However, the ETR Calculator (GIR-001) already takes GloBE Income as an input
+- The value is in understanding HOW to derive GloBE Income, not just entering it
+
+**Decision:** **NEW TOOL POTENTIALLY NEEDED - Subject to Further Analysis**
+
+**Option A (Preferred):** Extend GIR-001 to include an "adjustment worksheet" mode that walks through deriving GloBE Income before calculating ETR
+
+**Option B:** Create a standalone GloBE Income Adjustment Calculator
+
+**Gate Question Answer:** Without this tool, learners would miss the hands-on practice of applying the 25+ adjustment categories to financial data. Reading alone may not build sufficient confidence. **This passes the gate.**
+
+**Specification Required:** ADIT-001 GloBE Income Adjustment Calculator (or GIR-001 extension)
+
+---
+
+#### Part 4: Covered Taxes
+**Proposed tools eliminated:** Covered Tax Calculator, DTA Tracker, Tax Allocation Tool
+
+**Gate Question Analysis:**
+- Covered tax identification is primarily classification (yes/no for each tax type)
+- DTA tracking is a multi-year record-keeping exercise, not a calculation skill
+- Tax allocation follows defined rules that can be shown in worked examples
+
+**Decision:** **REUSE GIR-001 (ETR Calculator)**
+- GIR-001 takes Adjusted Covered Taxes as an input
+- Similar to Part 3, the value is understanding HOW to derive the input
+- A checklist format in content is more appropriate than a tool
+
+**If Part 3 tool is built:** Consider whether it should also include Covered Tax adjustments, creating a unified "GloBE Computation Worksheet" that feeds into GIR-001
+
+---
+
+#### Part 5: ETR and Top-Up Tax
+**Proposed tools eliminated:** De Minimis Assessment Tool (simple threshold check)
+
+**Decision:** **REUSE EXISTING TOOLS**
+- GIR-001: ETR Calculator - core ETR calculation
+- GIR-002: SBIE Calculator - substance-based income exclusion
+- GIR-003: Top-Up Tax Calculator - full top-up tax computation
+
+These three tools working together provide complete coverage for Part 5. No new tools needed.
+
+---
+
+#### Part 6: Special Structures and Restructurings
+**Proposed tools eliminated:** M&A Impact Assessor, JV Calculator, Election Tracker
+
+**Gate Question Analysis:**
+- M&A impact assessment is highly fact-dependent - each situation is different
+- JV calculations follow the same ETR/top-up methodology (use existing tools)
+- Election tracking is administrative record-keeping, not a learnable skill
+
+**Decision:** **NO NEW TOOLS NEEDED**
+- JV scenarios can use GIR-001, GIR-002, GIR-003 with JV-specific data
+- M&A impacts are better taught through detailed worked examples
+- Provide an election checklist in content (not a tool)
+
+---
+
+#### Part 7: Compliance and Filing
+**Proposed tools eliminated:** Data Mapping Tool (reference material, not a practice tool)
+
+**Decision:** **REUSE EXISTING TOOLS**
+- GIR-004: Safe Harbour Qualification Tool
+- GIR-005: Filing Deadline Calculator
+- GIR-006: Data Point Reference
+- GIR-007: DFE Election Assessment Tool
+- GIR-008: GIR Practice Form
+
+These five tools provide comprehensive coverage for compliance and filing practice.
+
+---
+
+#### Part 8: STTR and Inclusive Framework
+**Proposed tools eliminated:** STTR Impact Calculator, Jurisdiction Status Tracker
+
+**Gate Question Analysis:**
+- STTR calculations are treaty-specific and rarely performed by most practitioners
+- Jurisdiction status is reference information that changes frequently - better as web links to OECD tracker
+- This Part is policy-focused with limited calculation content
+
+**Decision:** **NO TOOLS NEEDED**
+- Link to OECD's official jurisdiction trackers (external resource)
+- STTR impact analysis is better taught through worked examples
+- Practical exercise (not case study) is sufficient for this Part
+
+---
+
+### Consolidated Tool Summary
+
+| Category | Tool | Status | Used In |
+|----------|------|--------|---------|
+| **REUSE** | GIR-001 ETR Calculator | Existing | Parts 4, 5 |
+| **REUSE** | GIR-002 SBIE Calculator | Existing | Part 5 |
+| **REUSE** | GIR-003 Top-Up Tax Calculator | Existing | Parts 2, 5 |
+| **REUSE** | GIR-004 Safe Harbour Tool | Existing | Part 7 |
+| **REUSE** | GIR-005 Deadline Calculator | Existing | Part 7 |
+| **REUSE** | GIR-006 Data Point Reference | Existing | Part 7 |
+| **REUSE** | GIR-007 DFE Election Tool | Existing | Part 7 |
+| **REUSE** | GIR-008 GIR Practice Form | Existing | Part 7 |
+| **NEW** | ADIT-001 GloBE Income Adjustment Calculator | To Specify | Part 3 |
+
+**Result: 8 existing tools reused, 1 new tool potentially needed**
+
+This represents a reduction from 24 proposed tools to 1 new tool, applying the Gate Question rigorously.
+
+---
+
+### New Tool Specification: ADIT-001 GloBE Income Adjustment Calculator
+
+**Gate Question Answer:** Without this tool, learners would miss hands-on practice applying the 25+ GloBE Income adjustment categories to financial statement data. This is a complex, multi-step process where practice genuinely builds competence beyond reading.
+
+**Tool Name:** GloBE Income Adjustment Calculator
+**Tool ID:** ADIT-001
+**Form:** Multi-step calculator with adjustment worksheet
+
+**Purpose:**
+Help learners practice converting financial accounting net income to GloBE Income by applying all required adjustments under Article 3.2.
+
+**Inputs:**
+- Financial accounting net income (starting point)
+- Tax expense per accounts
+- Dividend income (with shareholding %)
+- Equity gains/losses
+- Stock-based compensation (accounting vs tax amounts)
+- Fines and penalties
+- Foreign currency adjustments
+- Other policy adjustments
+
+**Outputs:**
+- Adjustment-by-adjustment breakdown
+- Total GloBE Income
+- Summary of adjustments made
+
+**Integration:**
+- Output (GloBE Income) feeds directly into GIR-001 ETR Calculator
+- Consider building as "Mode 1" of an enhanced GIR-001
+
+**Case Study Alignment:**
+- Case Study 3: GlobalTech's German subsidiary GloBE Income calculation
+
+---
+
+### What Replaces Tools in Each Part
+
+For Parts where no tools are specified, the content must include robust alternatives:
+
+| Part | Instead of Tools | Content Approach |
+|------|------------------|------------------|
+| Part 1 | Scope Assessment | Decision flowchart, comprehensive checklist, worked example |
+| Part 2 | Allocation Calculators | Allocation formulas with worked examples, decision matrix for ordering rules |
+| Part 4 | Covered Tax Calculator | Classification checklist, adjustment examples shown inline |
+| Part 6 | M&A/JV Tools | Detailed worked examples showing how existing tools apply to special structures |
+| Part 8 | STTR Calculator | Links to OECD trackers, worked STTR example in content |
 
 ---
 
