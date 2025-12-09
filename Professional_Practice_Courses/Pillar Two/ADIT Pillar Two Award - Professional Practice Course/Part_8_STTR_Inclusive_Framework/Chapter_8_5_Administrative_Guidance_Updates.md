@@ -656,4 +656,4 @@ Staying current with Pillar Two guidance requires systematic monitoring and time
 
 You have completed Part 8: Subject to Tax Rule and Inclusive Framework. You now understand the STTR design and implementation, the Inclusive Framework governance structure, QDMTT qualification standards, and how to stay current with Administrative Guidance.
 
-Proceed to **Practical Exercise 8: Staying Current** to apply these concepts by researching recent guidance updates relevant to Stratos's compliance.
+Proceed to **Case Study 8: Staying Current** to apply these concepts by analysing new administrative guidance, updating governance documentation, and preparing Board reporting for Stratos.
