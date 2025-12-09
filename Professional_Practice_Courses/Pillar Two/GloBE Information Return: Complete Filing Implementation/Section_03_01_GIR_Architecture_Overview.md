@@ -631,12 +631,7 @@ Before proceeding to the detailed section-by-section guidance, confirm you under
 
 ## Next Steps
 
-Continue to the detailed section guidance:
-- **Section 3.2:** GIR Section 1 - MNE Group Information
-- **Section 3.3:** GIR Section 2 - Jurisdictional Safe Harbours and Exclusions
-- **Section 3.4:** GIR Section 3 - GloBE Computations
-
-**Template Reference:** GIR Section Relationship Matrix (Excel) - included in course deliverables
+You now understand the overall GIR architecture and how the three sections relate to each other. The following subsections will provide detailed guidance on completing each GIR section with specific data requirements, examples, and templates.
 
 ---
 

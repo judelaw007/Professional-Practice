@@ -650,15 +650,7 @@ Before proceeding to Section 2, verify the following:
 
 ## Next Steps
 
-Continue to the detailed section guidance:
-- **Section 3.3:** GIR Section 2 - Jurisdictional Safe Harbours and Exclusions
-- **Section 3.4:** GIR Section 3 - GloBE Computations
-
-**Template References for This Section:**
-- Filing CE Identification Guide (Excel)
-- UPE Data Collection Form (Excel)
-- Constituent Entity Database Template (Excel)
-- Summary Dashboard (Excel)
+You now understand how to complete GIR Section 1 (MNE Group Information). The following subsections will cover safe harbour elections and the detailed GloBE computations.
 
 ---
 

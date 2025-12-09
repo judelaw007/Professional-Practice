@@ -667,14 +667,7 @@ The elections made in Section 2 directly determine Section 3 requirements:
 
 ## Next Steps
 
-Continue to the detailed section guidance:
-- **Section 3.4:** GIR Section 3 - GloBE Computations
-
-**Template References for This Section:**
-- Safe Harbour Eligibility Tracker (Excel)
-- Safe Harbour Election Forms (Word)
-- CbCR-to-Safe Harbour Data Mapping (Excel)
-- SBIE Calculator (Excel) - for Routine Profits Test
+You now understand how to evaluate and elect safe harbours in GIR Section 2. The next subsection will cover the detailed GloBE computations required for jurisdictions that do not qualify for safe harbour treatment.
 
 ---
 
