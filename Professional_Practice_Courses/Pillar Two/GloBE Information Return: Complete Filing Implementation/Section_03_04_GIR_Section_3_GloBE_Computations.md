@@ -27,7 +27,7 @@ GIR Section 3 (GloBE Computations) is the **substantive calculation section** of
 
 **Data Points:** Section 3 contains approximately **400+ data points**, which scale significantly based on:
 - Number of jurisdictions (each requires separate computation)
-- Number of constituent entities per jurisdiction
+- Number of Constituent Entities per jurisdiction
 - Complexity of deferred tax positions
 - Number of elections made
 

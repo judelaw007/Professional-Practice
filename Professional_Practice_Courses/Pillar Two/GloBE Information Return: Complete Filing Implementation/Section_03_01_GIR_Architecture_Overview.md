@@ -45,7 +45,7 @@ The GloBE Information Return (GIR) is organized into **three main sections**, ea
 │  Contains:                                                                   │
 │  ├── Filing Constituent Entity identification                               │
 │  ├── Ultimate Parent Entity information                                     │
-│  ├── Corporate structure (all constituent entities)                         │
+│  ├── Corporate structure (all Constituent Entities)                         │
 │  └── Summary information (ETR ranges by jurisdiction)                       │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -148,7 +148,7 @@ Understanding data dependencies is critical for planning your GIR completion wor
         │                 GloBE Computations                        │
         │                                                           │
         │  Receives:                                                │
-        │  • Constituent entities per jurisdiction (from Section 1) │
+        │  • Constituent Entities per jurisdiction (from Section 1) │
         │  • Safe harbour status per jurisdiction (from Section 2)  │
         │                                                           │
         │  Computes (for non-excluded jurisdictions):               │
@@ -193,7 +193,7 @@ RECOMMENDED COMPLETION SEQUENCE
 Step 1: SECTION 1.1-1.3 (Core Group Information)
         ├── Filing CE identification
         ├── UPE identification
-        └── Complete constituent entity database
+        └── Complete Constituent Entity database
               │
               ▼
 Step 2: SECTION 2 (Safe Harbour Determination)
@@ -271,7 +271,7 @@ The OECD designed the GIR system to enable **central filing**, reducing complian
 | **Designated Filing Entity (DFE)** | One entity designated to file on behalf of the group |
 | **QCAA in Place** | Qualifying Competent Authority Agreement between jurisdictions |
 | **DFE Jurisdiction** | DFE must be in a jurisdiction with implemented exchange framework |
-| **Notification to Local Authorities** | Local constituent entities must notify their tax authority of DFE election |
+| **Notification to Local Authorities** | Local Constituent Entities must notify their tax authority of DFE election |
 
 **Benefits of Single GIR:**
 
@@ -285,7 +285,7 @@ The OECD designed the GIR system to enable **central filing**, reducing complian
 
 ### Multiple Local GIRs
 
-Without centralized filing mechanisms, each constituent entity would need to file locally.
+Without centralized filing mechanisms, each Constituent Entity would need to file locally.
 
 **When Multiple GIRs May Be Required:**
 
@@ -370,7 +370,7 @@ GlobeBody
     │
     ├── 2. GeneralSection (Optional - Mandatory)
     │       ├── Corporate structure information
-    │       ├── All constituent entities
+    │       ├── All Constituent Entities
     │       └── Ownership chains
     │
     ├── 3. Summary (Optional, Repeatable)
