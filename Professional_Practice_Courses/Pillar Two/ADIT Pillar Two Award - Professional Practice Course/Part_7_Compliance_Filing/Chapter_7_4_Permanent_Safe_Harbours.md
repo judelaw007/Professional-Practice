@@ -63,21 +63,21 @@ The QDMTT Safe Harbour **eliminates residual IIR liability** for jurisdictions t
 WITHOUT QDMTT SAFE HARBOUR:
 
 Step 1: Calculate QDMTT under local rules
-        → Ireland QDMTT = €428,928
+        → Ireland QDMTT = €426,394
 
 Step 2: Calculate GloBE Top-up Tax
-        → GloBE calculation = €435,000 (slightly different methodology)
+        → GloBE calculation = €432,000 (slightly different methodology)
 
 Step 3: IIR Top-up Tax = GloBE − QDMTT
-        → €435,000 − €428,928 = €6,072 residual IIR
+        → €432,000 − €426,394 = €5,606 residual IIR
 
-Result: MNE pays QDMTT locally + €6,072 IIR to UPE jurisdiction
+Result: MNE pays QDMTT locally + €5,606 IIR to UPE jurisdiction
 
 
 WITH QDMTT SAFE HARBOUR:
 
 Step 1: Calculate QDMTT under local rules
-        → Ireland QDMTT = €428,928
+        → Ireland QDMTT = €426,394
 
 Step 2: GloBE Top-up Tax = €0 (Safe Harbour applies)
 
@@ -281,9 +281,9 @@ Stratos Holdings plc analyses permanent safe harbour eligibility for FY 2025.
 |--------------|--------------|------------------|-------------------|
 | UK | QDMTT | No | IIR = €0 |
 | Germany | QDMTT | No | IIR = €0 |
-| Ireland | QDMTT | No | IIR = €0 (QDMTT €428,928 local) |
+| Ireland | QDMTT | No | IIR = €0 (QDMTT €426,394 local) |
 | Luxembourg | QDMTT + CbCR | No | IIR = €0 |
-| Singapore | None | **Yes** | €198,907 IIR |
+| Singapore | None | **Yes** | €197,498 IIR |
 | USA | CbCR | No | Top-up Tax = €0 |
 | Cayman | None | **Yes** | €280,480 IIR |
 
@@ -296,20 +296,20 @@ Stratos Holdings plc analyses permanent safe harbour eligibility for FY 2025.
 | GloBE Income | €15,000,000 | €15,000,000 |
 | Covered Taxes | €1,770,000 | €1,770,000 |
 | ETR | 11.80% | 11.80% |
-| SBIE | €1,596,000 | €1,596,000 |
-| Excess Profit | €13,404,000 | €13,404,000 |
-| Top-up Tax | €428,928 | €428,928 |
+| SBIE | €1,675,200 | €1,675,200 |
+| Excess Profit | €13,324,800 | €13,324,800 |
+| Top-up Tax | €426,394 | €426,394 |
 
 **With QDMTT Safe Harbour:**
-- Ireland collects €428,928 via QDMTT
+- Ireland collects €426,394 via QDMTT
 - GloBE Top-up Tax = €0 (Safe Harbour)
 - IIR to UK = €0
 
 **Without QDMTT Safe Harbour (hypothetical):**
-- If GloBE calculation differed (e.g., €435,000 due to methodology differences)
-- IIR to UK = €435,000 − €428,928 = €6,072 residual
+- If GloBE calculation differed (e.g., €432,000 due to methodology differences)
+- IIR to UK = €432,000 − €426,394 = €5,606 residual
 
-**Safe Harbour benefit:** Eliminates €6,072 residual and avoids dual calculation.
+**Safe Harbour benefit:** Eliminates €5,606 residual and avoids dual calculation.
 
 ---
 
@@ -542,4 +542,4 @@ Step 4: Consolidate into GIR
 
 ## Next Step
 
-You have learned how to apply Permanent Safe Harbours for ongoing compliance relief. Proceed to **Case Study 7: Stratos Complete GIR Filing** for a comprehensive worked example bringing together all Part 7 concepts including GIR structure, data requirements, and safe harbours.
+You have learned how to apply Permanent Safe Harbours for ongoing compliance relief. Proceed to **Chapter 7.5: Transition Year Adjustments** for guidance on the specific adjustments required in the first year that Pillar Two applies to an MNE Group.
