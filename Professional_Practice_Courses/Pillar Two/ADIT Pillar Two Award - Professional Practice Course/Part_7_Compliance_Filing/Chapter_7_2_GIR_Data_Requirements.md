@@ -178,8 +178,8 @@ Provides a high-level overview of GloBE outcomes by jurisdiction before detailed
 | GB | 2 | No | No | 25.00% | 0 | 0 | 0 |
 | DE | 2 | No | No | 23.00% | 0 | 0 | 0 |
 | US | 2 | No | No | 15.49% | 0 | 0 | 0 |
-| SG | 1 | No | No | 9.81% | 198,907 | 0 | 198,907 |
-| IE | 2 | No | No | 11.80% | 428,928 | 428,928 | 0 |
+| SG | 1 | No | No | 9.81% | 197,498 | 0 | 197,498 |
+| IE | 2 | No | No | 11.80% | 426,394 | 426,394 | 0 |
 | LU | 1 | No | **Yes** | N/A | 0 | 0 | 0 |
 | KY | 1 | No | No | 1.00% | 280,480 | 0 | 280,480 |
 
@@ -249,10 +249,10 @@ The most detailed section of the GIR, containing all computational data for each
 |--------------|-------------|
 | Eligible employees | Count per jurisdiction |
 | Eligible payroll costs | Total qualifying payroll |
-| Payroll carve-out rate | Transition rate (9.0% for 2025) |
+| Payroll carve-out rate | Transition rate (9.8% for 2025) |
 | **Payroll carve-out amount** | Payroll × Rate |
 | Tangible assets carrying value | NBV of qualifying assets |
-| Asset carve-out rate | Transition rate (7.0% for 2025) |
+| Asset carve-out rate | Transition rate (7.8% for 2025) |
 | **Asset carve-out amount** | Assets × Rate |
 | **Total SBIE** | Payroll + Asset carve-outs |
 
