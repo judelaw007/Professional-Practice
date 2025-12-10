@@ -102,7 +102,7 @@ Ancillary activities that are performed **primarily in connection with** interna
 
 ---
 
-## The 50% Ancillary Income Cap *(Article 3.3.4)*
+## The 50% Ancillary Income Cap *(Article 3.3.5)*
 
 ### The Rule
 
@@ -433,8 +433,8 @@ All **direct and indirect costs** attributable to shipping income must also be e
 - Article 3.3.1 — Basic exclusion rule
 - Article 3.3.2 — International Shipping Income definition
 - Article 3.3.3 — Qualified Ancillary International Shipping Income
-- Article 3.3.4 — 50% ancillary income cap
-- Article 3.3.5 — Cost allocation
+- Article 3.3.4 — Income covered under tax treaty Article 8
+- Article 3.3.5 — 50% ancillary income cap
 - Article 3.3.6 — Strategic management requirement
 
 **OECD Commentary:**
