@@ -42,7 +42,7 @@ Where:
 | Adjusted Covered Taxes | €1,875,000 |
 | Payroll Costs (eligible employees) | €4,500,000 |
 | Tangible Assets (net book value) | €8,000,000 |
-| SBIE Rate (2025 transition year) | Payroll: 9.6%, Assets: 7.6% |
+| SBIE Rate (2026 transition year) | Payroll: 9.6%, Assets: 7.6% |
 | QDMTT | Nil (Singapore has no QDMTT) |
 
 **Step 1: Calculate ETR**

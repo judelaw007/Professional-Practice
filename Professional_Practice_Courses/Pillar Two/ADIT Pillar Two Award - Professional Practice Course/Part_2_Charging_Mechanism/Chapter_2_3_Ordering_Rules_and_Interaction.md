@@ -462,9 +462,9 @@ Applying the ordering rules requires:
 
 ## Next Step
 
-You have now completed **Part 2: The Charging Mechanism**. You understand:
+You now understand how the GloBE charging mechanisms interact:
 - How IIR collects Top-Up Tax at the parent level (Chapter 2.1)
 - How UTPR acts as a backstop (Chapter 2.2)
 - How the rules interact in the correct order (this chapter)
 
-Proceed to **Part 2 Case Study: Stratos's First Top-Up Tax Allocation** to apply these concepts to a comprehensive multi-jurisdiction scenario.
+Proceed to **Chapter 2.4: Top-Up Tax Allocation Calculations** to learn detailed computation methods for allocating Top-Up Tax across entities and jurisdictions.

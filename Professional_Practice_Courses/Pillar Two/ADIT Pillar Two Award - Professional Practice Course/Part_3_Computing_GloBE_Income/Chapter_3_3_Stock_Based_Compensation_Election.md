@@ -62,7 +62,7 @@ More likely to trigger          Less likely to trigger
 Top-Up Tax                      Top-Up Tax
 ```
 
-**Key insight:** The election typically **increases** GloBE Income (larger deduction = smaller net income when reversed), which **increases** ETR and **reduces** Top-Up Tax risk.
+**Key insight:** When tax deduction exceeds accounting expense, the election typically **decreases** GloBE Income (larger deduction reduces net income), which **increases** ETR and **reduces** Top-Up Tax risk.
 
 ---
 
@@ -330,8 +330,8 @@ Stratos Group plc has a global equity incentive programme granting stock options
 
 **Analysis:**
 - Tax deduction < Accounting expense
-- Election would **reduce** GloBE Income (€620K vs €850K)
-- Lower GloBE Income → Lower ETR → **Worse** outcome
+- Election would **increase** GloBE Income (using smaller €620K deduction instead of €850K)
+- Higher GloBE Income → Lower ETR → **Worse** outcome
 
 **Recommendation:** Do **NOT** elect for Singapore
 
