@@ -477,7 +477,7 @@ IIR Ordering:
 QDMTT Safe Harbour:
 • Ireland QDMTT: Qualified for Safe Harbour
   → No residual IIR to UK for Irish Top-up Tax
-  → Stratos pays €435,040 QDMTT to Ireland only
+  → Stratos pays €426,394 QDMTT to Ireland only
 
 • Germany, Luxembourg: Also qualified
   → QDMTT applies locally if needed
@@ -486,8 +486,8 @@ QDMTT Safe Harbour:
 Non-Qualified Jurisdictions:
 • Singapore, USA, Cayman: No GloBE legislation
   → Subject to UK IIR on undertaxed profits
-  → Singapore: €184,959 IIR to UK
-  → Cayman: €278,110 IIR to UK
+  → Singapore: €197,498 IIR to UK
+  → Cayman: €280,480 IIR to UK
 
 Monitoring Action:
 □ Track Singapore/Cayman for potential QDMTT adoption
