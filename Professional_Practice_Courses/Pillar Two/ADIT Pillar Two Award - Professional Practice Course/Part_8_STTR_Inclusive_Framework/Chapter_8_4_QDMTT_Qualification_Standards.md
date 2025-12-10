@@ -174,28 +174,28 @@ QDMTT SAFE HARBOUR MECHANISM
 WITHOUT SAFE HARBOUR:
 ┌─────────────────────────────────────────────────────────────────────┐
 │ Step 1: Calculate QDMTT under local rules                          │
-│         → Ireland QDMTT = €428,928                                  │
+│         → Ireland QDMTT = €426,394                                  │
 │                                                                     │
 │ Step 2: Calculate GloBE Top-up Tax under GloBE Rules               │
-│         → GloBE calculation = €435,000 (methodology differences)    │
+│         → GloBE calculation = €432,000 (methodology differences)    │
 │                                                                     │
 │ Step 3: IIR = GloBE Top-up Tax − QDMTT paid                        │
-│         → €435,000 − €428,928 = €6,072 residual IIR                │
+│         → €432,000 − €426,394 = €5,606 residual IIR                │
 │                                                                     │
-│ Result: MNE pays QDMTT (€428,928) + IIR (€6,072) = €435,000        │
+│ Result: MNE pays QDMTT (€426,394) + IIR (€5,606) = €432,000        │
 └─────────────────────────────────────────────────────────────────────┘
 
 WITH SAFE HARBOUR:
 ┌─────────────────────────────────────────────────────────────────────┐
 │ Step 1: Calculate QDMTT under local rules                          │
-│         → Ireland QDMTT = €428,928                                  │
+│         → Ireland QDMTT = €426,394                                  │
 │                                                                     │
 │ Step 2: QDMTT Safe Harbour applies                                  │
 │         → GloBE Top-up Tax deemed = €0                              │
 │                                                                     │
 │ Step 3: IIR = €0                                                    │
 │                                                                     │
-│ Result: MNE pays QDMTT only (€428,928)                              │
+│ Result: MNE pays QDMTT only (€426,394)                              │
 │         No dual calculation required                                │
 └─────────────────────────────────────────────────────────────────────┘
 ```
@@ -446,22 +446,22 @@ STRATOS QDMTT SAFE HARBOUR IMPACT
 Jurisdictions with QDMTT Safe Harbour (5):
 ├── UK: No Top-up Tax (ETR ≥ 15%)
 ├── Germany: No Top-up Tax (ETR ≥ 15%)
-├── Ireland: QDMTT €435,040; IIR = €0
+├── Ireland: QDMTT €426,394; IIR = €0
 ├── Luxembourg: De Minimis applies
 └── Singapore: QDMTT replaces IIR from 2025
 
 Jurisdictions without QDMTT (2):
 ├── USA: No Top-up Tax (ETR 15.49% ≥ 15%)
-└── Cayman: IIR €278,110 to UK
+└── Cayman: IIR €280,480 to UK
 
 FY 2025 IMPACT:
-• Ireland: Pay QDMTT locally (€435,040)
+• Ireland: Pay QDMTT locally (€426,394)
            No residual IIR to UK
            Safe Harbour eliminates dual calculation
 
 • Singapore (from 2025):
            Once QDMTT effective, no IIR to UK
-           For FY 2024: Still IIR (€184,959)
+           For FY 2024: Still IIR (€197,498)
            For FY 2025+: QDMTT Safe Harbour applies
 ```
 
