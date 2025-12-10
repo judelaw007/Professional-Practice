@@ -579,7 +579,7 @@ Stratos Holdings plc is establishing its ongoing Pillar Two compliance process f
 | **Data extraction** | Apr-May 2026 | GloBE data from OneStream |
 | **Safe Harbour** | Jun 2026 | Test 7 jurisdictions |
 | **ETR calculations** | Jul-Aug 2026 | Calculate for SG, Cayman (non-SH) |
-| **Top-up Tax** | Sep 2026 | €479,387 total liability |
+| **Top-up Tax** | Sep 2026 | €477,978 total liability |
 | **GIR preparation** | Oct-Dec 2026 | UK DFE filing preparation |
 | **Review** | Jan 2027 | Tax Director sign-off |
 | **Filing** | Feb 2027 | GIR filed via UK HMRC |
