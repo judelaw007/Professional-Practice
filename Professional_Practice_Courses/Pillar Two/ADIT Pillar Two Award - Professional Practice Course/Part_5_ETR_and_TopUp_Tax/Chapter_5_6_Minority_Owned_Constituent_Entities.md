@@ -249,16 +249,16 @@ ETR = 12.00%
 
 | Item | Amount | Rate (2025) | Carve-out |
 |------|--------|-------------|-----------|
-| Eligible Payroll | €1,200,000 | 9.0% | €108,000 |
-| Tangible Assets (NBV) | €800,000 | 7.0% | €56,000 |
-| **Total SBIE** | | | **€164,000** |
+| Eligible Payroll | €1,200,000 | 9.8% | €117,600 |
+| Tangible Assets (NBV) | €800,000 | 7.8% | €62,400 |
+| **Total SBIE** | | | **€180,000** |
 
 **Excess Profit:**
 
 ```
 Excess Profit = GloBE Income − SBIE
-Excess Profit = €2,400,000 − €164,000
-Excess Profit = €2,236,000
+Excess Profit = €2,400,000 − €180,000
+Excess Profit = €2,220,000
 ```
 
 ### Step 4: Calculate Top-Up Tax
@@ -266,7 +266,7 @@ Excess Profit = €2,236,000
 ```
 Top-up Tax % = 15% − 12% = 3%
 
-Top-up Tax = 3% × €2,236,000 = €67,080
+Top-up Tax = 3% × €2,220,000 = €66,600
 ```
 
 ### Step 5: Apply QDMTT Offset (If Applicable)
@@ -274,11 +274,11 @@ Top-up Tax = 3% × €2,236,000 = €67,080
 Ireland has QDMTT. Assume Ireland collects the full Top-up Tax domestically:
 
 ```
-QDMTT Paid:         €67,080
+QDMTT Paid:         €66,600
 Net Top-up Tax:     €0
 ```
 
-**Result:** Ireland retains the €67,080 through its QDMTT.
+**Result:** Ireland retains the €66,600 through its QDMTT.
 
 ### Comparison: Main Group vs MOCE
 
@@ -288,8 +288,8 @@ Net Top-up Tax:     €0
 | GloBE Income | €15,000,000 | €2,400,000 |
 | ETR | 11.80% | 12.00% |
 | Top-up Tax % | 3.20% | 3.00% |
-| Jurisdictional Top-up Tax | €427,699 | €67,080 |
-| QDMTT offset | (€427,699) | (€67,080) |
+| Jurisdictional Top-up Tax | €426,394 | €66,600 |
+| QDMTT offset | (€426,394) | (€66,600) |
 | Net Top-up Tax | €0 | €0 |
 
 **Key insight:** Without MOCE separation, Atlas Ireland's 12% ETR would have been blended with the main group's 11.80%, potentially affecting both calculations unfairly.
@@ -398,11 +398,11 @@ Even though the UPE bears Top-up Tax for a MOCE, the **amount** reflects only th
 UPE's Top-up Tax Attribution = Top-up Tax × UPE's Ownership %
 
 Example: Atlas Ireland Ltd
-- Total MOCE Top-up Tax: €67,080
+- Total MOCE Top-up Tax: €66,600
 - UPE ownership: 28%
-- UPE's attributed Top-up Tax: €67,080 × 28% = €18,782
+- UPE's attributed Top-up Tax: €66,600 × 28% = €18,648
 
-Note: The full €67,080 is still computed and potentially collected
+Note: The full €66,600 is still computed and potentially collected
       via QDMTT, but the UPE's economic exposure is 28%.
 ```
 
@@ -585,9 +585,9 @@ PART B: SEPARATE CALCULATION (Stand-alone MOCE)
 
 □ SBIE Calculation (separate):
    □ Eligible Payroll:              €__________________
-   □ Payroll Carve-out (@9.0%):     €__________________
+   □ Payroll Carve-out (@9.8%):     €__________________
    □ Tangible Assets (NBV):         €__________________
-   □ Asset Carve-out (@7.0%):       €__________________
+   □ Asset Carve-out (@7.8%):       €__________________
    □ Total SBIE:                    €__________________
 
 □ Excess Profit (Income − SBIE):    €__________________
