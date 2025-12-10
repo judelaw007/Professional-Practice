@@ -90,26 +90,27 @@ The SBIE percentages are **higher** in early years and **reduce** over a 10-year
 
 ### SBIE Transition Rate Table
 
-| Fiscal Year | Payroll Rate | Tangible Asset Rate |
-|-------------|--------------|---------------------|
-| 2024 | 9.8% | 7.8% |
-| 2025 | 9.6% | 7.6% |
-| 2026 | 9.4% | 7.4% |
-| 2027 | 9.2% | 7.2% |
-| 2028 | 9.0% | 7.0% |
-| 2029 | 8.2% | 6.6% |
-| 2030 | 7.4% | 6.2% |
-| 2031 | 6.6% | 5.8% |
-| 2032 | 5.8% | 5.4% |
-| **2033+** | **5.0%** | **5.0%** |
+| Fiscal Year (beginning in) | Payroll Rate | Tangible Asset Rate |
+|----------------------------|--------------|---------------------|
+| 2024 | 10.0% | 8.0% |
+| 2025 | 9.8% | 7.8% |
+| 2026 | 9.6% | 7.6% |
+| 2027 | 9.4% | 7.4% |
+| 2028 | 9.2% | 7.2% |
+| 2029 | 8.4% | 6.6% |
+| 2030 | 7.6% | 6.0% |
+| 2031 | 6.8% | 5.4% |
+| 2032 | 6.0% | 4.8% |
+| 2033 | 5.2% | 4.4% |
+| **2034+** | **5.0%** | **5.0%** |
 
 **Practical implication:** In early transition years, the higher rates provide greater SBIE—reducing Top-up Tax exposure. As rates decline, more income becomes subject to Top-up Tax.
 
 ### Which Year's Rate Applies?
 
-Use the rate for the **fiscal year** being calculated:
-- FY 2025 (ending in 2025): Use 2025 rates (9.6% / 7.6%)
-- FY 2025 (starting in 2024, ending in 2025): Use 2025 rates if fiscal year-end is the determining factor
+Use the rate for the **fiscal year** being calculated based on when the fiscal year **begins**:
+- FY beginning 2025: Use 2025 rates (9.8% / 7.8%)
+- FY beginning 2024: Use 2024 rates (10.0% / 8.0%)
 
 **Note:** Consult domestic implementing legislation for the specific rule applicable in each jurisdiction.
 
@@ -286,17 +287,17 @@ Germany (ETR 23.00%) is not low-taxed, so no SBIE calculation is required.
 
 | Component | Base | Rate | Carve-out |
 |-----------|------|------|-----------|
-| Payroll | €850,000 | 9.6% | €81,600 |
-| Tangible Assets | €1,427,500 | 7.6% | €108,490 |
-| **Total SBIE** | | | **€190,090** |
+| Payroll | €850,000 | 9.8% | €83,300 |
+| Tangible Assets | €1,427,500 | 7.8% | €111,345 |
+| **Total SBIE** | | | **€194,645** |
 
 **Step 4: Calculate Excess Profit**
 
 ```
 Net GloBE Income:                   €4,000,000
-Less: SBIE:                         (€190,090)
+Less: SBIE:                         (€194,645)
                                     ───────────
-Excess Profit:                      €3,809,910
+Excess Profit:                      €3,805,355
 ```
 
 ### Ireland SBIE Calculation
@@ -321,25 +322,25 @@ Excess Profit:                      €3,809,910
 
 | Component | Base | Rate | Carve-out |
 |-----------|------|------|-----------|
-| Payroll | €4,200,000 | 9.6% | €403,200 |
-| Tangible Assets | €16,200,000 | 7.6% | €1,231,200 |
-| **Total SBIE** | | | **€1,634,400** |
+| Payroll | €4,200,000 | 9.8% | €411,600 |
+| Tangible Assets | €16,200,000 | 7.8% | €1,263,600 |
+| **Total SBIE** | | | **€1,675,200** |
 
 **Step 4: Calculate Excess Profit**
 
 ```
 Net GloBE Income:                   €15,000,000
-Less: SBIE:                         (€1,634,400)
+Less: SBIE:                         (€1,675,200)
                                     ────────────
-Excess Profit:                      €13,365,600
+Excess Profit:                      €13,324,800
 ```
 
 ### SBIE Summary
 
 | Jurisdiction | Net GloBE Income | SBIE | Excess Profit |
 |--------------|------------------|------|---------------|
-| Singapore | €4,000,000 | €190,090 | €3,809,910 |
-| Ireland | €15,000,000 | €1,634,400 | €13,365,600 |
+| Singapore | €4,000,000 | €194,645 | €3,805,355 |
+| Ireland | €15,000,000 | €1,675,200 | €13,324,800 |
 
 **Key observation:** Ireland has significant substance (high payroll and tangible assets), which reduces its Excess Profit by over €1.6M. Singapore has less substance relative to income.
 
@@ -361,9 +362,9 @@ When a jurisdiction has multiple Constituent Entities, calculate SBIE for **each
 
 | Component | Base | Rate | Carve-out |
 |-----------|------|------|-----------|
-| Payroll | €6,000,000 | 9.6% | €576,000 |
-| Tangible Assets | €19,600,000 | 7.6% | €1,489,600 |
-| **Total SBIE** | | | **€2,065,600** |
+| Payroll | €6,000,000 | 9.8% | €588,000 |
+| Tangible Assets | €19,600,000 | 7.8% | €1,528,800 |
+| **Total SBIE** | | | **€2,116,800** |
 
 **Jurisdictional blending applies:** The combined SBIE reduces the combined Net GloBE Income.
 
@@ -525,7 +526,7 @@ The rates approximate a "normal" return on these investments, excluding it from 
 The Substance-Based Income Exclusion reduces the Top-up Tax base by recognising genuine economic substance. The key implementation steps are:
 
 1. **Identify low-taxed jurisdictions** — Only calculate SBIE where ETR < 15%
-2. **Determine applicable transition rates** — Higher in early years (2024: 9.8%/7.8%)
+2. **Determine applicable transition rates** — Higher in early years (2024: 10%/8%)
 3. **Calculate Payroll Carve-out** — Eligible payroll × Payroll Rate
 4. **Calculate Tangible Asset Carve-out** — Average carrying value × Asset Rate
 5. **Sum the carve-outs** — SBIE = Payroll + Tangible Asset
