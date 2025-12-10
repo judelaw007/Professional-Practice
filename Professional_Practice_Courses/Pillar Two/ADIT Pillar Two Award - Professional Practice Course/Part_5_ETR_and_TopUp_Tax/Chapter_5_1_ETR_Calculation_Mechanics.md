@@ -370,7 +370,7 @@ ETR (UK) = ───────────── = 29.08%
 
 **Error:** Using GloBE Income from Case Study 3 without the QRTC addition.
 
-**Correct approach:** If QRTCs were identified in Part 4, the corresponding addition to GloBE Income (Article 3.2.4) must be reflected in the denominator.
+**Correct approach:** If QRTCs were identified in Part 4, the corresponding addition to GloBE Income (Article 3.2.10) must be reflected in the denominator.
 
 ---
 

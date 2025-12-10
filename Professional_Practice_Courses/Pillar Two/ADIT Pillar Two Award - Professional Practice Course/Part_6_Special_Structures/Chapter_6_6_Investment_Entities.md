@@ -489,14 +489,14 @@ InvestFund SICAV:
 └── Top-up Tax %: 15% − 2% = 13%
 
 SBIE (assume minimal):
-├── Payroll: €500,000 × 9% = €45,000
+├── Payroll: €500,000 × 9.8% = €49,000
 ├── Assets: €0 (financial investments not tangible)
-└── Total SBIE: €45,000
+└── Total SBIE: €49,000
 
-Excess Profit = €12,000,000 − €45,000 = €11,955,000
-Top-up Tax = €11,955,000 × 13% = €1,554,150
+Excess Profit = €12,000,000 − €49,000 = €11,951,000
+Top-up Tax = €11,951,000 × 13% = €1,553,630
 
-Stratos IIR liability on InvestFund: €1,554,150
+Stratos IIR liability on InvestFund: €1,553,630
 ```
 
 ### Step 4: Consider Article 7.5 Election (Tax Transparency)
@@ -523,10 +523,10 @@ Stratos Holdings plc (blended):
 │
 └── Blended UK ETR: €20,240,000 / €92,000,000 = 22.00%
 
-ETR ≥ 15% → No Top-up Tax (Article 7.5 election eliminates €1,554,150 exposure)
+ETR ≥ 15% → No Top-up Tax (Article 7.5 election eliminates €1,553,630 exposure)
 ```
 
-**Result:** Article 7.5 Election saves €1,554,150 in Top-up Tax by blending low-taxed investment income with UK's 25% taxed operating income.
+**Result:** Article 7.5 Election saves €1,553,630 in Top-up Tax by blending low-taxed investment income with UK's 25% taxed operating income.
 
 ### Step 5: Consider Article 7.6 Election (Taxable Distribution Method)
 
@@ -553,7 +553,7 @@ If Stratos elects Article 7.6 instead:
 
 | Option | Top-up Tax | Complexity | Best When |
 |--------|------------|------------|-----------|
-| **Default (Art. 7.4)** | €1,554,150 | Low | Separate analysis required |
+| **Default (Art. 7.4)** | €1,553,630 | Low | Separate analysis required |
 | **Art. 7.5 Election** | €0 | Medium | UK ETR remains ≥15% after blending |
 | **Art. 7.6 Election** | €0-600,000 | High | Distributions expected within 4 years |
 

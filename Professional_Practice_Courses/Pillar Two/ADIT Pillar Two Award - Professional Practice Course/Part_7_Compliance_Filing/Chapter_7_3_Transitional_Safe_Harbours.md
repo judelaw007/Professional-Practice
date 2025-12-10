@@ -197,9 +197,9 @@ Full SBIE calculation using Pillar Two transition rates:
 
 | Year | Payroll Rate | Asset Rate |
 |------|--------------|------------|
-| 2024 | 9.8% | 7.8% |
-| 2025 | 9.0% | 7.0% |
-| 2026 | 8.2% | 6.2% |
+| 2024 | 10.0% | 8.0% |
+| 2025 | 9.8% | 7.8% |
+| 2026 | 9.6% | 7.6% |
 
 ### Example: Singapore
 
@@ -212,11 +212,11 @@ Full SBIE calculation using Pillar Two transition rates:
 **SBIE Calculation (FY 2025):**
 
 ```
-Payroll carve-out: €8,000,000 × 9.0% = €720,000
-Asset carve-out: €12,000,000 × 7.0% = €840,000
-Total SBIE: €1,560,000
+Payroll carve-out: €8,000,000 × 9.8% = €784,000
+Asset carve-out: €12,000,000 × 7.8% = €936,000
+Total SBIE: €1,720,000
 
-CbCR Profit (€1,500,000) ≤ SBIE (€1,560,000) → Test passed
+CbCR Profit (€1,500,000) ≤ SBIE (€1,720,000) → Test passed
 ```
 
 ### When Routine Profits Test Is Useful
@@ -384,7 +384,7 @@ Stratos Holdings plc analyses Safe Harbour eligibility for FY 2025 (year ending 
 |------|-------------|--------|
 | De Minimis | Revenue €42M > €10M | ✗ |
 | Simplified ETR | €420,000 ÷ €4,000,000 = 10.50% < 16% | ✗ |
-| Routine Profits | SBIE = (€1.2M × 9%) + (€0.85M × 7%) = €167,500; Profit €4M > €167,500 | ✗ |
+| Routine Profits | SBIE = (€1.2M × 9.8%) + (€0.85M × 7.8%) = €183,900; Profit €4M > €183,900 | ✗ |
 
 **Singapore Result:** Safe Harbour does NOT apply → Full GloBE calculation required
 
@@ -394,7 +394,7 @@ Stratos Holdings plc analyses Safe Harbour eligibility for FY 2025 (year ending 
 |------|-------------|--------|
 | De Minimis | Revenue €160M > €10M | ✗ |
 | Simplified ETR | €1,850,000 ÷ €15,000,000 = 12.33% < 16% | ✗ |
-| Routine Profits | SBIE = (€8.4M × 9%) + (€12M × 7%) = €1,596,000; Profit €15M > €1.6M | ✗ |
+| Routine Profits | SBIE = (€8.4M × 9.8%) + (€12M × 7.8%) = €1,759,200; Profit €15M > €1.76M | ✗ |
 
 **Ireland Result:** Safe Harbour does NOT apply
 
@@ -426,7 +426,7 @@ Stratos Holdings plc analyses Safe Harbour eligibility for FY 2025 (year ending 
 |------|-------------|--------|
 | De Minimis | Revenue €25M > €10M | ✗ |
 | Simplified ETR | €25,000 ÷ €2,016,000 = 1.24% < 16% | ✗ |
-| Routine Profits | SBIE = (€200K × 9%) + (€50K × 7%) = €21,500; Profit €2M > €21.5K | ✗ |
+| Routine Profits | SBIE = (€200K × 9.8%) + (€50K × 7.8%) = €23,500; Profit €2M > €23.5K | ✗ |
 
 **Cayman Result:** Safe Harbour does NOT apply → Full GloBE calculation required
 
@@ -629,4 +629,4 @@ Step 6: Consolidate into GIR filing
 
 ## Next Step
 
-You have learned how to apply Transitional Safe Harbours to reduce compliance burden. Proceed to **Chapter 7.4: Penalties and Compliance** for guidance on penalty relief provisions and ongoing compliance obligations.
+You have learned how to apply Transitional Safe Harbours to reduce compliance burden. Proceed to **Chapter 7.4: Permanent Safe Harbours** for guidance on the QDMTT Safe Harbour and Simplified Calculations Safe Harbour that provide ongoing compliance relief.

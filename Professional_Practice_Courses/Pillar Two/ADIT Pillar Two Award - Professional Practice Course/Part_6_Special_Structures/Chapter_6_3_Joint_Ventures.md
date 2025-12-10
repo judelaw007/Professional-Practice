@@ -353,29 +353,29 @@ The JV Group consists of:
 
 | Component | Amount | Rate | Carve-out |
 |-----------|--------|------|-----------|
-| Payroll | €1,800,000 | 9.0% | €162,000 |
-| Tangible Assets | €2,200,000 | 7.0% | €154,000 |
-| **Total SBIE** | | | **€316,000** |
+| Payroll | €1,800,000 | 9.8% | €176,400 |
+| Tangible Assets | €2,200,000 | 7.8% | €171,600 |
+| **Total SBIE** | | | **€348,000** |
 
 **France Top-up Tax:**
 
 ```
-Excess Profit = €3,500,000 − €316,000 = €3,184,000
+Excess Profit = €3,500,000 − €348,000 = €3,152,000
 Top-up Tax % = 15% − 11% = 4%
-Top-up Tax = €3,184,000 × 4% = €127,360
+Top-up Tax = €3,152,000 × 4% = €126,080
 ```
 
 ### Step 5: Allocate Top-up Tax
 
-**JV Group Top-up Tax:** €127,360 (France only)
+**JV Group Top-up Tax:** €126,080 (France only)
 
 **Allocation:**
 
 | Investor | Ownership | Allocated Top-up Tax |
 |----------|-----------|---------------------|
-| Stratos Holdings plc | 55% | **€70,048** |
-| TechPartner AG | 45% | €57,312 |
-| **Total** | 100% | **€127,360** |
+| Stratos Holdings plc | 55% | **€69,344** |
+| TechPartner AG | 45% | €56,736 |
+| **Total** | 100% | **€126,080** |
 
 ### Step 6: Determine Collection Mechanism
 
@@ -383,18 +383,18 @@ Top-up Tax = €3,184,000 × 4% = €127,360
 
 | Item | Amount |
 |------|--------|
-| JV France Top-up Tax | €127,360 |
-| QDMTT paid by EuroTech France | (€127,360) |
+| JV France Top-up Tax | €126,080 |
+| QDMTT paid by EuroTech France | (€126,080) |
 | Net IIR liability | **€0** |
 
-**Result:** France retains the €127,360 via QDMTT. Stratos's IIR liability is €0 (QDMTT offset).
+**Result:** France retains the €126,080 via QDMTT. Stratos's IIR liability is €0 (QDMTT offset).
 
 ### Summary: Stratos JV Position
 
 | JV Jurisdiction | ETR | Top-up Tax | Stratos Share | QDMTT? | Net IIR |
 |-----------------|-----|------------|---------------|--------|---------|
 | Germany | 23.00% | €0 | €0 | N/A | €0 |
-| France | 11.00% | €127,360 | €70,048 | Yes | **€0** |
+| France | 11.00% | €126,080 | €69,344 | Yes | **€0** |
 
 ---
 
@@ -491,8 +491,8 @@ Jurisdiction: ___________________________
    If ETR ≥ 15%: No Top-up Tax. Move to next jurisdiction.
 
 □ SBIE Calculation:
-   □ Payroll carve-out (9.0%):                   €__________________
-   □ Asset carve-out (7.0%):                     €__________________
+   □ Payroll carve-out (9.8%):                   €__________________
+   □ Asset carve-out (7.8%):                     €__________________
    □ Total SBIE:                                 €__________________
 
 □ Excess Profit:                                 €__________________

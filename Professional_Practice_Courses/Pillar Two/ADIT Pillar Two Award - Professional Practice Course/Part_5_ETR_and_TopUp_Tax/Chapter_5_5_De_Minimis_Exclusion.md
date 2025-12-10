@@ -375,10 +375,10 @@ If De Minimis were **not** elected:
 | Jurisdiction | ETR | Top-up Tax % | Top-up Tax | De Minimis? | Final Liability |
 |--------------|-----|--------------|------------|-------------|-----------------|
 | Germany | 23.00% | — | €0 | No | €0 |
-| Singapore | 9.81% | 5.19% | €197,734 | No | €197,734 (IIR) |
-| Ireland | 11.80% | 3.20% | €427,699 | No | €0 (QDMTT offset) |
+| Singapore | 9.81% | 5.19% | €197,498 | No | €197,498 (IIR) |
+| Ireland | 11.80% | 3.20% | €426,394 | No | €0 (QDMTT offset) |
 | **Luxembourg** | N/A | N/A | N/A | **Yes** | **€0** |
-| **Total** | | | | | **€197,734** |
+| **Total** | | | | | **€197,498** |
 
 ---
 
