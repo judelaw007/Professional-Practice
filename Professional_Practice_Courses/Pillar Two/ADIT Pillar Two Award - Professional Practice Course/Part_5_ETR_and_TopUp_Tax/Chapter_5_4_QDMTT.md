@@ -83,8 +83,8 @@ QDMTT applies **first** in the rule order:
 
 | Item | Amount |
 |------|--------|
-| Jurisdictional Top-up Tax | €427,699 |
-| Ireland QDMTT | (€427,699) |
+| Jurisdictional Top-up Tax | €426,394 |
+| Ireland QDMTT | (€426,394) |
 | **IIR Liability (UK)** | **€0** |
 
 Ireland retains the full Top-up Tax through its QDMTT. No IIR charge to Stratos Holdings plc.
@@ -261,11 +261,11 @@ Some jurisdictions implemented **Elective DMTTs** in 2024 (where MNEs could choo
 ### Detailed Analysis: Ireland
 
 **Without QDMTT:**
-- Jurisdictional Top-up Tax: €427,699
-- IIR applies: UK collects €427,699
+- Jurisdictional Top-up Tax: €426,394
+- IIR applies: UK collects €426,394
 
 **With QDMTT:**
-- Ireland collects QDMTT: €427,699
+- Ireland collects QDMTT: €426,394
 - IIR liability: €0
 - **Revenue stays in Ireland**
 
@@ -274,9 +274,9 @@ Some jurisdictions implemented **Elective DMTTs** in 2024 (where MNEs could choo
 **Current status:** Singapore has not implemented QDMTT.
 
 **Impact:**
-- Jurisdictional Top-up Tax: €197,734
+- Jurisdictional Top-up Tax: €197,498
 - No QDMTT offset available
-- IIR applies: UK collects €197,734
+- IIR applies: UK collects €197,498
 
 **Future consideration:** If Singapore implements QDMTT, the Top-up Tax would be collected in Singapore rather than the UK.
 
