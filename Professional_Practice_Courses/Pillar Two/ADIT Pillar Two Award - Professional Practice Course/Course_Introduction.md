@@ -70,43 +70,11 @@ The ADIT Pillar Two Award syllabus covers eight core areas:
 | **VII** | The Subject to Tax Rule (STTR) | 10% |
 | **VIII** | Policies of the Inclusive Framework | 5% |
 
-### Knowledge Levels
-
-The syllabus specifies three knowledge levels:
-
-- **Level 1:** Broad understanding and awareness
-- **Level 2:** Detailed knowledge with application in written and computational situations
-- **Level 3:** Advanced knowledge with interpretive analysis and problem-solving in novel situations
-
-Most core topics (Sections I-V) are examined at **Level 3**, requiring candidates to analyse complex scenarios and propose solutions.
-
-### Permitted Exam Texts
-
-Candidates may bring the following texts into the examination:
-
-1. **GloBE Model Rules** — *Tax Challenges Arising from Digitalisation of the Economy. Global Anti-Base Erosion Model Rules (Pillar Two)* (OECD, 2021)
-2. **Consolidated Commentary** — *Consolidated Commentary to the Global Anti-Base Erosion Model Rules (2025)* (OECD, 2025)
-3. **STTR MLI** — *Multilateral Convention to Facilitate the Implementation of the Pillar Two Subject to Tax Rule* (OECD, 2023)
-
 ### Registration and Exam Dates
 
-**Exam Sessions:**
-- **June session** — Registration typically opens October/November of prior year
-- **December session** — Registration typically opens April/May
+Examinations are held in **June** and **December** each year.
 
-**Key Dates (indicative — confirm at [www.tax.org.uk/pillar-two](https://www.tax.org.uk/pillar-two)):**
-
-| Milestone | June Session | December Session |
-|-----------|--------------|------------------|
-| Exam entry opens | ~October/November | ~April/May |
-| Registration deadline | ~March | ~September |
-| Late entry deadline | ~March (with fee) | ~September (with fee) |
-| Examination | June | December |
-| Results published | ~August | ~February |
-
-**Registration:** Visit [www.tax.org.uk/pillar-two](https://www.tax.org.uk/pillar-two) to register and view the current exam timetable.
-
-**Exam Fees:** Visit [www.tax.org.uk/pillar-two/exam-timetable](https://www.tax.org.uk/pillar-two/exam-timetable) for current fee information.
+For registration, exam timetable, fees, and syllabus details, visit: [www.tax.org.uk/pillar-two](https://www.tax.org.uk/pillar-two)
 
 ---
 
@@ -123,7 +91,7 @@ Unlike traditional study materials that focus on **explaining rules**, a Profess
 | Theory-focused | Implementation-focused |
 | Prepares you to answer exam questions | Prepares you to do the work |
 
-This course assumes you already understand (or will learn separately) the theoretical foundations of Pillar Two. Our focus is on giving you the practical skills to:
+By completing this course, you will develop expert-level skills to:
 
 - Calculate GloBE Income for a real entity
 - Determine Covered Taxes and handle complex allocations
@@ -317,8 +285,6 @@ This aligns with the CIOT's estimate of approximately 100 hours for the Pillar T
 **ADIT Resources:**
 - [ADIT Pillar Two Award](https://www.tax.org.uk/pillar-two) — CIOT official page
 - [Exam Timetable](https://www.tax.org.uk/pillar-two/exam-timetable) — Current dates and fees
-- [Permitted Books](https://www.tax.org.uk/pillar-two/permitted-books) — Exam text requirements
-- [Course Providers](https://www.tax.org.uk/pillar-two/course-providers) — Approved training providers
 
 ---
 
@@ -344,4 +310,4 @@ Contact the MojiTax team at **admin@mojitax.com**.
 
 ---
 
-*© 2025 MojiTax. This course is designed to support preparation for the ADIT Pillar Two Award examination. The ADIT Pillar Two Award is a qualification of the Chartered Institute of Taxation (CIOT). MojiTax is not affiliated with the CIOT.*
+*© 2025 MojiTax. This course is designed to support preparation for the ADIT Pillar Two Award examination.*
