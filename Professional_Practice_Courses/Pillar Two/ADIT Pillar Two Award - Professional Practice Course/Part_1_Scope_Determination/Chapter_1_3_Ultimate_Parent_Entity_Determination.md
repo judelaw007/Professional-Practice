@@ -11,7 +11,7 @@ After completing this chapter, you will be able to identify the Ultimate Parent 
 The **Ultimate Parent Entity (UPE)** is the entity at the top of the MNE group that:
 
 1. Owns, directly or indirectly, a controlling interest in any other entity in the group, AND
-2. Is not owned by another entity with a controlling interest in it *(Article 1.4.1)*
+2. Is not owned by another entity with a controlling interest in it *(Article 1.5.1)*
 
 In simpler terms: the UPE is the entity that consolidates all other group entities and is not itself consolidated by another entity.
 
@@ -218,7 +218,7 @@ Add to your group structure documentation:
 ## Key References
 
 **OECD GloBE Model Rules:**
-- Article 1.4.1 — Definition of Ultimate Parent Entity
+- Article 1.5.1 — Definition of Ultimate Parent Entity
 - Article 2.1.1 — IIR application by UPE
 - Article 2.1.2 — IIR application by IPE
 - Article 6.5 — Multi-Parented MNE Groups
