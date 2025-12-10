@@ -90,7 +90,7 @@ FY 2026: Irish Revenue audit settles; €650,000 tax paid
 |------|--------|--------|
 | 1 | Identify QRTC in tax expense | Credit reduces tax expense |
 | 2 | Add QRTC amount back to Covered Taxes | Reverses accounting treatment |
-| 3 | Add QRTC to GloBE Income | Treats as income (Article 3.2.4) |
+| 3 | Add QRTC to GloBE Income | Treats as income (Article 3.2.10) |
 
 **Example:**
 ```
@@ -467,7 +467,7 @@ Adjusted Covered Taxes (Current):   €11,295,000
 The QRTC add-back requires a matching GloBE Income adjustment:
 ```
 GloBE Income (from Chapter 3.2):    €53,700,000
-Add: QRTC (Art. 3.2.4):            +€180,000
+Add: QRTC (Art. 3.2.10):           +€180,000
                                     ───────────
 Adjusted GloBE Income:              €53,880,000
 ```
@@ -556,7 +556,7 @@ SBIE Inputs (Part 5):                 Payroll, Assets
 - Article 4.3.2(c) — CFC tax push-down mechanism
 - Article 4.3.3 — Passive income limitation on push-down
 - Article 4.6.4 — Three-year recapture for unpaid taxes (€1M threshold)
-- Article 3.2.4 — QRTC treatment as income
+- Article 3.2.10 — QRTC treatment as income
 - February 2023 Administrative Guidance — GILTI allocation rules
 - June 2024 Administrative Guidance — Cross-border tax allocation formula
 

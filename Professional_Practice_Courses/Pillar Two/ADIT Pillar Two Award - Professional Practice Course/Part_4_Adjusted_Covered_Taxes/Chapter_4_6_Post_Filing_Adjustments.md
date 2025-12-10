@@ -550,7 +550,7 @@ Post-filing adjustments affect both current and prior-year GloBE calculations:
 4. Compare new ETR to original ETR
 5. Calculate Additional Current Top-up Tax if new ETR < 15%
 
-**Note:** The €1M immaterial election (Article 4.6.4) allows current-year treatment instead of recalculation for jurisdictions meeting the threshold.
+**Note:** The €1M immaterial election allows current-year treatment instead of recalculation for jurisdictions where the aggregate decrease is below the threshold.
 
 ---
 

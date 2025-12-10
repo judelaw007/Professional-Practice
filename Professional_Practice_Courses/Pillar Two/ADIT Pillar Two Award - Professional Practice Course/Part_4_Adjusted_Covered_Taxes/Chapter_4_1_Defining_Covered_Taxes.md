@@ -143,7 +143,7 @@ If a jurisdiction imposes a *non-qualifying* domestic minimum tax (NDMTT), that 
 
 ## Qualified Refundable Tax Credits: Special Treatment
 
-Qualified Refundable Tax Credits (QRTCs) receive preferential treatment under GloBE—they are treated as **income** rather than as a reduction of Covered Taxes (Article 3.2.4).
+Qualified Refundable Tax Credits (QRTCs) receive preferential treatment under GloBE—they are treated as **income** rather than as a reduction of Covered Taxes (Article 3.2.10).
 
 ### Definition (Article 10.1)
 
@@ -413,7 +413,7 @@ The tool calculates:
 - Article 4.2.1 — Four categories of Covered Taxes
 - Article 4.2.2 — Exclusion of IIR and QDMTT top-up taxes
 - Article 4.3.2(c) — Push-down of CFC taxes
-- Article 3.2.4 — QRTC treatment as income
+- Article 3.2.10 — QRTC treatment as income
 - Article 7.3 — Eligible Distribution Tax System special rules
 - Article 10.1 — Definitions (QRTC, EDTS)
 - Commentary, Chapter 4 — Detailed guidance on Covered Tax classification
