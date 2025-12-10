@@ -100,7 +100,7 @@ SBIE Asset Amount = (Asset Value at Transaction Date) × (Months in Group / 12)
 Entity joins on 1 September (4 months in group):
 - Tangible assets at joining date: €10,000,000
 - SBIE asset amount: €10,000,000 × (4/12) = €3,333,333
-- Asset carve-out (7.0% for 2025): €3,333,333 × 7% = €233,333
+- Asset carve-out (7.8% for 2025): €3,333,333 × 7.8% = €260,000
 
 ---
 
@@ -439,16 +439,16 @@ Irish tax law treats the acquisition as a **share deal**. The shares are sold by
 Asset value at joining date: €5,000,000
 Months in group: 6 out of 12
 Prorated amount: €5,000,000 × (6/12) = €2,500,000
-Asset carve-out (7.0%): €2,500,000 × 7% = €175,000
+Asset carve-out (7.8%): €2,500,000 × 7.8% = €195,000
 ```
 
 **Payroll:**
 ```
 Payroll in consolidated period: €1,200,000
-Payroll carve-out (9.0%): €1,200,000 × 9% = €108,000
+Payroll carve-out (9.8%): €1,200,000 × 9.8% = €117,600
 ```
 
-**Total SBIE for TechStart (partial year):** €175,000 + €108,000 = **€283,000**
+**Total SBIE for TechStart (partial year):** €195,000 + €117,600 = **€312,600**
 
 ### Step 4: Handle Deferred Tax Attributes
 
@@ -570,11 +570,11 @@ SECTION B: PARTIAL YEAR CALCULATIONS
 
 □ SBIE Components:
    □ Payroll (consolidated period):             €__________________
-   □ Payroll carve-out (×9.0%):                 €__________________
+   □ Payroll carve-out (×9.8%):                 €__________________
 
    □ Tangible assets at transaction date:       €__________________
    □ Prorated amount (× months/12):             €__________________
-   □ Asset carve-out (×7.0%):                   €__________________
+   □ Asset carve-out (×7.8%):                   €__________________
 
    □ Total SBIE:                                €__________________
 
