@@ -35,7 +35,7 @@ For each entity on the list, determine its classification:
 | **Equity method investee** | Significant influence (typically 20-50%) | Generally NOT a Constituent Entity* |
 | **Excluded on materiality** | Below consolidation threshold | Constituent Entity (if would otherwise consolidate) |
 
-*Equity method investees may be Constituent Entities if they are Joint Ventures meeting specific criteria—see Chapter 1.2.4 below.
+*Equity method investees may be Constituent Entities if they are Joint Ventures meeting specific criteria—see Joint Arrangements section below.
 
 ### Step 3: Identify Permanent Establishments
 
@@ -104,7 +104,7 @@ Entities over which the UPE has control are fully consolidated and are Constitue
 
 **Joint operations:** Assets and liabilities recognised directly—underlying entity is a Constituent Entity.
 
-**Joint ventures:** Equity method applies by default, but may be a Constituent Entity if meeting the JV definition under Article 6.4 (ownership between 50% and 100% by parties outside the MNE group)—see Part 6.
+**Joint ventures:** Equity method applies by default, but may be a Constituent Entity if meeting the JV definition under Article 10.1 (where the UPE holds directly or indirectly 50% or more ownership interest in an equity method entity)—see Part 6.
 
 ### Significant Influence (20-50%)
 
