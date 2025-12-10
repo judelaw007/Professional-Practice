@@ -159,16 +159,16 @@ SBIE TRANSITION RATES
 
 Year        Payroll Rate    Asset Rate    Notes
 ─────────────────────────────────────────────────────
-2024        9.8%            7.8%          Initial rates
-2025        9.0%            7.0%
-2026        8.2%            6.2%
-2027        7.4%            5.6%
-2028        6.6%            5.2%
-2029        5.8%            4.8%          First 6 years: -0.2%/year
+2024        10.0%           8.0%          Initial rates
+2025        9.8%            7.8%
+2026        9.6%            7.6%
+2027        9.4%            7.4%
+2028        9.2%            7.2%
+2029        9.0%            7.0%          First 6 years
 ─────────────────────────────────────────────────────
-2030        5.4%            4.6%
-2031        5.2%            4.4%          Last 4 years: steeper decline
-2032        5.1%            4.2%
+2030        8.2%            6.6%
+2031        6.4%            5.6%          Last 4 years: steeper decline
+2032        5.2%            5.2%
 2033+       5.0%            5.0%          Permanent rates
 ```
 
@@ -176,12 +176,12 @@ Year        Payroll Rate    Asset Rate    Notes
 
 As SBIE rates decline, **Excess Profit increases**, leading to higher potential Top-up Tax:
 
-**Example: Singapore (€4M GloBE Income, ETR 10%)**
+**Example: Singapore (€4M GloBE Income, Payroll €1.2M, Assets €850K, ETR 10%)**
 
 | Year | Payroll Carve-out | Asset Carve-out | Total SBIE | Excess Profit | Top-up Tax (5%) |
 |------|-------------------|-----------------|------------|---------------|-----------------|
-| 2024 | €117,600 (9.8%) | €66,300 (7.8%) | €183,900 | €3,816,100 | €190,805 |
-| 2025 | €108,000 (9.0%) | €59,500 (7.0%) | €167,500 | €3,832,500 | €191,625 |
+| 2024 | €120,000 (10.0%) | €68,000 (8.0%) | €188,000 | €3,812,000 | €190,600 |
+| 2025 | €117,600 (9.8%) | €66,300 (7.8%) | €183,900 | €3,816,100 | €190,805 |
 | 2033 | €60,000 (5.0%) | €42,500 (5.0%) | €102,500 | €3,897,500 | €194,875 |
 
 **Trend:** Top-up Tax increases by ~€4,000 over transition period due to declining SBIE.
@@ -314,9 +314,9 @@ Irish domestic rate (12.5%) is **below** 15%, so full amounts are used:
 
 | Component | Amount (€) | Rate (2025) | Carve-out (€) |
 |-----------|------------|-------------|---------------|
-| Payroll | 8,400,000 | 9.0% | 756,000 |
-| Tangible Assets | 12,000,000 | 7.0% | 840,000 |
-| **Total SBIE** | | | **1,596,000** |
+| Payroll | 8,400,000 | 9.8% | 823,200 |
+| Tangible Assets | 12,000,000 | 7.8% | 936,000 |
+| **Total SBIE** | | | **1,759,200** |
 
 ### Step 4: DTL Recapture Setup
 
@@ -472,7 +472,7 @@ SECTION D: DOCUMENTATION
 
 **Consequence:** Understated SBIE; overstated Top-up Tax.
 
-**Correct approach:** Apply transition rates based on fiscal year (9.0%/7.0% for 2025, etc.).
+**Correct approach:** Apply transition rates based on fiscal year (9.8%/7.8% for 2025, etc.).
 
 ### Pitfall 5: Overlooking Grace Period Benefits
 
@@ -493,7 +493,7 @@ Transition year adjustments are critical for accurate GloBE calculations:
 | **Article 9.1.1** | Opening DTAs/DTLs measured at lower of 15% or domestic rate |
 | **Article 9.1.2** | Exclude DTAs from post-30 Nov 2021 transactions and certain government benefits |
 | **Article 9.1.3** | Intragroup transfers after 30 Nov 2021 use transferor's basis |
-| **Article 9.2** | SBIE rates phase down: 9.8%/7.8% (2024) → 5%/5% (2033+) |
+| **Article 9.2** | SBIE rates phase down: 10%/8% (2024) → 5%/5% (2033+) |
 | **Article 4.4.4** | DTLs subject to 5-year recapture (with exceptions) |
 | **Grace Period** | 2-3 years for certain pre-existing arrangements |
 
@@ -531,4 +531,4 @@ Step 6: Document in GIR filing
 
 ## Next Step
 
-You have learned how to apply transition year adjustments for accurate GloBE calculations. Proceed to **Case Study 7: Stratos Complete GIR Filing** for a comprehensive worked example bringing together all Part 7 concepts.
+You have learned how to apply transition year adjustments for accurate GloBE calculations. Proceed to **Chapter 7.6: Ongoing Compliance Process** for guidance on establishing sustainable Pillar Two compliance processes.
