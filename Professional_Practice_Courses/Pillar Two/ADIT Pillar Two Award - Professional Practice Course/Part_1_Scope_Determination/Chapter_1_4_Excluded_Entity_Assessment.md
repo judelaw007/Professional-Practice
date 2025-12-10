@@ -84,9 +84,9 @@ An **Investment Fund** qualifies for exclusion only if it is the **Ultimate Pare
 
 ---
 
-## Five-Year Ownership Test for Investment Funds
+## Ownership Test for Investment Funds
 
-An Investment Fund UPE qualifies for exclusion only if it meets the **five-year ownership test** *(Article 1.5.2)*:
+An Investment Fund UPE qualifies for exclusion only if it meets the **ownership test** *(Article 1.5.2)*:
 
 At least **80% of the value** of ownership interests in the fund must be held by persons who are:
 - Not connected with the fund manager, AND
@@ -228,7 +228,7 @@ From Stratos's 47 Constituent Entities, the tax team identifies three potential 
 
 The entity is engaged in commercial trading activities despite government majority ownership. It fails the "government functions only" test *(Commentary, para. 39)*.
 
-This entity remains a Constituent Entity and will be included in GloBE calculations. However, as a joint arrangement with only 51% government ownership (and 49% owned by Stratos), the treatment depends on whether it meets the JV definition under Article 6.4—see Part 6.
+This entity remains a Constituent Entity and will be included in GloBE calculations. However, as a joint arrangement with only 51% government ownership (and 49% owned by Stratos), the treatment depends on whether it meets the JV definition under Article 10.1—see Part 6.
 
 ### Result
 
