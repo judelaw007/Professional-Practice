@@ -60,21 +60,20 @@ Top-up Tax Percentage = 15% − ETR
 | ETR = 14.99% | 15% − 14.99% = 0.01% | Top-up Tax applies (small amount) |
 | ETR = 15% | 15% − 15% = 0% | No Top-up Tax |
 | ETR = 20% | N/A | Not calculated (ETR ≥ 15%) |
-| ETR = negative | 15% − (−5%) = 20% | Top-up Tax % capped at 15% |
+| ETR = negative | 15% − (−5%) = 20% | Top-up Tax % = 20% (no cap) |
 
 ### Negative ETR Treatment
 
 If the ETR is **negative** (Adjusted Covered Taxes are negative):
 
 ```
-Top-up Tax Percentage = MIN(15%, 15% − ETR)
+Top-up Tax Percentage = 15% − ETR
 ```
 
 **Example:** ETR = −5%
-- Formula gives: 15% − (−5%) = 20%
-- But capped at: **15%**
+- Formula gives: 15% − (−5%) = **20%**
 
-The Top-up Tax Percentage cannot exceed 15% *(the maximum shortfall from zero to the minimum rate)*.
+Per OECD Commentary paragraph 102, there is no cap—the Top-up Tax Percentage equals 15% plus the absolute value of the negative ETR. This ensures the jurisdiction reaches a 15% effective rate on Excess Profit.
 
 ---
 
@@ -95,13 +94,13 @@ Where:
 ┌─────────────────────────────────────────────────────────────────┐
 │                                                                 │
 │  Net GloBE Income                     €15,000,000               │
-│  Less: SBIE                          (€1,634,400)               │
+│  Less: SBIE                          (€1,675,200)               │
 │                                       ───────────               │
-│  Excess Profit                        €13,365,600               │
+│  Excess Profit                        €13,324,800               │
 │                                                                 │
 │  Top-up Tax %                              3.2%                 │
 │                                       ───────────               │
-│  Jurisdictional Top-up Tax              €427,699                │
+│  Jurisdictional Top-up Tax              €426,394                │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -129,8 +128,8 @@ Ireland has implemented a QDMTT. If Ireland collects the full Top-up Tax domesti
 
 | Item | Amount |
 |------|--------|
-| Jurisdictional Top-up Tax | €427,699 |
-| QDMTT Paid (Ireland) | (€427,699) |
+| Jurisdictional Top-up Tax | €426,394 |
+| QDMTT Paid (Ireland) | (€426,394) |
 | **Net Top-up Tax (IIR/UTPR)** | **€0** |
 
 **Result:** No Top-up Tax flows to parent entity under IIR—Ireland retains the tax.
@@ -244,8 +243,8 @@ When Additional Current Top-up Tax is triggered:
 | Net GloBE Income | Chapter 5.1 | €4,000,000 |
 | Adjusted Covered Taxes | Chapter 5.1 | €392,206 |
 | ETR | Chapter 5.1 | 9.81% |
-| SBIE | Chapter 5.2 | €190,090 |
-| Excess Profit | Chapter 5.2 | €3,809,910 |
+| SBIE | Chapter 5.2 | €194,645 |
+| Excess Profit | Chapter 5.2 | €3,805,355 |
 
 **Step 1: Top-up Tax Percentage**
 
@@ -256,7 +255,7 @@ Top-up Tax % = 15% − 9.81% = 5.19%
 **Step 2: Jurisdictional Top-up Tax**
 
 ```
-Jurisdictional Top-up Tax = 5.19% × €3,809,910 = €197,734
+Jurisdictional Top-up Tax = 5.19% × €3,805,355 = €197,498
 ```
 
 **Step 3: QDMTT Offset**
@@ -265,7 +264,7 @@ Singapore has **not** implemented a QDMTT (as of FY 2025).
 
 ```
 QDMTT Paid:                             €0
-Net Top-up Tax:                         €197,734
+Net Top-up Tax:                         €197,498
 ```
 
 **Step 4: Allocation**
@@ -273,7 +272,7 @@ Net Top-up Tax:                         €197,734
 Singapore has one entity (SG Singapore Pte Ltd):
 
 ```
-Allocation: 100% to SG Singapore Pte Ltd = €197,734
+Allocation: 100% to SG Singapore Pte Ltd = €197,498
 ```
 
 ### Singapore Summary
@@ -281,9 +280,9 @@ Allocation: 100% to SG Singapore Pte Ltd = €197,734
 | Step | Description | Amount |
 |------|-------------|--------|
 | 1 | Top-up Tax % | 5.19% |
-| 2 | Jurisdictional Top-up Tax | €197,734 |
+| 2 | Jurisdictional Top-up Tax | €197,498 |
 | 3 | QDMTT Offset | €0 |
-| 4 | **Net Top-up Tax** | **€197,734** |
+| 4 | **Net Top-up Tax** | **€197,498** |
 
 ---
 
@@ -296,8 +295,8 @@ Allocation: 100% to SG Singapore Pte Ltd = €197,734
 | Net GloBE Income | Chapter 5.1 | €15,000,000 |
 | Adjusted Covered Taxes | Chapter 5.1 | €1,770,000 |
 | ETR | Chapter 5.1 | 11.80% |
-| SBIE | Chapter 5.2 | €1,634,400 |
-| Excess Profit | Chapter 5.2 | €13,365,600 |
+| SBIE | Chapter 5.2 | €1,675,200 |
+| Excess Profit | Chapter 5.2 | €13,324,800 |
 
 **Step 1: Top-up Tax Percentage**
 
@@ -308,7 +307,7 @@ Top-up Tax % = 15% − 11.80% = 3.20%
 **Step 2: Jurisdictional Top-up Tax**
 
 ```
-Jurisdictional Top-up Tax = 3.20% × €13,365,600 = €427,699
+Jurisdictional Top-up Tax = 3.20% × €13,324,800 = €426,394
 ```
 
 **Step 3: QDMTT Offset**
@@ -316,7 +315,7 @@ Jurisdictional Top-up Tax = 3.20% × €13,365,600 = €427,699
 Ireland **has** implemented a QDMTT. Assume Ireland collects the full Top-up Tax domestically:
 
 ```
-QDMTT Paid (Ireland):                   €427,699
+QDMTT Paid (Ireland):                   €426,394
 Net Top-up Tax (IIR/UTPR):              €0
 ```
 
@@ -329,8 +328,8 @@ Since QDMTT covers the full liability, no allocation to parent entities is requi
 | Step | Description | Amount |
 |------|-------------|--------|
 | 1 | Top-up Tax % | 3.20% |
-| 2 | Jurisdictional Top-up Tax | €427,699 |
-| 3 | QDMTT Offset | (€427,699) |
+| 2 | Jurisdictional Top-up Tax | €426,394 |
+| 3 | QDMTT Offset | (€426,394) |
 | 4 | **Net Top-up Tax (IIR)** | **€0** |
 
 **Result:** Ireland retains the Top-up Tax through QDMTT. No IIR charge to Stratos Holdings plc.
@@ -344,22 +343,22 @@ Since QDMTT covers the full liability, no allocation to parent entities is requi
 | Jurisdiction | ETR | Top-up Tax % | Excess Profit | Jur. Top-up Tax | QDMTT | Net Top-up Tax |
 |--------------|-----|--------------|---------------|-----------------|-------|----------------|
 | Germany | 23.00% | N/A | N/A | €0 | N/A | €0 |
-| Singapore | 9.81% | 5.19% | €3,809,910 | €197,734 | €0 | **€197,734** |
-| Ireland | 11.80% | 3.20% | €13,365,600 | €427,699 | (€427,699) | €0 |
-| **Total** | | | | **€625,433** | **(€427,699)** | **€197,734** |
+| Singapore | 9.81% | 5.19% | €3,805,355 | €197,498 | €0 | **€197,498** |
+| Ireland | 11.80% | 3.20% | €13,324,800 | €426,394 | (€426,394) | €0 |
+| **Total** | | | | **€623,892** | **(€426,394)** | **€197,498** |
 
 ### Where Does Stratos Pay?
 
 | Amount | Recipient | Mechanism |
 |--------|-----------|-----------|
-| €197,734 | UK (Stratos Holdings plc) | **IIR** |
-| €427,699 | Ireland | **QDMTT** (retained by Ireland) |
+| €197,498 | UK (Stratos Holdings plc) | **IIR** |
+| €426,394 | Ireland | **QDMTT** (retained by Ireland) |
 
-**Total Group Tax Liability:** €625,433
+**Total Group Tax Liability:** €623,892
 
 **Of which:**
-- Paid to UK via IIR: €197,734
-- Retained by Ireland via QDMTT: €427,699
+- Paid to UK via IIR: €197,498
+- Retained by Ireland via QDMTT: €426,394
 
 ---
 
@@ -376,7 +375,7 @@ If UPE is in an IIR jurisdiction:
     → UPE pays Top-up Tax on all low-taxed subsidiaries
 ```
 
-**Stratos example:** UK has implemented IIR. Stratos Holdings plc pays €197,734 on Singapore.
+**Stratos example:** UK has implemented IIR. Stratos Holdings plc pays €197,498 on Singapore.
 
 ### UTPR as Backstop *(Article 2.4)*
 
