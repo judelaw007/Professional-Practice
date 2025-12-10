@@ -374,8 +374,8 @@ Stratos Holdings plc (UK) — UPE
 | UK | 11,525,000 | 25.00% | 0 | — |
 | Germany | 59,929,000 | 23.00% | 0 | — |
 | USA | 12,300,400 | 15.49% | 0 | — |
-| Singapore | 4,000,000 | 9.81% | 198,907 | IIR |
-| Ireland | 15,000,000 | 11.80% | 428,928 | QDMTT |
+| Singapore | 4,000,000 | 9.81% | 197,498 | IIR |
+| Ireland | 15,000,000 | 11.80% | 426,394 | QDMTT |
 | Luxembourg | — | — | 0 | De Minimis |
 | Cayman | 2,016,000 | 1.00% | 280,480 | IIR |
 
@@ -565,4 +565,4 @@ Step 6: File centrally or locally as determined
 
 ## Next Step
 
-You have learned the fundamentals of GloBE Information Return filing. Proceed to **Chapter 7.2: Transitional Safe Harbours** for guidance on the CbCR-based safe harbours that can simplify compliance in the initial Pillar Two years.
+You have learned the fundamentals of GloBE Information Return filing. Proceed to **Chapter 7.2: GIR Data Requirements** for detailed guidance on the specific data elements required for each section of the GloBE Information Return.
