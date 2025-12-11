@@ -2,7 +2,7 @@
 
 ## Learning Objective
 
-After completing this chapter, you will be able to identify when two or more parent entities form a Multi-Parented MNE Group, distinguish between Stapled Structures and Dual-Listed Arrangements, determine how Top-up Tax is allocated across multiple UPEs, and ensure correct GIR filing obligations for combined groups.
+After completing this chapter, you will be able to identify when two or more parent entities form a Multi-Parented MNE Group, distinguish between Stapled Structures and Dual-Listed Arrangements, determine how Top-Up Tax is allocated across multiple UPEs, and ensure correct GIR filing obligations for combined groups.
 
 ---
 
@@ -11,7 +11,7 @@ After completing this chapter, you will be able to identify when two or more par
 **OECD GloBE Model Rules:**
 - Article 6.5.1 — Multi-Parented MNE Group definition
 - Article 6.5.2 — Combined treatment as single MNE Group
-- Article 6.5.3 — Top-up Tax allocation between UPEs
+- Article 6.5.3 — Top-Up Tax allocation between UPEs
 - Article 10.1 — Definition of Stapled Structure and Dual-Listed Arrangement
 
 **OECD Commentary:**
@@ -19,7 +19,7 @@ After completing this chapter, you will be able to identify when two or more par
 
 **Administrative Guidance:**
 - December 2023: Combined GIR filing for Multi-Parented Groups
-- February 2024: Top-up Tax allocation clarifications
+- February 2024: Top-Up Tax allocation clarifications
 
 ---
 
@@ -34,7 +34,7 @@ Multi-Parented MNE Groups present unique challenges because there is no single U
 │ Standard GloBE structure:                                           │
 │ → ONE UPE at top of ownership chain                                │
 │ → All Constituent Entities trace back to single parent             │
-│ → Top-up Tax charged to that UPE via IIR                           │
+│ → Top-Up Tax charged to that UPE via IIR                           │
 │                                                                     │
 │ Multi-Parented reality:                                             │
 │ → TWO OR MORE parent entities operate as unified group             │
@@ -44,7 +44,7 @@ Multi-Parented MNE Groups present unique challenges because there is no single U
 │ THE SOLUTION (Article 6.5):                                         │
 │ → Treat the combined structure as a SINGLE MNE Group               │
 │ → Each parent entity becomes a "Joint UPE"                         │
-│ → Allocate Top-up Tax proportionally to each UPE                   │
+│ → Allocate Top-Up Tax proportionally to each UPE                   │
 │ → Coordinate GIR filing obligations                                 │
 └─────────────────────────────────────────────────────────────────────┘
 ```
@@ -183,7 +183,7 @@ When entities form a Multi-Parented MNE Group:
 │ NO duplication:                                                     │
 │ → Revenue counted ONCE (not doubled for each parent)               │
 │ → GloBE Income calculated ONCE per jurisdiction                    │
-│ → Top-up Tax calculated ONCE, then ALLOCATED                       │
+│ → Top-Up Tax calculated ONCE, then ALLOCATED                       │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -205,14 +205,14 @@ The €750M threshold is applied to the **combined group**:
 
 ---
 
-## Top-up Tax Allocation *(Article 6.5.3)*
+## Top-Up Tax Allocation *(Article 6.5.3)*
 
 ### The Allocation Principle
 
-When a Multi-Parented MNE Group has Top-up Tax liability, it must be **allocated** between the Joint UPEs:
+When a Multi-Parented MNE Group has Top-Up Tax liability, it must be **allocated** between the Joint UPEs:
 
 ```
-Top-up Tax Allocation = Group Top-up Tax × Allocable Share
+Top-Up Tax Allocation = Group Top-Up Tax × Allocable Share
 ```
 
 ### Determining Allocable Share
@@ -227,7 +227,7 @@ The **Allocable Share** for each UPE is based on its relative economic interest 
 
 ### Example: Stapled Structure Allocation
 
-**Scenario:** Alpha plc and Beta plc are 100% stapled. Combined group has €400,000 Top-up Tax.
+**Scenario:** Alpha plc and Beta plc are 100% stapled. Combined group has €400,000 Top-Up Tax.
 
 ```
 Alpha shareholders: 60% of stapled units
@@ -242,7 +242,7 @@ Each pays via IIR based on allocable share.
 
 ### Example: DLA Allocation
 
-**Scenario:** UK Co plc and AU Co Ltd have a DLA with 50/50 equalisation. Combined Top-up Tax is €600,000.
+**Scenario:** UK Co plc and AU Co Ltd have a DLA with 50/50 equalisation. Combined Top-Up Tax is €600,000.
 
 ```
 Equalisation agreement: 50/50
@@ -278,20 +278,20 @@ Alpha plc (UK)              Beta Ltd (Australia)
 COMBINED GERMANY:
 ├── Total GloBE Income: €30M + €20M = €50M
 ├── Total Covered Taxes: €6.9M + €4.2M = €11.1M
-└── Combined ETR: 22.20% ✓ (≥15%, no Top-up Tax)
+└── Combined ETR: 22.20% ✓ (≥15%, no Top-Up Tax)
 
 COMBINED IRELAND:
 ├── Total GloBE Income: €15M
 ├── Total Covered Taxes: €1.8M
-└── Combined ETR: 12.00% (Top-up Tax applies)
+└── Combined ETR: 12.00% (Top-Up Tax applies)
 
 COMBINED SINGAPORE:
 ├── Total GloBE Income: €25M
 ├── Total Covered Taxes: €2.5M
-└── Combined ETR: 10.00% (Top-up Tax applies)
+└── Combined ETR: 10.00% (Top-Up Tax applies)
 ```
 
-**Key point:** Germany entities blend together even though owned by different parents. The combined 22.20% ETR means no Top-up Tax for Germany.
+**Key point:** Germany entities blend together even though owned by different parents. The combined 22.20% ETR means no Top-Up Tax for Germany.
 
 ---
 
@@ -416,12 +416,12 @@ PROPOSED DLA STRUCTURE
 ```
 Combined Germany ETR = €15,460,000 ÷ €68,000,000 = 22.74%
 
-ETR ≥ 15% → No Top-up Tax for Germany
+ETR ≥ 15% → No Top-Up Tax for Germany
 ```
 
-**NordicTech GmbH has 22% standalone ETR**, but blending with Stratos GmbH still results in no Top-up Tax (both are adequately taxed).
+**NordicTech GmbH has 22% standalone ETR**, but blending with Stratos GmbH still results in no Top-Up Tax (both are adequately taxed).
 
-### Step 5: Calculate Top-up Tax for Low-Tax Jurisdictions
+### Step 5: Calculate Top-Up Tax for Low-Tax Jurisdictions
 
 **Singapore (Stratos only):**
 
@@ -430,10 +430,10 @@ ETR ≥ 15% → No Top-up Tax for Germany
 | GloBE Income | €32,000,000 |
 | Covered Taxes | €3,136,000 |
 | ETR | **9.80%** |
-| Top-up Tax % | 5.20% |
+| Top-Up Tax % | 5.20% |
 | SBIE | €1,892,000 |
 | Excess Profit | €30,108,000 |
-| Top-up Tax | **€1,565,616** |
+| Top-Up Tax | **€1,565,616** |
 
 **Sweden (NordicTech only — assumed undertaxed):**
 
@@ -442,16 +442,16 @@ ETR ≥ 15% → No Top-up Tax for Germany
 | GloBE Income | €12,000,000 |
 | Covered Taxes | €1,320,000 |
 | ETR | **11.00%** |
-| Top-up Tax % | 4.00% |
+| Top-Up Tax % | 4.00% |
 | SBIE | €800,000 |
 | Excess Profit | €11,200,000 |
-| Top-up Tax | **€448,000** |
+| Top-Up Tax | **€448,000** |
 
-### Step 6: Allocate Top-up Tax Between Joint UPEs
+### Step 6: Allocate Top-Up Tax Between Joint UPEs
 
-**Total Combined Group Top-up Tax:**
+**Total Combined Group Top-Up Tax:**
 
-| Jurisdiction | Top-up Tax |
+| Jurisdiction | Top-Up Tax |
 |--------------|------------|
 | Singapore | €1,565,616 |
 | Sweden | €448,000 |
@@ -459,7 +459,7 @@ ETR ≥ 15% → No Top-up Tax for Germany
 
 **Allocation per Equalisation Agreement (60/40):**
 
-| UPE | Allocation % | Allocated Top-up Tax |
+| UPE | Allocation % | Allocated Top-Up Tax |
 |-----|--------------|---------------------|
 | Stratos Holdings plc | 60% | **€1,208,170** |
 | NordicTech ASA | 40% | **€805,446** |
@@ -478,11 +478,11 @@ ETR ≥ 15% → No Top-up Tax for Germany
 
 | Metric | Stratos Standalone | Combined DLA |
 |--------|-------------------|--------------|
-| **Total Top-up Tax** | €198,907 (current) | €2,013,616 (combined) |
+| **Total Top-Up Tax** | €198,907 (current) | €2,013,616 (combined) |
 | **Stratos's Share** | €198,907 | €1,208,170 |
 | **Increase** | — | +€1,009,263 |
 
-**Observation:** The DLA brings NordicTech's Swedish undertaxation into Stratos's allocable share. Stratos would bear 60% of the combined group's Top-up Tax, including tax on jurisdictions it doesn't directly operate in.
+**Observation:** The DLA brings NordicTech's Swedish undertaxation into Stratos's allocable share. Stratos would bear 60% of the combined group's Top-Up Tax, including tax on jurisdictions it doesn't directly operate in.
 
 ---
 
@@ -498,7 +498,7 @@ PRE-FORMATION CHECKLIST
 □ What is each parent's current GloBE position?
    - Low-tax jurisdictions that will blend
    - Existing QDMTT coverage
-   - Current Top-up Tax exposure
+   - Current Top-Up Tax exposure
 
 □ How will combined thresholds affect scope?
    - Revenue threshold (€750M) on combined basis
@@ -555,11 +555,11 @@ In the fiscal year of termination:
 
 ## Common Pitfalls
 
-### Pitfall 1: Double-Counting Top-up Tax
+### Pitfall 1: Double-Counting Top-Up Tax
 
-**Error:** Each UPE calculates and reports 100% of the combined group's Top-up Tax.
+**Error:** Each UPE calculates and reports 100% of the combined group's Top-Up Tax.
 
-**Correct approach:** Each UPE reports and pays only its **allocable share**. Total paid by both UPEs should equal combined group Top-up Tax (no more, no less).
+**Correct approach:** Each UPE reports and pays only its **allocable share**. Total paid by both UPEs should equal combined group Top-Up Tax (no more, no less).
 
 ### Pitfall 2: Failing to Blend Cross-Parent Jurisdictions
 
@@ -675,12 +675,12 @@ Jurisdiction: ___________________________
 □ Combined Adjusted Covered Taxes:                  €__________________
 □ Combined ETR:                                     __________________%
 
-   If ETR ≥ 15%: No Top-up Tax. Move to next jurisdiction.
+   If ETR ≥ 15%: No Top-Up Tax. Move to next jurisdiction.
 
 □ Combined SBIE:                                    €__________________
 □ Combined Excess Profit:                           €__________________
-□ Top-up Tax %:                                     __________________%
-□ Jurisdictional Top-up Tax:                        €__________________
+□ Top-Up Tax %:                                     __________________%
+□ Jurisdictional Top-Up Tax:                        €__________________
 
 (Repeat for each jurisdiction)
 
@@ -688,7 +688,7 @@ Jurisdiction: ___________________________
 SECTION E: TOP-UP TAX ALLOCATION
 ═══════════════════════════════════════════════════════════════════════
 
-□ Total Combined Group Top-up Tax:                  €__________________
+□ Total Combined Group Top-Up Tax:                  €__________________
 
 □ Allocation:
    □ Parent Entity 1 (_______%):                    €__________________
@@ -715,7 +715,7 @@ SECTION F: GIR FILING
 SECTION G: SUMMARY
 ═══════════════════════════════════════════════════════════════════════
 
-□ Combined Group Total Top-up Tax:                  €__________________
+□ Combined Group Total Top-Up Tax:                  €__________________
 □ Parent Entity 1 Allocable Share:                  €__________________
 □ Parent Entity 2 Allocable Share:                  €__________________
 
@@ -735,7 +735,7 @@ Multi-Parented MNE Groups require combined treatment under Article 6.5:
 | **Treatment** | Combined as single MNE Group |
 | **Revenue test** | Combined group revenue for €750M threshold |
 | **Blending** | All CEs blend by jurisdiction (regardless of parent) |
-| **Allocation** | Top-up Tax split per ownership ratio or agreement |
+| **Allocation** | Top-Up Tax split per ownership ratio or agreement |
 | **Filing** | Both UPEs obligated; DFE recommended |
 | **IIR** | Each UPE pays on its allocable share |
 
@@ -751,7 +751,7 @@ Multi-Parented Group calculations require **combined data** in GIR-001:
 |---------------|--------|
 | **Input data** | Combine all CEs from both parent structures |
 | **Jurisdictional grouping** | Blend CEs from both parents in same jurisdiction |
-| **Output allocation** | Apply allocable share to Top-up Tax results |
+| **Output allocation** | Apply allocable share to Top-Up Tax results |
 
 **GIR-001 Workflow for Multi-Parented Groups:**
 
@@ -760,7 +760,7 @@ Step 1: Identify all CEs from both parent entities
 Step 2: Confirm Multi-Parented status (≥50% stapled or valid DLA)
 Step 3: Input combined group data into GIR-001
 Step 4: Run standard ETR calculations with combined blending
-Step 5: Extract total Top-up Tax
+Step 5: Extract total Top-Up Tax
 Step 6: Allocate per ownership ratio or equalisation agreement
 Step 7: Each UPE reports allocated share in respective GIR
 ```

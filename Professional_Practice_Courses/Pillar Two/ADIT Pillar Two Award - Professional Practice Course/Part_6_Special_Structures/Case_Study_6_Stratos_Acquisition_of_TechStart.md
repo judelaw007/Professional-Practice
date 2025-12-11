@@ -154,7 +154,7 @@ Analyse TechStart JV Pte Ltd under Article 6.4 and determine whether it should b
 1. Does TechStart JV Pte Ltd meet the JV definition under Article 10.1?
 2. How should the JV and its subsidiary be treated for GloBE purposes?
 3. Calculate the ETR for the JV Group (separate from main Stratos Group).
-4. Determine Stratos's allocable share of any JV Top-up Tax.
+4. Determine Stratos's allocable share of any JV Top-Up Tax.
 
 ### Expected Deliverable
 
@@ -174,11 +174,11 @@ Analyse TechStart JV Pte Ltd under Article 6.4 and determine whether it should b
 | Singapore | TechStart JV Pte | | | |
 | Malaysia | JV Operations Sdn | | | |
 
-**Top-up Tax Allocation (if applicable)**
+**Top-Up Tax Allocation (if applicable)**
 
 | Item | Amount |
 |------|--------|
-| JV Group Total Top-up Tax | €__________ |
+| JV Group Total Top-Up Tax | €__________ |
 | Stratos's ownership % | _______% |
 | Stratos's allocated share | €__________ |
 
@@ -268,7 +268,7 @@ Conclusion: _________________________________
 | GloBE Income (partial year) | €__________ |
 | Covered Taxes (partial year) | €__________ |
 | ETR | _______% |
-| Top-up Tax % | _______% |
+| Top-Up Tax % | _______% |
 
 ---
 
@@ -319,13 +319,13 @@ Determine how the acquisition affects jurisdictional ETR calculations, particula
 
 ### Your Task
 
-Prepare a consolidated Top-up Tax summary for the combined Stratos Group (post-acquisition) for FY 2025, including all special structures.
+Prepare a consolidated Top-Up Tax summary for the combined Stratos Group (post-acquisition) for FY 2025, including all special structures.
 
 ### Expected Deliverable
 
 **Combined Group Top-Up Tax Summary**
 
-| Jurisdiction/Entity | GloBE Income (€) | ETR | Top-up Tax % | SBIE (€) | Top-up Tax (€) | Notes |
+| Jurisdiction/Entity | GloBE Income (€) | ETR | Top-Up Tax % | SBIE (€) | Top-Up Tax (€) | Notes |
 |--------------------|------------------|-----|--------------|----------|----------------|-------|
 | **UK (Combined)** | | | | | | |
 | **Germany (Combined)** | | | | | | |
@@ -392,7 +392,7 @@ Prepare a consolidated Top-up Tax summary for the combined Stratos Group (post-a
 | Singapore | TechStart JV Pte | 10,000,000 | 1,000,000 | **10.00%** |
 | Malaysia | JV Operations Sdn | 5,000,000 | 600,000 | **12.00%** |
 
-**Singapore JV SBIE & Top-up Tax:**
+**Singapore JV SBIE & Top-Up Tax:**
 ```
 SBIE:
 Payroll: €2,000,000 × 9% = €180,000
@@ -400,11 +400,11 @@ Assets: €1,500,000 × 7% = €105,000
 Total SBIE: €285,000
 
 Excess Profit: €10,000,000 − €285,000 = €9,715,000
-Top-up Tax %: 15% − 10% = 5%
-Singapore JV Top-up Tax: €9,715,000 × 5% = €485,750
+Top-Up Tax %: 15% − 10% = 5%
+Singapore JV Top-Up Tax: €9,715,000 × 5% = €485,750
 ```
 
-**Malaysia JV SBIE & Top-up Tax:**
+**Malaysia JV SBIE & Top-Up Tax:**
 ```
 SBIE:
 Payroll: €1,800,000 × 9% = €162,000
@@ -412,19 +412,19 @@ Assets: €2,200,000 × 7% = €154,000
 Total SBIE: €316,000
 
 Excess Profit: €5,000,000 − €316,000 = €4,684,000
-Top-up Tax %: 15% − 12% = 3%
-Malaysia JV Top-up Tax: €4,684,000 × 3% = €140,520
+Top-Up Tax %: 15% − 12% = 3%
+Malaysia JV Top-Up Tax: €4,684,000 × 3% = €140,520
 ```
 
-**Top-up Tax Allocation**
+**Top-Up Tax Allocation**
 
 | Item | Amount |
 |------|--------|
-| JV Group Total Top-up Tax | **€626,270** |
+| JV Group Total Top-Up Tax | **€626,270** |
 | Stratos's ownership % (via TechStart Inc.) | **55%** |
 | Stratos's allocated share | **€344,449** |
 
-**Note:** Stratos only acquired TechStart on 1 July. For the JV, the full year applies to the JV Group calculation, but Stratos only bears its share from the acquisition date. This is a complexity that requires careful analysis — the conservative approach is to include 55% of the full-year JV Top-up Tax in Stratos's IIR liability, though partial-year treatment may also apply.
+**Note:** Stratos only acquired TechStart on 1 July. For the JV, the full year applies to the JV Group calculation, but Stratos only bears its share from the acquisition date. This is a complexity that requires careful analysis — the conservative approach is to include 55% of the full-year JV Top-Up Tax in Stratos's IIR liability, though partial-year treatment may also apply.
 
 ---
 
@@ -457,7 +457,7 @@ Malaysia JV Top-up Tax: €4,684,000 × 3% = €140,520
 | Covered Taxes | €1,905,500 | €0 | **€1,905,500** |
 | Combined ETR | — | — | **15.49%** |
 
-**Result:** Combined US ETR of 15.49% exceeds 15% minimum rate. **No Top-up Tax** for US jurisdiction.
+**Result:** Combined US ETR of 15.49% exceeds 15% minimum rate. **No Top-Up Tax** for US jurisdiction.
 
 ---
 
@@ -492,7 +492,7 @@ Conclusion: TechStart Ventures Fund is a STANDARD CONSTITUENT ENTITY
 | GloBE Income (partial year) | **€2,016,000** |
 | Covered Taxes (partial year) | **€20,200** |
 | ETR | **1.00%** |
-| Top-up Tax % | **14.00%** |
+| Top-Up Tax % | **14.00%** |
 
 **SBIE Calculation:**
 ```
@@ -501,10 +501,10 @@ Assets: €50,000 × 7% = €3,500
 Total SBIE: €12,574
 
 Excess Profit: €2,016,000 − €12,574 = €2,003,426
-Top-up Tax: €2,003,426 × 14% = €280,480
+Top-Up Tax: €2,003,426 × 14% = €280,480
 ```
 
-**Cayman Top-up Tax:** €280,480
+**Cayman Top-Up Tax:** €280,480
 
 ---
 
@@ -528,7 +528,7 @@ Top-up Tax: €2,003,426 × 14% = €280,480
 | **Combined UK** | **11,525,000** | **2,881,200** |
 | **Combined UK ETR** | | **25.00%** |
 
-**Result:** UK remains at 25% ETR. No Top-up Tax.
+**Result:** UK remains at 25% ETR. No Top-Up Tax.
 
 **Combined Germany ETR (Post-Acquisition)**
 
@@ -539,7 +539,7 @@ Top-up Tax: €2,003,426 × 14% = €280,480
 | **Combined Germany** | **59,929,000** | **13,784,300** |
 | **Combined Germany ETR** | | **23.00%** |
 
-**Result:** Germany remains at 23% ETR. No Top-up Tax.
+**Result:** Germany remains at 23% ETR. No Top-Up Tax.
 
 ---
 
@@ -547,7 +547,7 @@ Top-up Tax: €2,003,426 × 14% = €280,480
 
 **Combined Group Top-Up Tax Summary**
 
-| Jurisdiction/Entity | GloBE Income (€) | ETR | Top-up Tax % | SBIE (€) | Top-up Tax (€) | Notes |
+| Jurisdiction/Entity | GloBE Income (€) | ETR | Top-Up Tax % | SBIE (€) | Top-Up Tax (€) | Notes |
 |--------------------|------------------|-----|--------------|----------|----------------|-------|
 | **UK (Combined)** | 11,525,000 | 25.00% | — | — | **0** | ≥15% |
 | **Germany (Combined)** | 59,929,000 | 23.00% | — | — | **0** | ≥15% |
@@ -563,7 +563,7 @@ Top-up Tax: €2,003,426 × 14% = €280,480
 
 | Component | Amount (€) |
 |-----------|------------|
-| Main Group Top-up Tax | 908,315 |
+| Main Group Top-Up Tax | 908,315 |
 | JV Allocated Share (55%) | 344,449 |
 | **Total Stratos Liability** | **1,252,764** |
 
@@ -583,11 +583,11 @@ Top-up Tax: €2,003,426 × 14% = €280,480
 
 2. **US Jurisdiction Added:** Combined US ETR (TechStart Inc. + IP LLC flow-through) = 15.49%, just above minimum
 
-3. **JV Separate Treatment:** TechStart JV treated as separate MNE Group; Stratos bears 55% of JV Top-up Tax
+3. **JV Separate Treatment:** TechStart JV treated as separate MNE Group; Stratos bears 55% of JV Top-Up Tax
 
-4. **Cayman Exposure:** TechStart Ventures Fund (not an Investment Entity) creates €280,480 Top-up Tax
+4. **Cayman Exposure:** TechStart Ventures Fund (not an Investment Entity) creates €280,480 Top-Up Tax
 
-5. **Ireland QDMTT:** Continues to offset Irish Top-up Tax
+5. **Ireland QDMTT:** Continues to offset Irish Top-Up Tax
 
 ---
 
@@ -599,7 +599,7 @@ By acquiring mid-year, Stratos includes only 50.41% of TechStart's results:
 
 | Metric | Full Year | Partial Year | Savings |
 |--------|-----------|--------------|---------|
-| Cayman Top-up Tax | ~€556,000 | €280,480 | ~€275,520 |
+| Cayman Top-Up Tax | ~€556,000 | €280,480 | ~€275,520 |
 
 **Timing consideration:** Acquisitions later in the fiscal year reduce first-year GloBE exposure.
 
@@ -621,9 +621,9 @@ TechStart IP LLC's income flows to TechStart Inc., achieving combined US ETR of 
 | Without Flow-through | With Flow-through |
 |---------------------|-------------------|
 | TechStart Inc.: 21% ETR | Combined: 15.49% ETR |
-| IP LLC: 0% ETR (separate) → 15% Top-up Tax | No separate calculation |
+| IP LLC: 0% ETR (separate) → 15% Top-Up Tax | No separate calculation |
 
-**Key insight:** Flow-through treatment avoided ~€560,000 potential Top-up Tax on IP LLC.
+**Key insight:** Flow-through treatment avoided ~€560,000 potential Top-Up Tax on IP LLC.
 
 ### Point 4: Investment Entity Definition Is Narrow
 
@@ -631,7 +631,7 @@ TechStart Ventures Fund failed the Investment Fund test because:
 - Single corporate owner (no pooling)
 - Not regulated
 
-**Result:** Treated as standard CE with 1% ETR → 14% Top-up Tax.
+**Result:** Treated as standard CE with 1% ETR → 14% Top-Up Tax.
 
 **Planning opportunity:** If restructured with multiple unrelated investors and proper regulation, might qualify for Investment Entity treatment with potential elections.
 
@@ -687,7 +687,7 @@ Under Article 6.2.2, an asset acquisition may allow:
 | 5. Jurisdictional blending | **GIR-001** | Combine entities per jurisdiction |
 | 6. ETR calculation | **GIR-001** | Per jurisdiction (including JV separate) |
 | 7. SBIE calculation | **GIR-001** | Apply transition rates |
-| 8. Top-up Tax | **GIR-001** | Calculate and allocate |
+| 8. Top-Up Tax | **GIR-001** | Calculate and allocate |
 
 ### GIR-001 Input Summary (Post-Acquisition)
 
@@ -743,7 +743,7 @@ This case study demonstrated how Pillar Two applies to a complex acquisition inv
 | **Investment fund (failed test)** | Standard CE treatment | Art. 10.1 |
 | **Jurisdictional blending** | Combined ETR for overlapping jurisdictions | Art. 5.1.1 |
 
-**Total Stratos Top-up Tax Exposure:** €1,252,764
+**Total Stratos Top-Up Tax Exposure:** €1,252,764
 - IIR to UK: €823,836
 - QDMTT to Ireland: €428,928
 

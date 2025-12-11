@@ -41,7 +41,7 @@ Flow-through entities at the top of an MNE Group create a fundamental problem fo
 │ → UPE's owners are OUTSIDE the MNE Group scope                     │
 │ → Cannot allocate income to owners (they're not Constituent Entities)│
 │ → Income remains with UPE, but UPE pays little/no tax              │
-│ → Result: Very low ETR → Substantial Top-up Tax exposure           │
+│ → Result: Very low ETR → Substantial Top-Up Tax exposure           │
 │                                                                     │
 │ THE SOLUTION (Article 7.1):                                         │
 │ → Reduce UPE's GloBE Income for income allocated to owners         │
@@ -105,7 +105,7 @@ Dutch tax treatment:
 CONSEQUENCE:
 → RHE treated as "Stateless Entity"
 → Separate ETR calculation (no jurisdictional blending)
-→ Typically 0% ETR → Full Top-up Tax exposure
+→ Typically 0% ETR → Full Top-Up Tax exposure
 ```
 
 ### Dual Classification
@@ -143,7 +143,7 @@ A **Stateless Entity** is treated separately:
 - Not part of any jurisdiction's ETR calculation
 - No blending with other Constituent Entities
 - Standalone ETR calculation
-- If ETR < 15%, Top-up Tax applies to that entity alone
+- If ETR < 15%, Top-Up Tax applies to that entity alone
 
 ---
 
@@ -162,7 +162,7 @@ When the UPE is a Flow-Through Entity, Article 7.1 allows the UPE to **reduce it
 │ │ Flow-through UPE                    │                            │
 │ │ GloBE Income: €10,000,000           │                            │
 │ │ Covered Taxes: €0 (owners pay tax)  │                            │
-│ │ ETR: 0%                             │◄──── Massive Top-up Tax!   │
+│ │ ETR: 0%                             │◄──── Massive Top-Up Tax!   │
 │ └─────────────────────────────────────┘                            │
 │                                                                     │
 │ With Article 7.1:                                                   │
@@ -349,26 +349,26 @@ Adjusted Covered Taxes = €500,000 - €425,000 = €75,000
 ```
 Remaining UPE ETR = €75,000 / €7,500,000 = 1.00%
 
-ETR < 15% → Top-up Tax applies to remaining 15% (HedgeFund LP share)
+ETR < 15% → Top-Up Tax applies to remaining 15% (HedgeFund LP share)
 ```
 
-### Step 5: Calculate Top-up Tax
+### Step 5: Calculate Top-Up Tax
 
 **SBIE for UPE (Delaware):**
 - Assume minimal payroll and assets at UPE level
 - SBIE = €0
 
-**Top-up Tax:**
+**Top-Up Tax:**
 
 ```
 Excess Profit = €7,500,000 - €0 = €7,500,000
-Top-up Tax % = 15% - 1% = 14%
-UPE Top-up Tax = €7,500,000 × 14% = €1,050,000
+Top-Up Tax % = 15% - 1% = 14%
+UPE Top-Up Tax = €7,500,000 × 14% = €1,050,000
 ```
 
-### Step 6: Identify Who Bears Top-up Tax
+### Step 6: Identify Who Bears Top-Up Tax
 
-The Top-up Tax on the UPE is attributable to the **non-qualifying owner** (HedgeFund LP):
+The Top-Up Tax on the UPE is attributable to the **non-qualifying owner** (HedgeFund LP):
 - HedgeFund LP's share of income was not reduced
 - IIR collection would depend on where qualified IIR applies in the chain
 - If no IIR at UPE level (Delaware), UTPR may apply at subsidiary level
@@ -381,9 +381,9 @@ The Top-up Tax on the UPE is attributable to the **non-qualifying owner** (Hedge
 | Covered Taxes | €500,000 | €75,000 |
 | ETR | 1.00% | 1.00% |
 | Excess Profit | €50,000,000 | €7,500,000 |
-| **Top-up Tax** | **€7,000,000** | **€1,050,000** |
+| **Top-Up Tax** | **€7,000,000** | **€1,050,000** |
 
-**Observation:** Without Article 7.1, the full €50M income would be subject to Top-up Tax at 14%, resulting in €7,000,000. Article 7.1 reduces this to €1,050,000 by excluding income attributable to qualifying owners.
+**Observation:** Without Article 7.1, the full €50M income would be subject to Top-Up Tax at 14%, resulting in €7,000,000. Article 7.1 reduces this to €1,050,000 by excluding income attributable to qualifying owners.
 
 ---
 
@@ -431,17 +431,17 @@ Stratos Partners LP:
 ├── Reduction: €X × 100% = €X
 └── Adjusted GloBE Income: €0
 
-No Top-up Tax at UPE level.
+No Top-Up Tax at UPE level.
 ```
 
 **However:** This only addresses tax at the **LP level**. The subsidiaries (Germany, Singapore, Ireland, Luxembourg) are still subject to standard GloBE calculations:
-- Singapore: ETR 9.8% → Top-up Tax applies (as before)
+- Singapore: ETR 9.8% → Top-Up Tax applies (as before)
 - Ireland: QDMTT applies (as before)
-- Germany/Luxembourg: ETR ≥ 15% / De Minimis → No Top-up Tax
+- Germany/Luxembourg: ETR ≥ 15% / De Minimis → No Top-Up Tax
 
 ### Key Insight
 
-Converting to a Flow-through UPE does **not** eliminate Top-up Tax on low-taxed subsidiaries. Article 7.1 only addresses the UPE's own GloBE Income position — it does not affect subsidiary ETR calculations.
+Converting to a Flow-through UPE does **not** eliminate Top-Up Tax on low-taxed subsidiaries. Article 7.1 only addresses the UPE's own GloBE Income position — it does not affect subsidiary ETR calculations.
 
 ---
 
@@ -459,7 +459,7 @@ Flow-through UPE (UK LP)
 ├── UK has IIR
 └── UK LP must apply IIR on low-taxed subsidiaries
 
-Top-up Tax on subsidiaries:
+Top-Up Tax on subsidiaries:
 → Charged to UK LP via IIR
 → Even though LP is flow-through, it bears IIR liability
 → Economically passed through to partners
@@ -477,7 +477,7 @@ Flow-through UPE (Delaware LP)
 ├── Subsidiaries in Germany (IIR jurisdiction)
 │
 └── UTPR applies:
-    → Germany can collect Top-up Tax via UTPR
+    → Germany can collect Top-Up Tax via UTPR
     → UTPR amount based on UTPR Percentage (employees/assets)
 ```
 
@@ -528,11 +528,11 @@ Flow-through UPE (Delaware LP)
 
 **Correct approach:** If owner is subject to CFC taxation on the flow-through income at ≥15%, the owner qualifies under Article 7.1.1(a).
 
-### Pitfall 6: Expecting UPE Restructure to Eliminate Subsidiary Top-up Tax
+### Pitfall 6: Expecting UPE Restructure to Eliminate Subsidiary Top-Up Tax
 
-**Error:** Restructuring to a flow-through UPE expecting to eliminate all Top-up Tax.
+**Error:** Restructuring to a flow-through UPE expecting to eliminate all Top-Up Tax.
 
-**Correct approach:** Article 7.1 only addresses UPE-level income. Subsidiary ETR calculations remain unchanged. Low-taxed subsidiaries still face Top-up Tax.
+**Correct approach:** Article 7.1 only addresses UPE-level income. Subsidiary ETR calculations remain unchanged. Low-taxed subsidiaries still face Top-Up Tax.
 
 ---
 
@@ -616,9 +616,9 @@ SECTION E: ETR AND TOP-UP TAX CALCULATION
 □ Adjusted ETR:
    (Adjusted Covered Taxes ÷ Adjusted GloBE Income)     __________________%
 
-   If ETR ≥ 15%: No Top-up Tax for UPE. Proceed to subsidiaries.
+   If ETR ≥ 15%: No Top-Up Tax for UPE. Proceed to subsidiaries.
 
-□ Top-up Tax %:
+□ Top-Up Tax %:
    (15% − Adjusted ETR)                                 __________________%
 
 □ SBIE for UPE jurisdiction:                            €__________________
@@ -626,7 +626,7 @@ SECTION E: ETR AND TOP-UP TAX CALCULATION
 □ Excess Profit:
    (Adjusted GloBE Income − SBIE)                       €__________________
 
-□ **UPE Top-up Tax:**                                   €__________________
+□ **UPE Top-Up Tax:**                                   €__________________
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION F: COLLECTION MECHANISM
@@ -639,7 +639,7 @@ SECTION F: COLLECTION MECHANISM
 
 □ Does UPE jurisdiction have QDMTT?                             YES / NO
 
-   If YES: QDMTT priority for UPE's own Top-up Tax.
+   If YES: QDMTT priority for UPE's own Top-Up Tax.
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION G: SUMMARY
@@ -649,7 +649,7 @@ SECTION G: SUMMARY
 □ Article 7.1 Reduction:                               (€__________________)
 □ Adjusted GloBE Income:                                €__________________
 □ Adjusted ETR:                                         __________________%
-□ **UPE Top-up Tax:**                                   €__________________
+□ **UPE Top-Up Tax:**                                   €__________________
 
 □ Attributable to non-qualifying owners (________%):    €__________________
 
@@ -672,7 +672,7 @@ Flow-Through UPEs require special treatment under Article 7.1:
 | **Covered Taxes** | Proportional reduction under Article 7.1.2 |
 | **Subsidiary impact** | None — subsidiaries still subject to standard ETR calculations |
 
-**Key insight:** Article 7.1 prevents punitive taxation of flow-through UPEs where owners are already adequately taxed. However, it does not shield low-taxed subsidiaries from Top-up Tax.
+**Key insight:** Article 7.1 prevents punitive taxation of flow-through UPEs where owners are already adequately taxed. However, it does not shield low-taxed subsidiaries from Top-Up Tax.
 
 ---
 
@@ -697,7 +697,7 @@ Step 3: Calculate qualifying ownership percentage
 Step 4: Apply GloBE Income reduction
 Step 5: Apply Covered Tax reduction (Art. 7.1.2)
 Step 6: Calculate adjusted ETR for UPE
-Step 7: Calculate Top-up Tax on residual income (if any)
+Step 7: Calculate Top-Up Tax on residual income (if any)
 Step 8: Proceed with standard subsidiary calculations
 ```
 
@@ -710,4 +710,4 @@ Step 8: Proceed with standard subsidiary calculations
 
 ## Next Step
 
-You have learned how to analyse and calculate Top-up Tax for Flow-Through UPEs. Proceed to **Chapter 6.6: Investment Entities** for guidance on funds, collective investment vehicles, and real estate investment entities.
+You have learned how to analyse and calculate Top-Up Tax for Flow-Through UPEs. Proceed to **Chapter 6.6: Investment Entities** for guidance on funds, collective investment vehicles, and real estate investment entities.

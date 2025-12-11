@@ -497,7 +497,7 @@ Ireland Covered Taxes: €2,301,250 + €500,000 = €2,801,250
 Ireland ETR: €2,801,250 ÷ €23,250,000 = 12.05%
 ```
 
-**Result:** Step-up election marginally improves ETR (12.05% vs 11.95%). However, the Top-up Tax base increases. Analysis of multi-year impact needed before deciding.
+**Result:** Step-up election marginally improves ETR (12.05% vs 11.95%). However, the Top-Up Tax base increases. Analysis of multi-year impact needed before deciding.
 
 ---
 

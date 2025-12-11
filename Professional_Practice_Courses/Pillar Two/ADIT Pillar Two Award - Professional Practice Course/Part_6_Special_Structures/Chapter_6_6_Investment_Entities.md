@@ -47,7 +47,7 @@ Investment structures create unique challenges for Pillar Two because of how the
 │ THE GLOBE PROBLEM:                                                  │
 │ → Entity has minimal/zero tax (by design)                          │
 │ → Standard ETR calculation → 0% or very low ETR                    │
-│ → Would create massive Top-up Tax exposure                         │
+│ → Would create massive Top-Up Tax exposure                         │
 │ → BUT investors are already appropriately taxed                    │
 │                                                                     │
 │ THE SOLUTION:                                                       │
@@ -142,7 +142,7 @@ An **Investment Fund** or **REIV** that is the **Ultimate Parent Entity** of an 
 │ If Investment Fund or REIV is the UPE:                              │
 │ → Excluded Entity                                                   │
 │ → No GloBE ETR calculation                                          │
-│ → No Top-up Tax                                                     │
+│ → No Top-Up Tax                                                     │
 │ → No IIR obligation                                                 │
 │                                                                     │
 │ IMPORTANT: Revenue still counts for €750M threshold test            │
@@ -234,12 +234,12 @@ Ireland Jurisdiction:
 
 WITHOUT Article 7.4 (if blending applied):
 Combined ETR = (€2,660,000) / (€28,000,000) = 9.50%
-→ ALL entities subject to Top-up Tax
+→ ALL entities subject to Top-Up Tax
 
 WITH Article 7.4 (separate calculations):
-1. OpCo Ireland: ETR = 12.5% → Top-up Tax applies (2.5%)
+1. OpCo Ireland: ETR = 12.5% → Top-Up Tax applies (2.5%)
 2. Investment Entity Group: ETR = (€160,000) / (€8,000,000) = 2%
-   → Separate Top-up Tax calculation (13%)
+   → Separate Top-Up Tax calculation (13%)
 
 Investment Entity Group does NOT drag down OpCo's ETR.
 ```
@@ -255,15 +255,15 @@ Where:
 Allocable Share = (Total GloBE Income − Amounts attributable to other owners) / Total GloBE Income
 ```
 
-### Top-up Tax Calculation Under Article 7.4
+### Top-Up Tax Calculation Under Article 7.4
 
 ```
 Step 1: Determine Investment Entity ETR (separate calculation)
-Step 2: Top-up Tax % = 15% − Investment Entity ETR
+Step 2: Top-Up Tax % = 15% − Investment Entity ETR
 Step 3: Calculate MNE's allocable share of GloBE Income
 Step 4: Deduct SBIE (based on Investment Entity's payroll/assets)
 Step 5: Excess Profit = Allocable GloBE Income − SBIE
-Step 6: Top-up Tax = Excess Profit × Top-up Tax %
+Step 6: Top-Up Tax = Excess Profit × Top-Up Tax %
 ```
 
 ---
@@ -315,7 +315,7 @@ German OpCo (owner)
 Investment Entity (Luxembourg)
 ├── GloBE Income: €10,000,000
 ├── Covered Taxes: €500,000
-└── ETR: 5.00% → Top-up Tax applies!
+└── ETR: 5.00% → Top-Up Tax applies!
 
 AFTER Article 7.5 Election:
 
@@ -324,9 +324,9 @@ Investment Entity treated as transparent → Income allocated to German OpCo
 German OpCo (blended):
 ├── GloBE Income: €50,000,000 + €10,000,000 = €60,000,000
 ├── Covered Taxes: €15,000,000 + €500,000 = €15,500,000
-└── ETR: 25.83% → No Top-up Tax
+└── ETR: 25.83% → No Top-Up Tax
 
-Result: Article 7.5 eliminates Investment Entity's Top-up Tax exposure
+Result: Article 7.5 eliminates Investment Entity's Top-Up Tax exposure
 ```
 
 ### Article 7.6: Taxable Distribution Method Election
@@ -384,10 +384,10 @@ Year 5 (4 years after Year 1):
 
 **The Four-Year Rule:**
 
-If income is **not distributed within four years**, the MNE is subject to a Top-up Tax of **15%** on the undistributed portion:
+If income is **not distributed within four years**, the MNE is subject to a Top-Up Tax of **15%** on the undistributed portion:
 
 ```
-Four-Year Top-up Tax = Undistributed Net GloBE Income (Year N-4) × 15%
+Four-Year Top-Up Tax = Undistributed Net GloBE Income (Year N-4) × 15%
 ```
 
 **When to consider Article 7.6 Election:**
@@ -486,7 +486,7 @@ InvestFund SICAV:
 ├── Stratos allocable share (60%): €12,000,000
 ├── Covered Taxes (allocable): €400,000 × 60% = €240,000
 ├── ETR: €240,000 / €12,000,000 = 2.00%
-└── Top-up Tax %: 15% − 2% = 13%
+└── Top-Up Tax %: 15% − 2% = 13%
 
 SBIE (assume minimal):
 ├── Payroll: €500,000 × 9.8% = €49,000
@@ -494,7 +494,7 @@ SBIE (assume minimal):
 └── Total SBIE: €49,000
 
 Excess Profit = €12,000,000 − €49,000 = €11,951,000
-Top-up Tax = €11,951,000 × 13% = €1,553,630
+Top-Up Tax = €11,951,000 × 13% = €1,553,630
 
 Stratos IIR liability on InvestFund: €1,553,630
 ```
@@ -523,10 +523,10 @@ Stratos Holdings plc (blended):
 │
 └── Blended UK ETR: €20,240,000 / €92,000,000 = 22.00%
 
-ETR ≥ 15% → No Top-up Tax (Article 7.5 election eliminates €1,553,630 exposure)
+ETR ≥ 15% → No Top-Up Tax (Article 7.5 election eliminates €1,553,630 exposure)
 ```
 
-**Result:** Article 7.5 Election saves €1,553,630 in Top-up Tax by blending low-taxed investment income with UK's 25% taxed operating income.
+**Result:** Article 7.5 Election saves €1,553,630 in Top-Up Tax by blending low-taxed investment income with UK's 25% taxed operating income.
 
 ### Step 5: Consider Article 7.6 Election (Taxable Distribution Method)
 
@@ -536,7 +536,7 @@ If Stratos elects Article 7.6 instead:
 - InvestFund GloBE Income: €12,000,000 (allocable to Stratos)
 - No distribution made
 - Undistributed Account: €12,000,000
-- No immediate Top-up Tax (but tracked)
+- No immediate Top-Up Tax (but tracked)
 
 **Year 2:**
 - InvestFund distributes €8,000,000 to Stratos
@@ -545,13 +545,13 @@ If Stratos elects Article 7.6 instead:
 
 **Year 5 (if Year 1 income still undistributed):**
 - Remaining undistributed Year 1 income: €4,000,000
-- Top-up Tax = €4,000,000 × 15% = €600,000
+- Top-Up Tax = €4,000,000 × 15% = €600,000
 
-**Result:** Article 7.6 defers Top-up Tax but requires distribution within 4 years or 15% charge applies.
+**Result:** Article 7.6 defers Top-Up Tax but requires distribution within 4 years or 15% charge applies.
 
 ### Stratos Decision Matrix
 
-| Option | Top-up Tax | Complexity | Best When |
+| Option | Top-Up Tax | Complexity | Best When |
 |--------|------------|------------|-----------|
 | **Default (Art. 7.4)** | €1,553,630 | Low | Separate analysis required |
 | **Art. 7.5 Election** | €0 | Medium | UK ETR remains ≥15% after blending |
@@ -677,12 +677,12 @@ SECTION C: DEFAULT ETR CALCULATION (ARTICLE 7.4)
 
 □ Investment Entity ETR:                                __________________%
 
-   If ETR ≥ 15%: No Top-up Tax under default.
+   If ETR ≥ 15%: No Top-Up Tax under default.
 
-□ Top-up Tax %:                                         __________________%
+□ Top-Up Tax %:                                         __________________%
 □ SBIE (typically minimal):                             €__________________
 □ Excess Profit:                                        €__________________
-□ **Default Top-up Tax:**                               €__________________
+□ **Default Top-Up Tax:**                               €__________________
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION D: ELECTION ANALYSIS
@@ -695,15 +695,15 @@ ARTICLE 7.5 (TAX TRANSPARENCY ELECTION):
 □ Blended Covered Taxes:                                €__________________
 □ Blended ETR:                                          __________________%
 
-   If blended ETR ≥ 15%: Article 7.5 eliminates Top-up Tax.
+   If blended ETR ≥ 15%: Article 7.5 eliminates Top-Up Tax.
 
-□ **Article 7.5 Top-up Tax saving:**                    €__________________
+□ **Article 7.5 Top-Up Tax saving:**                    €__________________
 
 ARTICLE 7.6 (TAXABLE DISTRIBUTION METHOD):
 □ Expected distributions within 4 years?                      YES / NO
 □ Owner taxed at ≥15% on distributions?                       YES / NO
 □ Undistributed income risk amount:                     €__________________
-□ Potential 4-year Top-up Tax (15%):                    €__________________
+□ Potential 4-year Top-Up Tax (15%):                    €__________________
 
 □ **Article 7.6 viable?**                                     YES / NO
 
@@ -712,9 +712,9 @@ SECTION E: RECOMMENDATION
 ═══════════════════════════════════════════════════════════════════════
 
 □ Recommended approach:
-   □ Default (Article 7.4) — Top-up Tax: €__________________
-   □ Tax Transparency Election (Article 7.5) — Top-up Tax: €__________________
-   □ Taxable Distribution Method (Article 7.6) — Top-up Tax: €__________________
+   □ Default (Article 7.4) — Top-Up Tax: €__________________
+   □ Tax Transparency Election (Article 7.5) — Top-Up Tax: €__________________
+   □ Taxable Distribution Method (Article 7.6) — Top-Up Tax: €__________________
 
 □ Election to be filed?                                       YES / NO
 □ Five-Year Election period starts:                     ___________________
@@ -738,7 +738,7 @@ Investment Entities require careful analysis under the GloBE Rules:
 | **Taxable Distribution** | Article 7.6 election defers to distribution; 4-year deadline (Five-Year) |
 | **SBIE limitation** | Typically minimal (no tangible assets) |
 
-**Key insight:** Investment Entities often have very low ETRs by design. Without elections, significant Top-up Tax exposure can arise. Evaluate Article 7.5 (blending) and Article 7.6 (distribution method) to optimise outcomes.
+**Key insight:** Investment Entities often have very low ETRs by design. Without elections, significant Top-Up Tax exposure can arise. Evaluate Article 7.5 (blending) and Article 7.6 (distribution method) to optimise outcomes.
 
 ---
 

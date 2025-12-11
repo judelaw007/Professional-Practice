@@ -2,7 +2,7 @@
 
 ## Learning Objective
 
-After completing this chapter, you will be able to identify when an entity qualifies as a Joint Venture for GloBE purposes, apply the separate ETR calculation requirement, allocate Top-up Tax to the UPE based on ownership share, and distinguish JV treatment from MOCE and regular Constituent Entity treatment.
+After completing this chapter, you will be able to identify when an entity qualifies as a Joint Venture for GloBE purposes, apply the separate ETR calculation requirement, allocate Top-Up Tax to the UPE based on ownership share, and distinguish JV treatment from MOCE and regular Constituent Entity treatment.
 
 ---
 
@@ -11,7 +11,7 @@ After completing this chapter, you will be able to identify when an entity quali
 **OECD GloBE Model Rules:**
 - Article 6.4.1(a) — JV treated as separate MNE Group
 - Article 6.4.1(b) — JV Subsidiaries included in separate calculation
-- Article 6.4.1(c) — Top-up Tax allocation to parent entities
+- Article 6.4.1(c) — Top-Up Tax allocation to parent entities
 - Article 10.1 — Definition of Joint Venture
 
 **OECD Commentary:**
@@ -39,8 +39,8 @@ Joint Ventures present a unique challenge for Pillar Two:
 │ THE SOLUTION (Article 6.4):                                         │
 │ → Bring JVs into scope through special rules                       │
 │ → Treat JV + subsidiaries as a SEPARATE MNE Group                  │
-│ → Calculate ETR and Top-up Tax separately                          │
-│ → Allocate Top-up Tax to UPE based on ownership share              │
+│ → Calculate ETR and Top-Up Tax separately                          │
+│ → Allocate Top-Up Tax to UPE based on ownership share              │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -87,7 +87,7 @@ UPE Ownership < 50%  →  Does NOT qualify as JV
 | **Accounting** | Equity method | Consolidated | Consolidated |
 | **GloBE treatment** | Separate MNE Group | Separate ETR (entity level) | Jurisdictional blending |
 | **Blending** | Within JV group only | None (entity-level) | With other CEs |
-| **Top-up Tax** | Allocated to UPE | UPE bears directly | Via IIR/UTPR |
+| **Top-Up Tax** | Allocated to UPE | UPE bears directly | Via IIR/UTPR |
 
 ### Visual Comparison
 
@@ -184,10 +184,10 @@ JV Group Germany calculation:
 
 ### Who Pays the Top-Up Tax?
 
-The **UPE of the main MNE Group** (or intermediate parent with IIR) pays Top-up Tax on its **allocable share** of the JV's Top-up Tax.
+The **UPE of the main MNE Group** (or intermediate parent with IIR) pays Top-Up Tax on its **allocable share** of the JV's Top-Up Tax.
 
 ```
-Top-up Tax Allocation = JV Group Top-up Tax × UPE's Ownership %
+Top-Up Tax Allocation = JV Group Top-Up Tax × UPE's Ownership %
 ```
 
 ### Example: 50/50 JV
@@ -199,10 +199,10 @@ JV Co (Germany)
 ├── GloBE Income: €10,000,000
 ├── Covered Taxes: €1,200,000
 ├── ETR: 12.00%
-├── Top-up Tax %: 3.00%
+├── Top-Up Tax %: 3.00%
 ├── SBIE: €500,000
 ├── Excess Profit: €9,500,000
-└── JV Top-up Tax: €285,000
+└── JV Top-Up Tax: €285,000
 
 Allocation:
 ├── Alpha Group (50%): €142,500
@@ -227,7 +227,7 @@ Answer: Check total ownership through ALL paths.
 If UPE also holds 5% directly in JV:
 Total = 48% + 5% = 53% → Qualifies as JV
 
-Top-up Tax allocation = 53% of JV Top-up Tax
+Top-Up Tax allocation = 53% of JV Top-Up Tax
 ```
 
 ---
@@ -237,11 +237,11 @@ Top-up Tax allocation = 53% of JV Top-up Tax
 If the JV itself qualifies as a **POPE** (owned less than 80% by the main UPE), the charging mechanism shifts:
 
 ### Standard JV (≥80% owned by main UPE):
-- Main UPE pays all Top-up Tax on JV group via IIR
+- Main UPE pays all Top-Up Tax on JV group via IIR
 
 ### JV as POPE (<80% owned by main UPE):
-- Main UPE pays Top-up Tax on **JV entity itself** (based on ownership %)
-- **JV (as POPE) pays** Top-up Tax on its **subsidiaries**
+- Main UPE pays Top-Up Tax on **JV entity itself** (based on ownership %)
+- **JV (as POPE) pays** Top-Up Tax on its **subsidiaries**
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -250,11 +250,11 @@ If the JV itself qualifies as a **POPE** (owned less than 80% by the main UPE), 
 │ Main UPE owns 60% of JV Entity                                      │
 │ JV Entity owns 100% of JV Sub (low-taxed)                          │
 │                                                                     │
-│ Top-up Tax on JV Entity:                                            │
+│ Top-Up Tax on JV Entity:                                            │
 │ → Allocated to Main UPE (60%)                                       │
 │ → Allocated to other JV investors (40%)                            │
 │                                                                     │
-│ Top-up Tax on JV Sub:                                               │
+│ Top-Up Tax on JV Sub:                                               │
 │ → Paid by JV Entity (as POPE) — 100%                               │
 │ → NOT allocated to Main UPE                                         │
 └─────────────────────────────────────────────────────────────────────┘
@@ -278,10 +278,10 @@ If the JV's jurisdiction has a QDMTT:
 | JV Ireland GloBE Income | €6,000,000 |
 | JV Ireland Covered Taxes | €600,000 |
 | JV Ireland ETR | 10.00% |
-| Top-up Tax % | 5.00% |
+| Top-Up Tax % | 5.00% |
 | SBIE | €300,000 |
 | Excess Profit | €5,700,000 |
-| JV Top-up Tax | €285,000 |
+| JV Top-Up Tax | €285,000 |
 
 **QDMTT Treatment:**
 - Ireland collects €285,000 via QDMTT
@@ -335,7 +335,7 @@ The JV Group consists of:
 | Adjusted Covered Taxes | €1,840,000 |
 | ETR | **23.00%** |
 
-**Result:** Germany ETR ≥ 15% → No Top-up Tax for Germany.
+**Result:** Germany ETR ≥ 15% → No Top-Up Tax for Germany.
 
 **EuroTech France SAS (France):**
 
@@ -345,9 +345,9 @@ The JV Group consists of:
 | Adjusted Covered Taxes | €385,000 |
 | ETR | **11.00%** |
 
-**Result:** France ETR < 15% → Top-up Tax applies.
+**Result:** France ETR < 15% → Top-Up Tax applies.
 
-### Step 4: Calculate SBIE and Top-up Tax for France
+### Step 4: Calculate SBIE and Top-Up Tax for France
 
 **France SBIE (FY 2025 rates):**
 
@@ -357,21 +357,21 @@ The JV Group consists of:
 | Tangible Assets | €2,200,000 | 7.8% | €171,600 |
 | **Total SBIE** | | | **€348,000** |
 
-**France Top-up Tax:**
+**France Top-Up Tax:**
 
 ```
 Excess Profit = €3,500,000 − €348,000 = €3,152,000
-Top-up Tax % = 15% − 11% = 4%
-Top-up Tax = €3,152,000 × 4% = €126,080
+Top-Up Tax % = 15% − 11% = 4%
+Top-Up Tax = €3,152,000 × 4% = €126,080
 ```
 
-### Step 5: Allocate Top-up Tax
+### Step 5: Allocate Top-Up Tax
 
-**JV Group Top-up Tax:** €126,080 (France only)
+**JV Group Top-Up Tax:** €126,080 (France only)
 
 **Allocation:**
 
-| Investor | Ownership | Allocated Top-up Tax |
+| Investor | Ownership | Allocated Top-Up Tax |
 |----------|-----------|---------------------|
 | Stratos Holdings plc | 55% | **€69,344** |
 | TechPartner AG | 45% | €56,736 |
@@ -383,7 +383,7 @@ Top-up Tax = €3,152,000 × 4% = €126,080
 
 | Item | Amount |
 |------|--------|
-| JV France Top-up Tax | €126,080 |
+| JV France Top-Up Tax | €126,080 |
 | QDMTT paid by EuroTech France | (€126,080) |
 | Net IIR liability | **€0** |
 
@@ -391,7 +391,7 @@ Top-up Tax = €3,152,000 × 4% = €126,080
 
 ### Summary: Stratos JV Position
 
-| JV Jurisdiction | ETR | Top-up Tax | Stratos Share | QDMTT? | Net IIR |
+| JV Jurisdiction | ETR | Top-Up Tax | Stratos Share | QDMTT? | Net IIR |
 |-----------------|-----|------------|---------------|--------|---------|
 | Germany | 23.00% | €0 | €0 | N/A | €0 |
 | France | 11.00% | €126,080 | €69,344 | Yes | **€0** |
@@ -420,9 +420,9 @@ Top-up Tax = €3,152,000 × 4% = €126,080
 
 ### Pitfall 4: Incorrect POPE Treatment
 
-**Error:** Allocating all JV Group Top-up Tax to the main UPE when the JV is a POPE.
+**Error:** Allocating all JV Group Top-Up Tax to the main UPE when the JV is a POPE.
 
-**Correct approach:** If the JV is a POPE (<80% owned by main UPE), the JV itself pays Top-up Tax on its subsidiaries. Only Top-up Tax on the JV entity is allocated to the main UPE.
+**Correct approach:** If the JV is a POPE (<80% owned by main UPE), the JV itself pays Top-Up Tax on its subsidiaries. Only Top-Up Tax on the JV entity is allocated to the main UPE.
 
 ### Pitfall 5: Double-Counting with QDMTT
 
@@ -488,7 +488,7 @@ Jurisdiction: ___________________________
 □ Blended Adjusted Covered Taxes:                €__________________
 □ ETR:                                           __________________%
 
-   If ETR ≥ 15%: No Top-up Tax. Move to next jurisdiction.
+   If ETR ≥ 15%: No Top-Up Tax. Move to next jurisdiction.
 
 □ SBIE Calculation:
    □ Payroll carve-out (9.8%):                   €__________________
@@ -496,8 +496,8 @@ Jurisdiction: ___________________________
    □ Total SBIE:                                 €__________________
 
 □ Excess Profit:                                 €__________________
-□ Top-up Tax %:                                  __________________%
-□ JV Jurisdictional Top-up Tax:                  €__________________
+□ Top-Up Tax %:                                  __________________%
+□ JV Jurisdictional Top-Up Tax:                  €__________________
 
 (Repeat for each JV Group jurisdiction)
 
@@ -505,11 +505,11 @@ Jurisdiction: ___________________________
 SECTION D: TOP-UP TAX ALLOCATION
 ═══════════════════════════════════════════════════════════════════════
 
-□ Total JV Group Top-up Tax:                     €__________________
+□ Total JV Group Top-Up Tax:                     €__________________
 
 □ Is JV a POPE (<80% owned by main UPE)?         YES / NO
 
-   If NO: All Top-up Tax allocated to investors
+   If NO: All Top-Up Tax allocated to investors
 
 □ Allocation to main UPE:
    □ UPE ownership %:                            __________________%
@@ -532,7 +532,7 @@ SECTION E: QDMTT OFFSET
 SECTION F: SUMMARY
 ═══════════════════════════════════════════════════════════════════════
 
-□ JV Group Total Top-up Tax:                     €__________________
+□ JV Group Total Top-Up Tax:                     €__________________
 □ UPE's Allocated Share:                         €__________________
 □ QDMTT Offset:                                 (€__________________)
 □ **Net IIR Liability for UPE:**                 €__________________
@@ -551,7 +551,7 @@ Joint Ventures require special treatment under Pillar Two to bring equity-accoun
 | **Definition** | Equity method + ≥50% UPE ownership |
 | **Treatment** | Separate MNE Group (JV as UPE) |
 | **ETR calculation** | Separate from main group; blending within JV group only |
-| **Top-up Tax** | Allocated to main UPE based on ownership % |
+| **Top-Up Tax** | Allocated to main UPE based on ownership % |
 | **POPE complication** | If JV <80% owned, JV pays on its subsidiaries |
 | **QDMTT** | Offsets IIR liability; credit to investors |
 
@@ -571,14 +571,14 @@ JV calculations require **separate runs** through GIR-001:
 **GIR Reporting:**
 - JVs are reported separately in the GloBE Information Return
 - Ownership percentages must be disclosed
-- Top-up Tax allocation documented
+- Top-Up Tax allocation documented
 
 **GIR-001 Workflow for JVs:**
 
 ```
 Step 1: Identify JV Group entities
 Step 2: Run GIR-001 for JV Group (separate from main group)
-Step 3: Calculate JV Group Top-up Tax
+Step 3: Calculate JV Group Top-Up Tax
 Step 4: Allocate to investors based on ownership %
 Step 5: Apply QDMTT offset if applicable
 Step 6: Report UPE's allocated share in main group GIR
@@ -588,4 +588,4 @@ Step 6: Report UPE's allocated share in main group GIR
 
 ## Next Step
 
-You have learned how to identify and calculate Top-up Tax for Joint Ventures. Proceed to **Chapter 6.4: Multi-Parented Groups** for guidance on stapled structures, dual-listed companies, and combined group treatment.
+You have learned how to identify and calculate Top-Up Tax for Joint Ventures. Proceed to **Chapter 6.4: Multi-Parented Groups** for guidance on stapled structures, dual-listed companies, and combined group treatment.

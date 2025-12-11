@@ -384,12 +384,12 @@ Assets:  €17,000,000 × 7.8% = €1,326,000
 Total SBIE: €2,266,800
 ```
 
-**Revised Excess Profit and Top-up Tax:**
+**Revised Excess Profit and Top-Up Tax:**
 
 ```
 Excess Profit = €19,250,000 − €2,266,800 = €16,983,200
-Top-up Tax % = 15% − 11.95% = 3.05%
-Top-up Tax = €16,983,200 × 3.05% = €517,988
+Top-Up Tax % = 15% − 11.95% = 3.05%
+Top-Up Tax = €16,983,200 × 3.05% = €517,988
 ```
 
 ---
