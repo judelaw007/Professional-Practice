@@ -150,7 +150,7 @@ AFTER PUSH-DOWN:
 
 ### Why the Limitation Exists
 
-Without a cap, a high-tax parent could push down excessive CFC tax to eliminate all Top-up Tax in a low-tax subsidiary—defeating the purpose of GloBE.
+Without a cap, a high-tax parent could push down excessive CFC tax to eliminate all Top-Up Tax in a low-tax subsidiary—defeating the purpose of GloBE.
 
 ### The Formula
 
@@ -158,11 +158,11 @@ For **passive income** only, the push-down is limited to the **lesser of:**
 
 ```
 (a) Actual CFC tax on the passive income
-(b) Top-up Tax % × Passive Income taxed under CFC regime
+(b) Top-Up Tax % × Passive Income taxed under CFC regime
 ```
 
 Where:
-- **Top-up Tax %** = 15% − CFC's ETR (before push-down)
+- **Top-Up Tax %** = 15% − CFC's ETR (before push-down)
 - **Passive Income** = Dividends, interest, royalties, rent, annuities, certain gains
 
 ### Step-by-Step Application
@@ -172,14 +172,14 @@ Where:
 Pre-push ETR = CFC's Local Tax ÷ CFC's GloBE Income
 ```
 
-**Step 2:** Determine Top-up Tax Percentage
+**Step 2:** Determine Top-Up Tax Percentage
 ```
-Top-up Tax % = 15% − Pre-push ETR
+Top-Up Tax % = 15% − Pre-push ETR
 ```
 
 **Step 3:** Calculate the cap
 ```
-Cap = Top-up Tax % × Passive Income under CFC regime
+Cap = Top-Up Tax % × Passive Income under CFC regime
 ```
 
 **Step 4:** Apply limitation
@@ -199,7 +199,7 @@ SG Singapore Pte Ltd:
 
 Step 1: Pre-push ETR = €250,000 ÷ €5,000,000 = 5%
 
-Step 2: Top-up Tax % = 15% − 5% = 10%
+Step 2: Top-Up Tax % = 15% − 5% = 10%
 
 Step 3: Cap = 10% × €2,000,000 = €200,000
 
@@ -211,7 +211,7 @@ Result:
 
   Singapore post-push ETR:
     (€250,000 + €200,000) ÷ €5,000,000 = 9.0%
-    Still below 15% → Top-up Tax still applies
+    Still below 15% → Top-Up Tax still applies
 ```
 
 ### What Constitutes Passive Income
@@ -306,7 +306,7 @@ Per Administrative Guidance (AG 2.6), the same rule applies to deemed distributi
 **For Distributor:**
 - Covered Taxes increase
 - ETR increases
-- Top-up Tax exposure decreases
+- Top-Up Tax exposure decreases
 
 **For Recipient:**
 - Covered Taxes decrease
@@ -459,7 +459,7 @@ Step 1: Singapore pre-push ETR
   GloBE Income: €4,000,000
   ETR = 3.75%
 
-Step 2: Top-up Tax %
+Step 2: Top-Up Tax %
   15% - 3.75% = 11.25%
 
 Step 3: Passive income cap
@@ -533,7 +533,7 @@ Allocation:
 
 **Issue:** Pushing full CFC tax without applying Article 4.3.3 cap
 
-**Impact:** Artificially inflates subsidiary ETR; understates Top-up Tax
+**Impact:** Artificially inflates subsidiary ETR; understates Top-Up Tax
 
 **Solution:** Always calculate and apply limitation for passive income
 
@@ -596,13 +596,13 @@ Tax allocation ensures Covered Taxes are matched with the income that generated 
 
 1. **Identify allocation triggers** — PE income, CFC tax, hybrid structures, distributions
 2. **Apply push-down mechanism** — Move tax from entity recording it to entity with income
-3. **Respect passive income limitation** — Cap CFC/hybrid push-down at Top-up Tax % × Passive Income
+3. **Respect passive income limitation** — Cap CFC/hybrid push-down at Top-Up Tax % × Passive Income
 4. **Allocate distribution WHT** — Always to distributor, remove from recipient
 5. **Consider deferred tax allocation** — Apply five-step formula or make five-year election
 6. **Verify zero-sum** — Group total Covered Taxes must remain unchanged
 7. **Document thoroughly** — Maintain workpapers for each allocation type
 
-Proper allocation prevents ETR distortions and ensures Top-up Tax calculations reflect economic reality.
+Proper allocation prevents ETR distortions and ensures Top-Up Tax calculations reflect economic reality.
 
 ---
 
@@ -619,7 +619,7 @@ The tax allocation calculations from this chapter feed into the ETR computation 
 1. Calculate pre-allocation Covered Taxes per entity (Chapters 4.1-4.4)
 2. Apply tax allocation adjustments from this chapter
 3. Derive post-allocation Adjusted Covered Taxes per jurisdiction
-4. Enter into **GIR-001 GloBE Calculator** for ETR → SBIE → Top-up Tax calculation
+4. Enter into **GIR-001 GloBE Calculator** for ETR → SBIE → Top-Up Tax calculation
 
 Use **GIR-001 GloBE Calculator** at tools.mojitax.com to verify that your allocation calculations produce the expected jurisdictional ETRs.
 
