@@ -25,7 +25,7 @@ After completing this chapter, you will be able to calculate the jurisdictional 
 
 ## The ETR Formula
 
-The ETR calculation is the pivotal step that determines whether a jurisdiction is subject to Top-up Tax. Article 5.1.1 provides the formula:
+The ETR calculation is the pivotal step that determines whether a jurisdiction is subject to Top-Up Tax. Article 5.1.1 provides the formula:
 
 ```
                     Adjusted Covered Taxes
@@ -35,8 +35,8 @@ ETR = ────────────────────────�
 
 **Express as a percentage, rounded to four decimal places** *(Article 5.1.4)*
 
-If ETR < 15%: The jurisdiction is **low-taxed** and Top-up Tax applies
-If ETR ≥ 15%: **No Top-up Tax** for that jurisdiction
+If ETR < 15%: The jurisdiction is **low-taxed** and Top-Up Tax applies
+If ETR ≥ 15%: **No Top-Up Tax** for that jurisdiction
 
 ### The Two Components
 
@@ -71,14 +71,14 @@ Jurisdictional ETR = ───────────────────�
 | Entity B | €5,000,000 | €500,000 | 10.0% |
 | **Jurisdiction Total** | **€15,000,000** | **€2,500,000** | **16.67%** |
 
-**Result:** The high-taxed Entity A "shelters" the low-taxed Entity B. The **jurisdictional ETR** (16.67%) exceeds 15%, so **no Top-up Tax** applies—even though Entity B individually would have triggered Top-up Tax.
+**Result:** The high-taxed Entity A "shelters" the low-taxed Entity B. The **jurisdictional ETR** (16.67%) exceeds 15%, so **no Top-Up Tax** applies—even though Entity B individually would have triggered Top-Up Tax.
 
 ### Practical Implication
 
-When assessing Top-up Tax exposure:
+When assessing Top-Up Tax exposure:
 - Do **not** calculate ETR per entity
 - Calculate ETR per **jurisdiction** (aggregate all CEs in that country)
-- A single high-taxed entity can eliminate Top-up Tax for the entire jurisdiction
+- A single high-taxed entity can eliminate Top-Up Tax for the entire jurisdiction
 
 ---
 
@@ -130,7 +130,7 @@ Step 3: Jurisdictional Net GloBE Income = €58,380,000 − €2,100,000 = €56
 
 If Jurisdictional Net GloBE Income is **negative** (total losses exceed total income):
 
-**Rule:** No ETR calculation is required. The jurisdiction is not subject to Top-up Tax for that fiscal year.
+**Rule:** No ETR calculation is required. The jurisdiction is not subject to Top-Up Tax for that fiscal year.
 
 **Rationale:** You cannot have a meaningful tax rate when there is no net income to tax.
 
@@ -145,14 +145,14 @@ If Jurisdictional Net GloBE Income is **negative** (total losses exceed total in
 **Result:**
 - Jurisdictional Net GloBE Income = (€5,000,000)
 - **No ETR calculation**
-- **No Top-up Tax** for this fiscal year
+- **No Top-Up Tax** for this fiscal year
 - Loss may be carried forward (see GloBE Loss Election, Chapter 4.4)
 
 ### Case 2: Zero GloBE Income
 
 If Jurisdictional Net GloBE Income equals exactly **zero**:
 
-**Rule:** No ETR calculation is possible (division by zero). No Top-up Tax applies.
+**Rule:** No ETR calculation is possible (division by zero). No Top-Up Tax applies.
 
 ### Case 3: Negative Adjusted Covered Taxes
 
@@ -212,7 +212,7 @@ START
 └─────────────────────────────────────┘
   │
   ├── YES ──► No ETR calculation required
-  │           No Top-up Tax
+  │           No Top-Up Tax
   │           (END)
   │
   NO
@@ -237,7 +237,7 @@ START
   │
   ├── YES ──► LOW-TAXED JURISDICTION
   │           Proceed to SBIE and
-  │           Top-up Tax calculation
+  │           Top-Up Tax calculation
   │
   NO
   │
@@ -268,7 +268,7 @@ ETR (Germany) = ─────────────────── = 0.22
                     €53,880,000
 ```
 
-**Result:** 23.00% > 15% → **No Top-up Tax**
+**Result:** 23.00% > 15% → **No Top-Up Tax**
 
 ### Step 2: Singapore ETR
 
@@ -294,7 +294,7 @@ ETR (Ireland) = ─────────────────── = 0.11
 
 | Jurisdiction | GloBE Income | Covered Taxes | ETR | Status |
 |--------------|--------------|---------------|-----|--------|
-| Germany | €53,880,000 | €12,393,000 | 23.00% | No Top-up Tax |
+| Germany | €53,880,000 | €12,393,000 | 23.00% | No Top-Up Tax |
 | Singapore | €4,000,000 | €392,206 | 9.81% | **Low-taxed** |
 | Ireland | €15,000,000 | €1,770,000 | 11.80% | **Low-taxed** |
 
@@ -331,7 +331,7 @@ ETR (UK) = ───────────── = 29.08%
              €9,200,000
 ```
 
-**Result:** 29.08% > 15% → **No Top-up Tax** for UK jurisdiction
+**Result:** 29.08% > 15% → **No Top-Up Tax** for UK jurisdiction
 
 **Analysis:**
 - SG UK Trading Ltd has a loss and zero taxes
@@ -344,7 +344,7 @@ ETR (UK) = ───────────── = 29.08%
 
 ### Pitfall 1: Calculating ETR Per Entity Instead of Per Jurisdiction
 
-**Error:** Computing separate ETRs for each subsidiary and assessing Top-up Tax entity-by-entity.
+**Error:** Computing separate ETRs for each subsidiary and assessing Top-Up Tax entity-by-entity.
 
 **Correct approach:** Aggregate all CEs in the jurisdiction first, then calculate a single jurisdictional ETR.
 
@@ -364,7 +364,7 @@ ETR (UK) = ───────────── = 29.08%
 
 **Error:** Rounding ETR to two decimal places (e.g., 14.99% becomes 15.0%).
 
-**Correct approach:** Round to **four decimal places** per Article 5.1.4. An ETR of 14.9999% is still below 15% and triggers Top-up Tax.
+**Correct approach:** Round to **four decimal places** per Article 5.1.4. An ETR of 14.9999% is still below 15% and triggers Top-Up Tax.
 
 ### Pitfall 5: Forgetting QRTC GloBE Income Adjustment
 
@@ -398,7 +398,7 @@ B1  Total GloBE Income (positive amounts)    €__________________
 B2  Total GloBE Losses (as positive number)  €__________________
 B3  Jurisdictional Net GloBE Income (B1-B2)  €__________________
 
-    If B3 ≤ 0: STOP. No ETR calculation. No Top-up Tax.
+    If B3 ≤ 0: STOP. No ETR calculation. No Top-Up Tax.
 
 B4  Total Adjusted Covered Taxes             €__________________
 
@@ -409,7 +409,7 @@ C1  ETR = B4 ÷ B3                            ___________________%
 C2  Is ETR < 15%?                            YES / NO
 
     If YES: Low-taxed jurisdiction → Proceed to SBIE (Chapter 5.2)
-    If NO:  No Top-up Tax for this jurisdiction
+    If NO:  No Top-Up Tax for this jurisdiction
 
 SECTION D: VERIFICATION
 D1  Data sources verified?                   ☐ GloBE Income (Part 3)
@@ -453,15 +453,15 @@ Blending **within** a jurisdiction is intentional:
 
 ## Summary
 
-The ETR calculation is the gateway to Top-up Tax determination. The key implementation steps are:
+The ETR calculation is the gateway to Top-Up Tax determination. The key implementation steps are:
 
 1. **Identify all CEs in the jurisdiction** — Include every Constituent Entity, regardless of profitability
 2. **Calculate Jurisdictional Net GloBE Income** — Sum income, subtract losses
-3. **Check for negative denominator** — If Net GloBE Income ≤ 0, stop; no Top-up Tax
+3. **Check for negative denominator** — If Net GloBE Income ≤ 0, stop; no Top-Up Tax
 4. **Aggregate Adjusted Covered Taxes** — Sum across all CEs in the jurisdiction
 5. **Apply the formula** — ETR = Covered Taxes ÷ Net GloBE Income
 6. **Round to four decimal places** — Precision matters at the 15% threshold
-7. **Assess result** — ETR < 15% = low-taxed; ETR ≥ 15% = no Top-up Tax
+7. **Assess result** — ETR < 15% = low-taxed; ETR ≥ 15% = no Top-Up Tax
 
 Jurisdictional blending means high-tax entities can shelter low-tax entities within the same country, but not across borders.
 
@@ -490,4 +490,4 @@ Use **GIR-001 GloBE Calculator** at tools.mojitax.com to verify your manual ETR 
 
 ## Next Step
 
-You have learned how to calculate the jurisdictional ETR and identify low-taxed jurisdictions. Proceed to **Chapter 5.2: Substance-Based Income Exclusion (SBIE)** to learn how to reduce the Top-up Tax base through payroll and tangible asset carve-outs.
+You have learned how to calculate the jurisdictional ETR and identify low-taxed jurisdictions. Proceed to **Chapter 5.2: Substance-Based Income Exclusion (SBIE)** to learn how to reduce the Top-Up Tax base through payroll and tangible asset carve-outs.
