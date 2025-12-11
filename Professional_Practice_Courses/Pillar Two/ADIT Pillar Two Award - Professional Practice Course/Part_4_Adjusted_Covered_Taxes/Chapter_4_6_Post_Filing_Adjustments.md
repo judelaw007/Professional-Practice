@@ -13,9 +13,9 @@ GloBE treats increases and decreases in prior-year Covered Taxes differently:
 | Adjustment Type | Treatment | Rationale |
 |-----------------|-----------|-----------|
 | **Increase** in prior-year Covered Taxes | Add to **current year** Covered Taxes | Simplicity; no refund mechanism |
-| **Decrease** in prior-year Covered Taxes | **Recalculate** prior year ETR and Top-up Tax | Prevent avoidance via later reductions |
+| **Decrease** in prior-year Covered Taxes | **Recalculate** prior year ETR and Top-Up Tax | Prevent avoidance via later reductions |
 
-**Why asymmetric?** GloBE does not provide refunds of Top-up Tax already paid. If a prior-year increase simply increased current-year Covered Taxes, but a decrease required recalculation, MNEs would face permanent overtaxation from increases but full correction for decreases. The asymmetry ensures fairness while maintaining anti-avoidance integrity.
+**Why asymmetric?** GloBE does not provide refunds of Top-Up Tax already paid. If a prior-year increase simply increased current-year Covered Taxes, but a decrease required recalculation, MNEs would face permanent overtaxation from increases but full correction for decreases. The asymmetry ensures fairness while maintaining anti-avoidance integrity.
 
 ---
 
@@ -39,7 +39,7 @@ An increase to a Constituent Entity's Covered Taxes for a **prior fiscal year** 
 
 ```
 FY 2024: Filed GIR with Covered Taxes €10,000,000
-         ETR = 18% → No Top-up Tax
+         ETR = 18% → No Top-Up Tax
 
 FY 2026: Audit concludes; additional €500,000 tax for FY 2024
 
@@ -51,9 +51,9 @@ Treatment:
 
 ### No Refund Mechanism
 
-If the FY 2024 ETR was below 15% and Top-up Tax was paid, the additional €500,000 does NOT trigger a refund of that Top-up Tax. The increase simply improves FY 2026's position.
+If the FY 2024 ETR was below 15% and Top-Up Tax was paid, the additional €500,000 does NOT trigger a refund of that Top-Up Tax. The increase simply improves FY 2026's position.
 
-**Consequence:** MNEs that paid Top-up Tax in a prior year and later have increased Covered Taxes for that year receive no benefit. This creates an incentive to resolve tax positions promptly.
+**Consequence:** MNEs that paid Top-Up Tax in a prior year and later have increased Covered Taxes for that year receive no benefit. This creates an incentive to resolve tax positions promptly.
 
 ---
 
@@ -62,8 +62,8 @@ If the FY 2024 ETR was below 15% and Top-up Tax was paid, the additional €500,
 ### The General Rule
 
 A **decrease** in Covered Taxes for a prior fiscal year requires:
-1. Recalculation of the prior year's ETR and Top-up Tax
-2. Any incremental Top-up Tax is paid in the current year (as Additional Current Top-up Tax)
+1. Recalculation of the prior year's ETR and Top-Up Tax
+2. Any incremental Top-Up Tax is paid in the current year (as Additional Current Top-Up Tax)
 
 ### The Recalculation Process
 
@@ -73,11 +73,11 @@ A **decrease** in Covered Taxes for a prior fiscal year requires:
 
 **Step 3:** Recalculate that year's ETR
 
-**Step 4:** Recalculate Top-up Tax using Article 5.1-5.3
+**Step 4:** Recalculate Top-Up Tax using Article 5.1-5.3
 
-**Step 5:** Determine incremental Top-up Tax (new vs. original)
+**Step 5:** Determine incremental Top-Up Tax (new vs. original)
 
-**Step 6:** Include incremental amount as Additional Current Top-up Tax per Article 5.2.3
+**Step 6:** Include incremental amount as Additional Current Top-Up Tax per Article 5.2.3
 
 ### Worked Example
 
@@ -86,7 +86,7 @@ FY 2024 (as originally filed):
   GloBE Income:           €50,000,000
   Adjusted Covered Taxes: €8,500,000
   ETR:                    17% (above 15%)
-  Top-up Tax:             €0
+  Top-Up Tax:             €0
 
 FY 2026: Tax refund of €1,200,000 relating to FY 2024
 
@@ -94,11 +94,11 @@ Recalculation of FY 2024:
   GloBE Income:           €50,000,000 (unchanged)
   Adjusted Covered Taxes: €8,500,000 - €1,200,000 = €7,300,000
   Revised ETR:            14.6% (below 15%)
-  Top-up Tax %:           15% - 14.6% = 0.4%
-  Top-up Tax:             0.4% × €50,000,000 = €200,000
+  Top-Up Tax %:           15% - 14.6% = 0.4%
+  Top-Up Tax:             0.4% × €50,000,000 = €200,000
 
 Result:
-  Additional Current Top-up Tax in FY 2026: €200,000
+  Additional Current Top-Up Tax in FY 2026: €200,000
   No amended GIR for FY 2024 required
 ```
 
@@ -128,7 +128,7 @@ If the aggregate decrease in Covered Taxes for a jurisdiction in a fiscal year i
 - Decrease is truly immaterial
 
 **Do not use when:**
-- Prior year ETR was close to 15% (decrease may trigger Top-up Tax)
+- Prior year ETR was close to 15% (decrease may trigger Top-Up Tax)
 - Multiple small decreases may aggregate to material impact
 
 ### Example
@@ -138,7 +138,7 @@ FY 2024 ETR: 22% (comfortably above 15%)
 FY 2026: Refund of €400,000 relating to FY 2024
 
 Option A: Recalculate FY 2024
-  Revised ETR: Still above 15% → No Top-up Tax
+  Revised ETR: Still above 15% → No Top-Up Tax
   Administrative burden: Moderate
 
 Option B: Elect immaterial exception
@@ -173,7 +173,7 @@ Year 2: Rate reduced to 10%
 
 Treatment:
   Recalculate Year 1 ETR with reduced deferred tax
-  Any incremental Top-up Tax → Additional Current Top-up Tax in Year 2
+  Any incremental Top-Up Tax → Additional Current Top-Up Tax in Year 2
 ```
 
 ### Rate Increases (Article 4.6.3)
@@ -211,7 +211,7 @@ Treatment:
 **Process:**
 1. At end of Year 3, assess unpaid current tax
 2. If > €1 million unpaid, recalculate Year 1 ETR excluding unpaid amount
-3. Any incremental Top-up Tax → Additional Current Top-up Tax
+3. Any incremental Top-Up Tax → Additional Current Top-Up Tax
 
 **Timeline:**
 ```
@@ -220,7 +220,7 @@ Year 4: Only €3,800,000 paid; €1,200,000 still unpaid
 
 Recapture triggered:
   Recalculate Year 1 ETR excluding €1,200,000
-  Incremental Top-up Tax paid in Year 4
+  Incremental Top-Up Tax paid in Year 4
 ```
 
 ### Deferred Tax Recapture (Article 4.4.4)
@@ -257,7 +257,7 @@ When Country A's tax authority makes a TP adjustment:
 | Scenario | Treatment |
 |----------|-----------|
 | TP audit increases tax in Year 1 (discovered Year 3) | Add to Year 3 Covered Taxes (Art. 4.6.1) |
-| TP audit decreases tax in Year 1 (discovered Year 3) | Recalculate Year 1 ETR; Additional Top-up Tax in Year 3 |
+| TP audit decreases tax in Year 1 (discovered Year 3) | Recalculate Year 1 ETR; Additional Top-Up Tax in Year 3 |
 | Bilateral APA applied retroactively | Adjust per APA terms; follow 4.6.1/recalculation rules |
 | Self-initiated TP true-up | Complex—depends on timing and direction |
 
@@ -269,7 +269,7 @@ When Country A's tax authority makes a TP adjustment:
 - If true-up is made **before** GIR filed: Include in original GloBE computation
 - If true-up is made **after** GIR filed: Apply post-filing adjustment rules
 
-**Warning:** True-ups that increase income in low-tax jurisdictions may increase Top-up Tax exposure.
+**Warning:** True-ups that increase income in low-tax jurisdictions may increase Top-Up Tax exposure.
 
 ---
 
@@ -378,8 +378,8 @@ Original:
   GloBE Income:    €4,000,000
   Covered Taxes:   €352,500
   ETR:             8.8%
-  Top-up Tax %:    6.2%
-  Top-up Tax:      €248,000
+  Top-Up Tax %:    6.2%
+  Top-Up Tax:      €248,000
 
 Revised:
   GloBE Income:    €4,000,000
@@ -390,13 +390,13 @@ Need to verify: The refund likely relates to tax paid in
 FY 2025, reducing Covered Taxes.
 
 Revised Covered Taxes: -€1,047,500 (negative)
-Revised ETR: Negative ETR → Top-up Tax % = 15%
-Revised Top-up Tax: 15% × €4,000,000 = €600,000
+Revised ETR: Negative ETR → Top-Up Tax % = 15%
+Revised Top-Up Tax: 15% × €4,000,000 = €600,000
 
-Original Top-up Tax: €248,000
+Original Top-Up Tax: €248,000
 Incremental: €600,000 - €248,000 = €352,000
 
-Additional Current Top-up Tax in FY 2027: €352,000
+Additional Current Top-Up Tax in FY 2027: €352,000
 ```
 
 **3. Ireland (+€180,000 increase)**
@@ -412,9 +412,9 @@ Article 4.6.1 applies:
 |------|------------|
 | Germany Covered Taxes adjustment | +750,000 |
 | Ireland Covered Taxes adjustment | +180,000 |
-| Singapore Additional Current Top-up Tax | +352,000 |
+| Singapore Additional Current Top-Up Tax | +352,000 |
 
-**Note:** The Singapore refund results in additional Top-up Tax because the original ETR (8.8%) was already below 15%. The refund pushes Covered Taxes negative, worsening the ETR significantly.
+**Note:** The Singapore refund results in additional Top-Up Tax because the original ETR (8.8%) was already below 15%. The refund pushes Covered Taxes negative, worsening the ETR significantly.
 
 ---
 
@@ -437,8 +437,8 @@ Article 4.6.1 applies:
 - [ ] Calculate aggregate decrease for jurisdiction
 - [ ] If < €1M: Consider immaterial election
 - [ ] If ≥ €1M or no election: Recalculate prior year ETR
-- [ ] Calculate incremental Top-up Tax
-- [ ] Include as Additional Current Top-up Tax (Article 5.2.3)
+- [ ] Calculate incremental Top-Up Tax
+- [ ] Include as Additional Current Top-Up Tax (Article 5.2.3)
 - [ ] Document recalculation workpapers
 
 ### For Rate Changes
@@ -462,7 +462,7 @@ Article 4.6.1 applies:
 
 **Issue:** Adding decreases to current year Covered Taxes without recalculation
 
-**Impact:** Understates Top-up Tax; potential penalty exposure
+**Impact:** Understates Top-Up Tax; potential penalty exposure
 
 **Solution:** Always recalculate prior year for decreases (unless immaterial election applies)
 
@@ -506,7 +506,7 @@ Article 4.6.1 applies:
 - Article 4.6.3 — Rate increase: adjustment when tax paid
 - Article 4.6.4 — 3-year recapture for unpaid current tax (€1M threshold)
 - Article 4.4.4 — 5-year recapture for unreversed DTLs
-- Article 5.2.3 — Additional Current Top-up Tax
+- Article 5.2.3 — Additional Current Top-Up Tax
 - Article 5.4.1 — ETR recalculation mechanics
 
 **Administrative Guidance:**
@@ -524,13 +524,13 @@ Post-filing adjustments require careful application of asymmetric rules that tre
 
 1. **Classify the adjustment** — Increase or decrease in prior-year Covered Taxes
 2. **For increases** — Add to current year Covered Taxes; no recalculation
-3. **For decreases** — Recalculate prior year ETR and Top-up Tax (unless immaterial election)
+3. **For decreases** — Recalculate prior year ETR and Top-Up Tax (unless immaterial election)
 4. **Apply rate change rules** — Article 4.6.2 for decreases, 4.6.3 for increases
 5. **Monitor recapture periods** — 3 years for current tax, 5 years for deferred tax
 6. **Handle TP adjustments** — Follow GloBE's respect for local authority positions
 7. **Document thoroughly** — Maintain workpapers showing recalculation methodology
 
-The asymmetric treatment ensures MNEs cannot retrospectively reduce Top-up Tax through later adjustments while maintaining administrative simplicity for increases.
+The asymmetric treatment ensures MNEs cannot retrospectively reduce Top-Up Tax through later adjustments while maintaining administrative simplicity for increases.
 
 ---
 
@@ -548,7 +548,7 @@ Post-filing adjustments affect both current and prior-year GloBE calculations:
 2. Recalculate Adjusted Covered Taxes with the decrease applied
 3. Re-run **GIR-001 GloBE Calculator** with revised inputs
 4. Compare new ETR to original ETR
-5. Calculate Additional Current Top-up Tax if new ETR < 15%
+5. Calculate Additional Current Top-Up Tax if new ETR < 15%
 
 **Note:** The €1M immaterial election allows current-year treatment instead of recalculation for jurisdictions where the aggregate decrease is below the threshold.
 
