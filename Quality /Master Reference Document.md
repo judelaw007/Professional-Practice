@@ -3,7 +3,7 @@
 
 **Purpose:** Track terminology standards, concepts, cross-references, and consistency issues across all course sections. This is a living document updated at the start of each section audit.
 
-**Last Updated:** 2025-12-11 (Part 1 full audit complete)
+**Last Updated:** 2025-12-11 (Part 2 full audit complete)
 
 ---
 
@@ -17,12 +17,18 @@
 | CE | Constituent Entity (Part 1.2) | "CE" or "Constituent Entity" | — | Parts 1.2, 1.3, 1.4, CS1 |
 | IPE | Intermediate Parent Entity (Part 1.3) | "IPE" or "Intermediate Parent Entity" | — | Parts 1.3, 1.4, CS1 |
 | PE | Permanent Establishment (Part 1.2) | "PE" or "Permanent Establishment" | — | Parts 1.2, 1.3, CS1 |
-| IIR | Income Inclusion Rule (Part 1.3) | "IIR" | — | Parts 1.3, CS1 |
-| UTPR | Undertaxed Profits Rule (Part 1.3) | "UTPR" | — | Parts 1.3, CS1 |
-| ETR | Effective Tax Rate (Part 1.1) | "ETR" | — | Parts 1.1, 1.2 |
-| SBIE | Substance-Based Income Exclusion (Part 1.1) | "SBIE" | — | Part 1.1 |
-| Top-Up Tax | Tax to bring ETR to 15% (Part 1.1) | "Top-Up Tax" (capital U) | "Top-up Tax" (lowercase u) - **INCORRECT** | Parts 1.1, 1.2, 1.3, 1.4, CS1 |
-| GIR | GloBE Information Return (Part 1.1) | "GIR" | — | Parts 1.1, 1.2, 1.3, 1.4 |
+| IIR | Income Inclusion Rule (Part 1.3) | "IIR" or "Income Inclusion Rule" | — | Parts 1.3, CS1, 2.1, 2.3, 2.4, CS2 |
+| UTPR | Undertaxed Profits Rule (Part 1.3) | "UTPR" or "Undertaxed Profits Rule" | — | Parts 1.3, CS1, 2.2, 2.3, 2.4, CS2 |
+| LTCE | Low-Taxed Constituent Entity (Part 2.1) | "LTCE" or "Low-Taxed Constituent Entity" | — | Parts 2.1, 2.2, 2.3, 2.4, CS2 |
+| POPE | Partially-Owned Parent Entity (Part 2.1) | "POPE" or "Partially-Owned Parent Entity" | — | Parts 2.1, 2.3, 2.4, CS2 |
+| QDMTT | Qualified Domestic Minimum Top-Up Tax (Part 2.2) | "QDMTT" | — | Parts 2.2, 2.3, 2.4, CS2 |
+| Inclusion Ratio | Parent's proportionate interest in LTCE's GloBE Income (Part 2.1) | "Inclusion Ratio" | — | Parts 2.1, 2.4, CS2 |
+| Allocable Share | Top-Up Tax × Inclusion Ratio (Part 2.1) | "Allocable Share" | — | Parts 2.1, 2.4, CS2 |
+| SOR | Switch-Over Rule (Part 2.3) | "SOR" or "Switch-Over Rule" | — | Part 2.3 |
+| ETR | Effective Tax Rate (Part 1.1) | "ETR" | — | Parts 1.1, 1.2, 2.4, CS2 |
+| SBIE | Substance-Based Income Exclusion (Part 1.1) | "SBIE" | — | Parts 1.1, 2.4, CS2 |
+| Top-Up Tax | Tax to bring ETR to 15% (Part 1.1) | "Top-Up Tax" (capital U) | "Top-up Tax" (lowercase u) - **INCORRECT** | All Parts |
+| GIR | GloBE Information Return (Part 1.1) | "GIR" | — | Parts 1.1, 1.2, 1.3, 1.4, 2.1, 2.2, 2.4, CS2 |
 | NPO | Non-Profit Organisation (Part 1.4) | "NPO" or "Non-Profit Organisation" | — | Part 1.4, CS1 |
 | DLC | Dual-Listed Company (Part 1.3) | "DLC" or "Dual-Listed Company" | — | Part 1.3 |
 
@@ -61,6 +67,16 @@
 | Five Excluded Entity categories | Chapter 1.4 | CS1 | None |
 | Investment Fund 80% ownership test | Chapter 1.4 | — | None |
 | Pension Services Entity | Chapter 1.4 | — | None |
+| IIR top-down cascade | Chapter 2.1 | Chapter 2.3 | None |
+| IIR Allocable Share formula | Chapter 2.1 | Chapters 2.3, 2.4, CS2 | None |
+| POPE >20% third-party ownership test | Chapter 2.1 | Chapter 2.4 | None |
+| IIR offset mechanism | Chapter 2.1 | Chapters 2.3, 2.4 | None |
+| UTPR 50/50 allocation formula | Chapter 2.2 | Chapter 2.4, CS2 | None |
+| UTPR carve-out rule | Chapter 2.2 | — | None |
+| Transitional UTPR safe harbour | Chapter 2.2 | — | Through FY 2025/2026 |
+| Three-layer rule order (QDMTT→IIR→UTPR) | Chapter 2.3 | Chapter 2.4, CS2 | None |
+| SBIE transition rates | Chapter 2.4 | CS2 | Declining to 5%/5% by 2033 |
+| Jurisdictional blending | Chapter 2.4 | CS2 | None |
 
 ---
 
@@ -82,6 +98,14 @@
 | "Part 6" (JV definition) | Chapters 1.2, 1.4 | Part 6 | Valid |
 | "Part 7" (De Minimis Test) | Chapter 1.1 | Part 7 | Valid |
 | GIR-001, GIR-002, GIR-004, GIR-005 | Various | tools.mojitax.com | Valid (external) |
+| "Chapter 2.2: Undertaxed Profits Rule" | Chapter 2.1 | Chapter 2.2 | Valid |
+| "Chapter 2.3: Ordering Rules and Interaction" | Chapter 2.2 | Chapter 2.3 | Valid |
+| "Chapter 2.4: Top-Up Tax Allocation" | Chapter 2.3 | Chapter 2.4 | Valid |
+| "Case Study 2" | Chapter 2.4 | Case Study 2 | Valid |
+| "Part 3: Computing GloBE Income" | Chapters 2.4, CS2 | Part 3 | Valid |
+| "Chapter 5.4 for QDMTT interaction" | Chapter 2.1 | Chapter 5.4 | Valid |
+| "Part 5 methodology" | Chapter 2.3 | Part 5 | Valid |
+| "Chapter 5 calculation" | Chapter 2.3 | Part 5 | Valid |
 
 ---
 
@@ -178,16 +202,44 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 
 **Contradictions Resolved:** None identified
 
+### Part 2: Charging Mechanism (Full Audit 2025-12-11)
+
+**Files Audited:**
+- Chapter_2_1_Income_Inclusion_Rule_Mechanics.md
+- Chapter_2_2_Undertaxed_Profits_Rule_Application.md
+- Chapter_2_3_Ordering_Rules_and_Interaction.md
+- Chapter_2_4_TopUp_Tax_Allocation_Calculations.md
+- Case_Study_2_Stratos_First_TopUp_Tax_Allocation.md
+
+**Terminology Checked:**
+- "Top-Up Tax" — All 223 occurrences correct (capital U) ✓
+- Article references — Consistent format ✓
+- Cross-references — All valid ✓
+- Currency formatting — Consistent ✓
+
+**Fixes Applied:** None required
+
+**Redundancies Removed:** None identified
+
+**Contradictions Resolved:** None identified
+
+**New Terms Logged:**
+- LTCE, POPE, QDMTT, Inclusion Ratio, Allocable Share, SOR
+
+**New Concepts Logged:**
+- IIR top-down cascade, IIR offset mechanism, UTPR 50/50 formula
+- Three-layer rule order, SBIE transition rates, Jurisdictional blending
+
 ---
 
 ## H. NEXT SECTION NOTES
 
-### For Part 2 Audit:
+### For Part 3 Audit:
 1. Watch for "Top-up Tax" variations — standardize to "Top-Up Tax"
-2. Verify cross-references to Part 1 chapters are accurate
-3. Check IIR and UTPR terminology consistency
-4. Log any new terms introduced (should include charging mechanism specifics)
-5. Track where concepts from Part 1 (UPE, IPE, CE) are referenced
+2. Verify cross-references to Parts 1-2 are accurate
+3. Check GloBE Income calculation terminology consistency
+4. Log any new terms introduced (GloBE Income adjustments, exclusions)
+5. Track where concepts from Parts 1-2 are referenced
 
 ### Established Conventions to Maintain:
 - "Top-Up Tax" (capital U)
@@ -195,6 +247,7 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 - "Article X.X.X" for OECD references
 - "Chapter X.X" and "Part X" for internal references
 - Four decimal places for exchange rates
+- SBIE transition rates table (9.8%/7.8% for FY 2025)
 
 ---
 
@@ -203,7 +256,7 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 | Part | Status | Date Completed | Issues Found |
 |------|--------|----------------|--------------|
 | Part 1 | ✓ Complete (Full Audit) | 2025-12-11 | None |
-| Part 2 | Pending | — | — |
+| Part 2 | ✓ Complete (Full Audit) | 2025-12-11 | None |
 | Part 3 | Pending | — | — |
 | Part 4 | Pending | — | — |
 | Part 5 | Pending | — | — |
@@ -211,4 +264,4 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 | Part 7 | Pending | — | — |
 | Part 8 | Pending | — | — |
 
-**Note:** Parts 2-5 were audited in prior sessions for terminology only ("Top-up Tax" → "Top-Up Tax"). Full comprehensive audits per the quality check process are pending.
+**Note:** Parts 3-5 were audited in prior sessions for terminology only ("Top-up Tax" → "Top-Up Tax"). Full comprehensive audits per the quality check process are pending.
