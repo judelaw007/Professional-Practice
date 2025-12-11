@@ -3,7 +3,7 @@
 
 **Purpose:** Track terminology standards, concepts, cross-references, and consistency issues across all course sections. This is a living document updated at the start of each section audit.
 
-**Last Updated:** 2025-12-11 (Part 5 full audit complete)
+**Last Updated:** 2025-12-11 (Part 6 full audit complete)
 
 ---
 
@@ -48,6 +48,12 @@
 | WHT | Withholding Tax (Part 4.5) | "WHT" | — | Parts 4.5, CS4 |
 | MOCE | Minority-Owned Constituent Entity (Part 5.6) | "MOCE" | — | Parts 5.6, CS5 |
 | MOPE | Minority-Owned Parent Entity (Part 5.6) | "MOPE" | — | Part 5.6 |
+| JV | Joint Venture (Part 6.3) | "JV" or "Joint Venture" | — | Parts 6.3, 6.4, CS6 |
+| DLA | Dual-Listed Arrangement (Part 6.4) | "DLA" or "Dual-Listed Arrangement" | — | Part 6.4 |
+| REIV | Real Estate Investment Vehicle (Part 6.6) | "REIV" | — | Part 6.6 |
+| TTE | Tax Transparent Entity (Part 6.5) | "TTE" or "Tax Transparent Entity" | — | Parts 6.5, CS6 |
+| RHE | Reverse Hybrid Entity (Part 6.5) | "RHE" or "Reverse Hybrid Entity" | — | Part 6.5 |
+| DFE | Designated Filing Entity (Part 6.4) | "DFE" or "Designated Filing Entity" | — | Part 6.4 |
 
 ---
 
@@ -140,6 +146,31 @@
 | MOCE separate ETR calculation | Chapter 5.6 | CS5 | Article 5.6.2 |
 | Minority-Owned Sub-Group treatment | Chapter 5.6 | CS5 | Article 5.6.1 |
 | Top-Up Tax allocation to LTCEs | Chapter 5.3 | CS5 | In proportion to GloBE Income |
+| Merger GloBE treatment (Art. 6.1) | Chapter 6.1 | CS6 | Carry-forward of attributes |
+| Demerger separate MNE Group treatment | Chapter 6.1 | — | Art. 6.1.2 |
+| Acquisition entry date rule (Art. 6.2.1) | Chapter 6.2 | CS6 | From acquisition date |
+| Partial-year income allocation | Chapter 6.2 | CS6 | Days in group ÷ 365 |
+| Basis step-up election (Art. 6.3.4) | Chapter 6.2 | — | FV basis for share deals |
+| Disposal exit rules (Art. 6.2.2) | Chapter 6.2 | — | Up to disposal date |
+| JV separate MNE Group treatment (Art. 6.4.1) | Chapter 6.3 | CS6 | Not blended with main group |
+| JV allocable share of Top-Up Tax | Chapter 6.3 | CS6 | Based on ownership % |
+| JV ≥50% equity-accounted test | Chapter 6.3 | CS6 | Article 10.1 definition |
+| Multi-Parented MNE Group (Art. 6.5) | Chapter 6.4 | — | Two or more Joint UPEs |
+| Stapled Structure (≥50% stapled) | Chapter 6.4 | — | Article 10.1 definition |
+| Dual-Listed Arrangement equalisation | Chapter 6.4 | — | Article 10.1 definition |
+| Top-Up Tax allocation between Joint UPEs | Chapter 6.4 | — | Per allocable share |
+| Combined group revenue threshold test | Chapter 6.4 | — | Combined for €750M test |
+| Flow-Through UPE GloBE Income reduction (Art. 7.1) | Chapter 6.5 | — | For qualifying owners |
+| Article 7.1.1 qualifying owner conditions | Chapter 6.5 | — | ≥15% rate, Excluded Entity, ≤5% listed |
+| Article 7.1.2 Covered Tax reduction | Chapter 6.5 | — | Proportional to income reduction |
+| CFC regime consideration (Art. 7.1.3) | Chapter 6.5 | — | May satisfy ≥15% test |
+| Investment Fund definition (Art. 10.1) | Chapter 6.6 | CS6 | Pooling + regulation tests |
+| REIV definition (Art. 10.1) | Chapter 6.6 | — | Predominantly immovable property |
+| Investment Entity UPE exclusion (Art. 1.5.1) | Chapter 6.6 | — | Excluded Entity if UPE |
+| Investment Entity separate ETR (Art. 7.4) | Chapter 6.6 | CS6 | No jurisdictional blending |
+| Tax Transparency Election (Art. 7.5) | Chapter 6.6 | CS6 | Five-Year Election; blend with owner |
+| Taxable Distribution Method (Art. 7.6) | Chapter 6.6 | — | Five-Year Election; deferred recognition |
+| Four-year distribution deadline (Art. 7.6.4) | Chapter 6.6 | — | 15% charge if undistributed |
 
 ---
 
@@ -197,6 +228,23 @@
 | "Part 4" (Covered Taxes) | Chapters 5.1, CS5 | Part 4 | Valid |
 | "Part 3" (GloBE Income) | Chapters 5.1, CS5 | Part 3 | Valid |
 | OECD Central Record | Chapter 5.4 | oecd.org (external) | Valid |
+| "Chapter 6.2: Acquisitions and Disposals" | Chapter 6.1 | Chapter 6.2 | Valid |
+| "Chapter 6.3: Joint Ventures" | Chapter 6.2 | Chapter 6.3 | Valid |
+| "Chapter 6.4: Multi-Parented Groups" | Chapter 6.3 | Chapter 6.4 | Valid |
+| "Chapter 6.5: Flow-Through UPEs" | Chapter 6.4 | Chapter 6.5 | Valid |
+| "Chapter 6.6: Investment Entities" | Chapter 6.5 | Chapter 6.6 | Valid |
+| "Case Study 6" | Chapter 6.6 | Case Study 6 | Valid |
+| "Part 7: Safe Harbours and Compliance" | CS6 | Part 7 | Valid |
+| "Chapter 6.1" (mergers) | Chapters 6.2, CS6 | Chapter 6.1 | Valid |
+| "Chapter 6.2" (acquisitions) | Chapters 6.3, CS6 | Chapter 6.2 | Valid |
+| "Chapter 6.3" (JV) | Chapters 6.4, CS6 | Chapter 6.3 | Valid |
+| "Chapter 6.4" (Multi-Parented) | CS6 | Chapter 6.4 | Valid |
+| "Chapter 6.5" (Flow-Through) | CS6 | Chapter 6.5 | Valid |
+| "Article 7.1" (Flow-Through reduction) | Chapters 6.5, CS6 | — | OECD reference |
+| "Article 6.4" (JV treatment) | Chapter 6.3 | — | OECD reference |
+| "Article 7.4" (Investment Entity ETR) | Chapter 6.6 | — | OECD reference |
+| "Article 7.5" (Tax Transparency Election) | Chapter 6.6 | — | OECD reference |
+| "Article 7.6" (Taxable Distribution Method) | Chapter 6.6 | — | OECD reference |
 
 ---
 
@@ -423,16 +471,53 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 - MOCE ≤30% test, MOCE separate ETR, Minority-Owned Sub-Group
 - Top-Up Tax allocation to LTCEs
 
+### Part 6: Special Structures (Full Audit 2025-12-11)
+
+**Files Audited:**
+- Chapter_6_1_Mergers_and_Demergers.md
+- Chapter_6_2_Acquisitions_and_Disposals.md
+- Chapter_6_3_Joint_Ventures.md
+- Chapter_6_4_Multi_Parented_Groups.md
+- Chapter_6_5_Flow_Through_UPEs.md
+- Chapter_6_6_Investment_Entities.md
+- Case_Study_6_Stratos_Acquisition_of_TechStart.md
+
+**Terminology Checked:**
+- "Top-Up Tax" — All 184 occurrences correct (capital U) ✓
+- Article references — Consistent format ✓
+- Cross-references — All valid ✓
+- Currency formatting — Consistent ✓
+
+**Fixes Applied:** None required
+
+**Redundancies Removed:** None identified
+
+**Contradictions Resolved:** None identified
+
+**New Terms Logged:**
+- JV, DLA, REIV, TTE, RHE, DFE
+
+**New Concepts Logged:**
+- Merger/Demerger GloBE treatment, Acquisition entry date rule
+- Partial-year income allocation, Basis step-up election
+- JV separate MNE Group treatment, JV allocable share of Top-Up Tax
+- Multi-Parented MNE Group, Stapled Structure, Dual-Listed Arrangement
+- Top-Up Tax allocation between Joint UPEs, Combined revenue threshold
+- Flow-Through UPE reduction (Art. 7.1), Qualifying owner conditions
+- Investment Fund/REIV definitions, Investment Entity separate ETR
+- Tax Transparency Election (Art. 7.5), Taxable Distribution Method (Art. 7.6)
+- Four-year distribution deadline
+
 ---
 
 ## H. NEXT SECTION NOTES
 
-### For Part 6 Audit:
+### For Part 7 Audit:
 1. Watch for "Top-up Tax" variations — standardize to "Top-Up Tax"
-2. Verify cross-references to Parts 1-5 are accurate
-3. Log any new terms (JV, M&A, Investment Entity structures)
-4. Track special structure concepts introduced
-5. Check consistency with MOCE treatment from Part 5
+2. Verify cross-references to Parts 1-6 are accurate
+3. Log any new terms (Safe Harbour, CBCR, Transitional rules)
+4. Track compliance concepts introduced
+5. Check consistency with ETR/Top-Up Tax treatment from Parts 5-6
 
 ### Established Conventions to Maintain:
 - "Top-Up Tax" (capital U)
@@ -456,8 +541,8 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 | Part 3 | ✓ Complete (Full Audit) | 2025-12-11 | None |
 | Part 4 | ✓ Complete (Full Audit) | 2025-12-11 | 5 "Top-up Tax" → "Top-Up Tax" |
 | Part 5 | ✓ Complete (Full Audit) | 2025-12-11 | None |
-| Part 6 | ✓ Complete (Terminology) | 2025-12-11 | Top-Up Tax capitalization |
+| Part 6 | ✓ Complete (Full Audit) | 2025-12-11 | None |
 | Part 7 | Pending | — | — |
 | Part 8 | Pending | — | — |
 
-**Note:** Part 6 was audited in prior sessions for terminology only ("Top-up Tax" → "Top-Up Tax"). Full comprehensive audit per the quality check process is pending.
+**Note:** Parts 1-6 fully audited. Part 6 terminology was audited in prior sessions; full audit confirms no remaining issues.
