@@ -4,19 +4,15 @@
 
 After completing this chapter, you will be able to determine whether an MNE group meets the €750 million consolidated revenue threshold and document this assessment for compliance purposes.
 
----
-
-## The Threshold Test
+## 1. The Threshold Test
 
 An MNE group falls within scope of the GloBE Rules if consolidated group revenue equals or exceeds **€750 million** in at least **two of the four fiscal years** immediately preceding the tested fiscal year *(Article 1.1.1)*.
 
 This is a binary test applied at the group level—individual entity revenues are irrelevant for this purpose.
 
----
+## 2. Identifying the Revenue Figure
 
-## Identifying the Revenue Figure
-
-### Which Line Item?
+### 2.1 Which Line Item?
 
 Use **total revenue** from the consolidated financial statements of the Ultimate Parent Entity. This is typically labelled as:
 - "Revenue" (IFRS 15)
@@ -33,19 +29,17 @@ Use **total revenue** from the consolidated financial statements of the Ultimate
 - Items presented below the revenue line (e.g., other comprehensive income)
 - Consolidation eliminations already reflected in the consolidated figure
 
-### Which Financial Statements?
+### 2.2 Which Financial Statements?
 
 Use the **audited consolidated financial statements** filed with regulators or prepared under statutory requirements *(Article 1.1.1; Commentary, para. 6)*. If audited statements are unavailable for a historic year, use the best available figures and document the source.
 
 For groups reporting under multiple accounting standards (e.g., IFRS for group reporting, local GAAP for statutory accounts), use the figures from the **primary consolidated financial statements** used for external reporting.
 
----
-
-## Currency Conversion
+## 3. Currency Conversion
 
 If the consolidated financial statements are prepared in a currency other than EUR, convert the revenue figure.
 
-### Conversion Methodology
+### 3.1 Conversion Methodology
 
 Use the **average exchange rate for the fiscal year** being tested *(Commentary, para. 8)*.
 
@@ -59,17 +53,15 @@ Use the **average exchange rate for the fiscal year** being tested *(Commentary,
 Revenue (EUR) = Revenue (local currency) × Average EUR/local currency rate for the fiscal year
 ```
 
-### Practical Approach
+### 3.2 Practical Approach
 
 Many groups already disclose EUR-equivalent figures in their annual reports for investor communication. Where available and sourced from the audited financials, these can be used directly.
 
 **Documentation requirement:** Record the exchange rate used and its source for each converted year.
 
----
+## 4. The Four-Year Look-Back
 
-## The Four-Year Look-Back
-
-### Determining the Relevant Years
+### 4.1 Determining the Relevant Years
 
 For any fiscal year being tested, examine the **four fiscal years immediately preceding** it.
 
@@ -79,7 +71,7 @@ For any fiscal year being tested, examine the **four fiscal years immediately pr
 | FY ending 30 Jun 2026 | FY ending Jun 2022, 2023, 2024, 2025 |
 | FY ending 31 Mar 2026 | FY ending Mar 2022, 2023, 2024, 2025 |
 
-### Groups With Fewer Than Four Years of History
+### 4.2 Groups With Fewer Than Four Years of History
 
 If the group has existed for fewer than four fiscal years, the test applies to the years that exist:
 - **Three years of history:** Must meet threshold in at least two of three years
@@ -88,15 +80,13 @@ If the group has existed for fewer than four fiscal years, the test applies to t
 
 Newly formed groups from mergers are assessed based on the combined historical revenues of the predecessor groups as if they had been consolidated throughout the look-back period *(Article 6.1.1)*.
 
----
+## 5. Worked Example: Stratos Group
 
-## Worked Example: Stratos Group
-
-### Background
+### 5.1 Background
 
 Stratos Group plc is a UK-headquartered technology company with a 31 December year-end. The group CFO needs to determine whether Stratos is in scope for Pillar Two for FY 2025.
 
-### Data Gathering
+### 5.2 Data Gathering
 
 The finance team extracts revenue figures from the past four years of audited consolidated financial statements:
 
@@ -107,7 +97,7 @@ The finance team extracts revenue figures from the past four years of audited co
 | FY 2023 | £744,600,000 | GBP |
 | FY 2024 | £819,500,000 | GBP |
 
-### Currency Conversion
+### 5.3 Currency Conversion
 
 Stratos reports in GBP. The team obtains ECB annual average EUR/GBP rates:
 
@@ -118,7 +108,7 @@ Stratos reports in GBP. The team obtains ECB annual average EUR/GBP rates:
 | FY 2023 | 1.1499 |
 | FY 2024 | 1.1453 |
 
-### Threshold Assessment
+### 5.4 Threshold Assessment
 
 | Fiscal Year | Revenue (GBP) | EUR/GBP Rate | Revenue (EUR) | ≥ €750M? |
 |-------------|---------------|--------------|---------------|----------|
@@ -127,11 +117,11 @@ Stratos reports in GBP. The team obtains ECB annual average EUR/GBP rates:
 | FY 2023 | £744.6M | 1.1499 | €856.2M | **Yes** |
 | FY 2024 | £819.5M | 1.1453 | €938.6M | **Yes** |
 
-### Conclusion
+### 5.5 Conclusion
 
 Three of four years exceed the €750 million threshold. Stratos is **in scope for Pillar Two for FY 2025**.
 
-### Documentation
+### 5.6 Documentation
 
 The tax team prepares a file note recording:
 - Source documents (audited financial statements for each year)
@@ -139,13 +129,11 @@ The tax team prepares a file note recording:
 - Calculation workings
 - Conclusion and date of assessment
 
----
-
-## Near-Threshold Situations
+## 6. Near-Threshold Situations
 
 Groups with revenues close to €750 million require careful monitoring.
 
-### Revenue Between €700M and €800M
+### 6.1 Revenue Between €700M and €800M
 
 If consolidated revenue fluctuates around the threshold:
 
@@ -153,7 +141,7 @@ If consolidated revenue fluctuates around the threshold:
 2. **Monitor quarterly revenue trends** — early warning of potential scope entry
 3. **Consider currency volatility** — a group below threshold in local currency may exceed it after EUR conversion in a weak currency year
 
-### Falling Out of Scope
+### 6.2 Falling Out of Scope
 
 A group can exit scope if revenue falls below €750 million in three of the four look-back years. However, this requires:
 - Genuine reduction in business activity, OR
@@ -161,11 +149,9 @@ A group can exit scope if revenue falls below €750 million in three of the fou
 
 Reorganisations designed primarily to avoid the threshold may be challenged under anti-avoidance provisions.
 
----
+## 7. Impact of Corporate Events
 
-## Impact of Corporate Events
-
-### Acquisitions During Look-Back Period
+### 7.1 Acquisitions During Look-Back Period
 
 When an entity is acquired mid-year:
 - Include its revenue **from the acquisition date only**
@@ -174,27 +160,25 @@ When an entity is acquired mid-year:
 
 **Example:** Stratos acquires TechStart on 1 July 2024. For the FY 2024 threshold assessment, include TechStart's revenue from 1 July to 31 December 2024 only (six months).
 
-### Disposals During Look-Back Period
+### 7.2 Disposals During Look-Back Period
 
 When entities are disposed of:
 - Include their revenue up to the disposal date
 - The look-back reflects the group composition at each point in time
 
-### Mergers
+### 7.3 Mergers
 
 When two groups merge:
 - Assess combined revenues as if the merged group had existed throughout the look-back period
 - Both predecessor groups' revenues are aggregated for each year
 
-### Demergers
+### 7.4 Demergers
 
 When a group splits:
 - Each resulting group is assessed based on its own post-demerger revenue
 - The look-back for the first post-demerger year requires allocation of pre-demerger revenue to each resulting group on a reasonable basis
 
----
-
-## Documentation Requirements
+## 8. Documentation Requirements
 
 Maintain a threshold assessment file containing:
 
@@ -208,44 +192,3 @@ Maintain a threshold assessment file containing:
 | Annual review record | Evidence of ongoing monitoring |
 
 **Retention period:** Retain documentation for at least 7 years from the end of the relevant fiscal year, or longer if required by local tax authority record-keeping rules.
-
----
-
-## Key Reference
-
-**OECD GloBE Model Rules, Article 1.1.1:**
-
-> "The GloBE Rules apply to Constituent Entities that are members of an MNE Group that has annual revenue of EUR 750 million or more in the Consolidated Financial Statements of the Ultimate Parent Entity in at least two of the four Fiscal Years immediately preceding the tested Fiscal Year."
-
-**OECD Commentary, paragraphs 5-12** provide additional guidance on revenue calculation and corporate events.
-
----
-
-## Tools
-
-This chapter covers threshold assessment, which is a preliminary determination before GloBE calculations begin. While no dedicated tool is required for this step, note how this work connects to tools used later:
-
-| Tool | How This Chapter Connects |
-|------|---------------------------|
-| **GIR-001 GloBE Calculator** | Once scope is confirmed, you will use GIR-001 to calculate ETR, SBIE, and Top-Up Tax for each jurisdiction (Parts 3-5) |
-| **GIR-002 Safe Harbour Qualifier** | The revenue data gathered here is also used in the De Minimis Test (revenue < €10M), which you will assess in Part 7 using GIR-002 |
-
-The revenue figures and documentation prepared in this chapter form the foundation for all subsequent compliance work.
-
----
-
-## Summary
-
-The revenue threshold assessment requires:
-
-1. **Obtain** consolidated revenue from audited financial statements for four preceding years
-2. **Convert** to EUR using average annual exchange rates where applicable
-3. **Count** years meeting or exceeding €750 million
-4. **Conclude** — two or more qualifying years means the group is in scope
-5. **Document** the assessment with supporting evidence
-
----
-
-## Next Step
-
-Once you confirm the group meets the revenue threshold, proceed to **Chapter 1.2: Identifying Constituent Entities** to determine which entities within the group fall within GloBE scope.

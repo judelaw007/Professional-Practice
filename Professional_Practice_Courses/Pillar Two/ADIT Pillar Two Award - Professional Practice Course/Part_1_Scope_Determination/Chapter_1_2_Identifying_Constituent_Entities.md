@@ -4,19 +4,15 @@
 
 After completing this chapter, you will be able to identify which entities within an MNE group qualify as Constituent Entities for GloBE purposes and document the classification for each entity.
 
----
-
-## The Starting Point: Consolidation Perimeter
+## 1. The Starting Point: Consolidation Perimeter
 
 A **Constituent Entity** is any entity that is included in the consolidated financial statements of the MNE group, plus any entity that is excluded solely due to size or materiality grounds *(Article 1.3.1)*.
 
 Begin your identification process with the group's consolidation schedule—this is typically found in the notes to the consolidated financial statements or maintained separately by group finance.
 
----
+## 2. Step-by-Step Identification Process
 
-## Step-by-Step Identification Process
-
-### Step 1: Obtain the Consolidation Schedule
+### 2.1 Step 1: Obtain the Consolidation Schedule
 
 Request from group finance:
 - List of all entities included in consolidated financial statements
@@ -24,7 +20,7 @@ Request from group finance:
 - Ownership percentage for each entity
 - Consolidation method used (full, proportionate, equity)
 
-### Step 2: Classify Each Entity
+### 2.2 Step 2: Classify Each Entity
 
 For each entity on the list, determine its classification:
 
@@ -37,7 +33,7 @@ For each entity on the list, determine its classification:
 
 *Equity method investees may be Constituent Entities if they are Joint Ventures meeting specific criteria—see Joint Arrangements section below.
 
-### Step 3: Identify Permanent Establishments
+### 2.3 Step 3: Identify Permanent Establishments
 
 Permanent establishments (PEs) are treated as **separate Constituent Entities** from their main entity *(Article 1.3.2)*.
 
@@ -47,7 +43,7 @@ For each entity, determine:
 
 A PE exists for GloBE purposes if it is treated as a PE under an applicable tax treaty, or if the jurisdiction taxes the entity on a net basis due to business presence *(Commentary, para. 28)*.
 
-### Step 4: Identify Flow-Through Entities
+### 2.4 Step 4: Identify Flow-Through Entities
 
 A flow-through entity is tax transparent—its income is taxed in the hands of its owners rather than at entity level *(Article 10.1)*.
 
@@ -58,9 +54,7 @@ Common examples:
 
 Flow-through entities are Constituent Entities, but their income may be allocated to their owners for ETR calculation purposes—this is addressed in Part 3.
 
----
-
-## Decision Flowchart: Is This Entity a Constituent Entity?
+## 3. Decision Flowchart: Is This Entity a Constituent Entity?
 
 ```
                     ┌─────────────────────────────────┐
@@ -90,35 +84,31 @@ Flow-through entities are Constituent Entities, but their income may be allocate
                           └───────────────────┘   └───────────────────┘
 ```
 
----
+## 4. Ownership Thresholds and Consolidation Methods
 
-## Ownership Thresholds and Consolidation Methods
-
-### Controlling Interest (>50%)
+### 4.1 Controlling Interest (>50%)
 
 Entities over which the UPE has control are fully consolidated and are Constituent Entities. Control is determined by:
 - Majority voting rights, OR
 - Power to govern financial and operating policies through other means
 
-### Joint Arrangements (IFRS 11)
+### 4.2 Joint Arrangements (IFRS 11)
 
 **Joint operations:** Assets and liabilities recognised directly—underlying entity is a Constituent Entity.
 
 **Joint ventures:** Equity method applies by default, but may be a Constituent Entity if meeting the JV definition under Article 10.1 (where the UPE holds directly or indirectly 50% or more ownership interest in an equity method entity)—see Part 6.
 
-### Significant Influence (20-50%)
+### 4.3 Significant Influence (20-50%)
 
 Associates accounted for under the equity method are generally **not** Constituent Entities. Their profits are not included in GloBE Income; instead, dividends received from them may be excluded under Article 3.2.1(b).
 
----
+## 5. Worked Example: Stratos's Constituent Entity Mapping
 
-## Worked Example: Stratos's Constituent Entity Mapping
-
-### Background
+### 5.1 Background
 
 Following the scope assessment in Chapter 1.1, Stratos's tax team must now identify all Constituent Entities. Stratos's group structure includes 52 legal entities across 12 jurisdictions.
 
-### Data Extraction
+### 5.2 Data Extraction
 
 The team obtains the consolidation schedule from the FY 2024 annual report:
 
@@ -140,7 +130,7 @@ The team obtains the consolidation schedule from the FY 2024 annual report:
 
 *(52 entities total; extract shown for illustration)*
 
-### Classification Analysis
+### 5.3 Classification Analysis
 
 | Entity | Classification | Reasoning |
 |--------|---------------|-----------|
@@ -153,7 +143,7 @@ The team obtains the consolidation schedule from the FY 2024 annual report:
 | Asian JV Ltd | **Not CE** | 40% equity method—not controlled |
 | SG Pension Trustees | **CE** | Excluded on materiality, but would otherwise consolidate |
 
-### Result
+### 5.4 Result
 
 Stratos identifies **47 Constituent Entities**:
 - 45 fully consolidated subsidiaries
@@ -162,7 +152,7 @@ Stratos identifies **47 Constituent Entities**:
 
 5 entities are **not** Constituent Entities (equity method associates).
 
-### Documentation
+### 5.5 Documentation
 
 The tax team prepares a CE register recording:
 - Entity name and jurisdiction
@@ -172,11 +162,9 @@ The tax team prepares a CE register recording:
 - Reasoning for classification
 - Date of assessment
 
----
+## 6. Special Cases
 
-## Special Cases
-
-### Entities Joining Mid-Year
+### 6.1 Entities Joining Mid-Year
 
 When an entity is acquired during the fiscal year:
 - It becomes a Constituent Entity from the **acquisition date**
@@ -184,23 +172,21 @@ When an entity is acquired during the fiscal year:
 
 **Stratos example:** TechStart Ltd was acquired on 1 July 2024. It is a Constituent Entity for FY 2024, but GloBE Income and Covered Taxes are calculated for the period 1 July to 31 December 2024 only.
 
-### Entities Leaving Mid-Year
+### 6.2 Entities Leaving Mid-Year
 
 When an entity is disposed of during the fiscal year:
 - It ceases to be a Constituent Entity from the **disposal date**
 - GloBE calculations cover the pre-disposal period only
 
-### Dormant Entities
+### 6.3 Dormant Entities
 
 Dormant entities that remain in the consolidation schedule are Constituent Entities, even if they have no activity. They will typically qualify for the de minimis exclusion (Part 5) but must still be identified and tracked.
 
-### Stapled Structures
+### 6.4 Stapled Structures
 
 In stapled structures where two or more entities are contractually bound and traded as a single unit, the structure may constitute a single MNE group. Each stapled entity is a Constituent Entity *(Article 6.5)*.
 
----
-
-## Documentation Requirements
+## 7. Documentation Requirements
 
 Maintain a **Constituent Entity Register** containing:
 
@@ -217,47 +203,3 @@ Maintain a **Constituent Entity Register** containing:
 | PE indicator | Yes / No; if Yes, list PE jurisdictions |
 
 **Update frequency:** Review and update the register at each fiscal year-end and upon any acquisition, disposal, or restructuring.
-
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 1.3.1 — Definition of Constituent Entity
-- Article 1.3.2 — PE as separate Constituent Entity
-- Article 6.2.1 — Entities joining and leaving an MNE group
-
-**OECD Commentary:**
-- Paragraphs 25-35 — Detailed guidance on Constituent Entity identification
-- Paragraphs 28-30 — PE identification criteria
-
----
-
-## Tools
-
-While this chapter does not require a dedicated calculation tool, the Constituent Entity register you create here is **essential input** for tools used in later Parts:
-
-| Tool | How This Chapter Connects |
-|------|---------------------------|
-| **GIR-001 GloBE Calculator** | You will run GloBE calculations for each CE identified here—the register determines which entities require computation |
-| **GIR-004 GIR Practice Form** | Section 1 of the GIR requires disclosure of all CEs; your register maps directly to this section |
-
-Accurate CE identification prevents errors in GIR completion and ensures no entity is missed from Top-Up Tax calculations.
-
----
-
-## Summary
-
-Identifying Constituent Entities requires:
-
-1. **Obtain** the consolidation schedule from group finance
-2. **Classify** each entity based on consolidation method and ownership
-3. **Identify** PEs as separate Constituent Entities
-4. **Document** classifications in a CE register with supporting rationale
-5. **Update** the register for acquisitions, disposals, and restructurings
-
----
-
-## Next Step
-
-Once you have identified all Constituent Entities, proceed to **Chapter 1.3: Ultimate Parent Entity Determination** to confirm the filing entity and ownership chain.

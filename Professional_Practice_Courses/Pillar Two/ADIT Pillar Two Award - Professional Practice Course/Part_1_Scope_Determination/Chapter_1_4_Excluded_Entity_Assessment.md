@@ -4,9 +4,7 @@
 
 After completing this chapter, you will be able to determine whether any Constituent Entities qualify as Excluded Entities under the GloBE Rules and document these exclusions appropriately.
 
----
-
-## Why Excluded Entities Matter
+## 1. Why Excluded Entities Matter
 
 Certain entities are excluded from GloBE calculations even though they may technically be Constituent Entities. Identifying these exclusions correctly is essential because:
 
@@ -16,11 +14,9 @@ Certain entities are excluded from GloBE calculations even though they may techn
 
 The five categories of Excluded Entities are defined in **Article 1.5** of the GloBE Model Rules.
 
----
+## 2. The Five Excluded Entity Categories
 
-## The Five Excluded Entity Categories
-
-### Category 1: Governmental Entities
+### 2.1 Category 1: Governmental Entities
 
 A **Governmental Entity** is excluded if it is *(Article 1.5.1(a))*:
 
@@ -33,7 +29,7 @@ A **Governmental Entity** is excluded if it is *(Article 1.5.1(a))*:
 - If **yes** (trading/investing) → NOT an Excluded Entity
 - If **no** (government functions only) → Excluded Entity
 
-### Category 2: International Organisations
+### 2.2 Category 2: International Organisations
 
 An **International Organisation** qualifies for exclusion if it *(Article 1.5.1(b))*:
 
@@ -47,7 +43,7 @@ An **International Organisation** qualifies for exclusion if it *(Article 1.5.1(
 - European Union institutions
 - OECD
 
-### Category 3: Non-Profit Organisations
+### 2.3 Category 3: Non-Profit Organisations
 
 A **Non-Profit Organisation (NPO)** is excluded if it *(Article 1.5.1(c))*:
 
@@ -59,7 +55,7 @@ A **Non-Profit Organisation (NPO)** is excluded if it *(Article 1.5.1(c))*:
 
 **All five conditions must be met** for NPO exclusion.
 
-### Category 4: Pension Funds
+### 2.4 Category 4: Pension Funds
 
 A **Pension Fund** is excluded if it is *(Article 1.5.1(d))*:
 
@@ -71,7 +67,7 @@ A **Pension Fund** is excluded if it is *(Article 1.5.1(d))*:
 
 **Pension Services Entity:** An entity established exclusively to invest assets for, or provide services to, pension funds that are members of the same group is also excluded.
 
-### Category 5: Investment Funds (UPE Only)
+### 2.5 Category 5: Investment Funds (UPE Only)
 
 An **Investment Fund** qualifies for exclusion only if it is the **Ultimate Parent Entity** of the MNE group *(Article 1.5.1(e))*. The fund must:
 
@@ -82,9 +78,7 @@ An **Investment Fund** qualifies for exclusion only if it is the **Ultimate Pare
 
 **Investment Entity owned by Investment Fund:** An entity wholly owned (directly or indirectly) by an Investment Fund UPE is also excluded if it exclusively holds assets or invests funds on behalf of the fund.
 
----
-
-## Ownership Test for Investment Funds
+## 3. Ownership Test for Investment Funds
 
 An Investment Fund UPE qualifies for exclusion only if it meets the **ownership test** *(Article 1.5.2)*:
 
@@ -98,9 +92,7 @@ At least **80% of the value** of ownership interests in the fund must be held by
 
 **Failure consequence:** If the 80% test is failed, the Investment Fund loses excluded status, and the entire group becomes subject to GloBE calculations.
 
----
-
-## Decision Flowchart: Is This Entity Excluded?
+## 4. Decision Flowchart: Is This Entity Excluded?
 
 ```
                     ┌─────────────────────────────────────┐
@@ -137,11 +129,9 @@ At least **80% of the value** of ownership interests in the fund must be held by
 └──────┘ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘
 ```
 
----
+## 5. Step-by-Step Excluded Entity Assessment
 
-## Step-by-Step Excluded Entity Assessment
-
-### Step 1: Review CE Register
+### 5.1 Step 1: Review CE Register
 
 Start with your Constituent Entity register from Chapter 1.2. For each CE, consider whether it may fall into one of the five excluded categories.
 
@@ -150,7 +140,7 @@ Start with your Constituent Entity register from Chapter 1.2. For each CE, consi
 - Entities with government ownership (full or partial)
 - Holding companies owned by institutional investors
 
-### Step 2: Gather Entity Documentation
+### 5.2 Step 2: Gather Entity Documentation
 
 For each potential exclusion, obtain:
 
@@ -162,7 +152,7 @@ For each potential exclusion, obtain:
 | Pension Fund | Regulatory registration, tax status confirmation, fund rules |
 | Investment Fund | Fund prospectus, investor register, fund manager agreements |
 
-### Step 3: Apply Exclusion Tests
+### 5.3 Step 3: Apply Exclusion Tests
 
 Work through each exclusion test systematically. Document your analysis for each criterion.
 
@@ -172,7 +162,7 @@ Work through each exclusion test systematically. Document your analysis for each
 3. Calculate ownership percentages for five-year test
 4. Assess each investor's tax status
 
-### Step 4: Document Conclusions
+### 5.4 Step 4: Document Conclusions
 
 Prepare a memo for each excluded entity covering:
 - Entity name and jurisdiction
@@ -181,11 +171,9 @@ Prepare a memo for each excluded entity covering:
 - Date of assessment
 - Review frequency
 
----
+## 6. Worked Example: Stratos's Excluded Entity Assessment
 
-## Worked Example: Stratos's Excluded Entity Assessment
-
-### Potential Exclusions Identified
+### 6.1 Potential Exclusions Identified
 
 From Stratos's 47 Constituent Entities, the tax team identifies three potential exclusions:
 
@@ -195,7 +183,7 @@ From Stratos's 47 Constituent Entities, the tax team identifies three potential 
 | Stratos Foundation (UK) | NPO | Charitable foundation making grants |
 | Singapore Gov JV Pte Ltd | Government Entity | 51% owned by Singapore government agency |
 
-### Analysis: SG Pension Trustees Ltd
+### 6.2 Analysis: SG Pension Trustees Ltd
 
 | Criterion | Assessment | Evidence |
 |-----------|------------|----------|
@@ -205,7 +193,7 @@ From Stratos's 47 Constituent Entities, the tax team identifies three potential 
 
 **Conclusion:** SG Pension Trustees Ltd is an **Excluded Entity** (Pension Fund).
 
-### Analysis: Stratos Foundation
+### 6.3 Analysis: Stratos Foundation
 
 | NPO Criterion | Assessment | Evidence |
 |---------------|------------|----------|
@@ -217,7 +205,7 @@ From Stratos's 47 Constituent Entities, the tax team identifies three potential 
 
 **Conclusion:** Stratos Foundation is an **Excluded Entity** (NPO).
 
-### Analysis: Singapore Gov JV Pte Ltd
+### 6.4 Analysis: Singapore Gov JV Pte Ltd
 
 | Criterion | Assessment | Evidence |
 |-----------|------------|----------|
@@ -230,7 +218,7 @@ The entity is engaged in commercial trading activities despite government majori
 
 This entity remains a Constituent Entity and will be included in GloBE calculations. However, as a joint arrangement with only 51% government ownership (and 49% owned by Stratos), the treatment depends on whether it meets the JV definition under Article 10.1—see Part 6.
 
-### Result
+### 6.5 Result
 
 Stratos has **2 Excluded Entities**:
 - SG Pension Trustees Ltd (Pension Fund)
@@ -238,11 +226,9 @@ Stratos has **2 Excluded Entities**:
 
 **45 Constituent Entities remain in scope** for GloBE calculations.
 
----
+## 7. Common Assessment Challenges
 
-## Common Assessment Challenges
-
-### Challenge 1: Government Entity vs Commercial Entity
+### 7.1 Challenge 1: Government Entity vs Commercial Entity
 
 Government agencies that conduct commercial activities are not excluded. Key indicators of commercial activity:
 - Revenue from goods or services sold at market prices
@@ -251,13 +237,13 @@ Government agencies that conduct commercial activities are not excluded. Key ind
 
 *(Commentary, para. 38-42)*
 
-### Challenge 2: NPO "Substantially Exempt" Test
+### 7.2 Challenge 2: NPO "Substantially Exempt" Test
 
 The NPO exclusion requires income to be "substantially exempt" from tax—not entirely exempt. Incidental taxable income (e.g., from unrelated business activities) does not disqualify an NPO if the bulk of income is exempt.
 
 **Practical threshold:** If 80%+ of income is tax-exempt, the "substantially exempt" test is generally met.
 
-### Challenge 3: Pension Fund Subsidiaries
+### 7.3 Challenge 3: Pension Fund Subsidiaries
 
 A subsidiary that provides services to the pension fund may also qualify for exclusion as a "Pension Services Entity" *(Article 1.5.1(d)(ii))* if:
 - Established exclusively to hold assets or earn income for the pension fund
@@ -265,7 +251,7 @@ A subsidiary that provides services to the pension fund may also qualify for exc
 
 Property holding subsidiaries of pension funds often qualify.
 
-### Challenge 4: Investment Fund Investor Identification
+### 7.4 Challenge 4: Investment Fund Investor Identification
 
 The 80% ownership test requires identifying all investors and their tax status. For funds with numerous investors, this can be complex.
 
@@ -275,9 +261,7 @@ The 80% ownership test requires identifying all investors and their tax status. 
 - Calculate percentage by value (not number) of investors meeting the test
 - Document instances where investor status cannot be determined
 
----
-
-## Excluded Entity Register
+## 8. Excluded Entity Register
 
 Maintain an Excluded Entity Register as a supplement to your CE register:
 
@@ -293,54 +277,3 @@ Maintain an Excluded Entity Register as a supplement to your CE register:
 | Assessor | Name of person completing assessment |
 
 **Review frequency:** Annual review at fiscal year-end, plus upon any change in entity status, activities, or ownership.
-
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 1.5.1 — Definition of Excluded Entities (five categories)
-- Article 1.5.2 — Five-year ownership test for Investment Funds
-
-**OECD Commentary:**
-- Paragraphs 36-50 — Detailed guidance on each exclusion category
-- Paragraphs 38-42 — Government entity distinction from trading entities
-- Paragraphs 47-50 — Investment fund ownership test mechanics
-
----
-
-## Tools
-
-This chapter completes the scope determination phase. The exclusions identified here affect calculations in later Parts:
-
-| Tool | How This Chapter Connects |
-|------|---------------------------|
-| **GIR-001 GloBE Calculator** | Only CEs (not Excluded Entities) are input to GloBE calculations—your CE/Excluded Entity registers determine which entities require computation |
-| **GIR-004 GIR Practice Form** | Section 1 of the GIR requires identification of Excluded Entities; your Excluded Entity register maps directly to this disclosure |
-
-Accurate exclusion assessment ensures GloBE calculations are performed on the correct entity population.
-
----
-
-## Summary
-
-Excluded Entity assessment requires:
-
-1. **Identify** potential exclusions from your CE register
-2. **Gather** documentation for each exclusion category
-3. **Apply** the specific tests for each category systematically
-4. **Document** conclusions with supporting evidence
-5. **Maintain** an Excluded Entity register with annual review
-6. **Note** that Investment Fund exclusion applies only to UPEs meeting the 80% ownership test
-
----
-
-## Next Step
-
-You have now completed **Part 1: Scope Determination**. You should have:
-- Confirmed the group meets the €750 million revenue threshold (Chapter 1.1)
-- Identified all Constituent Entities (Chapter 1.2)
-- Determined the UPE and mapped IPEs (Chapter 1.3)
-- Assessed and documented Excluded Entities (Chapter 1.4)
-
-Proceed to **Part 1 Case Study: Stratos's Scope Assessment** to practice applying these concepts to a comprehensive scenario, then continue to **Part 2: The Charging Mechanism—IIR and UTPR**.
