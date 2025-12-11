@@ -4,8 +4,6 @@
 
 After completing this chapter, you will be able to calculate the Substance-Based Income Exclusion (SBIE) using the payroll and tangible asset carve-outs, apply the correct transition rates for each fiscal year, and determine the Excess Profit subject to Top-Up Tax.
 
----
-
 ## Key References
 
 **OECD GloBE Model Rules:**
@@ -25,13 +23,11 @@ After completing this chapter, you will be able to calculate the Substance-Based
 **OECD Commentary:**
 - Chapter 5, paragraphs 52-95 — SBIE calculation methodology
 
----
-
-## What SBIE Does
+## 1. What SBIE Does
 
 The Substance-Based Income Exclusion reduces the amount of income subject to Top-Up Tax by recognising that genuine economic substance (employees and physical assets) represents real business activity deserving a fixed return.
 
-### The Concept
+### 1.1 The Concept
 
 ```
                                               SBIE
@@ -50,7 +46,7 @@ The Substance-Based Income Exclusion reduces the amount of income subject to Top
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### The Formula
+### 1.2 The Formula
 
 ```
 Excess Profit = Net GloBE Income − SBIE
@@ -60,9 +56,7 @@ Top-Up Tax = Top-Up Tax % × Excess Profit
 
 **Key insight:** SBIE reduces the **base** on which Top-Up Tax is calculated, not the rate. Higher substance = lower Top-Up Tax.
 
----
-
-## SBIE Components
+## 2. SBIE Components
 
 Article 5.3.2 defines the SBIE amount as the sum of two carve-outs for each Constituent Entity in the jurisdiction:
 
@@ -70,25 +64,23 @@ Article 5.3.2 defines the SBIE amount as the sum of two carve-outs for each Cons
 SBIE = Payroll Carve-out + Tangible Asset Carve-out
 ```
 
-### Component 1: Payroll Carve-out *(Article 5.3.3)*
+### 2.1 Component 1: Payroll Carve-out (Article 5.3.3)
 
 ```
 Payroll Carve-out = Eligible Payroll Costs × Payroll Rate
 ```
 
-### Component 2: Tangible Asset Carve-out *(Article 5.3.4)*
+### 2.2 Component 2: Tangible Asset Carve-out (Article 5.3.4)
 
 ```
 Tangible Asset Carve-out = Carrying Value of Eligible Tangible Assets × Asset Rate
 ```
 
----
-
-## Transition Rates (Article 9.2)
+## 3. Transition Rates (Article 9.2)
 
 The SBIE percentages are **higher** in early years and **reduce** over a 10-year transition period to the permanent rates of 5%.
 
-### SBIE Transition Rate Table
+### 3.1 SBIE Transition Rate Table
 
 | Fiscal Year (beginning in) | Payroll Rate | Tangible Asset Rate |
 |----------------------------|--------------|---------------------|
@@ -106,7 +98,7 @@ The SBIE percentages are **higher** in early years and **reduce** over a 10-year
 
 **Practical implication:** In early transition years, the higher rates provide greater SBIE—reducing Top-Up Tax exposure. As rates decline, more income becomes subject to Top-Up Tax.
 
-### Which Year's Rate Applies?
+### 3.2 Which Year's Rate Applies?
 
 Use the rate for the **fiscal year** being calculated based on when the fiscal year **begins**:
 - FY beginning 2025: Use 2025 rates (9.8% / 7.8%)
@@ -114,11 +106,9 @@ Use the rate for the **fiscal year** being calculated based on when the fiscal y
 
 **Note:** Consult domestic implementing legislation for the specific rule applicable in each jurisdiction.
 
----
+## 4. Eligible Payroll Costs (Article 10.1)
 
-## Eligible Payroll Costs *(Article 10.1)*
-
-### What Qualifies
+### 4.1 What Qualifies
 
 | Category | Examples | Included? |
 |----------|----------|-----------|
@@ -129,7 +119,7 @@ Use the rate for the **fiscal year** being calculated based on when the fiscal y
 | **Payroll taxes** | Employer social security, fringe benefits tax | ✅ Yes |
 | **Retirement benefits** | Employer pension fund contributions | ✅ Yes |
 
-### What Does NOT Qualify
+### 4.2 What Does NOT Qualify
 
 | Category | Why Excluded |
 |----------|--------------|
@@ -138,7 +128,7 @@ Use the rate for the **fiscal year** being calculated based on when the fiscal y
 | **International shipping payroll** | Excluded income under Article 3.3 |
 | **Payroll for excluded entities** | Investment Entities excluded from SBIE |
 
-### Eligible Employees Definition
+### 4.3 Eligible Employees Definition
 
 An **Eligible Employee** is an employee (including part-time) of a Constituent Entity who performs activities for the MNE Group in the jurisdiction.
 
@@ -150,11 +140,9 @@ An **Eligible Employee** is an employee (including part-time) of a Constituent E
 | Employee works 70% in Jurisdiction A, 30% in Jurisdiction B | 70% → A, 30% → B |
 | Employee works less than 50% in any single jurisdiction | Proportionate allocation required |
 
----
+## 5. Eligible Tangible Assets (Article 10.1)
 
-## Eligible Tangible Assets *(Article 10.1)*
-
-### What Qualifies
+### 4.1 What Qualifies
 
 | Asset Type | Examples | Included? |
 |------------|----------|-----------|
@@ -163,7 +151,7 @@ An **Eligible Employee** is an employee (including part-time) of a Constituent E
 | **Leased assets (ROU)** | Right-of-use assets under IFRS 16 | ✅ Yes |
 | **Licensed assets** | Government licences on land | ✅ Yes |
 
-### What Does NOT Qualify
+### 4.2 What Does NOT Qualify
 
 | Asset Type | Why Excluded |
 |------------|--------------|
@@ -173,7 +161,7 @@ An **Eligible Employee** is an employee (including part-time) of a Constituent E
 | **Inventory** | Current asset, not long-term productive asset |
 | **Assets under construction** | Not yet in use (until capitalised) |
 
-### Carrying Value
+### 5.3 Carrying Value
 
 Use the **accounting carrying value** (net book value) from financial statements:
 
@@ -183,7 +171,7 @@ Carrying Value = Cost − Accumulated Depreciation − Impairment
 
 **June 2024 Administrative Guidance clarification:** Use the **accounting** carrying value, not GloBE-adjusted carrying value. Any adjustments to derive GloBE Income do not affect SBIE calculation.
 
-### Average Carrying Value
+### 5.4 Average Carrying Value
 
 Article 5.3.4 requires using the **average** of opening and closing carrying values:
 
@@ -201,15 +189,13 @@ Average Carrying Value = ──────────────────�
 | Equipment | €2,000,000 | €1,800,000 | €1,900,000 |
 | **Total** | **€12,000,000** | **€11,300,000** | **€11,650,000** |
 
----
+## 6. Location Rules (Article 5.3.5)
 
-## Location Rules *(Article 5.3.5)*
-
-### The 50% Threshold
+### 6.1 The 50% Threshold
 
 If an employee or tangible asset is located in a jurisdiction for **50% or less** of the time, only the proportionate share of the carve-out applies.
 
-### Mobile Employees
+### 6.2 Mobile Employees
 
 **Scenario:** An employee is based in the UK but travels extensively.
 
@@ -221,7 +207,7 @@ If an employee or tangible asset is located in a jurisdiction for **50% or less*
 
 **Total = 100%** — Full payroll cost is allocated across jurisdictions.
 
-### Mobile Assets
+### 6.3 Mobile Assets
 
 **Scenario:** A shipping container travels between jurisdictions.
 
@@ -230,9 +216,7 @@ If an employee or tangible asset is located in a jurisdiction for **50% or less*
 | Netherlands | 200 | 55% | 55% of carrying value → Netherlands |
 | Belgium | 165 | 45% | 45% of carrying value → Belgium |
 
----
-
-## SBIE Cannot Create a Loss
+## 7. SBIE Cannot Create a Loss
 
 **Critical rule:** The SBIE cannot reduce Excess Profit below zero.
 
@@ -242,7 +226,7 @@ Excess Profit = MAX(0, Net GloBE Income − SBIE)
 
 If SBIE exceeds Net GloBE Income, the excess is **lost**—it cannot be carried forward or used to offset other jurisdictions.
 
-### Example: High-Substance, Low-Profit Jurisdiction
+### 7.1 Example: High-Substance, Low-Profit Jurisdiction
 
 | Item | Amount |
 |------|--------|
@@ -254,11 +238,9 @@ If SBIE exceeds Net GloBE Income, the excess is **lost**—it cannot be carried 
 
 **Result:** No Top-Up Tax, but €1,300,000 of "wasted" SBIE cannot be used elsewhere.
 
----
+## 8. Stratos Worked Example: Complete SBIE Calculation
 
-## Stratos Worked Example: Complete SBIE Calculation
-
-### Data for FY 2025
+### 8.1 Data for FY 2025
 
 Stratos has identified two low-taxed jurisdictions from Chapter 5.1:
 - **Singapore** (ETR 9.81%)
@@ -266,7 +248,7 @@ Stratos has identified two low-taxed jurisdictions from Chapter 5.1:
 
 Germany (ETR 23.00%) is not low-taxed, so no SBIE calculation is required.
 
-### Singapore SBIE Calculation
+### 8.2 Singapore SBIE Calculation
 
 **Step 1: Gather payroll data**
 
@@ -300,7 +282,7 @@ Less: SBIE:                         (€194,645)
 Excess Profit:                      €3,805,355
 ```
 
-### Ireland SBIE Calculation
+### 8.3 Ireland SBIE Calculation
 
 **Step 1: Gather payroll data**
 
@@ -335,7 +317,7 @@ Less: SBIE:                         (€1,675,200)
 Excess Profit:                      €13,324,800
 ```
 
-### SBIE Summary
+### 8.4 SBIE Summary
 
 | Jurisdiction | Net GloBE Income | SBIE | Excess Profit |
 |--------------|------------------|------|---------------|
@@ -344,13 +326,11 @@ Excess Profit:                      €13,324,800
 
 **Key observation:** Ireland has significant substance (high payroll and tangible assets), which reduces its Excess Profit by over €1.6M. Singapore has less substance relative to income.
 
----
-
-## Multi-Entity Jurisdictions
+## 9. Multi-Entity Jurisdictions
 
 When a jurisdiction has multiple Constituent Entities, calculate SBIE for **each entity** and aggregate:
 
-### Example: Ireland with Two Entities
+### 9.1 Example: Ireland with Two Entities
 
 | Entity | Payroll Costs | Tangible Assets (Avg) |
 |--------|---------------|-----------------------|
@@ -368,13 +348,11 @@ When a jurisdiction has multiple Constituent Entities, calculate SBIE for **each
 
 **Jurisdictional blending applies:** The combined SBIE reduces the combined Net GloBE Income.
 
----
-
-## Election Not to Apply SBIE *(Article 5.3.1)*
+## 10. Election Not to Apply SBIE (Article 5.3.1)
 
 An MNE may elect **not** to apply SBIE for a jurisdiction in any fiscal year.
 
-### When to Consider This Election
+### 10.1 When to Consider This Election
 
 | Scenario | Recommendation |
 |----------|----------------|
@@ -384,49 +362,45 @@ An MNE may elect **not** to apply SBIE for a jurisdiction in any fiscal year.
 
 **Practical note:** This election is rarely beneficial. SBIE always reduces or eliminates Top-Up Tax liability.
 
----
+## 11. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Using Gross Rather Than Net Book Value
+### 11.1 Pitfall 1: Using Gross Rather Than Net Book Value
 
 **Error:** Including accumulated depreciation in tangible asset value.
 
 **Correct approach:** Use **net book value** (carrying value after depreciation).
 
-### Pitfall 2: Including Intangible Assets
+### 11.2 Pitfall 2: Including Intangible Assets
 
 **Error:** Adding software or patents to the tangible asset carve-out.
 
 **Correct approach:** Only tangible assets qualify. Intangibles are excluded.
 
-### Pitfall 3: Double-Counting Capitalised Payroll
+### 11.3 Pitfall 3: Double-Counting Capitalised Payroll
 
 **Error:** Including payroll costs that were capitalised into an asset (e.g., construction labour) in both carve-outs.
 
 **Correct approach:** Capitalised payroll is excluded from the payroll carve-out—it's already in the tangible asset base.
 
-### Pitfall 4: Forgetting the Average Calculation
+### 11.4 Pitfall 4: Forgetting the Average Calculation
 
 **Error:** Using only closing NBV for tangible assets.
 
 **Correct approach:** Use the **average** of opening and closing carrying values.
 
-### Pitfall 5: Applying Wrong Year's Transition Rate
+### 11.5 Pitfall 5: Applying Wrong Year's Transition Rate
 
 **Error:** Using 2024 rates for a FY 2026 calculation.
 
 **Correct approach:** Apply the transition rate for the **fiscal year** being calculated.
 
-### Pitfall 6: Ignoring Location Rules for Mobile Employees
+### 11.6 Pitfall 6: Ignoring Location Rules for Mobile Employees
 
 **Error:** Allocating 100% of a travelling employee's payroll to their home jurisdiction.
 
 **Correct approach:** Allocate based on **time spent** performing activities in each jurisdiction.
 
----
-
-## SBIE Calculation Worksheet
+## 12. SBIE Calculation Worksheet
 
 Use this worksheet for each low-taxed jurisdiction:
 
@@ -483,13 +457,11 @@ SECTION F: VERIFICATION CHECKLIST
 ☐ Investment Entities excluded
 ```
 
----
-
-## Policy Rationale
+## 13. Policy Rationale
 
 Why does SBIE exist?
 
-### The Theory
+### 13.1 The Theory
 
 GloBE targets **excess profits**—income beyond what genuine business operations would generate. The SBIE recognises that:
 
@@ -497,7 +469,7 @@ GloBE targets **excess profits**—income beyond what genuine business operation
 2. **Tangible assets** represent physical investment
 3. A **fixed return** on these factors should be excluded from minimum taxation
 
-### The Formula Logic
+### 13.2 The Formula Logic
 
 | Factor | Rate | Justification |
 |--------|------|---------------|
@@ -506,7 +478,7 @@ GloBE targets **excess profits**—income beyond what genuine business operation
 
 The rates approximate a "normal" return on these investments, excluding it from the minimum tax calculation.
 
-### Who Benefits Most?
+### 13.3 Who Benefits Most?
 
 | Business Type | Payroll | Tangible Assets | SBIE Benefit |
 |---------------|---------|-----------------|--------------|
@@ -518,47 +490,3 @@ The rates approximate a "normal" return on these investments, excluding it from 
 | Tech (asset-light) | Medium | Low | **Low-Medium** |
 
 **Practical implication:** MNEs with significant manufacturing or distribution operations in low-tax jurisdictions benefit most from SBIE.
-
----
-
-## Summary
-
-The Substance-Based Income Exclusion reduces the Top-Up Tax base by recognising genuine economic substance. The key implementation steps are:
-
-1. **Identify low-taxed jurisdictions** — Only calculate SBIE where ETR < 15%
-2. **Determine applicable transition rates** — Higher in early years (2024: 10%/8%)
-3. **Calculate Payroll Carve-out** — Eligible payroll × Payroll Rate
-4. **Calculate Tangible Asset Carve-out** — Average carrying value × Asset Rate
-5. **Sum the carve-outs** — SBIE = Payroll + Tangible Asset
-6. **Calculate Excess Profit** — Net GloBE Income − SBIE (but not below zero)
-7. **SBIE cannot create a loss** — Excess amount is lost, not carried forward
-
-Higher substance (payroll and tangible assets) = Lower Top-Up Tax exposure.
-
----
-
-## Integration with GIR Tools
-
-The SBIE calculation is **Step 2** of the GIR-001 GloBE Calculator workflow:
-
-| GIR-001 Step | Function | Data Input |
-|--------------|----------|------------|
-| Step 1: ETR Calculation | Identifies low-taxed jurisdictions | GloBE Income + Covered Taxes |
-| **Step 2: SBIE Calculation** | Computes substance carve-out | Payroll + Tangible Assets |
-| Step 3: Top-Up Tax | Applies Top-Up Tax % to Excess Profit | ETR + SBIE results |
-
-**Workflow:**
-
-1. For each low-taxed jurisdiction, enter Eligible Payroll Costs
-2. Enter Average Carrying Value of Eligible Tangible Assets
-3. GIR-001 applies the correct transition rate automatically
-4. GIR-001 calculates SBIE and Excess Profit
-5. Proceed to Step 3 for Top-Up Tax computation
-
-Use **GIR-001 GloBE Calculator** at tools.mojitax.com to verify your manual SBIE calculations and ensure correct transition rates are applied.
-
----
-
-## Next Step
-
-You have learned how to calculate the Substance-Based Income Exclusion and determine Excess Profit. Proceed to **Chapter 5.3: Top-Up Tax Computation** to learn how to apply the Top-Up Tax Percentage to Excess Profit and calculate the final Top-Up Tax liability.

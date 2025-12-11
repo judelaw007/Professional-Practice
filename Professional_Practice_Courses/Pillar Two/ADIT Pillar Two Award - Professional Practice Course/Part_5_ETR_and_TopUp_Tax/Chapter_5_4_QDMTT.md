@@ -4,8 +4,6 @@
 
 After completing this chapter, you will be able to identify jurisdictions with a Qualified Domestic Minimum Top-Up Tax (QDMTT), understand the QDMTT priority rule, apply the QDMTT Safe Harbour, and determine when QDMTT eliminates IIR/UTPR liability.
 
----
-
 ## Key References
 
 **OECD GloBE Model Rules:**
@@ -20,13 +18,11 @@ After completing this chapter, you will be able to identify jurisdictions with a
 **OECD Resources:**
 - Central Record of Qualified Status: [oecd.org/en/topics/sub-issues/global-minimum-tax/central-record-of-legislation-with-transitional-qualified-status.html](https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/central-record-of-legislation-with-transitional-qualified-status.html)
 
----
-
-## What Is QDMTT?
+## 1. What Is QDMTT?
 
 A **Qualified Domestic Minimum Top-Up Tax (QDMTT)** is a domestic tax that a jurisdiction imposes on its own low-taxed entities to bring them up to the 15% minimum rate—before any IIR or UTPR can apply.
 
-### The Core Concept
+### 1.1 The Core Concept
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
@@ -48,7 +44,7 @@ A **Qualified Domestic Minimum Top-Up Tax (QDMTT)** is a domestic tax that a jur
 └──────────────────────────────────────────────────────────────────┘
 ```
 
-### Why Jurisdictions Implement QDMTT
+### 1.2 Why Jurisdictions Implement QDMTT
 
 | Reason | Explanation |
 |--------|-------------|
@@ -57,9 +53,7 @@ A **Qualified Domestic Minimum Top-Up Tax (QDMTT)** is a domestic tax that a jur
 | **Protect incentives** | Coordinate with existing tax incentives while meeting minimum tax requirements |
 | **Competitive positioning** | Demonstrate commitment to global tax framework while maintaining investment attractiveness |
 
----
-
-## QDMTT Priority Rule
+## 2. QDMTT Priority Rule
 
 QDMTT applies **first** in the rule order:
 
@@ -71,7 +65,7 @@ QDMTT applies **first** in the rule order:
 3. UTPR (sister jurisdictions) — Backstop for uncollected Top-Up Tax
 ```
 
-### Practical Effect
+### 2.1 Practical Effect
 
 | Scenario | QDMTT | IIR/UTPR |
 |----------|-------|----------|
@@ -79,7 +73,7 @@ QDMTT applies **first** in the rule order:
 | QDMTT covers 80% of Top-Up Tax | 80% | 20% |
 | No QDMTT in jurisdiction | €0 | Full liability |
 
-### Stratos Example: Ireland
+### 2.2 Stratos Example: Ireland
 
 | Item | Amount |
 |------|--------|
@@ -89,13 +83,11 @@ QDMTT applies **first** in the rule order:
 
 Ireland retains the full Top-Up Tax through its QDMTT. No IIR charge to Stratos Holdings plc.
 
----
-
-## Qualifying Criteria *(Article 10.1)*
+## 3. Qualifying Criteria (Article 10.1)
 
 For a domestic minimum tax to be a "Qualified" DMTT, it must meet three requirements:
 
-### Requirement 1: Functional Equivalence
+### 3.1 Requirement 1: Functional Equivalence
 
 The QDMTT must determine Excess Profits in a manner **equivalent to the GloBE Rules**:
 
@@ -112,7 +104,7 @@ The QDMTT must determine Excess Profits in a manner **equivalent to the GloBE Ru
 - Apply to purely domestic groups
 - Use domestic accounting standards (if consistent outcomes)
 
-### Requirement 2: Top-Up to Minimum Rate
+### 3.2 Requirement 2: Top-Up to Minimum Rate
 
 The QDMTT must increase domestic tax liability on Excess Profits to the **15% minimum rate**:
 
@@ -122,7 +114,7 @@ QDMTT = (15% − Domestic ETR) × Domestic Excess Profits
 
 **Key point:** The QDMTT must result in tax **equal to or greater than** what would arise under GloBE Rules. A QDMTT that systematically produces less tax will not qualify.
 
-### Requirement 3: Consistent Administration
+### 3.3 Requirement 3: Consistent Administration
 
 The QDMTT must be implemented and administered **consistently with GloBE outcomes**:
 
@@ -132,13 +124,11 @@ The QDMTT must be implemented and administered **consistently with GloBE outcome
 | **Systematic shortfalls** | Design features that consistently reduce QDMTT below GloBE amount |
 | **Cherry-picking** | Selective application to certain MNEs or income types |
 
----
-
-## QDMTT Safe Harbour
+## 4. QDMTT Safe Harbour
 
 The **QDMTT Safe Harbour** is a permanent simplification mechanism introduced in July 2023.
 
-### How It Works
+### 4.1 How It Works
 
 When a jurisdiction has QDMTT Safe Harbour status:
 
@@ -146,7 +136,7 @@ When a jurisdiction has QDMTT Safe Harbour status:
 2. **Deemed nil Top-Up Tax:** GloBE Top-Up Tax is deemed to be zero for that jurisdiction
 3. **No duplicate computation:** No need to run parallel GloBE calculations
 
-### Eligibility for Safe Harbour
+### 4.2 Eligibility for Safe Harbour
 
 | Criterion | Requirement |
 |-----------|-------------|
@@ -155,7 +145,7 @@ When a jurisdiction has QDMTT Safe Harbour status:
 | **No related benefits** | No tax incentives that reduce QDMTT effectiveness |
 | **Transitional or permanent status** | Either transitional qualified status or full peer review |
 
-### Benefits of Safe Harbour
+### 4.3 Benefits of Safe Harbour
 
 | Benefit | Description |
 |---------|-------------|
@@ -163,11 +153,9 @@ When a jurisdiction has QDMTT Safe Harbour status:
 | **Administrative simplicity** | No reconciliation between QDMTT and GloBE calculations |
 | **Certainty** | Clear outcome based on domestic rules |
 
----
+## 5. QDMTT Implementation Status
 
-## QDMTT Implementation Status
-
-### Jurisdictions with QDMTT (as of 2025)
+### 5.1 Jurisdictions with QDMTT (as of 2025)
 
 **European Union (22 of 27 Member States):**
 
@@ -216,21 +204,19 @@ When a jurisdiction has QDMTT Safe Harbour status:
 | Jersey | ✅ 2025 | |
 | Guernsey | ✅ 2025 | |
 
-### Checking Current Status
+### 5.2 Checking Current Status
 
 **OECD Central Record:** The OECD maintains an updated list of jurisdictions with transitional qualified status for both QDMTT and IIR. Always verify current status before relying on QDMTT offset:
 
 [Central Record of Legislation with Transitional Qualified Status](https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/central-record-of-legislation-with-transitional-qualified-status.html)
 
----
+## 6. Transitional Qualified Status
 
-## Transitional Qualified Status
-
-### What Is Transitional Status?
+### 6.1 What Is Transitional Status?
 
 During the initial implementation period, the Inclusive Framework allows **transitional qualified status** for jurisdictions that have enacted QDMTT legislation but have not yet completed full peer review.
 
-### How It Works
+### 4.1 How It Works
 
 | Status | Meaning | Duration |
 |--------|---------|----------|
@@ -238,18 +224,16 @@ During the initial implementation period, the Inclusive Framework allows **trans
 | **Fully Qualified** | Peer review completed; confirmed compliance | Permanent |
 | **Conditional DMTT** | Applies only when MNE is subject to GloBE elsewhere | 2024 only (must become unconditional) |
 
-### Elective DMTT Special Rule
+### 6.3 Elective DMTT Special Rule
 
 Some jurisdictions implemented **Elective DMTTs** in 2024 (where MNEs could choose whether to apply). These can qualify for transitional status if:
 
 1. The DMTT becomes non-elective in subsequent years
 2. MNEs cannot claim Safe Harbour if they elected out
 
----
+## 7. Stratos QDMTT Analysis
 
-## Stratos QDMTT Analysis
-
-### Jurisdiction Assessment
+### 7.1 Jurisdiction Assessment
 
 | Jurisdiction | QDMTT Status | Impact on Stratos |
 |--------------|--------------|-------------------|
@@ -258,7 +242,7 @@ Some jurisdictions implemented **Elective DMTTs** in 2024 (where MNEs could choo
 | **Ireland** | ✅ QDMTT (Safe Harbour) | Ireland retains Top-Up Tax |
 | **UK** | ✅ QDMTT (Safe Harbour) | Not applicable (parent; high-tax) |
 
-### Detailed Analysis: Ireland
+### 7.2 Detailed Analysis: Ireland
 
 **Without QDMTT:**
 - Jurisdictional Top-Up Tax: €426,394
@@ -269,7 +253,7 @@ Some jurisdictions implemented **Elective DMTTs** in 2024 (where MNEs could choo
 - IIR liability: €0
 - **Revenue stays in Ireland**
 
-### Detailed Analysis: Singapore
+### 7.3 Detailed Analysis: Singapore
 
 **Current status:** Singapore has not implemented QDMTT.
 
@@ -280,37 +264,35 @@ Some jurisdictions implemented **Elective DMTTs** in 2024 (where MNEs could choo
 
 **Future consideration:** If Singapore implements QDMTT, the Top-Up Tax would be collected in Singapore rather than the UK.
 
----
-
-## QDMTT Calculation Mechanics
+## 8. QDMTT Calculation Mechanics
 
 When applying QDMTT, the source jurisdiction typically follows GloBE-equivalent calculations:
 
-### Step 1: Determine Domestic GloBE Income
+### 8.1 Step 1: Determine Domestic GloBE Income
 
 Using domestic implementation of GloBE Income adjustments (same as Chapter 3).
 
-### Step 2: Determine Domestic Covered Taxes
+### 8.2 Step 2: Determine Domestic Covered Taxes
 
 Using domestic implementation of Covered Tax adjustments (same as Chapter 4).
 
-### Step 3: Calculate Domestic ETR
+### 8.3 Step 3: Calculate Domestic ETR
 
 ```
 Domestic ETR = Domestic Covered Taxes ÷ Domestic GloBE Income
 ```
 
-### Step 4: Calculate Domestic SBIE
+### 8.4 Step 4: Calculate Domestic SBIE
 
 Using domestic implementation of payroll and tangible asset carve-outs.
 
-### Step 5: Calculate QDMTT
+### 8.5 Step 5: Calculate QDMTT
 
 ```
 QDMTT = (15% − Domestic ETR) × (Domestic GloBE Income − Domestic SBIE)
 ```
 
-### Potential Variations
+### 8.6 Potential Variations
 
 QDMTT calculations may differ slightly from GloBE calculations due to:
 
@@ -322,11 +304,9 @@ QDMTT calculations may differ slightly from GloBE calculations due to:
 
 **Key principle:** Any variation must result in QDMTT **equal to or greater than** GloBE Top-Up Tax. If domestic calculation produces less, the jurisdiction loses qualified status.
 
----
+## 9. Interaction with IIR and UTPR
 
-## Interaction with IIR and UTPR
-
-### Offset Mechanics
+### 9.1 Offset Mechanics
 
 | Scenario | QDMTT Effect | IIR/UTPR Amount |
 |----------|--------------|-----------------|
@@ -334,7 +314,7 @@ QDMTT calculations may differ slightly from GloBE calculations due to:
 | QDMTT < Top-Up Tax | Partial offset | Difference |
 | QDMTT > Top-Up Tax | Full offset | €0 (excess not refunded) |
 
-### Example: Partial QDMTT Coverage
+### 9.2 Example: Partial QDMTT Coverage
 
 **Hypothetical:** A jurisdiction's QDMTT covers only 80% of the GloBE Top-Up Tax due to calculation differences.
 
@@ -346,43 +326,39 @@ QDMTT calculations may differ slightly from GloBE calculations due to:
 
 **Note:** This scenario is rare. Properly designed QDMTTs should cover the full GloBE amount.
 
----
+## 10. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Assuming All Domestic Minimum Taxes Are QDMTTs
+### 10.1 Pitfall 1: Assuming All Domestic Minimum Taxes Are QDMTTs
 
 **Error:** Treating any domestic minimum tax as qualifying for GloBE offset.
 
 **Correct approach:** Verify the jurisdiction is listed on the OECD Central Record with transitional or permanent qualified status.
 
-### Pitfall 2: Ignoring Transitional Status Conditions
+### 10.2 Pitfall 2: Ignoring Transitional Status Conditions
 
 **Error:** Relying on QDMTT offset without checking if transitional conditions are met.
 
 **Correct approach:** Confirm the jurisdiction's status is current and any conditions (e.g., non-elective requirement) are satisfied.
 
-### Pitfall 3: Forgetting Safe Harbour Election
+### 10.3 Pitfall 3: Forgetting Safe Harbour Election
 
 **Error:** Running full GloBE calculations for a QDMTT Safe Harbour jurisdiction.
 
 **Correct approach:** If Safe Harbour applies, deem GloBE Top-Up Tax as zero and rely on domestic QDMTT calculation.
 
-### Pitfall 4: Overlooking Related Benefits
+### 10.4 Pitfall 4: Overlooking Related Benefits
 
 **Error:** Assuming QDMTT qualifies when jurisdiction offers offsetting tax benefits.
 
 **Correct approach:** Check for "related benefits" that may disqualify the QDMTT from qualified status.
 
-### Pitfall 5: Not Updating Jurisdiction Lists
+### 10.5 Pitfall 5: Not Updating Jurisdiction Lists
 
 **Error:** Using outdated information on which jurisdictions have implemented QDMTT.
 
 **Correct approach:** Regularly check the OECD Central Record for updates, especially for new fiscal years.
 
----
-
-## QDMTT Assessment Checklist
+## 11. QDMTT Assessment Checklist
 
 Use this checklist when analysing QDMTT impact:
 
@@ -426,43 +402,3 @@ STEP 5: DOCUMENTATION
 ☐ QDMTT calculation documented (if applicable)
 ```
 
----
-
-## Summary
-
-QDMTT is a powerful mechanism that allows source jurisdictions to retain Top-Up Tax revenue domestically. The key implementation steps are:
-
-1. **Check QDMTT status** — Verify jurisdiction is on OECD Central Record
-2. **Confirm Safe Harbour eligibility** — Simplifies compliance if applicable
-3. **Calculate or accept domestic QDMTT** — Either rely on Safe Harbour or verify domestic amount
-4. **Apply offset** — Reduce IIR/UTPR liability by QDMTT paid
-5. **Monitor for updates** — Jurisdictional status can change
-
-QDMTT has **priority** over IIR and UTPR. When a jurisdiction has qualified QDMTT, the Top-Up Tax is collected domestically first.
-
----
-
-## Integration with GIR Tools
-
-QDMTT status affects the final step of the Top-Up Tax calculation:
-
-| GIR-001 Step | QDMTT Impact |
-|--------------|--------------|
-| Step 1: ETR | No impact |
-| Step 2: SBIE | No impact |
-| Step 3: Top-Up Tax | Enter QDMTT offset to determine net IIR/UTPR liability |
-
-**Workflow:**
-
-1. Complete Steps 1-2 as normal
-2. In Step 3, enter QDMTT status for each low-taxed jurisdiction
-3. GIR-001 applies QDMTT offset automatically
-4. Review net Top-Up Tax payable under IIR/UTPR
-
-**QDMTT Jurisdiction Tracker:** Consult the OECD Central Record or domestic tax authority guidance to determine current QDMTT status before completing GIR-001.
-
----
-
-## Next Step
-
-You have learned how QDMTT preserves source jurisdiction taxing rights and offsets IIR/UTPR liability. Proceed to **Chapter 5.5: De Minimis Exclusion** to understand when small jurisdictions are exempt from Top-Up Tax calculations.

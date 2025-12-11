@@ -4,8 +4,6 @@
 
 After completing this chapter, you will be able to calculate the jurisdictional Effective Tax Rate (ETR) by applying the Article 5.1 formula, understand jurisdictional blending, and handle special cases including loss scenarios and negative covered taxes.
 
----
-
 ## Key References
 
 **OECD GloBE Model Rules:**
@@ -21,9 +19,7 @@ After completing this chapter, you will be able to calculate the jurisdictional 
 **OECD Commentary:**
 - Chapter 5, paragraphs 1-25 — ETR calculation methodology
 
----
-
-## The ETR Formula
+## 1. The ETR Formula
 
 The ETR calculation is the pivotal step that determines whether a jurisdiction is subject to Top-Up Tax. Article 5.1.1 provides the formula:
 
@@ -38,20 +34,18 @@ ETR = ────────────────────────�
 If ETR < 15%: The jurisdiction is **low-taxed** and Top-Up Tax applies
 If ETR ≥ 15%: **No Top-Up Tax** for that jurisdiction
 
-### The Two Components
+### 1.1 The Two Components
 
 | Component | Definition | Source |
 |-----------|------------|--------|
 | **Adjusted Covered Taxes** | Covered Taxes after all adjustments from Part 4 (current tax adjustments, DTAA, tax allocations) | Article 5.1.3 |
 | **Jurisdictional Net GloBE Income** | Sum of GloBE Income for all CEs in the jurisdiction, minus GloBE Losses | Article 5.1.2 |
 
----
-
-## Jurisdictional Blending: The Core Principle
+## 2. Jurisdictional Blending: The Core Principle
 
 The GloBE rules use **jurisdictional blending**, not global blending. This is a fundamental design choice that determines how ETRs are calculated.
 
-### What Jurisdictional Blending Means
+### 2.1 What Jurisdictional Blending Means
 
 All Constituent Entities in the **same jurisdiction** are combined for ETR purposes:
 
@@ -61,7 +55,7 @@ Jurisdictional ETR = ───────────────────�
                       Sum of Net GloBE Income (all CEs in jurisdiction)
 ```
 
-### Why This Matters
+### 2.2 Why This Matters
 
 **Scenario:** A jurisdiction has two entities—one high-taxed, one low-taxed.
 
@@ -73,16 +67,14 @@ Jurisdictional ETR = ───────────────────�
 
 **Result:** The high-taxed Entity A "shelters" the low-taxed Entity B. The **jurisdictional ETR** (16.67%) exceeds 15%, so **no Top-Up Tax** applies—even though Entity B individually would have triggered Top-Up Tax.
 
-### Practical Implication
+### 2.3 Practical Implication
 
 When assessing Top-Up Tax exposure:
 - Do **not** calculate ETR per entity
 - Calculate ETR per **jurisdiction** (aggregate all CEs in that country)
 - A single high-taxed entity can eliminate Top-Up Tax for the entire jurisdiction
 
----
-
-## Calculating Jurisdictional Net GloBE Income
+## 3. Calculating Jurisdictional Net GloBE Income
 
 Article 5.1.2 defines Jurisdictional Net GloBE Income as:
 
@@ -90,7 +82,7 @@ Article 5.1.2 defines Jurisdictional Net GloBE Income as:
 Jurisdictional Net GloBE Income = Σ(GloBE Income of all CEs) − Σ(GloBE Losses of all CEs)
 ```
 
-### Step-by-Step Process
+### 3.1 Step-by-Step Process
 
 **Step 1:** Identify all Constituent Entities in the jurisdiction
 
@@ -102,7 +94,7 @@ Jurisdictional Net GloBE Income = Σ(GloBE Income of all CEs) − Σ(GloBE Losse
 
 **Step 5:** Subtract total losses from total income
 
-### Worked Example: Germany Jurisdiction
+### 3.2 Worked Example: Germany Jurisdiction
 
 **Stratos entities in Germany:**
 
@@ -122,11 +114,9 @@ Step 3: Jurisdictional Net GloBE Income = €58,380,000 − €2,100,000 = €56
 
 **Key point:** The loss from SG Germany Services GmbH reduces the jurisdictional denominator, which **increases** the ETR (beneficial outcome).
 
----
+## 4. Handling Special Cases
 
-## Handling Special Cases
-
-### Case 1: Net GloBE Loss (Negative Denominator)
+### 4.1 Case 1: Net GloBE Loss (Negative Denominator)
 
 If Jurisdictional Net GloBE Income is **negative** (total losses exceed total income):
 
@@ -148,13 +138,13 @@ If Jurisdictional Net GloBE Income is **negative** (total losses exceed total in
 - **No Top-Up Tax** for this fiscal year
 - Loss may be carried forward (see GloBE Loss Election, Chapter 4.4)
 
-### Case 2: Zero GloBE Income
+### 4.2 Case 2: Zero GloBE Income
 
 If Jurisdictional Net GloBE Income equals exactly **zero**:
 
 **Rule:** No ETR calculation is possible (division by zero). No Top-Up Tax applies.
 
-### Case 3: Negative Adjusted Covered Taxes
+### 4.3 Case 3: Negative Adjusted Covered Taxes
 
 Adjusted Covered Taxes can be **negative** when:
 - Refunds exceed current tax expense
@@ -170,7 +160,7 @@ Adjusted Covered Taxes can be **negative** when:
 
 **Key insight:** A negative ETR is possible and means the jurisdiction is definitely low-taxed.
 
-### Case 4: Very Small GloBE Income
+### 4.4 Case 4: Very Small GloBE Income
 
 When GloBE Income is small, even modest Covered Taxes can produce very high ETRs.
 
@@ -184,11 +174,9 @@ When GloBE Income is small, even modest Covered Taxes can produce very high ETRs
 
 **Practical note:** Small jurisdictions with minimal activity often have high ETRs due to fixed minimum taxes or registration fees. The De Minimis Exclusion (Chapter 5.5) addresses this.
 
----
+## 5. The Complete ETR Calculation Process
 
-## The Complete ETR Calculation Process
-
-### ETR Calculation Flowchart
+### 5.1 ETR Calculation Flowchart
 
 ```
 START
@@ -246,13 +234,11 @@ NO TOP-UP TAX for this jurisdiction
 (END)
 ```
 
----
-
-## Stratos Worked Example: Complete ETR Calculation
+## 6. Stratos Worked Example: Complete ETR Calculation
 
 Using data from Case Study 4, calculate ETRs for Stratos's three key jurisdictions.
 
-### Data Summary (from Part 4)
+### 6.1 Data Summary (from Part 4)
 
 | Jurisdiction | Adjusted GloBE Income | Adjusted Covered Taxes |
 |--------------|----------------------|------------------------|
@@ -260,7 +246,7 @@ Using data from Case Study 4, calculate ETRs for Stratos's three key jurisdictio
 | Singapore | €4,000,000 | €392,206 |
 | Ireland | €15,000,000 | €1,770,000 |
 
-### Step 1: Germany ETR
+### 6.2 Step 1: Germany ETR
 
 ```
                     €12,393,000
@@ -270,7 +256,7 @@ ETR (Germany) = ─────────────────── = 0.22
 
 **Result:** 23.00% > 15% → **No Top-Up Tax**
 
-### Step 2: Singapore ETR
+### 6.3 Step 2: Singapore ETR
 
 ```
                       €392,206
@@ -280,7 +266,7 @@ ETR (Singapore) = ─────────────── = 0.09805... = 9
 
 **Result:** 9.81% < 15% → **Low-taxed jurisdiction** → Proceed to SBIE
 
-### Step 3: Ireland ETR
+### 6.4 Step 3: Ireland ETR
 
 ```
                      €1,770,000
@@ -290,7 +276,7 @@ ETR (Ireland) = ─────────────────── = 0.11
 
 **Result:** 11.80% < 15% → **Low-taxed jurisdiction** → Proceed to SBIE
 
-### ETR Summary
+### 6.5 ETR Summary
 
 | Jurisdiction | GloBE Income | Covered Taxes | ETR | Status |
 |--------------|--------------|---------------|-----|--------|
@@ -298,11 +284,9 @@ ETR (Ireland) = ─────────────────── = 0.11
 | Singapore | €4,000,000 | €392,206 | 9.81% | **Low-taxed** |
 | Ireland | €15,000,000 | €1,770,000 | 11.80% | **Low-taxed** |
 
----
+## 7. Multi-Entity Jurisdictions: Blending in Practice
 
-## Multi-Entity Jurisdictions: Blending in Practice
-
-### Scenario: UK Jurisdiction with Multiple Entities
+### 7.1 Scenario: UK Jurisdiction with Multiple Entities
 
 Stratos has three entities in the UK:
 
@@ -312,7 +296,7 @@ Stratos has three entities in the UK:
 | SG UK Services Ltd | €2,200,000 | €550,000 |
 | SG UK Trading Ltd | (€1,500,000) | €0 |
 
-### Calculation
+### 7.2 Calculation
 
 **Step 1: Jurisdictional Net GloBE Income**
 ```
@@ -338,43 +322,39 @@ ETR (UK) = ───────────── = 29.08%
 - Without blending, its individual ETR would be undefined (0 ÷ negative)
 - With jurisdictional blending, the loss reduces the denominator, and the profitable entities' taxes cover the jurisdiction
 
----
+## 8. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Calculating ETR Per Entity Instead of Per Jurisdiction
+### 8.1 Pitfall 1: Calculating ETR Per Entity Instead of Per Jurisdiction
 
 **Error:** Computing separate ETRs for each subsidiary and assessing Top-Up Tax entity-by-entity.
 
 **Correct approach:** Aggregate all CEs in the jurisdiction first, then calculate a single jurisdictional ETR.
 
-### Pitfall 2: Ignoring Loss Entities in ETR Calculation
+### 8.2 Pitfall 2: Ignoring Loss Entities in ETR Calculation
 
 **Error:** Excluding loss-making entities from the jurisdictional aggregation.
 
 **Correct approach:** Include all CEs—losses reduce the denominator, which affects the blended ETR.
 
-### Pitfall 3: Attempting ETR Calculation with Negative Denominator
+### 8.3 Pitfall 3: Attempting ETR Calculation with Negative Denominator
 
 **Error:** Dividing by a negative number and treating the result as meaningful.
 
 **Correct approach:** If Jurisdictional Net GloBE Income ≤ 0, stop—no ETR calculation is required.
 
-### Pitfall 4: Inconsistent Rounding
+### 8.4 Pitfall 4: Inconsistent Rounding
 
 **Error:** Rounding ETR to two decimal places (e.g., 14.99% becomes 15.0%).
 
 **Correct approach:** Round to **four decimal places** per Article 5.1.4. An ETR of 14.9999% is still below 15% and triggers Top-Up Tax.
 
-### Pitfall 5: Forgetting QRTC GloBE Income Adjustment
+### 8.5 Pitfall 5: Forgetting QRTC GloBE Income Adjustment
 
 **Error:** Using GloBE Income from Case Study 3 without the QRTC addition.
 
 **Correct approach:** If QRTCs were identified in Part 4, the corresponding addition to GloBE Income (Article 3.2.10) must be reflected in the denominator.
 
----
-
-## ETR Calculation Worksheet
+## 9. ETR Calculation Worksheet
 
 Use this worksheet for each jurisdiction:
 
@@ -419,9 +399,7 @@ D3  QRTC adjustments applied to both         ☐ Yes / ☐ N/A
     numerator AND denominator?
 ```
 
----
-
-## Why Global Blending Was Rejected
+## 10. Why Global Blending Was Rejected
 
 The OECD considered two approaches:
 
@@ -430,7 +408,7 @@ The OECD considered two approaches:
 | **Global blending** | Calculate one ETR for the entire MNE group worldwide | Rejected |
 | **Jurisdictional blending** | Calculate separate ETR per jurisdiction | **Adopted** |
 
-### Why Jurisdictional Blending?
+### 10.1 Why Jurisdictional Blending?
 
 Global blending would have:
 - Allowed high-tax jurisdictions to shelter low-tax jurisdictions across borders
@@ -442,52 +420,10 @@ Jurisdictional blending ensures:
 - Low-tax jurisdictions cannot be sheltered by high-tax jurisdictions in other countries
 - The 15% minimum applies jurisdiction-by-jurisdiction
 
-### Within-Jurisdiction Blending Is Permitted
+### 10.2 Within-Jurisdiction Blending Is Permitted
 
 Blending **within** a jurisdiction is intentional:
 - Reflects economic reality (entities in the same country face similar tax environments)
 - Simplifies compliance (one calculation per jurisdiction, not per entity)
 - Allows temporary losses to offset profitable entities
 
----
-
-## Summary
-
-The ETR calculation is the gateway to Top-Up Tax determination. The key implementation steps are:
-
-1. **Identify all CEs in the jurisdiction** — Include every Constituent Entity, regardless of profitability
-2. **Calculate Jurisdictional Net GloBE Income** — Sum income, subtract losses
-3. **Check for negative denominator** — If Net GloBE Income ≤ 0, stop; no Top-Up Tax
-4. **Aggregate Adjusted Covered Taxes** — Sum across all CEs in the jurisdiction
-5. **Apply the formula** — ETR = Covered Taxes ÷ Net GloBE Income
-6. **Round to four decimal places** — Precision matters at the 15% threshold
-7. **Assess result** — ETR < 15% = low-taxed; ETR ≥ 15% = no Top-Up Tax
-
-Jurisdictional blending means high-tax entities can shelter low-tax entities within the same country, but not across borders.
-
----
-
-## Integration with GIR Tools
-
-The ETR calculation is **Step 1** of the GIR-001 GloBE Calculator workflow:
-
-| GIR-001 Step | Function | Data Input |
-|--------------|----------|------------|
-| **Step 1: ETR Calculation** | Computes jurisdictional ETR | GloBE Income + Covered Taxes |
-| Step 2: SBIE Calculation | Applies substance carve-out | Payroll + Tangible Assets |
-| Step 3: Top-Up Tax | Computes final liability | ETR + SBIE results |
-
-**Workflow:**
-
-1. Enter Jurisdictional Net GloBE Income (from Part 3, adjusted for QRTCs)
-2. Enter Adjusted Covered Taxes (from Part 4)
-3. GIR-001 calculates ETR automatically
-4. If ETR < 15%, proceed to Step 2 (SBIE)
-
-Use **GIR-001 GloBE Calculator** at tools.mojitax.com to verify your manual ETR calculations before proceeding to SBIE.
-
----
-
-## Next Step
-
-You have learned how to calculate the jurisdictional ETR and identify low-taxed jurisdictions. Proceed to **Chapter 5.2: Substance-Based Income Exclusion (SBIE)** to learn how to reduce the Top-Up Tax base through payroll and tangible asset carve-outs.
