@@ -4,28 +4,7 @@
 
 After completing this chapter, you will be able to assess the impact of mergers and demergers on the €750 million revenue threshold, apply the retrospective combination rule for mergers, determine when demerged groups remain in scope, and handle partial-year treatment for entities entering or leaving an MNE Group.
 
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 1.1.1 — €750 million revenue threshold
-- Article 6.1.1 — Merger impact on revenue threshold
-- Article 6.1.2 — Demerger impact on revenue threshold
-- Article 6.2.1 — Entities joining an MNE Group
-- Article 6.2.2 — Treatment of share acquisitions as asset transfers
-- Article 10.1 — Definition of GloBE Reorganisation
-
-**OECD Commentary:**
-- Chapter 6, paragraphs 1-45 — Corporate restructurings and threshold calculations
-
-**Administrative Guidance:**
-- December 2023: Revenue definition for threshold purposes
-- June 2024: Partial year calculations
-
----
-
-## The Revenue Threshold Challenge
+## 1. The Revenue Threshold Challenge
 
 The standard €750 million threshold test looks at **revenue in 2 of 4 preceding fiscal years**. But what happens when:
 - Two groups merge mid-year?
@@ -36,11 +15,9 @@ The standard €750 million threshold test looks at **revenue in 2 of 4 precedin
 
 **The solution:** Article 6.1 provides special rules that reconstruct history for mergers and test forward for demergers.
 
----
+## 2. Merger Rules *(Article 6.1.1)*
 
-## Merger Rules *(Article 6.1.1)*
-
-### The Retrospective Combination Rule
+### 2.1 The Retrospective Combination Rule
 
 When two MNE Groups merge to form a single consolidated group, the **combined group's revenue is reconstructed as if it had always existed in its post-merger form**.
 
@@ -59,7 +36,7 @@ When two MNE Groups merge to form a single consolidated group, the **combined gr
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### When the Combination Rule Applies
+### 2.2 When the Combination Rule Applies
 
 The rule applies when an MNE Group acquires **all or substantially all** of the members of another consolidated group.
 
@@ -70,7 +47,7 @@ The rule applies when an MNE Group acquires **all or substantially all** of the 
 | Group A acquires a single entity from Group B | **No** — standard rules apply |
 | Merger of equals forming new Group C | **Yes** — combine both groups |
 
-### Example: Merger Brings Groups Into Scope
+### 2.3 Example: Merger Brings Groups Into Scope
 
 **Pre-Merger:**
 
@@ -89,7 +66,7 @@ The rule applies when an MNE Group acquires **all or substantially all** of the 
 
 **Result:** The combined group **immediately** falls within Pillar Two scope for FY 2025 because the reconstructed revenues exceed €750M in at least 2 of the 4 preceding years.
 
-### Critical Insight: No Grace Period
+### 2.4 Critical Insight: No Grace Period
 
 A common misconception is that merged groups have time before Pillar Two applies. **This is incorrect.**
 
@@ -101,11 +78,9 @@ exceed €750M in 2 of 4 preceding years.
 There is no transition period or phase-in for mergers.
 ```
 
----
+## 3. Demerger Rules *(Article 6.1.2)*
 
-## Demerger Rules *(Article 6.1.2)*
-
-### The Forward-Looking Test
+### 3.1 The Forward-Looking Test
 
 When a group demerges, each resulting group is tested **forward** rather than retrospectively.
 
@@ -125,7 +100,7 @@ When a group demerges, each resulting group is tested **forward** rather than re
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Demerger Testing Mechanics
+### 3.2 Demerger Testing Mechanics
 
 **Scenario:** MegaCorp (in scope) demerges into NewCo A and NewCo B on 30 June 2025.
 
@@ -145,15 +120,13 @@ When a group demerges, each resulting group is tested **forward** rather than re
 
 **NewCo B exits scope** because it does not have revenue ≥ €750M in at least 2 years post-demerger.
 
-### Anti-Avoidance Consideration
+### 3.3 Anti-Avoidance Consideration
 
 A group cannot avoid Pillar Two by demerging and then immediately re-merging. The combination rules would apply to reconstruct revenues.
 
----
+## 4. Partial Year Treatment *(Article 6.2.1)*
 
-## Partial Year Treatment *(Article 6.2.1)*
-
-### Entities Joining Mid-Year
+### 4.1 Entities Joining Mid-Year
 
 When an entity joins an MNE Group during a fiscal year, the GloBE rules apply **only to the portion of income and taxes consolidated in the UPE's financial statements**.
 
@@ -165,7 +138,7 @@ Entity joins on 1 July (mid-year):
 → Tangible assets: see special rule below
 ```
 
-### Tangible Assets for Partial Year
+### 4.2 Tangible Assets for Partial Year
 
 For SBIE purposes, tangible assets are **not prorated** like payroll. Instead:
 
@@ -174,7 +147,7 @@ For SBIE purposes, tangible assets are **not prorated** like payroll. Instead:
 
 *(Article 6.2.1(e))*
 
-### Example: Mid-Year Acquisition
+### 4.3 Example: Mid-Year Acquisition
 
 **Stratos acquires TechStart Ltd on 1 July 2025.**
 
@@ -191,11 +164,9 @@ For SBIE purposes, tangible assets are **not prorated** like payroll. Instead:
 - Add €1,800,000 to Irish payroll for SBIE
 - Add €8,000,000 to Irish tangible assets for SBIE
 
----
-
 ## Deferred Tax Attributes *(Article 6.2.1(f))*
 
-### General Rule: Carry Over
+### 5.1 General Rule: Carry Over
 
 When an entity joins an MNE Group, existing deferred tax attributes (DTAs, DTLs) are generally **respected**:
 
@@ -206,7 +177,7 @@ Acquired entity's DTAs and DTLs:
 → Subject to the same 15% rate cap
 ```
 
-### Exception: GloBE Loss Election
+### 5.2 Exception: GloBE Loss Election
 
 The **GloBE Loss Election** (an alternative to the standard DTA approach) is a **jurisdictional attribute** that **cannot be transferred** to another MNE Group.
 
@@ -217,19 +188,17 @@ The **GloBE Loss Election** (an alternative to the standard DTA approach) is a *
 | Tax loss carryforwards | Yes | Subject to local rules |
 | GloBE Loss Election DTA | **No** | Lost on change of control |
 
-### Practical Implication
+### 5.3 Practical Implication
 
 If the selling group used the GloBE Loss Election, the acquiring group **cannot continue** using that election. The acquiring group must:
 1. Determine whether to make its own GloBE Loss Election for that jurisdiction, OR
 2. Apply the standard DTA approach
 
----
-
-## Accounting Treatment: Merger vs Acquisition Accounting
+## 6. Accounting Treatment: Merger vs Acquisition Accounting
 
 The accounting treatment of a business combination affects GloBE calculations:
 
-### Merger Accounting (Pooling of Interests)
+### 6.1 Merger Accounting (Pooling of Interests)
 
 | Feature | Treatment |
 |---------|-----------|
@@ -237,7 +206,7 @@ The accounting treatment of a business combination affects GloBE calculations:
 | No fair value step-up | No GloBE adjustment needed |
 | Retained earnings | Combined from both entities |
 
-### Acquisition Accounting (Purchase Method)
+### 6.2 Acquisition Accounting (Purchase Method)
 
 | Feature | Treatment |
 |---------|-----------|
@@ -252,9 +221,7 @@ Under acquisition accounting, the fair value step-up creates new temporary diffe
 - Future depreciation/amortisation (GloBE Income adjustments)
 - Deferred tax calculations (Covered Tax adjustments)
 
----
-
-## Decision Flowchart: Merger/Demerger Impact
+## 7. Decision Flowchart: Merger/Demerger Impact
 
 ```
 START: Corporate restructuring occurs
@@ -304,11 +271,9 @@ MERGER              DEMERGER
 └────────┘ └────────┘
 ```
 
----
+## 8. Stratos Worked Example: Acquisition of TechStart
 
-## Stratos Worked Example: Acquisition of TechStart
-
-### Background
+### 8.1 Background
 
 Stratos Holdings plc is considering acquiring TechStart Group, an Irish technology company with operations in Ireland and Germany.
 
@@ -321,7 +286,7 @@ Stratos Holdings plc is considering acquiring TechStart Group, an Irish technolo
 
 **Question 1: Does acquiring TechStart affect Stratos's scope status?**
 
-### Analysis
+### 8.2 Analysis
 
 **Step 1: Is this a combination of two consolidated groups?**
 
@@ -344,9 +309,7 @@ All four combined years exceed €750M. Stratos was already in scope, and the ac
 
 **Conclusion:** No impact on scope status (Stratos remains in scope).
 
----
-
-### Question 2: How is TechStart's partial year handled?
+### 8.3 Question 2: How is TechStart's partial year handled?
 
 **Acquisition Date:** 1 July 2025 (mid-year)
 
@@ -392,9 +355,7 @@ Top-Up Tax % = 15% − 11.95% = 3.05%
 Top-Up Tax = €16,983,200 × 3.05% = €517,988
 ```
 
----
-
-### Question 3: What about TechStart's deferred tax attributes?
+### 8.4 Question 3: What about TechStart's deferred tax attributes?
 
 **TechStart Ireland has:**
 - DTA on tax losses: €400,000 (at 12.5% rate)
@@ -413,43 +374,39 @@ The GloBE Loss Election DTA would **not** transfer. Stratos would need to decide
 - Make its own GloBE Loss Election for Ireland (if losses exist), OR
 - Use the standard accounting DTA approach
 
----
+## 9. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Assuming Mergers Provide Transition Time
+### 9.1 Pitfall 1: Assuming Mergers Provide Transition Time
 
 **Error:** Believing that a newly merged group has time before Pillar Two applies.
 
 **Correct approach:** Apply the retrospective combination rule. A merger can trigger **immediate** Pillar Two application if combined historical revenues exceed €750M in 2 of 4 prior years.
 
-### Pitfall 2: Prorating Tangible Assets for Partial Year
+### 9.2 Pitfall 2: Prorating Tangible Assets for Partial Year
 
 **Error:** Prorating tangible asset values for SBIE when an entity joins mid-year.
 
 **Correct approach:** Use the asset value at the **joining date** (not prorated). Only payroll is prorated based on the consolidation period.
 
-### Pitfall 3: Transferring GloBE Loss Election
+### 9.3 Pitfall 3: Transferring GloBE Loss Election
 
 **Error:** Assuming an acquired entity's GloBE Loss Election continues under the new MNE Group.
 
 **Correct approach:** The GloBE Loss Election is a jurisdictional attribute that **cannot be transferred**. The acquiring group must make its own election decision.
 
-### Pitfall 4: Ignoring Acquisition Accounting Impact
+### 9.4 Pitfall 4: Ignoring Acquisition Accounting Impact
 
 **Error:** Not considering how fair value step-ups under acquisition accounting affect deferred taxes.
 
 **Correct approach:** Under acquisition accounting, new temporary differences arise. These affect future GloBE Income and Covered Tax calculations through changed depreciation/amortisation and deferred tax movements.
 
-### Pitfall 5: Incorrect Demerger Testing
+### 9.5 Pitfall 5: Incorrect Demerger Testing
 
 **Error:** Applying the retrospective combination rule to demergers.
 
 **Correct approach:** Demergers use the **forward-looking test**. Test Year 1 revenue alone, then test 2+ years in Years 2-4.
 
----
-
-## Merger/Demerger Assessment Checklist
+## 10. Merger/Demerger Assessment Checklist
 
 Use this checklist when a corporate restructuring occurs:
 
@@ -537,42 +494,3 @@ SECTION E: SUMMARY
 □ Special elections needed?                    YES / NO
 □ Documentation complete?                      YES / NO
 ```
-
----
-
-## Summary
-
-Mergers and demergers require careful analysis under Pillar Two:
-
-| Transaction | Rule | Key Test |
-|-------------|------|----------|
-| **Merger** | Retrospective combination | Combined revenues ≥ €750M in 2 of 4 prior years |
-| **Demerger** | Forward-looking test | Year 1: Revenue ≥ €750M; Years 2-4: 2+ years ≥ €750M |
-| **Partial year** | Consolidation period | Income/taxes/payroll prorated; assets at joining/leaving date |
-| **DT attributes** | Carry over (mostly) | GloBE Loss Election does NOT transfer |
-
-**Critical warning:** Mergers can trigger **immediate** Pillar Two application. There is no grace period.
-
----
-
-## Integration with GIR Tools
-
-Merger and demerger transactions affect GIR calculations and reporting:
-
-| Impact Area | Tool | Action Required |
-|-------------|------|-----------------|
-| **Scope assessment** | Manual | Apply combination/forward-looking rules before GIR preparation |
-| **Partial year data** | GIR-001 GloBE Calculator | Enter prorated GloBE Income and Covered Taxes |
-| **SBIE adjustment** | GIR-001 Step 2 | Enter prorated payroll; assets at transaction date |
-| **GIR filing** | GIR-004 GIR Practice Form | Report partial-year entities with dates |
-
-**GIR Reporting Note:** The GloBE Information Return requires disclosure of:
-- Entities joining the MNE Group (with joining date)
-- Entities leaving the MNE Group (with leaving date)
-- Partial-year calculations methodology
-
----
-
-## Next Step
-
-You have learned how mergers and demergers affect the €750 million threshold and partial-year treatment. Proceed to **Chapter 6.2: Acquisitions and Disposals** for detailed guidance on entity-level transactions, basis step-up elections, and asset vs. share deal treatment.

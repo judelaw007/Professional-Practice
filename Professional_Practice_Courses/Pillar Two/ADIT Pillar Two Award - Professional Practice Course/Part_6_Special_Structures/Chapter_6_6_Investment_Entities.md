@@ -4,28 +4,7 @@
 
 After completing this chapter, you will be able to identify when an entity qualifies as an Investment Fund, Real Estate Investment Vehicle (REIV), or Insurance Investment Entity, determine when such entities are excluded from GloBE scope, apply the separate ETR calculation under Article 7.4, and elect alternative treatments under Article 7.5 (Tax Transparency Election) or Article 7.6 (Taxable Distribution Method).
 
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 1.5.1 — Excluded Entity status for Investment Funds and REIVs as UPE
-- Article 1.5.2 — Entities owned by Excluded Entities
-- Article 7.4 — Separate ETR calculation for Investment Entities
-- Article 7.5 — Tax Transparency Election
-- Article 7.6 — Taxable Distribution Method Election
-- Article 10.1 — Definitions of Investment Fund, REIV, Insurance Investment Entity
-
-**OECD Commentary:**
-- Chapter 7, paragraphs 46-95 — Investment Entity rules
-
-**Administrative Guidance:**
-- February 2023: Insurance Investment Entity clarifications
-- December 2023: Investment Fund scope guidance
-
----
-
-## Why Special Rules for Investment Entities?
+## 1. Why Special Rules for Investment Entities?
 
 Investment structures create unique challenges for Pillar Two because of how they are taxed domestically:
 
@@ -57,11 +36,9 @@ Investment structures create unique challenges for Pillar Two because of how the
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
----
+## 2. Definitions: Investment Entities *(Article 10.1)*
 
-## Definitions: Investment Entities *(Article 10.1)*
-
-### Investment Fund
+### 2.1 Investment Fund
 
 An **Investment Fund** is an entity that meets ALL of the following criteria:
 
@@ -87,7 +64,7 @@ An **Investment Fund** is an entity that meets ALL of the following criteria:
 - Captive finance entities
 - Treasury centres
 
-### Real Estate Investment Vehicle (REIV)
+### 2.2 Real Estate Investment Vehicle (REIV)
 
 A **Real Estate Investment Vehicle (REIV)** is an entity that meets ALL of the following criteria:
 
@@ -107,7 +84,7 @@ A **Real Estate Investment Vehicle (REIV)** is an entity that meets ALL of the f
 - Listed property companies with distribution requirements
 - Open-ended real estate funds
 
-### Insurance Investment Entity
+### 2.3 Insurance Investment Entity
 
 An **Insurance Investment Entity** is an entity that:
 - Would qualify as an Investment Fund or REIV, **but for** being wholly-owned by an insurance company
@@ -127,11 +104,9 @@ Insurance Investment Entity
 └── Treated as Investment Entity for GloBE
 ```
 
----
+## 3. When Are Investment Entities Excluded? *(Article 1.5)*
 
-## When Are Investment Entities Excluded? *(Article 1.5)*
-
-### Article 1.5.1: Investment Fund or REIV as UPE
+### 3.1 Article 1.5.1: Investment Fund or REIV as UPE
 
 An **Investment Fund** or **REIV** that is the **Ultimate Parent Entity** of an MNE Group is an **Excluded Entity**:
 
@@ -169,7 +144,7 @@ Treatment:
 → UTPR may apply at subsidiary level if undertaxed
 ```
 
-### Article 1.5.2: Entities Owned by Excluded Entities
+### 3.2 Article 1.5.2: Entities Owned by Excluded Entities
 
 An entity can also be an **Excluded Entity** if owned by Excluded Entities:
 
@@ -180,7 +155,7 @@ An entity can also be an **Excluded Entity** if owned by Excluded Entities:
 **Condition (b):** At least **85% owned** by Excluded Entities (excluding pension services entities), AND:
 - **Substantially all** income is dividends or equity gains/losses excluded from GloBE Income
 
-### Article 1.5.3: Election NOT to Treat as Excluded
+### 3.3 Article 1.5.3: Election NOT to Treat as Excluded
 
 A Filing Constituent Entity may **elect** not to treat an entity as an Excluded Entity under Article 1.5.2. This is a **Five-Year Election**.
 
@@ -189,11 +164,9 @@ A Filing Constituent Entity may **elect** not to treat an entity as an Excluded 
 - To preserve SBIE capacity
 - Strategic tax planning considerations
 
----
+## 4. Investment Entities Within Scope: Separate ETR *(Article 7.4)*
 
-## Investment Entities Within Scope: Separate ETR *(Article 7.4)*
-
-### When Article 7.4 Applies
+### 4.1 When Article 7.4 Applies
 
 If an Investment Entity is **not** an Excluded Entity, it is a Constituent Entity but subject to **special ETR calculation rules**:
 
@@ -212,7 +185,7 @@ If an Investment Entity is **not** an Excluded Entity, it is a Constituent Entit
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Article 7.4.2: Investment Entity Groups
+### 4.2 Article 7.4.2: Investment Entity Groups
 
 Multiple Investment Entities and Insurance Investment Entities in the **same jurisdiction** form a **separate investment entity group**:
 
@@ -244,7 +217,7 @@ WITH Article 7.4 (separate calculations):
 Investment Entity Group does NOT drag down OpCo's ETR.
 ```
 
-### ETR Calculation for Investment Entities
+### 4.3 ETR Calculation for Investment Entities
 
 The formula considers the MNE's **allocable share**:
 
@@ -255,7 +228,7 @@ Where:
 Allocable Share = (Total GloBE Income − Amounts attributable to other owners) / Total GloBE Income
 ```
 
-### Top-Up Tax Calculation Under Article 7.4
+### 4.4 Top-Up Tax Calculation Under Article 7.4
 
 ```
 Step 1: Determine Investment Entity ETR (separate calculation)
@@ -266,13 +239,11 @@ Step 5: Excess Profit = Allocable GloBE Income − SBIE
 Step 6: Top-Up Tax = Excess Profit × Top-Up Tax %
 ```
 
----
-
-## Alternative Elections: Article 7.5 and 7.6
+## 5. Alternative Elections: Article 7.5 and 7.6
 
 MNE Groups have two alternative elections to modify Investment Entity treatment:
 
-### Article 7.5: Tax Transparency Election
+### 5.1 Article 7.5: Tax Transparency Election
 
 The **Tax Transparency Election** allows a Constituent Entity-owner to treat an Investment Entity as a **Tax Transparent Entity**:
 
@@ -329,7 +300,7 @@ German OpCo (blended):
 Result: Article 7.5 eliminates Investment Entity's Top-Up Tax exposure
 ```
 
-### Article 7.6: Taxable Distribution Method Election
+### 5.2 Article 7.6: Taxable Distribution Method Election
 
 The **Taxable Distribution Method Election** provides a different approach:
 
@@ -396,9 +367,7 @@ Four-Year Top-Up Tax = Undistributed Net GloBE Income (Year N-4) × 15%
 - Want to defer GloBE recognition until distribution
 - Aligns with domestic deductible dividend treatment
 
----
-
-## Comparison: Default vs Article 7.5 vs Article 7.6
+## 6. Comparison: Default vs Article 7.5 vs Article 7.6
 
 | Feature | Default (Art. 7.4) | Tax Transparency (Art. 7.5) | Taxable Distribution (Art. 7.6) |
 |---------|-------------------|----------------------------|--------------------------------|
@@ -409,15 +378,13 @@ Four-Year Top-Up Tax = Undistributed Net GloBE Income (Year N-4) × 15%
 | **Undistributed income** | Taxed immediately | Taxed immediately (at owner) | Taxed after 4 years (15%) |
 | **Best for** | Standalone analysis | High-tax owner | Distribution within 4 years |
 
----
+## 7. Stratos Worked Example: Investment Entity Subsidiary
 
-## Stratos Worked Example: Investment Entity Subsidiary
-
-### Background
+### 7.1 Background
 
 Stratos Holdings plc establishes **Stratos Investment Holdings Ltd** in Luxembourg to manage treasury investments and hold minority stakes in portfolio companies.
 
-### Structure
+### 7.2 Structure
 
 ```
 Stratos Holdings plc (UK)
@@ -431,7 +398,7 @@ Stratos Investment Holdings Ltd (Luxembourg)
 └── ETR: 2.00%
 ```
 
-### Step 1: Does Entity Qualify as Investment Entity?
+### 7.3 Step 1: Does Entity Qualify as Investment Entity?
 
 | Investment Fund Criteria | Assessment |
 |--------------------------|------------|
@@ -447,7 +414,7 @@ Stratos Investment Holdings Ltd (Luxembourg)
 
 **Result:** Stratos Investment Holdings Ltd is **NOT** an Investment Entity under Article 10.1. It is a **regular Constituent Entity** subject to standard GloBE rules.
 
-### Alternative Scenario: If Entity Were an Investment Entity
+### 7.4 Alternative Scenario: If Entity Were an Investment Entity
 
 Assume Stratos acquires a 60% stake in an existing **Investment Fund** that meets Article 10.1 criteria.
 
@@ -467,7 +434,7 @@ InvestFund SICAV (Luxembourg)
 └── ETR: 2.00%
 ```
 
-### Step 2: Is Entity an Excluded Entity?
+### 7.5 Step 2: Is Entity an Excluded Entity?
 
 | Test | Assessment |
 |------|------------|
@@ -476,7 +443,7 @@ InvestFund SICAV (Luxembourg)
 
 **Result:** InvestFund SICAV is a Constituent Entity subject to GloBE.
 
-### Step 3: Default Treatment (Article 7.4)
+### 7.6 Step 3: Default Treatment (Article 7.4)
 
 **Separate ETR Calculation:**
 
@@ -549,7 +516,7 @@ If Stratos elects Article 7.6 instead:
 
 **Result:** Article 7.6 defers Top-Up Tax but requires distribution within 4 years or 15% charge applies.
 
-### Stratos Decision Matrix
+### 7.9 Stratos Decision Matrix
 
 | Option | Top-Up Tax | Complexity | Best When |
 |--------|------------|------------|-----------|
@@ -559,49 +526,45 @@ If Stratos elects Article 7.6 instead:
 
 **Recommendation for Stratos:** Article 7.5 Election appears optimal given UK's high tax rate (25%) provides sufficient headroom to absorb investment income without dropping below 15%.
 
----
+## 8. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Assuming All Funds Are Investment Funds
+### 8.1 Pitfall 1: Assuming All Funds Are Investment Funds
 
 **Error:** Treating a group treasury company as an Investment Fund.
 
 **Correct approach:** Apply the Article 10.1 definition strictly. Group financing companies typically fail the "multiple unrelated investors" and "investor benefit" tests.
 
-### Pitfall 2: Confusing UPE Exclusion with Subsidiary Treatment
+### 8.2 Pitfall 2: Confusing UPE Exclusion with Subsidiary Treatment
 
 **Error:** Assuming subsidiaries of an excluded REIT are also excluded.
 
 **Correct approach:** Article 1.5.1 excludes only the Investment Fund/REIV that is the **UPE**. Subsidiaries remain Constituent Entities subject to GloBE.
 
-### Pitfall 3: Forgetting Separate ETR Calculation
+### 8.3 Pitfall 3: Forgetting Separate ETR Calculation
 
 **Error:** Blending Investment Entity income with other CEs in the same jurisdiction.
 
 **Correct approach:** Under Article 7.4, Investment Entities have **separate** ETR calculations. Do not blend with operating companies.
 
-### Pitfall 4: Missing the Four-Year Distribution Deadline
+### 8.4 Pitfall 4: Missing the Four-Year Distribution Deadline
 
 **Error:** Electing Article 7.6 without tracking undistributed income.
 
 **Correct approach:** Maintain Undistributed Net GloBE Income Account. Ensure distributions within 4 years or face 15% charge.
 
-### Pitfall 5: Not Considering Election Benefits
+### 8.5 Pitfall 5: Not Considering Election Benefits
 
 **Error:** Accepting default treatment without evaluating Article 7.5 or 7.6 elections.
 
 **Correct approach:** Model all three scenarios. High-taxed owners should strongly consider Article 7.5 to blend away low-taxed investment income.
 
-### Pitfall 6: Assuming SBIE Reduces Investment Entity Exposure
+### 8.6 Pitfall 6: Assuming SBIE Reduces Investment Entity Exposure
 
 **Error:** Expecting significant SBIE for an Investment Entity.
 
 **Correct approach:** Investment Entities typically have minimal payroll and **no tangible assets** (financial investments are not "tangible"). SBIE is usually negligible.
 
----
-
-## Investment Entity Assessment Checklist
+## 9. Investment Entity Assessment Checklist
 
 Use this checklist when evaluating Investment Entities:
 
@@ -721,56 +684,3 @@ SECTION E: RECOMMENDATION
 
 □ Documentation complete?                                     YES / NO
 ```
-
----
-
-## Summary
-
-Investment Entities require careful analysis under the GloBE Rules:
-
-| Aspect | Key Rule |
-|--------|----------|
-| **Definitions** | Investment Fund, REIV, Insurance Investment Entity (Article 10.1) |
-| **UPE exclusion** | Investment Fund or REIV as UPE → Excluded Entity (Article 1.5.1) |
-| **Subsidiary treatment** | Subsidiaries of excluded UPE remain Constituent Entities |
-| **Default ETR** | Separate calculation — no blending with other CEs (Article 7.4) |
-| **Tax Transparency** | Article 7.5 election blends with CE-owner (Five-Year) |
-| **Taxable Distribution** | Article 7.6 election defers to distribution; 4-year deadline (Five-Year) |
-| **SBIE limitation** | Typically minimal (no tangible assets) |
-
-**Key insight:** Investment Entities often have very low ETRs by design. Without elections, significant Top-Up Tax exposure can arise. Evaluate Article 7.5 (blending) and Article 7.6 (distribution method) to optimise outcomes.
-
----
-
-## Integration with GIR Tools
-
-Investment Entity analysis requires specific inputs in GIR-001:
-
-| Data Point | Source | GIR Section |
-|------------|--------|-------------|
-| Entity classification | Article 10.1 analysis | Entity identification |
-| Excluded Entity status | Article 1.5 assessment | Scope determination |
-| Ownership % | Ownership structure | Allocation calculation |
-| Election status | Article 7.5/7.6 elections | Special calculations |
-| Undistributed income | Distribution tracking | Article 7.6 account |
-
-**GIR-001 Workflow for Investment Entities:**
-
-```
-Step 1: Classify entity (Investment Fund, REIV, Insurance Investment Entity, or none)
-Step 2: Determine if Excluded Entity (UPE test, Article 1.5.2 tests)
-Step 3: If not excluded, calculate default ETR under Article 7.4 (separate)
-Step 4: Model Article 7.5 election impact (blend with owner)
-Step 5: Model Article 7.6 election impact (distribution method)
-Step 6: Select optimal approach and document election
-Step 7: Input election status in GIR-001
-Step 8: Track Undistributed Net GloBE Income Account if Article 7.6 elected
-```
-
-**GIR Reporting:** Investment Entities require separate disclosure. Elections must be documented and consistently applied for the Five-Year period.
-
----
-
-## Next Step
-
-You have learned how to analyse and handle Investment Entities under Pillar Two. Proceed to **Case Study 6: Stratos's Acquisition of TechStart** for a comprehensive worked example integrating all Part 6 concepts including mergers, acquisitions, joint ventures, multi-parented groups, flow-through entities, and investment entities.

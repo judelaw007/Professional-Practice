@@ -4,27 +4,7 @@
 
 After completing this chapter, you will be able to identify when a UPE qualifies as a Flow-Through Entity, distinguish between Tax Transparent Entities and Reverse Hybrid Entities, apply the GloBE Income reduction mechanism under Article 7.1, and determine the correct location and ETR treatment for flow-through structures.
 
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 7.1.1 — GloBE Income reduction for Flow-through UPE
-- Article 7.1.2 — Covered Tax reduction corresponding to income reduction
-- Article 7.1.3 — Treatment where owner is subject to CFC regime
-- Article 7.1.4 — Extension to Permanent Establishments
-- Article 10.2 — Definitions of Flow-through Entity, Tax Transparent Entity, Reverse Hybrid Entity
-
-**OECD Commentary:**
-- Chapter 7, paragraphs 1-45 — Flow-through UPE treatment
-
-**Administrative Guidance:**
-- June 2024: Determination of Flow-through Entity status by Reference Entity
-- June 2024: Interaction of Article 3.5.3 and 3.5.4 for partially-owned Flow-through Entities
-
----
-
-## Why Special Rules for Flow-Through UPEs?
+## 1. Why Special Rules for Flow-Through UPEs?
 
 Flow-through entities at the top of an MNE Group create a fundamental problem for Pillar Two:
 
@@ -50,11 +30,9 @@ Flow-through entities at the top of an MNE Group create a fundamental problem fo
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
----
+## 2. Definitions: Flow-Through Entities *(Article 10.2)*
 
-## Definitions: Flow-Through Entities *(Article 10.2)*
-
-### Flow-Through Entity
+### 2.1 Flow-Through Entity
 
 A **Flow-Through Entity** is an entity that is **fiscally transparent** in the jurisdiction where it was created. Under the GloBE Rules, there are two types:
 
@@ -63,7 +41,7 @@ A **Flow-Through Entity** is an entity that is **fiscally transparent** in the j
 | **Tax Transparent Entity (TTE)** | Transparent to its owners — owners recognise income as if it arose directly to them |
 | **Reverse Hybrid Entity (RHE)** | Transparent in jurisdiction of creation but **opaque** to owners |
 
-### Tax Transparent Entity (TTE) *(Article 10.2.1)*
+### 2.2 Tax Transparent Entity (TTE) *(Article 10.2.1)*
 
 An entity is a **Tax Transparent Entity** if:
 - It is fiscally transparent in its jurisdiction of creation, **AND**
@@ -84,7 +62,7 @@ UK tax treatment:
 
 **Effect:** TTE's income and Covered Taxes flow up to its Constituent Entity-owner. The TTE does not have a separate GloBE calculation.
 
-### Reverse Hybrid Entity (RHE) *(Article 10.2.2)*
+### 2.3 Reverse Hybrid Entity (RHE) *(Article 10.2.2)*
 
 An entity is a **Reverse Hybrid Entity** if:
 - It is fiscally transparent in its jurisdiction of creation, **BUT**
@@ -108,7 +86,7 @@ CONSEQUENCE:
 → Typically 0% ETR → Full Top-Up Tax exposure
 ```
 
-### Dual Classification
+### 2.4 Dual Classification
 
 The same entity can be classified differently for different owners:
 
@@ -124,9 +102,7 @@ Treatment:
 → Income attributable to Owner B: Stays with Cayman LP (RHE treatment)
 ```
 
----
-
-## Location Rules for Flow-Through Entities
+## 3. Location Rules for Flow-Through Entities
 
 Where a Flow-Through Entity is "located" determines how it is treated for GloBE purposes:
 
@@ -137,7 +113,7 @@ Where a Flow-Through Entity is "located" determines how it is treated for GloBE 
 | **Flow-through CE (no IIR obligation)** | **Stateless** — no location |
 | **Reverse Hybrid Entity** | **Stateless** — separate calculation |
 
-### Stateless Treatment
+### 3.1 Stateless Treatment
 
 A **Stateless Entity** is treated separately:
 - Not part of any jurisdiction's ETR calculation
@@ -145,11 +121,9 @@ A **Stateless Entity** is treated separately:
 - Standalone ETR calculation
 - If ETR < 15%, Top-Up Tax applies to that entity alone
 
----
+## 4. Article 7.1: GloBE Income Reduction for Flow-Through UPEs
 
-## Article 7.1: GloBE Income Reduction for Flow-Through UPEs
-
-### The Mechanism
+### 4.1 The Mechanism
 
 When the UPE is a Flow-Through Entity, Article 7.1 allows the UPE to **reduce its GloBE Income** for income allocated to owners — but only where certain conditions are met.
 
@@ -176,7 +150,7 @@ When the UPE is a Flow-Through Entity, Article 7.1 allows the UPE to **reduce it
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Article 7.1.1: Conditions for Reduction
+### 4.2 Article 7.1.1: Conditions for Reduction
 
 The UPE may reduce its GloBE Income by income attributable to an Ownership Interest held by a person that meets **any** of the following criteria:
 
@@ -186,7 +160,7 @@ The UPE may reduce its GloBE Income by income attributable to an Ownership Inter
 | **(b)** | Owner is an **Excluded Entity** or exempt for **legitimate policy reasons** | Pension funds, sovereign wealth funds, governmental entities |
 | **(c)** | Owner holds **≤ 5% ownership interest** and receives income from instruments traded on a recognised exchange | Publicly traded units in a listed partnership |
 
-### Visual: Which Owners Qualify?
+### 4.3 Visual: Which Owners Qualify?
 
 ```
 ARTICLE 7.1.1 QUALIFYING OWNERS
@@ -203,15 +177,13 @@ Minority holder (≤5%, listed)       YES (c)        YES
 Private equity fund (not exempt)    NO             NO
 ```
 
-### Individual Owners
+### 4.4 Individual Owners
 
 For individuals, the nominal rate test (≥15%) is applied to the **owner's personal tax position**:
 - If the individual is subject to tax at ≥15% on the flow-through income, reduction applies
 - Tracking individual tax rates can be complex — document assumptions
 
----
-
-## Article 7.1.2: Covered Tax Reduction
+## 5. Article 7.1.2: Covered Tax Reduction
 
 When GloBE Income is reduced under Article 7.1.1, a **corresponding reduction** to Covered Taxes must also be made:
 
@@ -232,9 +204,7 @@ Remaining ETR = €80,000 / €4,000,000 = 2.00%
 
 **Why reduce Covered Taxes?** Any taxes paid by the UPE (e.g., withholding taxes) attributable to income allocated to owners should not be counted — otherwise the ETR calculation would be distorted.
 
----
-
-## Article 7.1.3: CFC Regime Consideration
+## 6. Article 7.1.3: CFC Regime Consideration
 
 If an owner is subject to a **Controlled Foreign Company (CFC) regime** that taxes the flow-through income:
 
@@ -255,9 +225,7 @@ German CFC rules:
 → UPE can reduce GloBE Income for German GmbH's share
 ```
 
----
-
-## Article 7.1.4: Extension to Permanent Establishments
+## 7. Article 7.1.4: Extension to Permanent Establishments
 
 If the Flow-through UPE conducts business through a **Permanent Establishment**:
 
@@ -279,15 +247,13 @@ Treatment:
 → Article 7.1.4 allows reduction for PE income allocated to qualifying owners
 ```
 
----
+## 8. Worked Example: Standard Flow-Through UPE Analysis
 
-## Worked Example: Standard Flow-Through UPE Analysis
-
-### Scenario
+### 8.1 Scenario
 
 **Alpha Partners LP** is a Delaware limited partnership that serves as the UPE of a multinational group. The LP holds subsidiaries in Germany, Ireland, and Singapore.
 
-### Ownership Structure
+### 8.2 Ownership Structure
 
 ```
 ALPHA PARTNERS LP (Delaware)
@@ -302,7 +268,7 @@ Alpha Partners LP
 └── 100% - Alpha Singapore Pte
 ```
 
-### Step 1: Confirm Flow-Through UPE Status
+### 8.3 Step 1: Confirm Flow-Through UPE Status
 
 | Criterion | Assessment |
 |-----------|------------|
@@ -311,7 +277,7 @@ Alpha Partners LP
 | **Classification** | **Flow-through UPE** |
 | **Location** | Delaware (jurisdiction of creation) |
 
-### Step 2: Identify Qualifying Owners Under Article 7.1.1
+### 8.4 Step 2: Identify Qualifying Owners Under Article 7.1.1
 
 | Owner | Ownership | Article 7.1.1 Test | Qualifies? |
 |-------|-----------|-------------------|------------|
@@ -323,7 +289,7 @@ Alpha Partners LP
 **Qualifying ownership:** 40% + 35% + 10% = **85%**
 **Non-qualifying ownership:** 15%
 
-### Step 3: Calculate GloBE Income Reduction
+### 8.5 Step 3: Calculate GloBE Income Reduction
 
 **Alpha Partners LP financial data:**
 
@@ -344,7 +310,7 @@ Covered Tax Reduction = €500,000 × 85% = €425,000
 Adjusted Covered Taxes = €500,000 - €425,000 = €75,000
 ```
 
-### Step 4: Calculate ETR for Remaining Income
+### 8.6 Step 4: Calculate ETR for Remaining Income
 
 ```
 Remaining UPE ETR = €75,000 / €7,500,000 = 1.00%
@@ -352,7 +318,7 @@ Remaining UPE ETR = €75,000 / €7,500,000 = 1.00%
 ETR < 15% → Top-Up Tax applies to remaining 15% (HedgeFund LP share)
 ```
 
-### Step 5: Calculate Top-Up Tax
+### 8.7 Step 5: Calculate Top-Up Tax
 
 **SBIE for UPE (Delaware):**
 - Assume minimal payroll and assets at UPE level
@@ -366,14 +332,14 @@ Top-Up Tax % = 15% - 1% = 14%
 UPE Top-Up Tax = €7,500,000 × 14% = €1,050,000
 ```
 
-### Step 6: Identify Who Bears Top-Up Tax
+### 8.8 Step 6: Identify Who Bears Top-Up Tax
 
 The Top-Up Tax on the UPE is attributable to the **non-qualifying owner** (HedgeFund LP):
 - HedgeFund LP's share of income was not reduced
 - IIR collection would depend on where qualified IIR applies in the chain
 - If no IIR at UPE level (Delaware), UTPR may apply at subsidiary level
 
-### Summary: Alpha Partners LP Position
+### 8.9 Summary: Alpha Partners LP Position
 
 | Metric | Before Art. 7.1 | After Art. 7.1 |
 |--------|----------------|----------------|
@@ -385,11 +351,9 @@ The Top-Up Tax on the UPE is attributable to the **non-qualifying owner** (Hedge
 
 **Observation:** Without Article 7.1, the full €50M income would be subject to Top-Up Tax at 14%, resulting in €7,000,000. Article 7.1 reduces this to €1,050,000 by excluding income attributable to qualifying owners.
 
----
+## 9. Stratos Worked Example: Hypothetical Flow-Through Restructure
 
-## Stratos Worked Example: Hypothetical Flow-Through Restructure
-
-### Background
+### 9.1 Background
 
 Stratos Holdings plc (UK) is considering a restructure where a new **Stratos Partners LP** (Delaware) would become the UPE, with Stratos Holdings plc converting to a subsidiary.
 
@@ -443,8 +407,6 @@ No Top-Up Tax at UPE level.
 
 Converting to a Flow-through UPE does **not** eliminate Top-Up Tax on low-taxed subsidiaries. Article 7.1 only addresses the UPE's own GloBE Income position — it does not affect subsidiary ETR calculations.
 
----
-
 ## Interaction with IIR and UTPR
 
 ### IIR Application
@@ -481,9 +443,7 @@ Flow-through UPE (Delaware LP)
     → UTPR amount based on UTPR Percentage (employees/assets)
 ```
 
----
-
-## Comparison: Flow-Through UPE vs Standard UPE
+## 10. Comparison: Flow-Through UPE vs Standard UPE
 
 | Feature | Standard UPE | Flow-through UPE |
 |---------|--------------|------------------|
@@ -494,49 +454,45 @@ Flow-through UPE (Delaware LP)
 | **IIR obligation** | Applies if jurisdiction has IIR | Applies if jurisdiction of creation has IIR |
 | **Complexity** | Lower | Higher (owner-by-owner analysis) |
 
----
+## 11. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Assuming Full Reduction Without Owner Analysis
+### 11.1 Pitfall 1: Assuming Full Reduction Without Owner Analysis
 
 **Error:** Reducing 100% of GloBE Income without confirming each owner meets Article 7.1.1 criteria.
 
 **Correct approach:** Analyse **each** Ownership Interest separately. Only income attributable to qualifying owners can be reduced.
 
-### Pitfall 2: Ignoring Covered Tax Reduction
+### 11.2 Pitfall 2: Ignoring Covered Tax Reduction
 
 **Error:** Reducing GloBE Income but not making corresponding reduction to Covered Taxes.
 
 **Correct approach:** Apply Article 7.1.2 to reduce Covered Taxes proportionally. Otherwise, ETR will be distorted.
 
-### Pitfall 3: Confusing Flow-Through UPE with Subsidiary Treatment
+### 11.3 Pitfall 3: Confusing Flow-Through UPE with Subsidiary Treatment
 
 **Error:** Applying Article 7.1 to a flow-through entity that is not the UPE.
 
 **Correct approach:** Article 7.1 applies **only** to the UPE. For other flow-through entities, standard allocation rules apply (income flows to Constituent Entity-owner).
 
-### Pitfall 4: Misidentifying Location
+### 11.4 Pitfall 4: Misidentifying Location
 
 **Error:** Treating a Flow-through UPE as located where its owners are.
 
 **Correct approach:** Flow-through UPE is located in the **jurisdiction where it was created** (e.g., Delaware for a Delaware LP).
 
-### Pitfall 5: Overlooking CFC Regime Impact
+### 11.5 Pitfall 5: Overlooking CFC Regime Impact
 
 **Error:** Failing to consider whether owner's CFC regime satisfies the ≥15% test.
 
 **Correct approach:** If owner is subject to CFC taxation on the flow-through income at ≥15%, the owner qualifies under Article 7.1.1(a).
 
-### Pitfall 6: Expecting UPE Restructure to Eliminate Subsidiary Top-Up Tax
+### 11.6 Pitfall 6: Expecting UPE Restructure to Eliminate Subsidiary Top-Up Tax
 
 **Error:** Restructuring to a flow-through UPE expecting to eliminate all Top-Up Tax.
 
 **Correct approach:** Article 7.1 only addresses UPE-level income. Subsidiary ETR calculations remain unchanged. Low-taxed subsidiaries still face Top-Up Tax.
 
----
-
-## Flow-Through UPE Assessment Checklist
+## 12. Flow-Through UPE Assessment Checklist
 
 Use this checklist when evaluating a Flow-Through UPE:
 
@@ -655,59 +611,3 @@ SECTION G: SUMMARY
 
 □ Documentation of owner analysis complete?                     YES / NO
 ```
-
----
-
-## Summary
-
-Flow-Through UPEs require special treatment under Article 7.1:
-
-| Aspect | Key Rule |
-|--------|----------|
-| **Definition** | Entity fiscally transparent where created + UPE of MNE Group |
-| **Location** | Jurisdiction of creation |
-| **Problem** | Income retained at UPE but tax paid by owners → 0% ETR risk |
-| **Solution** | Article 7.1 reduces GloBE Income for qualifying owner income |
-| **Qualifying owners** | (a) ≥15% tax rate, (b) Excluded Entities, (c) ≤5% public holders |
-| **Covered Taxes** | Proportional reduction under Article 7.1.2 |
-| **Subsidiary impact** | None — subsidiaries still subject to standard ETR calculations |
-
-**Key insight:** Article 7.1 prevents punitive taxation of flow-through UPEs where owners are already adequately taxed. However, it does not shield low-taxed subsidiaries from Top-Up Tax.
-
----
-
-## Integration with GIR Tools
-
-Flow-through UPE calculations require careful data input in GIR-001:
-
-| Data Point | Source | GIR Section |
-|------------|--------|-------------|
-| UPE classification | Entity analysis | Entity identification |
-| Owner breakdown | Ownership analysis | Reduction calculation |
-| Qualifying % | Article 7.1.1 test | Income adjustment |
-| Adjusted GloBE Income | After reduction | ETR calculation |
-| Adjusted Covered Taxes | After reduction | ETR calculation |
-
-**GIR-001 Workflow for Flow-Through UPEs:**
-
-```
-Step 1: Identify UPE as Flow-through Entity
-Step 2: Document owner-by-owner qualification under Art. 7.1.1
-Step 3: Calculate qualifying ownership percentage
-Step 4: Apply GloBE Income reduction
-Step 5: Apply Covered Tax reduction (Art. 7.1.2)
-Step 6: Calculate adjusted ETR for UPE
-Step 7: Calculate Top-Up Tax on residual income (if any)
-Step 8: Proceed with standard subsidiary calculations
-```
-
-**GIR Reporting:** The GIR requires disclosure of:
-- "Reduction of GloBE Income of the UPE that is a Flow-through Entity"
-- "Reduction of Covered Taxes of the UPE that is a Flow-through Entity"
-- Supporting documentation of owner qualification
-
----
-
-## Next Step
-
-You have learned how to analyse and calculate Top-Up Tax for Flow-Through UPEs. Proceed to **Chapter 6.6: Investment Entities** for guidance on funds, collective investment vehicles, and real estate investment entities.
