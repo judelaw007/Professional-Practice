@@ -4,9 +4,7 @@
 
 After completing this chapter, you will be able to determine when the UTPR applies, calculate the UTPR Top-Up Tax Amount, and allocate it across jurisdictions using the substance-based formula.
 
----
-
-## How the UTPR Works
+## 1. How the UTPR Works
 
 The **Undertaxed Profits Rule (UTPR)** is the backstop mechanism under GloBE. It applies when Top-Up Tax on low-taxed income is **not fully collected** through the Income Inclusion Rule.
 
@@ -14,11 +12,9 @@ The UTPR operates differently from the IIR:
 - **IIR:** Parent entity includes Top-Up Tax in its own jurisdiction
 - **UTPR:** Top-Up Tax is collected in **other jurisdictions** where the MNE group has operations, through deduction denial or equivalent adjustment
 
----
+## 2. When Does UTPR Apply?
 
-## When Does UTPR Apply?
-
-### UTPR Triggers
+### 2.1 UTPR Triggers
 
 The UTPR applies when there is **residual Top-Up Tax** not collected under the IIR *(Article 2.5)*. This occurs in three main scenarios:
 
@@ -28,7 +24,7 @@ The UTPR applies when there is **residual Top-Up Tax** not collected under the I
 | **Low-taxed UPE jurisdiction** | UPE jurisdiction itself is a low-taxed jurisdiction (ETR below 15%) |
 | **Split ownership** | Minority interests mean IIR does not capture 100% of Top-Up Tax |
 
-### UTPR Priority
+### 2.2 UTPR Priority
 
 The IIR always has priority over the UTPR. The UTPR only applies to the **residual amount** not already taxed under the IIR.
 
@@ -37,9 +33,7 @@ The IIR always has priority over the UTPR. The UTPR only applies to the **residu
 - Amount collected under IIR (80% ownership): €800,000
 - **UTPR Top-Up Tax Amount: €200,000** (the minority's share)
 
----
-
-## Decision Flowchart: Does UTPR Apply?
+## 3. Decision Flowchart: Does UTPR Apply?
 
 ```
                     ┌─────────────────────────────────┐
@@ -70,17 +64,15 @@ The IIR always has priority over the UTPR. The UTPR only applies to the **residu
     └─────────────────┘   └─────────────────────────────┘
 ```
 
----
-
-## Step 1: Calculate the UTPR Top-Up Tax Amount
+## 4. Step 1: Calculate the UTPR Top-Up Tax Amount
 
 The **UTPR Top-Up Tax Amount** is the total Top-Up Tax **not collected** under the IIR *(Article 2.5.1)*.
 
-### Formula
+### 4.1 Formula
 
 **UTPR Top-Up Tax Amount = Total Top-Up Tax of all LTCEs − Top-Up Tax collected under IIR**
 
-### Worked Example: UTPR Amount Calculation
+### 4.2 Worked Example: UTPR Amount Calculation
 
 **Scenario:** Stratos Group has a low-taxed subsidiary in Country X. The UPE jurisdiction (UK) has a Qualified IIR, but Stratos owns only 75% of the subsidiary.
 
@@ -93,15 +85,13 @@ The **UTPR Top-Up Tax Amount** is the total Top-Up Tax **not collected** under t
 
 The €100,000 attributable to the 25% minority interest is not collected under the IIR and becomes subject to UTPR.
 
----
-
-## Step 2: Identify UTPR Jurisdictions
+## 5. Step 2: Identify UTPR Jurisdictions
 
 The UTPR Top-Up Tax Amount is allocated to jurisdictions where:
 1. The MNE group has Constituent Entities, AND
 2. The jurisdiction has implemented a **Qualified UTPR**
 
-### Jurisdictions with Qualified UTPR (as at 2025)
+### 5.1 Jurisdictions with Qualified UTPR (as at 2025)
 
 | Jurisdiction | UTPR Status |
 |--------------|-------------|
@@ -114,13 +104,11 @@ The UTPR Top-Up Tax Amount is allocated to jurisdictions where:
 
 **Note:** UTPR generally takes effect one year after IIR in most implementing jurisdictions. Verify current status through the OECD's published list of qualified jurisdictions.
 
----
-
-## Step 3: Calculate UTPR Percentage for Each Jurisdiction
+## 6. Step 3: Calculate UTPR Percentage for Each Jurisdiction
 
 The UTPR Top-Up Tax Amount is allocated using a **substance-based formula** with two equally weighted factors *(Article 2.6)*:
 
-### The UTPR Percentage Formula
+### 6.1 The UTPR Percentage Formula
 
 **UTPR Percentage = (Employee Factor × 50%) + (Tangible Asset Factor × 50%)**
 
@@ -128,7 +116,7 @@ Where:
 - **Employee Factor** = Employees in jurisdiction ÷ Total employees in all UTPR jurisdictions
 - **Tangible Asset Factor** = Tangible assets in jurisdiction ÷ Total tangible assets in all UTPR jurisdictions
 
-### Key Definitions
+### 6.2 Key Definitions
 
 | Term | Definition |
 |------|------------|
@@ -137,13 +125,11 @@ Where:
 
 **Excluded from tangible assets:** Intangible assets, financial assets, goodwill
 
----
-
-## Worked Example: UTPR Allocation Across Jurisdictions
+## 7. Worked Example: UTPR Allocation Across Jurisdictions
 
 **Scenario:** Stratos Group has a UTPR Top-Up Tax Amount of €100,000 to allocate. The group has Constituent Entities in four jurisdictions with Qualified UTPR.
 
-### Step 1: Gather Substance Data
+### 7.1 Step 1: Gather Substance Data
 
 | Jurisdiction | Employees | Tangible Assets (€M) |
 |--------------|-----------|---------------------|
@@ -153,7 +139,7 @@ Where:
 | Ireland | 100 | 5.0 |
 | **Total** | **500** | **60.0** |
 
-### Step 2: Calculate Employee Factor
+### 7.2 Step 2: Calculate Employee Factor
 
 | Jurisdiction | Employees | Employee Factor |
 |--------------|-----------|-----------------|
@@ -162,7 +148,7 @@ Where:
 | Netherlands | 50 | 50 ÷ 500 = 10.0% |
 | Ireland | 100 | 100 ÷ 500 = 20.0% |
 
-### Step 3: Calculate Tangible Asset Factor
+### 7.3 Step 3: Calculate Tangible Asset Factor
 
 | Jurisdiction | Tangible Assets | Asset Factor |
 |--------------|-----------------|--------------|
@@ -171,7 +157,7 @@ Where:
 | Netherlands | €10.0M | 10 ÷ 60 = 16.7% |
 | Ireland | €5.0M | 5 ÷ 60 = 8.3% |
 
-### Step 4: Calculate UTPR Percentage
+### 7.4 Step 4: Calculate UTPR Percentage
 
 | Jurisdiction | Employee Factor × 50% | Asset Factor × 50% | **UTPR %** |
 |--------------|----------------------|-------------------|------------|
@@ -181,7 +167,7 @@ Where:
 | Ireland | 20.0% × 50% = 10.0% | 8.3% × 50% = 4.2% | **14.2%** |
 | **Total** | | | **100.0%** |
 
-### Step 5: Allocate UTPR Top-Up Tax
+### 7.5 Step 5: Allocate UTPR Top-Up Tax
 
 | Jurisdiction | UTPR % | UTPR Top-Up Tax Allocated |
 |--------------|--------|--------------------------|
@@ -191,13 +177,11 @@ Where:
 | Ireland | 14.2% | €100,000 × 14.2% = **€14,200** |
 | **Total** | **100%** | **€100,000** |
 
----
-
-## Step 4: How UTPR Is Collected
+## 8. Step 4: How UTPR Is Collected
 
 Each jurisdiction collects its allocated UTPR Top-Up Tax through one of two methods *(Article 2.4)*:
 
-### Method 1: Denial of Deduction (Most Common)
+### 8.1 Method 1: Denial of Deduction (Most Common)
 
 The jurisdiction denies a tax deduction to the local Constituent Entity, increasing taxable income and generating additional tax equal to the UTPR amount.
 
@@ -213,17 +197,15 @@ Deduction denied = UTPR allocation ÷ Local tax rate
 - Additional taxable income: €136,000
 - Additional tax: €136,000 × 30% = €40,800 ✓
 
-### Method 2: Equivalent Adjustment
+### 8.2 Method 2: Equivalent Adjustment
 
 The jurisdiction applies an adjustment that achieves the same result as deduction denial (e.g., direct tax charge, deemed income inclusion).
 
----
-
-## UTPR Carve-Out Rule
+## 9. UTPR Carve-Out Rule
 
 A jurisdiction is **excluded** from the UTPR allocation if, in the **prior year**, the UTPR Top-Up Tax allocated to that jurisdiction did not result in an actual cash tax expense *(Article 2.6.3)*.
 
-### How the Carve-Out Works
+### 9.1 How the Carve-Out Works
 
 | Prior Year | Current Year Treatment |
 |------------|----------------------|
@@ -232,38 +214,34 @@ A jurisdiction is **excluded** from the UTPR allocation if, in the **prior year*
 
 **Exception:** The carve-out does not apply if **all** UTPR jurisdictions would have a UTPR Percentage of zero (i.e., at least one jurisdiction must remain in the pool).
 
-### Why This Matters
+### 9.2 Why This Matters
 
 Some jurisdictions may not be able to collect UTPR through their domestic law mechanisms. The carve-out ensures UTPR is reallocated to jurisdictions that can actually collect it.
 
----
+## 10. Transitional UTPR Safe Harbour
 
-## Transitional UTPR Safe Harbour
-
-### Overview
+### 10.1 Overview
 
 During the transition period, the UTPR **does not apply** to the UPE jurisdiction if that jurisdiction has a corporate tax rate of **at least 20%** *(Transitional Safe Harbour)*.
 
-### Transition Period
+### 10.2 Transition Period
 
 - Fiscal years beginning on or before **31 December 2025**
 - Fiscal years ending before **31 December 2026**
 
-### Practical Effect
+### 10.3 Practical Effect
 
 For most MNE groups with UPEs in major developed economies (UK, US, most EU countries, Japan, etc.), **no UTPR applies to the UPE jurisdiction** during the transition period.
 
 **Example:** Stratos Group plc has its UPE in the UK (25% corporate tax rate). During the transition period, even if the UK were a low-taxed jurisdiction (hypothetically), the UTPR would not apply to collect Top-Up Tax from UK-based Constituent Entities in respect of UK-parented low-taxed income.
 
-### After Transition Period
+### 10.4 After Transition Period
 
 From 2026 onwards, the safe harbour no longer applies. UTPR may apply to UPE jurisdictions regardless of their statutory tax rate.
 
----
+## 11. UTPR and QDMTT Interaction
 
-## UTPR and QDMTT Interaction
-
-### QDMTT Priority
+### 11.1 QDMTT Priority
 
 If a low-taxed jurisdiction has implemented a **Qualified Domestic Minimum Top-Up Tax (QDMTT)**, the QDMTT is collected **first**. The UTPR only applies to the residual amount not collected by the QDMTT.
 
@@ -272,7 +250,7 @@ If a low-taxed jurisdiction has implemented a **Qualified Domestic Minimum Top-U
 2. IIR (collected at parent level)
 3. UTPR (collected in other jurisdictions—only if residual remains)
 
-### Worked Example: QDMTT Reduces UTPR
+### 11.2 Worked Example: QDMTT Reduces UTPR
 
 **Scenario:**
 - Low-taxed jurisdiction Top-Up Tax: €500,000
@@ -282,13 +260,11 @@ If a low-taxed jurisdiction has implemented a **Qualified Domestic Minimum Top-U
 
 The QDMTT fully addresses the undertaxation, leaving nothing for IIR or UTPR.
 
----
-
-## Stratos Example: Complete UTPR Analysis
+## 12. Stratos Example: Complete UTPR Analysis
 
 **Scenario:** Stratos has identified a UTPR Top-Up Tax Amount of €200,000 arising from a low-taxed entity where Stratos has only 60% ownership (minority interest not subject to IIR).
 
-### Stratos's UTPR Jurisdictions
+### 12.1 Stratos's UTPR Jurisdictions
 
 | Jurisdiction | Employees | Tangible Assets (€M) | Qualified UTPR? |
 |--------------|-----------|---------------------|-----------------|
@@ -300,7 +276,7 @@ The QDMTT fully addresses the undertaxation, leaving nothing for IIR or UTPR.
 
 **Note:** Singapore is excluded as it has not implemented a Qualified UTPR.
 
-### UTPR Calculation (Excluding Singapore)
+### 12.2 UTPR Calculation (Excluding Singapore)
 
 | Jurisdiction | Employees | Assets (€M) | Employee % | Asset % | UTPR % |
 |--------------|-----------|-------------|-----------|---------|--------|
@@ -310,7 +286,7 @@ The QDMTT fully addresses the undertaxation, leaving nothing for IIR or UTPR.
 | Ireland | 100 | 5.0 | 11.1% | 3.7% | 7.4% |
 | **Total** | **900** | **135.0** | **100%** | **100%** | **100%** |
 
-### UTPR Allocation
+### 12.3 UTPR Allocation
 
 | Jurisdiction | UTPR % | Allocated Amount |
 |--------------|--------|-----------------|
@@ -322,7 +298,7 @@ The QDMTT fully addresses the undertaxation, leaving nothing for IIR or UTPR.
 
 *Rounding difference
 
-### Impact on Stratos's UK Subsidiary
+### 12.4 Impact on Stratos's UK Subsidiary
 
 SG Holdings Ltd (UK) will have a deduction denied:
 - UTPR allocation: €113,000
@@ -331,70 +307,24 @@ SG Holdings Ltd (UK) will have a deduction denied:
 
 This increases SG Holdings Ltd's UK taxable income by €452,000, generating €113,000 additional UK corporation tax.
 
----
+## 13. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Including Non-UTPR Jurisdictions
+### 13.1 Pitfall 1: Including Non-UTPR Jurisdictions
 
 Only jurisdictions with a **Qualified UTPR** are included in the allocation. Exclude entities in jurisdictions without UTPR legislation.
 
-### Pitfall 2: Using Wrong Asset Base
+### 13.2 Pitfall 2: Using Wrong Asset Base
 
 Tangible assets means **net book value** of property, plant, and equipment only. Do not include intangibles, financial assets, or goodwill.
 
-### Pitfall 3: Forgetting the Carve-Out
+### 13.3 Pitfall 3: Forgetting the Carve-Out
 
 If a jurisdiction did not collect its UTPR allocation in the prior year (no cash tax expense), exclude it from the current year calculation.
 
-### Pitfall 4: Ignoring QDMTT Priority
+### 13.4 Pitfall 4: Ignoring QDMTT Priority
 
 Always check if the low-taxed jurisdiction has a QDMTT. If so, calculate UTPR only on the residual after QDMTT.
 
-### Pitfall 5: Applying UTPR During Transition Period
+### 13.5 Pitfall 5: Applying UTPR During Transition Period
 
 During the transition period (through 2025/2026), the UTPR safe harbour applies to UPE jurisdictions with ≥20% tax rate. Don't calculate UTPR for the UPE jurisdiction in these years.
-
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 2.4 — UTPR method of application (deduction denial or equivalent)
-- Article 2.5 — UTPR Top-Up Tax Amount calculation
-- Article 2.6 — UTPR allocation formula (employees and tangible assets)
-- Article 2.6.3 — UTPR carve-out for non-collecting jurisdictions
-
-**OECD Administrative Guidance:**
-- Transitional UTPR Safe Harbour — UPE jurisdictions with ≥20% tax rate exempt through 2025/2026
-
----
-
-## Tools
-
-The UTPR allocation uses substance data (employees and tangible assets) to distribute Top-Up Tax across jurisdictions:
-
-| Tool | How This Chapter Connects |
-|------|---------------------------|
-| **GIR-001 GloBE Calculator** | Step 3 calculates the jurisdictional Top-Up Tax that feeds into UTPR. After determining the UTPR Top-Up Tax Amount, use the allocation formula from this chapter to distribute it. |
-| **GIR-004 GIR Practice Form** | Section 3 of the GIR requires disclosure of UTPR amounts by jurisdiction. The allocations calculated here feed directly into the return. |
-
----
-
-## Summary
-
-Applying the Undertaxed Profits Rule requires:
-
-1. **Determine** if UTPR applies (residual Top-Up Tax not collected under IIR)
-2. **Calculate** the UTPR Top-Up Tax Amount (total Top-Up Tax minus IIR collections)
-3. **Identify** jurisdictions with Qualified UTPR
-4. **Gather** substance data (employees and tangible assets by jurisdiction)
-5. **Calculate** UTPR Percentage using 50/50 formula
-6. **Allocate** UTPR Top-Up Tax to each jurisdiction
-7. **Apply** carve-out rules and transitional safe harbours where applicable
-
----
-
-## Next Step
-
-You now understand both charging mechanisms—IIR (Chapter 2.1) and UTPR (this chapter). Proceed to **Chapter 2.3: Ordering Rules and Interaction** to learn how these rules interact and the sequence in which they apply.

@@ -4,13 +4,11 @@
 
 After completing this chapter, you will be able to apply the correct sequence of GloBE rules, determine which rule collects Top-Up Tax in any given scenario, and coordinate multiple rules to avoid double taxation.
 
----
-
-## The Three-Layer Rule Order
+## 1. The Three-Layer Rule Order
 
 The GloBE framework operates through a strict priority sequence. Understanding this order is essential—applying rules out of sequence leads to incorrect calculations.
 
-### Priority Sequence
+### 1.1 Priority Sequence
 
 | Priority | Rule | Where Tax Is Collected | Article Reference |
 |----------|------|----------------------|-------------------|
@@ -20,9 +18,7 @@ The GloBE framework operates through a strict priority sequence. Understanding t
 
 **Key principle:** Each rule only applies to the **residual** Top-Up Tax not collected by higher-priority rules.
 
----
-
-## Master Flowchart: Which Rule Applies?
+## 2. Master Flowchart: Which Rule Applies?
 
 ```
                         ┌─────────────────────────────┐
@@ -99,19 +95,17 @@ The GloBE framework operates through a strict priority sequence. Understanding t
 └──────┘ └──────────┘
 ```
 
----
+## 3. Layer 1: QDMTT (First Priority)
 
-## Layer 1: QDMTT (First Priority)
-
-### What Is QDMTT?
+### 3.1 What Is QDMTT?
 
 A **Qualified Domestic Minimum Top-Up Tax (QDMTT)** is a domestic law that imposes Top-Up Tax in the low-taxed jurisdiction itself, using GloBE-consistent rules.
 
-### Why QDMTT Has Priority
+### 3.2 Why QDMTT Has Priority
 
 QDMTT preserves the source jurisdiction's taxing right. Rather than allowing other jurisdictions to collect Top-Up Tax through IIR or UTPR, the low-taxed jurisdiction can collect it domestically.
 
-### QDMTT Offset
+### 3.3 QDMTT Offset
 
 When a jurisdiction has a Qualified QDMTT, the Top-Up Tax collected under the QDMTT **reduces** the amount subject to IIR and UTPR *(Article 5.2.3)*.
 
@@ -121,7 +115,7 @@ When a jurisdiction has a Qualified QDMTT, the Top-Up Tax collected under the QD
 Residual Top-Up Tax = Jurisdictional Top-Up Tax − QDMTT Paid
 ```
 
-### Worked Example: QDMTT Offset
+### 3.4 Worked Example: QDMTT Offset
 
 **Scenario:** SG Ireland Ltd has a jurisdictional Top-Up Tax of €800,000. Ireland has implemented a QDMTT.
 
@@ -133,15 +127,13 @@ Residual Top-Up Tax = Jurisdictional Top-Up Tax − QDMTT Paid
 
 The QDMTT fully covers the Top-Up Tax. No IIR or UTPR applies to this jurisdiction.
 
----
+## 4. Layer 2: IIR (Second Priority)
 
-## Layer 2: IIR (Second Priority)
-
-### When IIR Applies
+### 4.1 When IIR Applies
 
 After QDMTT, the IIR applies to any **residual** Top-Up Tax. The IIR is collected at the parent entity level, using the top-down approach from Chapter 2.1.
 
-### IIR Top-Down Cascade
+### 4.2 IIR Top-Down Cascade
 
 | Step | Entity | Condition |
 |------|--------|-----------|
@@ -149,13 +141,13 @@ After QDMTT, the IIR applies to any **residual** Top-Up Tax. The IIR is collecte
 | 2 | IPE | Applies IIR only if UPE jurisdiction lacks Qualified IIR |
 | 3 | POPE | Applies IIR separately (even if UPE applies IIR) for third-party ownership share |
 
-### IIR Offset Mechanism
+### 4.3 IIR Offset Mechanism
 
 When multiple entities in the ownership chain apply the IIR (e.g., UPE and POPE both applying), the **IIR offset** prevents double taxation *(Article 2.3)*.
 
 **Rule:** The higher-tier parent reduces its Allocable Share by the amount charged at the lower-tier entity.
 
-### Worked Example: IIR After QDMTT
+### 4.4 Worked Example: IIR After QDMTT
 
 **Scenario:** SG Singapore Pte Ltd has a jurisdictional Top-Up Tax of €2,100,000. Singapore has no QDMTT. Stratos Group plc (UK UPE) owns 100%.
 
@@ -169,17 +161,15 @@ When multiple entities in the ownership chain apply the IIR (e.g., UPE and POPE 
 
 The full Top-Up Tax is collected through UK IIR.
 
----
+## 5. Layer 3: UTPR (Backstop)
 
-## Layer 3: UTPR (Backstop)
-
-### When UTPR Applies
+### 5.1 When UTPR Applies
 
 UTPR is the **backstop** mechanism. It only applies when:
 1. There is residual Top-Up Tax after QDMTT, AND
 2. The IIR does not fully collect the residual (e.g., no Qualified IIR at UPE/IPE level, or minority interests)
 
-### UTPR Scenarios
+### 5.2 UTPR Scenarios
 
 | Scenario | Why UTPR Applies |
 |----------|------------------|
@@ -187,7 +177,7 @@ UTPR is the **backstop** mechanism. It only applies when:
 | Split ownership (minority interests) | IIR only collects parent's share; UTPR collects minority's share |
 | Low-taxed UPE jurisdiction | UPE jurisdiction itself is undertaxed |
 
-### Worked Example: UTPR as Backstop
+### 5.3 Worked Example: UTPR as Backstop
 
 **Scenario:** An MNE has a UPE in Country X (no Qualified IIR). Low-taxed subsidiary in Country Y has Top-Up Tax of €500,000. Country Y has no QDMTT.
 
@@ -200,11 +190,9 @@ UTPR is the **backstop** mechanism. It only applies when:
 
 The UTPR allocates €500,000 across jurisdictions with Qualified UTPR using the 50/50 employee/tangible asset formula (Chapter 2.2).
 
----
+## 6. Interaction Matrix: All Rules Combined
 
-## Interaction Matrix: All Rules Combined
-
-### Decision Matrix
+### 6.1 Decision Matrix
 
 | QDMTT in LTCE Jurisdiction? | Qualified IIR at UPE? | 100% Ownership? | Rules That Apply |
 |----------------------------|----------------------|-----------------|------------------|
@@ -215,7 +203,7 @@ The UTPR allocates €500,000 across jurisdictions with Qualified UTPR using the
 | No | Yes | No | IIR + UTPR |
 | No | No | Any | UTPR only |
 
-### Calculation Sequence
+### 6.2 Calculation Sequence
 
 When multiple rules apply, follow this calculation order:
 
@@ -224,11 +212,9 @@ When multiple rules apply, follow this calculation order:
 3. **Calculate IIR Allocable Share** on Residual A → Amount collected under IIR
 4. **Calculate UTPR** on any remaining amount → Amount allocated to UTPR jurisdictions
 
----
+## 7. Comprehensive Worked Example: Stratos Group
 
-## Comprehensive Worked Example: Stratos Group
-
-### Scenario Overview
+### 7.1 Scenario Overview
 
 Stratos Group has two low-taxed jurisdictions:
 
@@ -239,7 +225,7 @@ Stratos Group has two low-taxed jurisdictions:
 
 UK (UPE jurisdiction) has a Qualified IIR.
 
-### Step 1: Apply QDMTT (Layer 1)
+### 7.2 Step 1: Apply QDMTT (Layer 1)
 
 **Singapore:**
 - No QDMTT
@@ -249,7 +235,7 @@ UK (UPE jurisdiction) has a Qualified IIR.
 - QDMTT: €800,000
 - Residual: €800,000 − €800,000 = **€0**
 
-### Step 2: Apply IIR (Layer 2)
+### 7.3 Step 2: Apply IIR (Layer 2)
 
 **Singapore:**
 - Residual from Layer 1: €2,100,000
@@ -262,7 +248,7 @@ UK (UPE jurisdiction) has a Qualified IIR.
 - Residual from Layer 1: €0
 - No IIR applies (fully covered by QDMTT)
 
-### Step 3: Apply UTPR (Layer 3)
+### 7.4 Step 3: Apply UTPR (Layer 3)
 
 **Singapore:**
 - Residual from Layer 2: €0
@@ -272,7 +258,7 @@ UK (UPE jurisdiction) has a Qualified IIR.
 - Residual from Layer 2: €0
 - No UTPR applies
 
-### Summary
+### 7.5 Summary
 
 | Jurisdiction | Top-Up Tax | QDMTT | IIR (UK) | UTPR | Total Collected |
 |--------------|------------|-------|----------|------|-----------------|
@@ -282,11 +268,9 @@ UK (UPE jurisdiction) has a Qualified IIR.
 
 All Top-Up Tax is collected. No undertaxation remains.
 
----
+## 8. Complex Scenario: Split Ownership with Multiple Rules
 
-## Complex Scenario: Split Ownership with Multiple Rules
-
-### Scenario
+### 8.1 Scenario
 
 Stratos owns 70% of a subsidiary in Country Z. Country Z has no QDMTT. Top-Up Tax is €1,000,000.
 
@@ -300,7 +284,7 @@ Stratos owns 70% of a subsidiary in Country Z. Country Z has no QDMTT. Top-Up Ta
 
 The €300,000 attributable to the 30% minority is not collected under IIR and becomes subject to UTPR allocation.
 
-### UTPR Allocation
+### 8.2 UTPR Allocation
 
 The €300,000 is allocated across UTPR jurisdictions using the 50/50 formula. Assuming Stratos has operations in Germany, France, and the UK (all with Qualified UTPR):
 
@@ -311,7 +295,7 @@ The €300,000 is allocated across UTPR jurisdictions using the 50/50 formula. A
 | France | 20% | €60,000 |
 | **Total** | **100%** | **€300,000** |
 
-### Combined Result
+### 8.3 Combined Result
 
 | Rule | Amount | Where Collected |
 |------|--------|-----------------|
@@ -320,28 +304,26 @@ The €300,000 is allocated across UTPR jurisdictions using the 50/50 formula. A
 | UTPR | €300,000 | UK €150K, Germany €90K, France €60K |
 | **Total** | **€1,000,000** | Multiple jurisdictions |
 
----
+## 9. Switch-Over Rule
 
-## Switch-Over Rule
-
-### Purpose
+### 9.1 Purpose
 
 The **Switch-Over Rule (SOR)** addresses situations where tax treaties may prevent IIR application.
 
-### When SOR Applies
+### 9.2 When SOR Applies
 
 Some tax treaties require a jurisdiction to **exempt** income from foreign permanent establishments (PEs). This exemption could block the IIR from applying to low-taxed PE income.
 
 The SOR allows the parent jurisdiction to **switch** from the exemption method to the **credit method** for PE income that is low-taxed.
 
-### Practical Effect
+### 9.3 Practical Effect
 
 | Without SOR | With SOR |
 |-------------|----------|
 | Treaty requires exemption of PE income | Switch to credit method for low-taxed PE income |
 | IIR cannot apply to exempt income | IIR can apply; foreign tax credit given for PE taxes |
 
-### When SOR Is Relevant
+### 9.4 When SOR Is Relevant
 
 The SOR is most relevant when:
 - The UPE jurisdiction uses exemption method for foreign PE income under treaties
@@ -350,23 +332,21 @@ The SOR is most relevant when:
 
 **Note:** Many jurisdictions implementing Pillar Two have adopted the SOR as part of their domestic IIR legislation to ensure comprehensive coverage.
 
----
+## 10. Coordination Mechanisms: Preventing Double Taxation
 
-## Coordination Mechanisms: Preventing Double Taxation
-
-### Mechanism 1: QDMTT Offset
+### 10.1 Mechanism 1: QDMTT Offset
 
 QDMTT reduces Top-Up Tax before IIR/UTPR apply *(Article 5.2.3)*.
 
-### Mechanism 2: IIR Offset
+### 10.2 Mechanism 2: IIR Offset
 
 When both UPE and POPE apply IIR, the UPE reduces its share by the POPE's charge *(Article 2.3)*.
 
-### Mechanism 3: UTPR Residual Only
+### 10.3 Mechanism 3: UTPR Residual Only
 
 UTPR only applies to amounts **not** collected under QDMTT or IIR.
 
-### Summary: No Double Taxation
+### 10.4 Summary: No Double Taxation
 
 | Coordination Point | Mechanism |
 |-------------------|-----------|
@@ -375,11 +355,9 @@ UTPR only applies to amounts **not** collected under QDMTT or IIR.
 | Between IIR and UTPR | UTPR applies to residual only |
 | Between UTPR jurisdictions | Allocation formula divides once |
 
----
+## 11. Timing and Sequencing
 
-## Timing and Sequencing
-
-### Calculation Sequence Dependencies
+### 11.1 Calculation Sequence Dependencies
 
 The rule order creates **sequencing dependencies** for calculations:
 
@@ -389,7 +367,7 @@ The rule order creates **sequencing dependencies** for calculations:
 | IIR calculation | QDMTT determination |
 | UTPR calculation | IIR determination |
 
-### Practical Implication
+### 11.2 Practical Implication
 
 MNE groups cannot finalise IIR or UTPR calculations until they know:
 1. Which jurisdictions have implemented QDMTT
@@ -397,74 +375,24 @@ MNE groups cannot finalise IIR or UTPR calculations until they know:
 
 This requires coordination with local tax teams in QDMTT jurisdictions before completing group-level calculations.
 
----
+## 12. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Applying IIR Before Considering QDMTT
+### 12.1 Pitfall 1: Applying IIR Before Considering QDMTT
 
 Always check if the low-taxed jurisdiction has a QDMTT first. QDMTT reduces the amount subject to IIR.
 
-### Pitfall 2: Double-Counting Top-Up Tax
+### 12.2 Pitfall 2: Double-Counting Top-Up Tax
 
 If both QDMTT and IIR apply, don't add them—the IIR only applies to the **residual** after QDMTT.
 
-### Pitfall 3: Forgetting the IIR Offset
+### 12.3 Pitfall 3: Forgetting the IIR Offset
 
 When both UPE and POPE apply IIR, apply the offset. Without it, you'll overstate the UPE's liability.
 
-### Pitfall 4: Ignoring UTPR for Minority Interests
+### 12.4 Pitfall 4: Ignoring UTPR for Minority Interests
 
 Even when IIR applies, split ownership means UTPR may still apply for the minority share not captured by IIR.
 
-### Pitfall 5: Assuming UTPR Never Applies
+### 12.5 Pitfall 5: Assuming UTPR Never Applies
 
 Many assume UTPR is rare. While less common than IIR, UTPR applies in all split-ownership scenarios where minority interests exist.
-
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 2.1 — IIR application (UPE, IPE, POPE)
-- Article 2.3 — IIR offset mechanism
-- Article 2.4–2.6 — UTPR application and allocation
-- Article 5.2.3 — QDMTT offset against Top-Up Tax
-
-**OECD Administrative Guidance:**
-- QDMTT Safe Harbour — Deems Top-Up Tax nil where Qualified QDMTT applies
-- Transitional UTPR Safe Harbour — UPE jurisdictions with ≥20% rate exempt through 2025/2026
-
----
-
-## Tools
-
-The ordering rules determine how Top-Up Tax calculated in earlier Parts is distributed across collection mechanisms:
-
-| Tool | How This Chapter Connects |
-|------|---------------------------|
-| **GIR-001 GloBE Calculator** | Step 3 calculates jurisdictional Top-Up Tax. Apply the ordering rules from this chapter to determine how that amount is split between QDMTT, IIR, and UTPR. |
-| **GIR-004 GIR Practice Form** | Sections 2 (IIR) and 3 (UTPR) of the GIR require separate disclosure of amounts collected under each rule. The ordering analysis determines these amounts. |
-
----
-
-## Summary
-
-Applying the ordering rules requires:
-
-1. **Start with QDMTT** — Check if the low-taxed jurisdiction has a Qualified QDMTT; if so, reduce Top-Up Tax accordingly
-2. **Apply IIR next** — Determine if UPE/IPE jurisdiction has Qualified IIR; calculate Allocable Share on residual
-3. **Apply UTPR last** — If residual remains after IIR (e.g., minority interests, no Qualified IIR), allocate via UTPR
-4. **Coordinate** — Use offset mechanisms (QDMTT offset, IIR offset) to prevent double taxation
-5. **Sequence calculations** — Wait for QDMTT determinations before finalising IIR/UTPR
-
----
-
-## Next Step
-
-You now understand how the GloBE charging mechanisms interact:
-- How IIR collects Top-Up Tax at the parent level (Chapter 2.1)
-- How UTPR acts as a backstop (Chapter 2.2)
-- How the rules interact in the correct order (this chapter)
-
-Proceed to **Chapter 2.4: Top-Up Tax Allocation Calculations** to learn detailed computation methods for allocating Top-Up Tax across entities and jurisdictions.
