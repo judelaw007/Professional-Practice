@@ -3,7 +3,7 @@
 
 **Purpose:** Track terminology standards, concepts, cross-references, and consistency issues across all course sections. This is a living document updated at the start of each section audit.
 
-**Last Updated:** 2025-12-11 (Part 7 full audit complete)
+**Last Updated:** 2025-12-11 (Part 8 full audit complete)
 
 ---
 
@@ -60,6 +60,15 @@
 | XML | GIR XML Schema (Part 7.2) | "XML" | — | Parts 7.2, 7.6 |
 | FIFO | First In First Out (DTL tracking) (Part 7.5) | "FIFO" | — | Part 7.5 |
 | LIFO | Last In First Out (DTL tracking) (Part 7.5) | "LIFO" | — | Part 7.5 |
+| STTR | Subject to Tax Rule (Part 8.1) | "STTR" or "Subject to Tax Rule" | — | Parts 8.1, 8.2, 8.4, CS8 |
+| CTA | Covered Tax Agreement (Part 8.2) | "CTA" or "Covered Tax Agreement" | — | Part 8.2 |
+| MTTC | Marketable Transferable Tax Credit (Part 8.4) | "MTTC" | — | Parts 8.4, CS8 |
+| IF | Inclusive Framework (Part 8.3) | "IF" or "Inclusive Framework" | — | Parts 8.2, 8.3, 8.4, 8.5, CS8 |
+| MLI | Multilateral Instrument (Part 8.2) | "STTR MLI" | — | Parts 8.2, CS8 |
+| GNI | Gross National Income (Part 8.2) | "GNI" | — | Part 8.2 |
+| AG | Administrative Guidance (Part 8.5) | "AG" or "Administrative Guidance" | — | Parts 8.3, 8.5, CS8 |
+| CFA | Committee on Fiscal Affairs (Part 8.3) | "CFA" | — | Part 8.3 |
+| CTPA | Centre for Tax Policy and Administration (Part 8.3) | "CTPA" | — | Part 8.3 |
 
 ---
 
@@ -196,6 +205,32 @@
 | 15-month compliance cycle | Chapter 7.6 | CS7 | Annual calendar |
 | Three lines of defence governance | Chapter 7.6 | — | Operational, Oversight, Assurance |
 | Audit file documentation structure | Chapter 7.6 | CS7 | 8 folder categories |
+| STTR 9% minimum nominal rate | Chapter 8.1 | Chapters 8.2, CS8 | None |
+| STTR Covered Income categories | Chapter 8.1 | CS8 | Interest, royalties, services, rental, distribution |
+| Connected persons >50% test | Chapter 8.1 | CS8 | None |
+| Adjusted nominal rate calculation | Chapter 8.1 | CS8 | Accounts for preferential regimes |
+| Mark-up threshold 8.5% | Chapter 8.1 | CS8 | For services/rental only |
+| €1M materiality threshold (STTR) | Chapter 8.1 | CS8 | €250K for smaller economies |
+| STTR specified rate formula | Chapter 8.1 | CS8 | 9% − Adj nominal − Existing WHT |
+| STTR MLI mechanism | Chapter 8.2 | CS8 | Sign, notify, ratify, match, effect |
+| Covered Tax Agreement matching | Chapter 8.2 | — | Both parties must sign/ratify/notify |
+| Developing country eligibility (GNI ≤$12,535) | Chapter 8.2 | — | 70+ IF members qualify |
+| STTR entry into effect (6 months after EIF) | Chapter 8.2 | — | First FY thereafter |
+| IF governance structure | Chapter 8.3 | CS8 | CFA, Working Parties, CTPA |
+| IF 145+ member jurisdictions | Chapter 8.3 | — | Equal footing participation |
+| Administrative Guidance process | Chapter 8.3 | Chapter 8.5, CS8 | 5 AG releases to date |
+| Transitional qualification mechanism | Chapter 8.3 | Chapter 8.4 | Self-certification + 60-day review |
+| Central Record of Qualified Status | Chapter 8.3 | Chapters 8.4, CS8 | IIR and QDMTT listings |
+| Switch-off mechanism | Chapter 8.3 | Chapter 8.4 | For non-compliant legislation |
+| QDMTT Accounting Standard | Chapter 8.4 | CS8 | Audited or required by law |
+| QDMTT Consistency Standard | Chapter 8.4 | CS8 | Aligns with GloBE Rules |
+| QDMTT Administration Standard | Chapter 8.4 | CS8 | Applied consistently, no circumvention |
+| QDMTT Safe Harbour eligibility | Chapter 8.4 | CS8 | All three standards + audit/law requirement |
+| QDMTT jurisdiction list (38+ jurisdictions) | Chapter 8.4 | CS8 | Updated August 2025 |
+| AG release timeline (2023-2025) | Chapter 8.5 | CS8 | AG1-AG5 topics covered |
+| Consolidated Commentary updates | Chapter 8.5 | — | Integrates all AG releases |
+| Guidance monitoring strategy | Chapter 8.5 | CS8 | Weekly/monthly/quarterly checks |
+| Guidance implementation process | Chapter 8.5 | CS8 | 5-step: review, assess, brief, update, train |
 
 ---
 
@@ -283,6 +318,18 @@
 | "Article 9.1" (transition DTA/DTL) | Chapter 7.5, CS7 | — | OECD reference |
 | "Article 9.2" (SBIE transition rates) | Chapter 7.5, CS7 | — | OECD reference |
 | OECD GIR Template | Chapters 7.1, 7.2 | oecd.org (external) | Valid |
+| "Chapter 8.2: STTR Implementation" | Chapter 8.1 | Chapter 8.2 | Valid |
+| "Chapter 8.3: Inclusive Framework Structure" | Chapter 8.2 | Chapter 8.3 | Valid |
+| "Chapter 8.4: QDMTT Qualification Standards" | Chapter 8.3 | Chapter 8.4 | Valid |
+| "Chapter 8.5: Administrative Guidance Updates" | Chapter 8.4 | Chapter 8.5 | Valid |
+| "Case Study 8: Staying Current" | Chapter 8.5 | Case Study 8 | Valid |
+| "Part 8" (STTR and IF) | CS7 | Part 8 | Valid |
+| OECD STTR MLI Page | Chapter 8.2 | oecd.org/tax/beps (external) | Valid |
+| OECD Central Record | Chapters 8.3, 8.4 | oecd.org (external) | Valid |
+| OECD Tax Newsletter | Chapter 8.5 | oecd.org/tax/newsletter (external) | Valid |
+| "Chapter 7" references | CS8 | Part 7 | Valid |
+| STTR Model Treaty Provision | Chapter 8.1 | OECD (July 2023) | Valid |
+| AG1-AG5 references | Chapters 8.3, 8.5 | OECD (2023-2025) | Valid |
 
 ---
 
@@ -589,18 +636,66 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 - DTL 5-year recapture, DTL tracking methodologies
 - 15-month compliance cycle, Three lines of defence governance
 
+### Part 8: STTR and Inclusive Framework (Full Audit 2025-12-11)
+
+**Files Audited:**
+- Chapter_8_1_STTR_Design_and_Mechanics.md
+- Chapter_8_2_STTR_Implementation.md
+- Chapter_8_3_Inclusive_Framework_Structure.md
+- Chapter_8_4_QDMTT_Qualification_Standards.md
+- Chapter_8_5_Administrative_Guidance_Updates.md
+- Case_Study_8_Staying_Current.md
+
+**Terminology Checked:**
+- "Top-Up Tax" — **33 variations found and fixed** (lowercase u → capital U)
+- Article references — Consistent format ✓
+- Cross-references — All valid ✓
+- Currency formatting — Consistent ✓
+
+**Fixes Applied:**
+- Chapter_8_1: 9 "Top-up Tax" → "Top-Up Tax"
+- Chapter_8_3: 4 "Top-up Tax" → "Top-Up Tax"
+- Chapter_8_4: 9 "Top-up Tax" → "Top-Up Tax"
+- Chapter_8_5: 2 "Top-up Tax" → "Top-Up Tax"
+- Case_Study_8: 9 "Top-up Tax" → "Top-Up Tax"
+- Chapter_8_2: No fixes required (already correct)
+- **Total: 33 fixes**
+
+**Redundancies Removed:** None identified
+
+**Contradictions Resolved:** None identified
+
+**New Terms Logged:**
+- STTR, CTA, MTTC, IF, MLI, GNI, AG, CFA, CTPA
+
+**New Concepts Logged:**
+- STTR 9% minimum nominal rate, STTR Covered Income categories
+- Connected persons >50% test, Adjusted nominal rate calculation
+- Mark-up threshold 8.5%, €1M materiality threshold (STTR)
+- STTR specified rate formula, STTR MLI mechanism
+- Covered Tax Agreement matching, Developing country eligibility
+- IF governance structure, 145+ member jurisdictions
+- Administrative Guidance process, Transitional qualification mechanism
+- Central Record of Qualified Status, Switch-off mechanism
+- QDMTT three standards (Accounting, Consistency, Administration)
+- QDMTT Safe Harbour eligibility, AG release timeline
+- Consolidated Commentary updates, Guidance monitoring strategy
+
 ---
 
 ## H. NEXT SECTION NOTES
 
-### For Part 8 Audit:
-1. Watch for "Top-up Tax" variations — standardize to "Top-Up Tax"
-2. Verify cross-references to Parts 1-7 are accurate
-3. Log any new terms (STTR, Source State, Inclusive Framework)
-4. Track Subject to Tax Rule concepts introduced
-5. Check consistency with Pillar Two terminology from Parts 1-7
+### Course Audit Complete:
+All 8 Parts of the ADIT Pillar Two Award Professional Practice Course have been fully audited.
 
-### Established Conventions to Maintain:
+### Summary of Terminology Fixes:
+- Parts 1-3, 5-6: No "Top-up Tax" variations found
+- Part 4: 5 fixes applied
+- Part 7: 114 fixes applied
+- Part 8: 33 fixes applied
+- **Total terminology fixes: 152**
+
+### Established Conventions Maintained Throughout:
 - "Top-Up Tax" (capital U)
 - "€750 million" in prose
 - "Article X.X.X" for OECD references
@@ -624,6 +719,6 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 | Part 5 | ✓ Complete (Full Audit) | 2025-12-11 | None |
 | Part 6 | ✓ Complete (Full Audit) | 2025-12-11 | None |
 | Part 7 | ✓ Complete (Full Audit) | 2025-12-11 | **114 "Top-up Tax" → "Top-Up Tax"** |
-| Part 8 | Pending | — | — |
+| Part 8 | ✓ Complete (Full Audit) | 2025-12-11 | **33 "Top-up Tax" → "Top-Up Tax"** |
 
-**Note:** Parts 1-7 fully audited. Part 7 had significant terminology inconsistencies (114 occurrences of incorrect "Top-up Tax") which have been corrected.
+**Course Audit Complete:** All 8 Parts fully audited. Total of 152 terminology fixes applied across Parts 4, 7, and 8. All cross-references verified. No contradictions or redundancies identified.
