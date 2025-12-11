@@ -2,7 +2,7 @@
 
 ## Learning Objective
 
-After completing this chapter, you will be able to calculate the Substance-Based Income Exclusion (SBIE) using the payroll and tangible asset carve-outs, apply the correct transition rates for each fiscal year, and determine the Excess Profit subject to Top-up Tax.
+After completing this chapter, you will be able to calculate the Substance-Based Income Exclusion (SBIE) using the payroll and tangible asset carve-outs, apply the correct transition rates for each fiscal year, and determine the Excess Profit subject to Top-Up Tax.
 
 ---
 
@@ -29,7 +29,7 @@ After completing this chapter, you will be able to calculate the Substance-Based
 
 ## What SBIE Does
 
-The Substance-Based Income Exclusion reduces the amount of income subject to Top-up Tax by recognising that genuine economic substance (employees and physical assets) represents real business activity deserving a fixed return.
+The Substance-Based Income Exclusion reduces the amount of income subject to Top-Up Tax by recognising that genuine economic substance (employees and physical assets) represents real business activity deserving a fixed return.
 
 ### The Concept
 
@@ -44,7 +44,7 @@ The Substance-Based Income Exclusion reduces the amount of income subject to Top
 │  │        (SBIE)                             │                │ │
 │  │                                           │    ← Subject   │ │
 │  │        ← Excluded from                    │      to        │ │
-│  │          Top-up Tax                       │      Top-up    │ │
+│  │          Top-Up Tax                       │      Top-up    │ │
 │  │                                           │      Tax       │ │
 │  └───────────────────────────────────────────┴────────────────┘ │
 └─────────────────────────────────────────────────────────────────┘
@@ -55,10 +55,10 @@ The Substance-Based Income Exclusion reduces the amount of income subject to Top
 ```
 Excess Profit = Net GloBE Income − SBIE
 
-Top-up Tax = Top-up Tax % × Excess Profit
+Top-Up Tax = Top-Up Tax % × Excess Profit
 ```
 
-**Key insight:** SBIE reduces the **base** on which Top-up Tax is calculated, not the rate. Higher substance = lower Top-up Tax.
+**Key insight:** SBIE reduces the **base** on which Top-Up Tax is calculated, not the rate. Higher substance = lower Top-Up Tax.
 
 ---
 
@@ -104,7 +104,7 @@ The SBIE percentages are **higher** in early years and **reduce** over a 10-year
 | 2033 | 5.2% | 4.4% |
 | **2034+** | **5.0%** | **5.0%** |
 
-**Practical implication:** In early transition years, the higher rates provide greater SBIE—reducing Top-up Tax exposure. As rates decline, more income becomes subject to Top-up Tax.
+**Practical implication:** In early transition years, the higher rates provide greater SBIE—reducing Top-Up Tax exposure. As rates decline, more income becomes subject to Top-Up Tax.
 
 ### Which Year's Rate Applies?
 
@@ -252,7 +252,7 @@ If SBIE exceeds Net GloBE Income, the excess is **lost**—it cannot be carried 
 | **Total SBIE** | **€3,300,000** |
 | Excess Profit | MAX(0, €2M − €3.3M) = **€0** |
 
-**Result:** No Top-up Tax, but €1,300,000 of "wasted" SBIE cannot be used elsewhere.
+**Result:** No Top-Up Tax, but €1,300,000 of "wasted" SBIE cannot be used elsewhere.
 
 ---
 
@@ -378,11 +378,11 @@ An MNE may elect **not** to apply SBIE for a jurisdiction in any fiscal year.
 
 | Scenario | Recommendation |
 |----------|----------------|
-| SBIE exceeds Net GloBE Income (wasted SBIE) | Election irrelevant—no Top-up Tax either way |
+| SBIE exceeds Net GloBE Income (wasted SBIE) | Election irrelevant—no Top-Up Tax either way |
 | Minimal payroll/assets relative to income | May simplify compliance if SBIE is immaterial |
-| QDMTT applies and covers liability | May skip SBIE if QDMTT already collects full Top-up Tax |
+| QDMTT applies and covers liability | May skip SBIE if QDMTT already collects full Top-Up Tax |
 
-**Practical note:** This election is rarely beneficial. SBIE always reduces or eliminates Top-up Tax liability.
+**Practical note:** This election is rarely beneficial. SBIE always reduces or eliminates Top-Up Tax liability.
 
 ---
 
@@ -472,7 +472,7 @@ E1  Net GloBE Income (from Chapter 5.1)        €__________________
 E2  SBIE (D3)                                  €__________________
 E3  EXCESS PROFIT (MAX(0, E1 - E2))            €__________________
 
-    If E3 = 0: No Top-up Tax for this jurisdiction.
+    If E3 = 0: No Top-Up Tax for this jurisdiction.
 
 SECTION F: VERIFICATION CHECKLIST
 ☐ Correct transition rates applied for fiscal year
@@ -523,7 +523,7 @@ The rates approximate a "normal" return on these investments, excluding it from 
 
 ## Summary
 
-The Substance-Based Income Exclusion reduces the Top-up Tax base by recognising genuine economic substance. The key implementation steps are:
+The Substance-Based Income Exclusion reduces the Top-Up Tax base by recognising genuine economic substance. The key implementation steps are:
 
 1. **Identify low-taxed jurisdictions** — Only calculate SBIE where ETR < 15%
 2. **Determine applicable transition rates** — Higher in early years (2024: 10%/8%)
@@ -533,7 +533,7 @@ The Substance-Based Income Exclusion reduces the Top-up Tax base by recognising 
 6. **Calculate Excess Profit** — Net GloBE Income − SBIE (but not below zero)
 7. **SBIE cannot create a loss** — Excess amount is lost, not carried forward
 
-Higher substance (payroll and tangible assets) = Lower Top-up Tax exposure.
+Higher substance (payroll and tangible assets) = Lower Top-Up Tax exposure.
 
 ---
 
@@ -545,7 +545,7 @@ The SBIE calculation is **Step 2** of the GIR-001 GloBE Calculator workflow:
 |--------------|----------|------------|
 | Step 1: ETR Calculation | Identifies low-taxed jurisdictions | GloBE Income + Covered Taxes |
 | **Step 2: SBIE Calculation** | Computes substance carve-out | Payroll + Tangible Assets |
-| Step 3: Top-Up Tax | Applies Top-up Tax % to Excess Profit | ETR + SBIE results |
+| Step 3: Top-Up Tax | Applies Top-Up Tax % to Excess Profit | ETR + SBIE results |
 
 **Workflow:**
 
@@ -561,4 +561,4 @@ Use **GIR-001 GloBE Calculator** at tools.mojitax.com to verify your manual SBIE
 
 ## Next Step
 
-You have learned how to calculate the Substance-Based Income Exclusion and determine Excess Profit. Proceed to **Chapter 5.3: Top-Up Tax Computation** to learn how to apply the Top-up Tax Percentage to Excess Profit and calculate the final Top-up Tax liability.
+You have learned how to calculate the Substance-Based Income Exclusion and determine Excess Profit. Proceed to **Chapter 5.3: Top-Up Tax Computation** to learn how to apply the Top-Up Tax Percentage to Excess Profit and calculate the final Top-Up Tax liability.
