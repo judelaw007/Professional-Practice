@@ -3,7 +3,7 @@
 
 **Purpose:** Track terminology standards, concepts, cross-references, and consistency issues across all course sections. This is a living document updated at the start of each section audit.
 
-**Last Updated:** 2025-12-11 (Part 6 full audit complete)
+**Last Updated:** 2025-12-11 (Part 7 full audit complete)
 
 ---
 
@@ -53,7 +53,13 @@
 | REIV | Real Estate Investment Vehicle (Part 6.6) | "REIV" | — | Part 6.6 |
 | TTE | Tax Transparent Entity (Part 6.5) | "TTE" or "Tax Transparent Entity" | — | Parts 6.5, CS6 |
 | RHE | Reverse Hybrid Entity (Part 6.5) | "RHE" or "Reverse Hybrid Entity" | — | Part 6.5 |
-| DFE | Designated Filing Entity (Part 6.4) | "DFE" or "Designated Filing Entity" | — | Part 6.4 |
+| DFE | Designated Filing Entity (Part 6.4) | "DFE" or "Designated Filing Entity" | — | Parts 6.4, 7.1, 7.6, CS7 |
+| CbCR | Country-by-Country Report (Part 7.3) | "CbCR" | — | Parts 7.3, 7.4, CS7 |
+| MCAA | Multilateral Competent Authority Agreement (Part 7.1) | "MCAA" | — | Parts 7.1, 7.6, CS7 |
+| QCAA | Qualifying Competent Authority Agreement (Part 7.1) | "QCAA" | — | Part 7.1 |
+| XML | GIR XML Schema (Part 7.2) | "XML" | — | Parts 7.2, 7.6 |
+| FIFO | First In First Out (DTL tracking) (Part 7.5) | "FIFO" | — | Part 7.5 |
+| LIFO | Last In First Out (DTL tracking) (Part 7.5) | "LIFO" | — | Part 7.5 |
 
 ---
 
@@ -171,6 +177,25 @@
 | Tax Transparency Election (Art. 7.5) | Chapter 6.6 | CS6 | Five-Year Election; blend with owner |
 | Taxable Distribution Method (Art. 7.6) | Chapter 6.6 | — | Five-Year Election; deferred recognition |
 | Four-year distribution deadline (Art. 7.6.4) | Chapter 6.6 | — | 15% charge if undistributed |
+| GIR structure (5 sections) | Chapter 7.1 | Chapters 7.2, CS7 | Filing Info, General, Summary, Jurisdiction, UTPR |
+| GIR 15-month filing deadline | Chapter 7.1 | Chapter 7.6, CS7 | 18-month transitional |
+| Central filing exemption (Art. 8.1.2) | Chapter 7.1 | CS7 | Via DFE + QCAA |
+| GIR 122+ data points framework | Chapter 7.2 | CS7 | Per entity/jurisdiction |
+| Transitional CbCR Safe Harbour (3 tests) | Chapter 7.3 | Chapters 7.4, CS7 | De Minimis, ETR, Routine Profits |
+| Safe Harbour transition rates (15%→16%→17%) | Chapter 7.3 | CS7 | FY 2024-2026 |
+| "Once out, always out" rule | Chapter 7.3 | CS7 | Safe Harbour election |
+| QDMTT Safe Harbour (3 standards) | Chapter 7.3, 7.4 | CS7 | Accounting, Consistency, Administration |
+| Simplified Calculations Safe Harbour | Chapter 7.4 | — | Permanent, 15% threshold |
+| 2028 methodology review | Chapter 7.4 | — | Simplified Calculations |
+| Article 9.1 opening DTA/DTL measurement | Chapter 7.5 | CS7 | Lower of 15% or domestic rate |
+| Article 9.1.2 DTA exclusions (post-30 Nov 2021) | Chapter 7.5 | — | Anti-abuse |
+| Article 9.2 SBIE transition rates (10-year) | Chapter 7.5 | CS7 | 10%/8% → 5%/5% |
+| DTL 5-year recapture rule (Art. 4.4.4) | Chapter 7.5 | — | From Transition Year |
+| DTL tracking methodologies (FIFO/LIFO) | Chapter 7.5 | — | June 2024 guidance |
+| Grace Period (Jan 2025 guidance) | Chapter 7.5 | — | 2-3 years for pre-existing arrangements |
+| 15-month compliance cycle | Chapter 7.6 | CS7 | Annual calendar |
+| Three lines of defence governance | Chapter 7.6 | — | Operational, Oversight, Assurance |
+| Audit file documentation structure | Chapter 7.6 | CS7 | 8 folder categories |
 
 ---
 
@@ -245,6 +270,19 @@
 | "Article 7.4" (Investment Entity ETR) | Chapter 6.6 | — | OECD reference |
 | "Article 7.5" (Tax Transparency Election) | Chapter 6.6 | — | OECD reference |
 | "Article 7.6" (Taxable Distribution Method) | Chapter 6.6 | — | OECD reference |
+| "Chapter 7.2: GIR Data Requirements" | Chapter 7.1 | Chapter 7.2 | Valid |
+| "Chapter 7.3: Transitional Safe Harbours" | Chapter 7.2 | Chapter 7.3 | Valid |
+| "Chapter 7.4: Permanent Safe Harbours" | Chapter 7.3 | Chapter 7.4 | Valid |
+| "Chapter 7.5: Transition Year Adjustments" | Chapter 7.4 | Chapter 7.5 | Valid |
+| "Chapter 7.6: Ongoing Compliance Process" | Chapter 7.5 | Chapter 7.6 | Valid |
+| "Case Study 7" | Chapter 7.6 | Case Study 7 | Valid |
+| "Part 8: Subject to Tax Rule" | CS7 | Part 8 | Valid |
+| "Chapter 7.1" (GIR overview) | Chapters 7.2-7.6, CS7 | Chapter 7.1 | Valid |
+| "Chapter 7.3" (Safe Harbours) | Chapters 7.4, CS7 | Chapter 7.3 | Valid |
+| "Article 8.1" (GIR requirements) | Chapters 7.1, 7.2, CS7 | — | OECD reference |
+| "Article 9.1" (transition DTA/DTL) | Chapter 7.5, CS7 | — | OECD reference |
+| "Article 9.2" (SBIE transition rates) | Chapter 7.5, CS7 | — | OECD reference |
+| OECD GIR Template | Chapters 7.1, 7.2 | oecd.org (external) | Valid |
 
 ---
 
@@ -508,16 +546,59 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 - Tax Transparency Election (Art. 7.5), Taxable Distribution Method (Art. 7.6)
 - Four-year distribution deadline
 
+### Part 7: Compliance and Filing (Full Audit 2025-12-11)
+
+**Files Audited:**
+- Chapter_7_1_GloBE_Information_Return_Overview.md
+- Chapter_7_2_GIR_Data_Requirements.md
+- Chapter_7_3_Transitional_Safe_Harbours.md
+- Chapter_7_4_Permanent_Safe_Harbours.md
+- Chapter_7_5_Transition_Year_Adjustments.md
+- Chapter_7_6_Ongoing_Compliance_Process.md
+- Case_Study_7_Stratos_First_GIR_Filing.md
+
+**Terminology Checked:**
+- "Top-Up Tax" — **114 variations found and fixed** (lowercase u → capital U)
+- Article references — Consistent format ✓
+- Cross-references — All valid ✓
+- Currency formatting — Consistent ✓
+
+**Fixes Applied:**
+- Chapter_7_1: 13 "Top-up Tax" → "Top-Up Tax"
+- Chapter_7_2: 20 "Top-up Tax" → "Top-Up Tax"
+- Chapter_7_3: 15 "Top-up Tax" → "Top-Up Tax"
+- Chapter_7_4: 20 "Top-up Tax" → "Top-Up Tax"
+- Chapter_7_5: 8 "Top-up Tax" → "Top-Up Tax"
+- Chapter_7_6: 12 "Top-up Tax" → "Top-Up Tax"
+- Case_Study_7: 26 "Top-up Tax" → "Top-Up Tax"
+- **Total: 114 fixes**
+
+**Redundancies Removed:** None identified
+
+**Contradictions Resolved:** None identified
+
+**New Terms Logged:**
+- CbCR, MCAA, QCAA, XML, FIFO, LIFO
+
+**New Concepts Logged:**
+- GIR structure (5 sections), 15-month filing deadline
+- Central filing exemption, 122+ data points framework
+- Transitional CbCR Safe Harbour (3 tests), Transition rates
+- "Once out, always out" rule, QDMTT Safe Harbour (3 standards)
+- Article 9.1 opening DTA/DTL, Article 9.2 SBIE transition rates
+- DTL 5-year recapture, DTL tracking methodologies
+- 15-month compliance cycle, Three lines of defence governance
+
 ---
 
 ## H. NEXT SECTION NOTES
 
-### For Part 7 Audit:
+### For Part 8 Audit:
 1. Watch for "Top-up Tax" variations — standardize to "Top-Up Tax"
-2. Verify cross-references to Parts 1-6 are accurate
-3. Log any new terms (Safe Harbour, CBCR, Transitional rules)
-4. Track compliance concepts introduced
-5. Check consistency with ETR/Top-Up Tax treatment from Parts 5-6
+2. Verify cross-references to Parts 1-7 are accurate
+3. Log any new terms (STTR, Source State, Inclusive Framework)
+4. Track Subject to Tax Rule concepts introduced
+5. Check consistency with Pillar Two terminology from Parts 1-7
 
 ### Established Conventions to Maintain:
 - "Top-Up Tax" (capital U)
@@ -542,7 +623,7 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 | Part 4 | ✓ Complete (Full Audit) | 2025-12-11 | 5 "Top-up Tax" → "Top-Up Tax" |
 | Part 5 | ✓ Complete (Full Audit) | 2025-12-11 | None |
 | Part 6 | ✓ Complete (Full Audit) | 2025-12-11 | None |
-| Part 7 | Pending | — | — |
+| Part 7 | ✓ Complete (Full Audit) | 2025-12-11 | **114 "Top-up Tax" → "Top-Up Tax"** |
 | Part 8 | Pending | — | — |
 
-**Note:** Parts 1-6 fully audited. Part 6 terminology was audited in prior sessions; full audit confirms no remaining issues.
+**Note:** Parts 1-7 fully audited. Part 7 had significant terminology inconsistencies (114 occurrences of incorrect "Top-up Tax") which have been corrected.

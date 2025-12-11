@@ -38,7 +38,7 @@ The **GloBE Information Return (GIR)** is a standardised return that provides ta
 │ The GIR enables tax authorities to:                                 │
 │                                                                     │
 │ → Verify ETR calculations by jurisdiction                          │
-│ → Confirm Top-up Tax amounts                                        │
+│ → Confirm Top-Up Tax amounts                                        │
 │ → Understand group structure and ownership                         │
 │ → Assess QDMTT, IIR, and UTPR liabilities                          │
 │ → Exchange information with other jurisdictions                    │
@@ -224,7 +224,7 @@ The GIR is organised into distinct sections, with different sections shared with
 | **General Information** | Group identification, fiscal year, UPE details | All implementing jurisdictions |
 | **Corporate Structure** | Ownership chain, CE list, jurisdictions | All implementing jurisdictions |
 | **ETR Computation** | Jurisdictional ETR calculations, GloBE Income, Covered Taxes | Jurisdictions with taxing rights |
-| **Top-up Tax** | QDMTT, IIR, UTPR amounts by jurisdiction | Jurisdictions with taxing rights |
+| **Top-Up Tax** | QDMTT, IIR, UTPR amounts by jurisdiction | Jurisdictions with taxing rights |
 | **Elections** | GloBE elections made (SBIE, De Minimis, etc.) | Relevant jurisdictions |
 | **Safe Harbours** | Transitional safe harbour claims | Relevant jurisdictions |
 
@@ -245,7 +245,7 @@ GIR INFORMATION EXCHANGE
             │                   │                   │
             ▼                   ▼                   ▼
 ┌───────────────────┐ ┌─────────────────┐ ┌─────────────────┐
-│ ETR + Top-up Tax  │ │ ETR + Top-up Tax│ │ General +       │
+│ ETR + Top-Up Tax  │ │ ETR + Top-Up Tax│ │ General +       │
 │ Sections          │ │ Sections        │ │ Structure only  │
 │                   │ │                 │ │                 │
 │ Received by:      │ │ Received by:    │ │ Received by:    │
@@ -288,17 +288,17 @@ GIR INFORMATION EXCHANGE
 | ETR calculation | Income ÷ Taxes |
 | SBIE computation | Payroll and asset carve-outs |
 | Excess Profit | GloBE Income less SBIE |
-| Top-up Tax Percentage | 15% minus ETR |
+| Top-Up Tax Percentage | 15% minus ETR |
 
-### Top-up Tax Section
+### Top-Up Tax Section
 
 | Data Element | Description |
 |--------------|-------------|
-| Jurisdictional Top-up Tax | Per low-taxed jurisdiction |
+| Jurisdictional Top-Up Tax | Per low-taxed jurisdiction |
 | QDMTT amounts | By jurisdiction |
 | IIR allocation | To UPE/IPE |
 | UTPR allocation | By jurisdiction |
-| Total Top-up Tax | Group-wide summary |
+| Total Top-Up Tax | Group-wide summary |
 
 ---
 
@@ -369,7 +369,7 @@ Stratos Holdings plc (UK) — UPE
 
 **Jurisdictions to Report:**
 
-| Jurisdiction | GloBE Income (€) | ETR | Top-up Tax (€) | Mechanism |
+| Jurisdiction | GloBE Income (€) | ETR | Top-Up Tax (€) | Mechanism |
 |--------------|------------------|-----|----------------|-----------|
 | UK | 11,525,000 | 25.00% | 0 | — |
 | Germany | 59,929,000 | 23.00% | 0 | — |
@@ -381,7 +381,7 @@ Stratos Holdings plc (UK) — UPE
 
 **JV Reporting (Separate Section):**
 
-| JV Jurisdiction | GloBE Income (€) | Top-up Tax (€) | Stratos Share |
+| JV Jurisdiction | GloBE Income (€) | Top-Up Tax (€) | Stratos Share |
 |-----------------|------------------|----------------|---------------|
 | Singapore | 10,000,000 | 485,750 | 55% |
 | Malaysia | 5,000,000 | 140,520 | 55% |
@@ -489,7 +489,7 @@ SECTION D: GIR CONTENT PREPARATION
 □ General Information section complete?                   YES / NO
 □ Corporate Structure section complete?                   YES / NO
 □ ETR Computation by jurisdiction complete?               YES / NO
-□ Top-up Tax calculations complete?                       YES / NO
+□ Top-Up Tax calculations complete?                       YES / NO
 □ Elections documented?                                   YES / NO
 □ Safe Harbour claims documented?                         YES / NO
 □ JV reporting (if applicable) complete?                  YES / NO
@@ -502,7 +502,7 @@ SECTION E: QUALITY REVIEW
 □ Currency consistency verified?                          YES / NO
 □ Ownership percentages reconciled?                       YES / NO
 □ ETR calculations cross-checked?                         YES / NO
-□ Top-up Tax totals reconciled?                           YES / NO
+□ Top-Up Tax totals reconciled?                           YES / NO
 □ XML schema validation passed?                           YES / NO
 
 ═══════════════════════════════════════════════════════════════════════
@@ -533,7 +533,7 @@ The GloBE Information Return is the central compliance document for Pillar Two:
 | **Deadline** | 15 months (18 months for first year) |
 | **First GIR** | Due 30 June 2026 for Dec 2024 year-ends |
 | **Notification** | Required ~3 months before filing (varies by jurisdiction) |
-| **Content** | General info, structure, ETR, Top-up Tax, elections, safe harbours |
+| **Content** | General info, structure, ETR, Top-Up Tax, elections, safe harbours |
 | **Exchange** | Via QCAA — UPE jurisdiction gets full GIR; others get relevant sections |
 
 **Key planning point:** Central filing via UPE or DFE significantly reduces compliance burden. Verify QCAA coverage early and file notifications on time.
@@ -548,7 +548,7 @@ The GIR structure aligns with GIR-001 GloBE Calculator outputs:
 |-------------|----------------|
 | ETR Computation | Step 1: ETR by jurisdiction |
 | SBIE | Step 2: Payroll and asset carve-outs |
-| Top-up Tax | Step 3: Jurisdictional Top-up Tax |
+| Top-Up Tax | Step 3: Jurisdictional Top-Up Tax |
 | QDMTT/IIR | Step 3: Collection mechanism |
 
 **Workflow:**

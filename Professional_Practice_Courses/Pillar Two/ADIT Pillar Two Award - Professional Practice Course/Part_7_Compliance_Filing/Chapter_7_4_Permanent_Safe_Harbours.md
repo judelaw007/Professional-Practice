@@ -40,7 +40,7 @@ After completing this chapter, you will be able to distinguish between transitio
 │ ├── QDMTT Safe Harbour                                             │
 │ │   → No expiry                                                    │
 │ │   → Qualified QDMTT jurisdictions                                │
-│ │   → IIR Top-up Tax = €0                                          │
+│ │   → IIR Top-Up Tax = €0                                          │
 │ │                                                                   │
 │ └── Simplified Calculations Safe Harbour                           │
 │     → No expiry (subject to 2028 review)                           │
@@ -55,7 +55,7 @@ After completing this chapter, you will be able to distinguish between transitio
 
 ### Purpose
 
-The QDMTT Safe Harbour **eliminates residual IIR liability** for jurisdictions that have implemented a Qualified Domestic Minimum Top-up Tax. When the safe harbour applies, the Top-up Tax under the GloBE Rules is deemed to be **zero**.
+The QDMTT Safe Harbour **eliminates residual IIR liability** for jurisdictions that have implemented a Qualified Domestic Minimum Top-Up Tax. When the safe harbour applies, the Top-Up Tax under the GloBE Rules is deemed to be **zero**.
 
 ### How It Works
 
@@ -65,10 +65,10 @@ WITHOUT QDMTT SAFE HARBOUR:
 Step 1: Calculate QDMTT under local rules
         → Ireland QDMTT = €426,394
 
-Step 2: Calculate GloBE Top-up Tax
+Step 2: Calculate GloBE Top-Up Tax
         → GloBE calculation = €432,000 (slightly different methodology)
 
-Step 3: IIR Top-up Tax = GloBE − QDMTT
+Step 3: IIR Top-Up Tax = GloBE − QDMTT
         → €432,000 − €426,394 = €5,606 residual IIR
 
 Result: MNE pays QDMTT locally + €5,606 IIR to UPE jurisdiction
@@ -79,9 +79,9 @@ WITH QDMTT SAFE HARBOUR:
 Step 1: Calculate QDMTT under local rules
         → Ireland QDMTT = €426,394
 
-Step 2: GloBE Top-up Tax = €0 (Safe Harbour applies)
+Step 2: GloBE Top-Up Tax = €0 (Safe Harbour applies)
 
-Step 3: IIR Top-up Tax = €0
+Step 3: IIR Top-Up Tax = €0
 
 Result: MNE pays QDMTT locally only — no residual IIR
 ```
@@ -140,7 +140,7 @@ When Safe Harbour applies:
 
 When Safe Harbour does NOT apply:
 □ Calculate QDMTT under local rules
-□ Calculate GloBE Top-up Tax separately
+□ Calculate GloBE Top-Up Tax separately
 □ Pay difference via IIR (if GloBE > QDMTT)
 □ Dual calculation burden
 ```
@@ -175,7 +175,7 @@ Test 2: SIMPLIFIED ETR TEST
 Test 3: SIMPLIFIED ROUTINE PROFITS TEST
 └── Simplified Income ≤ SBIE
 
-Pass ANY ONE test → Safe Harbour applies → Top-up Tax = €0
+Pass ANY ONE test → Safe Harbour applies → Top-Up Tax = €0
 ```
 
 ### Simplified Calculations Defined
@@ -230,7 +230,7 @@ For each jurisdiction:
          applies         │              applies      Required
                │         │                    │
                ▼         ▼                    ▼
-         IIR = €0   Continue to          Top-up Tax
+         IIR = €0   Continue to          Top-Up Tax
                     next test            = €0
 ```
 
@@ -240,7 +240,7 @@ For each jurisdiction:
 |----------|---------------------|--------|
 | QDMTT jurisdiction + CbCR qualifies | QDMTT Safe Harbour (primary) | IIR = €0; QDMTT paid locally |
 | QDMTT jurisdiction + CbCR fails | QDMTT Safe Harbour | IIR = €0; QDMTT paid locally |
-| No QDMTT + CbCR qualifies | CbCR Safe Harbour | Top-up Tax = €0 |
+| No QDMTT + CbCR qualifies | CbCR Safe Harbour | Top-Up Tax = €0 |
 | No QDMTT + CbCR fails | None | Full GloBE calculation |
 
 ---
@@ -272,19 +272,19 @@ Stratos Holdings plc analyses permanent safe harbour eligibility for FY 2025.
 | Ireland | **Yes** | (Not needed) | IIR = €0; Irish QDMTT applies |
 | Luxembourg | **Yes** | (Yes - De Minimis) | IIR = €0; Lux QDMTT applies |
 | Singapore | No | No (failed tests) | **Full GloBE calculation** |
-| USA | No | Yes (Simplified ETR) | **Top-up Tax = €0** |
+| USA | No | Yes (Simplified ETR) | **Top-Up Tax = €0** |
 | Cayman | No | No (failed tests) | **Full GloBE calculation** |
 
 ### Compliance Impact
 
-| Jurisdiction | Safe Harbour | Full GloBE Calc? | Top-up Tax Outcome |
+| Jurisdiction | Safe Harbour | Full GloBE Calc? | Top-Up Tax Outcome |
 |--------------|--------------|------------------|-------------------|
 | UK | QDMTT | No | IIR = €0 |
 | Germany | QDMTT | No | IIR = €0 |
 | Ireland | QDMTT | No | IIR = €0 (QDMTT €426,394 local) |
 | Luxembourg | QDMTT + CbCR | No | IIR = €0 |
 | Singapore | None | **Yes** | €197,498 IIR |
-| USA | CbCR | No | Top-up Tax = €0 |
+| USA | CbCR | No | Top-Up Tax = €0 |
 | Cayman | None | **Yes** | €280,480 IIR |
 
 **Result:** Only 2 jurisdictions require full GloBE calculation (Singapore, Cayman).
@@ -298,11 +298,11 @@ Stratos Holdings plc analyses permanent safe harbour eligibility for FY 2025.
 | ETR | 11.80% | 11.80% |
 | SBIE | €1,675,200 | €1,675,200 |
 | Excess Profit | €13,324,800 | €13,324,800 |
-| Top-up Tax | €426,394 | €426,394 |
+| Top-Up Tax | €426,394 | €426,394 |
 
 **With QDMTT Safe Harbour:**
 - Ireland collects €426,394 via QDMTT
-- GloBE Top-up Tax = €0 (Safe Harbour)
+- GloBE Top-Up Tax = €0 (Safe Harbour)
 - IIR to UK = €0
 
 **Without QDMTT Safe Harbour (hypothetical):**
@@ -376,13 +376,13 @@ GIR REPORTING WITH SAFE HARBOURS
 Jurisdiction with QDMTT Safe Harbour:
 ├── Report Safe Harbour claim: YES
 ├── ETR Computation section: Simplified (QDMTT data)
-├── Top-up Tax section: Top-up Tax = €0
+├── Top-Up Tax section: Top-Up Tax = €0
 └── Full GloBE adjustments: NOT required
 
 Jurisdiction with CbCR Safe Harbour:
 ├── Report Safe Harbour claim: YES
 ├── ETR Computation section: NOT required
-├── Top-up Tax section: Top-up Tax = €0
+├── Top-Up Tax section: Top-Up Tax = €0
 └── Test passed: Identify which test (De Minimis / ETR / Routine)
 ```
 
@@ -453,7 +453,7 @@ Jurisdiction: _________________________
 □ **QDMTT Safe Harbour applies?**                         YES / NO
 
    If YES:
-   □ GloBE Top-up Tax = €0
+   □ GloBE Top-Up Tax = €0
    □ IIR liability = €0
    □ QDMTT paid locally: €__________________
    □ Report in GIR: Safe Harbour claimed
@@ -505,7 +505,7 @@ Permanent Safe Harbours provide ongoing compliance relief:
 
 | Safe Harbour | Availability | Benefit |
 |--------------|--------------|---------|
-| **QDMTT Safe Harbour** | Qualified QDMTT jurisdictions | GloBE Top-up Tax = €0; IIR = €0 |
+| **QDMTT Safe Harbour** | Qualified QDMTT jurisdictions | GloBE Top-Up Tax = €0; IIR = €0 |
 | **Simplified Calculations** | All jurisdictions (post-transition) | Simplified methodology; 15% ETR threshold |
 
 **Key points:**
@@ -528,7 +528,7 @@ Step 1: Check QDMTT Safe Harbour eligibility
         → If qualifies: Record; skip full GloBE for that jurisdiction
 
 Step 2: Check CbCR / Simplified Calculations eligibility
-        → If qualifies: Record; Top-up Tax = €0
+        → If qualifies: Record; Top-Up Tax = €0
 
 Step 3: For remaining jurisdictions
         → Run GIR-001 full calculations

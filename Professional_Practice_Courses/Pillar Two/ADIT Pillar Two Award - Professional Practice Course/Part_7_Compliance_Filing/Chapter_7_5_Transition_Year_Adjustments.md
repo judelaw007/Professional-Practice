@@ -174,24 +174,24 @@ Year        Payroll Rate    Asset Rate    Notes
 
 ### Impact of Declining Rates
 
-As SBIE rates decline, **Excess Profit increases**, leading to higher potential Top-up Tax:
+As SBIE rates decline, **Excess Profit increases**, leading to higher potential Top-Up Tax:
 
 **Example: Singapore (€4M GloBE Income, Payroll €1.2M, Assets €850K, ETR 10%)**
 
-| Year | Payroll Carve-out | Asset Carve-out | Total SBIE | Excess Profit | Top-up Tax (5%) |
+| Year | Payroll Carve-out | Asset Carve-out | Total SBIE | Excess Profit | Top-Up Tax (5%) |
 |------|-------------------|-----------------|------------|---------------|-----------------|
 | 2024 | €120,000 (10.0%) | €68,000 (8.0%) | €188,000 | €3,812,000 | €190,600 |
 | 2025 | €117,600 (9.8%) | €66,300 (7.8%) | €183,900 | €3,816,100 | €190,805 |
 | 2033 | €60,000 (5.0%) | €42,500 (5.0%) | €102,500 | €3,897,500 | €194,875 |
 
-**Trend:** Top-up Tax increases by ~€4,000 over transition period due to declining SBIE.
+**Trend:** Top-Up Tax increases by ~€4,000 over transition period due to declining SBIE.
 
 ### Planning Consideration
 
 MNEs with significant substance should:
 - Maximise SBIE claims during early transition years
 - Track payroll and asset data rigorously
-- Model future Top-up Tax exposure as rates decline
+- Model future Top-Up Tax exposure as rates decline
 
 ---
 
@@ -213,8 +213,8 @@ Year 2-5: DTL should reverse (timing difference unwinds)
 
 Year 6 (if not reversed):
 → Re-compute Year 1 ETR WITHOUT the €100,000 DTL
-→ If ETR falls below 15%: Additional Top-up Tax due
-→ "Recapture amount" = Additional Top-up Tax
+→ If ETR falls below 15%: Additional Top-Up Tax due
+→ "Recapture amount" = Additional Top-Up Tax
 ```
 
 ### Visual: DTL Recapture Timeline
@@ -234,7 +234,7 @@ Year 1          Year 2      Year 3      Year 4      Year 5      Year 6
 │                                                               │
 │   If DTL does NOT reverse by end of Year 5:                  │
 │   → Recapture in Year 6                                       │
-│   → Additional Top-up Tax due                                 │
+│   → Additional Top-Up Tax due                                 │
 ```
 
 ### Recapture Exception Accruals
@@ -470,7 +470,7 @@ SECTION D: DOCUMENTATION
 
 **Error:** Using permanent 5% rates instead of transition rates.
 
-**Consequence:** Understated SBIE; overstated Top-up Tax.
+**Consequence:** Understated SBIE; overstated Top-Up Tax.
 
 **Correct approach:** Apply transition rates based on fiscal year (9.8%/7.8% for 2025, etc.).
 
