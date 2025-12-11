@@ -214,7 +214,7 @@ Deferred tax liabilities claimed in Covered Taxes must reverse (i.e., the underl
 
 **Year 6 (end):** DTL has not fully reversed; €300,000 still outstanding
 
-**Recapture:** Year 1 ETR and Top-up Tax are recomputed excluding the €300,000 DTL
+**Recapture:** Year 1 ETR and Top-Up Tax are recomputed excluding the €300,000 DTL
 
 ### Tracking Requirement
 
@@ -355,7 +355,7 @@ Year 2: GloBE Loss €5,000,000
 Year 3: GloBE Income €8,000,000
         GloBE Loss DTA usage: MIN(€8M × 15%, €2,250,000) = €1,200,000
         Add to Covered Taxes: +€1,200,000
-        ETR: €1,200,000 ÷ €8,000,000 = 15.0% ← No Top-up Tax!
+        ETR: €1,200,000 ÷ €8,000,000 = 15.0% ← No Top-Up Tax!
         Remaining GloBE Loss DTA: €2,250,000 − €1,200,000 = €1,050,000
 ```
 
@@ -571,7 +571,7 @@ Adjusted Covered Taxes:                        €12,250,000
 
 Jurisdictional ETR = €12,250,000 ÷ €53,880,000 = 22.7%
 
-Since 22.7% > 15%, no Top-up Tax for Germany.
+Since 22.7% > 15%, no Top-Up Tax for Germany.
 ```
 
 ---
