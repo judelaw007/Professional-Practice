@@ -338,7 +338,7 @@ Excluded Entity assessment requires:
 ## Next Step
 
 You have now completed **Part 1: Scope Determination**. You should have:
-- Confirmed the group meets the €750M revenue threshold (Chapter 1.1)
+- Confirmed the group meets the €750 million revenue threshold (Chapter 1.1)
 - Identified all Constituent Entities (Chapter 1.2)
 - Determined the UPE and mapped IPEs (Chapter 1.3)
 - Assessed and documented Excluded Entities (Chapter 1.4)
