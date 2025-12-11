@@ -159,7 +159,7 @@ Two listed companies that operate as a single economic enterprise through contra
 For GloBE purposes:
 - Both companies and their subsidiaries form a single MNE group
 - One must be designated as the UPE
-- The combined group must meet the €750M threshold
+- The combined group must meet the €750 million threshold
 
 ### Identification Steps for Multi-Parented Groups
 
@@ -197,7 +197,7 @@ If another entity acquires the UPE:
 
 If the group demerges:
 - Each resulting group has its own UPE
-- Each group independently assesses the €750M threshold
+- Each group independently assesses the €750 million threshold
 - CE registers must be prepared for each new group
 
 ---
