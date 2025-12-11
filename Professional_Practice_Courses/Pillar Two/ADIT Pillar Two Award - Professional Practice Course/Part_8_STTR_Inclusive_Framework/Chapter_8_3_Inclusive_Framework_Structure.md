@@ -4,24 +4,6 @@
 
 After completing this chapter, you will be able to describe the governance structure of the OECD/G20 Inclusive Framework on BEPS, understand how Administrative Guidance is developed and issued, navigate the peer review process for qualified status determinations, and identify official resources for staying current with Pillar Two developments.
 
----
-
-## Key References
-
-**OECD Documents:**
-- Inclusive Framework on BEPS Composition (updated periodically)
-- Administrative Guidance releases (February 2023, July 2023, December 2023, June 2024, January 2025)
-- Central Record of Legislation with Transitional Qualified Status
-
-**Key Bodies:**
-- OECD/G20 Inclusive Framework on BEPS
-- Committee on Fiscal Affairs (CFA)
-- Centre for Tax Policy and Administration (CTPA)
-
----
-
-## Overview: The Inclusive Framework
-
 The **OECD/G20 Inclusive Framework on BEPS** is the global body responsible for developing, implementing, and monitoring the Two-Pillar Solution to address tax challenges arising from digitalisation.
 
 ```
@@ -53,8 +35,6 @@ The **OECD/G20 Inclusive Framework on BEPS** is the global body responsible for 
 | **Peer review** | Determines qualified status of implementing legislation |
 | **Coordination** | Ensures consistent global implementation |
 | **Updates** | Releases new guidance as issues arise |
-
----
 
 ## Governance Structure
 
@@ -148,8 +128,6 @@ Participation:
 • Right to request guidance clarifications
 ```
 
----
-
 ## Administrative Guidance Process
 
 ### How Guidance Is Developed
@@ -221,9 +199,7 @@ PRACTICAL EFFECT:
 • Courts may consider as interpretive aid
 ```
 
----
-
-## Peer Review Process
+## 5. Peer Review Process
 
 ### Overview
 
@@ -336,8 +312,6 @@ Effect:
 • Jurisdiction loses revenue to other countries
 ```
 
----
-
 ## Official Resources and Communications
 
 ### Primary OECD Resources
@@ -376,7 +350,7 @@ Qualified Status:
 └── Central Record of Legislation with Transitional Qualified Status
 ```
 
-### Staying Current
+### 4.3 Staying Current
 
 ```
 MONITORING STRATEGY FOR PRACTITIONERS
@@ -414,9 +388,7 @@ Action Items:
 | **Central Record updates** | As needed | Qualified status changes |
 | **Reports to G20** | Quarterly | Progress updates |
 
----
-
-## Stratos Worked Example: Using IF Resources
+## 6. Stratos Worked Example: Using IF Resources
 
 ### Scenario
 
@@ -494,9 +466,7 @@ Monitoring Action:
 □ Monitor for any status changes in current jurisdictions
 ```
 
----
-
-## Common Pitfalls
+## 7. Common Pitfalls
 
 ### Pitfall 1: Assuming All OECD Guidance Is Binding
 
@@ -528,9 +498,7 @@ Monitoring Action:
 
 **Correct approach:** The OECD often consults stakeholders before finalising guidance. MNEs can submit comments through industry associations or directly.
 
----
-
-## Inclusive Framework Resources Checklist
+## 8. Inclusive Framework Resources Checklist
 
 ```
 INCLUSIVE FRAMEWORK RESOURCES CHECKLIST
@@ -588,53 +556,3 @@ SECTION E: INTERNAL PROCESSES
 □ Policy update procedure                         YES / NO
 ```
 
----
-
-## Summary
-
-The OECD/G20 Inclusive Framework on BEPS is the global governance body for Pillar Two:
-
-| Aspect | Key Point |
-|--------|-----------|
-| **Membership** | 145+ jurisdictions, equal participation |
-| **Governance** | Committee on Fiscal Affairs, Working Parties, CTPA Secretariat |
-| **Guidance** | Administrative Guidance issued 2-3 times per year |
-| **Peer review** | Transitional mechanism now; full review forthcoming |
-| **Central Record** | Lists qualified IIR and QDMTT Safe Harbour jurisdictions |
-| **Monitoring** | Essential for compliance; subscribe to OECD alerts |
-
-**Key points:**
-- IF is the **authoritative source** for GloBE Rule interpretation
-- **Administrative Guidance** should be followed for compliance
-- **Qualified status** affects IIR ordering and QDMTT Safe Harbour
-- **Regular monitoring** is essential (monthly minimum)
-- **Central Record** is key resource for jurisdiction status
-
----
-
-## Official Resource Links
-
-### OECD Primary Resources
-
-| Resource | URL |
-|----------|-----|
-| OECD Tax Homepage | www.oecd.org/tax |
-| BEPS/Inclusive Framework | www.oecd.org/tax/beps |
-| Pillar Two Resources | www.oecd.org/tax/beps/pillar-two |
-| IF Membership List | www.oecd.org/tax/beps/inclusive-framework-on-beps-composition.pdf |
-| Subscribe to Updates | www.oecd.org/tax/newsletter |
-
-### Document Repository
-
-| Document Type | Location |
-|---------------|----------|
-| Model Rules | OECD iLibrary / BEPS page |
-| Commentary | OECD iLibrary / BEPS page |
-| Administrative Guidance | OECD Tax Policy page |
-| GIR Materials | OECD Tax Administration page |
-
----
-
-## Next Step
-
-You have learned about the Inclusive Framework's governance structure and how to navigate its resources. Proceed to **Chapter 8.4: QDMTT Qualification Standards** to understand the detailed requirements for a jurisdiction's QDMTT to achieve qualified status and the QDMTT Safe Harbour.
