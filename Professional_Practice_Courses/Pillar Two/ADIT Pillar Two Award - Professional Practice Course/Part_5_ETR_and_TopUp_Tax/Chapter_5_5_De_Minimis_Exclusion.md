@@ -4,8 +4,6 @@
 
 After completing this chapter, you will be able to apply the De Minimis Exclusion to eliminate Top-Up Tax liability for jurisdictions with minimal operations, calculate the three-year average thresholds, and determine which jurisdictions qualify for exclusion.
 
----
-
 ## Key References
 
 **OECD GloBE Model Rules:**
@@ -19,9 +17,7 @@ After completing this chapter, you will be able to apply the De Minimis Exclusio
 **Administrative Guidance:**
 - December 2023: Transitional CbCR Safe Harbour De Minimis Test (simplified single-year test)
 
----
-
-## The De Minimis Exclusion Purpose
+## 1. The De Minimis Exclusion Purpose
 
 The De Minimis Exclusion provides **compliance relief** for jurisdictions with minimal operations. If a jurisdiction meets both thresholds, the MNE Group:
 
@@ -31,9 +27,7 @@ The De Minimis Exclusion provides **compliance relief** for jurisdictions with m
 
 **Result:** GloBE Income and Top-Up Tax for the jurisdiction are **deemed to be zero**.
 
----
-
-## Qualification Criteria *(Article 5.5.1)*
+## 2. Qualification Criteria (Article 5.5.1)
 
 A jurisdiction qualifies for the De Minimis Exclusion if **both** thresholds are met:
 
@@ -49,23 +43,21 @@ A jurisdiction qualifies for the De Minimis Exclusion if **both** thresholds are
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### The Two Thresholds
+### 2.1 The Two Thresholds
 
 | Test | Threshold | What It Measures |
 |------|-----------|------------------|
 | **Revenue Test** | Average GloBE Revenue < €10 million | Size of operations |
 | **Profit Test** | Average GloBE Income < €1 million | Profitability of operations |
 
-### Critical Points
+### 2.2 Critical Points
 
 1. **Both tests must be met** — Passing only one test does not qualify
 2. **Loss qualifies for Test 2** — If Average GloBE Income is a loss, Test 2 is passed
 3. **GloBE amounts used** — Not local GAAP or CbCR figures (except under Safe Harbour)
 4. **Annual election** — Must be elected each year; not automatic
 
----
-
-## Three-Year Averaging *(Article 5.5.1 and 5.5.2)*
+## 3. Three-Year Averaging (Article 5.5.1 and 5.5.2)
 
 The De Minimis thresholds use a **three-year average** of the current fiscal year and the two preceding fiscal years:
 
@@ -79,7 +71,7 @@ Average GloBE Income = ───────────────────
                                    3
 ```
 
-### Example: Three-Year Calculation
+### 3.1 Example: Three-Year Calculation
 
 **Jurisdiction:** Luxembourg (small service entity)
 
@@ -99,9 +91,7 @@ Average GloBE Income = ───────────────────
 
 **Result:** Luxembourg qualifies for De Minimis Exclusion in FY 2025.
 
----
-
-## Excluded Years *(Article 5.5.2)*
+## 4. Excluded Years (Article 5.5.2)
 
 Certain years are **excluded** from the averaging calculation:
 
@@ -112,7 +102,7 @@ Certain years are **excluded** from the averaging calculation:
 | No Constituent Entity with GloBE Income or Loss | Year excluded from average |
 | Pre-GloBE implementation year | Year excluded from average |
 
-### Effect of Excluded Years
+### 4.1 Effect of Excluded Years
 
 If a year is excluded, the average is calculated over fewer years:
 
@@ -134,15 +124,13 @@ If a year is excluded, the average is calculated over fewer years:
 
 **Result:** De Minimis applies with two-year average.
 
-### First Year of Operations
+### 4.2 First Year of Operations
 
 If the current fiscal year is the **first year** with Constituent Entities:
 - Only the current year's figures are used
 - No averaging required
 
----
-
-## Currency Conversion *(Article 5.5.3)*
+## 5. Currency Conversion (Article 5.5.3)
 
 The €10 million and €1 million thresholds are in **euros**. If the MNE Group's Consolidated Financial Statements use a different presentation currency:
 
@@ -152,7 +140,7 @@ Convert thresholds using:
 - Immediately preceding the start of the MNE Group's Fiscal Year
 ```
 
-### Example: USD-Reporting Group
+### 5.1 Example: USD-Reporting Group
 
 **MNE Group FY:** January 1, 2025 – December 31, 2025
 **Presentation currency:** USD
@@ -163,9 +151,7 @@ Convert thresholds using:
 | €10 million | €10M × 1.08 = **$10.8 million** |
 | €1 million | €1M × 1.08 = **$1.08 million** |
 
----
-
-## Entities Excluded from De Minimis *(Article 5.5.1)*
+## 6. Entities Excluded from De Minimis (Article 5.5.1)
 
 The De Minimis Exclusion does **not** apply to:
 
@@ -174,7 +160,7 @@ The De Minimis Exclusion does **not** apply to:
 | **Stateless Constituent Entities** | Never qualify for De Minimis; excluded from threshold calculations |
 | **Investment Constituent Entities** | Never qualify for De Minimis; excluded from threshold calculations |
 
-### Treatment of Excluded Entities
+### 6.1 Treatment of Excluded Entities
 
 When calculating whether a jurisdiction qualifies:
 - **Remove** revenue and income of Stateless Entities
@@ -191,9 +177,7 @@ When calculating whether a jurisdiction qualifies:
 
 **Result:** InvestCo excluded from calculation; jurisdiction may still qualify on OpCo A's figures.
 
----
-
-## Annual Election Requirement
+## 7. Annual Election Requirement
 
 The De Minimis Exclusion is an **annual election** *(Article 5.5.1)*:
 
@@ -202,7 +186,7 @@ The De Minimis Exclusion is an **annual election** *(Article 5.5.1)*:
 - Election is made jurisdiction-by-jurisdiction
 - No binding effect on future years
 
-### Year-by-Year Assessment
+### 7.1 Year-by-Year Assessment
 
 | Fiscal Year | Avg Revenue | Avg Income | Qualifies? | Election Made? |
 |-------------|-------------|------------|------------|----------------|
@@ -213,13 +197,11 @@ The De Minimis Exclusion is an **annual election** *(Article 5.5.1)*:
 
 **Practical implication:** Monitor thresholds annually; eligibility can change.
 
----
-
-## Transitional CbCR Safe Harbour De Minimis Test
+## 8. Transitional CbCR Safe Harbour De Minimis Test
 
 A **simplified version** of the De Minimis test is available under the Transitional CbCR Safe Harbour:
 
-### Simplified Test (Transition Period Only)
+### 8.1 Simplified Test (Transition Period Only)
 
 | Feature | Standard De Minimis | Transitional Safe Harbour |
 |---------|---------------------|---------------------------|
@@ -229,7 +211,7 @@ A **simplified version** of the De Minimis test is available under the Transitio
 | **Income threshold** | €1 million | €1 million |
 | **Available until** | Permanent | FY starting on or before 31 Dec 2026 |
 
-### When to Use Transitional Test
+### 8.2 When to Use Transitional Test
 
 The Transitional CbCR Safe Harbour De Minimis Test is advantageous when:
 - CbCR data is readily available
@@ -238,9 +220,7 @@ The Transitional CbCR Safe Harbour De Minimis Test is advantageous when:
 
 **Example:** Use CbCR Revenue (€6.5M) and CbCR Profit Before Tax (€0.4M) instead of calculating GloBE amounts.
 
----
-
-## Decision Flowchart: De Minimis Qualification
+## 9. Decision Flowchart: De Minimis Qualification
 
 ```
 START: Jurisdiction assessment for De Minimis
@@ -316,13 +296,11 @@ START: Jurisdiction assessment for De Minimis
                     └────────────────────────────┘
 ```
 
----
-
-## Stratos Worked Example: De Minimis Assessment
+## 10. Stratos Worked Example: De Minimis Assessment
 
 Stratos Group has operations in multiple jurisdictions. Let's assess each for De Minimis eligibility.
 
-### Jurisdiction Assessment Table
+### 10.1 Jurisdiction Assessment Table
 
 | Jurisdiction | 3-Year Avg Revenue | 3-Year Avg Income | Revenue < €10M? | Income < €1M? | Qualifies? |
 |--------------|-------------------|-------------------|-----------------|---------------|------------|
@@ -331,7 +309,7 @@ Stratos Group has operations in multiple jurisdictions. Let's assess each for De
 | Ireland | €52,000,000 | €14,200,000 | No | No | **No** |
 | **Luxembourg** | **€8,500,000** | **€620,000** | **Yes** | **Yes** | **Yes** |
 
-### Luxembourg Detailed Analysis
+### 10.2 Luxembourg Detailed Analysis
 
 Stratos Luxembourg S.à r.l. provides intra-group treasury services.
 
@@ -353,7 +331,7 @@ Stratos Luxembourg S.à r.l. provides intra-group treasury services.
 
 **Result:** Luxembourg qualifies for De Minimis Exclusion.
 
-### Luxembourg Preliminary ETR (Before De Minimis)
+### 10.3 Luxembourg Preliminary ETR (Before De Minimis)
 
 If De Minimis were **not** elected:
 
@@ -370,7 +348,7 @@ If De Minimis were **not** elected:
 - No Top-Up Tax liability
 - Administrative burden eliminated
 
-### Updated Stratos Top-Up Tax Summary
+### 10.4 Updated Stratos Top-Up Tax Summary
 
 | Jurisdiction | ETR | Top-Up Tax % | Top-Up Tax | De Minimis? | Final Liability |
 |--------------|-----|--------------|------------|-------------|-----------------|
@@ -380,43 +358,39 @@ If De Minimis were **not** elected:
 | **Luxembourg** | N/A | N/A | N/A | **Yes** | **€0** |
 | **Total** | | | | | **€197,498** |
 
----
+## 11. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Using CbCR Data Without Safe Harbour Election
+### 11.1 Pitfall 1: Using CbCR Data Without Safe Harbour Election
 
 **Error:** Using CbCR revenue and profit figures for De Minimis without formally electing the Transitional Safe Harbour.
 
 **Correct approach:** Use GloBE Revenue and GloBE Income for standard De Minimis test. Only use CbCR data if electing the Transitional Safe Harbour De Minimis Test.
 
-### Pitfall 2: Forgetting Three-Year Averaging
+### 11.2 Pitfall 2: Forgetting Three-Year Averaging
 
 **Error:** Using current year figures only for the standard De Minimis test.
 
 **Correct approach:** Calculate three-year averages (unless years are excluded per Article 5.5.2).
 
-### Pitfall 3: Including Investment Entities
+### 11.3 Pitfall 3: Including Investment Entities
 
 **Error:** Including Investment Entity revenue and income when calculating jurisdiction totals.
 
 **Correct approach:** Exclude Stateless and Investment Entities from De Minimis threshold calculations.
 
-### Pitfall 4: Assuming De Minimis is Automatic
+### 11.4 Pitfall 4: Assuming De Minimis is Automatic
 
 **Error:** Assuming the exclusion applies automatically if thresholds are met.
 
 **Correct approach:** The De Minimis Exclusion must be **actively elected** each year.
 
-### Pitfall 5: Failing to Monitor Year-on-Year
+### 11.5 Pitfall 5: Failing to Monitor Year-on-Year
 
 **Error:** Assuming qualification in one year guarantees qualification in future years.
 
 **Correct approach:** Reassess annually; growing operations may exceed thresholds.
 
----
-
-## De Minimis Assessment Checklist
+## 12. De Minimis Assessment Checklist
 
 Use this checklist to assess each jurisdiction:
 
@@ -466,56 +440,3 @@ RESULT:
 □ De Minimis Exclusion does NOT apply — Proceed with full GloBE calculations
 ```
 
----
-
-## Summary
-
-The De Minimis Exclusion provides meaningful compliance relief for jurisdictions with minimal operations:
-
-| Aspect | Key Point |
-|--------|-----------|
-| **Revenue threshold** | Average GloBE Revenue < €10 million |
-| **Income threshold** | Average GloBE Income < €1 million (or loss) |
-| **Averaging period** | Current year + 2 preceding years |
-| **Excluded entities** | Stateless and Investment Entities |
-| **Effect** | No ETR calculation; Top-Up Tax deemed zero |
-| **Election** | Must be elected annually |
-| **Transitional option** | CbCR-based single-year test available until FY 2026 |
-
-For Stratos, Luxembourg qualifies for De Minimis, eliminating the need to calculate ETR and potential Top-Up Tax (~€39,500 saved).
-
----
-
-## Integration with GIR Tools
-
-The De Minimis assessment is a **pre-screening step** before using GIR-001 GloBE Calculator:
-
-| Step | Tool | Action |
-|------|------|--------|
-| **Pre-screening** | Manual assessment | Apply De Minimis checklist to each jurisdiction |
-| **If qualifies** | N/A | No GIR-001 calculation needed; document election |
-| **If does not qualify** | GIR-001 GloBE Calculator | Proceed with full ETR → SBIE → Top-Up Tax workflow |
-
-**GIR-002 Safe Harbour Qualifier** can assess the **Transitional CbCR Safe Harbour De Minimis Test**:
-- Input CbCR revenue and profit data
-- Tool applies single-year thresholds
-- Returns qualification status
-
-**Workflow for Multiple Jurisdictions:**
-
-```
-For each jurisdiction:
-├── Apply De Minimis checklist
-│   ├── If qualifies → Document election; skip GIR-001
-│   └── If does not qualify → Continue
-├── Check Transitional Safe Harbour (GIR-002)
-│   ├── If qualifies → Apply Safe Harbour; skip full calculation
-│   └── If does not qualify → Continue
-└── Perform full GloBE calculation (GIR-001)
-```
-
----
-
-## Next Step
-
-You have learned how to apply the De Minimis Exclusion to eliminate compliance burden for small jurisdictions. Proceed to **Chapter 5.6: Minority-Owned Constituent Entities** for guidance on the separate ETR calculation and Top-Up Tax treatment for entities with 30% or less ownership.

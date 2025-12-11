@@ -4,23 +4,7 @@
 
 After completing this chapter, you will be able to identify which safe harbours are available during the Pillar Two transition period, apply the three tests for the Transitional CbCR Safe Harbour, understand the QDMTT Safe Harbour requirements, and determine which jurisdictions qualify for safe harbour relief in your MNE Group.
 
----
-
-## Key References
-
-**OECD Guidance:**
-- Safe Harbours and Penalty Relief (December 2022)
-- Administrative Guidance (July 2023, December 2023)
-
-**Key Concepts:**
-- Transitional CbCR Safe Harbour
-- QDMTT Safe Harbour (Permanent)
-- Transitional UTPR Safe Harbour
-- Simplified Calculations Safe Harbour (Permanent)
-
----
-
-## Overview of Safe Harbours
+## 1. Overview of Safe Harbours
 
 Safe harbours provide compliance relief by allowing MNEs to avoid detailed GloBE calculations in certain jurisdictions:
 
@@ -48,15 +32,13 @@ Safe harbours provide compliance relief by allowing MNEs to avoid detailed GloBE
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
----
+## 2. Transitional CbCR Safe Harbour
 
-## Transitional CbCR Safe Harbour
-
-### Purpose
+### 2.1 Purpose
 
 The Transitional CbCR Safe Harbour allows MNEs to exclude lower-risk jurisdictions from detailed GloBE calculations during the initial implementation years. If a jurisdiction qualifies, the **Top-Up Tax is deemed to be zero**.
 
-### Transition Period
+### 2.2 Transition Period
 
 | Criterion | Requirement |
 |-----------|-------------|
@@ -64,7 +46,7 @@ The Transitional CbCR Safe Harbour allows MNEs to exclude lower-risk jurisdictio
 | **End** | Fiscal years ending before **30 June 2028** |
 | **Typical coverage** | FY 2024, 2025, 2026 (for Dec year-ends) |
 
-### The Three Tests
+### 2.3 The Three Tests
 
 A jurisdiction qualifies for the Transitional CbCR Safe Harbour if it meets **ANY ONE** of three tests:
 
@@ -88,11 +70,9 @@ Test 3: ROUTINE PROFITS TEST
 Pass ANY ONE test → Safe Harbour applies → Top-Up Tax = €0
 ```
 
----
+## 3. Test 1: De Minimis Test
 
-## Test 1: De Minimis Test
-
-### Requirements
+### 3.1 Requirements
 
 | Metric | Threshold |
 |--------|-----------|
@@ -118,11 +98,9 @@ Data comes from the **Qualified Country-by-Country Report** for the jurisdiction
 - Losses count as meeting the profit threshold (loss < €1M)
 - No averaging — tested annually
 
----
+## 4. Test 2: Simplified ETR Test
 
-## Test 2: Simplified ETR Test
-
-### Requirements
+### 3.1 Requirements
 
 Calculate a Simplified ETR and compare to the Transition Rate:
 
@@ -132,7 +110,7 @@ Simplified ETR = Simplified Covered Taxes ÷ CbCR Profit (Loss)
 If Simplified ETR ≥ Transition Rate → Test passed
 ```
 
-### Transition Rates
+### 4.2 Transition Rates
 
 | Fiscal Year Beginning | Transition Rate |
 |----------------------|-----------------|
@@ -179,11 +157,9 @@ If CbCR Profit is zero or negative, the Simplified ETR test cannot be applied. C
 - De Minimis Test (if revenue < €10M)
 - Routine Profits Test
 
----
+## 5. Test 3: Routine Profits Test
 
-## Test 3: Routine Profits Test
-
-### Requirements
+### 3.1 Requirements
 
 The jurisdiction's CbCR Profit must be **equal to or less than** the Substance-Based Income Exclusion (SBIE):
 
@@ -225,8 +201,6 @@ CbCR Profit (€1,500,000) ≤ SBIE (€1,720,000) → Test passed
 - Manufacturing operations with significant assets
 - Service centres with significant payroll
 
----
-
 ## "Once Out, Always Out" Rule
 
 ### Critical Rule
@@ -253,15 +227,13 @@ FY 2025: Singapore cannot use Safe Harbour (even if it would qualify)
 - **Document Safe Harbour elections** for compliance records
 - **Consider future years** — if a jurisdiction is borderline, applying Safe Harbour in Year 1 preserves the option
 
----
-
 ## QDMTT Safe Harbour (Permanent)
 
-### Purpose
+### 2.1 Purpose
 
 The QDMTT Safe Harbour sets the **Top-Up Tax to zero** for jurisdictions where a Qualified Domestic Minimum Top-Up Tax applies, eliminating the need for a second calculation under GloBE Rules.
 
-### Requirements
+### 3.1 Requirements
 
 For a QDMTT to qualify for the Safe Harbour, it must meet **three standards**:
 
@@ -296,15 +268,13 @@ Jurisdictions with Qualified QDMTT that meets the three standards include:
 - UK
 - Most EU Member States implementing the Pillar Two Directive
 
----
+## 6. Transitional UTPR Safe Harbour
 
-## Transitional UTPR Safe Harbour
-
-### Purpose
+### 2.1 Purpose
 
 Provides relief from UTPR Top-Up Tax in respect of the **UPE jurisdiction only** during the transition period.
 
-### Requirements
+### 3.1 Requirements
 
 | Criterion | Requirement |
 |-----------|-------------|
@@ -334,11 +304,9 @@ With UTPR Safe Harbour:
 
 Provides transition relief for UPE jurisdictions that have high tax rates but have not yet implemented Pillar Two (e.g., US).
 
----
+## 7. Stratos Worked Example: Safe Harbour Analysis
 
-## Stratos Worked Example: Safe Harbour Analysis
-
-### Background
+### 7.1 Background
 
 Stratos Holdings plc analyses Safe Harbour eligibility for FY 2025 (year ending 31 December 2025).
 
@@ -451,9 +419,7 @@ Stratos Holdings plc analyses Safe Harbour eligibility for FY 2025 (year ending 
 
 **Result:** Safe Harbours reduce detailed GloBE calculations by ~60%.
 
----
-
-## Common Pitfalls
+## 8. Common Pitfalls
 
 ### Pitfall 1: Missing the "Once Out, Always Out" Rule
 
@@ -495,9 +461,7 @@ Stratos Holdings plc analyses Safe Harbour eligibility for FY 2025 (year ending 
 
 **Solution:** Document Safe Harbour analysis annually; retain workings.
 
----
-
-## Safe Harbour Assessment Checklist
+## 9. Safe Harbour Assessment Checklist
 
 ```
 TRANSITIONAL SAFE HARBOUR CHECKLIST
@@ -589,44 +553,3 @@ SECTION D: SUMMARY
 □ Elections filed/recorded?                               YES / NO
 ```
 
----
-
-## Summary
-
-Transitional Safe Harbours provide significant compliance relief:
-
-| Safe Harbour | Availability | Benefit |
-|--------------|--------------|---------|
-| **Transitional CbCR** | FY start ≤ 31 Dec 2026, end < 30 June 2028 | Top-Up Tax = €0 if any test passed |
-| **QDMTT Safe Harbour** | Permanent (Qualified QDMTT jurisdictions) | IIR Top-Up Tax = €0 |
-| **Transitional UTPR** | FY start ≤ 31 Dec 2025, end < 31 Dec 2026 | UTPR for UPE jurisdiction = €0 (if CIT ≥20%) |
-
-**Key rules:**
-- Three tests for CbCR Safe Harbour: De Minimis, Simplified ETR, Routine Profits
-- "Once out, always out" — apply in Year 1 or lose the option
-- Transition Rates increase: 15% (2024) → 16% (2025) → 17% (2026)
-
----
-
-## Integration with GIR Tools
-
-Safe Harbour analysis should precede GIR-001 detailed calculations:
-
-```
-WORKFLOW
-
-Step 1: Extract CbCR data for all jurisdictions
-Step 2: Apply Safe Harbour tests (this chapter)
-Step 3: For qualifying jurisdictions → Report Safe Harbour in GIR
-Step 4: For non-qualifying jurisdictions → Run GIR-001 calculations
-Step 5: Apply QDMTT Safe Harbour where applicable
-Step 6: Consolidate into GIR filing
-```
-
-**GIR Reporting:** Safe Harbour elections must be disclosed in the GIR Summary section.
-
----
-
-## Next Step
-
-You have learned how to apply Transitional Safe Harbours to reduce compliance burden. Proceed to **Chapter 7.4: Permanent Safe Harbours** for guidance on the QDMTT Safe Harbour and Simplified Calculations Safe Harbour that provide ongoing compliance relief.

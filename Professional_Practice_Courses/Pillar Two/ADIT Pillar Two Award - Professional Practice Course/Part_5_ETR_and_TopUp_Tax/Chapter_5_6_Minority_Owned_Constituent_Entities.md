@@ -4,8 +4,6 @@
 
 After completing this chapter, you will be able to identify Minority-Owned Constituent Entities (MOCEs), apply the separate ETR calculation requirement, compute Top-Up Tax for MOCEs and Minority-Owned Sub-Groups, and allocate Top-Up Tax liability between the main MNE Group and minority interests.
 
----
-
 ## Key References
 
 **OECD GloBE Model Rules:**
@@ -22,9 +20,7 @@ After completing this chapter, you will be able to identify Minority-Owned Const
 **Administrative Guidance:**
 - February 2023: MOCE indirect ownership calculation clarifications
 
----
-
-## Why Separate Treatment for MOCEs?
+## 1. Why Separate Treatment for MOCEs?
 
 The standard jurisdictional blending rule combines all Constituent Entities in a jurisdiction for ETR calculation. This creates a problem for minority-owned entities:
 
@@ -47,9 +43,7 @@ The standard jurisdictional blending rule combines all Constituent Entities in a
 
 **Solution:** MOCEs are **excluded** from standard jurisdictional blending and have their own separate ETR calculation.
 
----
-
-## Definition: Minority-Owned Constituent Entity *(Article 10.1)*
+## 2. Definition: Minority-Owned Constituent Entity (Article 10.1)
 
 A **Minority-Owned Constituent Entity (MOCE)** is a Constituent Entity where:
 
@@ -67,7 +61,7 @@ A **Minority-Owned Constituent Entity (MOCE)** is a Constituent Entity where:
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Calculating Indirect Ownership
+### 2.1 Calculating Indirect Ownership
 
 The 30% test considers **both direct and indirect** ownership:
 
@@ -87,7 +81,7 @@ UPE's indirect ownership in SubCo = 60% × 40% = 24%
 Since 24% ≤ 30% and SubCo is consolidated → SubCo is a MOCE
 ```
 
-### Control Without Majority Ownership
+### 2.2 Control Without Majority Ownership
 
 MOCEs arise when accounting standards require consolidation despite ≤30% ownership. Common scenarios:
 
@@ -98,17 +92,15 @@ MOCEs arise when accounting standards require consolidation despite ≤30% owner
 | De facto control | 28% equity | Remaining ownership widely dispersed |
 | Contractual arrangements | 15% equity | Management contracts give effective control |
 
----
+## 3. Related Definitions
 
-## Related Definitions
-
-### Minority-Owned Parent Entity (MOPE)
+### 3.1 Minority-Owned Parent Entity (MOPE)
 
 A **Minority-Owned Parent Entity** is a MOCE that:
 - Holds **ownership interests** in other MOCEs, **AND**
 - Is **not** owned (directly or indirectly) by another MOCE
 
-### Minority-Owned Sub-Group
+### 3.2 Minority-Owned Sub-Group
 
 A **Minority-Owned Sub-Group** consists of:
 - A Minority-Owned Parent Entity (MOPE), **AND**
@@ -134,18 +126,16 @@ A **Minority-Owned Sub-Group** consists of:
               Minority-Owned Sub-Group
 ```
 
----
+## 4. Separate ETR Calculation (Article 5.6)
 
-## Separate ETR Calculation *(Article 5.6)*
-
-### Two Categories of MOCEs
+### 4.1 Two Categories of MOCEs
 
 | Category | Treatment | Article |
 |----------|-----------|---------|
 | **MOCE in a Minority-Owned Sub-Group** | Sub-Group treated as separate MNE Group | 5.6.1 |
 | **Stand-alone MOCE** (not in a Sub-Group) | Entity-level separate ETR | 5.6.2 |
 
-### Article 5.6.1: Minority-Owned Sub-Groups
+### 4.2 Article 5.6.1: Minority-Owned Sub-Groups
 
 When a Minority-Owned Sub-Group exists:
 
@@ -166,7 +156,7 @@ When a Minority-Owned Sub-Group exists:
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Article 5.6.2: Stand-Alone MOCEs
+### 4.3 Article 5.6.2: Stand-Alone MOCEs
 
 If a MOCE is **not** part of a Minority-Owned Sub-Group:
 
@@ -183,9 +173,7 @@ If a MOCE is **not** part of a Minority-Owned Sub-Group:
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
----
-
-## Multiple ETR Calculations Per Jurisdiction
+## 5. Multiple ETR Calculations Per Jurisdiction
 
 MOCE rules can result in **multiple ETR calculations** for the same jurisdiction:
 
@@ -208,15 +196,13 @@ Ireland Jurisdiction
     └── ETR Calculation #3: Stand-alone MOCE
 ```
 
----
+## 6. Worked Example: MOCE ETR Computation
 
-## Worked Example: MOCE ETR Computation
-
-### Scenario
+### 6.1 Scenario
 
 **Stratos Group** has a 28% ownership interest in **Atlas Ireland Ltd**, a consolidated entity providing shared services. Atlas Ireland Ltd is a stand-alone MOCE (no subsidiaries).
 
-### Step 1: Identify MOCE Status
+### 6.2 Step 1: Identify MOCE Status
 
 | Test | Assessment |
 |------|------------|
@@ -226,7 +212,7 @@ Ireland Jurisdiction
 | Part of Minority-Owned Sub-Group? | No (no MOCE subsidiaries) |
 | **Classification** | **Stand-alone MOCE** |
 
-### Step 2: Calculate Separate ETR
+### 6.3 Step 2: Calculate Separate ETR
 
 **Atlas Ireland Ltd Data:**
 
@@ -243,7 +229,7 @@ ETR = €288,000 / €2,400,000
 ETR = 12.00%
 ```
 
-### Step 3: Apply SBIE (Separately)
+### 6.4 Step 3: Apply SBIE (Separately)
 
 **Atlas Ireland Ltd Substance:**
 
@@ -261,7 +247,7 @@ Excess Profit = €2,400,000 − €180,000
 Excess Profit = €2,220,000
 ```
 
-### Step 4: Calculate Top-Up Tax
+### 6.5 Step 4: Calculate Top-Up Tax
 
 ```
 Top-Up Tax % = 15% − 12% = 3%
@@ -269,7 +255,7 @@ Top-Up Tax % = 15% − 12% = 3%
 Top-Up Tax = 3% × €2,220,000 = €66,600
 ```
 
-### Step 5: Apply QDMTT Offset (If Applicable)
+### 6.6 Step 5: Apply QDMTT Offset (If Applicable)
 
 Ireland has QDMTT. Assume Ireland collects the full Top-Up Tax domestically:
 
@@ -280,7 +266,7 @@ Net Top-Up Tax:     €0
 
 **Result:** Ireland retains the €66,600 through its QDMTT.
 
-### Comparison: Main Group vs MOCE
+### 6.7 Comparison: Main Group vs MOCE
 
 | Calculation | Main Group Ireland | Stand-alone MOCE |
 |-------------|-------------------|------------------|
@@ -294,15 +280,13 @@ Net Top-Up Tax:     €0
 
 **Key insight:** Without MOCE separation, Atlas Ireland's 12% ETR would have been blended with the main group's 11.80%, potentially affecting both calculations unfairly.
 
----
+## 7. Minority-Owned Sub-Group Example
 
-## Minority-Owned Sub-Group Example
-
-### Scenario
+### 6.1 Scenario
 
 **Stratos Group** owns 22% of **Nexus Holdings BV** (Netherlands), which owns 100% of **Nexus Germany GmbH**. Nexus Holdings BV is consolidated due to Stratos's board control.
 
-### Structure
+### 7.2 Structure
 
 ```
 Stratos Holdings plc (UPE)
@@ -322,7 +306,7 @@ Stratos Holdings plc (UPE)
 Minority-Owned Sub-Group: Nexus Holdings BV + Nexus Germany GmbH
 ```
 
-### Calculation: Sub-Group as Separate MNE
+### 7.3 Calculation: Sub-Group as Separate MNE
 
 **Step 1: Netherlands ETR (MOPE)**
 
@@ -344,7 +328,7 @@ Minority-Owned Sub-Group: Nexus Holdings BV + Nexus Germany GmbH
 
 **Result:** ETR ≥ 15% → No Top-Up Tax for Germany within Sub-Group.
 
-### Main Group Germany (Separate Calculation)
+### 7.4 Main Group Germany (Separate Calculation)
 
 Stratos's main group also has entities in Germany (SG Germany GmbH):
 
@@ -357,11 +341,9 @@ Stratos's main group also has entities in Germany (SG Germany GmbH):
 
 **Important:** Nexus Germany GmbH is **excluded** from Main Group Germany's blending.
 
----
+## 8. Top-Up Tax Allocation for MOCEs
 
-## Top-Up Tax Allocation for MOCEs
-
-### Who Pays the Top-Up Tax?
+### 8.1 Who Pays the Top-Up Tax?
 
 | Entity Type | Who Bears Top-Up Tax? | Mechanism |
 |-------------|----------------------|-----------|
@@ -369,7 +351,7 @@ Stratos's main group also has entities in Germany (SG Germany GmbH):
 | **MOPE (Sub-Group parent)** | UPE of main MNE Group | IIR |
 | **Minority-Owned Subsidiary** | MOPE (Sub-Group parent) | IIR within Sub-Group |
 
-### Allocation Logic
+### 8.2 Allocation Logic
 
 ```
                       UPE (Stratos Holdings plc)
@@ -390,7 +372,7 @@ Stratos's main group also has entities in Germany (SG Germany GmbH):
                                          via IIR within Sub-Group
 ```
 
-### Attribution Based on Ownership
+### 8.3 Attribution Based on Ownership
 
 Even though the UPE bears Top-Up Tax for a MOCE, the **amount** reflects only the UPE's ownership share in the GloBE Income:
 
@@ -406,11 +388,9 @@ Note: The full €66,600 is still computed and potentially collected
       via QDMTT, but the UPE's economic exposure is 28%.
 ```
 
----
+## 9. MOCE Interaction with Other Rules
 
-## MOCE Interaction with Other Rules
-
-### De Minimis Exclusion
+### 9.1 De Minimis Exclusion
 
 MOCEs **are included** in the De Minimis calculation:
 
@@ -421,7 +401,7 @@ MOCEs **are included** in the De Minimis calculation:
 
 **Practical effect:** A jurisdiction might qualify for De Minimis including MOCE amounts, but MOCEs would still have separate calculations if De Minimis doesn't apply.
 
-### QDMTT
+### 9.2 QDMTT
 
 For a QDMTT to be **Qualified**, it must:
 - Apply separate calculations for MOCEs
@@ -429,7 +409,7 @@ For a QDMTT to be **Qualified**, it must:
 
 If a jurisdiction's domestic minimum tax doesn't follow MOCE separation, it **does not qualify** as a QDMTT.
 
-### Investment Entities
+### 9.3 Investment Entities
 
 If a MOCE is an **Investment Entity**:
 - MOCE rules do **not** apply
@@ -440,9 +420,7 @@ If a MOCE is an **Investment Entity**:
 | MOCE (not Investment Entity) | Article 5.6 |
 | MOCE that is Investment Entity | Articles 7.4/7.5 (priority) |
 
----
-
-## Decision Flowchart: MOCE Identification and Treatment
+## 10. Decision Flowchart: MOCE Identification and Treatment
 
 ```
 START: Constituent Entity identified
@@ -497,17 +475,15 @@ START: Constituent Entity identified
                                      └──────────────┘
 ```
 
----
+## 11. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Including MOCEs in Standard Blending
+### 11.1 Pitfall 1: Including MOCEs in Standard Blending
 
 **Error:** Including MOCE's Covered Taxes and GloBE Income in the main group's jurisdictional ETR.
 
 **Correct approach:** Always exclude MOCEs from standard blending; calculate separately.
 
-### Pitfall 2: Forgetting Indirect Ownership
+### 11.2 Pitfall 2: Forgetting Indirect Ownership
 
 **Error:** Only considering direct ownership when applying the 30% test.
 
@@ -517,27 +493,25 @@ Indirect ownership = Product of ownership at each tier
 Example: 60% × 40% = 24% indirect ownership
 ```
 
-### Pitfall 3: Treating Investment Entity MOCEs Under Article 5.6
+### 11.3 Pitfall 3: Treating Investment Entity MOCEs Under Article 5.6
 
 **Error:** Applying MOCE separate calculation to an entity that is both a MOCE and an Investment Entity.
 
 **Correct approach:** Investment Entity rules (Articles 7.4/7.5) take priority over MOCE rules.
 
-### Pitfall 4: Excluding MOCEs from De Minimis Calculation
+### 11.4 Pitfall 4: Excluding MOCEs from De Minimis Calculation
 
 **Error:** Not including MOCE revenue and income when calculating De Minimis thresholds.
 
 **Correct approach:** Include MOCEs in De Minimis calculation (different from ETR blending treatment).
 
-### Pitfall 5: Allocating Wrong Top-Up Tax Amount
+### 11.5 Pitfall 5: Allocating Wrong Top-Up Tax Amount
 
 **Error:** Allocating 100% of MOCE Top-Up Tax to the UPE without considering ownership percentage.
 
 **Correct approach:** While the UPE bears the tax obligation, attribution for economic purposes is based on ownership share.
 
----
-
-## MOCE Assessment Checklist
+## 12. MOCE Assessment Checklist
 
 Use this checklist to identify and process MOCEs:
 
@@ -617,65 +591,3 @@ PART D: TOP-UP TAX ATTRIBUTION
 □ Mechanism: IIR / QDMTT offset
 ```
 
----
-
-## Summary
-
-Minority-Owned Constituent Entities require special treatment to prevent unfair blending of minority shareholders' income and taxes:
-
-| Aspect | Key Point |
-|--------|-----------|
-| **Definition** | UPE owns ≤ 30% (direct + indirect) but entity is consolidated |
-| **Stand-alone MOCE** | Entity-level separate ETR (Article 5.6.2) |
-| **Minority-Owned Sub-Group** | Sub-Group treated as separate MNE (Article 5.6.1) |
-| **Multiple ETRs** | Same jurisdiction may have multiple ETR calculations |
-| **Top-Up Tax** | UPE bears obligation; MOPE bears for its subsidiaries |
-| **De Minimis** | MOCEs included in threshold calculation |
-| **Investment Entities** | Investment Entity rules take priority |
-| **QDMTT** | Must follow MOCE separation to qualify |
-
-For Stratos, any MOCE (such as Atlas Ireland Ltd at 28% ownership) must be calculated separately, preventing inappropriate blending with main group entities.
-
----
-
-## Integration with GIR Tools
-
-MOCE calculations require **separate runs** through the GIR-001 GloBE Calculator:
-
-| Calculation | GIR-001 Run | Data Input |
-|-------------|-------------|------------|
-| Main Group (per jurisdiction) | Run 1 | Exclude all MOCEs |
-| Minority-Owned Sub-Group | Run 2 | Sub-Group entities only |
-| Stand-alone MOCE | Run 3 | Single entity data |
-
-**Workflow:**
-
-```
-Step 1: Identify all MOCEs in the MNE Group
-        │
-        ▼
-Step 2: For each jurisdiction:
-        ├── Run GIR-001 for Main Group (excluding MOCEs)
-        ├── Run GIR-001 for each Minority-Owned Sub-Group
-        └── Run GIR-001 for each Stand-alone MOCE
-        │
-        ▼
-Step 3: Aggregate Top-Up Tax results
-        ├── Main Group Top-Up Tax
-        ├── Sub-Group Top-Up Tax
-        └── Stand-alone MOCE Top-Up Tax
-        │
-        ▼
-Step 4: Apply QDMTT offsets (separately for each calculation)
-        │
-        ▼
-Step 5: Report on GIR with separate disclosures for MOCEs
-```
-
-**GIR Filing Note:** The GloBE Information Return requires separate disclosure of MOCE calculations. Ensure data is segregated appropriately.
-
----
-
-## Next Step
-
-You have completed Part 5: ETR Calculation and Top-Up Tax Determination. Proceed to **Case Study 5: Stratos's Complete ETR and Top-Up Tax Calculation** to apply all concepts from Chapters 5.1-5.6 in an integrated, hands-on exercise.

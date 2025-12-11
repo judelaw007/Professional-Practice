@@ -1,24 +1,20 @@
 # Chapter 4.1: Defining Covered Taxes
 
-## Purpose
+## Learning Objective
 
 This chapter provides a practical framework for identifying which taxes qualify as "Covered Taxes" for GloBE purposes. The correct classification of taxes directly impacts the ETR numerator—include a non-qualifying tax and you overstate coverage; exclude a qualifying tax and you understate it. Both errors lead to incorrect top-up tax calculations.
 
----
-
-## The Starting Point: Current Tax Expense
+## 1. The Starting Point: Current Tax Expense
 
 The Covered Taxes analysis begins with the current tax expense recorded in financial accounts (Article 4.1.1). This is the same financial accounting starting point used for GloBE Income under Article 3.1.
 
 **Practical implication:** Use the same set of accounts for both GloBE Income and Covered Taxes. If you use IFRS consolidated accounts to derive GloBE Income, use the same IFRS accounts for the current tax expense figure.
 
----
-
-## The Four Categories of Covered Taxes
+## 2. The Four Categories of Covered Taxes
 
 Article 4.2.1 defines four categories of taxes that qualify as Covered Taxes. Each serves a specific purpose in ensuring the ETR calculation captures genuine income taxation.
 
-### Category 1: Taxes on Income or Profits (Article 4.2.1(a))
+### 2.1 Category 1: Taxes on Income or Profits (Article 4.2.1(a))
 
 The primary category—taxes recorded in financial accounts with respect to:
 - The Constituent Entity's own income or profits
@@ -43,9 +39,7 @@ Step 2: Is it levied on income, profits, or a share thereof?
         → If NO: Proceed to Categories 2-4
 ```
 
----
-
-### Category 2: Eligible Distribution Tax System (Article 4.2.1(b))
+### 2.2 Category 2: Eligible Distribution Tax System (Article 4.2.1(b))
 
 Taxes on distributed profits, deemed profit distributions, and non-business expenses under an Eligible Distribution Tax System (EDTS).
 
@@ -64,9 +58,7 @@ Taxes on distributed profits, deemed profit distributions, and non-business expe
 2. Calculate deemed covered taxes based on expected distribution timing
 3. Track actual distributions against projections
 
----
-
-### Category 3: Taxes Imposed in Lieu of CIT (Article 4.2.1(c))
+### 2.3 Category 3: Taxes Imposed in Lieu of CIT (Article 4.2.1(c))
 
 Taxes substituting for a generally applicable corporate income tax—typically levied on gross amounts where a net income tax would otherwise apply.
 
@@ -90,9 +82,7 @@ Is the gross-basis tax imposed INSTEAD OF a net income tax?
 - Turnover taxes (not substituting for income tax)
 - Transaction taxes (capital transfer, stamp duty)
 
----
-
-### Category 4: Taxes on Retained Earnings and Equity (Article 4.2.1(d))
+### 2.4 Category 4: Taxes on Retained Earnings and Equity (Article 4.2.1(d))
 
 Taxes levied by reference to retained earnings or corporate equity, including multi-component taxes based on income and equity.
 
@@ -105,13 +95,11 @@ Taxes levied by reference to retained earnings or corporate equity, including mu
 - Must have income or retained earnings as a measurement component
 - Pure property or wealth taxes on assets (not equity) do not qualify
 
----
-
-## What is NOT a Covered Tax
+## 3. What is NOT a Covered Tax
 
 Equally important is knowing what to exclude. The following are explicitly non-qualifying:
 
-### Excluded by Nature
+### 3.1 Excluded by Nature
 
 | Tax Type | Why Excluded |
 |----------|--------------|
@@ -124,7 +112,7 @@ Equally important is knowing what to exclude. The following are explicitly non-q
 | **Environmental levies** | Behaviour-based tax |
 | **Digital services taxes** | Turnover-based, not "in lieu" of CIT |
 
-### Excluded by Article 4.2.2
+### 3.2 Excluded by Article 4.2.2
 
 Two specific exclusions regardless of nature:
 
@@ -139,19 +127,17 @@ Two specific exclusions regardless of nature:
 **Practical consequence:**
 If a jurisdiction imposes a *non-qualifying* domestic minimum tax (NDMTT), that tax IS included as a Covered Tax. However, this only increases the ETR numerator—it does not provide the QDMTT "switch-off" benefit.
 
----
-
-## Qualified Refundable Tax Credits: Special Treatment
+## 4. Qualified Refundable Tax Credits: Special Treatment
 
 Qualified Refundable Tax Credits (QRTCs) receive preferential treatment under GloBE—they are treated as **income** rather than as a reduction of Covered Taxes (Article 3.2.10).
 
-### Definition (Article 10.1)
+### 4.1 Definition (Article 10.1)
 
 A QRTC is a refundable tax credit that:
 1. Is payable as cash or cash equivalent within **four years** of satisfying conditions
 2. Is not limited to reducing Covered Tax liability only
 
-### Why This Matters: ETR Impact
+### 4.2 Why This Matters: ETR Impact
 
 The classification dramatically affects ETR:
 
@@ -164,7 +150,7 @@ The classification dramatically affects ETR:
 
 The QRTC treatment results in **8.2 percentage points higher ETR**—potentially eliminating top-up tax exposure entirely.
 
-### Verification Checklist: Does Credit Qualify as QRTC?
+### 4.3 Verification Checklist: Does Credit Qualify as QRTC?
 
 | Question | Required Answer |
 |----------|-----------------|
@@ -175,19 +161,17 @@ The QRTC treatment results in **8.2 percentage points higher ETR**—potentially
 
 If all conditions are met → QRTC → Treat as GloBE Income, not reduction of Covered Taxes
 
----
-
-## CFC Regime Taxes and Attribution
+## 5. CFC Regime Taxes and Attribution
 
 Taxes paid under CFC regimes by a parent entity require special allocation treatment.
 
-### The Issue
+### 5.1 The Issue
 
 When Country A imposes CFC tax on Parent Co for the undistributed profits of Sub Co in Country B:
 - Parent Co records the CFC tax in its financial accounts
 - But the income generating the tax is Sub Co's income
 
-### The Solution: Push-Down (Article 4.3.2(c))
+### 5.2 The Solution: Push-Down (Article 4.3.2(c))
 
 CFC taxes are **pushed down** from the parent to the subsidiary:
 
@@ -209,13 +193,11 @@ Parent Co (Country A)
 
 This ensures the tax is counted against the income that generated it.
 
----
-
-## Covered Tax Classification Checklist
+## 6. Covered Tax Classification Checklist
 
 Use this checklist for each tax line in financial accounts:
 
-### Step 1: Identify All Tax Lines
+### 6.1 Step 1: Identify All Tax Lines
 
 Extract from financial accounts:
 - [ ] Current income tax expense (P&L)
@@ -225,7 +207,7 @@ Extract from financial accounts:
 - [ ] CFC charges paid
 - [ ] Uncertain tax position provisions
 
-### Step 2: Apply Four-Category Test
+### 6.2 Step 2: Apply Four-Category Test
 
 For each tax line:
 
@@ -238,7 +220,7 @@ For each tax line:
 | 5 | Tax on retained earnings/equity? | Category 4 ✓ |
 | 6 | None of the above? | **NOT Covered Tax** |
 
-### Step 3: Apply Exclusions
+### 6.3 Step 3: Apply Exclusions
 
 | # | Check | If YES → |
 |---|-------|----------|
@@ -248,7 +230,7 @@ For each tax line:
 | 4 | Is it payroll tax? | Exclude |
 | 5 | Is it property tax? | Exclude |
 
-### Step 4: Special Classifications
+### 6.4 Step 4: Special Classifications
 
 | # | Item | Treatment |
 |---|------|-----------|
@@ -256,9 +238,7 @@ For each tax line:
 | 2 | CFC tax in parent accounts? | Push down to subsidiary |
 | 3 | Withholding tax on inbound payments? | Covered Tax (Category 1 or 3) |
 
----
-
-## Stratos Worked Example: Classifying German Taxes
+## 7. Stratos Worked Example: Classifying German Taxes
 
 **Scenario:** SG Germany GmbH's tax accounts show the following for FY 2025:
 
@@ -272,7 +252,7 @@ For each tax line:
 | Real property tax (Grundsteuer) | 125,000 | ? |
 | R&D tax credit received | (180,000) | ? |
 
-### Classification Analysis
+### 7.1 Classification Analysis
 
 **1. Corporate Income Tax: €8,200,000**
 - Question: Tax on entity's own income? → YES
@@ -308,7 +288,7 @@ For each tax line:
   - Not limited to tax liability? → YES
 - **Result: QRTC—treat as INCOME, not tax reduction**
 
-### Summary for SG Germany GmbH
+### 7.2 Summary for SG Germany GmbH
 
 | Item | Treatment | Amount (€) |
 |------|-----------|------------|
@@ -338,11 +318,9 @@ With QRTC adjustment:
 - GloBE Income increased by €180,000
 - ETR numerator AND denominator both increase—more favourable outcome
 
----
+## 8. Common Classification Challenges
 
-## Common Classification Challenges
-
-### Challenge 1: Minimum Taxes
+### 8.1 Challenge 1: Minimum Taxes
 
 **Issue:** Many jurisdictions impose minimum taxes—how do they classify?
 
@@ -354,7 +332,7 @@ With QRTC adjustment:
 | QDMTT | Exclude (Article 4.2.2(b)) |
 | Non-qualifying DMT | Covered Tax (Category 1) |
 
-### Challenge 2: Digital Services Taxes
+### 8.2 Challenge 2: Digital Services Taxes
 
 **Issue:** Are DSTs "taxes imposed in lieu" of CIT?
 
@@ -365,7 +343,7 @@ With QRTC adjustment:
 
 **Result:** DSTs are generally **NOT Covered Taxes**
 
-### Challenge 3: Tonnage Taxes
+### 8.3 Challenge 3: Tonnage Taxes
 
 **Issue:** Shipping companies often pay tonnage tax instead of CIT.
 
@@ -377,58 +355,4 @@ With QRTC adjustment:
 
 Note: This interacts with the International Shipping Exclusion (Article 3.3)—if shipping income is excluded from GloBE Income, the related tonnage tax should also be excluded from Covered Taxes.
 
-### Challenge 4: Branch Profits Tax
-
-**Issue:** Some jurisdictions impose tax on branch profit remittances.
-
-**Analysis:**
-- Tax on deemed profit distribution from branch to head office
-- Functions similarly to EDTS distribution tax
-
-**Result:** Generally a **Covered Tax** (Category 2 by analogy, or Category 1 if on profits)
-
----
-
-## Integration with GIR-001 GloBE Calculator
-
-After classifying Covered Taxes, the total feeds into GIR-001 for ETR calculation:
-
-**Data required for GIR-001:**
-1. **Covered Taxes total** (from this chapter's analysis)
-2. **GloBE Income** (from Part 3 analysis)
-3. **SBIE inputs** (payroll costs, tangible asset values)
-
-The tool calculates:
-- Jurisdictional ETR = Covered Taxes ÷ GloBE Income
-- Compares against 15% minimum rate
-- Determines top-up tax percentage
-
-**Note:** This chapter addresses only the Covered Tax identification. Chapter 4.2 covers current tax adjustments and Chapter 4.3 covers deferred tax adjustments that modify the initial figure.
-
----
-
-## Key References
-
-- Article 4.1.1 — Starting point: current tax expense
-- Article 4.2.1 — Four categories of Covered Taxes
-- Article 4.2.2 — Exclusion of IIR and QDMTT top-up taxes
-- Article 4.3.2(c) — Push-down of CFC taxes
-- Article 3.2.10 — QRTC treatment as income
-- Article 7.3 — Eligible Distribution Tax System special rules
-- Article 10.1 — Definitions (QRTC, EDTS)
-- Commentary, Chapter 4 — Detailed guidance on Covered Tax classification
-
----
-
-## Chapter Summary
-
-Covered Tax identification requires systematic classification against four qualifying categories while excluding non-income taxes and specific items like IIR/QDMTT top-up taxes. The critical implementation steps are:
-
-1. **Start with current tax expense** from the same financial accounts used for GloBE Income
-2. **Apply the four-category test** to each tax line
-3. **Exclude non-qualifying items** (indirect, payroll, property taxes; IIR/QDMTT)
-4. **Identify QRTCs** and reverse their treatment (income, not tax reduction)
-5. **Push down CFC taxes** from parent to subsidiary
-6. **Document classification decisions** for audit defence
-
-The resulting Covered Taxes figure becomes the starting numerator for ETR calculation, subject to further adjustments in Chapters 4.2 and 4.3.
+### 8.4 Challenge 4: Branch Profits Tax

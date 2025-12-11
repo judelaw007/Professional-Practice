@@ -4,29 +4,7 @@
 
 After completing this chapter, you will be able to apply GloBE rules to entity-level acquisitions and disposals, determine when share deals are treated as asset deals, apply the basis step-up election, calculate partial-year adjustments for SBIE, and handle deferred tax attribute transfers correctly.
 
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 6.2.1 — General rules for entities joining/leaving an MNE Group
-- Article 6.2.1(a) — GloBE Income follows consolidated accounts
-- Article 6.2.1(c) — Historical carrying value of assets
-- Article 6.2.1(d)-(e) — SBIE adjustments for partial year
-- Article 6.2.1(f) — Deferred tax attribute treatment
-- Article 6.2.2 — Share deals treated as asset deals
-- Article 6.3.4 — Basis step-up election
-
-**OECD Commentary:**
-- Chapter 6, paragraphs 46-98 — Acquisitions and disposals
-
-**Administrative Guidance:**
-- February 2023: DTL five-year clock reset
-- June 2024: Articles 6.2-6.3 only apply from Transition Year
-
----
-
-## The Steady-State Assumption
+## 1. The Steady-State Assumption
 
 The GloBE Rules are generally drafted assuming the MNE Group has the **same Constituent Entities throughout the entire Fiscal Year**. Special rules address what happens when entities **join** or **leave** during the year.
 
@@ -44,13 +22,11 @@ The GloBE Rules are generally drafted assuming the MNE Group has the **same Cons
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
----
-
-## General Rules: Entity Joining an MNE Group *(Article 6.2.1)*
+## 2. General Rules: Entity Joining an MNE Group *(Article 6.2.1)*
 
 When an entity becomes a Constituent Entity through an acquisition:
 
-### Article 6.2.1(a): GloBE Income Follows Accounts
+### 2.1 Article 6.2.1(a): GloBE Income Follows Accounts
 
 The target's GloBE Income or Loss is **limited to the amount consolidated** in the UPE's financial statements.
 
@@ -60,7 +36,7 @@ The target's GloBE Income or Loss is **limited to the amount consolidated** in t
 | Acquisition on 1 October | Include 3 months of target's results |
 | Acquisition on 31 December | Include minimal/nil (depends on cut-off) |
 
-### Article 6.2.1(c): Historical Carrying Values
+### 2.2 Article 6.2.1(c): Historical Carrying Values
 
 The acquiring MNE Group must determine the target's GloBE Income using the **historical carrying values** of its assets and liabilities—not fair value step-ups from purchase accounting.
 
@@ -80,7 +56,7 @@ GloBE:
 
 **Why this matters:** Purchase accounting creates higher depreciation that reduces accounting profit. GloBE uses historical values, so GloBE Income may be **higher** than accounting income for acquired entities.
 
-### Article 6.2.1(d)-(e): SBIE Adjustments
+### 2.3 Article 6.2.1(d)-(e): SBIE Adjustments
 
 For the Substance-Based Income Exclusion:
 
@@ -102,9 +78,7 @@ Entity joins on 1 September (4 months in group):
 - SBIE asset amount: €10,000,000 × (4/12) = €3,333,333
 - Asset carve-out (7.8% for 2025): €3,333,333 × 7.8% = €260,000
 
----
-
-## Deferred Tax Attribute Transfer *(Article 6.2.1(f))*
+## 3. Deferred Tax Attribute Transfer *(Article 6.2.1(f))*
 
 ### General Rule: Attributes Carry Over
 
@@ -148,9 +122,7 @@ When a target with existing DTLs joins an MNE Group:
 
 The acquiring group has a full 5 years from acquisition to reverse the DTL.
 
----
-
-## Share Deals vs Asset Deals
+## 4. Share Deals vs Asset Deals
 
 ### Standard Treatment: Share Deal
 
@@ -224,9 +196,7 @@ Where local tax law treats share deal as asset deal:
 - Covered Taxes include the tax on deemed disposal
 - Acquiring group uses fair value basis for future GloBE calculations
 
----
-
-## Basis Step-Up Election *(Article 6.3.4)*
+## 5. Basis Step-Up Election *(Article 6.3.4)*
 
 ### When the Election Applies
 
@@ -297,9 +267,7 @@ If the entity leaves the MNE Group before the 5-year period ends, the **remainin
 - Year 2: €3,000,000 recognized
 - Year 3: €9,000,000 recognized (remaining €9M accelerated)
 
----
-
-## Comparison: Asset Deal vs Share Deal vs Step-Up Election
+## 6. Comparison: Asset Deal vs Share Deal vs Step-Up Election
 
 | Aspect | Asset Deal | Share Deal (Standard) | Share Deal (Art. 6.2.2) | Step-Up Election |
 |--------|------------|----------------------|-------------------------|------------------|
@@ -309,9 +277,7 @@ If the entity leaves the MNE Group before the 5-year period ends, the **remainin
 | **Future depreciation** | On fair value | On historical value | On fair value | On fair value |
 | **Covered Taxes** | Tax on asset sale | No tax in target | Tax on deemed disposal | Tax on step-up |
 
----
-
-## Disposal by an MNE Group
+## 7. Disposal by an MNE Group
 
 When a Constituent Entity **leaves** an MNE Group:
 
@@ -340,9 +306,7 @@ DTLs that were previously taken into account in the disposing MNE Group are:
 
 This prevents double-counting or gaps in the 5-year tracking.
 
----
-
-## Decision Flowchart: Acquisition/Disposal Treatment
+## 8. Decision Flowchart: Acquisition/Disposal Treatment
 
 ```
 START: Acquisition or disposal of entity
@@ -396,11 +360,9 @@ START: Acquisition or disposal of entity
             └────────────────────────────────────────┘
 ```
 
----
+## 9. Stratos Worked Example: TechStart Acquisition
 
-## Stratos Worked Example: TechStart Acquisition
-
-### Background
+### 9.1 Background
 
 Stratos Holdings plc acquires 100% of TechStart Ireland Ltd on 1 July 2025.
 
@@ -499,9 +461,7 @@ Ireland ETR: €2,801,250 ÷ €23,250,000 = 12.05%
 
 **Result:** Step-up election marginally improves ETR (12.05% vs 11.95%). However, the Top-Up Tax base increases. Analysis of multi-year impact needed before deciding.
 
----
-
-## Common Pitfalls
+## 10. Common Pitfalls
 
 ### Pitfall 1: Using Fair Value for Acquired Entity
 
@@ -532,8 +492,6 @@ Ireland ETR: €2,801,250 ÷ €23,250,000 = 12.05%
 **Error:** Applying standard share deal treatment when local law treats the transaction as an asset deal.
 
 **Correct approach:** Check local tax treatment. If the jurisdiction taxes a deemed asset disposal, apply Article 6.2.2.
-
----
 
 ## Acquisition/Disposal Checklist
 
@@ -634,45 +592,3 @@ SECTION E: SUMMARY
 □ Elections made: _________________________
 □ Documentation complete?                        YES / NO
 ```
-
----
-
-## Summary
-
-Acquisitions and disposals require careful analysis of deal structure and applicable GloBE rules:
-
-| Scenario | Key Article | Treatment |
-|----------|-------------|-----------|
-| **Standard share deal** | 6.2.1 | Historical values; gain in seller jurisdiction |
-| **Share deal = asset deal** | 6.2.2 | Fair value; gain in target jurisdiction |
-| **Asset deal** | 6.3.1 | Fair value; gain in target jurisdiction |
-| **Basis step-up** | 6.3.4 | Election for immediate or 5-year spread |
-
-**Key points to remember:**
-- GloBE follows **historical carrying values** unless specific rules apply
-- Payroll is prorated; tangible assets use transaction date value then prorate
-- DTL 5-year clock **resets** on acquisition
-- GloBE Loss Election does **not** transfer
-- Step-up election is **irrevocable**—analyse carefully before electing
-
----
-
-## Integration with GIR Tools
-
-| Step | Tool | Action |
-|------|------|--------|
-| **Partial year data** | GIR-001 GloBE Calculator | Enter prorated GloBE Income and Covered Taxes |
-| **SBIE adjustment** | GIR-001 Step 2 | Enter prorated payroll; prorated tangible assets |
-| **DTL tracking** | Manual tracking | Set up new 5-year schedule from transaction date |
-| **Step-up election** | Manual analysis | Model ETR impact before deciding |
-
-**GIR Reporting:** The GloBE Information Return requires:
-- Transaction date for entities joining/leaving
-- Indication of Article 6.2.2 or 6.3.4 elections made
-- Partial-year calculation methodology
-
----
-
-## Next Step
-
-You have learned how to handle entity-level acquisitions and disposals under GloBE. Proceed to **Chapter 6.3: Joint Ventures** for guidance on the special rules applying to JV investments where the UPE holds more than 50% ownership but less than full control.

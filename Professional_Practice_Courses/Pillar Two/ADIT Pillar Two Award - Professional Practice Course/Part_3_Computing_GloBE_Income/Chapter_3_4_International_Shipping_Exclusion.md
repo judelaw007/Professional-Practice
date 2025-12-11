@@ -4,8 +4,6 @@
 
 After completing this chapter, you will be able to identify qualifying international shipping income, apply the ancillary income cap, and exclude eligible shipping income from GloBE calculations while meeting substance requirements.
 
----
-
 ## Why Shipping Gets Special Treatment
 
 The international shipping industry has unique characteristics that have led many jurisdictions to adopt special tax regimes:
@@ -23,8 +21,6 @@ Many countries operate **tonnage tax** regimes that tax shipping based on vessel
 
 **Article 3.3 solution:** Exclude qualifying international shipping income from GloBE calculations entirely.
 
----
-
 ## The Basic Exclusion Rule *(Article 3.3.1)*
 
 ### What Gets Excluded
@@ -38,8 +34,6 @@ For MNE Groups with International Shipping Income:
 | International Shipping Losses | **Excluded** from GloBE Loss |
 
 **Key point:** Both income AND losses from qualifying shipping activities are excluded. The exclusion is symmetrical.
-
----
 
 ## Definition: International Shipping Income *(Article 3.3.2)*
 
@@ -75,8 +69,6 @@ International Shipping Income means net income from:
 | Liverpool → Southampton | **No** (within UK only) |
 | Up the Thames (London) | **No** (inland, same jurisdiction) |
 
----
-
 ## Qualified Ancillary International Shipping Income *(Article 3.3.3)*
 
 ### What Qualifies
@@ -99,8 +91,6 @@ Ancillary activities that are performed **primarily in connection with** interna
 | **Port operations** | Separate business from shipping |
 | **Shipyard/repair services** | Manufacturing/service business |
 | **Freight forwarding (land-based)** | Not primarily connected to ship operations |
-
----
 
 ## The 50% Ancillary Income Cap *(Article 3.3.5)*
 
@@ -152,8 +142,6 @@ Excess:            €5,000,000
 | Non-shipping income | — | €15,000,000 |
 | **Total GloBE Income** | | **€20,000,000** |
 
----
-
 ## Treatment of Losses *(Article 3.3.1)*
 
 ### The Symmetry Rule
@@ -190,8 +178,6 @@ Without loss exclusion:
 | **GloBE Income** | **360,000** |
 
 **Result:** The €160,000 shipping losses do not reduce the CE's GloBE Income of €360,000.
-
----
 
 ## Strategic Management Requirement *(Article 3.3.6)*
 
@@ -231,8 +217,6 @@ To qualify for the shipping exclusion, a Constituent Entity must demonstrate tha
 | Operational reports | Management reports prepared/reviewed locally |
 | Correspondence | Day-to-day management communications |
 
----
-
 ## Interaction with Tonnage Tax Regimes
 
 ### The Potential Gap
@@ -262,8 +246,6 @@ MNE Groups with shipping operations should:
 2. **Identify** activities in tonnage tax that don't qualify for GloBE exclusion
 3. **Calculate** potential Top-Up Tax exposure on non-qualifying activities
 4. **Consider** restructuring if exposure is material
-
----
 
 ## Stratos Worked Example
 
@@ -364,9 +346,7 @@ SG Maritime Holdings BV (Netherlands)
 
 **Result:** Netherlands ETR exactly at minimum. No Top-Up Tax for non-shipping activities.
 
----
-
-## Documentation Requirements
+## 7. Documentation Requirements
 
 ### For Article 3.3 Exclusion
 
@@ -391,9 +371,7 @@ All **direct and indirect costs** attributable to shipping income must also be e
 | Shared overheads | Revenue-based or time-based allocation |
 | Finance costs | By asset financed |
 
----
-
-## Common Pitfalls
+## 8. Common Pitfalls
 
 ### Pitfall 1: Assuming All Tonnage Tax Income Is Excluded
 
@@ -425,102 +403,9 @@ All **direct and indirect costs** attributable to shipping income must also be e
 
 **Problem:** Inland waterways within same jurisdiction are explicitly excluded.
 
----
-
 ## Key References
 
 **OECD GloBE Model Rules:**
 - Article 3.3.1 — Basic exclusion rule
 - Article 3.3.2 — International Shipping Income definition
 - Article 3.3.3 — Qualified Ancillary International Shipping Income
-- Article 3.3.4 — Income covered under tax treaty Article 8
-- Article 3.3.5 — 50% ancillary income cap
-- Article 3.3.6 — Strategic management requirement
-
-**OECD Commentary:**
-- Chapter 3, paragraphs 96-140 — Detailed shipping exclusion guidance
-
-**Related References:**
-- OECD Model Tax Convention, Article 8 — Shipping and Air Transport
-- Commentary on Article 8 — Scope of shipping income
-
----
-
-## Decision Flowchart: Does the Shipping Exclusion Apply?
-
-```
-START: Income from ship operations
-              │
-              ▼
-┌─────────────────────────────────┐
-│ Is this "international traffic"?│
-│ (crosses jurisdictional borders)│
-└─────────────────────────────────┘
-              │
-       ┌──────┴──────┐
-      YES           NO
-       │             │
-       ▼             ▼
-┌─────────────┐  ┌─────────────────┐
-│ Is it one   │  │ NOT EXCLUDED    │
-│ of the 5    │  │ Remains in      │
-│ qualifying  │  │ GloBE Income    │
-│ activities? │  └─────────────────┘
-│ (Art 3.3.2) │
-└─────────────┘
-       │
-  ┌────┴────┐
- YES       NO
-  │         │
-  ▼         ▼
-┌─────────────┐  ┌─────────────────┐
-│ Strategic   │  │ Is it Qualified │
-│ management  │  │ Ancillary?      │
-│ in CE's     │  │ (Art 3.3.3)     │
-│ jurisdiction│  └─────────────────┘
-│ (Art 3.3.6)?│           │
-└─────────────┘      ┌────┴────┐
-       │            YES       NO
-  ┌────┴────┐        │         │
- YES       NO        ▼         ▼
-  │         │   ┌─────────┐  ┌──────────┐
-  ▼         ▼   │ Within  │  │ NOT      │
-┌──────┐  ┌──────┐│ 50%    │  │ EXCLUDED │
-│EXCL- │  │ NOT  ││ cap?   │  └──────────┘
-│UDED  │  │EXCL- │└─────────┘
-└──────┘  │UDED  │     │
-          └──────┘┌────┴────┐
-                 YES       NO
-                  │         │
-                  ▼         ▼
-             ┌──────┐  ┌─────────────┐
-             │EXCL- │  │ Exclude up  │
-             │UDED  │  │ to cap only │
-             └──────┘  └─────────────┘
-```
-
----
-
-## Summary
-
-Article 3.3 excludes qualifying international shipping income from GloBE calculations:
-
-| Component | Key Points |
-|-----------|------------|
-| **International Shipping Income** | Transport in international traffic; 5 qualifying activities |
-| **Qualified Ancillary Income** | 5 ancillary categories; must be primarily connected to shipping |
-| **50% Cap** | Ancillary cannot exceed 50% of shipping income |
-| **Loss Symmetry** | Losses also excluded (no cherry-picking) |
-| **Strategic Management** | Must be carried on in CE's jurisdiction |
-
-**Practical considerations:**
-- Map all activities against Article 3.3 definitions
-- Tonnage tax scope may be broader than GloBE exclusion
-- Document strategic management presence
-- Allocate costs consistently between shipping and non-shipping
-
----
-
-## Next Step
-
-You have learned the international shipping exclusion. Proceed to **Chapter 3.5: PE and Flow-Through Allocations** to learn how to allocate income between main entities, permanent establishments, and flow-through structures.

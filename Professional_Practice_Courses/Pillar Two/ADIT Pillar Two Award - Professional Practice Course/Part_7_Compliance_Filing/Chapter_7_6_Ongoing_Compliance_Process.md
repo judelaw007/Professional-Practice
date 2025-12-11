@@ -4,23 +4,7 @@
 
 After completing this chapter, you will be able to establish a sustainable annual Pillar Two compliance cycle, design data gathering processes that integrate with existing financial systems, identify system and technology requirements for GloBE calculations, and implement governance frameworks with appropriate controls for audit-ready compliance.
 
----
-
-## Key References
-
-**OECD Guidance:**
-- GloBE Information Return Template and Instructions (2024)
-- Administrative Guidance (January 2025) — Filing requirements
-- MCAA Framework for GIR Exchange
-
-**Filing Deadlines:**
-- Standard: 15 months after fiscal year-end
-- Transitional: 18 months for first fiscal year
-- First GIR due: 30 June 2026 (for FY ending 31 December 2024)
-
----
-
-## Overview: Compliance as an Ongoing Process
+## 1. Overview: Compliance as an Ongoing Process
 
 Pillar Two compliance is not a one-time project—it is an **enduring requirement** that must be embedded into annual business cycles.
 
@@ -47,11 +31,9 @@ Pillar Two compliance is not a one-time project—it is an **enduring requiremen
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
----
+## 2. Annual Compliance Calendar
 
-## Annual Compliance Calendar
-
-### Standard Timeline (15-Month Cycle)
+### 2.1 Standard Timeline (15-Month Cycle)
 
 For an MNE with a **31 December fiscal year-end**:
 
@@ -69,7 +51,7 @@ For an MNE with a **31 December fiscal year-end**:
 | **February-March (Y+2)** | GIR filing | Filed within 15 months |
 | **March (Y+2)** | **Filing deadline** | 31 March (for 31 Dec YE) |
 
-### Transitional Timeline (18-Month Cycle)
+### 2.2 Transitional Timeline (18-Month Cycle)
 
 For the **first fiscal year** (FY 2024), the extended deadline applies:
 
@@ -79,7 +61,7 @@ For the **first fiscal year** (FY 2024), the extended deadline applies:
 | 31 March 2025 | 30 June 2026 | **30 September 2026** |
 | 30 June 2025 | 30 September 2026 | **31 December 2026** |
 
-### Critical Path Milestones
+### 2.3 Critical Path Milestones
 
 ```
 COMPLIANCE TIMELINE: FY ENDING 31 DECEMBER 2024
@@ -104,8 +86,6 @@ Year 1 (2024)                    Year 2 (2025)                    Year 3 (2026)
 │                                │                           (18-month
 │                                │                            transitional)
 ```
-
----
 
 ## Data Gathering Process
 
@@ -264,8 +244,6 @@ CALCULATION INPUTS (Months 6-10)
 □ Calculate Top-Up Tax where applicable
 ```
 
----
-
 ## System Requirements
 
 ### Technology Landscape
@@ -347,9 +325,7 @@ SYSTEM INTEGRATION MAP
                     Common data standards & API connections
 ```
 
----
-
-## Governance and Controls
+## 5. Governance and Controls
 
 ### Operating Model
 
@@ -453,8 +429,6 @@ PILLAR TWO AUDIT FILE STRUCTURE
     ├── Review comments and resolutions
     └── Issue log and remediation
 ```
-
----
 
 ## Process Map: Annual Pillar Two Compliance Cycle
 
@@ -562,11 +536,9 @@ ANNUAL PILLAR TWO COMPLIANCE CYCLE
                           └───────────────────┘
 ```
 
----
+## 7. Stratos Worked Example: Compliance Process Design
 
-## Stratos Worked Example: Compliance Process Design
-
-### Background
+### 7.1 Background
 
 Stratos Holdings plc is establishing its ongoing Pillar Two compliance process for FY 2025 onwards.
 
@@ -671,11 +643,9 @@ STRATOS PILLAR TWO GOVERNANCE
 | Technology (GloBE solution) | — | €50,000 |
 | **Total incremental cost** | | **€270,000** |
 
----
+## 8. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Treating Pillar Two as a One-Time Project
+### 8.1 Pitfall 1: Treating Pillar Two as a One-Time Project
 
 **Error:** Completing the first GIR filing and disbanding the project team.
 
@@ -711,9 +681,7 @@ STRATOS PILLAR TWO GOVERNANCE
 
 **Correct approach:** Assess technology needs based on group complexity. Invest in appropriate tools that provide audit trail, version control, and scalability.
 
----
-
-## Ongoing Compliance Process Checklist
+## 9. Ongoing Compliance Process Checklist
 
 ```
 ONGOING COMPLIANCE PROCESS CHECKLIST
@@ -794,57 +762,3 @@ SECTION G: POST-FILING
 □ Next year planning initiated                            Due: ________
 ```
 
----
-
-## Summary
-
-Establishing an effective ongoing Pillar Two compliance process requires:
-
-| Component | Key Actions |
-|-----------|-------------|
-| **Compliance Calendar** | 15-month cycle (18-month transitional); milestone-driven |
-| **Data Gathering** | Cross-functional ownership; 122+ data points; standardised extraction |
-| **Systems** | Source integration; GloBE calculation engine; GIR generation capability |
-| **Governance** | Three lines of defence; clear roles; sign-off authority |
-| **Controls** | Completeness, accuracy, timeliness; reconciliation; documentation |
-| **Documentation** | Audit-ready file; calculation workings; election register |
-
-**Key points:**
-- Pillar Two is an **ongoing annual process**, not a one-time project
-- **Cross-functional collaboration** (Tax, Finance, IT, HR) is essential
-- **Technology investment** scales with group complexity
-- **Governance and controls** must be proportionate and embedded
-- **Documentation** is critical for audit defence
-
----
-
-## Integration with GIR Tools
-
-The ongoing compliance process integrates with the GIR tool suite:
-
-```
-COMPLIANCE PROCESS TOOL INTEGRATION
-
-Phase 1: Planning
-└── GIR-005 DFE Assessment Tool → Confirm filing entity
-
-Phase 2: Safe Harbour Assessment
-└── GIR-002 Safe Harbour Qualifier → Test all jurisdictions
-
-Phase 3: Calculations
-└── GIR-001 GloBE Calculator → ETR, SBIE, Top-Up Tax
-
-Phase 4: Filing Preparation
-├── GIR-003 Filing Deadline Calculator → Confirm deadlines
-├── GIR-004 GIR Practice Form → Complete GIR
-└── GIR-006 Audit File Checklist → Documentation
-
-Phase 5: Ongoing Monitoring
-└── Bookmark OECD Central Record → Monitor guidance updates
-```
-
----
-
-## Next Step
-
-You have learned how to establish and manage an ongoing Pillar Two compliance process. Proceed to **Case Study 7: Stratos's First GIR Filing** to apply all Part 7 concepts in a comprehensive end-to-end exercise covering GIR preparation, Safe Harbour testing, and filing procedures.

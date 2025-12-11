@@ -4,9 +4,7 @@
 
 After completing this chapter, you will be able to identify the correct financial accounts to use as the starting point for GloBE Income calculations and navigate the hierarchy of accounting standard options.
 
----
-
-## The Starting Point: Financial Accounting Net Income or Loss
+## 1. The Starting Point: Financial Accounting Net Income or Loss
 
 GloBE Income or Loss begins with **Financial Accounting Net Income or Loss** *(Article 3.1.1)*. This is the "below the line" net income or loss of the Constituent Entity—the figure after tax expense in the financial accounts.
 
@@ -18,9 +16,7 @@ GloBE Income or Loss begins with **Financial Accounting Net Income or Loss** *(A
 | Group adjustments don't matter | Each CE's accounts must be evaluated separately |
 | Errors that net to zero at group level are fine | Entity-level errors affect that jurisdiction's ETR |
 
----
-
-## Article 3.1 Hierarchy
+## 2. Article 3.1 Hierarchy
 
 The GloBE Rules establish a hierarchy for determining which financial accounts to use:
 
@@ -43,17 +39,15 @@ The GloBE Rules establish a hierarchy for determining which financial accounts t
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
+## 3. Step 1: Identify the UPE's Accounting Standard
 
-## Step 1: Identify the UPE's Accounting Standard
-
-### Process
+### 3.1 Process
 
 1. Obtain the UPE's consolidated financial statements
 2. Identify the accounting framework used (typically stated in Note 1 or accounting policies section)
 3. This becomes the "default" standard for all CE calculations
 
-### Common UPE Accounting Standards
+### 3.2 Common UPE Accounting Standards
 
 | Standard | Typical Users |
 |----------|--------------|
@@ -62,15 +56,13 @@ The GloBE Rules establish a hierarchy for determining which financial accounts t
 | Japanese GAAP | Japanese groups not using IFRS |
 | Swiss GAAP FER | Swiss companies (explicitly an Acceptable Standard) |
 
-### Stratos Example
+### 3.3 Stratos Example
 
 Stratos Group plc prepares consolidated financial statements under **IFRS** (as required for UK-listed companies). Therefore, IFRS is the primary accounting standard for all Stratos CE GloBE calculations.
 
----
+## 4. Step 2: Determine Each CE's Financial Accounts
 
-## Step 2: Determine Each CE's Financial Accounts
-
-### The Primary Rule (Article 3.1.2)
+### 4.1 The Primary Rule (Article 3.1.2)
 
 For each Constituent Entity, use the **net income or loss determined in preparing the Consolidated Financial Statements** of the UPE, **before any consolidation adjustments eliminating intra-group transactions**.
 
@@ -84,7 +76,7 @@ For each Constituent Entity, use the **net income or loss determined in preparin
 | Management charges | **Include** in CE's GloBE Income |
 | Purchase Price Allocation (PPA) adjustments | Generally **include** as reflected in consolidation |
 
-### Worked Example: Intra-Group Sale
+### 4.2 Worked Example: Intra-Group Sale
 
 **Scenario:** SG Germany GmbH sells software licences to SG France SAS for €5 million. In Stratos's consolidated accounts, this revenue is eliminated.
 
@@ -95,11 +87,9 @@ For each Constituent Entity, use the **net income or loss determined in preparin
 
 **Result:** Each entity's GloBE Income reflects the arm's-length intra-group transaction.
 
----
+## 5. Step 3: Apply the Alternative Standard Exception (If Needed)
 
-## Step 3: Apply the Alternative Standard Exception (If Needed)
-
-### When Does Article 3.1.3 Apply?
+### 5.1 When Does Article 3.1.3 Apply?
 
 The alternative standard exception applies when it is **"not reasonably practicable"** to determine a CE's Financial Accounting Net Income using the UPE's standard.
 
@@ -112,7 +102,7 @@ The alternative standard exception applies when it is **"not reasonably practica
 | System limitations | Legacy accounting system cannot produce IFRS-compliant reports |
 | Materiality | Small entity where conversion cost exceeds benefit |
 
-### Conditions for Using Alternative Standard
+### 5.2 Conditions for Using Alternative Standard
 
 If invoking Article 3.1.3, **three conditions must be met**:
 
@@ -122,7 +112,7 @@ If invoking Article 3.1.3, **three conditions must be met**:
 | 2. Reliable information | The information in those accounts is **reliable** |
 | 3. Conform permanent differences | Permanent differences **exceeding €1 million** are adjusted to conform to UPE's standard |
 
-### The €1 Million Threshold
+### 5.3 The €1 Million Threshold
 
 **Key rule:** If using an alternative accounting standard, any permanent difference exceeding €1 million must be adjusted to align with the UPE's accounting standard.
 
@@ -135,7 +125,7 @@ A permanent difference arises when the alternative standard treats an item diffe
 | **Permanent difference ≤€1M** | Minor difference in expense classification | **No adjustment** required |
 | **Timing difference** | Different depreciation rates (IFRS vs local GAAP) | **No adjustment** required (reverses over asset life) |
 
-### Worked Example: Alternative Standard Application
+### 5.4 Worked Example: Alternative Standard Application
 
 **Scenario:** Stratos acquires TechStart Ltd (Ireland) on 1 July 2025. TechStart maintains accounts under Irish GAAP, which differs from IFRS.
 
@@ -162,13 +152,11 @@ A permanent difference arises when the alternative standard treats an item diffe
 
 **Result:** TechStart's Irish GAAP accounts are used, with a €1.8M adjustment for R&D treatment.
 
----
-
-## Acceptable vs Authorised Financial Accounting Standards
+## 6. Acceptable vs Authorised Financial Accounting Standards
 
 The GloBE Rules distinguish between two categories of alternative standards:
 
-### Acceptable Financial Accounting Standard *(Article 10.1)*
+### 6.1 Acceptable Financial Accounting Standard *(Article 10.1)*
 
 These are **specifically recognised** standards that can be used without additional adjustment for competitive distortions:
 
@@ -180,7 +168,7 @@ These are **specifically recognised** standards that can be used without additio
 | Australian AASB standards | Acceptable (IFRS-based) |
 | UK-adopted IFRS | Acceptable |
 
-### Authorised Financial Accounting Standard *(Article 10.1)*
+### 6.2 Authorised Financial Accounting Standard *(Article 10.1)*
 
 These are **generally accepted accounting principles** in a jurisdiction that are authorised by an accounting standard setter or government. They are acceptable BUT may require adjustment for **Material Competitive Distortions**.
 
@@ -192,7 +180,7 @@ These are **generally accepted accounting principles** in a jurisdiction that ar
 | Swiss Code of Obligations | Authorised | May have distortions vs IFRS |
 | Irish GAAP (FRS 102) | Authorised | Largely UK GAAP aligned |
 
-### Material Competitive Distortion Test
+### 6.3 Material Competitive Distortion Test
 
 When using an Authorised (but not Acceptable) standard, check whether application creates a **Material Competitive Distortion**:
 
@@ -205,9 +193,7 @@ When using an Authorised (but not Acceptable) standard, check whether applicatio
 
 **Note:** The €75M threshold applies at the MNE Group level, not per entity.
 
----
-
-## Decision Tree: Which Financial Accounts to Use
+## 7. Decision Tree: Which Financial Accounts to Use
 
 ```
 START: Identify CE's GloBE Income starting point
@@ -280,11 +266,9 @@ START: Identify CE's GloBE Income starting point
                                └─────────┘    └──────────────────┘
 ```
 
----
+## 8. Consolidation Adjustments: What Stays, What Goes
 
-## Consolidation Adjustments: What Stays, What Goes
-
-### Adjustments Made During Consolidation
+### 8.1 Adjustments Made During Consolidation
 
 When preparing consolidated accounts, the parent makes various adjustments. For GloBE purposes, you need to understand which adjustments apply:
 
@@ -298,7 +282,7 @@ When preparing consolidated accounts, the parent makes various adjustments. For 
 | Currency translation adjustments | **Include** (if in P&L) | Part of financial accounting income |
 | Minority interest share | **Do NOT deduct** | Handled in Top-Up Tax allocation |
 
-### Worked Example: Pre-Elimination vs Post-Elimination
+### 8.2 Worked Example: Pre-Elimination vs Post-Elimination
 
 **Stratos Group Consolidation — German Subsidiary**
 
@@ -315,15 +299,13 @@ When preparing consolidated accounts, the parent makes various adjustments. For 
 
 **Key insight:** The German entity's GloBE starting point is **€4,900,000** (individual accounts), not €2,900,000 (consolidated contribution).
 
----
-
-## Minority Interest Treatment
+## 9. Minority Interest Treatment
 
 A common question: How do minority interests affect the GloBE Income starting point?
 
 **Answer:** There is **no reduction** in Financial Accounting Net Income or Loss for minority interests at the starting point stage. Minority interests are addressed later, during Top-Up Tax allocation *(see Chapter 2.4)*.
 
-### Worked Example: Minority Interest
+### 9.1 Worked Example: Minority Interest
 
 **Scenario:** SG Ireland Ltd has 60% Stratos ownership and 40% external investor ownership. Net income is €5,200,000.
 
@@ -333,17 +315,15 @@ A common question: How do minority interests affect the GloBE Income starting po
 | Minority share of income | Not deducted |
 | Adjustment in allocation | 40% attributed to external investor at Top-Up Tax stage |
 
----
+## 10. Materiality in GloBE Calculations
 
-## Materiality in GloBE Calculations
-
-### Inherited Materiality Threshold
+### 10.1 Inherited Materiality Threshold
 
 The GloBE Rules do not specify a separate materiality threshold for calculating GloBE Income. Instead, **the same materiality threshold used for consolidated financial statements applies**.
 
 **Practical implication:** If an item was immaterial for consolidated accounts purposes, it remains immaterial for GloBE purposes.
 
-### When Materiality Matters
+### 10.2 When Materiality Matters
 
 | Situation | Consideration |
 |-----------|---------------|
@@ -353,11 +333,9 @@ The GloBE Rules do not specify a separate materiality threshold for calculating 
 
 **Warning:** An error that nets to zero at group level can still affect GloBE calculations if it misstates income between jurisdictions.
 
----
+## 11. Stratos Practical Application
 
-## Stratos Practical Application
-
-### Stratos Group Accounting Framework Summary
+### 11.1 Stratos Group Accounting Framework Summary
 
 | Entity | Jurisdiction | Statutory Accounts | GloBE Accounts | Notes |
 |--------|--------------|-------------------|----------------|-------|
@@ -370,7 +348,7 @@ The GloBE Rules do not specify a separate materiality threshold for calculating 
 | SG Singapore Pte Ltd | Singapore | SFRS | IFRS | SFRS is IFRS-identical |
 | TechStart Ltd | Ireland | Irish GAAP | Irish GAAP* | *Art. 3.1.3 exception applied |
 
-### TechStart Exception Documentation
+### 11.2 TechStart Exception Documentation
 
 For TechStart Ltd, Stratos must document why the Article 3.1.3 exception applies:
 
@@ -383,114 +361,35 @@ For TechStart Ltd, Stratos must document why the Article 3.1.3 exception applies
 | Reliable information | Unqualified audit opinion |
 | Permanent differences >€1M | R&D capitalisation: €1.8M adjusted to IFRS treatment |
 
----
+## 12. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Using Consolidated P&L Directly
+### 12.1 Pitfall 1: Using Consolidated P&L Directly
 
 **Wrong:** Taking the consolidated P&L and allocating to jurisdictions based on revenue splits.
 
 **Correct:** Using each CE's individual financial accounts before consolidation eliminations.
 
-### Pitfall 2: Eliminating Intra-Group Transactions
+### 12.2 Pitfall 2: Eliminating Intra-Group Transactions
 
 **Wrong:** Removing intra-group sales when calculating GloBE Income because "they're eliminated at group level."
 
 **Correct:** Including all intra-group transactions at arm's-length values in each CE's GloBE Income.
 
-### Pitfall 3: Deducting Minority Interest
+### 12.3 Pitfall 3: Deducting Minority Interest
 
 **Wrong:** Reducing a CE's GloBE Income by the minority share (e.g., 40% for external investor).
 
 **Correct:** Using full GloBE Income; minority adjustment occurs during Top-Up Tax allocation.
 
-### Pitfall 4: Ignoring Alternative Standard Conditions
+### 12.4 Pitfall 4: Ignoring Alternative Standard Conditions
 
 **Wrong:** Using local GAAP accounts "because that's what we have" without checking the three conditions.
 
 **Correct:** Verifying maintained accounts, reliability, and adjusting permanent differences >€1M.
 
-### Pitfall 5: Missing Material Competitive Distortions
+### 12.5 Pitfall 5: Missing Material Competitive Distortions
 
 **Wrong:** Using an Authorised standard without checking for the €75M distortion threshold.
 
 **Correct:** Comparing key principles to IFRS and quantifying any aggregate variance.
 
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 3.1.1 — GloBE Income/Loss definition
-- Article 3.1.2 — Financial Accounting Net Income/Loss (pre-elimination)
-- Article 3.1.3 — Alternative accounting standard exception
-- Article 10.1 — Definitions (Acceptable/Authorised Financial Accounting Standard)
-
-**OECD Commentary:**
-- Chapter 3, paragraphs 1-25 — Financial accounts starting point
-- Chapter 10 — Definitions
-
-**Administrative Guidance:**
-- February 2023: Clarification on PPA adjustments
-- December 2023: Qualified Financial Statements for safe harbours
-
----
-
-## Process Checklist
-
-Use this checklist when determining the starting point for each CE:
-
-**For Each Constituent Entity:**
-
-- [ ] Identify UPE's accounting standard from consolidated financial statements
-- [ ] Obtain CE's individual financial accounts (pre-consolidation elimination)
-- [ ] Confirm accounts are prepared on same basis as used for consolidation
-- [ ] If different standard used:
-  - [ ] Assess whether conversion is "reasonably practicable"
-  - [ ] If not, verify three conditions under Article 3.1.3
-  - [ ] Identify and document permanent differences >€1M
-  - [ ] Adjust for permanent differences where required
-- [ ] If using Authorised (not Acceptable) standard:
-  - [ ] Check for Material Competitive Distortion (>€75M)
-  - [ ] Adjust if MCD threshold exceeded
-- [ ] Verify intra-group transactions are NOT eliminated
-- [ ] Confirm minority interest is NOT deducted
-- [ ] Document starting point with supporting evidence
-
----
-
-## Integration with GloBE Calculator
-
-The Financial Accounting Net Income or Loss determined in this chapter becomes the **input** for the adjustments covered in Chapters 3.2-3.5:
-
-| Stage | Process | Tool |
-|-------|---------|------|
-| **This Chapter (3.1)** | Determine starting point | Manual identification |
-| Chapter 3.2 | Apply mandatory adjustments | Adjustment checklist |
-| Chapter 3.3 | Consider SBC election | Decision framework |
-| Chapter 3.4 | Apply shipping exclusion (if applicable) | Calculation template |
-| Chapter 3.5 | Allocate PE/flow-through income | Allocation methodology |
-| **Output** | GloBE Income or Loss | Input to **GIR-001 Step 1** |
-
-The final GloBE Income figure feeds into **GIR-001 GloBE Calculator** for ETR calculation.
-
----
-
-## Summary
-
-The starting point for GloBE Income is the **Financial Accounting Net Income or Loss** from each CE's individual accounts, **before consolidation eliminations**.
-
-Key rules:
-1. **Primary rule:** Use accounts prepared under UPE's accounting standard
-2. **Alternative:** If not reasonably practicable, use an Acceptable or Authorised standard
-3. **Conditions:** Maintained accounts, reliable information, adjust >€1M permanent differences
-4. **Authorised standards:** Check for Material Competitive Distortion (>€75M)
-5. **Intra-group transactions:** Include (do not eliminate)
-6. **Minority interest:** Do not deduct (handled in allocation)
-
----
-
-## Next Step
-
-You have identified the correct starting point. Proceed to **Chapter 3.2: Mandatory Adjustments** to learn the adjustments required to convert Financial Accounting Net Income into GloBE Income.

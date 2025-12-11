@@ -4,9 +4,7 @@
 
 After completing this chapter, you will be able to evaluate whether the stock-based compensation election is beneficial for each jurisdiction and apply the election mechanics correctly, including recapture provisions.
 
----
-
-## The Stock-Based Compensation Problem
+## 1. The Stock-Based Compensation Problem
 
 Stock-based compensation (SBC) creates a significant book-to-tax difference that can distort the GloBE ETR calculation.
 
@@ -33,8 +31,6 @@ If accounting SBC expense is lower than tax deduction:
 ```
 
 **Risk:** A jurisdiction could become "low-taxed" purely due to SBC timing differences, triggering Top-Up Tax.
-
----
 
 ## The Article 3.2.2 Election
 
@@ -63,8 +59,6 @@ Top-Up Tax                      Top-Up Tax
 ```
 
 **Key insight:** When tax deduction exceeds accounting expense, the election typically **decreases** GloBE Income (larger deduction reduces net income), which **increases** ETR and **reduces** Top-Up Tax risk.
-
----
 
 ## Election Mechanics
 
@@ -100,8 +94,6 @@ Only **one** Constituent Entity may deduct SBC in excess of the financial accoun
 **Example:** If UK parent grants options to employees of German subsidiary:
 - Germany must have a local tax deduction for the SBC
 - Only the German CE can claim the excess deduction for GloBE purposes
-
----
 
 ## Timing Scenarios
 
@@ -157,8 +149,6 @@ Only **one** Constituent Entity may deduct SBC in excess of the financial accoun
 
 **Recapture rule:** If options expire without exercise, the total amount previously deducted under the election must be included in GloBE Income for the fiscal year of expiry *(Article 3.2.2)*.
 
----
-
 ## Mid-Stream Election Adjustment
 
 ### The Problem
@@ -197,8 +187,6 @@ Adjustment to add to Year 3 GloBE Income:  €500,000
 ```
 
 **Effect:** The €500,000 previously deducted is added back; from Year 3 onwards, only tax deductions are used.
-
----
 
 ## Revocation of the Election
 
@@ -239,8 +227,6 @@ Adjustment: (€600,000)
 
 **Effect:** Reduce GloBE Income by €600,000 in revocation year (effectively reverting to accounting treatment).
 
----
-
 ## Deferred Tax Implications
 
 ### GloBE Carrying Value Requirement
@@ -257,8 +243,6 @@ When the SBC election is made, deferred tax must be recalculated based on **GloB
 ### Practical Impact
 
 The deferred tax adjustment amount in Adjusted Covered Taxes must align with the SBC treatment in GloBE Income. This ensures consistency between numerator (Covered Taxes) and denominator (GloBE Income).
-
----
 
 ## Decision Framework: Should You Elect?
 
@@ -310,8 +294,6 @@ The deferred tax adjustment amount in Adjusted Covered Taxes must align with the
 | Well below 15% | Rising | Election helpful but insufficient alone |
 | Any | High forfeiture risk | **Caution**: recapture exposure |
 
----
-
 ## Stratos Worked Example
 
 ### Background
@@ -335,8 +317,6 @@ Stratos Group plc has a global equity incentive programme granting stock options
 
 **Recommendation:** Do **NOT** elect for Singapore
 
----
-
 **Germany (ETR: 28%)**
 
 | Item | Value |
@@ -351,8 +331,6 @@ Stratos Group plc has a global equity incentive programme granting stock options
 - Higher GloBE Income → Minimal ETR impact (already high-tax)
 
 **Recommendation:** Election is **neutral**; may elect for consistency or skip
-
----
 
 **Ireland (ETR: 12.5% before QDMTT)**
 
@@ -370,8 +348,6 @@ Stratos Group plc has a global equity incentive programme granting stock options
 
 **Recommendation:** Election is **neutral** given QDMTT; consider for future planning
 
----
-
 **United Kingdom (ETR: 24%)**
 
 | Item | Value |
@@ -386,8 +362,6 @@ Stratos Group plc has a global equity incentive programme granting stock options
 
 **Recommendation:** Election is **optional**; may elect for consistency across group
 
----
-
 ### Stratos SBC Election Summary
 
 | Jurisdiction | ETR | Elect? | Rationale |
@@ -397,9 +371,7 @@ Stratos Group plc has a global equity incentive programme granting stock options
 | Ireland | 12.5% | Optional | QDMTT applies |
 | UK | 24% | Optional | High-tax; minimal impact |
 
----
-
-## Common Pitfalls
+## 7. Common Pitfalls
 
 ### Pitfall 1: Assuming Election Always Helps
 
@@ -431,63 +403,8 @@ Stratos Group plc has a global equity incentive programme granting stock options
 
 **Problem:** Deferred tax must be recalculated using GloBE carrying values.
 
----
-
 ## Documentation Requirements
 
 When making or analysing the SBC election, document:
 
 | Item | Purpose |
-|------|---------|
-| Jurisdiction-by-jurisdiction analysis | Support election decision |
-| ETR projections with/without election | Demonstrate rationale |
-| SBC programme details | Identify scope of election |
-| Share price assumptions | Support projections |
-| Local tax deduction rules | Confirm eligibility |
-| Recapture risk assessment | Identify potential future adjustments |
-
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 3.2.2 — Stock-based compensation election
-
-**Administrative Guidance:**
-- July 2023: Deferred tax recalculation for GloBE carrying values
-- December 2023: Election mechanics clarifications
-
-**OECD Commentary:**
-- Chapter 3, paragraphs 85-95 — SBC election guidance
-
----
-
-## Summary
-
-The stock-based compensation election allows substitution of tax-deductible SBC amounts for accounting expense in GloBE Income calculations.
-
-**Key points:**
-
-| Aspect | Detail |
-|--------|--------|
-| **Purpose** | Align GloBE Income with tax treatment; prevent artificial ETR reduction |
-| **Application** | Per jurisdiction; applies to all CEs in jurisdiction |
-| **Duration** | Five-Year Election; continues until revoked |
-| **Recapture** | If options expire unexercised, add back previously deducted amounts |
-| **Decision driver** | Whether tax deduction > or < accounting expense |
-
-**When to elect:**
-- Jurisdiction near 15% ETR threshold
-- Share prices rising (larger tax deductions expected)
-- Tax deduction reliably exceeds accounting expense
-
-**When NOT to elect:**
-- Tax deduction < accounting expense
-- High forfeiture/expiry risk
-- Jurisdiction clearly high-tax or has QDMTT
-
----
-
-## Next Step
-
-You have learned the stock-based compensation election mechanics. Proceed to **Chapter 3.4: International Shipping Exclusion** to learn when and how to apply the shipping income exclusion.

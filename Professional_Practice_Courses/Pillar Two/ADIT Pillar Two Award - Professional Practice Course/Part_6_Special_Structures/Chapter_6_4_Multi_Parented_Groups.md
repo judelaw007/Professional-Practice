@@ -4,26 +4,7 @@
 
 After completing this chapter, you will be able to identify when two or more parent entities form a Multi-Parented MNE Group, distinguish between Stapled Structures and Dual-Listed Arrangements, determine how Top-Up Tax is allocated across multiple UPEs, and ensure correct GIR filing obligations for combined groups.
 
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 6.5.1 — Multi-Parented MNE Group definition
-- Article 6.5.2 — Combined treatment as single MNE Group
-- Article 6.5.3 — Top-Up Tax allocation between UPEs
-- Article 10.1 — Definition of Stapled Structure and Dual-Listed Arrangement
-
-**OECD Commentary:**
-- Chapter 6, paragraphs 126-150 — Multi-Parented MNE Group rules
-
-**Administrative Guidance:**
-- December 2023: Combined GIR filing for Multi-Parented Groups
-- February 2024: Top-Up Tax allocation clarifications
-
----
-
-## Why Special Rules for Multi-Parented Groups?
+## 1. Why Special Rules for Multi-Parented Groups?
 
 Multi-Parented MNE Groups present unique challenges because there is no single Ultimate Parent Entity:
 
@@ -49,13 +30,11 @@ Multi-Parented MNE Groups present unique challenges because there is no single U
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
----
-
-## Definition: Multi-Parented MNE Group *(Article 6.5.1)*
+## 2. Definition: Multi-Parented MNE Group *(Article 6.5.1)*
 
 A **Multi-Parented MNE Group** exists when two or more entities (that would otherwise be separate UPEs) enter into an arrangement that creates a combined group. There are two qualifying arrangements:
 
-### 1. Stapled Structure *(Article 10.1)*
+### 2.1 Stapled Structure *(Article 10.1)*
 
 A **Stapled Structure** arises when:
 
@@ -95,7 +74,7 @@ After Stapling:
 - Property trusts paired with operating companies
 - Infrastructure groups with trust and company components
 
-### 2. Dual-Listed Arrangement (DLA) *(Article 10.1)*
+### 2.2 Dual-Listed Arrangement (DLA) *(Article 10.1)*
 
 A **Dual-Listed Arrangement** arises when:
 
@@ -137,9 +116,7 @@ DUAL-LISTED ARRANGEMENT VISUAL
 - Often structured to access capital markets in multiple jurisdictions
 - Well-known historical examples: BHP Group (UK/Australia), Rio Tinto (UK/Australia), Unilever (UK/Netherlands)
 
----
-
-## The 50% Ownership Threshold
+## 3. The 50% Ownership Threshold
 
 For both structures, the **50% or more** threshold is critical:
 
@@ -163,9 +140,7 @@ If <50% of ownership interests are stapled:
 | Alpha and Beta 60% stapled; 40% trade freely | 60% | Multi-Parented MNE Group |
 | Alpha and Beta 45% stapled; 55% trade freely | 45% | **No** Multi-Parented Group — separate UPEs |
 
----
-
-## Combined Treatment as Single MNE Group *(Article 6.5.2)*
+## 4. Combined Treatment as Single MNE Group *(Article 6.5.2)*
 
 When entities form a Multi-Parented MNE Group:
 
@@ -187,7 +162,7 @@ When entities form a Multi-Parented MNE Group:
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Revenue Threshold Test
+### 4.1 Revenue Threshold Test
 
 The €750M threshold is applied to the **combined group**:
 
@@ -203,11 +178,9 @@ The €750M threshold is applied to the **combined group**:
 - **Both** Alpha and Beta are within GloBE scope
 - Even if neither alone exceeds €750M, the combined test brings them in scope
 
----
+## 5. Top-Up Tax Allocation *(Article 6.5.3)*
 
-## Top-Up Tax Allocation *(Article 6.5.3)*
-
-### The Allocation Principle
+### 5.1 The Allocation Principle
 
 When a Multi-Parented MNE Group has Top-Up Tax liability, it must be **allocated** between the Joint UPEs:
 
@@ -215,7 +188,7 @@ When a Multi-Parented MNE Group has Top-Up Tax liability, it must be **allocated
 Top-Up Tax Allocation = Group Top-Up Tax × Allocable Share
 ```
 
-### Determining Allocable Share
+### 5.2 Determining Allocable Share
 
 The **Allocable Share** for each UPE is based on its relative economic interest in the combined group:
 
@@ -225,7 +198,7 @@ The **Allocable Share** for each UPE is based on its relative economic interest 
 | **Agreement terms** | Equalisation agreement may specify allocation percentages |
 | **Default: 50/50** | If no clear basis, equal allocation applies |
 
-### Example: Stapled Structure Allocation
+### 5.3 Example: Stapled Structure Allocation
 
 **Scenario:** Alpha plc and Beta plc are 100% stapled. Combined group has €400,000 Top-Up Tax.
 
@@ -240,7 +213,7 @@ Allocation:
 Each pays via IIR based on allocable share.
 ```
 
-### Example: DLA Allocation
+### 5.4 Example: DLA Allocation
 
 **Scenario:** UK Co plc and AU Co Ltd have a DLA with 50/50 equalisation. Combined Top-Up Tax is €600,000.
 
@@ -254,11 +227,9 @@ Allocation:
 Each bears IIR based on equalisation terms.
 ```
 
----
+## 6. Jurisdictional Blending in Multi-Parented Groups
 
-## Jurisdictional Blending in Multi-Parented Groups
-
-### All CEs Blend Together
+### 6.1 All CEs Blend Together
 
 Under combined treatment, Constituent Entities blend **across the entire Multi-Parented Group**:
 
@@ -293,11 +264,9 @@ COMBINED SINGAPORE:
 
 **Key point:** Germany entities blend together even though owned by different parents. The combined 22.20% ETR means no Top-Up Tax for Germany.
 
----
+## 7. GIR Filing Obligations
 
-## GIR Filing Obligations
-
-### Both UPEs Have Filing Obligations
+### 7.1 Both UPEs Have Filing Obligations
 
 Each Joint UPE has obligations under GloBE:
 
@@ -319,7 +288,7 @@ Each Joint UPE has obligations under GloBE:
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### IIR Application
+### 7.2 IIR Application
 
 Both UPEs apply IIR to their allocable share:
 
@@ -333,15 +302,13 @@ Both UPEs apply IIR to their allocable share:
 - UTPR may apply in other jurisdictions to collect the allocable share
 - The IIR-jurisdiction UPE pays only its share, not the other's
 
----
+## 8. Stratos Worked Example: Potential DLA Analysis
 
-## Stratos Worked Example: Potential DLA Analysis
-
-### Background
+### 8.1 Background
 
 Stratos Holdings plc is exploring a potential Dual-Listed Arrangement with **NordicTech ASA** (Norway) to access Scandinavian capital markets. The combined entity would operate as a single enterprise.
 
-### Proposed Structure
+### 8.2 Proposed Structure
 
 ```
 PROPOSED DLA STRUCTURE
@@ -484,8 +451,6 @@ ETR ≥ 15% → No Top-Up Tax for Germany
 
 **Observation:** The DLA brings NordicTech's Swedish undertaxation into Stratos's allocable share. Stratos would bear 60% of the combined group's Top-Up Tax, including tax on jurisdictions it doesn't directly operate in.
 
----
-
 ## Planning Considerations for Multi-Parented Groups
 
 ### Pre-Formation Analysis
@@ -532,9 +497,7 @@ ONGOING COMPLIANCE
    - DLA termination provisions
 ```
 
----
-
-## Termination of Multi-Parented Status
+## 9. Termination of Multi-Parented Status
 
 ### When Does Multi-Parented Status End?
 
@@ -544,50 +507,46 @@ ONGOING COMPLIANCE
 | **DLA termination** | Cancellation of equalisation agreement ends combined treatment |
 | **Merger** | If one parent acquires the other, standard single-UPE structure applies |
 
-### Year of Termination
+### 9.2 Year of Termination
 
 In the fiscal year of termination:
 - Prorate combined treatment to date of termination
 - Separate treatment applies from termination date forward
 - Complex transition calculations may be required
 
----
+## 10. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Double-Counting Top-Up Tax
+### 10.1 Pitfall 1: Double-Counting Top-Up Tax
 
 **Error:** Each UPE calculates and reports 100% of the combined group's Top-Up Tax.
 
 **Correct approach:** Each UPE reports and pays only its **allocable share**. Total paid by both UPEs should equal combined group Top-Up Tax (no more, no less).
 
-### Pitfall 2: Failing to Blend Cross-Parent Jurisdictions
+### 10.2 Pitfall 2: Failing to Blend Cross-Parent Jurisdictions
 
 **Error:** Treating Alpha's Germany sub and Beta's Germany sub as separate jurisdictions.
 
 **Correct approach:** Under combined treatment, **all** Constituent Entities in a jurisdiction blend together regardless of which parent owns them.
 
-### Pitfall 3: Ignoring Revenue Threshold Impact
+### 10.3 Pitfall 3: Ignoring Revenue Threshold Impact
 
 **Error:** Assuming each parent tests €750M threshold independently.
 
 **Correct approach:** Combined group revenue is used for the threshold test. A parent below €750M individually may still be in scope through the combined test.
 
-### Pitfall 4: Inconsistent GIR Filings
+### 10.4 Pitfall 4: Inconsistent GIR Filings
 
 **Error:** Each UPE files different data in their respective GIRs.
 
 **Correct approach:** Both UPEs must report the **same** combined group data. Appoint a DFE to ensure consistency.
 
-### Pitfall 5: Misallocating Based on Ownership Rather Than Agreement
+### 10.5 Pitfall 5: Misallocating Based on Ownership Rather Than Agreement
 
 **Error:** Allocating based on actual ownership percentages when an equalisation agreement specifies different terms.
 
 **Correct approach:** Allocation follows the **equalisation agreement** terms for DLAs, not underlying ownership ratios.
 
----
-
-## Multi-Parented Group Assessment Checklist
+## 11. Multi-Parented Group Assessment Checklist
 
 Use this checklist when evaluating a potential Multi-Parented MNE Group:
 
@@ -722,53 +681,3 @@ SECTION G: SUMMARY
 □ Documentation complete?                               YES / NO
 □ GIR coordination process established?                 YES / NO
 ```
-
----
-
-## Summary
-
-Multi-Parented MNE Groups require combined treatment under Article 6.5:
-
-| Aspect | Key Rule |
-|--------|----------|
-| **Structures** | Stapled (≥50% stapled) or DLA (equalisation agreement) |
-| **Treatment** | Combined as single MNE Group |
-| **Revenue test** | Combined group revenue for €750M threshold |
-| **Blending** | All CEs blend by jurisdiction (regardless of parent) |
-| **Allocation** | Top-Up Tax split per ownership ratio or agreement |
-| **Filing** | Both UPEs obligated; DFE recommended |
-| **IIR** | Each UPE pays on its allocable share |
-
-**Key distinction:** Multi-Parented Groups differ from standard structures because there is no single UPE — both parents share GloBE obligations proportionally.
-
----
-
-## Integration with GIR Tools
-
-Multi-Parented Group calculations require **combined data** in GIR-001:
-
-| Consideration | Action |
-|---------------|--------|
-| **Input data** | Combine all CEs from both parent structures |
-| **Jurisdictional grouping** | Blend CEs from both parents in same jurisdiction |
-| **Output allocation** | Apply allocable share to Top-Up Tax results |
-
-**GIR-001 Workflow for Multi-Parented Groups:**
-
-```
-Step 1: Identify all CEs from both parent entities
-Step 2: Confirm Multi-Parented status (≥50% stapled or valid DLA)
-Step 3: Input combined group data into GIR-001
-Step 4: Run standard ETR calculations with combined blending
-Step 5: Extract total Top-Up Tax
-Step 6: Allocate per ownership ratio or equalisation agreement
-Step 7: Each UPE reports allocated share in respective GIR
-```
-
-**GIR Reporting Note:** The GIR must identify the structure as Multi-Parented and disclose the other Joint UPE(s). Allocation methodology must be consistently applied year-on-year.
-
----
-
-## Next Step
-
-You have learned how to identify and handle Multi-Parented MNE Groups. Proceed to **Chapter 6.5: Flow-Through UPEs** for guidance on transparent entities at the top of MNE Group structures.

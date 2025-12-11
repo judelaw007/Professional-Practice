@@ -4,8 +4,6 @@
 
 After completing this chapter, you will be able to calculate the Top-Up Tax Percentage, compute Jurisdictional Top-Up Tax from Excess Profit, apply QDMTT offsets, and allocate Top-Up Tax to Low-Taxed Constituent Entities.
 
----
-
 ## Key References
 
 **OECD GloBE Model Rules:**
@@ -22,9 +20,7 @@ After completing this chapter, you will be able to calculate the Top-Up Tax Perc
 **OECD Commentary:**
 - Chapter 5, paragraphs 96-145 — Top-Up Tax computation methodology
 
----
-
-## The Complete Top-Up Tax Computation
+## 1. The Complete Top-Up Tax Computation
 
 The Top-Up Tax computation follows a four-step process:
 
@@ -42,9 +38,7 @@ Step 4: Allocate to Low-Taxed Constituent Entities
         (In proportion to GloBE Income)
 ```
 
----
-
-## Step 1: Top-Up Tax Percentage *(Article 5.2.1)*
+## 2. Step 1: Top-Up Tax Percentage (Article 5.2.1)
 
 The Top-Up Tax Percentage is the difference between the 15% minimum rate and the jurisdictional ETR:
 
@@ -52,7 +46,7 @@ The Top-Up Tax Percentage is the difference between the 15% minimum rate and the
 Top-Up Tax Percentage = 15% − ETR
 ```
 
-### Key Rules
+### 2.1 Key Rules
 
 | Scenario | Top-Up Tax % | Result |
 |----------|--------------|--------|
@@ -62,7 +56,7 @@ Top-Up Tax Percentage = 15% − ETR
 | ETR = 20% | N/A | Not calculated (ETR ≥ 15%) |
 | ETR = negative | 15% − (−5%) = 20% | Top-Up Tax % = 20% (no cap) |
 
-### Negative ETR Treatment
+### 2.2 Negative ETR Treatment
 
 If the ETR is **negative** (Adjusted Covered Taxes are negative):
 
@@ -75,9 +69,7 @@ Top-Up Tax Percentage = 15% − ETR
 
 Per OECD Commentary paragraph 102, there is no cap—the Top-Up Tax Percentage equals 15% plus the absolute value of the negative ETR. This ensures the jurisdiction reaches a 15% effective rate on Excess Profit.
 
----
-
-## Step 2: Jurisdictional Top-Up Tax *(Article 5.2.2)*
+## 3. Step 2: Jurisdictional Top-Up Tax (Article 5.2.2)
 
 Apply the Top-Up Tax Percentage to Excess Profit:
 
@@ -88,7 +80,7 @@ Jurisdictional Top-Up Tax = Top-Up Tax Percentage × Excess Profit
 Where:
 - **Excess Profit** = Net GloBE Income − SBIE (from Chapter 5.2)
 
-### The Complete Formula Chain
+### 3.1 The Complete Formula Chain
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -105,9 +97,7 @@ Where:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
-
-## Step 3: QDMTT Offset
+## 4. Step 3: QDMTT Offset
 
 If the jurisdiction has a **Qualified Domestic Minimum Top-Up Tax (QDMTT)**, the QDMTT paid reduces the Jurisdictional Top-Up Tax:
 
@@ -115,14 +105,14 @@ If the jurisdiction has a **Qualified Domestic Minimum Top-Up Tax (QDMTT)**, the
 Net Top-Up Tax = Jurisdictional Top-Up Tax − QDMTT Paid
 ```
 
-### QDMTT Priority Rule
+### 4.1 QDMTT Priority Rule
 
 QDMTT has **priority** over IIR and UTPR:
 1. Jurisdiction collects its own QDMTT first
 2. Any remaining Top-Up Tax is collected via IIR or UTPR
 3. If QDMTT covers full Top-Up Tax, no IIR/UTPR applies
 
-### Example: Ireland with QDMTT
+### 4.2 Example: Ireland with QDMTT
 
 Ireland has implemented a QDMTT. If Ireland collects the full Top-Up Tax domestically:
 
@@ -134,9 +124,7 @@ Ireland has implemented a QDMTT. If Ireland collects the full Top-Up Tax domesti
 
 **Result:** No Top-Up Tax flows to parent entity under IIR—Ireland retains the tax.
 
----
-
-## Step 4: Allocation to Low-Taxed Constituent Entities *(Article 5.2.4)*
+## 5. Step 4: Allocation to Low-Taxed Constituent Entities (Article 5.2.4)
 
 The Jurisdictional Top-Up Tax is allocated to Constituent Entities **in proportion to their GloBE Income**:
 
@@ -146,14 +134,14 @@ Entity's Top-Up Tax = Jurisdictional Top-Up Tax × ─────────�
                                                    Total Jurisdictional GloBE Income
 ```
 
-### Why Allocation Matters
+### 5.1 Why Allocation Matters
 
 Allocation determines:
 - Which entity triggers the IIR charge
 - Which parent in the ownership chain pays the Top-Up Tax
 - Reporting requirements on the GIR
 
-### Multi-Entity Jurisdiction Example
+### 5.2 Multi-Entity Jurisdiction Example
 
 **Jurisdiction:** Singapore (two entities)
 
@@ -173,7 +161,7 @@ Allocation determines:
 | SG Singapore Services Pte Ltd | €197,916 × 20% | €39,583 |
 | **Total** | | **€197,916** |
 
-### Loss Entities
+### 5.3 Loss Entities
 
 If a Constituent Entity has a **GloBE Loss**, it receives **no allocation**—losses are not included in the denominator for allocation purposes.
 
@@ -185,13 +173,11 @@ If a Constituent Entity has a **GloBE Loss**, it receives **no allocation**—lo
 
 **Allocation base:** €5,000,000 + €2,000,000 = €7,000,000
 
----
-
-## Additional Current Top-Up Tax *(Article 5.2.3)*
+## 6. Additional Current Top-Up Tax (Article 5.2.3)
 
 Additional Current Top-Up Tax arises in specific situations:
 
-### When It Applies
+### 6.1 When It Applies
 
 | Trigger | Article | Treatment |
 |---------|---------|-----------|
@@ -199,7 +185,7 @@ Additional Current Top-Up Tax arises in specific situations:
 | **Post-filing decrease** | 4.6 | Prior year Covered Taxes reduced → recalculate prior year |
 | **Transition adjustments** | 9.1 | Certain transition period corrections |
 
-### Calculation
+### 6.2 Calculation
 
 When Additional Current Top-Up Tax is triggered:
 
@@ -208,7 +194,7 @@ When Additional Current Top-Up Tax is triggered:
 3. **Compute** the additional Top-Up Tax for that prior year
 4. **Include** as Additional Current Top-Up Tax in the **current** fiscal year
 
-### Example: DTL Recapture
+### 6.3 Example: DTL Recapture
 
 **FY 2024:** SG Germany GmbH claimed €400,000 DTL (at 15% cap) in Covered Taxes.
 
@@ -230,11 +216,9 @@ When Additional Current Top-Up Tax is triggered:
 - Excess Profit (assume SBIE applied) = €40,000,000
 - Additional Current Top-Up Tax = €200,000 (payable in FY 2029)
 
----
+## 7. Stratos Worked Example: Complete Top-Up Tax Computation
 
-## Stratos Worked Example: Complete Top-Up Tax Computation
-
-### Jurisdiction 1: Singapore
+### 7.1 Jurisdiction 1: Singapore
 
 **Data from previous chapters:**
 
@@ -275,7 +259,7 @@ Singapore has one entity (SG Singapore Pte Ltd):
 Allocation: 100% to SG Singapore Pte Ltd = €197,498
 ```
 
-### Singapore Summary
+### 7.2 Singapore Summary
 
 | Step | Description | Amount |
 |------|-------------|--------|
@@ -284,9 +268,7 @@ Allocation: 100% to SG Singapore Pte Ltd = €197,498
 | 3 | QDMTT Offset | €0 |
 | 4 | **Net Top-Up Tax** | **€197,498** |
 
----
-
-### Jurisdiction 2: Ireland
+### 7.3 Jurisdiction 2: Ireland
 
 **Data from previous chapters:**
 
@@ -323,7 +305,7 @@ Net Top-Up Tax (IIR/UTPR):              €0
 
 Since QDMTT covers the full liability, no allocation to parent entities is required for IIR purposes.
 
-### Ireland Summary
+### 7.4 Ireland Summary
 
 | Step | Description | Amount |
 |------|-------------|--------|
@@ -334,11 +316,9 @@ Since QDMTT covers the full liability, no allocation to parent entities is requi
 
 **Result:** Ireland retains the Top-Up Tax through QDMTT. No IIR charge to Stratos Holdings plc.
 
----
+## 8. Consolidated Top-Up Tax Summary
 
-## Consolidated Top-Up Tax Summary
-
-### Stratos Group FY 2025
+### 8.1 Stratos Group FY 2025
 
 | Jurisdiction | ETR | Top-Up Tax % | Excess Profit | Jur. Top-Up Tax | QDMTT | Net Top-Up Tax |
 |--------------|-----|--------------|---------------|-----------------|-------|----------------|
@@ -347,7 +327,7 @@ Since QDMTT covers the full liability, no allocation to parent entities is requi
 | Ireland | 11.80% | 3.20% | €13,324,800 | €426,394 | (€426,394) | €0 |
 | **Total** | | | | **€623,892** | **(€426,394)** | **€197,498** |
 
-### Where Does Stratos Pay?
+### 8.2 Where Does Stratos Pay?
 
 | Amount | Recipient | Mechanism |
 |--------|-----------|-----------|
@@ -360,13 +340,11 @@ Since QDMTT covers the full liability, no allocation to parent entities is requi
 - Paid to UK via IIR: €197,498
 - Retained by Ireland via QDMTT: €426,394
 
----
-
-## IIR vs UTPR Application
+## 9. IIR vs UTPR Application
 
 Once the Net Top-Up Tax is determined, the charging mechanism applies:
 
-### IIR First *(Article 2.1)*
+### 9.1 IIR First (Article 2.1)
 
 The **IIR** applies at the Ultimate Parent Entity level:
 
@@ -377,7 +355,7 @@ If UPE is in an IIR jurisdiction:
 
 **Stratos example:** UK has implemented IIR. Stratos Holdings plc pays €197,498 on Singapore.
 
-### UTPR as Backstop *(Article 2.4)*
+### 9.2 UTPR as Backstop (Article 2.4)
 
 The **UTPR** applies if:
 - No IIR covers the Top-Up Tax, OR
@@ -388,9 +366,7 @@ If UPE is NOT in an IIR jurisdiction:
     → UTPR jurisdictions collect Top-Up Tax via denied deductions
 ```
 
----
-
-## Computation Flowchart
+## 10. Computation Flowchart
 
 ```
 START: Low-taxed jurisdiction identified (ETR < 15%)
@@ -440,43 +416,39 @@ START: Low-taxed jurisdiction identified (ETR < 15%)
 END: Top-Up Tax collected
 ```
 
----
+## 11. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Applying Top-Up Tax % to Net GloBE Income
+### 11.1 Pitfall 1: Applying Top-Up Tax % to Net GloBE Income
 
 **Error:** Calculating Top-Up Tax as Top-Up Tax % × Net GloBE Income.
 
 **Correct approach:** Apply Top-Up Tax % to **Excess Profit** (Net GloBE Income − SBIE).
 
-### Pitfall 2: Forgetting QDMTT Offset
+### 11.2 Pitfall 2: Forgetting QDMTT Offset
 
 **Error:** Reporting full Jurisdictional Top-Up Tax without checking for QDMTT.
 
 **Correct approach:** Always check if the jurisdiction has implemented QDMTT and reduce the IIR/UTPR liability accordingly.
 
-### Pitfall 3: Allocating to Loss Entities
+### 11.3 Pitfall 3: Allocating to Loss Entities
 
 **Error:** Including entities with GloBE Losses in the allocation calculation.
 
 **Correct approach:** Only entities with **positive** GloBE Income receive an allocation of Top-Up Tax.
 
-### Pitfall 4: Ignoring Additional Current Top-Up Tax
+### 11.4 Pitfall 4: Ignoring Additional Current Top-Up Tax
 
 **Error:** Failing to track DTL recapture and post-filing adjustments.
 
 **Correct approach:** Monitor 5-year DTL reversal and 3-year current tax payment timelines; recalculate prior years when triggered.
 
-### Pitfall 5: Double-Counting QDMTT
+### 11.5 Pitfall 5: Double-Counting QDMTT
 
 **Error:** Reducing Jurisdictional Top-Up Tax by estimated QDMTT before it's actually paid.
 
 **Correct approach:** Only offset QDMTT that is **actually paid** in the fiscal year.
 
----
-
-## Top-Up Tax Calculation Worksheet
+## 12. Top-Up Tax Calculation Worksheet
 
 Use this worksheet for each low-taxed jurisdiction:
 
@@ -538,45 +510,3 @@ G1  UPE in IIR jurisdiction?                      YES / NO
     If YES: IIR applies → UPE pays Top-Up Tax
     If NO:  UTPR applies → Allocated to UTPR jurisdictions
 ```
-
----
-
-## Summary
-
-The Top-Up Tax computation brings together all prior calculations to determine the final liability. The key implementation steps are:
-
-1. **Calculate Top-Up Tax Percentage** — 15% minus jurisdictional ETR
-2. **Apply to Excess Profit** — Not to full GloBE Income
-3. **Check for QDMTT** — Offset any domestic minimum tax already paid
-4. **Allocate to LTCEs** — In proportion to positive GloBE Income
-5. **Monitor Additional Current Top-Up Tax** — Track DTL recapture and post-filing adjustments
-6. **Apply charging mechanism** — IIR first, UTPR as backstop
-
-QDMTT-implementing jurisdictions retain their own Top-Up Tax, eliminating IIR/UTPR collection.
-
----
-
-## Integration with GIR Tools
-
-The Top-Up Tax calculation is **Step 3** of the GIR-001 GloBE Calculator workflow:
-
-| GIR-001 Step | Function | Data Input |
-|--------------|----------|------------|
-| Step 1: ETR Calculation | Identifies low-taxed jurisdictions | GloBE Income + Covered Taxes |
-| Step 2: SBIE Calculation | Computes substance carve-out | Payroll + Tangible Assets |
-| **Step 3: Top-Up Tax** | Computes final liability | ETR + SBIE + QDMTT status |
-
-**Workflow:**
-
-1. GIR-001 automatically calculates Top-Up Tax % from ETR
-2. GIR-001 applies Top-Up Tax % to Excess Profit
-3. Enter QDMTT paid (if applicable) for offset
-4. GIR-001 displays Net Top-Up Tax and allocation by entity
-
-Use **GIR-001 GloBE Calculator** at tools.mojitax.com to compute final Top-Up Tax liabilities and verify your manual calculations.
-
----
-
-## Next Step
-
-You have learned how to compute the Jurisdictional Top-Up Tax and apply QDMTT offsets. Proceed to **Chapter 5.4: Qualified Domestic Minimum Top-Up Tax (QDMTT)** for detailed guidance on QDMTT criteria, safe harbours, and jurisdictional implementation status.
