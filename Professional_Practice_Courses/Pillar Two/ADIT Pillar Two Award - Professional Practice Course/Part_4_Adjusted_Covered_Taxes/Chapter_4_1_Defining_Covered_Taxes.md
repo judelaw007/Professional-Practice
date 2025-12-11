@@ -128,11 +128,11 @@ Equally important is knowing what to exclude. The following are explicitly non-q
 
 Two specific exclusions regardless of nature:
 
-1. **Top-up Tax under Qualified IIR** (Article 4.2.2(a))
+1. **Top-Up Tax under Qualified IIR** (Article 4.2.2(a))
    - A parent's IIR liability on low-taxed subsidiaries is NOT a Covered Tax
    - Reason: Including it would create circular calculation
 
-2. **Top-up Tax under Qualified DMTT** (Article 4.2.2(b))
+2. **Top-Up Tax under Qualified DMTT** (Article 4.2.2(b))
    - A CE's domestic minimum top-up tax is NOT a Covered Tax
    - Reason: QDMTT eliminates IIR/UTPR liability directly; it's not part of ETR calculation
 
