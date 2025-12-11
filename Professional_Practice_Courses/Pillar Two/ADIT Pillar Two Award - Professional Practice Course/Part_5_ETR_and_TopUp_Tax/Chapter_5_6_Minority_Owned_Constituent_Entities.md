@@ -2,7 +2,7 @@
 
 ## Learning Objective
 
-After completing this chapter, you will be able to identify Minority-Owned Constituent Entities (MOCEs), apply the separate ETR calculation requirement, compute Top-up Tax for MOCEs and Minority-Owned Sub-Groups, and allocate Top-up Tax liability between the main MNE Group and minority interests.
+After completing this chapter, you will be able to identify Minority-Owned Constituent Entities (MOCEs), apply the separate ETR calculation requirement, compute Top-Up Tax for MOCEs and Minority-Owned Sub-Groups, and allocate Top-Up Tax liability between the main MNE Group and minority interests.
 
 ---
 
@@ -35,12 +35,12 @@ The standard jurisdictional blending rule combines all Constituent Entities in a
 │ If UPE owns only 25% of Entity X:                                  │
 │ → 75% of Entity X's income belongs to OTHER shareholders           │
 │ → But jurisdictional blending includes 100% of Entity X            │
-│ → This could trigger Top-up Tax that minority shareholders         │
+│ → This could trigger Top-Up Tax that minority shareholders         │
 │   shouldn't bear                                                    │
 │                                                                     │
 │ OR                                                                  │
 │                                                                     │
-│ → Entity X's high ETR could shield OTHER entities from Top-up Tax  │
+│ → Entity X's high ETR could shield OTHER entities from Top-Up Tax  │
 │ → The UPE benefits from taxes paid by minority shareholders        │
 └─────────────────────────────────────────────────────────────────────┘
 ```
@@ -159,7 +159,7 @@ When a Minority-Owned Sub-Group exists:
 │ → Jurisdictional blending (within the sub-group only)              │
 │ → ETR calculation                                                   │
 │ → SBIE calculation                                                  │
-│ → Top-up Tax calculation                                           │
+│ → Top-Up Tax calculation                                           │
 │                                                                     │
 │ The Sub-Group's income and taxes are EXCLUDED from the             │
 │ main MNE Group's jurisdictional calculations.                      │
@@ -264,18 +264,18 @@ Excess Profit = €2,220,000
 ### Step 4: Calculate Top-Up Tax
 
 ```
-Top-up Tax % = 15% − 12% = 3%
+Top-Up Tax % = 15% − 12% = 3%
 
-Top-up Tax = 3% × €2,220,000 = €66,600
+Top-Up Tax = 3% × €2,220,000 = €66,600
 ```
 
 ### Step 5: Apply QDMTT Offset (If Applicable)
 
-Ireland has QDMTT. Assume Ireland collects the full Top-up Tax domestically:
+Ireland has QDMTT. Assume Ireland collects the full Top-Up Tax domestically:
 
 ```
 QDMTT Paid:         €66,600
-Net Top-up Tax:     €0
+Net Top-Up Tax:     €0
 ```
 
 **Result:** Ireland retains the €66,600 through its QDMTT.
@@ -287,10 +287,10 @@ Net Top-up Tax:     €0
 | Entities included | Ireland OpCo 1, OpCo 2 | Atlas Ireland Ltd only |
 | GloBE Income | €15,000,000 | €2,400,000 |
 | ETR | 11.80% | 12.00% |
-| Top-up Tax % | 3.20% | 3.00% |
-| Jurisdictional Top-up Tax | €426,394 | €66,600 |
+| Top-Up Tax % | 3.20% | 3.00% |
+| Jurisdictional Top-Up Tax | €426,394 | €66,600 |
 | QDMTT offset | (€426,394) | (€66,600) |
-| Net Top-up Tax | €0 | €0 |
+| Net Top-Up Tax | €0 | €0 |
 
 **Key insight:** Without MOCE separation, Atlas Ireland's 12% ETR would have been blended with the main group's 11.80%, potentially affecting both calculations unfairly.
 
@@ -332,7 +332,7 @@ Minority-Owned Sub-Group: Nexus Holdings BV + Nexus Germany GmbH
 | Adjusted Covered Taxes | €450,000 |
 | ETR | 25.00% |
 
-**Result:** ETR ≥ 15% → No Top-up Tax for Netherlands within Sub-Group.
+**Result:** ETR ≥ 15% → No Top-Up Tax for Netherlands within Sub-Group.
 
 **Step 2: Germany ETR (Sub-Group Member)**
 
@@ -342,7 +342,7 @@ Minority-Owned Sub-Group: Nexus Holdings BV + Nexus Germany GmbH
 | Adjusted Covered Taxes | €980,000 |
 | ETR | 28.00% |
 
-**Result:** ETR ≥ 15% → No Top-up Tax for Germany within Sub-Group.
+**Result:** ETR ≥ 15% → No Top-Up Tax for Germany within Sub-Group.
 
 ### Main Group Germany (Separate Calculation)
 
@@ -353,7 +353,7 @@ Stratos's main group also has entities in Germany (SG Germany GmbH):
 | Entities | SG Germany GmbH | Nexus Germany GmbH |
 | GloBE Income | €50,000,000 | €3,500,000 |
 | ETR | 23.00% | 28.00% |
-| Top-up Tax | €0 | €0 |
+| Top-Up Tax | €0 | €0 |
 
 **Important:** Nexus Germany GmbH is **excluded** from Main Group Germany's blending.
 
@@ -380,27 +380,27 @@ Stratos's main group also has entities in Germany (SG Germany GmbH):
     Main Group         Stand-alone          MOPE
     Subsidiaries         MOCE             (Sub-Group)
                                               │
-    Top-up Tax:       Top-up Tax:            │
+    Top-Up Tax:       Top-Up Tax:            │
     UPE pays          UPE pays               ▼
     via IIR           via IIR           Sub-Group
                                          Subsidiaries
                                               │
-                                         Top-up Tax:
+                                         Top-Up Tax:
                                          MOPE pays (as POPE)
                                          via IIR within Sub-Group
 ```
 
 ### Attribution Based on Ownership
 
-Even though the UPE bears Top-up Tax for a MOCE, the **amount** reflects only the UPE's ownership share in the GloBE Income:
+Even though the UPE bears Top-Up Tax for a MOCE, the **amount** reflects only the UPE's ownership share in the GloBE Income:
 
 ```
-UPE's Top-up Tax Attribution = Top-up Tax × UPE's Ownership %
+UPE's Top-Up Tax Attribution = Top-Up Tax × UPE's Ownership %
 
 Example: Atlas Ireland Ltd
-- Total MOCE Top-up Tax: €66,600
+- Total MOCE Top-Up Tax: €66,600
 - UPE ownership: 28%
-- UPE's attributed Top-up Tax: €66,600 × 28% = €18,648
+- UPE's attributed Top-Up Tax: €66,600 × 28% = €18,648
 
 Note: The full €66,600 is still computed and potentially collected
       via QDMTT, but the UPE's economic exposure is 28%.
@@ -531,7 +531,7 @@ Example: 60% × 40% = 24% indirect ownership
 
 ### Pitfall 5: Allocating Wrong Top-Up Tax Amount
 
-**Error:** Allocating 100% of MOCE Top-up Tax to the UPE without considering ownership percentage.
+**Error:** Allocating 100% of MOCE Top-Up Tax to the UPE without considering ownership percentage.
 
 **Correct approach:** While the UPE bears the tax obligation, attribution for economic purposes is based on ownership share.
 
@@ -581,7 +581,7 @@ PART B: SEPARATE CALCULATION (Stand-alone MOCE)
 □ Adjusted Covered Taxes:           €__________________
 □ ETR (Taxes ÷ Income):             __________________%
 
-   If ETR ≥ 15%: No Top-up Tax. STOP.
+   If ETR ≥ 15%: No Top-Up Tax. STOP.
 
 □ SBIE Calculation (separate):
    □ Eligible Payroll:              €__________________
@@ -591,11 +591,11 @@ PART B: SEPARATE CALCULATION (Stand-alone MOCE)
    □ Total SBIE:                    €__________________
 
 □ Excess Profit (Income − SBIE):    €__________________
-□ Top-up Tax % (15% − ETR):         __________________%
-□ MOCE Top-up Tax:                  €__________________
+□ Top-Up Tax % (15% − ETR):         __________________%
+□ MOCE Top-Up Tax:                  €__________________
 
 □ QDMTT Offset (if applicable):    (€__________________)
-□ Net Top-up Tax:                   €__________________
+□ Net Top-Up Tax:                   €__________________
 
 PART C: SUB-GROUP CALCULATION (If MOPE)
 
@@ -607,11 +607,11 @@ PART C: SUB-GROUP CALCULATION (If MOPE)
 □ Apply full GloBE calculations as if Sub-Group were separate MNE:
    □ Jurisdictional blending within Sub-Group
    □ Separate SBIE for Sub-Group
-   □ Separate Top-up Tax for Sub-Group
+   □ Separate Top-Up Tax for Sub-Group
 
 PART D: TOP-UP TAX ATTRIBUTION
 
-□ Total MOCE/Sub-Group Top-up Tax:  €__________________
+□ Total MOCE/Sub-Group Top-Up Tax:  €__________________
 □ UPE Ownership %:                  __________________%
 □ UPE Attributed Share:             €__________________
 □ Mechanism: IIR / QDMTT offset
@@ -629,7 +629,7 @@ Minority-Owned Constituent Entities require special treatment to prevent unfair 
 | **Stand-alone MOCE** | Entity-level separate ETR (Article 5.6.2) |
 | **Minority-Owned Sub-Group** | Sub-Group treated as separate MNE (Article 5.6.1) |
 | **Multiple ETRs** | Same jurisdiction may have multiple ETR calculations |
-| **Top-up Tax** | UPE bears obligation; MOPE bears for its subsidiaries |
+| **Top-Up Tax** | UPE bears obligation; MOPE bears for its subsidiaries |
 | **De Minimis** | MOCEs included in threshold calculation |
 | **Investment Entities** | Investment Entity rules take priority |
 | **QDMTT** | Must follow MOCE separation to qualify |
@@ -660,10 +660,10 @@ Step 2: For each jurisdiction:
         └── Run GIR-001 for each Stand-alone MOCE
         │
         ▼
-Step 3: Aggregate Top-up Tax results
-        ├── Main Group Top-up Tax
-        ├── Sub-Group Top-up Tax
-        └── Stand-alone MOCE Top-up Tax
+Step 3: Aggregate Top-Up Tax results
+        ├── Main Group Top-Up Tax
+        ├── Sub-Group Top-Up Tax
+        └── Stand-alone MOCE Top-Up Tax
         │
         ▼
 Step 4: Apply QDMTT offsets (separately for each calculation)

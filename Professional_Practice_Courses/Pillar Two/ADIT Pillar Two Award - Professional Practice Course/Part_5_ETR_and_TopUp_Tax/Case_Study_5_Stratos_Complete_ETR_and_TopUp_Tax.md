@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This case study brings together all concepts from Chapters 5.1 to 5.6. You will compute the Effective Tax Rate for each jurisdiction, apply the Substance-Based Income Exclusion (SBIE), calculate Top-up Tax, apply the De Minimis Exclusion and QDMTT offsets, and handle a Minority-Owned Constituent Entity.
+This case study brings together all concepts from Chapters 5.1 to 5.6. You will compute the Effective Tax Rate for each jurisdiction, apply the Substance-Based Income Exclusion (SBIE), calculate Top-Up Tax, apply the De Minimis Exclusion and QDMTT offsets, and handle a Minority-Owned Constituent Entity.
 
-**Important:** Work through each task systematically. Complete the ETR calculation for all jurisdictions before proceeding to SBIE and Top-up Tax calculations. Apply exclusions and offsets in the correct order.
+**Important:** Work through each task systematically. Complete the ETR calculation for all jurisdictions before proceeding to SBIE and Top-Up Tax calculations. Apply exclusions and offsets in the correct order.
 
 **Time estimate:** 120-150 minutes
 
@@ -12,7 +12,7 @@ This case study brings together all concepts from Chapters 5.1 to 5.6. You will 
 
 ## Background: Stratos Group — FY 2025 Complete Top-Up Tax Computation
 
-Stratos Group has completed its GloBE Income calculations (Case Study 3) and Covered Tax computations (Case Study 4). The tax team must now bring these together to determine ETR, SBIE, and any Top-up Tax liability across all jurisdictions.
+Stratos Group has completed its GloBE Income calculations (Case Study 3) and Covered Tax computations (Case Study 4). The tax team must now bring these together to determine ETR, SBIE, and any Top-Up Tax liability across all jurisdictions.
 
 ### Entity Overview
 
@@ -164,11 +164,11 @@ Does Luxembourg qualify for De Minimis Exclusion?   YES / NO
 If YES:
 → No ETR calculation required for Luxembourg
 → GloBE Income deemed €0
-→ Top-up Tax deemed €0
+→ Top-Up Tax deemed €0
 → Election made: YES
 
 If NO:
-→ Proceed with full ETR and Top-up Tax calculation
+→ Proceed with full ETR and Top-Up Tax calculation
 ```
 
 ---
@@ -245,8 +245,8 @@ Excess Profit:                          €__________________
 ### Your Task
 
 For each low-taxed jurisdiction (excluding De Minimis), calculate:
-1. Top-up Tax Percentage (15% − ETR)
-2. Jurisdictional Top-up Tax (Top-up Tax % × Excess Profit)
+1. Top-Up Tax Percentage (15% − ETR)
+2. Jurisdictional Top-Up Tax (Top-Up Tax % × Excess Profit)
 
 ### Expected Deliverable
 
@@ -254,9 +254,9 @@ For each low-taxed jurisdiction (excluding De Minimis), calculate:
 
 | Step | Calculation | Result |
 |------|-------------|--------|
-| Top-up Tax % | 15% − ______% | ______% |
+| Top-Up Tax % | 15% − ______% | ______% |
 | Excess Profit | From Task 3 | €____________ |
-| **Jurisdictional Top-up Tax** | ______% × €____________ | **€____________** |
+| **Jurisdictional Top-Up Tax** | ______% × €____________ | **€____________** |
 
 ---
 
@@ -264,9 +264,9 @@ For each low-taxed jurisdiction (excluding De Minimis), calculate:
 
 | Step | Calculation | Result |
 |------|-------------|--------|
-| Top-up Tax % | 15% − ______% | ______% |
+| Top-Up Tax % | 15% − ______% | ______% |
 | Excess Profit | From Task 3 | €____________ |
-| **Jurisdictional Top-up Tax** | ______% × €____________ | **€____________** |
+| **Jurisdictional Top-Up Tax** | ______% × €____________ | **€____________** |
 
 ---
 
@@ -274,9 +274,9 @@ For each low-taxed jurisdiction (excluding De Minimis), calculate:
 
 | Step | Calculation | Result |
 |------|-------------|--------|
-| Top-up Tax % | 15% − ______% | ______% |
+| Top-Up Tax % | 15% − ______% | ______% |
 | Excess Profit | From Task 3 | €____________ |
-| **MOCE Top-up Tax** | ______% × €____________ | **€____________** |
+| **MOCE Top-Up Tax** | ______% × €____________ | **€____________** |
 
 ---
 
@@ -284,13 +284,13 @@ For each low-taxed jurisdiction (excluding De Minimis), calculate:
 
 ### Your Task
 
-For jurisdictions with QDMTT, determine whether the QDMTT offsets the Jurisdictional Top-up Tax. Calculate the Net Top-up Tax (IIR/UTPR liability).
+For jurisdictions with QDMTT, determine whether the QDMTT offsets the Jurisdictional Top-Up Tax. Calculate the Net Top-Up Tax (IIR/UTPR liability).
 
 ### Expected Deliverable
 
 **QDMTT Offset Analysis**
 
-| Jurisdiction | Jur. Top-up Tax (€) | Has QDMTT? | QDMTT Paid (€) | Net Top-up Tax (€) |
+| Jurisdiction | Jur. Top-Up Tax (€) | Has QDMTT? | QDMTT Paid (€) | Net Top-Up Tax (€) |
 |--------------|---------------------|------------|----------------|-------------------|
 | Singapore | | | | |
 | Ireland (Main) | | | | |
@@ -315,14 +315,14 @@ Atlas Ireland (MOCE): __________________________________________________
 Prepare a consolidated summary showing:
 1. All jurisdictions assessed
 2. ETR by jurisdiction
-3. Top-up Tax before and after exclusions/offsets
+3. Top-Up Tax before and after exclusions/offsets
 4. Final IIR liability for Stratos Holdings plc
 
 ### Expected Deliverable
 
 **Jurisdiction Summary Table**
 
-| Jurisdiction | GloBE Income (€) | ETR | Top-up Tax % | Exclusion/Offset | Final Liability (€) |
+| Jurisdiction | GloBE Income (€) | ETR | Top-Up Tax % | Exclusion/Offset | Final Liability (€) |
 |--------------|------------------|-----|--------------|------------------|---------------------|
 | UK | | | | | |
 | Germany | | | | | |
@@ -336,13 +336,13 @@ Prepare a consolidated summary showing:
 
 | Item | Amount (€) |
 |------|------------|
-| Singapore Top-up Tax (IIR) | |
-| Ireland Top-up Tax (QDMTT offset) | |
+| Singapore Top-Up Tax (IIR) | |
+| Ireland Top-Up Tax (QDMTT offset) | |
 | Luxembourg (De Minimis) | |
 | Atlas Ireland (QDMTT offset) | |
 | **Total IIR Liability** | |
 
-**Where Is Top-up Tax Paid?**
+**Where Is Top-Up Tax Paid?**
 
 | Amount (€) | Recipient | Mechanism |
 |------------|-----------|-----------|
@@ -379,7 +379,7 @@ Verify the MOCE treatment for Atlas Ireland Ltd and confirm the separate calcula
 | Covered Taxes | | | NO |
 | ETR calculated separately? | | | |
 | SBIE calculated separately? | | | |
-| Top-up Tax calculated separately? | | | |
+| Top-Up Tax calculated separately? | | | |
 
 **Why Separate Treatment?**
 
@@ -453,10 +453,10 @@ Does Luxembourg qualify for De Minimis Exclusion?   YES ✓
 
 → No ETR calculation required for Luxembourg
 → GloBE Income deemed €0
-→ Top-up Tax deemed €0
+→ Top-Up Tax deemed €0
 → Election made: YES
 
-Luxembourg excluded from further Top-up Tax calculation.
+Luxembourg excluded from further Top-Up Tax calculation.
 ```
 
 ---
@@ -535,9 +535,9 @@ Excess Profit:                          €2,236,000
 
 | Step | Calculation | Result |
 |------|-------------|--------|
-| Top-up Tax % | 15% − 9.81% | **5.19%** |
+| Top-Up Tax % | 15% − 9.81% | **5.19%** |
 | Excess Profit | From Task 3 | €3,832,500 |
-| **Jurisdictional Top-up Tax** | 5.19% × €3,832,500 | **€198,907** |
+| **Jurisdictional Top-Up Tax** | 5.19% × €3,832,500 | **€198,907** |
 
 ---
 
@@ -545,9 +545,9 @@ Excess Profit:                          €2,236,000
 
 | Step | Calculation | Result |
 |------|-------------|--------|
-| Top-up Tax % | 15% − 11.80% | **3.20%** |
+| Top-Up Tax % | 15% − 11.80% | **3.20%** |
 | Excess Profit | From Task 3 | €13,404,000 |
-| **Jurisdictional Top-up Tax** | 3.20% × €13,404,000 | **€428,928** |
+| **Jurisdictional Top-Up Tax** | 3.20% × €13,404,000 | **€428,928** |
 
 ---
 
@@ -555,9 +555,9 @@ Excess Profit:                          €2,236,000
 
 | Step | Calculation | Result |
 |------|-------------|--------|
-| Top-up Tax % | 15% − 12.00% | **3.00%** |
+| Top-Up Tax % | 15% − 12.00% | **3.00%** |
 | Excess Profit | From Task 3 | €2,236,000 |
-| **MOCE Top-up Tax** | 3.00% × €2,236,000 | **€67,080** |
+| **MOCE Top-Up Tax** | 3.00% × €2,236,000 | **€67,080** |
 
 ---
 
@@ -565,7 +565,7 @@ Excess Profit:                          €2,236,000
 
 **QDMTT Offset Analysis**
 
-| Jurisdiction | Jur. Top-up Tax (€) | Has QDMTT? | QDMTT Paid (€) | Net Top-up Tax (€) |
+| Jurisdiction | Jur. Top-Up Tax (€) | Has QDMTT? | QDMTT Paid (€) | Net Top-Up Tax (€) |
 |--------------|---------------------|------------|----------------|-------------------|
 | Singapore | 198,907 | **No** | 0 | **198,907** |
 | Ireland (Main) | 428,928 | **Yes** | 428,928 | **0** |
@@ -574,7 +574,7 @@ Excess Profit:                          €2,236,000
 **Notes:**
 
 ```
-Singapore: No QDMTT implemented. Full Top-up Tax of €198,907 payable via IIR
+Singapore: No QDMTT implemented. Full Top-Up Tax of €198,907 payable via IIR
            to Stratos Holdings plc (UK).
 
 Ireland (Main): Ireland has QDMTT effective 1 Jan 2024. Ireland collects €428,928
@@ -582,7 +582,7 @@ Ireland (Main): Ireland has QDMTT effective 1 Jan 2024. Ireland collects €428,
 
 Atlas Ireland (MOCE): Although a MOCE with separate calculation, Ireland's QDMTT
                       still applies. Ireland collects €67,080 domestically. MOCE
-                      Top-up Tax does not flow to UK parent via IIR.
+                      Top-Up Tax does not flow to UK parent via IIR.
 ```
 
 ---
@@ -591,7 +591,7 @@ Atlas Ireland (MOCE): Although a MOCE with separate calculation, Ireland's QDMTT
 
 **Jurisdiction Summary Table**
 
-| Jurisdiction | GloBE Income (€) | ETR | Top-up Tax % | Exclusion/Offset | Final Liability (€) |
+| Jurisdiction | GloBE Income (€) | ETR | Top-Up Tax % | Exclusion/Offset | Final Liability (€) |
 |--------------|------------------|-----|--------------|------------------|---------------------|
 | UK | 8,500,000 | 25.00% | — | N/A | **0** |
 | Germany | 53,880,000 | 23.00% | — | N/A | **0** |
@@ -605,23 +605,23 @@ Atlas Ireland (MOCE): Although a MOCE with separate calculation, Ireland's QDMTT
 
 | Item | Amount (€) |
 |------|------------|
-| Singapore Top-up Tax (IIR) | **198,907** |
-| Ireland Top-up Tax (QDMTT offset) | 0 |
+| Singapore Top-Up Tax (IIR) | **198,907** |
+| Ireland Top-Up Tax (QDMTT offset) | 0 |
 | Luxembourg (De Minimis) | 0 |
 | Atlas Ireland (QDMTT offset) | 0 |
 | **Total IIR Liability** | **198,907** |
 
-**Where Is Top-up Tax Paid?**
+**Where Is Top-Up Tax Paid?**
 
 | Amount (€) | Recipient | Mechanism |
 |------------|-----------|-----------|
 | 198,907 | UK (Stratos Holdings plc) | **IIR** |
 | 428,928 | Ireland | **QDMTT** |
 | 67,080 | Ireland | **QDMTT** |
-| **694,915** | **Total Group Top-up Tax** | |
+| **694,915** | **Total Group Top-Up Tax** | |
 
 **Summary:**
-- **Total Top-up Tax liability across group:** €694,915
+- **Total Top-Up Tax liability across group:** €694,915
 - **Paid via IIR to UK:** €198,907 (Singapore)
 - **Retained by Ireland via QDMTT:** €496,008 (Main Group + MOCE)
 - **Luxembourg:** Excluded via De Minimis election
@@ -648,7 +648,7 @@ Atlas Ireland (MOCE): Although a MOCE with separate calculation, Ireland's QDMTT
 | Covered Taxes | €1,770,000 | €288,000 | **NO** |
 | ETR calculated separately? | 11.80% | 12.00% | **YES** ✓ |
 | SBIE calculated separately? | €1,596,000 | €164,000 | **YES** ✓ |
-| Top-up Tax calculated separately? | €428,928 | €67,080 | **YES** ✓ |
+| Top-Up Tax calculated separately? | €428,928 | €67,080 | **YES** ✓ |
 
 **Why Separate Treatment?**
 
@@ -656,16 +656,16 @@ Atlas Ireland (MOCE): Although a MOCE with separate calculation, Ireland's QDMTT
 Explanation: Stratos Holdings plc owns only 28% of Atlas Ireland Ltd. The
 remaining 72% is owned by minority shareholders. If Atlas Ireland's income
 and taxes were blended with SG Ireland Ltd (Main Group), the minority
-shareholders would effectively bear or benefit from Top-up Tax calculations
+shareholders would effectively bear or benefit from Top-Up Tax calculations
 related to income they don't own.
 
 By calculating Atlas Ireland separately (Article 5.6.2), only the economic
 substance belonging to the 28% UPE ownership is considered for the MNE
-Group's Top-up Tax liability. This prevents the 72% minority-owned portion
+Group's Top-Up Tax liability. This prevents the 72% minority-owned portion
 from distorting the Group's GloBE calculations.
 
 Note: Although calculated separately, Ireland's QDMTT still applies to Atlas
-Ireland's Top-up Tax, so the €67,080 is collected domestically by Ireland.
+Ireland's Top-Up Tax, so the €67,080 is collected domestically by Ireland.
 ```
 
 ---
@@ -690,7 +690,7 @@ A3          Average GloBE Income (3-year)           €__________________
 A4          Revenue < €10M AND Income < €1M?        YES / NO
 A5          De Minimis Election Made?               YES / NO
 
-    If De Minimis applies: STOP. Top-up Tax = €0
+    If De Minimis applies: STOP. Top-Up Tax = €0
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION B: ETR CALCULATION
@@ -700,7 +700,7 @@ B1  Jurisdictional Net GloBE Income                 €__________________
 B2  Adjusted Covered Taxes                          €__________________
 B3  ETR (B2 ÷ B1)                                   __________________%
 
-    If ETR ≥ 15%: STOP. No Top-up Tax.
+    If ETR ≥ 15%: STOP. No Top-Up Tax.
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION C: SBIE CALCULATION
@@ -717,7 +717,7 @@ C6  Asset Carve-out (C4 × C5)                       €__________________
 C7  TOTAL SBIE (C3 + C6)                            €__________________
 C8  Excess Profit (B1 − C7)                         €__________________
 
-    If Excess Profit ≤ 0: STOP. No Top-up Tax.
+    If Excess Profit ≤ 0: STOP. No Top-Up Tax.
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION D: TOP-UP TAX COMPUTATION
@@ -725,7 +725,7 @@ SECTION D: TOP-UP TAX COMPUTATION
 
 D1  Minimum Rate                                     15%
 D2  Jurisdictional ETR (B3)                         __________________%
-D3  Top-up Tax Percentage (D1 − D2)                 __________________%
+D3  Top-Up Tax Percentage (D1 − D2)                 __________________%
 D4  Excess Profit (C8)                              €__________________
 D5  JURISDICTIONAL TOP-UP TAX (D3 × D4)             €__________________
 
@@ -735,7 +735,7 @@ SECTION E: QDMTT OFFSET
 
 E1  Does jurisdiction have Qualified QDMTT?          YES / NO
 
-    If NO: Net Top-up Tax = D5. Proceed to Section F.
+    If NO: Net Top-Up Tax = D5. Proceed to Section F.
 
 E2  QDMTT Paid                                      €__________________
 E3  NET TOP-UP TAX (D5 − E2)                        €__________________
@@ -746,13 +746,13 @@ E3  NET TOP-UP TAX (D5 − E2)                        €__________________
 SECTION F: CHARGING MECHANISM
 ═══════════════════════════════════════════════════════════════════════
 
-F1  Net Top-up Tax (E3 or D5)                       €__________________
+F1  Net Top-Up Tax (E3 or D5)                       €__________________
 F2  Is UPE in IIR jurisdiction?                      YES / NO
 
     If YES: IIR applies → UPE pays via IIR
     If NO:  UTPR applies → Allocated to UTPR jurisdictions
 
-F3  Allocated Top-up Tax                            €__________________
+F3  Allocated Top-Up Tax                            €__________________
 F4  Mechanism                                        IIR / UTPR / QDMTT
 ```
 
@@ -765,10 +765,10 @@ F4  Mechanism                                        IIR / UTPR / QDMTT
 Luxembourg's De Minimis election eliminates:
 - ETR calculation requirement
 - SBIE calculation requirement
-- Top-up Tax liability (~€39,500 if calculated)
+- Top-Up Tax liability (~€39,500 if calculated)
 - Associated GIR reporting complexity
 
-**Cost-benefit:** For small jurisdictions, the administrative burden of full GloBE calculations may exceed the potential Top-up Tax. De Minimis provides proportionate relief.
+**Cost-benefit:** For small jurisdictions, the administrative burden of full GloBE calculations may exceed the potential Top-Up Tax. De Minimis provides proportionate relief.
 
 ### Point 2: QDMTT Fundamentally Changes Cash Flow
 
@@ -778,7 +778,7 @@ Luxembourg's De Minimis election eliminates:
 | Ireland: €428,928 → UK | |
 | **UK receives: €627,835** | **UK receives: €198,907** |
 
-Ireland's QDMTT redirects ~70% of Group Top-up Tax from UK to Ireland. This is a deliberate policy choice by source jurisdictions to retain taxing rights.
+Ireland's QDMTT redirects ~70% of Group Top-Up Tax from UK to Ireland. This is a deliberate policy choice by source jurisdictions to retain taxing rights.
 
 ### Point 3: MOCE Separation Prevents Blending Distortion
 
@@ -795,24 +795,24 @@ If Atlas Ireland were blended with Main Group Ireland:
 | | Main Group | MOCE |
 |-|------------|------|
 | ETR | 11.80% | 12.00% |
-| Top-up Tax % | 3.20% | 3.00% |
+| Top-Up Tax % | 3.20% | 3.00% |
 
 The MOCE's slightly higher ETR (12.00% vs 11.80%) would marginally improve the blended rate, benefiting minority shareholders at the expense of accuracy. Separation ensures each calculation reflects economic reality.
 
 ### Point 4: SBIE Transition Rates Are Declining
 
-FY 2025 rates (9.0% payroll, 7.0% assets) will decline to 5.0% each by 2033. Future Top-up Tax liabilities will increase as SBIE carve-outs shrink:
+FY 2025 rates (9.0% payroll, 7.0% assets) will decline to 5.0% each by 2033. Future Top-Up Tax liabilities will increase as SBIE carve-outs shrink:
 
 | Fiscal Year | Singapore SBIE | Ireland SBIE | Impact on Excess Profit |
 |-------------|----------------|--------------|------------------------|
 | 2025 (current) | €167,500 | €1,596,000 | Current calculation |
 | 2033+ | €93,000 | €888,000 | +€74,500 / +€708,000 |
 
-Plan for increasing Top-up Tax exposure as transition rates phase down.
+Plan for increasing Top-Up Tax exposure as transition rates phase down.
 
 ### Point 5: IIR Flows to UPE Jurisdiction
 
-Singapore's Top-up Tax flows to UK (Stratos Holdings plc) because:
+Singapore's Top-Up Tax flows to UK (Stratos Holdings plc) because:
 1. Singapore has no QDMTT
 2. UK has implemented IIR
 3. Stratos Holdings plc is the UPE with 100% ownership
@@ -836,7 +836,7 @@ For additional practice, consider this alternative scenario:
 
 **Without Ireland QDMTT:**
 
-| Jurisdiction | Top-up Tax (€) | Mechanism |
+| Jurisdiction | Top-Up Tax (€) | Mechanism |
 |--------------|----------------|-----------|
 | Singapore | 198,907 | IIR → UK |
 | Ireland (Main) | 428,928 | IIR → UK |
@@ -846,7 +846,7 @@ For additional practice, consider this alternative scenario:
 
 **With Ireland QDMTT (actual):**
 
-| Jurisdiction | Top-up Tax (€) | Mechanism |
+| Jurisdiction | Top-Up Tax (€) | Mechanism |
 |--------------|----------------|-----------|
 | Singapore | 198,907 | IIR → UK |
 | Ireland (Main) | 0 | QDMTT → Ireland |
@@ -862,7 +862,7 @@ For additional practice, consider this alternative scenario:
 | With Ireland QDMTT | 198,907 | 496,008 | 694,915 |
 | **Difference** | **(496,008)** | **+496,008** | **0** |
 
-**Key insight:** QDMTT doesn't change the total Top-up Tax, but it changes **who collects it**. Ireland's QDMTT redirects €496,008 from UK to Ireland.
+**Key insight:** QDMTT doesn't change the total Top-Up Tax, but it changes **who collects it**. Ireland's QDMTT redirects €496,008 from UK to Ireland.
 
 **MOCE treatment:** Would remain unchanged—separate calculation is required regardless of QDMTT status. Only the collection mechanism (IIR vs QDMTT) differs.
 
@@ -877,7 +877,7 @@ For additional practice, consider this alternative scenario:
 | 1. Pre-screening | Manual | Apply De Minimis checklist (Luxembourg) |
 | 2. ETR Calculation | **GIR-001 Step 1** | Enter GloBE Income + Covered Taxes |
 | 3. SBIE Calculation | **GIR-001 Step 2** | Enter Payroll + Tangible Assets |
-| 4. Top-up Tax | **GIR-001 Step 3** | Tool calculates automatically |
+| 4. Top-Up Tax | **GIR-001 Step 3** | Tool calculates automatically |
 | 5. QDMTT Offset | **GIR-001 Step 3** | Enter QDMTT paid |
 | 6. MOCE Calculation | **GIR-001** (separate run) | Repeat Steps 2-5 for MOCE |
 
@@ -899,8 +899,8 @@ Use **GIR-001 GloBE Calculator** at tools.mojitax.com to verify your calculation
 
 **OECD GloBE Model Rules:**
 - Article 5.1.1 — ETR calculation formula
-- Article 5.2.1 — Top-up Tax Percentage
-- Article 5.2.2 — Jurisdictional Top-up Tax
+- Article 5.2.1 — Top-Up Tax Percentage
+- Article 5.2.2 — Jurisdictional Top-Up Tax
 - Article 5.3.1 — SBIE formula
 - Article 5.3.3 — SBIE transition rates
 - Article 5.5.1 — De Minimis Exclusion criteria
@@ -913,10 +913,10 @@ Use **GIR-001 GloBE Calculator** at tools.mojitax.com to verify your calculation
 - December 2023: MOCE calculation clarifications
 
 **OECD Commentary:**
-- Chapter 5, paragraphs 1-182 — ETR, SBIE, Top-up Tax, De Minimis, MOCE
+- Chapter 5, paragraphs 1-182 — ETR, SBIE, Top-Up Tax, De Minimis, MOCE
 
 ---
 
 ## Next Step
 
-You have completed Part 5: ETR Calculation and Top-Up Tax Determination. With all core computations covered (GloBE Income, Covered Taxes, ETR, SBIE, Top-up Tax, De Minimis, QDMTT, MOCE), proceed to **Part 6: Special Structures, Restructurings, and Tax Regimes** to learn how Pillar Two applies to M&A transactions, joint ventures, multi-parented groups, and investment entities.
+You have completed Part 5: ETR Calculation and Top-Up Tax Determination. With all core computations covered (GloBE Income, Covered Taxes, ETR, SBIE, Top-Up Tax, De Minimis, QDMTT, MOCE), proceed to **Part 6: Special Structures, Restructurings, and Tax Regimes** to learn how Pillar Two applies to M&A transactions, joint ventures, multi-parented groups, and investment entities.

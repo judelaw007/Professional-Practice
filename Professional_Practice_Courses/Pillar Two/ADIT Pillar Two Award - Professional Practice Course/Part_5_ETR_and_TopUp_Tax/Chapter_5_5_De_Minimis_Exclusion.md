@@ -2,7 +2,7 @@
 
 ## Learning Objective
 
-After completing this chapter, you will be able to apply the De Minimis Exclusion to eliminate Top-up Tax liability for jurisdictions with minimal operations, calculate the three-year average thresholds, and determine which jurisdictions qualify for exclusion.
+After completing this chapter, you will be able to apply the De Minimis Exclusion to eliminate Top-Up Tax liability for jurisdictions with minimal operations, calculate the three-year average thresholds, and determine which jurisdictions qualify for exclusion.
 
 ---
 
@@ -27,9 +27,9 @@ The De Minimis Exclusion provides **compliance relief** for jurisdictions with m
 
 - Does **not** need to calculate Adjusted Covered Taxes for that jurisdiction
 - Does **not** need to calculate ETR for that jurisdiction
-- Does **not** have any Top-up Tax liability for that jurisdiction
+- Does **not** have any Top-Up Tax liability for that jurisdiction
 
-**Result:** GloBE Income and Top-up Tax for the jurisdiction are **deemed to be zero**.
+**Result:** GloBE Income and Top-Up Tax for the jurisdiction are **deemed to be zero**.
 
 ---
 
@@ -312,7 +312,7 @@ START: Jurisdiction assessment for De Minimis
         │ does   │  │                             │
         │ NOT    │  │ → Elect exclusion           │
         │ apply  │  │ → No ETR calculation needed │
-        └────────┘  │ → Top-up Tax = €0           │
+        └────────┘  │ → Top-Up Tax = €0           │
                     └────────────────────────────┘
 ```
 
@@ -362,17 +362,17 @@ If De Minimis were **not** elected:
 | GloBE Income (FY 2025) | €630,000 |
 | Adjusted Covered Taxes | €55,000 |
 | ETR | 8.73% |
-| Top-up Tax % | 6.27% |
-| Top-up Tax | ~€39,500 |
+| Top-Up Tax % | 6.27% |
+| Top-Up Tax | ~€39,500 |
 
 **With De Minimis Election:**
 - No ETR calculation required
-- No Top-up Tax liability
+- No Top-Up Tax liability
 - Administrative burden eliminated
 
 ### Updated Stratos Top-Up Tax Summary
 
-| Jurisdiction | ETR | Top-up Tax % | Top-up Tax | De Minimis? | Final Liability |
+| Jurisdiction | ETR | Top-Up Tax % | Top-Up Tax | De Minimis? | Final Liability |
 |--------------|-----|--------------|------------|-------------|-----------------|
 | Germany | 23.00% | — | €0 | No | €0 |
 | Singapore | 9.81% | 5.19% | €197,498 | No | €197,498 (IIR) |
@@ -462,7 +462,7 @@ Fiscal Year: _________________________
    □ Document election in GIR filing
 
 RESULT:
-□ De Minimis Exclusion APPLIES — No ETR or Top-up Tax calculation required
+□ De Minimis Exclusion APPLIES — No ETR or Top-Up Tax calculation required
 □ De Minimis Exclusion does NOT apply — Proceed with full GloBE calculations
 ```
 
@@ -478,11 +478,11 @@ The De Minimis Exclusion provides meaningful compliance relief for jurisdictions
 | **Income threshold** | Average GloBE Income < €1 million (or loss) |
 | **Averaging period** | Current year + 2 preceding years |
 | **Excluded entities** | Stateless and Investment Entities |
-| **Effect** | No ETR calculation; Top-up Tax deemed zero |
+| **Effect** | No ETR calculation; Top-Up Tax deemed zero |
 | **Election** | Must be elected annually |
 | **Transitional option** | CbCR-based single-year test available until FY 2026 |
 
-For Stratos, Luxembourg qualifies for De Minimis, eliminating the need to calculate ETR and potential Top-up Tax (~€39,500 saved).
+For Stratos, Luxembourg qualifies for De Minimis, eliminating the need to calculate ETR and potential Top-Up Tax (~€39,500 saved).
 
 ---
 
@@ -494,7 +494,7 @@ The De Minimis assessment is a **pre-screening step** before using GIR-001 GloBE
 |------|------|--------|
 | **Pre-screening** | Manual assessment | Apply De Minimis checklist to each jurisdiction |
 | **If qualifies** | N/A | No GIR-001 calculation needed; document election |
-| **If does not qualify** | GIR-001 GloBE Calculator | Proceed with full ETR → SBIE → Top-up Tax workflow |
+| **If does not qualify** | GIR-001 GloBE Calculator | Proceed with full ETR → SBIE → Top-Up Tax workflow |
 
 **GIR-002 Safe Harbour Qualifier** can assess the **Transitional CbCR Safe Harbour De Minimis Test**:
 - Input CbCR revenue and profit data
@@ -518,4 +518,4 @@ For each jurisdiction:
 
 ## Next Step
 
-You have learned how to apply the De Minimis Exclusion to eliminate compliance burden for small jurisdictions. Proceed to **Chapter 5.6: Minority-Owned Constituent Entities** for guidance on the separate ETR calculation and Top-up Tax treatment for entities with 30% or less ownership.
+You have learned how to apply the De Minimis Exclusion to eliminate compliance burden for small jurisdictions. Proceed to **Chapter 5.6: Minority-Owned Constituent Entities** for guidance on the separate ETR calculation and Top-Up Tax treatment for entities with 30% or less ownership.
