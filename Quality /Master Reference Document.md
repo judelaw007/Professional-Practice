@@ -3,7 +3,7 @@
 
 **Purpose:** Track terminology standards, concepts, cross-references, and consistency issues across all course sections. This is a living document updated at the start of each section audit.
 
-**Last Updated:** 2025-12-11 (Part 3 full audit complete)
+**Last Updated:** 2025-12-11 (Part 4 full audit complete)
 
 ---
 
@@ -36,6 +36,16 @@
 | PPA | Purchase Price Allocation (Part 3.1) | "PPA" | — | Part 3.1 |
 | OCI | Other Comprehensive Income (Part 3.2) | "OCI" | — | Part 3.2 |
 | ISI | International Shipping Income (Part 3.4) | "ISI" or "International Shipping Income" | — | Part 3.4 |
+| DTAA | Deferred Tax Adjustment Amount (Part 4.3) | "DTAA" or "Total Deferred Tax Adjustment Amount" | — | Parts 4.3, 4.4, CS4 |
+| DTA | Deferred Tax Asset (Part 4.3) | "DTA" | — | Parts 4.3, 4.4, CS4 |
+| DTL | Deferred Tax Liability (Part 4.3) | "DTL" | — | Parts 4.3, 4.4, 4.5, CS4 |
+| REA | Recapture Exception Accrual (Part 4.3) | "REA" or "Recapture Exception Accrual" | — | Parts 4.3, CS4 |
+| QRTC | Qualified Refundable Tax Credit (Part 4.1) | "QRTC" | — | Parts 4.1, 4.2, CS4 |
+| UTP | Uncertain Tax Position (Part 4.1) | "UTP" | — | Parts 4.1, 4.2, CS4 |
+| CFC | Controlled Foreign Corporation (Part 4.2) | "CFC" | — | Parts 4.2, 4.5, CS4 |
+| GILTI | Global Intangible Low-Taxed Income (Part 4.2) | "GILTI" | — | Part 4.2 |
+| EDTS | Eligible Distribution Tax System (Part 4.1) | "EDTS" | — | Parts 4.1, 4.4 |
+| WHT | Withholding Tax (Part 4.5) | "WHT" | — | Parts 4.5, CS4 |
 
 ---
 
@@ -96,6 +106,19 @@
 | PE income allocation | Chapter 3.5 | CS3 | Article 3.4 rules |
 | PE loss push-down and recapture | Chapter 3.5 | — | Article 3.4.5 |
 | Tax transparent vs reverse hybrid | Chapter 3.5 | CS3 | Article 3.5 treatment differs |
+| Covered Tax four categories (Art. 4.2.1) | Chapter 4.1 | Chapters 4.2-4.6, CS4 | None |
+| QRTC four-part test (Art. 10.1) | Chapter 4.1 | Chapter 4.2, CS4 | None |
+| Current tax additions (Art. 4.1.2) | Chapter 4.2 | CS4 | Tax in OCI, UTP paid, QRTC, GloBE Loss DTA |
+| Current tax subtractions (Art. 4.1.3) | Chapter 4.2 | CS4 | Tax on excluded income, UTP current year |
+| 15% rate cap on deferred tax | Chapter 4.3 | CS4 | Art. 4.4.1 |
+| DTL five-year recapture rule | Chapter 4.3 | Chapter 4.6 | Art. 4.4.4 |
+| GloBE Loss Election (Art. 4.5) | Chapter 4.4 | — | Alternative to standard DT accounting |
+| CFC tax push-down | Chapter 4.2, 4.5 | CS4 | Art. 4.3.2(c) |
+| Passive income limitation (Art. 4.3.3) | Chapter 4.5 | CS4 | Caps CFC push-down |
+| Distribution tax allocation | Chapter 4.5 | CS4 | WHT to distributor |
+| Post-filing asymmetric treatment | Chapter 4.6 | — | Increases vs decreases |
+| €1M immaterial decrease threshold | Chapter 4.6 | — | Optional election |
+| Three-year current tax recapture | Chapter 4.6 | — | Art. 4.6.4 |
 
 ---
 
@@ -133,6 +156,14 @@
 | "Part 4: Adjusted Covered Taxes" | Chapters 3.5, CS3 | Part 4 | Valid |
 | "Chapter 2.4" (minority interest) | Chapter 3.1 | Chapter 2.4 | Valid |
 | "Article 5.4.1" (Additional Top-Up Tax) | Chapter 3.2, CS3 | Chapter 5.4 | Valid |
+| "Chapter 4.2" (current tax adjustments) | Chapter 4.1 | Chapter 4.2 | Valid |
+| "Chapter 4.3" (deferred tax) | Chapters 4.1, 4.2 | Chapter 4.3 | Valid |
+| "Chapter 4.4" (GloBE Loss Election) | Chapters 4.2, 4.3 | Chapter 4.4 | Valid |
+| "Chapter 4.5" (tax allocation) | Chapter 4.4 | Chapter 4.5 | Valid |
+| "Chapter 4.6" (post-filing) | Chapter 4.5 | Chapter 4.6 | Valid |
+| "Case Study 4" | Chapter 4.6 | Case Study 4 | Valid |
+| "Part 5: Top-Up Tax Calculation" | CS4 | Part 5 | Valid |
+| "Part 3" (GloBE Income) | Chapters 4.2, 4.3, CS4 | Part 3 | Valid |
 
 ---
 
@@ -289,16 +320,51 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 - SBC Five-Year Election, 50% ancillary shipping cap
 - PE income allocation, Tax transparent vs reverse hybrid
 
+### Part 4: Adjusted Covered Taxes (Full Audit 2025-12-11)
+
+**Files Audited:**
+- Chapter_4_1_Defining_Covered_Taxes.md
+- Chapter_4_2_Current_Tax_Expense_Adjustments.md
+- Chapter_4_3_Deferred_Tax_Adjustments.md
+- Chapter_4_4_GloBE_Loss_Election.md
+- Chapter_4_5_Tax_Allocation_Between_Entities.md
+- Chapter_4_6_Post_Filing_Adjustments.md
+- Case_Study_4_Stratos_Covered_Tax_Computation.md
+
+**Terminology Checked:**
+- "Top-Up Tax" — Found 5 "Top-up Tax" variations and fixed them ✓
+- Article references — Consistent format ✓
+- Cross-references — All valid ✓
+- Currency formatting — Consistent ✓
+
+**Fixes Applied:**
+- Chapter_4_1_Defining_Covered_Taxes.md: Line 245 "Top-up Tax" → "Top-Up Tax"
+- Chapter_4_2_Current_Tax_Expense_Adjustments.md: 4 occurrences "Top-up Tax" → "Top-Up Tax"
+
+**Redundancies Removed:** None identified
+
+**Contradictions Resolved:** None identified
+
+**New Terms Logged:**
+- DTAA, DTA, DTL, REA, QRTC, UTP, CFC, GILTI, EDTS, WHT
+
+**New Concepts Logged:**
+- Covered Tax four categories, QRTC four-part test
+- Current tax additions/subtractions, 15% rate cap
+- DTL five-year recapture, GloBE Loss Election
+- CFC push-down, Passive income limitation
+- Distribution tax allocation, Post-filing asymmetric treatment
+
 ---
 
 ## H. NEXT SECTION NOTES
 
-### For Part 4 Audit:
+### For Part 5 Audit:
 1. Watch for "Top-up Tax" variations — standardize to "Top-Up Tax"
-2. Verify cross-references to Parts 1-3 are accurate
-3. Check Covered Taxes terminology consistency
-4. Log any new terms introduced (tax adjustments, deferred tax)
-5. Track where concepts from Parts 1-3 are referenced
+2. Verify cross-references to Parts 1-4 are accurate
+3. Check Top-Up Tax calculation terminology consistency
+4. Log any new terms introduced (SBIE calculation, Top-Up Tax allocation)
+5. Track where concepts from Parts 1-4 are referenced
 
 ### Established Conventions to Maintain:
 - "Top-Up Tax" (capital U)
@@ -308,6 +374,8 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 - Four decimal places for exchange rates
 - SBIE transition rates table (9.8%/7.8% for FY 2025)
 - Nine mandatory adjustments format (Article 3.2.1(a)-(i))
+- 15% rate cap on deferred tax (Article 4.4.1)
+- Passive income limitation formula (Article 4.3.3)
 
 ---
 
@@ -318,10 +386,10 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 | Part 1 | ✓ Complete (Full Audit) | 2025-12-11 | None |
 | Part 2 | ✓ Complete (Full Audit) | 2025-12-11 | None |
 | Part 3 | ✓ Complete (Full Audit) | 2025-12-11 | None |
-| Part 4 | Pending | — | — |
+| Part 4 | ✓ Complete (Full Audit) | 2025-12-11 | 5 "Top-up Tax" → "Top-Up Tax" |
 | Part 5 | Pending | — | — |
 | Part 6 | ✓ Complete (Terminology) | 2025-12-11 | Top-Up Tax capitalization |
 | Part 7 | Pending | — | — |
 | Part 8 | Pending | — | — |
 
-**Note:** Parts 4-5 were audited in prior sessions for terminology only ("Top-up Tax" → "Top-Up Tax"). Full comprehensive audits per the quality check process are pending.
+**Note:** Part 5 was audited in prior sessions for terminology only ("Top-up Tax" → "Top-Up Tax"). Full comprehensive audit per the quality check process is pending.
