@@ -251,13 +251,13 @@ FY 2025 Rates: Payroll _____% | Tangible Assets _____%
 
 ### Your Task
 
-For jurisdictions that do not qualify for Safe Harbour, calculate the Top-up Tax using full GloBE methodology.
+For jurisdictions that do not qualify for Safe Harbour, calculate the Top-Up Tax using full GloBE methodology.
 
 ### Questions
 
 1. Calculate ETR for Singapore and Cayman.
 2. Apply SBIE to determine Excess Profit.
-3. Calculate Top-up Tax for each jurisdiction.
+3. Calculate Top-Up Tax for each jurisdiction.
 4. Determine collection mechanism (IIR vs QDMTT).
 
 ### Expected Deliverable
@@ -271,8 +271,8 @@ For jurisdictions that do not qualify for Safe Harbour, calculate the Top-up Tax
 | ETR | _______% |
 | SBIE (from Task 3) | €__________ |
 | Excess Profit | €__________ |
-| Top-up Tax % | _______% |
-| **Top-up Tax** | €__________ |
+| Top-Up Tax % | _______% |
+| **Top-Up Tax** | €__________ |
 | Collection mechanism | __________ |
 
 **Cayman Full Calculation**
@@ -284,8 +284,8 @@ For jurisdictions that do not qualify for Safe Harbour, calculate the Top-up Tax
 | ETR | _______% |
 | SBIE (from Task 3) | €__________ |
 | Excess Profit | €__________ |
-| Top-up Tax % | _______% |
-| **Top-up Tax** | €__________ |
+| Top-Up Tax % | _______% |
+| **Top-Up Tax** | €__________ |
 | Collection mechanism | __________ |
 
 **Ireland QDMTT Calculation** (for reference)
@@ -297,7 +297,7 @@ For jurisdictions that do not qualify for Safe Harbour, calculate the Top-up Tax
 | ETR | _______% |
 | SBIE | €__________ |
 | Excess Profit | €__________ |
-| Top-up Tax % | _______% |
+| Top-Up Tax % | _______% |
 | **QDMTT payable to Ireland** | €__________ |
 | IIR to UK | €__________ |
 
@@ -360,11 +360,11 @@ Compile the data required for the GloBE Information Return, organised by GIR sec
 | Total Covered Taxes | | |
 | ETR | | |
 | Minimum Rate | 15% | 15% |
-| Top-up Tax % | | |
+| Top-Up Tax % | | |
 
-**GIR Section 5: Top-up Tax Allocation**
+**GIR Section 5: Top-Up Tax Allocation**
 
-| Jurisdiction | Top-up Tax (€) | IIR Amount (€) | UTPR Amount (€) | QDMTT Amount (€) |
+| Jurisdiction | Top-Up Tax (€) | IIR Amount (€) | UTPR Amount (€) | QDMTT Amount (€) |
 |--------------|---------------|----------------|-----------------|------------------|
 | Singapore | | | | |
 | Ireland | | | | |
@@ -428,7 +428,7 @@ Determine the filing requirements, prepare the compliance calendar, and document
 □ GloBE Income calculations (full calc jurisdictions)
 □ Covered Taxes calculations
 □ SBIE workings
-□ Top-up Tax calculations
+□ Top-Up Tax calculations
 □ Allocation schedules (IIR/UTPR)
 □ Election documentation
 □ Filed GIR (XML and confirmation)
@@ -494,12 +494,12 @@ Determine the filing requirements, prepare the compliance calendar, and document
 
 | Jurisdiction | CbCR SH? | QDMTT SH? | Full GloBE Calc? | Expected Outcome |
 |--------------|----------|-----------|------------------|------------------|
-| UK | **Yes** | Yes | **No** | Top-up Tax = €0 |
-| Germany | **Yes** | Yes | **No** | Top-up Tax = €0 |
+| UK | **Yes** | Yes | **No** | Top-Up Tax = €0 |
+| Germany | **Yes** | Yes | **No** | Top-Up Tax = €0 |
 | Singapore | No | No | **Yes** | IIR to UK |
 | Ireland | No | **Yes** | **No** | QDMTT local only |
-| Luxembourg | **Yes** | Yes | **No** | Top-up Tax = €0 (De Minimis) |
-| USA | **Yes** | No | **No** | Top-up Tax = €0 |
+| Luxembourg | **Yes** | Yes | **No** | Top-Up Tax = €0 (De Minimis) |
+| USA | **Yes** | No | **No** | Top-Up Tax = €0 |
 | Cayman | No | No | **Yes** | IIR to UK |
 
 **Result:** Only **Singapore and Cayman** require full GloBE calculations.
@@ -551,8 +551,8 @@ FY 2025 Rates: **Payroll 9.0%** | **Tangible Assets 7.0%**
 | ETR | **9.81%** |
 | SBIE | **€436,250** |
 | Excess Profit | €4,000,000 − €436,250 = **€3,563,750** |
-| Top-up Tax % | 15% − 9.81% = **5.19%** |
-| **Top-up Tax** | €3,563,750 × 5.19% = **€184,959** |
+| Top-Up Tax % | 15% − 9.81% = **5.19%** |
+| **Top-Up Tax** | €3,563,750 × 5.19% = **€184,959** |
 | Collection mechanism | **IIR to UK** |
 
 **Cayman Full Calculation**
@@ -564,8 +564,8 @@ FY 2025 Rates: **Payroll 9.0%** | **Tangible Assets 7.0%**
 | ETR | **1.00%** |
 | SBIE | **€29,500** |
 | Excess Profit | €2,016,000 − €29,500 = **€1,986,500** |
-| Top-up Tax % | 15% − 1% = **14.00%** |
-| **Top-up Tax** | €1,986,500 × 14% = **€278,110** |
+| Top-Up Tax % | 15% − 1% = **14.00%** |
+| **Top-Up Tax** | €1,986,500 × 14% = **€278,110** |
 | Collection mechanism | **IIR to UK** |
 
 **Ireland QDMTT Calculation**
@@ -577,18 +577,18 @@ FY 2025 Rates: **Payroll 9.0%** | **Tangible Assets 7.0%**
 | ETR | **11.80%** |
 | SBIE (9% payroll + 7% assets) | €9,000,000 × 9% + €8,500,000 × 7% = **€1,405,000** |
 | Excess Profit | €15,000,000 − €1,405,000 = **€13,595,000** |
-| Top-up Tax % | 15% − 11.80% = **3.20%** |
+| Top-Up Tax % | 15% − 11.80% = **3.20%** |
 | **QDMTT payable to Ireland** | €13,595,000 × 3.20% = **€435,040** |
 | IIR to UK | **€0** (QDMTT Safe Harbour) |
 
-**JV Top-up Tax (Stratos's Share)**
+**JV Top-Up Tax (Stratos's Share)**
 
 The TechStart JV is calculated separately. From Case Study 6:
-- JV Total Top-up Tax: €626,270
+- JV Total Top-Up Tax: €626,270
 - Stratos ownership (55%): **€344,449**
 - Collection: **IIR to UK**
 
-**Total Stratos Top-up Tax Summary**
+**Total Stratos Top-Up Tax Summary**
 
 | Source | Amount (€) | Mechanism |
 |--------|------------|-----------|
@@ -656,11 +656,11 @@ The TechStart JV is calculated separately. From Case Study 6:
 | Total Covered Taxes | €392,206 | €20,200 |
 | ETR | 9.81% | 1.00% |
 | Minimum Rate | 15% | 15% |
-| Top-up Tax % | 5.19% | 14.00% |
+| Top-Up Tax % | 5.19% | 14.00% |
 
-**GIR Section 5: Top-up Tax Allocation**
+**GIR Section 5: Top-Up Tax Allocation**
 
-| Jurisdiction | Top-up Tax (€) | IIR Amount (€) | UTPR Amount (€) | QDMTT Amount (€) |
+| Jurisdiction | Top-Up Tax (€) | IIR Amount (€) | UTPR Amount (€) | QDMTT Amount (€) |
 |--------------|---------------|----------------|-----------------|------------------|
 | Singapore | 184,959 | 184,959 | 0 | 0 |
 | Ireland | 435,040 | 0 | 0 | 435,040 |

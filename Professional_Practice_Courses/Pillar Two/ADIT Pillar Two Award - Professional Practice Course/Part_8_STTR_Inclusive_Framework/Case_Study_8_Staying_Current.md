@@ -18,7 +18,7 @@ Stratos has completed its first Pillar Two compliance cycle:
 
 | Metric | FY 2025 Result |
 |--------|----------------|
-| Total Top-up Tax liability | €1,242,558 |
+| Total Top-Up Tax liability | €1,242,558 |
 | IIR component (UK collected) | €807,518 |
 | QDMTT component (Ireland) | €435,040 |
 | Jurisdictions in scope | 7 |
@@ -27,7 +27,7 @@ Stratos has completed its first Pillar Two compliance cycle:
 
 ### Jurisdictional Status — FY 2025
 
-| Jurisdiction | ETR | Status | Top-up Tax (€) | Notes |
+| Jurisdiction | ETR | Status | Top-Up Tax (€) | Notes |
 |--------------|-----|--------|----------------|-------|
 | UK | 25.00% | Above minimum | — | Compliant |
 | Germany | 23.00% | Safe Harbour | — | Routine Profits test passed |
@@ -494,7 +494,7 @@ Complete the following table with appropriate thresholds for Stratos:
 
 | Matter | Threshold | Escalation To | Timeline |
 |--------|-----------|---------------|----------|
-| Calculation error affecting Top-up Tax | €[amount] | [Role] | [Days] |
+| Calculation error affecting Top-Up Tax | €[amount] | [Role] | [Days] |
 | New jurisdiction coming into scope | Any | [Role] | [Days] |
 | Change in Safe Harbour eligibility | Any | [Role] | [Days] |
 | QDMTT qualification status change | Any | [Role] | [Days] |
@@ -553,7 +553,7 @@ Create an **updated RACI matrix** adding Pillar Two processes to the existing ma
 | *Existing processes from current matrix...* | | | | | | |
 | GloBE data collection | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] |
 | Jurisdictional ETR calculation | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] |
-| Top-up Tax computation | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] |
+| Top-Up Tax computation | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] |
 | Safe Harbour assessment | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] |
 | QDMTT calculation & payment | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] |
 | GIR preparation | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] | [R/A/C/I] |
@@ -619,7 +619,7 @@ Open with a clear status statement:
 
 | Metric | Result |
 |--------|--------|
-| Total Top-up Tax | €[Use data from background] |
+| Total Top-Up Tax | €[Use data from background] |
 | — IIR (UK) | €[amount] |
 | — QDMTT (Ireland) | €[amount] |
 | Jurisdictions assessed | [number] |
@@ -671,7 +671,7 @@ Attach a one-page supporting appendix with:
 
 **Jurisdictional Detail — FY 2025**
 
-| Jurisdiction | Entities | GloBE Income (€) | ETR | Status | Top-up Tax (€) |
+| Jurisdiction | Entities | GloBE Income (€) | ETR | Status | Top-Up Tax (€) |
 |--------------|----------|------------------|-----|--------|----------------|
 | UK | [number] | [amount] | [%] | [status] | [amount] |
 | Germany | [number] | [amount] | [%] | [status] | [amount] |
@@ -756,7 +756,7 @@ Attach a one-page supporting appendix with:
 |---------|-----------|---------------|----------------|------------------|-----|-----------------|
 | GloBE data collection | A | R | C | — | I | — |
 | Jurisdictional ETR calculation | A | R | R | C | I | — |
-| Top-up Tax computation | A | C | R | C | I | — |
+| Top-Up Tax computation | A | C | R | C | I | — |
 | Safe Harbour assessment | A | C | I | R | I | — |
 | QDMTT calculation & payment | A | R | C | C | I | I |
 | GIR preparation | A | C | R | C | I | — |
@@ -770,7 +770,7 @@ Attach a one-page supporting appendix with:
 **Key Points for Non-Specialists:**
 
 - Lead with compliance status: "Stratos has successfully completed its first Pillar Two compliance cycle"
-- Explain Top-up Tax simply: "Additional tax to bring low-taxed profits up to 15% minimum"
+- Explain Top-Up Tax simply: "Additional tax to bring low-taxed profits up to 15% minimum"
 - Quantify clearly: Total liability of €1.2M represents X% of group tax charge
 - AG6 summary: "New OECD guidance issued in December 2025 affects our calculations. Most significant item [X] will be addressed before filing"
 - Recommendations should be specific: "Approve updated Tax Risk Management Policy" not "Consider governance improvements"
@@ -805,7 +805,7 @@ Congratulations on completing the ADIT Pillar Two Professional Practice Course.
 | **Part 2** | IIR/UTPR mechanics, allocation calculations, ordering rules |
 | **Part 3** | GloBE Income adjustments, timing differences, PE allocations |
 | **Part 4** | Covered Tax identification, DTA/DTL treatment, push-down mechanics |
-| **Part 5** | ETR calculation, SBIE application, Top-up Tax computation |
+| **Part 5** | ETR calculation, SBIE application, Top-Up Tax computation |
 | **Part 6** | Safe harbour assessment, QDMTT interaction, election strategies |
 | **Part 7** | GIR preparation, filing requirements, compliance processes |
 | **Part 8** | STTR awareness, regulatory monitoring, governance frameworks |

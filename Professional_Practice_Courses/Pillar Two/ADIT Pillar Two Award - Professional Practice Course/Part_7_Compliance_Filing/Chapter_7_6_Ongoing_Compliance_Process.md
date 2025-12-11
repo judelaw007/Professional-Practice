@@ -39,7 +39,7 @@ Pillar Two compliance is not a one-time project—it is an **enduring requiremen
 │ ├── Data gathering and validation                                   │
 │ ├── ETR calculations by jurisdiction                                │
 │ ├── Safe Harbour assessments                                        │
-│ ├── Top-up Tax computations                                         │
+│ ├── Top-Up Tax computations                                         │
 │ ├── GIR preparation and filing                                      │
 │ ├── Local QDMTT filings                                             │
 │ ├── Election management                                             │
@@ -63,7 +63,7 @@ For an MNE with a **31 December fiscal year-end**:
 | **May-June** | GloBE data extraction | Entity-level data compiled |
 | **July-August** | ETR calculations | Jurisdictional analysis |
 | **September** | Safe Harbour assessment | Compliance strategy confirmed |
-| **October** | Top-up Tax calculations | Liability quantified |
+| **October** | Top-Up Tax calculations | Liability quantified |
 | **November-December** | GIR preparation | Draft GIR reviewed |
 | **January (Y+2)** | GIR finalisation | Internal sign-off |
 | **February-March (Y+2)** | GIR filing | Filed within 15 months |
@@ -155,10 +155,10 @@ DATA POINT CATEGORIES
    ├── Tangible asset NBV
    └── Transition rate applied
 
-5. Top-up Tax Calculation (~20 data points)
+5. Top-Up Tax Calculation (~20 data points)
    ├── Jurisdictional ETR
    ├── Excess Profit
-   ├── Top-up Tax percentage
+   ├── Top-Up Tax percentage
    └── Allocation factors
 
 6. Elections and Safe Harbours (~15 data points)
@@ -199,7 +199,7 @@ DATA FLOW: FROM SOURCE TO GIR
 │  □ ETR calculations                             │
 │  □ SBIE computations                            │
 │  □ Safe Harbour tests                           │
-│  □ Top-up Tax allocation                        │
+│  □ Top-Up Tax allocation                        │
 └───────────────────────┬─────────────────────────┘
                         │
                         ▼
@@ -261,7 +261,7 @@ CALCULATION INPUTS (Months 6-10)
 □ Calculate SBIE by jurisdiction
 □ Test Safe Harbour eligibility
 □ Compute ETR by jurisdiction
-□ Calculate Top-up Tax where applicable
+□ Calculate Top-Up Tax where applicable
 ```
 
 ---
@@ -307,7 +307,7 @@ Any GloBE compliance system should support:
 |------------|-------------|
 | **Data Import** | Multiple formats (Excel, CSV, XML, API) |
 | **Entity Management** | Ownership structures, classifications, changes |
-| **Calculation Engine** | ETR, SBIE, Top-up Tax with adjustment tracking |
+| **Calculation Engine** | ETR, SBIE, Top-Up Tax with adjustment tracking |
 | **Safe Harbour Testing** | Automated De Minimis, ETR, Routine Profits tests |
 | **Election Tracking** | Annual elections, irrevocability flags |
 | **GIR Generation** | XML schema output, validation against OECD schema |
@@ -428,10 +428,10 @@ PILLAR TWO AUDIT FILE STRUCTURE
 │   ├── Deferred tax workings
 │   └── CFC/hybrid allocations
 │
-├── 📁 4. ETR and Top-up Tax
+├── 📁 4. ETR and Top-Up Tax
 │   ├── Jurisdictional ETR calculations
 │   ├── SBIE workings
-│   └── Top-up Tax allocation
+│   └── Top-Up Tax allocation
 │
 ├── 📁 5. Safe Harbours
 │   ├── Safe Harbour qualification analysis
@@ -579,7 +579,7 @@ Stratos Holdings plc is establishing its ongoing Pillar Two compliance process f
 | **Data extraction** | Apr-May 2026 | GloBE data from OneStream |
 | **Safe Harbour** | Jun 2026 | Test 7 jurisdictions |
 | **ETR calculations** | Jul-Aug 2026 | Calculate for SG, Cayman (non-SH) |
-| **Top-up Tax** | Sep 2026 | €477,978 total liability |
+| **Top-Up Tax** | Sep 2026 | €477,978 total liability |
 | **GIR preparation** | Oct-Dec 2026 | UK DFE filing preparation |
 | **Review** | Jan 2027 | Tax Director sign-off |
 | **Filing** | Feb 2027 | GIR filed via UK HMRC |
@@ -753,7 +753,7 @@ SECTION C: CALCULATIONS
 □ Covered Taxes calculated by jurisdiction                Due: ________
 □ ETR calculated by jurisdiction                          Due: ________
 □ SBIE calculated by jurisdiction                         Due: ________
-□ Top-up Tax calculated                                   Due: ________
+□ Top-Up Tax calculated                                   Due: ________
 □ Allocation (IIR/UTPR) determined                        Due: ________
 
 ═══════════════════════════════════════════════════════════════════════
@@ -832,7 +832,7 @@ Phase 2: Safe Harbour Assessment
 └── GIR-002 Safe Harbour Qualifier → Test all jurisdictions
 
 Phase 3: Calculations
-└── GIR-001 GloBE Calculator → ETR, SBIE, Top-up Tax
+└── GIR-001 GloBE Calculator → ETR, SBIE, Top-Up Tax
 
 Phase 4: Filing Preparation
 ├── GIR-003 Filing Deadline Calculator → Confirm deadlines

@@ -20,7 +20,7 @@ After completing this chapter, you will be able to apply the three qualification
 
 ## Overview: QDMTT and Qualified Status
 
-A **Qualified Domestic Minimum Top-up Tax (QDMTT)** is a domestic minimum tax that meets specific standards ensuring it produces outcomes consistent with the GloBE Rules.
+A **Qualified Domestic Minimum Top-Up Tax (QDMTT)** is a domestic minimum tax that meets specific standards ensuring it produces outcomes consistent with the GloBE Rules.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -37,7 +37,7 @@ A **Qualified Domestic Minimum Top-up Tax (QDMTT)** is a domestic minimum tax th
 │                                                                     │
 │ EFFECT OF QUALIFICATION:                                            │
 │ ├── QDMTT applies first (priority in rule order)                   │
-│ ├── IIR Top-up Tax = €0 (Safe Harbour applies)                     │
+│ ├── IIR Top-Up Tax = €0 (Safe Harbour applies)                     │
 │ ├── No dual calculation burden                                      │
 │ └── Revenue stays in source jurisdiction                            │
 └─────────────────────────────────────────────────────────────────────┘
@@ -104,7 +104,7 @@ REQUIRED ALIGNMENT:
 □ Covered Taxes definition and adjustments
 □ ETR calculation formula
 □ SBIE computation (transition rates)
-□ Top-up Tax calculation
+□ Top-Up Tax calculation
 □ Allocation rules
 
 PERMITTED VARIATIONS:
@@ -176,10 +176,10 @@ WITHOUT SAFE HARBOUR:
 │ Step 1: Calculate QDMTT under local rules                          │
 │         → Ireland QDMTT = €426,394                                  │
 │                                                                     │
-│ Step 2: Calculate GloBE Top-up Tax under GloBE Rules               │
+│ Step 2: Calculate GloBE Top-Up Tax under GloBE Rules               │
 │         → GloBE calculation = €432,000 (methodology differences)    │
 │                                                                     │
-│ Step 3: IIR = GloBE Top-up Tax − QDMTT paid                        │
+│ Step 3: IIR = GloBE Top-Up Tax − QDMTT paid                        │
 │         → €432,000 − €426,394 = €5,606 residual IIR                │
 │                                                                     │
 │ Result: MNE pays QDMTT (€426,394) + IIR (€5,606) = €432,000        │
@@ -191,7 +191,7 @@ WITH SAFE HARBOUR:
 │         → Ireland QDMTT = €426,394                                  │
 │                                                                     │
 │ Step 2: QDMTT Safe Harbour applies                                  │
-│         → GloBE Top-up Tax deemed = €0                              │
+│         → GloBE Top-Up Tax deemed = €0                              │
 │                                                                     │
 │ Step 3: IIR = €0                                                    │
 │                                                                     │
@@ -444,14 +444,14 @@ Stratos Holdings plc verifies QDMTT qualified status for its operating jurisdict
 STRATOS QDMTT SAFE HARBOUR IMPACT
 
 Jurisdictions with QDMTT Safe Harbour (5):
-├── UK: No Top-up Tax (ETR ≥ 15%)
-├── Germany: No Top-up Tax (ETR ≥ 15%)
+├── UK: No Top-Up Tax (ETR ≥ 15%)
+├── Germany: No Top-Up Tax (ETR ≥ 15%)
 ├── Ireland: QDMTT €426,394; IIR = €0
 ├── Luxembourg: De Minimis applies
 └── Singapore: QDMTT replaces IIR from 2025
 
 Jurisdictions without QDMTT (2):
-├── USA: No Top-up Tax (ETR 15.49% ≥ 15%)
+├── USA: No Top-Up Tax (ETR 15.49% ≥ 15%)
 └── Cayman: IIR €280,480 to UK
 
 FY 2025 IMPACT:

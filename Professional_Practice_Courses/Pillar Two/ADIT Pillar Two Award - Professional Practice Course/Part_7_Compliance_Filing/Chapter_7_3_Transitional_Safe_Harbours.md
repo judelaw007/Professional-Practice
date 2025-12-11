@@ -40,7 +40,7 @@ Safe harbours provide compliance relief by allowing MNEs to avoid detailed GloBE
 │ PERMANENT:                                                          │
 │ ├── QDMTT Safe Harbour                                             │
 │ │   → Qualified QDMTT jurisdictions                                │
-│ │   → Top-up Tax = zero                                            │
+│ │   → Top-Up Tax = zero                                            │
 │ │                                                                   │
 │ └── Simplified Calculations Safe Harbour                           │
 │     → Permanent simplified methodology                              │
@@ -54,7 +54,7 @@ Safe harbours provide compliance relief by allowing MNEs to avoid detailed GloBE
 
 ### Purpose
 
-The Transitional CbCR Safe Harbour allows MNEs to exclude lower-risk jurisdictions from detailed GloBE calculations during the initial implementation years. If a jurisdiction qualifies, the **Top-up Tax is deemed to be zero**.
+The Transitional CbCR Safe Harbour allows MNEs to exclude lower-risk jurisdictions from detailed GloBE calculations during the initial implementation years. If a jurisdiction qualifies, the **Top-Up Tax is deemed to be zero**.
 
 ### Transition Period
 
@@ -85,7 +85,7 @@ Test 2: SIMPLIFIED ETR TEST
 Test 3: ROUTINE PROFITS TEST
 └── CbCR Profit ≤ Substance-Based Income Exclusion (SBIE)
 
-Pass ANY ONE test → Safe Harbour applies → Top-up Tax = €0
+Pass ANY ONE test → Safe Harbour applies → Top-Up Tax = €0
 ```
 
 ---
@@ -259,7 +259,7 @@ FY 2025: Singapore cannot use Safe Harbour (even if it would qualify)
 
 ### Purpose
 
-The QDMTT Safe Harbour sets the **Top-up Tax to zero** for jurisdictions where a Qualified Domestic Minimum Top-up Tax applies, eliminating the need for a second calculation under GloBE Rules.
+The QDMTT Safe Harbour sets the **Top-Up Tax to zero** for jurisdictions where a Qualified Domestic Minimum Top-Up Tax applies, eliminating the need for a second calculation under GloBE Rules.
 
 ### Requirements
 
@@ -278,13 +278,13 @@ QDMTT SAFE HARBOUR EFFECT
 
 Without Safe Harbour:
 Step 1: Calculate QDMTT under local rules → €500,000
-Step 2: Calculate GloBE Top-up Tax → €520,000
-Step 3: IIR Top-up Tax = €520,000 - €500,000 = €20,000
+Step 2: Calculate GloBE Top-Up Tax → €520,000
+Step 3: IIR Top-Up Tax = €520,000 - €500,000 = €20,000
 
 With Safe Harbour:
 Step 1: Calculate QDMTT under local rules → €500,000
-Step 2: GloBE Top-up Tax = €0 (Safe Harbour)
-Step 3: IIR Top-up Tax = €0
+Step 2: GloBE Top-Up Tax = €0 (Safe Harbour)
+Step 3: IIR Top-Up Tax = €0
 
 Result: No residual IIR liability; QDMTT covers everything
 ```
@@ -302,7 +302,7 @@ Jurisdictions with Qualified QDMTT that meets the three standards include:
 
 ### Purpose
 
-Provides relief from UTPR Top-up Tax in respect of the **UPE jurisdiction only** during the transition period.
+Provides relief from UTPR Top-Up Tax in respect of the **UPE jurisdiction only** during the transition period.
 
 ### Requirements
 
@@ -313,7 +313,7 @@ Provides relief from UTPR Top-up Tax in respect of the **UPE jurisdiction only**
 
 ### Effect
 
-If the UPE jurisdiction has ≥20% nominal CIT rate, the UTPR Top-up Tax amount attributable to that jurisdiction is reduced to **zero**.
+If the UPE jurisdiction has ≥20% nominal CIT rate, the UTPR Top-Up Tax amount attributable to that jurisdiction is reduced to **zero**.
 
 ### Example
 
@@ -322,11 +322,11 @@ UPE: US Corporation (21% CIT rate)
 Period: FY 2025
 
 Without UTPR Safe Harbour:
-→ UTPR jurisdictions could collect Top-up Tax on US operations
+→ UTPR jurisdictions could collect Top-Up Tax on US operations
    if US has not implemented IIR
 
 With UTPR Safe Harbour:
-→ UTPR Top-up Tax for US (UPE jurisdiction) = €0
+→ UTPR Top-Up Tax for US (UPE jurisdiction) = €0
 → Other low-taxed jurisdictions still subject to UTPR
 ```
 
@@ -573,7 +573,7 @@ SECTION C: QDMTT SAFE HARBOUR
    □ Meets Consistency Standard?                          YES / NO
    □ Meets Administration Standard?                       YES / NO
 
-   If all YES: QDMTT Safe Harbour applies → IIR Top-up Tax = €0
+   If all YES: QDMTT Safe Harbour applies → IIR Top-Up Tax = €0
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION D: SUMMARY
@@ -597,8 +597,8 @@ Transitional Safe Harbours provide significant compliance relief:
 
 | Safe Harbour | Availability | Benefit |
 |--------------|--------------|---------|
-| **Transitional CbCR** | FY start ≤ 31 Dec 2026, end < 30 June 2028 | Top-up Tax = €0 if any test passed |
-| **QDMTT Safe Harbour** | Permanent (Qualified QDMTT jurisdictions) | IIR Top-up Tax = €0 |
+| **Transitional CbCR** | FY start ≤ 31 Dec 2026, end < 30 June 2028 | Top-Up Tax = €0 if any test passed |
+| **QDMTT Safe Harbour** | Permanent (Qualified QDMTT jurisdictions) | IIR Top-Up Tax = €0 |
 | **Transitional UTPR** | FY start ≤ 31 Dec 2025, end < 31 Dec 2026 | UTPR for UPE jurisdiction = €0 (if CIT ≥20%) |
 
 **Key rules:**

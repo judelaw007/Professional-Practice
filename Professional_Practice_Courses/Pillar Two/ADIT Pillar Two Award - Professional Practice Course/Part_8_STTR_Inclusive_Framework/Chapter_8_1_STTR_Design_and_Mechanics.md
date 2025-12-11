@@ -441,7 +441,7 @@ STTR PRIORITY AND INTERACTION
 2. STTR vs GloBE RULES
    → STTR applies FIRST (treaty level)
    → STTR tax is CREDITABLE under GloBE Rules
-   → Reduces GloBE Top-up Tax liability
+   → Reduces GloBE Top-Up Tax liability
 
 3. STTR vs QDMTT
    → STTR tax reduces income for QDMTT purposes
@@ -465,8 +465,8 @@ Recipient jurisdiction (Singapore, 0% on IP income):
 GloBE Income: €10,000,000
 Covered Taxes: €0
 ETR: 0%
-Top-up Tax %: 15%
-Top-up Tax: €10,000,000 × 15% = €1,500,000 (to UPE jurisdiction)
+Top-Up Tax %: 15%
+Top-Up Tax: €10,000,000 × 15% = €1,500,000 (to UPE jurisdiction)
 ```
 
 **After STTR:**
@@ -477,8 +477,8 @@ Recipient jurisdiction (Singapore):
 GloBE Income: €10,000,000
 Covered Taxes: €900,000 (STTR credit)
 ETR: 9%
-Top-up Tax %: 6%
-Top-up Tax: €10,000,000 × 6% = €600,000 (to UPE jurisdiction)
+Top-Up Tax %: 6%
+Top-Up Tax: €10,000,000 × 6% = €600,000 (to UPE jurisdiction)
 
 Total tax on payment:
 • STTR (source): €900,000
@@ -661,7 +661,7 @@ The STTR taxes increase Covered Taxes in the recipient jurisdictions:
 - Pre-STTR: €392,206 / €4,000,000 = 9.81%
 - Post-STTR: €617,206 / €4,000,000 = **15.43%** (above 15% minimum!)
 
-**Result:** Singapore no longer generates GloBE Top-up Tax after STTR credit.
+**Result:** Singapore no longer generates GloBE Top-Up Tax after STTR credit.
 
 ---
 
@@ -819,12 +819,12 @@ Step 3: Credit STTR to recipient jurisdiction
 Step 4: Recalculate ETR
         → Higher ETR due to STTR credit
 
-Step 5: Calculate Top-up Tax
+Step 5: Calculate Top-Up Tax
         → Reduced (or eliminated) by STTR credit
 
 EXAMPLE:
-Pre-STTR: Singapore ETR 9.81% → 5.19% Top-up Tax
-Post-STTR: Singapore ETR 15.43% → 0% Top-up Tax (ETR ≥ 15%)
+Pre-STTR: Singapore ETR 9.81% → 5.19% Top-Up Tax
+Post-STTR: Singapore ETR 15.43% → 0% Top-Up Tax (ETR ≥ 15%)
 ```
 
 ---

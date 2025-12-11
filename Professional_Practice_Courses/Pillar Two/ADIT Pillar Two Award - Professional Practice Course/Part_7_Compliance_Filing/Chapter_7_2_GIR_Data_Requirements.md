@@ -2,7 +2,7 @@
 
 ## Learning Objective
 
-After completing this chapter, you will be able to identify the key data elements required in each GIR section, understand the volume and complexity of data points for ETR and Top-up Tax computations, navigate the XML schema structure, and prepare data collection processes to meet GIR requirements.
+After completing this chapter, you will be able to identify the key data elements required in each GIR section, understand the volume and complexity of data points for ETR and Top-Up Tax computations, navigate the XML schema structure, and prepare data collection processes to meet GIR requirements.
 
 ---
 
@@ -50,13 +50,13 @@ The GIR is organised into distinct sections, each requiring specific data elemen
 │ │ 4. JURISDICTION SECTION (For each jurisdiction)                 ││
 │ │    ├── Safe Harbours and Exclusions                            ││
 │ │    ├── ETR Computation (~50 data points)                       ││
-│ │    ├── Top-up Tax Computation (~40 data points)                ││
+│ │    ├── Top-Up Tax Computation (~40 data points)                ││
 │ │    └── Deferred Tax & Elections (~90 data points)              ││
 │ └─────────────────────────────────────────────────────────────────┘│
 │                              │                                      │
 │ ┌─────────────────────────────────────────────────────────────────┐│
 │ │ 5. UTPR ATTRIBUTION                                             ││
-│ │    Top-up Tax allocation among UTPR jurisdictions               ││
+│ │    Top-Up Tax allocation among UTPR jurisdictions               ││
 │ └─────────────────────────────────────────────────────────────────┘│
 └─────────────────────────────────────────────────────────────────────┘
 ```
@@ -166,14 +166,14 @@ Provides a high-level overview of GloBE outcomes by jurisdiction before detailed
 | **Safe Harbour Applied** | Yes/No and type (CbCR, QDMTT, etc.) |
 | **De Minimis Applied** | Yes/No |
 | **ETR** | Jurisdictional Effective Tax Rate |
-| **Top-up Tax** | Total jurisdictional Top-up Tax |
+| **Top-Up Tax** | Total jurisdictional Top-Up Tax |
 | **QDMTT** | QDMTT amount (if applicable) |
 | **IIR Liability** | IIR amount allocated |
 | **UTPR Liability** | UTPR amount allocated |
 
 ### Summary Table Format
 
-| Jurisdiction | CEs | Safe Harbour | De Minimis | ETR | Top-up Tax (€) | QDMTT (€) | IIR (€) |
+| Jurisdiction | CEs | Safe Harbour | De Minimis | ETR | Top-Up Tax (€) | QDMTT (€) | IIR (€) |
 |--------------|-----|--------------|------------|-----|----------------|-----------|---------|
 | GB | 2 | No | No | 25.00% | 0 | 0 | 0 |
 | DE | 2 | No | No | 23.00% | 0 | 0 | 0 |
@@ -241,7 +241,7 @@ The most detailed section of the GIR, containing all computational data for each
 | **Adjusted Covered Taxes** | Sum of all CEs |
 | **Effective Tax Rate** | ACT ÷ Net GloBE Income |
 
-### 4.3 Top-up Tax Computation (~40 Data Points)
+### 4.3 Top-Up Tax Computation (~40 Data Points)
 
 #### SBIE Calculation
 
@@ -256,7 +256,7 @@ The most detailed section of the GIR, containing all computational data for each
 | **Asset carve-out amount** | Assets × Rate |
 | **Total SBIE** | Payroll + Asset carve-outs |
 
-#### Top-up Tax Calculation
+#### Top-Up Tax Calculation
 
 | Data Element | Formula |
 |--------------|---------|
@@ -265,18 +265,18 @@ The most detailed section of the GIR, containing all computational data for each
 | **Excess Profit** | GloBE Income − SBIE |
 | Minimum Rate | 15% |
 | Jurisdictional ETR | From ETR calculation |
-| **Top-up Tax Percentage** | 15% − ETR |
-| **Jurisdictional Top-up Tax** | Excess Profit × Top-up Tax % |
+| **Top-Up Tax Percentage** | 15% − ETR |
+| **Jurisdictional Top-Up Tax** | Excess Profit × Top-Up Tax % |
 
-#### Additional Top-up Tax Items
+#### Additional Top-Up Tax Items
 
 | Data Element | Article Reference |
 |--------------|-------------------|
 | QDMTT payable | Art. 10.1 |
-| IIR Top-up Tax | Art. 2.1 |
-| UTPR Top-up Tax | Art. 2.4 |
+| IIR Top-Up Tax | Art. 2.1 |
+| UTPR Top-Up Tax | Art. 2.4 |
 | Recapture amounts | Art. 4.4 |
-| Additional current Top-up Tax | Various |
+| Additional current Top-Up Tax | Various |
 
 ### 4.4 Deferred Tax Adjustments (~50 Data Points)
 
@@ -305,16 +305,16 @@ The most detailed section of the GIR, containing all computational data for each
 
 ### Purpose
 
-Details the allocation of UTPR Top-up Tax among jurisdictions where CEs are located.
+Details the allocation of UTPR Top-Up Tax among jurisdictions where CEs are located.
 
 ### Data Elements
 
 | Data Element | Description |
 |--------------|-------------|
-| **Low-taxed jurisdiction** | Source of Top-up Tax |
+| **Low-taxed jurisdiction** | Source of Top-Up Tax |
 | **UTPR jurisdictions** | Jurisdictions collecting UTPR |
 | **UTPR percentage** | Based on employees and assets |
-| **UTPR amount** | Allocated Top-up Tax per jurisdiction |
+| **UTPR amount** | Allocated Top-Up Tax per jurisdiction |
 
 ### UTPR Allocation Formula
 
@@ -323,7 +323,7 @@ UTPR Percentage = (Employees in Jurisdiction + Tangible Assets in Jurisdiction)
                   ────────────────────────────────────────────────────────────────
                   (Total Employees + Total Tangible Assets in UTPR Jurisdictions)
 
-UTPR Amount = Total UTPR Top-up Tax × UTPR Percentage
+UTPR Amount = Total UTPR Top-Up Tax × UTPR Percentage
 ```
 
 ---
@@ -438,7 +438,7 @@ Phase 3: ADJUSTMENTS (Month 6-9 post year-end)
 Phase 4: COMPUTATIONS (Month 9-12 post year-end)
 ├── Calculate ETR per jurisdiction
 ├── Compute SBIE
-├── Determine Top-up Tax
+├── Determine Top-Up Tax
 └── Allocate IIR/UTPR
 
 Phase 5: REVIEW & FILING (Month 12-15 post year-end)
@@ -650,7 +650,7 @@ The GIR requires comprehensive data across multiple categories:
 | **Filing Info** | CE and Group identification | ~15 fields |
 | **Corporate Structure** | All CEs with classifications | ~10 per entity |
 | **Summary** | Jurisdictional overview | ~10 per jurisdiction |
-| **Jurisdiction Section** | ETR, Top-up Tax, DTL, elections | ~180 per jurisdiction |
+| **Jurisdiction Section** | ETR, Top-Up Tax, DTL, elections | ~180 per jurisdiction |
 | **UTPR Attribution** | Allocation details | Variable |
 
 **Total for typical MNE:** 1,000-2,000+ data points
@@ -671,7 +671,7 @@ GIR-001 GloBE Calculator outputs map directly to GIR sections:
 |-------------|----------------|
 | ETR Computation | Step 1 outputs |
 | SBIE | Step 2 outputs |
-| Top-up Tax | Step 3 outputs |
+| Top-Up Tax | Step 3 outputs |
 | Summary | Dashboard summary |
 
 **Data flow:**

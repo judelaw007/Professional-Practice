@@ -308,10 +308,10 @@ Chapter 4: Covered Taxes
 ├── Deferred taxes
 └── Allocations
 
-Chapter 5: ETR and Top-up Tax
+Chapter 5: ETR and Top-Up Tax
 ├── ETR calculation
 ├── SBIE
-├── Top-up Tax
+├── Top-Up Tax
 └── Safe Harbours
 
 [Continues through all chapters...]

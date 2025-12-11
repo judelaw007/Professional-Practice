@@ -303,7 +303,7 @@ For IIR:
 For QDMTT:
 ├── Qualified QDMTT reduces GloBE liability to zero
 ├── QDMTT Safe Harbour eliminates residual IIR
-└── Non-qualified QDMTT doesn't prevent Top-up Tax
+└── Non-qualified QDMTT doesn't prevent Top-Up Tax
 
 For MNEs:
 ├── Know which jurisdictions' rules take precedence
@@ -332,7 +332,7 @@ Process:
 
 Effect:
 • Other jurisdictions' rules take priority
-• MNEs may face additional Top-up Tax
+• MNEs may face additional Top-Up Tax
 • Jurisdiction loses revenue to other countries
 ```
 
@@ -476,12 +476,12 @@ IIR Ordering:
 
 QDMTT Safe Harbour:
 • Ireland QDMTT: Qualified for Safe Harbour
-  → No residual IIR to UK for Irish Top-up Tax
+  → No residual IIR to UK for Irish Top-Up Tax
   → Stratos pays €426,394 QDMTT to Ireland only
 
 • Germany, Luxembourg: Also qualified
   → QDMTT applies locally if needed
-  → No Top-up Tax due (ETR ≥ 15%)
+  → No Top-Up Tax due (ETR ≥ 15%)
 
 Non-Qualified Jurisdictions:
 • Singapore, USA, Cayman: No GloBE legislation
