@@ -4,37 +4,31 @@
 
 After completing this chapter, you will be able to determine which entity in an MNE group is liable to apply the Income Inclusion Rule and calculate its Allocable Share of Top-Up Tax.
 
----
-
-## How the IIR Works
+## 1. How the IIR Works
 
 The Income Inclusion Rule (IIR) is the **primary charging mechanism** under GloBE. It requires a parent entity to include its share of Top-Up Tax arising from low-taxed constituent entities in its own tax liability.
 
 The IIR follows a **top-down approach**: the Ultimate Parent Entity (UPE) has first priority to apply the rule. If the UPE's jurisdiction does not have a Qualified IIR, the obligation cascades down to the next parent entity in the ownership chain.
 
----
+## 2. Step 1: Identify the Entity That Must Apply the IIR
 
-## Step 1: Identify the Entity That Must Apply the IIR
-
-### Primary Rule: UPE Applies the IIR
+### 2.1 Primary Rule: UPE Applies the IIR
 
 If the UPE's jurisdiction has implemented a **Qualified IIR**, the UPE is required to apply the IIR with respect to any Low-Taxed Constituent Entity (LTCE) in which it holds an Ownership Interest *(Article 2.1.1)*.
 
 **Key point:** The UPE must apply the IIR if it owns an interest in the LTCE "at any time during the Fiscal Year"—the holding period does not matter for determining liability.
 
-### Secondary Rule: IPE Applies the IIR
+### 2.2 Secondary Rule: IPE Applies the IIR
 
 If the UPE's jurisdiction does **not** have a Qualified IIR, the obligation flows down to the next **Intermediate Parent Entity (IPE)** whose jurisdiction has a Qualified IIR *(Article 2.1.2)*.
 
 The IPE applies the IIR only with respect to LTCEs it directly or indirectly owns—not for entities outside its ownership chain.
 
-### Exception: IPE Excluded When UPE Applies
+### 2.3 Exception: IPE Excluded When UPE Applies
 
 If the UPE applies a Qualified IIR, lower-tier IPEs are **excluded** from applying the IIR *(Article 2.1.3)*. This prevents double taxation within the same ownership chain.
 
----
-
-## Decision Flowchart: Which Entity Applies the IIR?
+## 3. Decision Flowchart: Which Entity Applies the IIR?
 
 ```
                     ┌─────────────────────────────────┐
@@ -61,17 +55,15 @@ If the UPE applies a Qualified IIR, lower-tier IPEs are **excluded** from applyi
             └───────────────────┘
 ```
 
----
-
-## Step 2: Calculate the Allocable Share of Top-Up Tax
+## 4. Step 2: Calculate the Allocable Share of Top-Up Tax
 
 Once you identify which entity must apply the IIR, calculate its **Allocable Share** of the Top-Up Tax.
 
-### The Formula
+### 4.1 The Formula
 
 **Allocable Share = Top-Up Tax of LTCE × Inclusion Ratio** *(Article 2.2.1)*
 
-### Calculating the Inclusion Ratio
+### 4.2 Calculating the Inclusion Ratio
 
 The **Inclusion Ratio** represents the parent entity's proportionate interest in the LTCE's GloBE Income *(Article 2.2.2)*.
 
@@ -85,7 +77,7 @@ The **Inclusion Ratio** represents the parent entity's proportionate interest in
 
 *The exact calculation uses GloBE Income allocation, not just ownership percentage. In most cases with straightforward structures, these align closely.
 
-### Worked Example: Simple Ownership
+### 4.3 Worked Example: Simple Ownership
 
 **Scenario:** Stratos Group plc (UK UPE) owns 100% of SG Singapore Pte Ltd, which has a Top-Up Tax of €500,000.
 
@@ -97,13 +89,11 @@ The **Inclusion Ratio** represents the parent entity's proportionate interest in
 
 Stratos Group plc pays €500,000 of UK Multinational Top-Up Tax.
 
----
-
-## Step 3: Handle Split Ownership Structures
+## 5. Step 3: Handle Split Ownership Structures
 
 When an LTCE is owned through multiple ownership chains, each parent entity calculates its own Allocable Share based on its Inclusion Ratio.
 
-### Worked Example: Split Ownership
+### 5.1 Worked Example: Split Ownership
 
 **Scenario:** SG Ireland IP Ltd (LTCE) is owned:
 - 70% by SG Netherlands BV (held by Stratos Group plc)
@@ -131,35 +121,31 @@ Allocable Share = €200,000 × 70% = €140,000
 
 Stratos Group plc pays €140,000 of Top-Up Tax. The remaining €60,000 is not charged under the IIR (it would be addressed by UTPR or QDMTT depending on the external investor's structure).
 
----
-
-## Partially-Owned Parent Entities (POPEs)
+## 6. Partially-Owned Parent Entities (POPEs)
 
 A **Partially-Owned Parent Entity (POPE)** is a Constituent Entity that:
 1. Owns an Ownership Interest in another CE, AND
 2. Has **more than 20%** of its profits held by third parties *(Article 10.1)*
 
-### Special Rule: POPEs Must Also Apply IIR
+### 6.1 Special Rule: POPEs Must Also Apply IIR
 
 Even when a UPE applies the IIR, a POPE must **separately** apply the IIR with respect to LTCEs it owns *(Article 2.1.4)*. This is an exception to the normal top-down exclusion rule.
 
 **Why?** POPEs have significant third-party ownership, so the UPE cannot fully capture the Top-Up Tax through its own Inclusion Ratio. The POPE must apply the IIR to ensure the third parties' share is taxed.
 
-### Exception: Wholly-Owned POPE Chain
+### 6.2 Exception: Wholly-Owned POPE Chain
 
 If one POPE is wholly owned by another POPE, only the higher-tier POPE applies the IIR *(Article 2.1.5)*. This prevents multiple POPEs in a chain from each applying the IIR on the same income.
 
----
-
-## IIR Offset Mechanism
+## 7. IIR Offset Mechanism
 
 When multiple entities in the ownership chain apply the IIR (e.g., a UPE and a POPE both applying to the same LTCE), the **IIR offset** prevents double taxation *(Article 2.3)*.
 
-### How the Offset Works
+### 7.1 How the Offset Works
 
 The higher-tier parent entity **reduces** its Allocable Share by the amount already charged at the lower-tier entity *(Article 2.3.1 and 2.3.2)*.
 
-### Worked Example: IIR Offset with POPE
+### 7.2 Worked Example: IIR Offset with POPE
 
 **Scenario:**
 - Stratos Group plc (UK UPE) owns 60% of SG Holdings BV (Netherlands POPE)
@@ -194,13 +180,11 @@ Stratos reduces its Allocable Share by the portion already taxed at POPE level:
 
 The IIR offset eliminates Stratos's Top-Up Tax liability because the full amount has been charged at the POPE level. No double taxation occurs.
 
----
-
-## Multi-Tier Ownership Chains
+## 8. Multi-Tier Ownership Chains
 
 In complex structures with multiple IPEs, trace the ownership from the UPE down to each LTCE. Each parent in the chain may have different Inclusion Ratios depending on ownership percentages at each level.
 
-### Worked Example: Multi-Tier Chain
+### 8.1 Worked Example: Multi-Tier Chain
 
 **Stratos Group Structure:**
 
@@ -235,9 +219,7 @@ Stratos Group plc (UK UPE) — 100%
 
 All Top-Up Tax is charged at the UK UPE level. Lower-tier IPEs have no IIR liability.
 
----
-
-## Jurisdiction Qualified IIR Status
+## 9. Jurisdiction Qualified IIR Status
 
 The IIR application depends on which jurisdictions have implemented a **Qualified IIR**. A jurisdiction's IIR qualifies if it is consistent with the GloBE Model Rules as determined through the OECD Inclusive Framework peer review process.
 
@@ -254,9 +236,7 @@ The IIR application depends on which jurisdictions have implemented a **Qualifie
 
 **Key point:** Check the OECD's published list of qualified jurisdictions, as this is updated periodically following peer reviews.
 
----
-
-## Stratos Example: Complete IIR Application
+## 10. Stratos Example: Complete IIR Application
 
 **Stratos Group Structure (simplified for IIR analysis):**
 
@@ -285,71 +265,20 @@ Stratos Group plc (UK) — UPE
 
 **Note:** If Ireland had implemented a QDMTT, the €800,000 would be collected in Ireland first, and Stratos's IIR liability for Ireland would be reduced to zero. See Chapter 5.4 for QDMTT interaction.
 
----
+## 11. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Assuming IPE Always Applies IIR
+### 11.1 Pitfall 1: Assuming IPE Always Applies IIR
 
 If the UPE's jurisdiction has a Qualified IIR, lower-tier IPEs are excluded. Don't calculate separate IIR liability for each entity in the chain.
 
-### Pitfall 2: Forgetting POPE Rules
+### 11.2 Pitfall 2: Forgetting POPE Rules
 
 POPEs must apply the IIR even when the UPE does. Always check whether any intermediate holding company has >20% third-party ownership.
 
-### Pitfall 3: Incorrect Inclusion Ratio
+### 11.3 Pitfall 3: Incorrect Inclusion Ratio
 
 The Inclusion Ratio is based on GloBE Income allocation, not just legal ownership percentage. For complex structures with minority interests at multiple levels, trace the income attribution carefully.
 
-### Pitfall 4: Ignoring the IIR Offset
+### 11.4 Pitfall 4: Ignoring the IIR Offset
 
 When both UPE and POPE apply IIR, the offset prevents double taxation. Failing to apply the offset overstates the UPE's liability.
-
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 2.1.1 — UPE application of IIR
-- Article 2.1.2 — IPE application of IIR
-- Article 2.1.3 — Exclusion for IPE when UPE applies Qualified IIR
-- Article 2.1.4 — POPE application of IIR
-- Article 2.1.5 — Exclusion for wholly-owned POPE chain
-- Article 2.2.1 — Allocable Share definition
-- Article 2.2.2 — Inclusion Ratio calculation
-- Article 2.3 — IIR Offset Mechanism
-
-**OECD Commentary:**
-- Paragraphs 1-30 (Chapter 2) — Detailed guidance on IIR application and allocation
-
----
-
-## Tools
-
-The IIR determines **which entity pays** the Top-Up Tax calculated in earlier steps. This chapter connects to:
-
-| Tool | How This Chapter Connects |
-|------|---------------------------|
-| **GIR-001 GloBE Calculator** | Step 3 of GIR-001 calculates the jurisdictional Top-Up Tax amount. You then apply the IIR allocation from this chapter to determine which entity bears that tax. |
-| **GIR-004 GIR Practice Form** | Section 2 of the GIR requires disclosure of IIR amounts by entity. The Allocable Share calculations from this chapter feed directly into the GIR. |
-
-Use GIR-001 to calculate the Top-Up Tax amount, then apply the IIR mechanics from this chapter to allocate that amount to the correct parent entity.
-
----
-
-## Summary
-
-Applying the Income Inclusion Rule requires:
-
-1. **Identify** which entity applies the IIR (UPE first, then IPE if no UPE IIR)
-2. **Check** for POPEs that must separately apply the IIR
-3. **Calculate** each parent's Inclusion Ratio based on GloBE Income attribution
-4. **Compute** the Allocable Share (Top-Up Tax × Inclusion Ratio)
-5. **Apply** the IIR offset where multiple entities in the chain apply IIR
-6. **Document** the allocation for GIR reporting
-
----
-
-## Next Step
-
-Once you understand when the IIR applies and how to calculate the Allocable Share, proceed to **Chapter 2.2: Undertaxed Profits Rule Application** to learn how UTPR acts as a backstop when the IIR does not fully capture Top-Up Tax.

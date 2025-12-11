@@ -4,9 +4,7 @@
 
 After completing this chapter, you will be able to calculate the complete Top-Up Tax allocation from jurisdictional totals through to individual parent entity liability, handling minority interests and POPE structures.
 
----
-
-## The Complete Allocation Process
+## 1. The Complete Allocation Process
 
 Top-Up Tax allocation involves three distinct levels of calculation:
 
@@ -18,11 +16,9 @@ Top-Up Tax allocation involves three distinct levels of calculation:
 
 This chapter provides the calculation mechanics for each level and shows how they connect.
 
----
+## 2. Level 1: Jurisdictional Top-Up Tax Calculation
 
-## Level 1: Jurisdictional Top-Up Tax Calculation
-
-### The Complete Formula
+### 2.1 The Complete Formula
 
 **Jurisdictional Top-Up Tax = (Top-Up Tax Percentage × Excess Profit) + Additional Current Top-Up Tax − QDMTT**
 
@@ -32,7 +28,7 @@ Where:
 - **Additional Current Top-Up Tax** = Recaptured amounts from prior years *(Article 5.2.3)*
 - **QDMTT** = Qualified Domestic Minimum Top-Up Tax already collected *(Article 5.2.3)*
 
-### Worked Example: Jurisdictional Calculation
+### 2.2 Worked Example: Jurisdictional Calculation
 
 **Scenario:** Stratos has operations in Singapore with the following data:
 
@@ -87,9 +83,7 @@ Jurisdictional Top-Up Tax = Top-Up Tax % × Excess Profit
 
 **Result:** Singapore jurisdictional Top-Up Tax is **€349,000**.
 
----
-
-## SBIE Transition Rates Reference
+## 3. SBIE Transition Rates Reference
 
 The Substance-Based Income Exclusion uses transition rates that decline annually *(Article 9.1)*:
 
@@ -108,13 +102,11 @@ The Substance-Based Income Exclusion uses transition rates that decline annually
 
 **Note:** These are the permanent rates after the transition period. For years 2024-2028, rates decline by 0.2 percentage points annually. For years 2029-2032, the decline accelerates (0.8 percentage points for payroll, 0.4 for assets).
 
----
-
-## Level 2: Entity Allocation Within a Jurisdiction
+## 4. Level 2: Entity Allocation Within a Jurisdiction
 
 Once the jurisdictional Top-Up Tax is calculated, it must be **allocated to individual Constituent Entities** in that jurisdiction *(Article 5.2.4)*.
 
-### The Entity Allocation Rule
+### 4.1 The Entity Allocation Rule
 
 **Entity's Top-Up Tax = Jurisdictional Top-Up Tax × (Entity's GloBE Income ÷ Total Positive GloBE Income in Jurisdiction)**
 
@@ -123,7 +115,7 @@ Once the jurisdictional Top-Up Tax is calculated, it must be **allocated to indi
 - CEs with GloBE losses receive **no allocation**
 - Allocations are proportional to each CE's share of positive income
 
-### Worked Example: Multi-Entity Jurisdiction
+### 4.2 Worked Example: Multi-Entity Jurisdiction
 
 **Scenario:** Stratos has three entities in Singapore with the following GloBE Income:
 
@@ -145,19 +137,17 @@ Once the jurisdictional Top-Up Tax is calculated, it must be **allocated to indi
 | SG Holdings Pte Ltd | €(1,000,000) | 0% | **€0** |
 | **Total** | | **100%** | **€349,000** |
 
----
-
-## Level 3: Parent Entity Allocable Share
+## 5. Level 3: Parent Entity Allocable Share
 
 After entity-level allocation, the Top-Up Tax is charged to **parent entities** under the IIR or UTPR based on their **Allocable Share** *(Article 2.2)*.
 
-### IIR Allocable Share Calculation
+### 5.1 IIR Allocable Share Calculation
 
 **Allocable Share = Top-Up Tax of LTCE × Inclusion Ratio** *(Article 2.2.1)*
 
 **Inclusion Ratio = (GloBE Income of LTCE − Amount attributable to other owners) ÷ GloBE Income of LTCE** *(Article 2.2.2)*
 
-### Simple Ownership Example
+### 5.2 Simple Ownership Example
 
 **Scenario:** Stratos Group plc owns 100% of SG Tech Pte Ltd (Low-Taxed CE).
 
@@ -168,7 +158,7 @@ After entity-level allocation, the Top-Up Tax is charged to **parent entities** 
 | Stratos's Inclusion Ratio | 100% |
 | **Stratos's Allocable Share** | **€218,125** |
 
-### Split Ownership Example
+### 5.3 Split Ownership Example
 
 **Scenario:** SG Services Pte Ltd is owned:
 - 70% by Stratos Group plc (through SG Holdings Ltd)
@@ -197,23 +187,21 @@ Allocable Share = €130,875 × 70%
 
 **Result:** Stratos pays €91,613 under IIR. The €39,262 attributable to the external investor is not collected under IIR (subject to UTPR if applicable).
 
----
-
-## POPE Allocation Adjustments
+## 6. POPE Allocation Adjustments
 
 When a **Partially-Owned Parent Entity (POPE)** is in the ownership chain, allocations require special handling *(Article 2.1.4)*.
 
-### POPE Definition Recap
+### 6.1 POPE Definition Recap
 
 A POPE is a Constituent Entity that:
 1. Owns an Ownership Interest in another CE, AND
 2. Has more than 20% of its profits held by third parties *(Article 10.1)*
 
-### POPE Allocation Mechanics
+### 6.2 POPE Allocation Mechanics
 
 When a POPE exists, both the POPE and the UPE may apply the IIR. The **IIR offset** prevents double taxation *(Article 2.3)*.
 
-### Worked Example: POPE Allocation
+### 6.3 Worked Example: POPE Allocation
 
 **Scenario:**
 - Stratos Group plc (UK UPE) owns 60% of SG Holdings BV (Netherlands)
@@ -263,13 +251,11 @@ Final Allocable Share = Initial Share − Offset
 
 **Result:** The IIR offset eliminates Stratos's Top-Up Tax liability. The full €300,000 is collected at the POPE level.
 
----
-
-## Multi-Tier Ownership Chain Calculations
+## 7. Multi-Tier Ownership Chain Calculations
 
 For complex structures with multiple ownership levels, calculate the **cumulative Inclusion Ratio** by multiplying through the chain.
 
-### Worked Example: Three-Tier Structure
+### 7.1 Worked Example: Three-Tier Structure
 
 **Stratos Group Structure:**
 
@@ -302,13 +288,11 @@ Stratos's Allocable Share = €200,000 × 80% = €160,000
 
 **Note:** The remaining €40,000 (20% minority interest at Netherlands level) would be subject to UTPR if not collected under IIR through another chain.
 
----
-
-## UTPR Allocation Calculation
+## 8. UTPR Allocation Calculation
 
 When UTPR applies to residual Top-Up Tax, the allocation uses a **substance-based formula** *(Article 2.6)*.
 
-### UTPR Percentage Formula
+### 8.1 UTPR Percentage Formula
 
 **UTPR Percentage = (Employee Factor × 50%) + (Tangible Asset Factor × 50%)**
 
@@ -316,7 +300,7 @@ Where:
 - **Employee Factor** = Employees in jurisdiction ÷ Total employees in all UTPR jurisdictions
 - **Tangible Asset Factor** = Tangible assets in jurisdiction ÷ Total tangible assets in all UTPR jurisdictions
 
-### Worked Example: UTPR Allocation
+### 8.2 Worked Example: UTPR Allocation
 
 **Scenario:** €40,000 of Top-Up Tax is not collected under IIR (minority interest). Stratos has operations in three jurisdictions with Qualified UTPR:
 
@@ -361,11 +345,9 @@ Where:
 | France | 15.0% | €40,000 × 15% = **€6,000** |
 | **Total** | **100%** | **€40,000** |
 
----
+## 9. Complete Allocation Workbook Template
 
-## Complete Allocation Workbook Template
-
-### Step 1: Jurisdictional Top-Up Tax
+### 9.1 Step 1: Jurisdictional Top-Up Tax
 
 | Item | Formula | Amount |
 |------|---------|--------|
@@ -383,7 +365,7 @@ Where:
 | L. Less: QDMTT | | (€) |
 | **M. Net Jurisdictional Top-Up Tax** | **K − L** | **€** |
 
-### Step 2: Entity Allocation
+### 9.2 Step 2: Entity Allocation
 
 | Entity | GloBE Income | Share of Positive | Allocated Top-Up Tax |
 |--------|--------------|-------------------|---------------------|
@@ -392,7 +374,7 @@ Where:
 | Entity 3 | € | % | € |
 | **Total (Positive Only)** | **€** | **100%** | **€** |
 
-### Step 3: Parent Allocable Share (IIR)
+### 9.3 Step 3: Parent Allocable Share (IIR)
 
 | Entity | Top-Up Tax | Ownership Chain | Inclusion Ratio | Allocable Share |
 |--------|------------|-----------------|-----------------|-----------------|
@@ -400,7 +382,7 @@ Where:
 | Entity 2 | € | UPE → ... → CE | % | € |
 | **Total IIR** | | | | **€** |
 
-### Step 4: Residual for UTPR
+### 9.4 Step 4: Residual for UTPR
 
 | Item | Amount |
 |------|--------|
@@ -408,7 +390,7 @@ Where:
 | Less: IIR Allocable Shares | (€) |
 | **UTPR Top-Up Tax Amount** | **€** |
 
-### Step 5: UTPR Allocation
+### 9.5 Step 5: UTPR Allocation
 
 | Jurisdiction | Employees | Assets (€M) | Emp % | Asset % | UTPR % | Allocated |
 |--------------|-----------|-------------|-------|---------|--------|-----------|
@@ -416,9 +398,7 @@ Where:
 | Jurisdiction 2 | | € | % | % | % | € |
 | **Total** | | **€** | **100%** | **100%** | **100%** | **€** |
 
----
-
-## Stratos Example: Complete Allocation
+## 10. Stratos Example: Complete Allocation
 
 **Scenario:** Stratos has completed its FY 2025 Pillar Two calculations and identified the following:
 
@@ -429,7 +409,7 @@ Where:
 | UK | 23.5% | Above minimum | Nil |
 | Germany | 28.2% | Above minimum | Nil |
 
-### Singapore Allocation
+### 10.1 Singapore Allocation
 
 **Ownership:** Stratos Group plc → SG Holdings Ltd → SG Singapore Pte Ltd (100% throughout)
 
@@ -442,7 +422,7 @@ Where:
 | **IIR Allocable Share** | €2,100,000 × 100% | **€2,100,000** |
 | UTPR Residual | €2,100,000 − €2,100,000 | €0 |
 
-### Ireland Allocation
+### 10.2 Ireland Allocation
 
 **Ownership:**
 - Stratos Group plc → SG Holdings Ltd → SG Netherlands BV → SG Ireland Ltd (60% at NL level)
@@ -457,7 +437,7 @@ Where:
 | External investor share | €800,000 × 40% | €320,000 |
 | **UTPR Residual** | | **€320,000** |
 
-### UTPR Allocation (Ireland Residual)
+### 10.3 UTPR Allocation (Ireland Residual)
 
 | Jurisdiction | Employees | Assets (€M) | Emp % | Asset % | UTPR % | Allocated |
 |--------------|-----------|-------------|-------|---------|--------|-----------|
@@ -469,7 +449,7 @@ Where:
 
 *Rounding difference
 
-### Summary: Stratos FY 2025 Top-Up Tax Liability
+### 10.4 Summary: Stratos FY 2025 Top-Up Tax Liability
 
 | Mechanism | Jurisdiction | Entity Collecting | Amount |
 |-----------|--------------|-------------------|--------|
@@ -480,75 +460,26 @@ Where:
 | UTPR | Netherlands | SG Netherlands BV | €36,800 |
 | **Total** | | | **€2,900,640** |
 
----
+## 11. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Forgetting Loss-Making Entities in Entity Allocation
+### 11.1 Pitfall 1: Forgetting Loss-Making Entities in Entity Allocation
 
 Loss-making CEs receive **no allocation** of jurisdictional Top-Up Tax. Only CEs with positive GloBE Income participate in the allocation.
 
-### Pitfall 2: Using Ownership Percentage as Inclusion Ratio
+### 11.2 Pitfall 2: Using Ownership Percentage as Inclusion Ratio
 
 The Inclusion Ratio is based on **GloBE Income attribution**, not legal ownership percentage. In straightforward structures these align, but with special allocations or profit-sharing arrangements they may differ.
 
-### Pitfall 3: Double-Counting POPE Charges
+### 11.3 Pitfall 3: Double-Counting POPE Charges
 
 When both UPE and POPE apply IIR, always apply the **IIR offset** to prevent double taxation. The offset equals the UPE's share of the charge already paid at POPE level.
 
-### Pitfall 4: Including Non-UTPR Jurisdictions
+### 11.4 Pitfall 4: Including Non-UTPR Jurisdictions
 
 Only jurisdictions with a **Qualified UTPR** are included in the UTPR allocation. Exclude employees and assets in jurisdictions without UTPR implementation.
 
-### Pitfall 5: Mixing Allocation Formulas
+### 11.5 Pitfall 5: Mixing Allocation Formulas
 
 IIR uses **ownership-based** allocation (Inclusion Ratio).
 UTPR uses **substance-based** allocation (50% employees + 50% tangible assets).
 Never mix these formulas.
-
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 5.2.1 — Top-Up Tax Percentage calculation
-- Article 5.2.2 — Excess Profit (GloBE Income less SBIE)
-- Article 5.2.3 — Additional Current Top-Up Tax and QDMTT reduction
-- Article 5.2.4 — Allocation of Top-Up Tax to Constituent Entities
-- Article 5.3 — Substance-Based Income Exclusion
-- Article 2.2.1 — Allocable Share definition
-- Article 2.2.2 — Inclusion Ratio calculation
-- Article 2.3 — IIR Offset Mechanism
-- Article 2.6 — UTPR allocation formula
-- Article 9.1 — SBIE transition rates
-
----
-
-## Tools
-
-The allocation calculations in this chapter connect directly to the GloBE Calculator workflow:
-
-| Tool | How This Chapter Connects |
-|------|---------------------------|
-| **GIR-001 GloBE Calculator** | Steps 1-3 of GIR-001 calculate the jurisdictional Top-Up Tax (Level 1 of this chapter). After GIR-001, apply the entity and parent allocation methodologies from this chapter. |
-| **GIR-004 GIR Practice Form** | Sections 2-4 of the GIR require disclosure of Top-Up Tax allocations by entity, IIR amounts by parent, and UTPR amounts by jurisdiction. The calculations from this chapter feed directly into the GIR. |
-
----
-
-## Summary
-
-Complete Top-Up Tax allocation requires three levels of calculation:
-
-1. **Level 1 (Jurisdiction):** Calculate jurisdictional Top-Up Tax using ETR, SBIE, and Excess Profit
-2. **Level 2 (Entity):** Allocate to individual CEs based on their share of positive GloBE Income
-3. **Level 3 (Parent):** Determine parent Allocable Shares using Inclusion Ratios (IIR) or substance factors (UTPR)
-
-The allocation workbook template provides a systematic approach to document each step.
-
----
-
-## Next Step
-
-You have now completed Part 2: The Charging Mechanism. You understand how IIR and UTPR work, how they interact, and how to calculate the complete Top-Up Tax allocation.
-
-Proceed to **Case Study 2: Stratos's First Top-Up Tax Allocation** to apply these concepts to a comprehensive scenario, or continue to **Part 3: Computing GloBE Income or Loss** to learn how to calculate the GloBE Income figures that feed into these calculations.
