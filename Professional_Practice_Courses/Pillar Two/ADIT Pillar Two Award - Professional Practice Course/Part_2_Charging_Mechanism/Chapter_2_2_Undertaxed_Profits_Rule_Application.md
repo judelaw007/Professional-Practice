@@ -397,4 +397,4 @@ Applying the Undertaxed Profits Rule requires:
 
 ## Next Step
 
-You now understand both charging mechanisms—IIR (Chapter 2.1) and UTPR (this chapter). Proceed to **Chapter 2.3: Switch-Over Rules and Ordering** to learn how these rules interact and the sequence in which they apply.
+You now understand both charging mechanisms—IIR (Chapter 2.1) and UTPR (this chapter). Proceed to **Chapter 2.3: Ordering Rules and Interaction** to learn how these rules interact and the sequence in which they apply.
