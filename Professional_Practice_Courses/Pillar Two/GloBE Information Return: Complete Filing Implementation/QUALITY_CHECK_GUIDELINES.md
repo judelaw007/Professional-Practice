@@ -80,7 +80,7 @@ Practice with Case Study 5 (Amendment Required) for post-filing scenarios.
 - Include table separators (---|---)
 - Ensure all rows have the same number of columns
 
-> **Note:** For comprehensive consistency audits, use the prompt at `Quality /Content Consistency & Flow Check`
+> **Note:** For comprehensive consistency audits, use the prompt at `Quality /Content Consistency & Flow Check.md`
 
 ---
 
