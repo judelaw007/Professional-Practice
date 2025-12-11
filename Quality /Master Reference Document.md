@@ -3,7 +3,7 @@
 
 **Purpose:** Track terminology standards, concepts, cross-references, and consistency issues across all course sections. This is a living document updated at the start of each section audit.
 
-**Last Updated:** 2025-12-11 (Part 2 full audit complete)
+**Last Updated:** 2025-12-11 (Part 3 full audit complete)
 
 ---
 
@@ -31,6 +31,11 @@
 | GIR | GloBE Information Return (Part 1.1) | "GIR" | — | Parts 1.1, 1.2, 1.3, 1.4, 2.1, 2.2, 2.4, CS2 |
 | NPO | Non-Profit Organisation (Part 1.4) | "NPO" or "Non-Profit Organisation" | — | Part 1.4, CS1 |
 | DLC | Dual-Listed Company (Part 1.3) | "DLC" or "Dual-Listed Company" | — | Part 1.3 |
+| SBC | Stock-Based Compensation (Part 3.3) | "SBC" or "Stock-Based Compensation" | — | Parts 3.2, 3.3, CS3 |
+| MCD | Material Competitive Distortion (Part 3.1) | "MCD" or "Material Competitive Distortion" | — | Part 3.1 |
+| PPA | Purchase Price Allocation (Part 3.1) | "PPA" | — | Part 3.1 |
+| OCI | Other Comprehensive Income (Part 3.2) | "OCI" | — | Part 3.2 |
+| ISI | International Shipping Income (Part 3.4) | "ISI" or "International Shipping Income" | — | Part 3.4 |
 
 ---
 
@@ -60,7 +65,7 @@
 | Currency conversion (ECB rates) | Chapter 1.1 | CS1 | None |
 | Consolidation perimeter | Chapter 1.2 | Chapters 1.3, 1.4, CS1 | None |
 | PE as separate CE | Chapter 1.2 | CS1 | None |
-| Flow-through entities | Chapter 1.2 | — | Addressed in Part 3 |
+| Flow-through entities | Chapter 1.2 | Chapter 3.5, CS3 | Fully addressed in Part 3 |
 | Controlling interest definition | Chapter 1.3 | Chapter 1.4, CS1 | None |
 | Multi-Parented MNE Groups | Chapter 1.3 | — | Addressed in Part 6 |
 | Stapled structures | Chapter 1.2, 1.3 | — | None |
@@ -75,8 +80,22 @@
 | UTPR carve-out rule | Chapter 2.2 | — | None |
 | Transitional UTPR safe harbour | Chapter 2.2 | — | Through FY 2025/2026 |
 | Three-layer rule order (QDMTT→IIR→UTPR) | Chapter 2.3 | Chapter 2.4, CS2 | None |
-| SBIE transition rates | Chapter 2.4 | CS2 | Declining to 5%/5% by 2033 |
-| Jurisdictional blending | Chapter 2.4 | CS2 | None |
+| SBIE transition rates | Chapter 2.4 | CS2, CS3 | Declining to 5%/5% by 2033 |
+| Jurisdictional blending | Chapter 2.4 | CS2, Part 3 | None |
+| Financial Accounting Net Income starting point | Chapter 3.1 | Chapters 3.2-3.5, CS3 | None |
+| Article 3.1 accounting hierarchy | Chapter 3.1 | CS3 | UPE standard → Alternative standard |
+| €1M permanent difference threshold | Chapter 3.1 | CS3 | For alternative accounting standard |
+| €75M Material Competitive Distortion threshold | Chapter 3.1 | — | For Authorised standards |
+| Nine mandatory adjustments (Art. 3.2) | Chapter 3.2 | CS3 | None |
+| Excluded Dividends test (≥10% OR ≥12 months) | Chapter 3.2 | CS3 | None |
+| €50K fines/penalties threshold | Chapter 3.2 | CS3 | Policy disallowed expenses |
+| Accrued pension expense adjustment | Chapter 3.2 | CS3 | Contribution vs accrual |
+| SBC Five-Year Election | Chapter 3.3 | CS3 | Per jurisdiction; irrevocable |
+| 50% ancillary shipping income cap | Chapter 3.4 | — | None |
+| Strategic management requirement | Chapter 3.4 | — | For shipping exclusion |
+| PE income allocation | Chapter 3.5 | CS3 | Article 3.4 rules |
+| PE loss push-down and recapture | Chapter 3.5 | — | Article 3.4.5 |
+| Tax transparent vs reverse hybrid | Chapter 3.5 | CS3 | Article 3.5 treatment differs |
 
 ---
 
@@ -106,6 +125,14 @@
 | "Chapter 5.4 for QDMTT interaction" | Chapter 2.1 | Chapter 5.4 | Valid |
 | "Part 5 methodology" | Chapter 2.3 | Part 5 | Valid |
 | "Chapter 5 calculation" | Chapter 2.3 | Part 5 | Valid |
+| "Chapter 3.2: Mandatory Adjustments" | Chapter 3.1 | Chapter 3.2 | Valid |
+| "Chapter 3.3: Stock-Based Compensation" | Chapter 3.2 | Chapter 3.3 | Valid |
+| "Chapter 3.4: International Shipping" | Chapter 3.3 | Chapter 3.4 | Valid |
+| "Chapter 3.5: PE and Flow-Through" | Chapter 3.4 | Chapter 3.5 | Valid |
+| "Case Study 3" | Chapter 3.5 | Case Study 3 | Valid |
+| "Part 4: Adjusted Covered Taxes" | Chapters 3.5, CS3 | Part 4 | Valid |
+| "Chapter 2.4" (minority interest) | Chapter 3.1 | Chapter 2.4 | Valid |
+| "Article 5.4.1" (Additional Top-Up Tax) | Chapter 3.2, CS3 | Chapter 5.4 | Valid |
 
 ---
 
@@ -230,16 +257,48 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 - IIR top-down cascade, IIR offset mechanism, UTPR 50/50 formula
 - Three-layer rule order, SBIE transition rates, Jurisdictional blending
 
+### Part 3: Computing GloBE Income (Full Audit 2025-12-11)
+
+**Files Audited:**
+- Chapter_3_1_Starting_Point_Financial_Accounts.md
+- Chapter_3_2_Mandatory_Adjustments.md
+- Chapter_3_3_Stock_Based_Compensation_Election.md
+- Chapter_3_4_International_Shipping_Exclusion.md
+- Chapter_3_5_PE_and_Flow_Through_Allocations.md
+- Case_Study_3_Stratos_GloBE_Income_Calculation.md
+
+**Terminology Checked:**
+- "Top-Up Tax" — All 38 occurrences correct (capital U) ✓
+- Article references — Consistent format ✓
+- Cross-references — All valid ✓
+- Currency formatting — Consistent ✓
+
+**Fixes Applied:** None required
+
+**Redundancies Removed:** None identified
+
+**Contradictions Resolved:** None identified
+
+**New Terms Logged:**
+- SBC, MCD, PPA, OCI, ISI
+
+**New Concepts Logged:**
+- Financial Accounting Net Income starting point, Article 3.1 hierarchy
+- Nine mandatory adjustments, Excluded Dividends test
+- €50K fines threshold, Accrued pension adjustment
+- SBC Five-Year Election, 50% ancillary shipping cap
+- PE income allocation, Tax transparent vs reverse hybrid
+
 ---
 
 ## H. NEXT SECTION NOTES
 
-### For Part 3 Audit:
+### For Part 4 Audit:
 1. Watch for "Top-up Tax" variations — standardize to "Top-Up Tax"
-2. Verify cross-references to Parts 1-2 are accurate
-3. Check GloBE Income calculation terminology consistency
-4. Log any new terms introduced (GloBE Income adjustments, exclusions)
-5. Track where concepts from Parts 1-2 are referenced
+2. Verify cross-references to Parts 1-3 are accurate
+3. Check Covered Taxes terminology consistency
+4. Log any new terms introduced (tax adjustments, deferred tax)
+5. Track where concepts from Parts 1-3 are referenced
 
 ### Established Conventions to Maintain:
 - "Top-Up Tax" (capital U)
@@ -248,6 +307,7 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 - "Chapter X.X" and "Part X" for internal references
 - Four decimal places for exchange rates
 - SBIE transition rates table (9.8%/7.8% for FY 2025)
+- Nine mandatory adjustments format (Article 3.2.1(a)-(i))
 
 ---
 
@@ -257,11 +317,11 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 |------|--------|----------------|--------------|
 | Part 1 | ✓ Complete (Full Audit) | 2025-12-11 | None |
 | Part 2 | ✓ Complete (Full Audit) | 2025-12-11 | None |
-| Part 3 | Pending | — | — |
+| Part 3 | ✓ Complete (Full Audit) | 2025-12-11 | None |
 | Part 4 | Pending | — | — |
 | Part 5 | Pending | — | — |
 | Part 6 | ✓ Complete (Terminology) | 2025-12-11 | Top-Up Tax capitalization |
 | Part 7 | Pending | — | — |
 | Part 8 | Pending | — | — |
 
-**Note:** Parts 3-5 were audited in prior sessions for terminology only ("Top-up Tax" → "Top-Up Tax"). Full comprehensive audits per the quality check process are pending.
+**Note:** Parts 4-5 were audited in prior sessions for terminology only ("Top-up Tax" → "Top-Up Tax"). Full comprehensive audits per the quality check process are pending.
