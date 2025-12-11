@@ -4,30 +4,7 @@
 
 After completing this chapter, you will be able to identify who must file a GloBE Information Return, determine filing deadlines and notification requirements, understand the central filing mechanism and Designated Filing Entity role, and navigate the key sections of the GIR structure.
 
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 8.1.1 — Filing obligation for Constituent Entities
-- Article 8.1.2 — Central filing exemption
-- Article 8.1.3 — Notification requirements
-- Article 8.1.4 — Information to be included in GIR
-- Article 8.1.5 — Timing of filing
-- Article 8.1.6 — Currency requirements
-
-**Administrative Guidance:**
-- July 2023: GloBE Information Return structure
-- December 2023: Filing deadline clarifications (first GIR due 30 June 2026)
-- January 2025: Updated GIR XML Schema and MCAA
-
-**OECD Publications:**
-- GloBE Information Return (July 2023, updated January 2025)
-- GIR Multilateral Competent Authority Agreement (MCAA)
-
----
-
-## What Is the GloBE Information Return?
+## 1. What Is the GloBE Information Return?
 
 The **GloBE Information Return (GIR)** is a standardised return that provides tax administrations with the information needed to evaluate an MNE Group's Pillar Two calculations.
 
@@ -49,11 +26,9 @@ The **GloBE Information Return (GIR)** is a standardised return that provides ta
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
----
+## 2. Who Must File? *(Article 8.1.1)*
 
-## Who Must File? *(Article 8.1.1)*
-
-### Default Rule: Every Constituent Entity
+### 2.1 Default Rule: Every Constituent Entity
 
 Under Article 8.1.1, **each Constituent Entity** located in an implementing jurisdiction must file a GIR with its local tax administration.
 
@@ -70,7 +45,7 @@ MNE Group
 Result: 5 separate GIR filings
 ```
 
-### Central Filing Exception *(Article 8.1.2)*
+### 2.2 Central Filing Exception *(Article 8.1.2)*
 
 The local filing obligation **does not apply** if:
 
@@ -102,11 +77,9 @@ Result: 1 central GIR filing, exchanged automatically
 
 **Key benefit:** Central filing dramatically reduces compliance burden — one filing instead of potentially dozens.
 
----
+## 3. Designated Filing Entity (DFE)
 
-## Designated Filing Entity (DFE)
-
-### What Is a DFE?
+### 3.1 What Is a DFE?
 
 A **Designated Filing Entity** is a Constituent Entity appointed by the MNE Group to file the GIR on behalf of all Group members.
 
@@ -118,7 +91,7 @@ A **Designated Filing Entity** is a Constituent Entity appointed by the MNE Grou
 | **Any Constituent Entity** | If UPE is not in implementing jurisdiction, any CE can be designated |
 | **Surrogate Parent Entity** | If appointed under local rules |
 
-### DFE Appointment Process
+### 3.2 DFE Appointment Process
 
 ```
 DFE APPOINTMENT WORKFLOW
@@ -140,9 +113,7 @@ Step 4: Exchange occurs automatically
         → No action required from other CEs
 ```
 
----
-
-## Notification Requirements *(Article 8.1.3)*
+## 4. Notification Requirements *(Article 8.1.3)*
 
 ### When Is Notification Required?
 
@@ -175,11 +146,9 @@ If CE does not notify local tax authority:
 | South Africa | 6 months before first submission deadline |
 | UK | Per HMRC guidance (typically 3 months) |
 
----
+## 5. Filing Deadlines *(Article 8.1.5)*
 
-## Filing Deadlines *(Article 8.1.5)*
-
-### Standard Deadline: 15 Months
+### 5.1 Standard Deadline: 15 Months
 
 The GIR must be filed within **15 months** after the end of the Fiscal Year.
 
@@ -211,9 +180,7 @@ Per December 2023 Administrative Guidance, the **earliest due date** for GIR fil
 | 30 June 2025 | Yes | 31 December 2026 |
 | 31 Dec 2025 | No | 31 March 2027 |
 
----
-
-## GIR Structure Overview
+## 6. GIR Structure Overview
 
 The GIR is organised into distinct sections, with different sections shared with different tax authorities:
 
@@ -256,9 +223,7 @@ GIR INFORMATION EXCHANGE
                       └─────────────────┘
 ```
 
----
-
-## Key GIR Data Elements
+## 7. Key GIR Data Elements
 
 ### General Information Section
 
@@ -300,11 +265,9 @@ GIR INFORMATION EXCHANGE
 | UTPR allocation | By jurisdiction |
 | Total Top-Up Tax | Group-wide summary |
 
----
+## 8. Stratos Worked Example: GIR Filing Strategy
 
-## Stratos Worked Example: GIR Filing Strategy
-
-### Background
+### 8.1 Background
 
 Stratos Holdings plc (UK) must determine its GIR filing strategy for FY 2025 (year ending 31 December 2025).
 
@@ -386,9 +349,7 @@ Stratos Holdings plc (UK) — UPE
 | Singapore | 10,000,000 | 485,750 | 55% |
 | Malaysia | 5,000,000 | 140,520 | 55% |
 
----
-
-## Common Pitfalls
+## 9. Common Pitfalls
 
 ### Pitfall 1: Missing Notification Deadline
 
@@ -424,9 +385,7 @@ Stratos Holdings plc (UK) — UPE
 
 **Correct approach:** First year has **18-month** deadline. For FY 2024 (Dec year-end), deadline is 30 June 2026, not 31 March 2026.
 
----
-
-## GIR Filing Checklist
+## 10. GIR Filing Checklist
 
 ```
 GIR FILING CHECKLIST
@@ -521,48 +480,3 @@ SECTION F: FILING CONFIRMATION
    | | YES / NO | | |
 ```
 
----
-
-## Summary
-
-The GloBE Information Return is the central compliance document for Pillar Two:
-
-| Aspect | Key Rule |
-|--------|----------|
-| **Who files** | Each CE locally, OR UPE/DFE centrally (if QCAA in place) |
-| **Deadline** | 15 months (18 months for first year) |
-| **First GIR** | Due 30 June 2026 for Dec 2024 year-ends |
-| **Notification** | Required ~3 months before filing (varies by jurisdiction) |
-| **Content** | General info, structure, ETR, Top-Up Tax, elections, safe harbours |
-| **Exchange** | Via QCAA — UPE jurisdiction gets full GIR; others get relevant sections |
-
-**Key planning point:** Central filing via UPE or DFE significantly reduces compliance burden. Verify QCAA coverage early and file notifications on time.
-
----
-
-## Integration with GIR Tools
-
-The GIR structure aligns with GIR-001 GloBE Calculator outputs:
-
-| GIR Section | GIR-001 Output |
-|-------------|----------------|
-| ETR Computation | Step 1: ETR by jurisdiction |
-| SBIE | Step 2: Payroll and asset carve-outs |
-| Top-Up Tax | Step 3: Jurisdictional Top-Up Tax |
-| QDMTT/IIR | Step 3: Collection mechanism |
-
-**Workflow:**
-```
-Step 1: Complete GIR-001 calculations for all jurisdictions
-Step 2: Export data to GIR template
-Step 3: Add corporate structure and general information
-Step 4: Apply elections and safe harbour claims
-Step 5: Validate against XML schema
-Step 6: File centrally or locally as determined
-```
-
----
-
-## Next Step
-
-You have learned the fundamentals of GloBE Information Return filing. Proceed to **Chapter 7.2: GIR Data Requirements** for detailed guidance on the specific data elements required for each section of the GloBE Information Return.

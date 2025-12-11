@@ -4,23 +4,7 @@
 
 After completing this chapter, you will be able to distinguish between transitional and permanent safe harbours, apply the QDMTT Safe Harbour to eliminate residual IIR liability, understand the framework for the Simplified Calculations Safe Harbour, and identify which jurisdictions qualify for permanent safe harbour relief.
 
----
-
-## Key References
-
-**OECD Guidance:**
-- Safe Harbours and Penalty Relief (December 2022)
-- Administrative Guidance (July 2023) — QDMTT Safe Harbour
-- Administrative Guidance (December 2023) — Simplified Calculations framework
-
-**Key Concepts:**
-- QDMTT Safe Harbour (Permanent)
-- Simplified Calculations Safe Harbour (Permanent)
-- 2028 Methodology Review
-
----
-
-## Overview: Transitional vs Permanent Safe Harbours
+## 1. Overview: Transitional vs Permanent Safe Harbours
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -49,15 +33,13 @@ After completing this chapter, you will be able to distinguish between transitio
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
----
+## 2. QDMTT Safe Harbour
 
-## QDMTT Safe Harbour
-
-### Purpose
+### 2.1 Purpose
 
 The QDMTT Safe Harbour **eliminates residual IIR liability** for jurisdictions that have implemented a Qualified Domestic Minimum Top-Up Tax. When the safe harbour applies, the Top-Up Tax under the GloBE Rules is deemed to be **zero**.
 
-### How It Works
+### 2.2 How It Works
 
 ```
 WITHOUT QDMTT SAFE HARBOUR:
@@ -73,7 +55,6 @@ Step 3: IIR Top-Up Tax = GloBE − QDMTT
 
 Result: MNE pays QDMTT locally + €5,606 IIR to UPE jurisdiction
 
-
 WITH QDMTT SAFE HARBOUR:
 
 Step 1: Calculate QDMTT under local rules
@@ -86,7 +67,7 @@ Step 3: IIR Top-Up Tax = €0
 Result: MNE pays QDMTT locally only — no residual IIR
 ```
 
-### Three Qualification Standards
+### 2.3 Three Qualification Standards
 
 For a jurisdiction's QDMTT to qualify for the Safe Harbour, it must meet **three standards**:
 
@@ -96,7 +77,7 @@ For a jurisdiction's QDMTT to qualify for the Safe Harbour, it must meet **three
 | **Consistency Standard** | QDMTT rules are consistent with the GloBE Model Rules and Commentary | Jurisdictional |
 | **Administration Standard** | Jurisdiction applies QDMTT in a manner consistent with Administrative Guidance | Jurisdictional |
 
-### Jurisdictional vs Entity-Level
+### 2.4 Jurisdictional vs Entity-Level
 
 The QDMTT Safe Harbour qualification is determined at the **jurisdictional level**, not entity-by-entity:
 
@@ -145,11 +126,9 @@ When Safe Harbour does NOT apply:
 □ Dual calculation burden
 ```
 
----
+## 3. Simplified Calculations Safe Harbour
 
-## Simplified Calculations Safe Harbour
-
-### Purpose
+### 2.1 Purpose
 
 The Simplified Calculations Safe Harbour is a **permanent** framework allowing MNEs to use simplified calculations instead of full GloBE computations for qualifying jurisdictions.
 
@@ -203,8 +182,6 @@ The Inclusive Framework has committed to reviewing the Simplified Calculations m
 - Potential adjustments to simplified calculation definitions
 - Ongoing suitability of the safe harbour approach
 
----
-
 ## Interaction Between Safe Harbours
 
 ### Decision Tree
@@ -243,11 +220,9 @@ For each jurisdiction:
 | No QDMTT + CbCR qualifies | CbCR Safe Harbour | Top-Up Tax = €0 |
 | No QDMTT + CbCR fails | None | Full GloBE calculation |
 
----
-
 ## Stratos Worked Example: Permanent Safe Harbour Analysis
 
-### Background
+### 4.1 Background
 
 Stratos Holdings plc analyses permanent safe harbour eligibility for FY 2025.
 
@@ -311,8 +286,6 @@ Stratos Holdings plc analyses permanent safe harbour eligibility for FY 2025.
 
 **Safe Harbour benefit:** Eliminates €5,606 residual and avoids dual calculation.
 
----
-
 ## Central Record of Qualified Status
 
 ### OECD Central Register
@@ -352,9 +325,7 @@ The QDMTT Safe Harbour includes a **switch-off mechanism**:
 - The Safe Harbour is "switched off" for that jurisdiction
 - MNEs must then perform full GloBE calculations
 
----
-
-## GIR Reporting for Safe Harbours
+## 5. GIR Reporting for Safe Harbours
 
 ### Safe Harbour Disclosure
 
@@ -386,9 +357,7 @@ Jurisdiction with CbCR Safe Harbour:
 └── Test passed: Identify which test (De Minimis / ETR / Routine)
 ```
 
----
-
-## Common Pitfalls
+## 6. Common Pitfalls
 
 ### Pitfall 1: Assuming All QDMTT Jurisdictions Qualify
 
@@ -420,9 +389,7 @@ Jurisdiction with CbCR Safe Harbour:
 
 **Correct approach:** GIR must still be filed. Safe Harbours reduce the content/complexity of the GIR, not the filing obligation itself.
 
----
-
-## Permanent Safe Harbour Checklist
+## 7. Permanent Safe Harbour Checklist
 
 ```
 PERMANENT SAFE HARBOUR CHECKLIST
@@ -497,49 +464,3 @@ SECTION C: SUMMARY
 □ Safe Harbour disclosures prepared?                      YES / NO
 ```
 
----
-
-## Summary
-
-Permanent Safe Harbours provide ongoing compliance relief:
-
-| Safe Harbour | Availability | Benefit |
-|--------------|--------------|---------|
-| **QDMTT Safe Harbour** | Qualified QDMTT jurisdictions | GloBE Top-Up Tax = €0; IIR = €0 |
-| **Simplified Calculations** | All jurisdictions (post-transition) | Simplified methodology; 15% ETR threshold |
-
-**Key points:**
-- QDMTT Safe Harbour is **primary** relief for QDMTT jurisdictions
-- Three standards must be met: Accounting, Consistency, Administration
-- Check OECD Central Record for qualified status
-- GIR still required — Safe Harbour reduces complexity, not filing obligation
-- Simplified Calculations framework subject to **2028 review**
-
----
-
-## Integration with GIR Tools
-
-Safe Harbour determination should precede detailed GIR-001 calculations:
-
-```
-WORKFLOW
-
-Step 1: Check QDMTT Safe Harbour eligibility
-        → If qualifies: Record; skip full GloBE for that jurisdiction
-
-Step 2: Check CbCR / Simplified Calculations eligibility
-        → If qualifies: Record; Top-Up Tax = €0
-
-Step 3: For remaining jurisdictions
-        → Run GIR-001 full calculations
-
-Step 4: Consolidate into GIR
-        → Include Safe Harbour disclosures
-        → Include detailed calculations for non-Safe Harbour jurisdictions
-```
-
----
-
-## Next Step
-
-You have learned how to apply Permanent Safe Harbours for ongoing compliance relief. Proceed to **Chapter 7.5: Transition Year Adjustments** for guidance on the specific adjustments required in the first year that Pillar Two applies to an MNE Group.

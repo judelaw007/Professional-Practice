@@ -4,26 +4,7 @@
 
 After completing this chapter, you will be able to identify the key data elements required in each GIR section, understand the volume and complexity of data points for ETR and Top-Up Tax computations, navigate the XML schema structure, and prepare data collection processes to meet GIR requirements.
 
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 8.1.4 — Information to be included in GIR
-- Article 8.1.6 — Currency requirements
-
-**Administrative Guidance:**
-- July 2023: GloBE Information Return structure
-- January 2025: Administrative Guidance on Articles 8.1.4 and 8.1.5
-- January 2025: Updated GIR XML Schema and User Guide
-
-**OECD Publications:**
-- GloBE Information Return (Pillar Two) — July 2023, updated January 2025
-- GIR XML Schema User Guide — January 2025
-
----
-
-## GIR Structure Overview
+## 1. GIR Structure Overview
 
 The GIR is organised into distinct sections, each requiring specific data elements:
 
@@ -61,15 +42,13 @@ The GIR is organised into distinct sections, each requiring specific data elemen
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
----
+## 2. Section 1: Filing Info
 
-## Section 1: Filing Info
-
-### Purpose
+### 2.1 Purpose
 
 Identifies the entity filing the GIR, the MNE Group, and the reporting period.
 
-### Key Data Elements
+### 2.2 Key Data Elements
 
 | Data Element | Description | Format |
 |--------------|-------------|--------|
@@ -83,7 +62,7 @@ Identifies the entity filing the GIR, the MNE Group, and the reporting period.
 | **Fiscal Year End** | Last day of reporting period | Date (YYYY-MM-DD) |
 | **Reporting Currency** | Currency used throughout GIR | ISO 4217 (e.g., EUR, USD) |
 
-### Exchange Jurisdictions
+### 2.3 Exchange Jurisdictions
 
 The Filing CE must identify jurisdictions where filing obligations are intended to be met through QCAA exchange:
 
@@ -103,15 +82,13 @@ Jurisdictions requiring local filing:
 □ Cayman Islands (no QCAA)
 ```
 
----
-
 ## Section 2: General Section (Corporate Structure)
 
-### Purpose
+### 2.1 Purpose
 
 Provides the complete ownership structure of the MNE Group, including all Constituent Entities and their classifications.
 
-### Key Data Elements
+### 2.2 Key Data Elements
 
 | Data Element | Description |
 |--------------|-------------|
@@ -124,7 +101,7 @@ Provides the complete ownership structure of the MNE Group, including all Consti
 | **Main Parent** | Direct parent entity for each CE |
 | **Consolidation Method** | Full, proportional, equity method |
 
-### Entity Classifications
+### 3.3 Entity Classifications
 
 | Code | Classification | Description |
 |------|----------------|-------------|
@@ -149,15 +126,13 @@ Provides the complete ownership structure of the MNE Group, including all Consti
 | TechStart Inc. | US | US-12-3456789 | 100% | CE |
 | TechStart JV Pte Ltd | SG | SG87654321X | 55% | JV |
 
----
+## 4. Section 3: Summary
 
-## Section 3: Summary
-
-### Purpose
+### 2.1 Purpose
 
 Provides a high-level overview of GloBE outcomes by jurisdiction before detailed calculations.
 
-### Key Data Elements
+### 2.2 Key Data Elements
 
 | Data Element | Description |
 |--------------|-------------|
@@ -183,11 +158,9 @@ Provides a high-level overview of GloBE outcomes by jurisdiction before detailed
 | LU | 1 | No | **Yes** | N/A | 0 | 0 | 0 |
 | KY | 1 | No | No | 1.00% | 280,480 | 0 | 280,480 |
 
----
+## 5. Section 4: Jurisdiction Section
 
-## Section 4: Jurisdiction Section
-
-### Overview
+### 5.1 Overview
 
 The most detailed section of the GIR, containing all computational data for each jurisdiction. This section has **approximately 180+ data points** per jurisdiction.
 
@@ -299,11 +272,9 @@ The most detailed section of the GIR, containing all computational data for each
 | Investment Entity elections | Art. 7.5/7.6 | Entity list, method |
 | Aggregate DTL recapture | Art. 4.4.4 | DTL details |
 
----
+## 6. Section 5: UTPR Attribution
 
-## Section 5: UTPR Attribution
-
-### Purpose
+### 2.1 Purpose
 
 Details the allocation of UTPR Top-Up Tax among jurisdictions where CEs are located.
 
@@ -325,8 +296,6 @@ UTPR Percentage = (Employees in Jurisdiction + Tangible Assets in Jurisdiction)
 
 UTPR Amount = Total UTPR Top-Up Tax × UTPR Percentage
 ```
-
----
 
 ## Data Volume Summary
 
@@ -352,9 +321,7 @@ UTPR Attribution:               10 data points (estimated)
 TOTAL:                          ~1,475 data points
 ```
 
----
-
-## XML Schema Structure
+## 7. XML Schema Structure
 
 The GIR is filed using a standardised XML format:
 
@@ -408,8 +375,6 @@ The XML must pass schema validation:
 - Cross-references valid (entity IDs match)
 - Calculations consistent (ETR = ACT ÷ Income)
 
----
-
 ## Data Collection Process
 
 ### Recommended Workflow
@@ -459,8 +424,6 @@ Phase 5: REVIEW & FILING (Month 12-15 post year-end)
 | Tangible assets | Fixed asset register | Accounts |
 | Ownership | Legal records | Group structure database |
 
----
-
 ## January 2025 Simplifications
 
 The January 2025 Administrative Guidance provides simplifications where:
@@ -496,9 +459,7 @@ With simplification:
 → Lower compliance cost
 ```
 
----
-
-## Common Data Quality Issues
+## 8. Common Data Quality Issues
 
 ### Issue 1: Entity Identification Mismatches
 
@@ -530,9 +491,7 @@ With simplification:
 
 **Solution:** Maintain separate GloBE DTL tracking. Reconcile to local accounts with documented adjustments.
 
----
-
-## Stratos Data Collection Example
+## 9. Stratos Data Collection Example
 
 ### Data Sources for Stratos Group
 
@@ -554,9 +513,7 @@ With simplification:
 | Atlas Ireland MOCE | Separate data collection from main Irish entity |
 | Multiple ERP systems | Data mapping and consolidation |
 
----
-
-## GIR Data Checklist
+## 10. GIR Data Checklist
 
 ```
 GIR DATA REQUIREMENTS CHECKLIST
@@ -639,48 +596,3 @@ SECTION F: DATA QUALITY REVIEW
 □ XML schema validation passed?                             YES / NO
 ```
 
----
-
-## Summary
-
-The GIR requires comprehensive data across multiple categories:
-
-| Section | Key Data | Volume |
-|---------|----------|--------|
-| **Filing Info** | CE and Group identification | ~15 fields |
-| **Corporate Structure** | All CEs with classifications | ~10 per entity |
-| **Summary** | Jurisdictional overview | ~10 per jurisdiction |
-| **Jurisdiction Section** | ETR, Top-Up Tax, DTL, elections | ~180 per jurisdiction |
-| **UTPR Attribution** | Allocation details | Variable |
-
-**Total for typical MNE:** 1,000-2,000+ data points
-
-**Key success factors:**
-- Start data collection early (Month 1-3 post year-end)
-- Establish single source of truth for entity data
-- Build GIR requirements into year-end close processes
-- Leverage January 2025 simplifications where applicable
-
----
-
-## Integration with GIR Tools
-
-GIR-001 GloBE Calculator outputs map directly to GIR sections:
-
-| GIR Section | GIR-001 Output |
-|-------------|----------------|
-| ETR Computation | Step 1 outputs |
-| SBIE | Step 2 outputs |
-| Top-Up Tax | Step 3 outputs |
-| Summary | Dashboard summary |
-
-**Data flow:**
-```
-Source Systems → GIR-001 Calculator → GIR XML Generator → Filing
-```
-
----
-
-## Next Step
-
-You have learned the detailed data requirements for the GloBE Information Return. Proceed to **Chapter 7.3: Transitional Safe Harbours** for guidance on the CbCR-based and other safe harbours that can simplify compliance in the initial Pillar Two years.
