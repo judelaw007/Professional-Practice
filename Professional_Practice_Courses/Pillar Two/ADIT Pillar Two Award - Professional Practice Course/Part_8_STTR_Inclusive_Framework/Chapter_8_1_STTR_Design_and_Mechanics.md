@@ -4,28 +4,6 @@
 
 After completing this chapter, you will be able to identify payments subject to the Subject to Tax Rule (STTR), calculate the adjusted nominal tax rate and STTR specified rate, apply the mark-up proxy to exclude low-risk transactions, and understand how STTR interacts with existing tax treaties and the GloBE Rules.
 
----
-
-## Key References
-
-**OECD Documents:**
-- STTR Model Treaty Provision (July 2023)
-- STTR Commentary (July 2023)
-- Multilateral Convention to Implement the STTR (October 2023)
-- OECD "Subject to Tax Rule in a Nutshell" (2023)
-
-**Key Thresholds:**
-- STTR minimum rate: **9%**
-- Mark-up threshold: **8.5%** of costs
-- Materiality threshold: **€1 million** (or €250,000 for smaller economies)
-
----
-
-## Overview: STTR Within Pillar Two
-
-The Subject to Tax Rule (STTR) is a **treaty-based rule** that complements the GloBE Rules. While the GloBE Rules operate through domestic legislation (IIR, UTPR, QDMTT), the STTR operates through **tax treaty modifications**.
-
-```
 ┌─────────────────────────────────────────────────────────────────────┐
 │ PILLAR TWO: TWO COMPLEMENTARY MECHANISMS                            │
 │                                                                     │
@@ -55,8 +33,6 @@ The STTR addresses a specific concern of **developing countries**:
 | Developing countries often serve as **source** jurisdictions for payments | STTR grants source countries the right to "tax back" undertaxed payments |
 | Existing treaties may limit withholding tax rates | STTR overrides treaty limits for covered payments |
 | GloBE Rules primarily benefit **residence** jurisdictions (via IIR) | STTR ensures source countries capture some minimum tax |
-
----
 
 ## STTR Scope: Covered Income
 
@@ -128,8 +104,6 @@ Result: SG Ireland and SG Luxembourg are CONNECTED PERSONS
         → Royalty payment is within STTR scope
 ```
 
----
-
 ## The 9% Nominal Rate Threshold
 
 ### Adjusted Nominal Rate
@@ -179,8 +153,6 @@ The adjusted nominal rate accounts for **preferential adjustments** that permane
 | **R&D super deduction** | Preferential if permanent |
 | **Notional interest deduction** | Preferential adjustment |
 | **Tax holidays** | Apply 0% rate for holiday period |
-
----
 
 ## STTR Specified Rate Calculation
 
@@ -286,8 +258,6 @@ The 9% minimum is achieved through combination of:
 3. Source jurisdiction STTR top-up
 ```
 
----
-
 ## Mark-up Proxy: Substantial Activities Test
 
 ### Purpose
@@ -374,8 +344,6 @@ Step 4: Apply TEST
 | Distribution rights | **Yes** (8.5%) |
 | Insurance premiums | **Yes** (8.5%) |
 
----
-
 ## Materiality Threshold
 
 ### De Minimis Exclusion
@@ -405,8 +373,6 @@ Germany GDP: > €40 billion → Threshold: €1,000,000
 Result: Total (€900,000) < Threshold (€1,000,000)
         → STTR does NOT apply to any payments
 ```
-
----
 
 ## Treaty Interaction
 
@@ -485,8 +451,6 @@ Total tax on payment:
 • GloBE Top-up (UPE): €600,000
 • Total: €1,500,000 (15% effective rate achieved)
 ```
-
----
 
 ## STTR Impact Assessment Framework
 
@@ -571,11 +535,9 @@ For each intercompany payment:
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
----
+## 7. Stratos Worked Example: STTR Assessment
 
-## Stratos Worked Example: STTR Assessment
-
-### Background
+### 7.1 Background
 
 Stratos Holdings plc assesses STTR exposure on intercompany payments for FY 2025.
 
@@ -663,9 +625,7 @@ The STTR taxes increase Covered Taxes in the recipient jurisdictions:
 
 **Result:** Singapore no longer generates GloBE Top-Up Tax after STTR credit.
 
----
-
-## Common Pitfalls
+## 8. Common Pitfalls
 
 ### Pitfall 1: Ignoring Preferential Regimes
 
@@ -697,9 +657,7 @@ The STTR taxes increase Covered Taxes in the recipient jurisdictions:
 
 **Correct approach:** STTR only applies if the relevant bilateral treaty has been amended (via MLI or bilateral negotiation) to include the STTR provision. Check implementation status.
 
----
-
-## STTR Assessment Checklist
+## 9. STTR Assessment Checklist
 
 ```
 STTR ASSESSMENT CHECKLIST
@@ -774,61 +732,3 @@ SECTION G: GloBE IMPACT
 □ STTR credits recorded as Covered Taxes in GloBE calculation
 ```
 
----
-
-## Summary
-
-The Subject to Tax Rule (STTR) is a treaty-based mechanism that:
-
-| Aspect | STTR Rule |
-|--------|-----------|
-| **Minimum rate** | 9% (nominal, not ETR) |
-| **Covered payments** | Interest, royalties, services, rental, distribution rights |
-| **Excluded** | Dividends, capital gains |
-| **Connected persons** | >50% common ownership |
-| **Materiality** | €1M (or €250K for smaller economies) |
-| **Mark-up threshold** | 8.5% (services/rental only; not interest/royalties) |
-| **Collection** | Source country (payor jurisdiction) |
-| **GloBE interaction** | STTR tax is creditable as Covered Tax |
-
-**Key points:**
-- STTR is **treaty-based** — requires treaty modification to apply
-- Designed to benefit **developing countries** (source jurisdictions)
-- **Complements** GloBE Rules — applies first, then credits to GloBE
-- Adjusted nominal rate accounts for **preferential regimes**
-- **Mark-up threshold** excludes low-margin services (8.5%)
-
----
-
-## Integration with GloBE Calculations
-
-When preparing GloBE calculations, account for STTR:
-
-```
-GloBE CALCULATION WITH STTR
-
-Step 1: Identify potential STTR exposure
-        → Use STTR Assessment Framework
-
-Step 2: Calculate STTR taxes payable
-        → By source jurisdiction
-
-Step 3: Credit STTR to recipient jurisdiction
-        → Add to Covered Taxes in GloBE Income calculation
-
-Step 4: Recalculate ETR
-        → Higher ETR due to STTR credit
-
-Step 5: Calculate Top-Up Tax
-        → Reduced (or eliminated) by STTR credit
-
-EXAMPLE:
-Pre-STTR: Singapore ETR 9.81% → 5.19% Top-Up Tax
-Post-STTR: Singapore ETR 15.43% → 0% Top-Up Tax (ETR ≥ 15%)
-```
-
----
-
-## Next Step
-
-You have learned the design and mechanics of the Subject to Tax Rule. Proceed to **Chapter 8.2: STTR Implementation** to understand the Multilateral Convention approach, bilateral treaty modification process, and current jurisdiction adoption status.

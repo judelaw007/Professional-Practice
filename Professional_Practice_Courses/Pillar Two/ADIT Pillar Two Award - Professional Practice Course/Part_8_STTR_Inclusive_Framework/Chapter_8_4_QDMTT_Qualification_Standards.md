@@ -4,24 +4,6 @@
 
 After completing this chapter, you will be able to apply the three qualification standards (Accounting, Consistency, Administration) that determine whether a jurisdiction's QDMTT qualifies for Safe Harbour status, understand the peer review process for QDMTT qualification, identify jurisdictions with qualified QDMTT status, and monitor for ongoing qualification changes.
 
----
-
-## Key References
-
-**OECD Documents:**
-- Administrative Guidance on Central Record (January 2025, updated August 2025)
-- Qualified Status Q&A Document (June 2024)
-- QDMTT Safe Harbour Guidance (July 2023)
-
-**Central Record:**
-- www.oecd.org/en/topics/sub-issues/global-minimum-tax/central-record-of-legislation-with-transitional-qualified-status.html
-
----
-
-## Overview: QDMTT and Qualified Status
-
-A **Qualified Domestic Minimum Top-Up Tax (QDMTT)** is a domestic minimum tax that meets specific standards ensuring it produces outcomes consistent with the GloBE Rules.
-
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │ QDMTT QUALIFICATION FRAMEWORK                                       │
@@ -52,11 +34,9 @@ A **Qualified Domestic Minimum Top-Up Tax (QDMTT)** is a domestic minimum tax th
 | **Non-qualified QDMTT** | QDMTT may not reduce IIR; potential double payment risk |
 | **No QDMTT** | Full IIR applies; revenue flows to UPE jurisdiction |
 
----
+## 2. The Three Qualification Standards
 
-## The Three Qualification Standards
-
-### Standard 1: Accounting Standard
+### 2.1 Standard 1: Accounting Standard
 
 The Accounting Standard ensures the QDMTT is based on **acceptable financial accounts**.
 
@@ -90,7 +70,7 @@ If neither condition is met:
 → But QDMTT Safe Harbour does NOT apply
 ```
 
-### Standard 2: Consistency Standard
+### 2.2 Standard 2: Consistency Standard
 
 The Consistency Standard requires QDMTT computations to **align with GloBE Rules**.
 
@@ -125,7 +105,7 @@ ASSESSMENT:
 • Switch-off applies if standard not met
 ```
 
-### Standard 3: Administration Standard
+### 2.3 Standard 3: Administration Standard
 
 The Administration Standard ensures the QDMTT is **applied consistently in practice**.
 
@@ -159,8 +139,6 @@ ONGOING MONITORING:
 | **Accounting** | Financial data source | Acceptable accounts, audited or required by law |
 | **Consistency** | Calculation methodology | Aligns with GloBE Rules |
 | **Administration** | Practical application | Applied consistently, no circumvention |
-
----
 
 ## QDMTT Safe Harbour
 
@@ -210,8 +188,6 @@ For QDMTT Safe Harbour to apply:
 | **Accounting Standard** | Financial accounts audited or required by law |
 | **No MNE exclusion** | MNE must actually be subject to the QDMTT |
 | **Central Record listing** | Jurisdiction listed on OECD Central Record |
-
----
 
 ## Peer Review Process
 
@@ -311,8 +287,6 @@ NOTE: Switch-off is jurisdictional, not entity-specific
       All MNEs in that jurisdiction affected
 ```
 
----
-
 ## Central Record of Qualified Jurisdictions
 
 ### Current Status (As of August 2025)
@@ -396,11 +370,9 @@ MONITORING:
 □ Review after each IF plenary meeting
 ```
 
----
+## 6. Stratos Worked Example: QDMTT Qualification Assessment
 
-## Stratos Worked Example: QDMTT Qualification Assessment
-
-### Background
+### 6.1 Background
 
 Stratos Holdings plc verifies QDMTT qualified status for its operating jurisdictions.
 
@@ -486,9 +458,7 @@ Ad hoc:
 □ Review any switch-off announcements
 ```
 
----
-
-## Common Pitfalls
+## 7. Common Pitfalls
 
 ### Pitfall 1: Assuming All Domestic Minimum Taxes Qualify
 
@@ -520,9 +490,7 @@ Ad hoc:
 
 **Correct approach:** If a jurisdiction's QDMTT is elective for a transition year, MNEs can only claim Safe Harbour if they are actually subject to that QDMTT.
 
----
-
-## QDMTT Qualification Checklist
+## 8. QDMTT Qualification Checklist
 
 ```
 QDMTT QUALIFICATION CHECKLIST
@@ -603,54 +571,3 @@ Total IIR payable to UPE jurisdiction: €__________________
 Next review date: _________________________
 ```
 
----
-
-## Summary
-
-QDMTT qualification depends on meeting three standards:
-
-| Standard | Requirement | Key Test |
-|----------|-------------|----------|
-| **Accounting** | Acceptable financial accounts | Audited or required by law |
-| **Consistency** | Aligns with GloBE Rules | Same definitions, calculations |
-| **Administration** | Applied consistently | No circumvention, no Pillar Two benefits |
-
-**QDMTT Safe Harbour:**
-- Eliminates residual IIR liability
-- Requires all three standards plus accounting audit/legal requirement
-- Listed on OECD Central Record
-
-**Key points:**
-- Check **Central Record** for current qualified status
-- **Monitor** for switch-off announcements
-- **Effective dates** vary by jurisdiction
-- **Transitional mechanism** in place through 2026
-- **Full peer review** will replace transitional process
-
----
-
-## QDMTT Qualified Jurisdiction List
-
-### Official Resource
-
-**OECD Central Record:**
-www.oecd.org/en/topics/sub-issues/global-minimum-tax/central-record-of-legislation-with-transitional-qualified-status.html
-
-### Quick Reference (As of August 2025)
-
-| Region | Qualified QDMTT Jurisdictions |
-|--------|------------------------------|
-| **EU** | Austria, Belgium, Bulgaria, Croatia, Czech Republic, Denmark, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Lithuania, Luxembourg, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden |
-| **Other Europe** | Gibraltar, Isle of Man, Liechtenstein, North Macedonia, Norway, Switzerland, United Kingdom |
-| **Asia-Pacific** | Indonesia, Japan, Malaysia, Singapore, Thailand |
-| **Americas** | Brazil |
-| **Middle East** | United Arab Emirates |
-| **Africa** | South Africa |
-
-**Note:** This list is updated regularly. Always verify on the official OECD Central Record.
-
----
-
-## Next Step
-
-You have learned how to assess whether a jurisdiction's QDMTT qualifies for Safe Harbour status. Proceed to **Chapter 8.5: Administrative Guidance Updates** to understand how to track evolving guidance and incorporate updates into your compliance processes.

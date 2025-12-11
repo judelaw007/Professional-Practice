@@ -4,24 +4,6 @@
 
 After completing this chapter, you will be able to track new OECD Administrative Guidance releases systematically, understand how guidance is incorporated into the Consolidated Commentary, implement processes for updating compliance procedures when guidance changes, and maintain awareness of evolving Pillar Two requirements.
 
----
-
-## Key References
-
-**OECD Administrative Guidance Releases:**
-- AG1: February 2023
-- AG2: July 2023
-- AG3: December 2023
-- AG4: June 2024
-- AG5: January 2025
-
-**Primary Resource:**
-- OECD Tax/BEPS webpage: www.oecd.org/tax/beps
-
----
-
-## Overview: The Evolving Pillar Two Framework
-
 Pillar Two is a **living framework**. The GloBE Rules are supplemented by regular Administrative Guidance that clarifies, simplifies, and addresses implementation issues.
 
 ```
@@ -56,8 +38,6 @@ Pillar Two is a **living framework**. The GloBE Rules are supplemented by regula
 | **Using outdated rules** | Potential penalties, audit adjustments |
 | **Delayed implementation** | Competitive disadvantage, increased costs |
 | **Inconsistent application** | Group-wide compliance failures |
-
----
 
 ## Administrative Guidance Timeline
 
@@ -111,8 +91,6 @@ ADMINISTRATIVE GUIDANCE RELEASE TIMELINE
 | **AG3 (Dec 2023)** | PPA adjustments, NMCE simplified calculations |
 | **AG4 (Jun 2024)** | Securitisation, flow-through entities |
 | **AG5 (Jan 2025)** | Central Record, Article 9.1 DTAs, GIR updates |
-
----
 
 ## How to Track New Guidance
 
@@ -187,8 +165,6 @@ GUIDANCE MONITORING FRAMEWORK
 | **Deloitte Tax@hand** | App/Web | Within 1 week |
 | **Law firm alerts** | Email | Varies |
 | **oecdpillars.com** | Web | Regular updates |
-
----
 
 ## Incorporating Guidance into Compliance
 
@@ -273,8 +249,6 @@ Topic 4: GIR MCAA Framework
 └── Timeline: Before filing deadline
 ```
 
----
-
 ## Consolidated Commentary
 
 ### What Is the Consolidated Commentary?
@@ -331,8 +305,6 @@ READING THE CONSOLIDATED COMMENTARY:
 | **Understanding changes** | Compare to previous version; check AG release notes |
 | **Compliance documentation** | Cite specific paragraphs in working papers |
 | **Training materials** | Use as authoritative reference |
-
----
 
 ## Stratos Worked Example: Tracking and Implementing Guidance
 
@@ -423,9 +395,7 @@ Approved by: Tax Director
 Review date: Next AG release or 6 months
 ```
 
----
-
-## Staying Current: Best Practices
+## 5. Staying Current: Best Practices
 
 ### Governance Structure
 
@@ -485,9 +455,7 @@ Q4: YEAR-END PLANNING
 └── Brief Audit Committee on Pillar Two status
 ```
 
----
-
-## Common Pitfalls
+## 6. Common Pitfalls
 
 ### Pitfall 1: Relying on Outdated Materials
 
@@ -519,9 +487,7 @@ Q4: YEAR-END PLANNING
 
 **Correct approach:** Maintain a guidance review log. Document impact assessments. Record policy decisions and rationale.
 
----
-
-## Administrative Guidance Tracking Checklist
+## 7. Administrative Guidance Tracking Checklist
 
 ```
 ADMINISTRATIVE GUIDANCE TRACKING CHECKLIST
@@ -593,67 +559,3 @@ Next IF plenary meeting: _________________________
 Next scheduled review: _________________________
 ```
 
----
-
-## Official Resource Directory
-
-### OECD Primary Sources
-
-| Resource | URL | Description |
-|----------|-----|-------------|
-| OECD Tax Homepage | www.oecd.org/tax | Central tax hub |
-| BEPS Project | www.oecd.org/tax/beps | BEPS and IF materials |
-| Pillar Two | www.oecd.org/tax/beps/pillar-two | GloBE-specific |
-| Tax Treaties | www.oecd.org/tax/treaties | Treaty-related (STTR) |
-| Tax Newsletter | www.oecd.org/tax/newsletter | Email subscription |
-
-### Key Document Links
-
-| Document | Location |
-|----------|----------|
-| GloBE Model Rules | OECD iLibrary / BEPS page |
-| Consolidated Commentary | OECD iLibrary / BEPS page |
-| Administrative Guidance | OECD Tax Policy page |
-| GIR Template | OECD Tax Administration |
-| Central Record | OECD Global Minimum Tax page |
-| STTR Materials | OECD Subject to Tax Rule page |
-
-### Professional Commentary
-
-| Source | URL |
-|--------|-----|
-| oecdpillars.com | www.oecdpillars.com |
-| EY Global Tax Alerts | www.ey.com/tax-alerts |
-| PwC Tax Policy | www.pwc.com/tax |
-| KPMG TaxNewsFlash | kpmg.com/taxnewsflash |
-| Deloitte Tax@hand | www.taxathand.com |
-
----
-
-## Summary
-
-Staying current with Pillar Two guidance requires systematic monitoring and timely implementation:
-
-| Activity | Frequency | Owner |
-|----------|-----------|-------|
-| **OECD newsroom check** | Weekly | Tax Compliance |
-| **Central Record review** | Monthly | Tax Compliance |
-| **Full guidance review** | Quarterly | Tax Director |
-| **Policy updates** | As needed | Tax Director |
-| **Stakeholder briefing** | After major releases | Tax Director |
-
-**Key points:**
-- **5 AG releases** to date (February 2023 - January 2025)
-- **Consolidated Commentary** integrates all guidance
-- **Monitor** Central Record for qualified status changes
-- **Implement** changes within 2-3 months of release
-- **Document** all guidance reviews and decisions
-- **Subscribe** to OECD and professional alerts
-
----
-
-## Next Step
-
-You have completed Part 8: Subject to Tax Rule and Inclusive Framework. You now understand the STTR design and implementation, the Inclusive Framework governance structure, QDMTT qualification standards, and how to stay current with Administrative Guidance.
-
-Proceed to **Case Study 8: Staying Current** to apply these concepts by analysing new administrative guidance, updating governance documentation, and preparing Board reporting for Stratos.

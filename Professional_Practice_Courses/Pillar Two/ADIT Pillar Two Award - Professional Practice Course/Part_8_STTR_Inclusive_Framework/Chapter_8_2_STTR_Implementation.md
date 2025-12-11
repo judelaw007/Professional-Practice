@@ -4,22 +4,6 @@
 
 After completing this chapter, you will be able to distinguish between the Multilateral Convention and bilateral treaty approaches to STTR implementation, understand the ratification and entry into force process, identify which jurisdictions have committed to implement the STTR, and determine when the STTR will apply to specific bilateral treaty relationships.
 
----
-
-## Key References
-
-**OECD Documents:**
-- Multilateral Convention to Facilitate the Implementation of the Pillar Two Subject to Tax Rule (October 2023)
-- STTR MLI Explanatory Statement (October 2023)
-- OECD Depositary Notifications
-
-**Key Dates:**
-- STTR MLI opened for signature: **2 October 2023**
-- First signing ceremony: **19 September 2024**
-- Entry into force: Pending second ratification deposit
-
----
-
 ## Overview: Two Implementation Paths
 
 The STTR is a **treaty-based rule**. Unlike the GloBE Rules (implemented through domestic legislation), the STTR must be incorporated into bilateral tax treaties. There are two implementation paths:
@@ -51,8 +35,6 @@ The STTR is a **treaty-based rule**. Unlike the GloBE Rules (implemented through
 │ MOST JURISDICTIONS EXPECTED TO USE PATH 1 (STTR MLI)                │
 └─────────────────────────────────────────────────────────────────────┘
 ```
-
----
 
 ## The STTR Multilateral Convention (STTR MLI)
 
@@ -128,8 +110,6 @@ Result: NOT YET a Covered Tax Agreement
         (requires Germany to also sign, notify, and ratify)
 ```
 
----
-
 ## Signing and Ratification Status
 
 ### September 2024 Signing Ceremony
@@ -175,8 +155,6 @@ As of early 2025:
 - **Signed:** 9 jurisdictions
 - **Ratified:** Pending (no deposits yet)
 - **Entry into force:** Not yet achieved (requires 2 ratifications)
-
----
 
 ## Entry into Force and Effect
 
@@ -241,8 +219,6 @@ First fiscal year beginning on or after 1 May 2026:
 | Both ratify Q3 2025 | FY beginning 1 January 2027 |
 | Both ratify Q1 2026 | FY beginning 1 January 2027 |
 
----
-
 ## The STTR Commitment
 
 ### Who Is Required to Implement STTR?
@@ -283,8 +259,6 @@ A jurisdiction qualifies as a **developing country** for STTR purposes if its Gr
 | High income | > $12,535 | **Not eligible** |
 
 **Note:** Over **70 Inclusive Framework members** qualify as developing countries for this purpose.
-
----
 
 ## Bilateral Treaty Modification
 
@@ -338,8 +312,6 @@ TIMELINE: Typically 2-5 years for bilateral amendments
 | **Consistency** | Uniform terms | May vary between treaties |
 | **Certainty** | Clear rules | Negotiated outcomes |
 
----
-
 ## Practical Implications for MNEs
 
 ### Monitoring Requirements
@@ -387,8 +359,6 @@ STTR MONITORING CHECKLIST
 
 **Monitoring Action:** Track if these jurisdictions sign the STTR MLI or negotiate bilateral amendments with developing country treaty partners.
 
----
-
 ## STTR Implementation Timeline
 
 ### Expected Progression
@@ -427,11 +397,9 @@ STTR IMPLEMENTATION TIMELINE (PROJECTED)
 | Entry into force | Pending (requires 2 ratifications) |
 | First CTAs effective | Expected 2026 earliest |
 
----
-
 ## Jurisdiction Tracker
 
-### OECD Resources
+### 5.1 OECD Resources
 
 The OECD maintains official tracking of STTR MLI status:
 
@@ -477,11 +445,9 @@ For MNE monitoring purposes, maintain a tracker:
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
----
+## 6. Stratos Worked Example: STTR Implementation Monitoring
 
-## Stratos Worked Example: STTR Implementation Monitoring
-
-### Background
+### 6.1 Background
 
 Stratos Holdings plc monitors STTR implementation for its intercompany payment flows.
 
@@ -541,9 +507,7 @@ Ongoing:
 □ Review payment structures for STTR optimisation
 ```
 
----
-
-## Common Pitfalls
+## 7. Common Pitfalls
 
 ### Pitfall 1: Assuming STTR Applies Immediately
 
@@ -561,7 +525,7 @@ Ongoing:
 
 **Correct approach:** The STTR commitment only requires implementation in treaties with **developing country** IF members (GNI ≤ $12,535). High-income jurisdictions like Singapore or Luxembourg are not eligible to request STTR.
 
-### Pitfall 3: Overlooking Bilateral Amendments
+### 7.3 Pitfall 3: Overlooking Bilateral Amendments
 
 **Error:** Only monitoring the STTR MLI and missing bilateral treaty amendments.
 
@@ -579,9 +543,7 @@ Ongoing:
 
 **Correct approach:** STTR implementation is evolving. Establish regular monitoring (quarterly) of OECD depositary updates.
 
----
-
-## Implementation Monitoring Checklist
+## 8. Implementation Monitoring Checklist
 
 ```
 STTR IMPLEMENTATION MONITORING CHECKLIST
@@ -638,66 +600,3 @@ SECTION E: ACTION ITEMS
 Next review date: _________________________
 ```
 
----
-
-## Summary
-
-STTR implementation requires treaty modification through either the STTR MLI or bilateral amendments:
-
-| Aspect | Key Point |
-|--------|-----------|
-| **STTR MLI** | Multilateral convention for swift implementation |
-| **Signed** | 9 jurisdictions (September 2024) |
-| **Intent to sign** | 10 additional jurisdictions |
-| **Entry into force** | Pending (requires 2 ratifications) |
-| **Covered Tax Agreements** | Requires both parties to sign, ratify, and notify |
-| **Entry into effect** | 6 months after latest EIF, first FY thereafter |
-| **Developing countries** | Over 70 IF members eligible (GNI ≤ $12,535) |
-| **Commitment** | Low-tax jurisdictions must implement when requested |
-
-**Key points:**
-- STTR implementation is **ongoing** — not yet fully effective
-- **Monitor** OECD depositary for signature and ratification updates
-- STTR primarily benefits **developing countries** as source jurisdictions
-- **Both parties** must complete MLI process for treaty to be covered
-- **Bilateral amendments** remain an alternative path
-
----
-
-## Official Resources
-
-### OECD STTR Resources
-
-| Resource | URL |
-|----------|-----|
-| STTR Overview | www.oecd.org/tax/beps/subject-to-tax-rule.htm |
-| STTR MLI Text | www.oecd.org/tax/treaties/ |
-| Signatory Status | Check OECD Tax Treaties page |
-| Depositary Notifications | Updated on OECD website |
-
-### Monitoring Recommendation
-
-```
-RECOMMENDED MONITORING SCHEDULE
-
-Quarterly:
-□ Check OECD depositary for new signatures/ratifications
-□ Update jurisdiction tracker
-□ Review CTA status for relevant treaties
-
-Annually:
-□ Full STTR exposure assessment
-□ Update payment flow mapping
-□ Brief tax committee/board on STTR developments
-
-Ad hoc:
-□ When jurisdictions sign/ratify
-□ When bilateral amendments announced
-□ When planning new intercompany arrangements
-```
-
----
-
-## Next Step
-
-You have learned how the STTR is being implemented through the Multilateral Convention and bilateral treaty amendments. Proceed to **Chapter 8.3: Inclusive Framework Structure** to understand the governance of Pillar Two and the role of the OECD/G20 Inclusive Framework in issuing guidance.
