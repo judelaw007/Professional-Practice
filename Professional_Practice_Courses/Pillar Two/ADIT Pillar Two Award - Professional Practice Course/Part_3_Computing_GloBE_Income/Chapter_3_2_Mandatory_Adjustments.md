@@ -4,13 +4,11 @@
 
 After completing this chapter, you will be able to identify and apply all mandatory adjustments required to convert Financial Accounting Net Income or Loss into GloBE Income or Loss.
 
----
-
-## Overview of Article 3.2 Adjustments
+## 1. Overview of Article 3.2 Adjustments
 
 Article 3.2 requires specific adjustments to Financial Accounting Net Income or Loss. These adjustments eliminate common book-to-tax differences where policy justification exists.
 
-### Complete List of Mandatory Adjustments
+### 1.1 Complete List of Mandatory Adjustments
 
 | Reference | Adjustment | Direction |
 |-----------|------------|-----------|
@@ -25,9 +23,7 @@ Article 3.2 requires specific adjustments to Financial Accounting Net Income or 
 | Art. 3.2.1(i) | Accrued Pension Expense | Adjust |
 | Art. 3.2.2 | Stock-Based Compensation (elective) | Substitute |
 
----
-
-## Adjustment 1: Net Taxes Expense *(Article 3.2.1(a))*
+## 2. Adjustment 1: Net Taxes Expense *(Article 3.2.1(a))*
 
 ### The Rule
 
@@ -57,9 +53,7 @@ Financial Accounting Net Income is an "after-tax" figure (below the line). Since
 | **Add back:** Net Taxes Expense | +2,100,000 |
 | **Adjusted amount** | 7,000,000 |
 
----
-
-## Adjustment 2: Excluded Dividends *(Article 3.2.1(b))*
+## 3. Adjustment 2: Excluded Dividends *(Article 3.2.1(b))*
 
 ### The Rule
 
@@ -139,9 +133,7 @@ An MNE Group may elect to **include** all Portfolio Shareholding dividends in Gl
 - Administrative burden of tracking holding periods exceeds tax benefit
 - Portfolio dividends are minimal relative to total income
 
----
-
-## Adjustment 3: Excluded Equity Gain or Loss *(Article 3.2.1(c))*
+## 4. Adjustment 3: Excluded Equity Gain or Loss *(Article 3.2.1(c))*
 
 ### The Rule
 
@@ -190,9 +182,7 @@ An MNE Group may elect to **include** all excluded equity gains/losses in GloBE 
 - Simplifies tracking when equity items are immaterial
 - May be beneficial if losses exceed gains
 
----
-
-## Adjustment 4: Included Revaluation Method Gain or Loss *(Article 3.2.1(d))*
+## 5. Adjustment 4: Included Revaluation Method Gain or Loss *(Article 3.2.1(d))*
 
 ### The Rule
 
@@ -237,9 +227,7 @@ This is a **Five-Year Election** applicable to:
 
 **Benefit:** Reduces ETR volatility from unrealised gains/losses.
 
----
-
-## Adjustment 5: Gains/Losses from Article 6.3 Dispositions *(Article 3.2.1(e))*
+## 6. Adjustment 5: Gains/Losses from Article 6.3 Dispositions *(Article 3.2.1(e))*
 
 ### The Rule
 
@@ -262,9 +250,7 @@ For most practitioners, this adjustment applies when:
 | Intra-group asset sale at arm's length price | Gain/loss recognised normally (not Art. 6.3) |
 | Intra-group asset transfer at book value (qualifying reorganisation) | Gain/loss **excluded** under Art. 3.2.1(e) |
 
----
-
-## Adjustment 6: Asymmetric Foreign Currency Gains or Losses *(Article 3.2.1(f))*
+## 7. Adjustment 6: Asymmetric Foreign Currency Gains or Losses *(Article 3.2.1(f))*
 
 ### The Rule
 
@@ -299,9 +285,7 @@ Adjustments are required when **accounting functional currency** differs from **
 
 **Note:** Asymmetric FX adjustments are uncommon for entities where accounting and tax functional currencies align.
 
----
-
-## Adjustment 7: Policy Disallowed Expenses *(Article 3.2.1(g))*
+## 8. Adjustment 7: Policy Disallowed Expenses *(Article 3.2.1(g))*
 
 ### The Rule
 
@@ -336,9 +320,7 @@ Certain expenses are **added back** to GloBE Income because they are disallowed 
 
 **Net adjustment:** Add back €180,000
 
----
-
-## Adjustment 8: Prior Period Errors and Changes in Accounting Principles *(Article 3.2.1(h))*
+## 9. Adjustment 8: Prior Period Errors and Changes in Accounting Principles *(Article 3.2.1(h))*
 
 ### The Rule
 
@@ -383,9 +365,7 @@ In FY 2025, Stratos discovered that SG France SAS had overstated revenue by €5
 - Reduce GloBE Income by €500,000 (remove overstatement)
 - No additional Top-Up Tax from FY 2024 correction
 
----
-
-## Adjustment 9: Accrued Pension Expense *(Article 3.2.1(i))*
+## 10. Adjustment 9: Accrued Pension Expense *(Article 3.2.1(i))*
 
 ### The Rule
 
@@ -430,9 +410,7 @@ If negative (contribution > accrual): **Add** to GloBE Income
 | Contributions to in-house pension fund | **Yes** |
 | Direct payments to employees/retirees | **No** (not within Art. 3.2.1(i)) |
 
----
-
-## Adjustment 10: Stock-Based Compensation *(Article 3.2.2)* — Elective
+## 11. Adjustment 10: Stock-Based Compensation *(Article 3.2.2)* — Elective
 
 ### The Rule
 
@@ -477,9 +455,7 @@ Without the election, these timing differences could create artificial Top-Up Ta
 - In **low-tax jurisdictions**: Consider NOT electing (keep higher accounting expense)
 - In **high-tax jurisdictions**: Election may be neutral or beneficial
 
----
-
-## Complete Adjustment Checklist
+## 12. Complete Adjustment Checklist
 
 Use this checklist for each Constituent Entity:
 
@@ -509,9 +485,7 @@ Use this checklist for each Constituent Entity:
 | C | Equity investment inclusion | Yes/No | |
 | D | Realization method (Art. 3.2.5) | Yes/No | |
 
----
-
-## Stratos Worked Example: Complete Adjustment Calculation
+## 13. Stratos Worked Example: Complete Adjustment Calculation
 
 **SG Germany GmbH — FY 2025 GloBE Income Calculation**
 
@@ -563,9 +537,7 @@ Use this checklist for each Constituent Entity:
 |------|------------|
 | **GloBE Income** | **6,690,000** |
 
----
-
-## Common Pitfalls
+## 14. Common Pitfalls
 
 ### Pitfall 1: Forgetting to Add Back Tax Expense
 
@@ -596,47 +568,3 @@ Use this checklist for each Constituent Entity:
 **Error:** Automatically electing SBC substitution.
 
 **Correct:** In low-tax jurisdictions, the higher accounting expense may be preferable to reduce Top-Up Tax.
-
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 3.2.1(a)-(i) — Mandatory adjustments
-- Article 3.2.2 — Stock-based compensation election
-- Article 3.2.5 — Realization method election
-
-**Administrative Guidance:**
-- February 2023: Pension expense clarification
-- July 2023: Asymmetric FX guidance
-- December 2023: Portfolio shareholding election
-
-**OECD Commentary:**
-- Chapter 3, paragraphs 26-120 — Detailed adjustment guidance
-
----
-
-## Summary
-
-Article 3.2 requires nine mandatory adjustments to Financial Accounting Net Income:
-
-| Category | Adjustments |
-|----------|-------------|
-| **Add back** | Net taxes, policy disallowed expenses |
-| **Exclude** | Dividends (qualifying), equity gains/losses, Art. 6.3 dispositions |
-| **Include** | Revaluation gains in OCI |
-| **Adjust** | Asymmetric FX, prior period errors, pension accruals |
-
-Plus optional elections for:
-- Stock-based compensation
-- Portfolio shareholding inclusion
-- Equity investment inclusion
-- Realization method
-
-The adjustment checklist ensures systematic application across all Constituent Entities.
-
----
-
-## Next Step
-
-You have learned the mandatory adjustments to Financial Accounting Net Income. Proceed to **Chapter 3.3: Stock-Based Compensation Election** for detailed guidance on when and how to make this important election.

@@ -4,8 +4,6 @@
 
 After completing this chapter, you will be able to allocate GloBE Income between main entities and permanent establishments, and apply the correct treatment for flow-through entities including tax transparent structures and reverse hybrids.
 
----
-
 ## Why Special Allocation Rules Are Needed
 
 The GloBE Rules rely on financial accounting information, but:
@@ -17,8 +15,6 @@ The GloBE Rules rely on financial accounting information, but:
 | **Reverse Hybrids** | Different jurisdictions may treat the same entity differently |
 
 **Result:** Articles 3.4 and 3.5 provide allocation rules to ensure income is attributed to the correct jurisdiction for ETR calculation.
-
----
 
 ## Part A: Permanent Establishment Allocations
 
@@ -82,8 +78,6 @@ The PE's income must reflect only amounts **attributable to the PE** under:
 
 **Key point:** GloBE uses the €1,000,000 attributable under the treaty, regardless of the €500,000 actually taxed.
 
----
-
 ## Step 3: Exclude PE Income from Main Entity *(Article 3.4.4)*
 
 ### The Rule
@@ -137,8 +131,6 @@ If the PE has a **GloBE Loss**, special rules apply:
 | SG France SAS | + €200,000 | Final recapture |
 | Remaining | | €0 (fully recaptured) |
 
----
-
 ## PE Income Allocation Methodology
 
 ### Step-by-Step Process
@@ -179,8 +171,6 @@ If the PE has a **GloBE Loss**, special rules apply:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
-
 ## Part B: Flow-Through Entity Treatment
 
 ### Flow-Through Entity Definitions *(Article 10.2)*
@@ -207,8 +197,6 @@ If the PE has a **GloBE Loss**, special rules apply:
      Income flows to owner           Income stays at entity
      for GloBE purposes              for GloBE purposes
 ```
-
----
 
 ## Tax Transparent Entity Treatment *(Article 3.5.1)*
 
@@ -256,8 +244,6 @@ SG Holdings Ltd (UK)
 | SG Holdings Ltd (UK) | + €3,000,000 | + €0 |
 
 **Effect:** The US LLC income increases the UK jurisdiction's GloBE Income. The UK ETR calculation includes this €3M.
-
----
 
 ## Reverse Hybrid Entity Treatment *(Article 3.5.2)*
 
@@ -316,8 +302,6 @@ Reverse hybrids can create **stateless income** for GloBE purposes:
 
 **Result:** Income sits in a jurisdiction with 0% ETR, triggering Top-Up Tax.
 
----
-
 ## UPE as a Flow-Through Entity *(Article 3.5.3)*
 
 ### Special Rules
@@ -358,8 +342,6 @@ Individual B (50%)  ←─┘
 
 **Effect:** The 100% owned by individuals reduces the GloBE Income to €0. No Top-Up Tax arises because income flows to non-CE owners.
 
----
-
 ## Allocation in Ownership Chains
 
 ### Multiple Flow-Through Entities
@@ -386,8 +368,6 @@ SG Holdings Ltd (UK)
 The **June 2024 Administrative Guidance** clarifies:
 
 > *When a flow-through entity is owned by another flow-through entity, classification is determined by reference to the next owner up the chain who is NOT a flow-through entity.*
-
----
 
 ## Stratos Worked Example: PE and Flow-Through
 
@@ -460,8 +440,6 @@ Stratos Group plc (UK)
 
 *LLC income flows to UK; taxes paid by UK on that income.
 
----
-
 ## Documentation Requirements
 
 ### For PE Allocations
@@ -483,9 +461,7 @@ Stratos Group plc (UK)
 | Tax treatment in each jurisdiction | Confirms classification |
 | Allocation calculations | Shows income flow-through |
 
----
-
-## Common Pitfalls
+## 8. Common Pitfalls
 
 ### Pitfall 1: Double-Counting PE Income
 
@@ -516,57 +492,3 @@ Stratos Group plc (UK)
 **Error:** Including full GloBE Income when UPE is flow-through with non-CE owners.
 
 **Correct:** Reduce GloBE Income by share attributable to non-CE owners.
-
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 3.4.1 — PE Financial Accounting Net Income
-- Article 3.4.2 — Adjustments for attributable amounts
-- Article 3.4.3 — Stateless PE
-- Article 3.4.4 — Exclusion from main entity
-- Article 3.4.5 — PE loss treatment
-- Article 3.5.1 — Tax transparent entity allocation
-- Article 3.5.2 — Reverse hybrid entity treatment
-- Article 3.5.3 — UPE as flow-through entity
-- Article 10.1 — PE definition
-- Article 10.2 — Flow-through entity definitions
-
-**Administrative Guidance:**
-- June 2024: Clarifications on flow-through chains and minority owners
-
-**OECD Commentary:**
-- Chapter 3, paragraphs 141-200 — PE and flow-through guidance
-
----
-
-## Summary
-
-### PE Allocation Rules
-
-| Rule | Article | Effect |
-|------|---------|--------|
-| PE has separate GloBE Income | 3.4.1 | Use PE accounts or notional standalone |
-| Adjust for attributable amounts | 3.4.2 | Per treaty/domestic law/OECD Model |
-| Exclude from main entity | 3.4.4 | Avoid double-counting |
-| Loss push-down and recapture | 3.4.5 | Loss to main entity; future profits recaptured |
-
-### Flow-Through Rules
-
-| Entity Type | Income Treatment | Covered Taxes |
-|-------------|------------------|---------------|
-| Tax Transparent | Flows to CE owners | Flows to CE owners |
-| Reverse Hybrid | Stays at entity | Stays at entity |
-| UPE Flow-Through | Reduced by non-CE share | Reduced proportionally |
-
----
-
-## Next Step
-
-You have completed Part 3: Computing GloBE Income or Loss. You understand how to:
-- Start with Financial Accounting Net Income
-- Apply mandatory adjustments
-- Handle special situations (SBC, shipping, PEs, flow-throughs)
-
-Proceed to **Case Study 3: Stratos's GloBE Income Calculation** to apply these concepts to a comprehensive scenario, or continue to **Part 4: Adjusted Covered Taxes** to learn how to calculate the tax side of the ETR formula.
