@@ -3,7 +3,7 @@
 
 **Purpose:** Track terminology standards, concepts, cross-references, and consistency issues across all course sections. This is a living document updated at the start of each section audit.
 
-**Last Updated:** 2025-12-11 (Part 4 full audit complete)
+**Last Updated:** 2025-12-11 (Part 5 full audit complete)
 
 ---
 
@@ -46,6 +46,8 @@
 | GILTI | Global Intangible Low-Taxed Income (Part 4.2) | "GILTI" | — | Part 4.2 |
 | EDTS | Eligible Distribution Tax System (Part 4.1) | "EDTS" | — | Parts 4.1, 4.4 |
 | WHT | Withholding Tax (Part 4.5) | "WHT" | — | Parts 4.5, CS4 |
+| MOCE | Minority-Owned Constituent Entity (Part 5.6) | "MOCE" | — | Parts 5.6, CS5 |
+| MOPE | Minority-Owned Parent Entity (Part 5.6) | "MOPE" | — | Part 5.6 |
 
 ---
 
@@ -119,6 +121,25 @@
 | Post-filing asymmetric treatment | Chapter 4.6 | — | Increases vs decreases |
 | €1M immaterial decrease threshold | Chapter 4.6 | — | Optional election |
 | Three-year current tax recapture | Chapter 4.6 | — | Art. 4.6.4 |
+| ETR formula (Covered Taxes ÷ GloBE Income) | Chapter 5.1 | Chapters 5.2-5.6, CS5 | None |
+| ETR four decimal place rounding | Chapter 5.1 | CS5 | Article 5.1.4 |
+| Jurisdictional blending | Chapter 5.1 | Chapters 5.3, 5.6, CS5 | Not global blending |
+| SBIE payroll carve-out | Chapter 5.2 | CS5 | Transition rates apply |
+| SBIE tangible asset carve-out | Chapter 5.2 | CS5 | Net book value basis |
+| Excess Profit = GloBE Income − SBIE | Chapter 5.2 | Chapters 5.3, CS5 | None |
+| Top-Up Tax % = 15% − ETR | Chapter 5.3 | CS5 | Article 5.2.1 |
+| Jurisdictional Top-Up Tax calculation | Chapter 5.3 | CS5 | Article 5.2.2 |
+| Negative ETR treatment (no cap) | Chapter 5.3 | — | Commentary para. 102 |
+| QDMTT priority rule (QDMTT→IIR→UTPR) | Chapter 5.4 | CS5 | Article 10.1 |
+| QDMTT Safe Harbour | Chapter 5.4 | — | July 2023 AG |
+| De Minimis €10M revenue threshold | Chapter 5.5 | CS5 | Article 5.5.1 |
+| De Minimis €1M income threshold | Chapter 5.5 | CS5 | Article 5.5.1 |
+| De Minimis three-year averaging | Chapter 5.5 | CS5 | Article 5.5.2 |
+| De Minimis annual election | Chapter 5.5 | CS5 | Must be elected each year |
+| MOCE ≤30% ownership test | Chapter 5.6 | CS5 | Article 10.1 |
+| MOCE separate ETR calculation | Chapter 5.6 | CS5 | Article 5.6.2 |
+| Minority-Owned Sub-Group treatment | Chapter 5.6 | CS5 | Article 5.6.1 |
+| Top-Up Tax allocation to LTCEs | Chapter 5.3 | CS5 | In proportion to GloBE Income |
 
 ---
 
@@ -164,6 +185,18 @@
 | "Case Study 4" | Chapter 4.6 | Case Study 4 | Valid |
 | "Part 5: Top-Up Tax Calculation" | CS4 | Part 5 | Valid |
 | "Part 3" (GloBE Income) | Chapters 4.2, 4.3, CS4 | Part 3 | Valid |
+| "Chapter 5.2: Substance-Based Income Exclusion" | Chapter 5.1 | Chapter 5.2 | Valid |
+| "Chapter 5.3: Top-Up Tax Computation" | Chapter 5.2 | Chapter 5.3 | Valid |
+| "Chapter 5.4: QDMTT" | Chapter 5.3 | Chapter 5.4 | Valid |
+| "Chapter 5.5: De Minimis Exclusion" | Chapter 5.4 | Chapter 5.5 | Valid |
+| "Chapter 5.6: Minority-Owned Constituent Entities" | Chapter 5.5 | Chapter 5.6 | Valid |
+| "Case Study 5" | Chapter 5.6 | Case Study 5 | Valid |
+| "Part 6: Special Structures" | CS5 | Part 6 | Valid |
+| "Chapter 5.1" (ETR calculation) | Chapters 5.2, 5.3, CS5 | Chapter 5.1 | Valid |
+| "Chapter 5.2" (SBIE) | Chapters 5.3, CS5 | Chapter 5.2 | Valid |
+| "Part 4" (Covered Taxes) | Chapters 5.1, CS5 | Part 4 | Valid |
+| "Part 3" (GloBE Income) | Chapters 5.1, CS5 | Part 3 | Valid |
+| OECD Central Record | Chapter 5.4 | oecd.org (external) | Valid |
 
 ---
 
@@ -355,16 +388,51 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 - CFC push-down, Passive income limitation
 - Distribution tax allocation, Post-filing asymmetric treatment
 
+### Part 5: ETR and Top-Up Tax (Full Audit 2025-12-11)
+
+**Files Audited:**
+- Chapter_5_1_ETR_Calculation_Mechanics.md
+- Chapter_5_2_Substance_Based_Income_Exclusion.md
+- Chapter_5_3_TopUp_Tax_Computation.md
+- Chapter_5_4_QDMTT.md
+- Chapter_5_5_De_Minimis_Exclusion.md
+- Chapter_5_6_Minority_Owned_Constituent_Entities.md
+- Case_Study_5_Stratos_Complete_ETR_and_TopUp_Tax.md
+
+**Terminology Checked:**
+- "Top-Up Tax" — All 307 occurrences correct (capital U) ✓
+- Article references — Consistent format ✓
+- Cross-references — All valid ✓
+- Currency formatting — Consistent ✓
+
+**Fixes Applied:** None required
+
+**Redundancies Removed:** None identified
+
+**Contradictions Resolved:** None identified
+
+**New Terms Logged:**
+- MOCE, MOPE
+
+**New Concepts Logged:**
+- ETR formula and four decimal places, Jurisdictional blending
+- SBIE payroll/tangible asset carve-outs, Excess Profit calculation
+- Top-Up Tax %, Negative ETR treatment (no cap)
+- QDMTT priority rule, QDMTT Safe Harbour
+- De Minimis thresholds (€10M revenue, €1M income), Three-year averaging
+- MOCE ≤30% test, MOCE separate ETR, Minority-Owned Sub-Group
+- Top-Up Tax allocation to LTCEs
+
 ---
 
 ## H. NEXT SECTION NOTES
 
-### For Part 5 Audit:
+### For Part 6 Audit:
 1. Watch for "Top-up Tax" variations — standardize to "Top-Up Tax"
-2. Verify cross-references to Parts 1-4 are accurate
-3. Check Top-Up Tax calculation terminology consistency
-4. Log any new terms introduced (SBIE calculation, Top-Up Tax allocation)
-5. Track where concepts from Parts 1-4 are referenced
+2. Verify cross-references to Parts 1-5 are accurate
+3. Log any new terms (JV, M&A, Investment Entity structures)
+4. Track special structure concepts introduced
+5. Check consistency with MOCE treatment from Part 5
 
 ### Established Conventions to Maintain:
 - "Top-Up Tax" (capital U)
@@ -387,9 +455,9 @@ The Stratos Group case study runs throughout the course. Key reference data esta
 | Part 2 | ✓ Complete (Full Audit) | 2025-12-11 | None |
 | Part 3 | ✓ Complete (Full Audit) | 2025-12-11 | None |
 | Part 4 | ✓ Complete (Full Audit) | 2025-12-11 | 5 "Top-up Tax" → "Top-Up Tax" |
-| Part 5 | Pending | — | — |
+| Part 5 | ✓ Complete (Full Audit) | 2025-12-11 | None |
 | Part 6 | ✓ Complete (Terminology) | 2025-12-11 | Top-Up Tax capitalization |
 | Part 7 | Pending | — | — |
 | Part 8 | Pending | — | — |
 
-**Note:** Part 5 was audited in prior sessions for terminology only ("Top-up Tax" → "Top-Up Tax"). Full comprehensive audit per the quality check process is pending.
+**Note:** Part 6 was audited in prior sessions for terminology only ("Top-up Tax" → "Top-Up Tax"). Full comprehensive audit per the quality check process is pending.
