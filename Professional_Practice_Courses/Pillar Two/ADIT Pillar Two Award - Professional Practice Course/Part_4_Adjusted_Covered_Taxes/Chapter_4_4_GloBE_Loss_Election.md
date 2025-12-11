@@ -56,9 +56,9 @@ SG Cayman Ltd (0% jurisdiction):
 
 WITHOUT Election:
   Year 1-3: GloBE Losses of €15M total → No DTA created
-  Year 4: GloBE Income €25M → ETR = 0% → Top-up Tax = 15% × €25M = €3.75M
-  Year 5: GloBE Income €10M → ETR = 0% → Top-up Tax = 15% × €10M = €1.50M
-  Total Top-up Tax: €5.25M
+  Year 4: GloBE Income €25M → ETR = 0% → Top-Up Tax = 15% × €25M = €3.75M
+  Year 5: GloBE Income €10M → ETR = 0% → Top-Up Tax = 15% × €10M = €1.50M
+  Total Top-Up Tax: €5.25M
 
 WITH Election:
   Year 1-3: GloBE Losses of €15M → GloBE Loss DTA = €15M × 15% = €2.25M
@@ -80,7 +80,7 @@ WITH Election:
   Year 5: Remaining DTA = €0 (fully used)
           GloBE Income €10M → ETR = 0% → Top-up = €1.5M
 
-  Total Top-up Tax: €3.0M (vs €5.25M without election)
+  Total Top-Up Tax: €3.0M (vs €5.25M without election)
   Savings: €2.25M
 ```
 
@@ -117,7 +117,7 @@ WITH Election:
 **Situation:** Jurisdiction has rate < 15% but significant deferred tax liabilities
 
 **Analysis:**
-- DTLs increase Covered Taxes (higher ETR, less Top-up Tax)
+- DTLs increase Covered Taxes (higher ETR, less Top-Up Tax)
 - Election would ignore these DTLs entirely
 - Loss benefit may not offset DTL loss
 
@@ -277,11 +277,11 @@ Adjusted Covered Taxes: €1,650,000
 
 ETR = €1,650,000 ÷ €12,000,000 = 13.75%
 
-Top-up Tax % = 15% - 13.75% = 1.25%
-Top-up Tax = 1.25% × €12,000,000 = €150,000
+Top-Up Tax % = 15% - 13.75% = 1.25%
+Top-Up Tax = 1.25% × €12,000,000 = €150,000
 ```
 
-**Without election:** Top-up Tax would be 15% × €12M = €1.8M
+**Without election:** Top-Up Tax would be 15% × €12M = €1.8M
 **Savings from election:** €1.65M
 
 ---
@@ -347,7 +347,7 @@ Top-up Tax = 1.25% × €12,000,000 = €150,000
 - Actually, DTA usage adds to Covered Taxes when used
 - DTL reversal: (€100K)
 - Covered Taxes: €1,000K + €1,200K DTA usage - €100K DTL reversal = €2,100K
-- ETR: €2,100K ÷ €10M = 21% → No Top-up Tax
+- ETR: €2,100K ÷ €10M = 21% → No Top-Up Tax
 
 **Wait—let me recalculate properly:**
 
@@ -365,7 +365,7 @@ This is getting complex. Let me simplify by showing the final ETR under each met
 
 ### Simplified Comparison Table
 
-| Year | Method | Covered Taxes | GloBE Income | ETR | Top-up Tax |
+| Year | Method | Covered Taxes | GloBE Income | ETR | Top-Up Tax |
 |------|--------|---------------|--------------|-----|------------|
 | **3** | Standard Art. 4.4 | €2,100,000 | €10,000,000 | 21.0% | €0 |
 | **3** | GloBE Loss Election | €2,200,000 | €10,000,000 | 22.0% | €0 |
@@ -376,7 +376,7 @@ This is getting complex. Let me simplify by showing the final ETR under each met
 
 **5-Year Total:**
 
-| Method | Total Top-up Tax |
+| Method | Total Top-Up Tax |
 |--------|-----------------|
 | Standard Art. 4.4 | €448,000 |
 | GloBE Loss Election | €700,000 |
