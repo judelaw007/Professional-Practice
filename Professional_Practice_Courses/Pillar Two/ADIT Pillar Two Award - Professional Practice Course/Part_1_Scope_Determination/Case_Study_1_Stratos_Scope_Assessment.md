@@ -528,7 +528,7 @@ The group has **20 Constituent Entities** across **10 jurisdictions** subject to
 
 1. **Revenue threshold is applied at group level** — individual entity revenues are irrelevant for scope purposes.
 
-2. **Currency conversion matters** — a group that appears below threshold in local currency may exceed €750M after EUR conversion, or vice versa.
+2. **Currency conversion matters** — a group that appears below threshold in local currency may exceed €750 million after EUR conversion, or vice versa.
 
 3. **PEs are separate CEs** — Belgium PE income must be carved out from France and calculated separately for Belgian jurisdictional ETR.
 
