@@ -242,7 +242,7 @@ For each tax line:
 
 | # | Check | If YES → |
 |---|-------|----------|
-| 1 | Is it IIR Top-up Tax? | Exclude |
+| 1 | Is it IIR Top-Up Tax? | Exclude |
 | 2 | Is it QDMTT? | Exclude |
 | 3 | Is it indirect tax (VAT, GST)? | Exclude |
 | 4 | Is it payroll tax? | Exclude |

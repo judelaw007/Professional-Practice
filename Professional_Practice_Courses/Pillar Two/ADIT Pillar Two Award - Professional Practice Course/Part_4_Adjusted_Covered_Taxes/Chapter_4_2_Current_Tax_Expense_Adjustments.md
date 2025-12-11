@@ -284,12 +284,12 @@ For passive income (interest, royalties, dividends), the push-down amount is cap
 ```
 Push-Down Limit = MIN(
     Actual CFC tax on passive income,
-    Top-up Tax % × Passive income taxed under CFC
+    Top-Up Tax % × Passive income taxed under CFC
 )
 ```
 
 **Where:**
-- Top-up Tax % = 15% − Subsidiary's ETR (before push-down)
+- Top-Up Tax % = 15% − Subsidiary's ETR (before push-down)
 
 **Example:**
 ```
@@ -299,7 +299,7 @@ Sub Co (Singapore):
   UK CFC tax on passive income: €500,000
 
 Push-Down Limit:
-  Top-up Tax % = 15% − 8% = 7%
+  Top-Up Tax % = 15% − 8% = 7%
   Limit = 7% × €2,000,000 = €140,000
 
 Push-Down Amount:
@@ -347,7 +347,7 @@ Only applies if unpaid taxes exceed **€1 million**.
 
 **Year 4 (end):** Only €800,000 paid; €1.2M unpaid
 
-**Recapture:** Recompute Year 1 ETR and Top-up Tax excluding €1.2M
+**Recapture:** Recompute Year 1 ETR and Top-Up Tax excluding €1.2M
 
 ### Practical Steps
 
