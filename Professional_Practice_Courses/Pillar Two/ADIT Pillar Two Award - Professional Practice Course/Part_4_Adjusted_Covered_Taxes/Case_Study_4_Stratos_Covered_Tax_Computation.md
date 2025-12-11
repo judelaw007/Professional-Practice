@@ -361,7 +361,7 @@ Adjusted Covered Taxes:                 €_______________
 
 ETR = _______________ ÷ _______________ = ___________%
 
-Top-up Tax assessment: _______________________________________________
+Top-Up Tax assessment: _______________________________________________
 ```
 
 ---
@@ -389,8 +389,8 @@ Current tax expense (P&L):              €_______________
 | Step | Calculation | Result |
 |------|-------------|--------|
 | Step 1: Singapore pre-push ETR | Local tax ÷ GloBE Income | |
-| Step 2: Top-up Tax % | 15% − Pre-push ETR | |
-| Step 3: Passive income cap | Passive income × Top-up Tax % | |
+| Step 2: Top-Up Tax % | 15% − Pre-push ETR | |
+| Step 3: Passive income cap | Passive income × Top-Up Tax % | |
 | Step 4: Push-down amount | MIN(CFC tax, Cap) | |
 
 **Adjusted Current Tax**
@@ -426,7 +426,7 @@ Adjusted Covered Taxes:                 €_______________
 
 ETR = _______________ ÷ _______________ = ___________%
 
-Top-up Tax % = 15% − ___________% = ___________%
+Top-Up Tax % = 15% − ___________% = ___________%
 ```
 
 ---
@@ -497,7 +497,7 @@ Adjusted Covered Taxes:                 €_______________
 
 ETR = _______________ ÷ _______________ = ___________%
 
-Top-up Tax % = 15% − ___________% = ___________%
+Top-Up Tax % = 15% − ___________% = ___________%
 ```
 
 ---
@@ -512,7 +512,7 @@ Prepare a consolidated summary of all jurisdictions and show the UK parent posit
 
 **Jurisdiction Summary Table**
 
-| Jurisdiction | GloBE Income (€) | Adj. Covered Taxes (€) | ETR | Top-up Tax Exposure |
+| Jurisdiction | GloBE Income (€) | Adj. Covered Taxes (€) | ETR | Top-Up Tax Exposure |
 |--------------|------------------|------------------------|-----|---------------------|
 | Germany | | | | |
 | Singapore | | | | |
@@ -726,7 +726,7 @@ UK parent has CFC charge of €320,000 on Singapore passive income (€1,800,000
 | Step | Calculation | Result |
 |------|-------------|--------|
 | Step 1: Singapore pre-push ETR | €150,000 ÷ €4,000,000 | **3.75%** |
-| Step 2: Top-up Tax % | 15% − 3.75% | **11.25%** |
+| Step 2: Top-Up Tax % | 15% − 3.75% | **11.25%** |
 | Step 3: Passive income cap | €1,800,000 × 11.25% | **€202,500** |
 | Step 4: Push-down amount | MIN(€320,000, €202,500) | **€202,500** |
 
@@ -767,7 +767,7 @@ Adjusted Covered Taxes:                 €392,206
 
 ETR = €392,206 ÷ €4,000,000 = 9.8%
 
-Top-up Tax % = 15% − 9.8% = 5.2%
+Top-Up Tax % = 15% − 9.8% = 5.2%
 ```
 
 ---
@@ -830,7 +830,7 @@ Adjusted Covered Taxes:                 €1,770,000
 
 ETR = €1,770,000 ÷ €15,000,000 = 11.8%
 
-Top-up Tax % = 15% − 11.8% = 3.2%
+Top-Up Tax % = 15% − 11.8% = 3.2%
 ```
 
 ---
@@ -839,7 +839,7 @@ Top-up Tax % = 15% − 11.8% = 3.2%
 
 **Jurisdiction Summary Table**
 
-| Jurisdiction | GloBE Income (€) | Adj. Covered Taxes (€) | ETR | Top-up Tax Exposure |
+| Jurisdiction | GloBE Income (€) | Adj. Covered Taxes (€) | ETR | Top-Up Tax Exposure |
 |--------------|------------------|------------------------|-----|---------------------|
 | Germany | 53,880,000 | 12,393,000 | 23.0% | None |
 | Singapore | 4,000,000 | 392,206 | 9.8% | Yes (5.2%) |
@@ -901,7 +901,7 @@ SECTION E: ETR CALCULATION
 E1  GloBE Income                                 ____________
 E2  Adjusted Covered Taxes (D4)                  ____________
 E3  ETR (E2 ÷ E1)                               ____________
-E4  Top-up Tax % (15% - E3, if positive)        ____________
+E4  Top-Up Tax % (15% - E3, if positive)        ____________
 ```
 
 ---
@@ -926,7 +926,7 @@ Without this limitation, Singapore's ETR would be:
 With limitation:
 - (€150,000 + €202,500) ÷ €4,000,000 = 8.8%
 
-The limitation ensures the CFC push-down doesn't artificially eliminate Singapore's Top-up Tax exposure.
+The limitation ensures the CFC push-down doesn't artificially eliminate Singapore's Top-Up Tax exposure.
 
 ### Point 3: Rate Cap Creates Significant Adjustment
 
@@ -970,17 +970,17 @@ Singapore Total Covered Taxes: €509,706
 Singapore ETR:
   €509,706 ÷ €4,000,000 = 12.7%
 
-Top-up Tax % = 15% − 12.7% = 2.3%
+Top-Up Tax % = 15% − 12.7% = 2.3%
 ```
 
 **Impact comparison:**
 
-| Scenario | Singapore ETR | Singapore Top-up Tax % | UK CFC Tax Remaining |
+| Scenario | Singapore ETR | Singapore Top-Up Tax % | UK CFC Tax Remaining |
 |----------|---------------|------------------------|----------------------|
 | With limitation | 9.8% | 5.2% | €117,500 |
 | Without limitation | 12.7% | 2.3% | €0 |
 
-**Key insight:** The passive income limitation preserves approximately 2.9% additional Top-up Tax exposure in Singapore, preventing a high-tax parent from sheltering a low-tax subsidiary's income through CFC taxes.
+**Key insight:** The passive income limitation preserves approximately 2.9% additional Top-Up Tax exposure in Singapore, preventing a high-tax parent from sheltering a low-tax subsidiary's income through CFC taxes.
 
 ---
 
@@ -999,9 +999,9 @@ The Adjusted Covered Taxes calculated in this case study feed directly into **GI
 1. Enter GloBE Income and Adjusted Covered Taxes into **GIR-001 GloBE Calculator**
 2. GIR-001 Step 1 calculates the ETR automatically
 3. GIR-001 Step 2 calculates SBIE (Substance-Based Income Exclusion)
-4. GIR-001 Step 3 calculates Top-up Tax
+4. GIR-001 Step 3 calculates Top-Up Tax
 
-Use **GIR-001 GloBE Calculator** at tools.mojitax.com to verify your calculations and practice the complete ETR → SBIE → Top-up Tax workflow.
+Use **GIR-001 GloBE Calculator** at tools.mojitax.com to verify your calculations and practice the complete ETR → SBIE → Top-Up Tax workflow.
 
 ---
 
@@ -1032,4 +1032,4 @@ Use **GIR-001 GloBE Calculator** at tools.mojitax.com to verify your calculation
 
 ## Next Step
 
-You have completed Part 4: Adjusted Covered Taxes. With GloBE Income (Part 3) and Adjusted Covered Taxes (Part 4) calculated, you now have both components needed for the ETR calculation. Proceed to **Part 5: Top-Up Tax Calculation** to learn how to compute SBIE, the Top-Up Tax Percentage, and allocate Top-up Tax under the IIR and UTPR charging mechanisms.
+You have completed Part 4: Adjusted Covered Taxes. With GloBE Income (Part 3) and Adjusted Covered Taxes (Part 4) calculated, you now have both components needed for the ETR calculation. Proceed to **Part 5: Top-Up Tax Calculation** to learn how to compute SBIE, the Top-Up Tax Percentage, and allocate Top-Up Tax under the IIR and UTPR charging mechanisms.
