@@ -1,16 +1,14 @@
 # Chapter 4.4: GloBE Loss Election
 
-## Purpose
+## Learning Objective
 
 This chapter provides a decision framework for the GloBE Loss Election under Article 4.5. The election offers an alternative to standard deferred tax accounting—creating a deemed 15% DTA on losses regardless of local tax treatment. Understanding when this election is beneficial versus detrimental is critical for optimising an MNE Group's Pillar Two position.
 
----
-
-## What Is the GloBE Loss Election?
+## 1. What Is the GloBE Loss Election?
 
 The GloBE Loss Election allows an MNE Group to replace the standard deferred tax rules (Article 4.4) with a simplified loss carryforward mechanism that values losses at the 15% minimum rate.
 
-### Key Features
+### 1.1 Key Features
 
 | Feature | Description |
 |---------|-------------|
@@ -20,7 +18,7 @@ The GloBE Loss Election allows an MNE Group to replace the standard deferred tax
 | **Replaces Article 4.4** | Standard deferred tax rules do not apply |
 | **One-time election** | Made with first GIR including the jurisdiction |
 
-### The Core Trade-Off
+### 1.2 The Core Trade-Off
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -36,11 +34,9 @@ The GloBE Loss Election allows an MNE Group to replace the standard deferred tax
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
+## 2. When to Make the Election: Decision Framework
 
-## When to Make the Election: Decision Framework
-
-### Scenario 1: Zero-Tax Jurisdiction — ELECT
+### 2.1 Scenario 1: Zero-Tax Jurisdiction — ELECT
 
 **Situation:** Jurisdiction imposes no corporate income tax (e.g., Cayman Islands, Bahamas, BVI)
 
@@ -84,9 +80,7 @@ WITH Election:
   Savings: €2.25M
 ```
 
----
-
-### Scenario 2: Low-Tax Jurisdiction with Simple Operations — LIKELY ELECT
+### 2.2 Scenario 2: Low-Tax Jurisdiction with Simple Operations — LIKELY ELECT
 
 **Situation:** Jurisdiction has tax rate below 15% (e.g., 9-12%) with minimal timing differences
 
@@ -97,9 +91,7 @@ WITH Election:
 
 **Recommendation:** **LIKELY ELECT** (verify no significant DTLs would be lost)
 
----
-
-### Scenario 3: High-Tax Jurisdiction — DO NOT ELECT
+### 2.3 Scenario 3: High-Tax Jurisdiction — DO NOT ELECT
 
 **Situation:** Jurisdiction has tax rate ≥ 15% (e.g., Germany at 30%, UK at 25%)
 
@@ -110,9 +102,7 @@ WITH Election:
 
 **Recommendation:** **DO NOT ELECT**
 
----
-
-### Scenario 4: Low-Tax Jurisdiction with Significant DTLs — DO NOT ELECT
+### 2.4 Scenario 4: Low-Tax Jurisdiction with Significant DTLs — DO NOT ELECT
 
 **Situation:** Jurisdiction has rate < 15% but significant deferred tax liabilities
 
@@ -140,9 +130,7 @@ GloBE Loss Election:
 Decision: Standard approach is €400K better → DO NOT ELECT
 ```
 
----
-
-### Scenario 5: Eligible Distribution Tax System — CANNOT ELECT
+### 2.5 Scenario 5: Eligible Distribution Tax System — CANNOT ELECT
 
 **Situation:** Jurisdiction operates an EDTS (e.g., Estonia, Latvia)
 
@@ -150,9 +138,7 @@ Decision: Standard approach is €400K better → DO NOT ELECT
 
 **Reason:** EDTS has its own special treatment under Article 7.3
 
----
-
-## Decision Framework Flowchart
+## 3. Decision Framework Flowchart
 
 ```
                         START
@@ -210,11 +196,9 @@ Decision: Standard approach is €400K better → DO NOT ELECT
         └──────────┘           └──────────┘
 ```
 
----
+## 4. Mechanics of the Election
 
-## Mechanics of the Election
-
-### Creating the GloBE Loss DTA
+### 4.1 Creating the GloBE Loss DTA
 
 **Formula:**
 ```
@@ -237,9 +221,7 @@ Year 2: Net GloBE Loss = €3,000,000
         Cumulative GloBE Loss DTA = €1,200,000 + €450,000 = €1,650,000
 ```
 
----
-
-### Using the GloBE Loss DTA
+### 4.2 Using the GloBE Loss DTA
 
 **Formula:**
 ```
@@ -263,9 +245,7 @@ Year 3: Net GloBE Income = €12,000,000
         Remaining GloBE Loss DTA: €0
 ```
 
----
-
-### Impact on ETR Calculation
+### 4.3 Impact on ETR Calculation
 
 ```
 Year 3 ETR Calculation:
@@ -284,11 +264,9 @@ Top-Up Tax = 1.25% × €12,000,000 = €150,000
 **Without election:** Top-Up Tax would be 15% × €12M = €1.8M
 **Savings from election:** €1.65M
 
----
+## 5. Comparison: Standard DTA vs. GloBE Loss Election
 
-## Comparison: Standard DTA vs. GloBE Loss Election
-
-### Side-by-Side Analysis
+### 5.1 Side-by-Side Analysis
 
 | Aspect | Standard Article 4.4 | GloBE Loss Election (4.5) |
 |--------|---------------------|---------------------------|
@@ -300,22 +278,20 @@ Top-Up Tax = 1.25% × €12,000,000 = €150,000
 | **Filing** | No separate election | File with first GIR |
 | **Revocation** | N/A | Possible—but DTA balance goes to zero |
 
-### When Standard Approach Wins
+### 5.2 When Standard Approach Wins
 
 1. **High-tax jurisdiction:** DTA already at 15% cap; election adds nothing
 2. **Significant DTLs:** Accelerated depreciation, intangible amortisation, etc. would be lost
 3. **Complex DT position:** Multiple timing differences that net to beneficial position
 
-### When GloBE Loss Election Wins
+### 5.3 When GloBE Loss Election Wins
 
 1. **Zero-tax jurisdiction:** Only way to get loss relief
 2. **Very low-tax jurisdiction:** 15% DTA > domestic rate DTA
 3. **Simple operations:** No significant DTLs to lose
 4. **Compliance simplification:** Prefer simpler tracking
 
----
-
-## Worked Example: Comparative Analysis
+## 6. Worked Example: Comparative Analysis
 
 **Scenario:** SG Low-Tax Ltd in a 10% tax jurisdiction with the following profile:
 
@@ -363,7 +339,7 @@ Actually, let me think about this more carefully. The DTA usage in standard acco
 
 This is getting complex. Let me simplify by showing the final ETR under each method.
 
-### Simplified Comparison Table
+### 6.1 Simplified Comparison Table
 
 | Year | Method | Covered Taxes | GloBE Income | ETR | Top-Up Tax |
 |------|--------|---------------|--------------|-----|------------|
@@ -383,44 +359,40 @@ This is getting complex. Let me simplify by showing the final ETR under each met
 
 **Conclusion:** Standard approach saves €252,000 → **DO NOT ELECT**
 
----
+## 7. Filing Requirements
 
-## Filing Requirements
-
-### When to File
+### 7.1 When to File
 
 The GloBE Loss Election must be filed with the **first GIR** that includes the jurisdiction.
 
 **Important:** The election is made at the jurisdiction level, not entity level.
 
-### How to File
+### 7.2 How to File
 
 Include the election in the GIR under the elections and options section. Specify:
 - Jurisdiction for which election is made
 - Fiscal year of election
 
-### Documentation Required
+### 7.3 Documentation Required
 
 Maintain workpaper showing:
 1. Decision analysis (election beneficial vs. detrimental)
 2. Projected loss DTA balance
 3. Comparison with standard approach
 
----
+## 8. Revocation
 
-## Revocation
-
-### Can the Election Be Revoked?
+### 8.1 Can the Election Be Revoked?
 
 Yes, but with significant consequences.
 
-### Consequence of Revocation
+### 8.2 Consequence of Revocation
 
 **Any remaining GloBE Loss DTA balance is reduced to ZERO.**
 
 The reduction is effective from the first day of the fiscal year in which the election is no longer applicable.
 
-### When Revocation Might Be Considered
+### 8.3 When Revocation Might Be Considered
 
 | Scenario | Revoke? |
 |----------|---------|
@@ -429,7 +401,7 @@ The reduction is effective from the first day of the fiscal year in which the el
 | Significant DTLs expected going forward | Maybe—model future impact |
 | DTA balance is already zero | Yes—no loss from revocation |
 
-### Revocation Example
+### 8.4 Revocation Example
 
 ```
 Year 5: Jurisdiction introduces 18% corporate tax
@@ -443,23 +415,21 @@ Consequence:
         Future DTLs will increase Covered Taxes
 ```
 
----
+## 9. Interaction with Transition Rules (Article 9.1)
 
-## Interaction with Transition Rules (Article 9.1)
-
-### Key Point
+### 9.1 Key Point
 
 **If the GloBE Loss Election is made, Article 9.1 transition rules do not apply.**
 
 The election is designed as a simplification—there is no need to bring forward existing DTAs/DTLs because they are all ignored.
 
-### Pre-Transition Losses
+### 9.2 Pre-Transition Losses
 
 Losses incurred before the Transition Year can still be captured:
 - If election is made: Create GloBE Loss DTA based on those losses at 15%
 - If election is not made: Use transition rules to bring forward existing accounting DTAs
 
-### Which Is Better?
+### 9.3 Which Is Better?
 
 | Situation | Election | Standard + Transition |
 |-----------|----------|----------------------|
@@ -467,9 +437,7 @@ Losses incurred before the Transition Year can still be captured:
 | Low-tax with DTAs at < 15% | Model both | May be better if recast at 15% |
 | Low-tax with existing DTLs | **Worse** (loses DTLs) | **Better** |
 
----
-
-## Stratos Jurisdiction Analysis
+## 10. Stratos Jurisdiction Analysis
 
 **Stratos has entities in the following low-tax jurisdictions:**
 
@@ -479,7 +447,7 @@ Losses incurred before the Transition Year can still be captured:
 | Ireland | 12.5% | No | Yes (R&D assets) | **DO NOT ELECT** |
 | Cayman (if applicable) | 0% | Possibly | No | **ELECT** if losses expected |
 
-### Singapore Analysis
+### 10.1 Singapore Analysis
 
 **SG Singapore Pte Ltd:**
 - Current rate: 17% (above 15%, so DTA already at cap)
@@ -491,7 +459,7 @@ Losses incurred before the Transition Year can still be captured:
 - Loss DTA rate would be same (15%) either way
 - Standard approach preserves DTL benefit
 
-### Ireland Analysis
+### 10.2 Ireland Analysis
 
 **SG Ireland Ltd:**
 - Current rate: 12.5% (below 15%)
@@ -502,9 +470,7 @@ Losses incurred before the Transition Year can still be captured:
 - No losses to benefit from election
 - Would lose DTL benefit
 
----
-
-## GloBE Loss Election Tracking Template
+## 11. GloBE Loss Election Tracking Template
 
 If election is made, maintain this tracking schedule:
 
@@ -525,82 +491,12 @@ Add to Covered Taxes: +€1,050,000
 ETR impact: +13.1% (€1,050,000 ÷ €8,000,000)
 ```
 
----
+## 12. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Electing in High-Tax Jurisdictions
+### 12.1 Pitfall 1: Electing in High-Tax Jurisdictions
 
 **Issue:** Election made for jurisdiction with rate ≥ 15%
 
 **Impact:** No benefit (DTA rate same); potential loss of DTLs
 
 **Solution:** Only elect for zero-tax or very low-tax jurisdictions after analysis
-
----
-
-### Pitfall 2: Ignoring DTL Impact
-
-**Issue:** Focusing only on loss benefit without considering DTLs foregone
-
-**Impact:** Net position may be worse than standard approach
-
-**Solution:** Model both scenarios before electing
-
----
-
-### Pitfall 3: Late Election Attempt
-
-**Issue:** Trying to make election after first GIR filed
-
-**Impact:** Election not available
-
-**Solution:** Evaluate election in first year of GIR filing for each jurisdiction
-
----
-
-### Pitfall 4: Revoking with Significant DTA Balance
-
-**Issue:** Revoking election when large DTA balance remains
-
-**Impact:** Forfeit accumulated DTA (permanent loss)
-
-**Solution:** Only revoke if DTA balance is low or circumstances have fundamentally changed
-
----
-
-## Key References
-
-- Article 4.5 — GloBE Loss Election (full mechanism)
-- Article 4.5.1 — Election filing requirement
-- Article 4.5.2 — GloBE Loss DTA calculation
-- Article 4.5.3 — DTA utilisation rules
-- Article 4.5.4 — Carry forward and revocation
-- Article 4.1.2(b) — DTA usage added to Covered Taxes
-- Article 4.4.3 — Alternative: recasting loss DTA at 15% under standard rules
-- Article 7.3 — EDTS jurisdictions (election not available)
-- Article 9.1 — Transition rules (do not apply if election made)
-
----
-
-## Chapter Summary
-
-The GloBE Loss Election provides valuable loss relief for zero-tax and very low-tax jurisdictions where standard deferred tax accounting would provide no benefit. However, it comes with significant trade-offs:
-
-**ELECT when:**
-- Jurisdiction has 0% corporate tax rate
-- Jurisdiction has very low rate AND minimal DTLs
-- Simplification benefit outweighs precision loss
-
-**DO NOT ELECT when:**
-- Jurisdiction rate ≥ 15% (no benefit, potential DTL loss)
-- Significant DTLs exist (depreciation, intangibles)
-- Complex DT position that nets favourably under standard rules
-
-**Key implementation steps:**
-1. Identify all jurisdictions where entities have losses
-2. Apply decision framework flowchart
-3. Model both scenarios for borderline cases
-4. Make election with first GIR (if beneficial)
-5. Track GloBE Loss DTA balance annually
-6. Monitor for circumstances that would trigger revocation consideration

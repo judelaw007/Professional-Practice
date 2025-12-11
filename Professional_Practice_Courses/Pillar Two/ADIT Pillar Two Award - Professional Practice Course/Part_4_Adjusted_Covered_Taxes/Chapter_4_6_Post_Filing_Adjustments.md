@@ -4,9 +4,7 @@
 
 After completing this chapter, you will be able to apply Article 4.6's asymmetric treatment rules for post-filing adjustments, distinguishing between increases (added to current year) and decreases (requiring prior-year recalculation) in Covered Taxes, and understand the immaterial exception, rate change rules, and recapture mechanisms.
 
----
-
-## The Asymmetric Treatment Principle
+## 1. The Asymmetric Treatment Principle
 
 GloBE treats increases and decreases in prior-year Covered Taxes differently:
 
@@ -17,15 +15,13 @@ GloBE treats increases and decreases in prior-year Covered Taxes differently:
 
 **Why asymmetric?** GloBE does not provide refunds of Top-Up Tax already paid. If a prior-year increase simply increased current-year Covered Taxes, but a decrease required recalculation, MNEs would face permanent overtaxation from increases but full correction for decreases. The asymmetry ensures fairness while maintaining anti-avoidance integrity.
 
----
+## 2. Increases in Prior-Year Covered Taxes (Article 4.6.1)
 
-## Part 1: Increases in Prior-Year Covered Taxes (Article 4.6.1)
-
-### The Rule
+### 2.1 The Rule
 
 An increase to a Constituent Entity's Covered Taxes for a **prior fiscal year** is treated as an increase in Covered Taxes in the **current fiscal year**.
 
-### When This Applies
+### 2.2 When This Applies
 
 | Scenario | Example |
 |----------|---------|
@@ -35,7 +31,7 @@ An increase to a Constituent Entity's Covered Taxes for a **prior fiscal year** 
 | Self-assessment adjustment | Error discovered, additional tax paid |
 | Transfer pricing adjustment | Unilateral TP increase by authority |
 
-### Practical Effect
+### 2.3 Practical Effect
 
 ```
 FY 2024: Filed GIR with Covered Taxes €10,000,000
@@ -49,23 +45,21 @@ Treatment:
   No amended GIR for FY 2024
 ```
 
-### No Refund Mechanism
+### 2.4 No Refund Mechanism
 
 If the FY 2024 ETR was below 15% and Top-Up Tax was paid, the additional €500,000 does NOT trigger a refund of that Top-Up Tax. The increase simply improves FY 2026's position.
 
 **Consequence:** MNEs that paid Top-Up Tax in a prior year and later have increased Covered Taxes for that year receive no benefit. This creates an incentive to resolve tax positions promptly.
 
----
+## 3. Decreases in Prior-Year Covered Taxes
 
-## Part 2: Decreases in Prior-Year Covered Taxes
-
-### The General Rule
+### 3.1 The General Rule
 
 A **decrease** in Covered Taxes for a prior fiscal year requires:
 1. Recalculation of the prior year's ETR and Top-Up Tax
 2. Any incremental Top-Up Tax is paid in the current year (as Additional Current Top-Up Tax)
 
-### The Recalculation Process
+### 3.2 The Recalculation Process
 
 **Step 1:** Identify the fiscal year to which the decrease relates
 
@@ -79,7 +73,7 @@ A **decrease** in Covered Taxes for a prior fiscal year requires:
 
 **Step 6:** Include incremental amount as Additional Current Top-Up Tax per Article 5.2.3
 
-### Worked Example
+### 3.3 Worked Example
 
 ```
 FY 2024 (as originally filed):
@@ -102,17 +96,15 @@ Result:
   No amended GIR for FY 2024 required
 ```
 
----
+## 4. Immaterial Decrease Exception
 
-## Part 3: Immaterial Decrease Exception
-
-### The €1 Million Threshold
+### 4.1 The €1 Million Threshold
 
 If the aggregate decrease in Covered Taxes for a jurisdiction in a fiscal year is **less than €1 million**, the MNE may **elect** to:
 - Treat the decrease as a reduction in current-year Covered Taxes
 - Avoid prior-year recalculation
 
-### Election Requirements
+### 4.2 Election Requirements
 
 | Requirement | Details |
 |-------------|---------|
@@ -120,7 +112,7 @@ If the aggregate decrease in Covered Taxes for a jurisdiction in a fiscal year i
 | Scope | Annual election |
 | Application | Must be made consistently |
 
-### When to Use the Exception
+### 4.3 When to Use the Exception
 
 **Use exception when:**
 - Administrative burden of recalculation outweighs benefit
@@ -131,7 +123,7 @@ If the aggregate decrease in Covered Taxes for a jurisdiction in a fiscal year i
 - Prior year ETR was close to 15% (decrease may trigger Top-Up Tax)
 - Multiple small decreases may aggregate to material impact
 
-### Example
+### 4.4 Example
 
 ```
 FY 2024 ETR: 22% (comfortably above 15%)
@@ -149,11 +141,9 @@ Option B: Elect immaterial exception
 Decision: Use exception (same result, less effort)
 ```
 
----
+## 5. Tax Rate Changes (Articles 4.6.2 and 4.6.3)
 
-## Part 4: Tax Rate Changes (Articles 4.6.2 and 4.6.3)
-
-### Rate Decreases (Article 4.6.2)
+### 5.1 Rate Decreases (Article 4.6.2)
 
 When a jurisdiction **reduces** its corporate tax rate below 15%:
 
@@ -176,7 +166,7 @@ Treatment:
   Any incremental Top-Up Tax → Additional Current Top-Up Tax in Year 2
 ```
 
-### Rate Increases (Article 4.6.3)
+### 5.2 Rate Increases (Article 4.6.3)
 
 When a jurisdiction **increases** its corporate tax rate:
 
@@ -198,11 +188,9 @@ Treatment:
   Per Article 4.6.1, added to Year 3 Covered Taxes
 ```
 
----
+## 6. Recapture Rules
 
-## Part 5: Recapture Rules
-
-### Current Tax Recapture (Article 4.6.4)
+### 6.1 Current Tax Recapture (Article 4.6.4)
 
 **Rule:** If current tax expense included in Covered Taxes is **not paid within 3 years**, it must be recaptured.
 
@@ -223,7 +211,7 @@ Recapture triggered:
   Incremental Top-Up Tax paid in Year 4
 ```
 
-### Deferred Tax Recapture (Article 4.4.4)
+### 6.2 Deferred Tax Recapture (Article 4.4.4)
 
 **Rule:** If DTL does not reverse within **5 years**, recapture applies.
 
@@ -234,17 +222,15 @@ Recapture triggered:
 | Threshold | €1 million | No threshold |
 | Exceptions | None | Recapture Exception Accruals (REAs) |
 
----
+## 7. Transfer Pricing Adjustments
 
-## Part 6: Transfer Pricing Adjustments
-
-### General Principle
+### 7.1 General Principle
 
 GloBE respects transfer pricing adjustments made by local tax authorities:
 - Unilateral adjustments are generally accepted
 - Corresponding adjustments ensure no double taxation
 
-### Unilateral Adjustment Treatment
+### 7.2 Unilateral Adjustment Treatment
 
 When Country A's tax authority makes a TP adjustment:
 
@@ -252,7 +238,7 @@ When Country A's tax authority makes a TP adjustment:
 
 **If Country A is under-taxed (ETR < 15%):** No corresponding adjustment in Country B → Prevents artificial reduction of low-tax income
 
-### Post-Filing TP Adjustments
+### 7.3 Post-Filing TP Adjustments
 
 | Scenario | Treatment |
 |----------|-----------|
@@ -261,7 +247,7 @@ When Country A's tax authority makes a TP adjustment:
 | Bilateral APA applied retroactively | Adjust per APA terms; follow 4.6.1/recalculation rules |
 | Self-initiated TP true-up | Complex—depends on timing and direction |
 
-### Self-Initiated TP True-Ups
+### 7.4 Self-Initiated TP True-Ups
 
 **Issue:** Many MNEs make year-end TP true-ups after books close but before returns filed.
 
@@ -271,11 +257,9 @@ When Country A's tax authority makes a TP adjustment:
 
 **Warning:** True-ups that increase income in low-tax jurisdictions may increase Top-Up Tax exposure.
 
----
+## 8. Audit Settlement Scenarios
 
-## Part 7: Audit Settlement Scenarios
-
-### Tax Authority Audit Resulting in Additional Assessment
+### 8.1 Tax Authority Audit Resulting in Additional Assessment
 
 ```
 Scenario: German tax authority audits SG Germany GmbH for FY 2024
@@ -287,7 +271,7 @@ Treatment:
   No amended GIR
 ```
 
-### Tax Authority Audit Resulting in Refund
+### 8.2 Tax Authority Audit Resulting in Refund
 
 ```
 Scenario: Irish Revenue audits SG Ireland Ltd for FY 2024
@@ -298,7 +282,7 @@ Treatment (assuming > €1M threshold not met at jurisdiction level):
   If no election: Recalculate FY 2024 ETR
 ```
 
-### Mutual Agreement Procedure (MAP) Resolution
+### 8.3 Mutual Agreement Procedure (MAP) Resolution
 
 ```
 Scenario: MAP resolves double taxation between UK and Germany
@@ -312,9 +296,7 @@ Treatment:
     If < €1M with election: Reduce current year Covered Taxes
 ```
 
----
-
-## Post-Filing Adjustment Timeline
+## 9. Post-Filing Adjustment Timeline
 
 ```
 YEAR 1 (GIR FILED)          YEAR 2                    YEAR 3                    YEAR 4
@@ -338,13 +320,11 @@ YEAR 1 (GIR FILED)          YEAR 2                    YEAR 3                    
                                                └──────────────────┘     └──────────────────┘
 ```
 
----
-
-## Stratos Worked Example: Post-Filing Adjustments
+## 10. Stratos Worked Example: Post-Filing Adjustments
 
 **Scenario:** Stratos Group has three post-filing adjustments in FY 2027 relating to FY 2025:
 
-### Data
+### 10.1 Data
 
 | Jurisdiction | Adjustment | Amount (€) | Type |
 |--------------|------------|------------|------|
@@ -352,7 +332,7 @@ YEAR 1 (GIR FILED)          YEAR 2                    YEAR 3                    
 | Singapore | TP adjustment (refund) | -1,400,000 | Decrease |
 | Ireland | R&D credit error correction | +180,000 | Increase |
 
-### FY 2025 Original Position (for reference)
+### 10.2 FY 2025 Original Position (for reference)
 
 | Jurisdiction | GloBE Income | Covered Taxes | ETR |
 |--------------|--------------|---------------|-----|
@@ -360,7 +340,7 @@ YEAR 1 (GIR FILED)          YEAR 2                    YEAR 3                    
 | Singapore | €4,000,000 | €352,500 | 8.8% |
 | Ireland | €15,000,000 | €1,875,000 | 12.5% |
 
-### Treatment Analysis
+### 10.3 Treatment Analysis
 
 **1. Germany (+€750,000 increase)**
 ```
@@ -406,7 +386,7 @@ Article 4.6.1 applies:
   No recalculation of FY 2025
 ```
 
-### Summary Impact on FY 2027
+### 10.4 Summary Impact on FY 2027
 
 | Item | Amount (€) |
 |------|------------|
@@ -416,23 +396,21 @@ Article 4.6.1 applies:
 
 **Note:** The Singapore refund results in additional Top-Up Tax because the original ETR (8.8%) was already below 15%. The refund pushes Covered Taxes negative, worsening the ETR significantly.
 
----
+## 11. Post-Filing Adjustment Checklist
 
-## Post-Filing Adjustment Checklist
-
-### When Adjustment Identified
+### 11.1 When Adjustment Identified
 
 - [ ] Determine fiscal year to which adjustment relates
 - [ ] Classify as increase or decrease in Covered Taxes
 - [ ] Identify jurisdiction affected
 
-### For Increases
+### 11.2 For Increases
 
 - [ ] Add to current year Covered Taxes (Article 4.6.1)
 - [ ] Document adjustment in GIR workpapers
 - [ ] No amended GIR required
 
-### For Decreases
+### 11.3 For Decreases
 
 - [ ] Calculate aggregate decrease for jurisdiction
 - [ ] If < €1M: Consider immaterial election
@@ -441,24 +419,22 @@ Article 4.6.1 applies:
 - [ ] Include as Additional Current Top-Up Tax (Article 5.2.3)
 - [ ] Document recalculation workpapers
 
-### For Rate Changes
+### 11.4 For Rate Changes
 
 - [ ] Identify affected deferred tax balances
 - [ ] Apply Article 4.6.2 (decrease) or 4.6.3 (increase)
 - [ ] Recalculate as required
 
-### For Recapture
+### 11.5 For Recapture
 
 - [ ] At Year 3 end: Review unpaid current tax by jurisdiction
 - [ ] Trigger recapture if unpaid > €1M
 - [ ] At Year 5 end: Review unreversed DTLs (excluding REAs)
 - [ ] Trigger recapture as required
 
----
+## 12. Common Pitfalls
 
-## Common Pitfalls
-
-### Pitfall 1: Treating Decreases Like Increases
+### 12.1 Pitfall 1: Treating Decreases Like Increases
 
 **Issue:** Adding decreases to current year Covered Taxes without recalculation
 
@@ -466,9 +442,7 @@ Article 4.6.1 applies:
 
 **Solution:** Always recalculate prior year for decreases (unless immaterial election applies)
 
----
-
-### Pitfall 2: Ignoring Transfer Pricing Timing
+### 12.2 Pitfall 2: Ignoring Transfer Pricing Timing
 
 **Issue:** Self-initiated TP true-ups made after GIR filed create unexpected adjustments
 
@@ -476,9 +450,7 @@ Article 4.6.1 applies:
 
 **Solution:** Complete TP true-ups before GIR filing where possible
 
----
-
-### Pitfall 3: Missing Recapture Deadlines
+### 12.3 Pitfall 3: Missing Recapture Deadlines
 
 **Issue:** Failing to monitor 3-year (current tax) and 5-year (deferred tax) periods
 
@@ -486,9 +458,7 @@ Article 4.6.1 applies:
 
 **Solution:** Implement tracking system for unpaid taxes and unreversed DTLs
 
----
-
-### Pitfall 4: Aggregating Jurisdictions Incorrectly
+### 12.4 Pitfall 4: Aggregating Jurisdictions Incorrectly
 
 **Issue:** Applying €1M immaterial threshold at entity level instead of jurisdiction level
 
@@ -496,64 +466,3 @@ Article 4.6.1 applies:
 
 **Solution:** Aggregate all CEs in jurisdiction when assessing threshold
 
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 4.6.1 — Increases treated as current year adjustment
-- Article 4.6.2 — Rate decrease: prior year DT recalculation
-- Article 4.6.3 — Rate increase: adjustment when tax paid
-- Article 4.6.4 — 3-year recapture for unpaid current tax (€1M threshold)
-- Article 4.4.4 — 5-year recapture for unreversed DTLs
-- Article 5.2.3 — Additional Current Top-Up Tax
-- Article 5.4.1 — ETR recalculation mechanics
-
-**Administrative Guidance:**
-- December 2023: Clarification on €1M immaterial threshold application
-- July 2023: Interaction with transfer pricing adjustments
-
-**OECD Commentary:**
-- Chapter 4, paragraphs 52-68 — Post-filing adjustment guidance
-
----
-
-## Summary
-
-Post-filing adjustments require careful application of asymmetric rules that treat increases differently from decreases. The key implementation steps are:
-
-1. **Classify the adjustment** — Increase or decrease in prior-year Covered Taxes
-2. **For increases** — Add to current year Covered Taxes; no recalculation
-3. **For decreases** — Recalculate prior year ETR and Top-Up Tax (unless immaterial election)
-4. **Apply rate change rules** — Article 4.6.2 for decreases, 4.6.3 for increases
-5. **Monitor recapture periods** — 3 years for current tax, 5 years for deferred tax
-6. **Handle TP adjustments** — Follow GloBE's respect for local authority positions
-7. **Document thoroughly** — Maintain workpapers showing recalculation methodology
-
-The asymmetric treatment ensures MNEs cannot retrospectively reduce Top-Up Tax through later adjustments while maintaining administrative simplicity for increases.
-
----
-
-## Integration with GIR Tools
-
-Post-filing adjustments affect both current and prior-year GloBE calculations:
-
-| Tool | Application |
-|------|-------------|
-| **GIR-001 GloBE Calculator** | For **increases**: Add adjustment to current year Covered Taxes and recalculate ETR. For **decreases**: Recalculate prior year ETR using original GloBE Income and adjusted Covered Taxes. |
-
-**Workflow for Decreases (Recalculation Required):**
-
-1. Retrieve prior-year GloBE Income from original calculation
-2. Recalculate Adjusted Covered Taxes with the decrease applied
-3. Re-run **GIR-001 GloBE Calculator** with revised inputs
-4. Compare new ETR to original ETR
-5. Calculate Additional Current Top-Up Tax if new ETR < 15%
-
-**Note:** The €1M immaterial election allows current-year treatment instead of recalculation for jurisdictions where the aggregate decrease is below the threshold.
-
----
-
-## Next Step
-
-You have completed Part 4: Adjusted Covered Taxes. You now understand how to calculate Covered Taxes from classification through current tax adjustments, deferred tax adjustments, tax allocation, and post-filing corrections. Proceed to **Case Study 4: Stratos's Covered Tax Computation** to apply these concepts in a comprehensive worked example.

@@ -1,12 +1,10 @@
 # Chapter 4.3: Deferred Tax Adjustments
 
-## Purpose
+## Learning Objective
 
 This chapter provides the methodology for calculating the Total Deferred Tax Adjustment Amount (DTAA) that modifies the current tax expense to produce total Adjusted Covered Taxes. Deferred tax accounting creates timing differences between financial accounting and tax—the DTAA ensures GloBE captures the economic reality of when taxes will ultimately be paid.
 
----
-
-## The Deferred Tax Adjustment Framework
+## 1. The Deferred Tax Adjustment Framework
 
 The GloBE approach to deferred taxes differs significantly from financial accounting. Three key principles govern:
 
@@ -23,17 +21,15 @@ Total Deferred Tax Adjustment Amount (DTAA) =
   + DTL recapture adjustments (if applicable)
 ```
 
----
+## 2. The 15% Rate Cap (Article 4.4.1)
 
-## Part 1: The 15% Rate Cap (Article 4.4.1)
-
-### The Rule
+### 2.1 The Rule
 
 All deferred tax assets and liabilities must be valued at the **lower of:**
 - The 15% minimum rate, OR
 - The applicable domestic tax rate
 
-### Why This Matters
+### 2.2 Why This Matters
 
 Without the cap, a high-tax jurisdiction could create excess deferred tax benefits that inflate Covered Taxes beyond what will actually be paid.
 
@@ -48,7 +44,7 @@ For GloBE purposes:
 Difference:                    €400,000 reduction in DTAA
 ```
 
-### Practical Application
+### 2.3 Practical Application
 
 **Step 1:** Extract deferred tax expense from financial accounts
 
@@ -58,7 +54,7 @@ Difference:                    €400,000 reduction in DTAA
 
 **Step 4:** Calculate the adjusted deferred tax movement
 
-### Rate Cap Calculation Template
+### 2.4 Rate Cap Calculation Template
 
 | Item | Accounts Rate | GloBE Rate | Accounts Value | GloBE Value | Adjustment |
 |------|---------------|------------|----------------|-------------|------------|
@@ -68,21 +64,19 @@ Difference:                    €400,000 reduction in DTAA
 
 **Key point:** DTAs in low-tax jurisdictions (rate < 15%) can be **recast upward** to 15% if attributable to a GloBE Loss (Article 4.4.3).
 
----
+## 3. GloBE Loss DTA Recasting (Article 4.4.3)
 
-## Part 2: GloBE Loss DTA Recasting (Article 4.4.3)
-
-### The Exception
+### 3.1 The Exception
 
 While the general rule caps deferred tax at 15%, loss-related DTAs in low-tax jurisdictions can be increased to 15% if:
 1. The DTA arose from a loss, AND
 2. The loss would have been a GloBE Loss
 
-### Why This Exists
+### 3.2 Why This Exists
 
 Without this provision, losses in zero-tax or low-tax jurisdictions would provide no GloBE benefit, creating an asymmetry with profits.
 
-### Example
+### 3.3 Example
 
 ```
 Jurisdiction: Singapore (17% rate)
@@ -102,13 +96,11 @@ Year 1 (Loss):
   GloBE DTA (recast): €3M × 15% = €450,000 ← Benefit created at 15%
 ```
 
----
-
-## Part 3: Excluded Deferred Tax Items (Article 4.4.1(b)-(e))
+## 4. Excluded Deferred Tax Items (Article 4.4.1(b)-(e))
 
 Several categories of deferred tax movements are **excluded** from the DTAA to prevent distortions.
 
-### Exclusion 1: Deferred Tax on Excluded Income (Article 4.4.1(b))
+### 4.1 Exclusion 1: Deferred Tax on Excluded Income (Article 4.4.1(b))
 
 Deferred tax relating to income excluded from GloBE Income is excluded from DTAA.
 
@@ -119,9 +111,7 @@ Deferred tax relating to income excluded from GloBE Income is excluded from DTAA
 
 **Rationale:** If the income isn't in GloBE Income, the tax shouldn't be in Covered Taxes.
 
----
-
-### Exclusion 2: Valuation Allowances (Article 4.4.1(c))
+### 4.2 Exclusion 2: Valuation Allowances (Article 4.4.1(c))
 
 Movements in deferred tax arising from valuation adjustments or recognition criteria are excluded.
 
@@ -142,9 +132,7 @@ For GloBE:
   Exclude the €300,000 from DTAA
 ```
 
----
-
-### Exclusion 3: Rate Change Effects (Article 4.4.1(d))
+### 4.3 Exclusion 3: Rate Change Effects (Article 4.4.1(d))
 
 Deferred tax expense arising from changes in domestic tax rates is excluded.
 
@@ -166,9 +154,7 @@ For GloBE:
   Exclude the €80,000 from DTAA
 ```
 
----
-
-### Exclusion 4: Tax Credit Effects (Article 4.4.1(e))
+### 4.4 Exclusion 4: Tax Credit Effects (Article 4.4.1(e))
 
 Deferred tax arising from the generation and use of tax credits is excluded.
 
@@ -181,15 +167,11 @@ Deferred tax arising from the generation and use of tax credits is excluded.
 
 **Important exception:** This exclusion does NOT apply in the Transition Year under Article 9.1—credit-related deferred tax is included in opening balances.
 
----
-
-### Exclusion 5: Uncertain Tax Positions (Article 4.4.1(b))
+### 4.5 Exclusion 5: Uncertain Tax Positions (Article 4.4.1(b))
 
 Deferred tax movements related to UTPs are excluded (consistent with current tax treatment).
 
----
-
-### Exclusion Summary Checklist
+### 4.6 Exclusion Summary Checklist
 
 | Exclusion | Article | Exclude from DTAA? |
 |-----------|---------|-------------------|
@@ -200,15 +182,13 @@ Deferred tax movements related to UTPs are excluded (consistent with current tax
 | Tax credit generation/use | 4.4.1(e) | Yes |
 | UTP-related deferred tax | 4.4.1(b) | Yes |
 
----
+## 5. DTL Recapture Rule (Article 4.4.4)
 
-## Part 4: DTL Recapture Rule (Article 4.4.4)
-
-### The Five-Year Reversal Requirement
+### 5.1 The Five-Year Reversal Requirement
 
 Deferred tax liabilities claimed in Covered Taxes must reverse (i.e., the underlying tax must be paid) within **five fiscal years**. If not, the DTL is **recaptured**.
 
-### How Recapture Works
+### 5.2 How Recapture Works
 
 **Year 1:** DTL of €500,000 included in DTAA (increases Covered Taxes)
 
@@ -216,7 +196,7 @@ Deferred tax liabilities claimed in Covered Taxes must reverse (i.e., the underl
 
 **Recapture:** Year 1 ETR and Top-Up Tax are recomputed excluding the €300,000 DTL
 
-### Tracking Requirement
+### 5.3 Tracking Requirement
 
 MNE Groups must track DTLs by fiscal year of origination and monitor reversal. Two methods are permitted:
 
@@ -225,7 +205,7 @@ MNE Groups must track DTLs by fiscal year of origination and monitor reversal. T
 | **FIFO** | First DTLs in are first to reverse | Homogeneous DTL categories |
 | **LIFO** | Last DTLs in are first to reverse | Default method |
 
-### The Unjustified Balance
+### 5.4 The Unjustified Balance
 
 The recapture amount is determined by the "Unjustified Balance"—the portion of the DTL that has not reversed by the end of the five-year testing period.
 
@@ -239,13 +219,11 @@ Year 6 (end):
   Unjustified Balance:     €250,000 ← Recapture this amount
 ```
 
----
-
-## Part 5: Recapture Exception Accruals (Article 4.4.5)
+## 6. Recapture Exception Accruals (Article 4.4.5)
 
 Certain DTLs are **exempt** from the five-year recapture rule. These "Recapture Exception Accruals" (REAs) do not need tracking.
 
-### Qualifying Categories
+### 6.1 Qualifying Categories
 
 | REA Category | Description |
 |--------------|-------------|
@@ -259,7 +237,7 @@ Certain DTLs are **exempt** from the five-year recapture rule. These "Recapture 
 | **Deferred acquisition costs** | Insurance DAC-related DTLs |
 | **Reinvestment gains** | DTLs on deferred gains from asset reinvestment |
 
-### Practical Benefit
+### 6.2 Practical Benefit
 
 If a DTL falls within an REA category, no tracking is required—the DTL can be included in DTAA without monitoring for reversal.
 
@@ -274,21 +252,19 @@ REA Analysis:
   Intangible DTL: NOT an REA → Track for 5-year recapture
 ```
 
----
+## 7. Unclaimed Accrual Election (Article 4.4.7)
 
-## Part 6: Unclaimed Accrual Election (Article 4.4.7)
-
-### The Election
+### 7.1 The Election
 
 If a DTL is **not expected to reverse** within five years, the entity can elect to treat it as an "Unclaimed Accrual."
 
-### Effect of Election
+### 7.2 Effect of Election
 
 - The DTL is **excluded** from DTAA in the year of origination
 - No recapture tracking is required
 - When the DTL eventually reverses, it is added to DTAA in that year
 
-### When to Use
+### 7.3 When to Use
 
 | Scenario | Election Recommended? |
 |----------|----------------------|
@@ -296,7 +272,7 @@ If a DTL is **not expected to reverse** within five years, the entity can elect 
 | DTL may or may not reverse within 5 years | Consider—avoids recapture risk |
 | DTL expected to be long-term (>5 years) | Yes—prevents recapture complexity |
 
-### Example
+### 3.3 Example
 
 ```
 Year 1: DTL of €600,000 on indefinite-life intangible
@@ -310,15 +286,13 @@ With Unclaimed Accrual election:
   When asset eventually sold (Year 12): Include €600,000 in Year 12 DTAA
 ```
 
----
+## 8. The GloBE Loss Election (Article 4.5)
 
-## Part 7: The GloBE Loss Election (Article 4.5)
-
-### Overview
+### 8.1 Overview
 
 The GloBE Loss Election provides an **alternative** to standard deferred tax accounting. When elected, Article 4.4 rules are replaced by a simplified loss carryforward mechanism.
 
-### When to Consider
+### 8.2 When to Consider
 
 | Situation | GloBE Loss Election Beneficial? |
 |-----------|--------------------------------|
@@ -326,7 +300,7 @@ The GloBE Loss Election provides an **alternative** to standard deferred tax acc
 | High-tax jurisdiction with complex DT | **Maybe**—simplifies but ignores other timing differences |
 | Jurisdiction with EDTS | **No**—election not available |
 
-### How It Works
+### 8.3 How It Works
 
 **Step 1:** Calculate Net GloBE Loss for the jurisdiction
 
@@ -338,7 +312,7 @@ The GloBE Loss Election provides an **alternative** to standard deferred tax acc
 
 **Step 5:** Add usage amount to Covered Taxes (Article 4.1.2(b))
 
-### Worked Example
+### 8.4 Worked Example
 
 ```
 SG Cayman Ltd (0% tax jurisdiction):
@@ -359,7 +333,7 @@ Year 3: GloBE Income €8,000,000
         Remaining GloBE Loss DTA: €2,250,000 − €1,200,000 = €1,050,000
 ```
 
-### Key Trade-Off
+### 8.5 Key Trade-Off
 
 | Aspect | Standard DT (Art. 4.4) | GloBE Loss Election (Art. 4.5) |
 |--------|------------------------|-------------------------------|
@@ -370,23 +344,21 @@ Year 3: GloBE Income €8,000,000
 
 **Warning:** Once elected, all other deferred tax attributes in the jurisdiction are ignored. Only the GloBE Loss DTA is tracked.
 
-### Election Mechanics
+### 8.6 Election Mechanics
 
 - **When:** File with first GIR including the jurisdiction
 - **Scope:** Applies to entire jurisdiction, not individual entities
 - **Revocation:** Permitted, but GloBE Loss DTA balance is reduced to zero
 
----
+## 9. Transition Year Rules (Article 9.1)
 
-## Part 8: Transition Year Rules (Article 9.1)
-
-### Opening Balance Recognition
+### 9.1 Opening Balance Recognition
 
 In the first year the MNE Group is subject to GloBE (the "Transition Year"), existing deferred tax balances are brought into the GloBE system.
 
 **Rule:** Recognise DTAs and DTLs at the **lower of 15% or the domestic rate**
 
-### Loss DTA Recasting
+### 9.2 Loss DTA Recasting
 
 Pre-existing DTAs from losses can be **recast upward** to 15% if:
 1. The DTA arose from losses
@@ -403,22 +375,20 @@ Recast to 15%:
 Increase to DTAA: +€250,000
 ```
 
-### Pre-Transition DTL Treatment
+### 9.3 Pre-Transition DTL Treatment
 
 DTLs imported into GloBE in the Transition Year are **not subject to the five-year recapture rule**.
 
 **Practical benefit:** No need to track pre-existing DTLs for recapture.
 
-### Excluded Items
+### 9.4 Excluded Items
 
 The following cannot be brought into the GloBE system:
 - DTAs arising from excluded income transactions after 30 November 2021
 - DTAs from government tax benefits created after 30 November 2021
 - Basis step-ups from intra-group transfers after 30 November 2021
 
----
-
-## Deferred Tax Adjustment Process Flowchart
+## 10. Deferred Tax Adjustment Process Flowchart
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -470,13 +440,11 @@ The following cannot be brought into the GloBE system:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
-
-## Stratos Worked Example: Deferred Tax Adjustments
+## 11. Stratos Worked Example: Deferred Tax Adjustments
 
 **Scenario:** SG Germany GmbH's FY 2025 deferred tax adjustment workpaper
 
-### Starting Data
+### 11.1 Starting Data
 
 | Item | Amount (€) | Rate | Notes |
 |------|------------|------|-------|
@@ -488,7 +456,7 @@ The following cannot be brought into the GloBE system:
 | Rate change impact | (80,000) | — | German rate adjustment |
 | DT on excluded dividend | 50,000 | 30% | Tax on €167K dividend |
 
-### Step-by-Step Calculation
+### 11.2 Step-by-Step Calculation
 
 **Step 1: Starting Point**
 ```
@@ -539,7 +507,7 @@ Recapture:                        €0
 Total DTAA:                       €955,000
 ```
 
-### Summary Workpaper
+### 11.3 Summary Workpaper
 
 | Line | Description | Original | Adjustment | GloBE Value |
 |------|-------------|----------|------------|-------------|
@@ -551,9 +519,7 @@ Total DTAA:                       €955,000
 | 6 | DTL recapture | | €0 | None required |
 | **7** | **Total DTAA** | | | **€955,000** |
 
----
-
-## Total Adjusted Covered Taxes Calculation
+## 12. Total Adjusted Covered Taxes Calculation
 
 Combining Chapter 4.2 (current) and Chapter 4.3 (deferred):
 
@@ -563,7 +529,7 @@ Combining Chapter 4.2 (current) and Chapter 4.3 (deferred):
 | Total Deferred Tax Adjustment (DTAA) | Chapter 4.3 | 955,000 |
 | **Total Adjusted Covered Taxes** | | **12,250,000** |
 
-### ETR Calculation Preview
+### 12.1 ETR Calculation Preview
 
 ```
 GloBE Income (from Part 3, adjusted for QRTC): €53,880,000
@@ -574,9 +540,7 @@ Jurisdictional ETR = €12,250,000 ÷ €53,880,000 = 22.7%
 Since 22.7% > 15%, no Top-Up Tax for Germany.
 ```
 
----
-
-## DTL Recapture Tracking Template
+## 13. DTL Recapture Tracking Template
 
 For non-REA DTLs, maintain a tracking schedule:
 
@@ -587,75 +551,12 @@ For non-REA DTLs, maintain a tracking schedule:
 
 Update annually with actual reversals. If balance remains at Y5 end, calculate Unjustified Balance for recapture.
 
----
+## 14. Common Pitfalls
 
-## Common Pitfalls and Solutions
-
-### Pitfall 1: Forgetting Rate Cap on High-Tax Jurisdictions
+### 14.1 Pitfall 1: Forgetting Rate Cap on High-Tax Jurisdictions
 
 **Issue:** Including DTAs/DTLs at domestic rates above 15%
 
 **Impact:** Overstates DTAA and Covered Taxes
 
 **Solution:** Always recast to MIN(15%, domestic rate)
-
----
-
-### Pitfall 2: Including Valuation Allowance Movements
-
-**Issue:** Including VA write-downs in DTAA
-
-**Impact:** Understates Covered Taxes (VA reduces DTA, which reduces DTAA)
-
-**Solution:** Identify and exclude all VA movements from DTAA calculation
-
----
-
-### Pitfall 3: Not Tracking Non-REA DTLs
-
-**Issue:** Assuming all DTLs are exempt from recapture
-
-**Impact:** Potential recapture surprise in Year 6
-
-**Solution:** Classify each DTL as REA or non-REA; track non-REAs
-
----
-
-### Pitfall 4: Using Accounting DT for GloBE Loss Election Jurisdictions
-
-**Issue:** Including accounting deferred tax in jurisdictions where GloBE Loss Election was made
-
-**Impact:** Double-counting or incorrect DTAA
-
-**Solution:** If GloBE Loss Election made, ignore all accounting DT—only use GloBE Loss DTA
-
----
-
-## Key References
-
-- Article 4.4.1 — Total Deferred Tax Adjustment Amount; 15% rate cap
-- Article 4.4.1(b)-(e) — Exclusions from DTAA
-- Article 4.4.3 — Loss DTA recasting at 15%
-- Article 4.4.4 — DTL five-year recapture rule
-- Article 4.4.5 — Recapture Exception Accruals
-- Article 4.4.7 — Unclaimed Accrual election
-- Article 4.5 — GloBE Loss Election
-- Article 9.1 — Transition Year deferred tax rules
-- June 2024 Administrative Guidance — DTL recapture clarifications, FIFO/LIFO methods
-
----
-
-## Chapter Summary
-
-Deferred tax adjustments bridge the gap between accounting timing differences and GloBE's focus on actual tax payment. The key implementation steps are:
-
-1. **Start with deferred tax expense** from financial accounts
-2. **Apply the 15% rate cap** (recast high-tax DTAs/DTLs downward)
-3. **Consider loss DTA recasting** at 15% for low-tax jurisdictions
-4. **Exclude non-GloBE items** (valuation allowances, rate changes, credits, excluded income)
-5. **Classify DTLs** as REA (no tracking) or non-REA (track for 5-year recapture)
-6. **Elect Unclaimed Accrual** for long-term DTLs not expected to reverse
-7. **Consider GloBE Loss Election** for zero/low-tax jurisdictions with losses
-8. **Apply transition rules** in first year under GloBE
-
-The resulting DTAA combines with current tax adjustments (Chapter 4.2) to produce Total Adjusted Covered Taxes for ETR calculation.

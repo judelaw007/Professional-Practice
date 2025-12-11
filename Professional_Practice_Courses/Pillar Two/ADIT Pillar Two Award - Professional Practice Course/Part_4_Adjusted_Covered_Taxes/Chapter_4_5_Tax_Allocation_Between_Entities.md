@@ -4,9 +4,7 @@
 
 After completing this chapter, you will be able to allocate Covered Taxes between Constituent Entities using the Article 4.3 framework, including PE tax allocation, CFC tax push-down with passive income limitation, hybrid entity allocations, and distribution tax reallocation.
 
----
-
-## When Tax Allocation Is Required
+## 1. When Tax Allocation Is Required
 
 Article 4.3 requires tax allocation in five scenarios:
 
@@ -20,18 +18,16 @@ Article 4.3 requires tax allocation in five scenarios:
 
 **Core principle:** Tax follows income. If Income is allocated to Entity B for GloBE purposes, the tax on that income should also be in Entity B's Covered Taxes.
 
----
+## 2. PE Tax Allocation (Article 4.3.2(a)-(b))
 
-## Part 1: PE Tax Allocation (Article 4.3.2(a)-(b))
-
-### The Issue
+### 2.1 The Issue
 
 When a Constituent Entity operates through a foreign PE:
 - The PE is treated as a **separate Constituent Entity** for GloBE
 - The PE's income is included in the PE's jurisdiction
 - But the **Main Entity** may pay tax on the PE income in its home jurisdiction
 
-### The Allocation Mechanism
+### 2.2 The Allocation Mechanism
 
 **Step 1:** Identify the PE's share of the Main Entity's taxable income
 - Extract from corporate tax return workings
@@ -45,13 +41,13 @@ When a Constituent Entity operates through a foreign PE:
 - Remove from Main Entity's Covered Taxes
 - Add to PE's Covered Taxes
 
-### Allocation Formula
+### 2.3 Allocation Formula
 
 ```
 Tax Allocated to PE = Main Entity's Tax × (PE Taxable Income ÷ Total Taxable Income)
 ```
 
-### Worked Example: UK Company with German PE
+### 2.4 Worked Example: UK Company with German PE
 
 ```
 Stratos Holdings plc (UK):
@@ -68,7 +64,7 @@ Result:
   German PE Covered Taxes:       +€2,000,000 (added to any German tax)
 ```
 
-### PE Loss Scenario (Article 4.3.4)
+### 2.5 PE Loss Scenario (Article 4.3.4)
 
 When a PE has a GloBE Loss:
 - The loss may be treated as an expense of the Main Entity (per Article 3.4.5)
@@ -80,17 +76,15 @@ When a PE has a GloBE Loss:
 PE Income × Highest Corporate Rate in PE Jurisdiction
 ```
 
----
+## 3. CFC Tax Push-Down (Article 4.3.2(c))
 
-## Part 2: CFC Tax Push-Down (Article 4.3.2(c))
-
-### The Issue
+### 2.1 The Issue
 
 When a Parent Entity pays CFC tax on a subsidiary's undistributed income:
 - Parent records the CFC tax in its accounts
 - But the income remains in the CFC's jurisdiction for GloBE
 
-### The Three-Step Push-Down
+### 3.2 The Three-Step Push-Down
 
 **Step 1:** Identify CFC tax in Parent's current tax expense
 - UK CFC charge
@@ -106,7 +100,7 @@ When a Parent Entity pays CFC tax on a subsidiary's undistributed income:
 - Add to CFC's Covered Taxes
 - Apply Passive Income Limitation (Article 4.3.3)
 
-### Allocation Diagram
+### 3.3 Allocation Diagram
 
 ```
 BEFORE PUSH-DOWN:
@@ -144,15 +138,13 @@ AFTER PUSH-DOWN:
 └─────────────────────────────────────┘
 ```
 
----
+## 4. Passive Income Limitation (Article 4.3.3)
 
-## Part 3: Passive Income Limitation (Article 4.3.3)
-
-### Why the Limitation Exists
+### 4.1 Why the Limitation Exists
 
 Without a cap, a high-tax parent could push down excessive CFC tax to eliminate all Top-Up Tax in a low-tax subsidiary—defeating the purpose of GloBE.
 
-### The Formula
+### 4.2 The Formula
 
 For **passive income** only, the push-down is limited to the **lesser of:**
 
@@ -165,7 +157,7 @@ Where:
 - **Top-Up Tax %** = 15% − CFC's ETR (before push-down)
 - **Passive Income** = Dividends, interest, royalties, rent, annuities, certain gains
 
-### Step-by-Step Application
+### 4.3 Step-by-Step Application
 
 **Step 1:** Calculate CFC's ETR before any push-down
 ```
@@ -187,7 +179,7 @@ Cap = Top-Up Tax % × Passive Income under CFC regime
 Push-down Amount = MIN(Actual CFC Tax, Cap)
 ```
 
-### Worked Example
+### 2.4 Worked Example
 
 ```
 SG Singapore Pte Ltd:
@@ -214,7 +206,7 @@ Result:
     Still below 15% → Top-Up Tax still applies
 ```
 
-### What Constitutes Passive Income
+### 4.5 What Constitutes Passive Income
 
 | Category | Examples |
 |----------|----------|
@@ -227,11 +219,9 @@ Result:
 
 **Note:** Active business income is NOT subject to the passive income limitation—full push-down is permitted.
 
----
+## 5. Hybrid Entity Allocations (Article 4.3.2(d))
 
-## Part 4: Hybrid Entity Allocations (Article 4.3.2(d))
-
-### Tax Transparent Entity (Owner Taxed)
+### 5.1 Tax Transparent Entity (Owner Taxed)
 
 When the owner is taxed on the hybrid's income:
 - Owner's tax on hybrid income → Push down to hybrid entity
@@ -241,13 +231,13 @@ When the owner is taxed on the hybrid's income:
 2. Allocate to hybrid entity
 3. Apply passive income limitation
 
-### Reverse Hybrid Entity (Entity Taxed)
+### 5.2 Reverse Hybrid Entity (Entity Taxed)
 
 When the entity is taxed but treated as transparent by owner:
 - Tax stays with the entity
 - No push-down required (entity already has the tax)
 
-### Allocation Example
+### 5.3 Allocation Example
 
 ```
 US Parent owns 100% of Luxembourg SCS (hybrid):
@@ -266,19 +256,17 @@ Result:
   US Parent Covered Taxes: -€600,000
 ```
 
----
+## 6. Distribution Tax Allocation (Article 4.3.2(e))
 
-## Part 5: Distribution Tax Allocation (Article 4.3.2(e))
-
-### The Rule
+### 6.1 The Rule
 
 Withholding tax on dividends paid from one CE to another is allocated to the **distributing entity**, not the recipient.
 
-### Rationale
+### 6.2 Rationale
 
 The distribution relates to profits of the distributor. Allocating the withholding tax to the distributor's Covered Taxes ensures the tax is matched with the income.
 
-### Allocation Mechanism
+### 6.3 Allocation Mechanism
 
 ```
 Recipient Entity (receives dividend):
@@ -293,7 +281,7 @@ GloBE Allocation:
   Add €150,000 to Distributor's Covered Taxes
 ```
 
-### Deemed Distributions
+### 6.4 Deemed Distributions
 
 Per Administrative Guidance (AG 2.6), the same rule applies to deemed distributions:
 - If ownership interest is treated as equity for:
@@ -301,7 +289,7 @@ Per Administrative Guidance (AG 2.6), the same rule applies to deemed distributi
   - Financial accounting purposes
 - Then the tax is allocated to the distributing entity
 
-### Impact on ETR
+### 6.5 Impact on ETR
 
 **For Distributor:**
 - Covered Taxes increase
@@ -313,11 +301,9 @@ Per Administrative Guidance (AG 2.6), the same rule applies to deemed distributi
 - But dividend is likely excluded income under Article 3.2.1(b)
 - Net effect: neutral (both numerator and denominator reduced)
 
----
+## 7. Cross-Crediting Systems (June 2024 Guidance)
 
-## Part 6: Cross-Crediting Systems (June 2024 Guidance)
-
-### The Four-Step Formula
+### 7.1 The Four-Step Formula
 
 For jurisdictions with foreign tax credit systems allowing cross-crediting:
 
@@ -333,13 +319,13 @@ For jurisdictions with foreign tax credit systems allowing cross-crediting:
 **Step 4:** Allocate residual tax
 - Push down based on entity-by-entity income shares
 
-### Basket Approach
+### 7.2 Basket Approach
 
 If the jurisdiction uses multiple FTC baskets:
 - Apply the four-step formula separately for each basket
 - Common baskets: General, Passive, GILTI (US)
 
-### GILTI Exception
+### 7.3 GILTI Exception
 
 **Important:** The June 2024 formula does NOT apply to US GILTI.
 
@@ -347,11 +333,9 @@ GILTI uses the temporary allocation rule from February 2023:
 - Allocate GILTI tax based on each CFC's share of tested income
 - Apply passive income limitation separately
 
----
+## 8. Deferred Tax Allocation
 
-## Part 7: Deferred Tax Allocation
-
-### Five-Step Formula (June 2024 Guidance)
+### 8.1 Five-Step Formula (June 2024 Guidance)
 
 For deferred tax push-down to CFCs:
 
@@ -365,7 +349,7 @@ For deferred tax push-down to CFCs:
 
 **Step 5:** Allocate to CFC's Adjusted Covered Taxes
 
-### Five-Year Election (Article 4.3.2)
+### 8.2 Five-Year Election (Article 4.3.2)
 
 An MNE can elect to **exclude** deferred tax allocations for a jurisdiction:
 - Election is made on jurisdictional basis
@@ -374,9 +358,7 @@ An MNE can elect to **exclude** deferred tax allocations for a jurisdiction:
   - The parent/main entity making the allocation
 - Simplifies compliance but may affect ETR adversely
 
----
-
-## Tax Allocation Decision Flowchart
+## 9. Tax Allocation Decision Flowchart
 
 ```
                            START
@@ -412,13 +394,11 @@ An MNE can elect to **exclude** deferred tax allocations for a jurisdiction:
              └───────────┘    └───────────┘
 ```
 
----
-
-## Stratos Worked Example: Multi-Entity Tax Allocation
+## 10. Stratos Worked Example: Multi-Entity Tax Allocation
 
 **Scenario:** Stratos Group has the following tax allocation requirements for FY 2025:
 
-### Entity Structure
+### 10.1 Entity Structure
 
 ```
 Stratos Holdings plc (UK)
@@ -429,7 +409,7 @@ Stratos Holdings plc (UK)
     └── Pays dividend to UK parent
 ```
 
-### Data
+### 10.2 Data
 
 | Item | Amount (€) | Notes |
 |------|------------|-------|
@@ -439,7 +419,7 @@ Stratos Holdings plc (UK)
 | Singapore passive income under CFC | 1,800,000 | IP royalties |
 | Singapore local tax | 150,000 | On €4,000,000 GloBE Income |
 
-### Allocation Calculations
+### 10.3 Allocation Calculations
 
 **1. Belgian PE Allocation (Article 4.3.2(a))**
 
@@ -486,7 +466,7 @@ Allocation:
   Add to SG Ireland Covered Taxes: +€75,000
 ```
 
-### Summary Workpaper
+### 10.4 Summary Workpaper
 
 | Entity | Before Allocation | PE Alloc | CFC Alloc | WHT Alloc | After Allocation |
 |--------|------------------|----------|-----------|-----------|------------------|
@@ -498,11 +478,9 @@ Allocation:
 
 **Note:** Total Covered Taxes remain unchanged—allocation only shifts taxes between jurisdictions.
 
----
+## 11. Tax Allocation Checklist
 
-## Tax Allocation Checklist
-
-### Pre-Allocation
+### 11.1 Pre-Allocation
 
 - [ ] Identify all CFC taxes in parent accounts
 - [ ] Identify all PE income taxed by main entity
@@ -510,7 +488,7 @@ Allocation:
 - [ ] Identify all intra-group dividends with WHT
 - [ ] Extract passive vs. active income breakdown for CFC
 
-### Allocation Steps
+### 11.2 Allocation Steps
 
 - [ ] Calculate PE tax allocation (no limitation applies)
 - [ ] Calculate CFC tax with passive income limitation
@@ -518,113 +496,11 @@ Allocation:
 - [ ] Allocate distribution WHT to distributor
 - [ ] Consider deferred tax allocation (or five-year election)
 
-### Post-Allocation
+### 11.3 Post-Allocation
 
 - [ ] Verify group total Covered Taxes unchanged
 - [ ] Update each entity's Adjusted Covered Taxes
 - [ ] Document allocation methodology
 - [ ] Maintain workpapers for each allocation type
 
----
-
-## Common Pitfalls
-
-### Pitfall 1: Ignoring Passive Income Limitation
-
-**Issue:** Pushing full CFC tax without applying Article 4.3.3 cap
-
-**Impact:** Artificially inflates subsidiary ETR; understates Top-Up Tax
-
-**Solution:** Always calculate and apply limitation for passive income
-
----
-
-### Pitfall 2: Double-Counting Distribution WHT
-
-**Issue:** Leaving WHT in recipient AND adding to distributor
-
-**Impact:** Overstates group Covered Taxes
-
-**Solution:** Must REMOVE from recipient when adding to distributor
-
----
-
-### Pitfall 3: Allocating PE Tax Beyond Cap
-
-**Issue:** In loss recapture scenarios, allocating more than permitted
-
-**Impact:** ETR distortion
-
-**Solution:** Cap at PE Income × Highest Corporate Rate
-
----
-
-### Pitfall 4: Forgetting GILTI Exception
-
-**Issue:** Applying June 2024 four-step formula to GILTI
-
-**Impact:** Incorrect allocation methodology
-
-**Solution:** Use February 2023 temporary rule for GILTI
-
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 4.3.1 — Tax allocation introduction
-- Article 4.3.2(a)-(b) — PE tax allocation
-- Article 4.3.2(c) — CFC tax push-down
-- Article 4.3.2(d) — Hybrid entity allocation
-- Article 4.3.2(e) — Distribution tax allocation
-- Article 4.3.3 — Passive income limitation
-- Article 4.3.4 — PE loss recapture tax allocation
-
-**Administrative Guidance:**
-- June 2024: Four-step cross-crediting formula; five-step deferred tax formula
-- February 2023: GILTI temporary allocation rule
-- AG 2.6: Deemed distributions clarification
-
-**OECD Commentary:**
-- Chapter 4, paragraphs 25-45 — Tax allocation principles and mechanics
-
----
-
-## Summary
-
-Tax allocation ensures Covered Taxes are matched with the income that generated them. The key implementation steps are:
-
-1. **Identify allocation triggers** — PE income, CFC tax, hybrid structures, distributions
-2. **Apply push-down mechanism** — Move tax from entity recording it to entity with income
-3. **Respect passive income limitation** — Cap CFC/hybrid push-down at Top-Up Tax % × Passive Income
-4. **Allocate distribution WHT** — Always to distributor, remove from recipient
-5. **Consider deferred tax allocation** — Apply five-step formula or make five-year election
-6. **Verify zero-sum** — Group total Covered Taxes must remain unchanged
-7. **Document thoroughly** — Maintain workpapers for each allocation type
-
-Proper allocation prevents ETR distortions and ensures Top-Up Tax calculations reflect economic reality.
-
----
-
-## Integration with GIR Tools
-
-The tax allocation calculations from this chapter feed into the ETR computation workflow:
-
-| Tool | Application |
-|------|-------------|
-| **GIR-001 GloBE Calculator** | After completing tax allocations, enter the final Adjusted Covered Taxes into GIR-001 alongside GloBE Income. The tool calculates jurisdictional ETRs that reflect the allocation adjustments. |
-
-**Workflow:**
-
-1. Calculate pre-allocation Covered Taxes per entity (Chapters 4.1-4.4)
-2. Apply tax allocation adjustments from this chapter
-3. Derive post-allocation Adjusted Covered Taxes per jurisdiction
-4. Enter into **GIR-001 GloBE Calculator** for ETR → SBIE → Top-Up Tax calculation
-
-Use **GIR-001 GloBE Calculator** at tools.mojitax.com to verify that your allocation calculations produce the expected jurisdictional ETRs.
-
----
-
-## Next Step
-
-You have learned how to allocate Covered Taxes between Constituent Entities. Proceed to **Chapter 4.6: Post-Filing Adjustments** to understand how adjustments to prior-year Covered Taxes are handled under GloBE's asymmetric treatment rules.
+## 12. Common Pitfalls
