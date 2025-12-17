@@ -4,26 +4,7 @@
 
 After completing this chapter, you will be able to apply the opening balance rules for deferred tax attributes under Article 9.1, calculate SBIE using transition rates under Article 9.2, understand the DTL recapture mechanism and tracking methodologies, and identify key first-year compliance considerations.
 
----
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 9.1 — Transition rules for deferred tax attributes
-- Article 9.1.1 — Opening balance general rule
-- Article 9.1.2 — Exclusions for certain DTAs
-- Article 9.1.3 — Intragroup asset transfers
-- Article 9.2 — SBIE transition rates
-- Article 4.4.4 — DTL recapture rule
-
-**Administrative Guidance:**
-- July 2023: DTL recapture clarifications
-- June 2024: DTL tracking methodologies
-- January 2025: Article 9.1 Grace Period guidance
-
----
-
-## Overview: Why Transition Rules Matter
+## 1. Overview: Why Transition Rules Matter
 
 When an MNE Group first enters the scope of GloBE Rules, special transition rules prevent distortions:
 
@@ -45,11 +26,9 @@ When an MNE Group first enters the scope of GloBE Rules, special transition rule
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
----
+## 2. Article 9.1: Opening Deferred Tax Adjustments
 
-## Article 9.1: Opening Deferred Tax Adjustments
-
-### The Transition Year
+### 2.1 The Transition Year
 
 The **Transition Year** is the first fiscal year that an MNE Group comes within the scope of the GloBE Rules.
 
@@ -59,7 +38,7 @@ The **Transition Year** is the first fiscal year that an MNE Group comes within 
 | MNE crosses €750M threshold in 2025 | FY 2025 |
 | New acquisition joins Group mid-2025 | FY 2025 (for acquired entities) |
 
-### Article 9.1.1: General Transition Rule
+### 2.2 Article 9.1.1: General Transition Rule
 
 At the beginning of the Transition Year, MNE Groups may take into account existing deferred tax attributes:
 
@@ -79,7 +58,7 @@ Deferred Tax Liabilities (DTLs):
 → Measured at LOWER of 15% or domestic rate
 ```
 
-### Measurement Rule: Lower of 15% or Domestic Rate
+### 2.3 Measurement Rule: Lower of 15% or Domestic Rate
 
 | Domestic Rate | Measurement Rate | Impact |
 |---------------|------------------|--------|
@@ -88,7 +67,7 @@ Deferred Tax Liabilities (DTLs):
 | 12.5% (Ireland) | **12.5%** | Full amount (rate already ≤15%) |
 | 9% (Hungary) | **9%** | Full amount (rate already ≤15%) |
 
-### Example: Opening DTA Adjustment
+### 2.4 Example: Opening DTA Adjustment
 
 **Scenario:** German entity has €1,000,000 DTA at 30% domestic rate (FY 2024 Transition Year).
 
@@ -103,7 +82,7 @@ Result: Only €500,000 DTA usable for GloBE purposes
         (€500,000 reduction from accounting DTA)
 ```
 
-### Article 9.1.2: Excluded DTAs
+### 2.5 Article 9.1.2: Excluded DTAs
 
 Certain DTAs are **excluded** from the transition rule if they arise from:
 
@@ -115,7 +94,7 @@ Certain DTAs are **excluded** from the transition rule if they arise from:
 
 **Purpose:** Prevents MNEs from engineering DTAs to shelter future GloBE income.
 
-### Article 9.1.3: Intragroup Asset Transfers
+### 2.6 Article 9.1.3: Intragroup Asset Transfers
 
 For assets transferred between Constituent Entities **after 30 November 2021** but **before the Transition Year**:
 
@@ -146,9 +125,7 @@ During the Grace Period, affected deferred tax expenses can be included in:
 - Total Deferred Tax Adjustment Amount (Article 4.4), OR
 - Simplified Covered Taxes (Transitional CbCR Safe Harbour)
 
----
-
-## Article 9.2: SBIE Transition Rates
+## 3. Article 9.2: SBIE Transition Rates
 
 ### 10-Year Phase-In Period
 
@@ -193,9 +170,7 @@ MNEs with significant substance should:
 - Track payroll and asset data rigorously
 - Model future Top-Up Tax exposure as rates decline
 
----
-
-## DTL Recapture Rules (Article 4.4.4)
+## 4. DTL Recapture Rules (Article 4.4.4)
 
 ### The 5-Year Recapture Mechanism
 
@@ -250,7 +225,7 @@ Certain DTLs are **exempt** from the recapture rule:
 
 These DTLs are expected to reverse over extended periods and are excluded from recapture.
 
-### DTL Tracking Methodologies
+### 3.3 DTL Tracking Methodologies
 
 The June 2024 Administrative Guidance provides three tracking approaches:
 
@@ -271,11 +246,9 @@ For DTL reversals, MNEs may use:
 
 **Choice depends on:** DTL characteristics and administrative preference.
 
----
+## 5. Stratos Worked Example: Transition Year Adjustments
 
-## Stratos Worked Example: Transition Year Adjustments
-
-### Background
+### 5.1 Background
 
 Stratos Holdings plc enters GloBE scope in FY 2024 (Transition Year). Analyse transition adjustments for Irish operations.
 
@@ -355,9 +328,7 @@ Reduction: €1,500,000 - €750,000 = €750,000 (50% reduction)
 
 **Impact:** German loss DTA is halved for GloBE purposes due to rate cap.
 
----
-
-## First-Year Compliance Considerations
+## 6. First-Year Compliance Considerations
 
 ### Transition Year Checklist
 
@@ -438,9 +409,7 @@ SECTION D: DOCUMENTATION
 □ SBIE data collection process established?             YES / NO
 ```
 
----
-
-## Common Pitfalls
+## 7. Common Pitfalls
 
 ### Pitfall 1: Ignoring the 15% Measurement Cap
 
@@ -482,53 +451,3 @@ SECTION D: DOCUMENTATION
 
 **Correct approach:** Review January 2025 guidance; identify qualifying arrangements and apply Grace Period rules.
 
----
-
-## Summary
-
-Transition year adjustments are critical for accurate GloBE calculations:
-
-| Rule | Key Points |
-|------|------------|
-| **Article 9.1.1** | Opening DTAs/DTLs measured at lower of 15% or domestic rate |
-| **Article 9.1.2** | Exclude DTAs from post-30 Nov 2021 transactions and certain government benefits |
-| **Article 9.1.3** | Intragroup transfers after 30 Nov 2021 use transferor's basis |
-| **Article 9.2** | SBIE rates phase down: 10%/8% (2024) → 5%/5% (2033+) |
-| **Article 4.4.4** | DTLs subject to 5-year recapture (with exceptions) |
-| **Grace Period** | 2-3 years for certain pre-existing arrangements |
-
-**Key actions in Transition Year:**
-1. Document opening deferred tax balances
-2. Apply 15% measurement cap where applicable
-3. Establish DTL tracking system
-4. Use correct SBIE transition rates
-5. Review Grace Period eligibility
-
----
-
-## Integration with GIR Tools
-
-Transition year adjustments feed directly into GIR-001:
-
-| Adjustment | GIR-001 Input |
-|------------|---------------|
-| Opening DTAs | Adjusted Covered Taxes (increase) |
-| Opening DTLs | Adjusted Covered Taxes (decrease) |
-| SBIE transition rates | Step 2 rate inputs |
-| DTL recapture | Future year adjustment |
-
-**Workflow:**
-```
-Step 1: Prepare opening balance reconciliation
-Step 2: Apply Article 9.1 adjustments
-Step 3: Input adjusted figures into GIR-001
-Step 4: Apply correct SBIE transition rates
-Step 5: Establish DTL tracking for recapture monitoring
-Step 6: Document in GIR filing
-```
-
----
-
-## Next Step
-
-You have learned how to apply transition year adjustments for accurate GloBE calculations. Proceed to **Chapter 7.6: Ongoing Compliance Process** for guidance on establishing sustainable Pillar Two compliance processes.
