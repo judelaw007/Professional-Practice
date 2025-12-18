@@ -4,6 +4,10 @@
 
 After completing this chapter, you will be able to determine whether any Constituent Entities qualify as Excluded Entities under the GloBE Rules and document these exclusions appropriately.
 
+## Introduction
+
+Not every entity in a consolidated group was intended to be drawn into the Pillar Two net. The GloBE Rules carve out specific categories of entities whose exclusion reflects deliberate policy judgments about the appropriate scope of the global minimum tax. These exclusions recognise that certain entities—governments, international organisations, charities, pension funds, and certain investment vehicles—serve purposes that transcend ordinary commercial profit-seeking and warrant different treatment. Understanding these exclusions requires more than memorising categories; it requires appreciating why policymakers chose to draw these particular lines and how the exclusion tests implement those policy objectives.
+
 ## 1. Why Excluded Entities Matter
 
 Certain entities are excluded from GloBE calculations even though they may technically be Constituent Entities. Identifying these exclusions correctly is essential because:
@@ -13,6 +17,8 @@ Certain entities are excluded from GloBE calculations even though they may techn
 - Misclassification can lead to incorrect Top-Up Tax calculations
 
 The five categories of Excluded Entities are defined in **Article 1.5** of the GloBE Model Rules.
+
+The consequences of misclassification flow in both directions. Incorrectly treating an entity as excluded when it is not removes its income from the ETR calculation—potentially understating the jurisdiction's effective rate and triggering unwarranted Top-Up Tax. Conversely, failing to identify a valid exclusion brings the entity's income (often tax-exempt by design) into GloBE calculations, artificially depressing the jurisdictional ETR and potentially creating Top-Up Tax liability where none should exist. Either error distorts the intended operation of the rules and invites adjustment upon audit.
 
 ## 2. The Five Excluded Entity Categories
 
@@ -28,6 +34,8 @@ A **Governmental Entity** is excluded if it is *(Article 1.5.1(a))*:
 
 - If **yes** (trading/investing) → NOT an Excluded Entity
 - If **no** (government functions only) → Excluded Entity
+
+The governmental entity exclusion reflects a fundamental principle of international tax: sovereigns do not tax each other. When a government entity performs public functions, subjecting it to the global minimum tax would effectively allow one jurisdiction's revenue claim to override another's sovereign activities. However, this deference to sovereignty has limits—when governments enter commercial markets, competing alongside private businesses, the rationale for exclusion falls away. A state-owned enterprise operating commercially should face the same minimum tax rules as its private competitors, ensuring a level playing field.
 
 ### 2.2 Category 2: International Organisations
 
@@ -55,6 +63,8 @@ A **Non-Profit Organisation (NPO)** is excluded if it *(Article 1.5.1(c))*:
 
 **All five conditions must be met** for NPO exclusion.
 
+The stringency of the NPO test reflects hard-won lessons from decades of tax abuse through purported charities. Legitimate non-profits serve vital social functions and enjoy tax exemption precisely because their activities generate public benefit rather than private wealth. But the NPO form has also been exploited to shelter commercial profits from taxation. The five-part test acts as a robust filter: only entities that genuinely operate for charitable purposes, with income that cannot enrich private parties, qualify for exclusion. Groups with charitable foundations should document compliance with each criterion carefully, as the burden falls on the taxpayer to establish exclusion eligibility.
+
 ### 2.4 Category 4: Pension Funds
 
 A **Pension Fund** is excluded if it is *(Article 1.5.1(d))*:
@@ -66,6 +76,8 @@ A **Pension Fund** is excluded if it is *(Article 1.5.1(d))*:
    - Taxation is deferred until benefits are paid
 
 **Pension Services Entity:** An entity established exclusively to invest assets for, or provide services to, pension funds that are members of the same group is also excluded.
+
+The pension fund exclusion recognises the unique social policy role that retirement savings vehicles play. Pension funds accumulate and invest capital over decades to provide retirement security for millions of workers—a function most governments actively encourage through tax incentives. Subjecting pension fund investment income to the global minimum tax would undermine these policy objectives, potentially reducing retirement benefits or discouraging pension saving. The exclusion extends to "pension services entities" because modern pension arrangements often involve subsidiary vehicles for regulatory, liability, or investment management reasons; excluding the main fund while taxing its service entities would frustrate the exclusion's purpose.
 
 ### 2.5 Category 5: Investment Funds (UPE Only)
 
@@ -91,6 +103,8 @@ At least **80% of the value** of ownership interests in the fund must be held by
 **Timeline:** The test is assessed at the end of the fiscal year, looking at ownership throughout the year.
 
 **Failure consequence:** If the 80% test is failed, the Investment Fund loses excluded status, and the entire group becomes subject to GloBE calculations.
+
+The investment fund exclusion is the most narrowly drawn of the five categories, available only where the fund sits at the very top of the structure. This limitation reflects the anti-avoidance concern that without it, any MNE could interpose an "investment fund" subsidiary to shelter profits from the minimum tax. By restricting exclusion to UPE-level funds—which typically have genuine, unrelated investors—the rules target authentic investment vehicles while preventing abuse. The 80% ownership test adds a further safeguard: a fund controlled by connected parties or tax-exempt investors who gain no benefit from the fund's tax status cannot claim exclusion. These layered requirements make investment fund exclusion genuinely difficult to achieve, as intended.
 
 ## 4. Decision Flowchart: Is This Entity Excluded?
 
@@ -261,6 +275,8 @@ The 80% ownership test requires identifying all investors and their tax status. 
 - Calculate percentage by value (not number) of investors meeting the test
 - Document instances where investor status cannot be determined
 
+These challenges illustrate a broader truth about excluded entity assessment: the tests are deliberately rigorous because exclusion carries significant consequences. An excluded entity's income entirely escapes GloBE—unlike the de minimis exclusion or substance-based carve-outs discussed in later chapters, which merely reduce the base subject to Top-Up Tax. This "all or nothing" character means tax authorities have strong incentives to challenge claimed exclusions, and groups should approach the analysis with corresponding thoroughness. When exclusion status is uncertain, erring on the side of including the entity in GloBE calculations—while documenting the analysis—may be the prudent approach.
+
 ## 8. Excluded Entity Register
 
 Maintain an Excluded Entity Register as a supplement to your CE register:
@@ -277,3 +293,5 @@ Maintain an Excluded Entity Register as a supplement to your CE register:
 | Assessor | Name of person completing assessment |
 
 **Review frequency:** Annual review at fiscal year-end, plus upon any change in entity status, activities, or ownership.
+
+The excluded entity analysis completes the scope determination phase. At this point, you should have a clear picture of which entities fall within the GloBE perimeter: starting with all Constituent Entities identified in Chapter 1.2, less any Excluded Entities identified here. These remaining entities—often numbering in the dozens or hundreds for large multinationals—form the population for all subsequent GloBE calculations: their income becomes GloBE Income, their taxes become Covered Taxes, and their jurisdiction-by-jurisdiction ETRs determine Top-Up Tax liability. The rigour applied at this foundational stage pays compound dividends throughout the compliance process; errors here propagate through every subsequent calculation and are far easier to correct now than after returns have been filed.
