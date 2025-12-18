@@ -4,6 +4,10 @@
 
 After completing this chapter, you will be able to apply the correct sequence of GloBE rules, determine which rule collects Top-Up Tax in any given scenario, and coordinate multiple rules to avoid double taxation.
 
+## Introduction
+
+The GloBE framework's three charging mechanisms—QDMTT, IIR, and UTPR—do not operate in isolation. Understanding their interaction is as important as understanding each rule individually, because applying them in the wrong order or failing to coordinate offsets leads to either under-collection or double taxation. The ordering rules represent a carefully negotiated compromise among the 140+ jurisdictions in the Inclusive Framework, balancing source countries' desire to retain taxing rights, parent countries' claims to include subsidiary income, and the need for a backstop that ensures no low-taxed profit escapes entirely. This chapter maps the complete interaction framework.
+
 ## 1. The Three-Layer Rule Order
 
 The GloBE framework operates through a strict priority sequence. Understanding this order is essential—applying rules out of sequence leads to incorrect calculations.
@@ -17,6 +21,8 @@ The GloBE framework operates through a strict priority sequence. Understanding t
 | **3rd** | UTPR | Other group jurisdictions | Article 2.4–2.6 |
 
 **Key principle:** Each rule only applies to the **residual** Top-Up Tax not collected by higher-priority rules.
+
+The priority sequence reflects both economic logic and political reality. QDMTT's first position honours the principle that source jurisdictions should have the first opportunity to tax income arising within their borders—even if that income was previously undertaxed due to domestic incentive regimes. This design also creates a powerful incentive for low-tax jurisdictions to implement their own QDMTT: by doing so, they capture the Top-Up Tax revenue rather than ceding it to parent jurisdictions via IIR or to other jurisdictions via UTPR. The IIR's second position reflects the parent's control over its subsidiaries, while UTPR's backstop role ensures comprehensive coverage even when the first two rules cannot fully collect.
 
 ## 2. Master Flowchart: Which Rule Applies?
 
@@ -126,6 +132,8 @@ Residual Top-Up Tax = Jurisdictional Top-Up Tax − QDMTT Paid
 | **Residual for IIR/UTPR** | **€0** |
 
 The QDMTT fully covers the Top-Up Tax. No IIR or UTPR applies to this jurisdiction.
+
+QDMTT represents a strategic response by low-tax jurisdictions to the Pillar Two framework. Rather than lose the undertaxed profits to Top-Up Tax collected elsewhere, a jurisdiction can implement a QDMTT that brings its effective rate up to 15% and keeps the revenue domestically. Ireland's adoption of a QDMTT, for instance, means that the Top-Up Tax on Irish entities' previously undertaxed profits flows to the Irish exchequer rather than to parent jurisdictions like the UK or Netherlands. From an MNE perspective, the total tax paid is the same regardless of whether it flows through QDMTT, IIR, or UTPR—but the administrative pathway and the recipient jurisdiction differ significantly.
 
 ## 4. Layer 2: IIR (Second Priority)
 
@@ -332,6 +340,8 @@ The SOR is most relevant when:
 
 **Note:** Many jurisdictions implementing Pillar Two have adopted the SOR as part of their domestic IIR legislation to ensure comprehensive coverage.
 
+The Switch-Over Rule addresses a technical conflict between tax treaties and Pillar Two's objectives. Many older tax treaties commit the residence country to exempt foreign PE income, preventing double taxation through the exemption method rather than the credit method. Without the SOR, these treaty obligations would block the IIR from applying to low-taxed PE income—creating a gap in coverage. The SOR effectively overrides the treaty's exemption requirement in Pillar Two contexts, switching to credit relief instead. This allows the residence jurisdiction to include the PE income and apply IIR, while still crediting any foreign tax actually paid. The SOR thus harmonises treaty obligations with minimum tax objectives, though its application requires careful attention to the specific treaties in question.
+
 ## 10. Coordination Mechanisms: Preventing Double Taxation
 
 ### 10.1 Mechanism 1: QDMTT Offset
@@ -396,3 +406,5 @@ Even when IIR applies, split ownership means UTPR may still apply for the minori
 ### 12.5 Pitfall 5: Assuming UTPR Never Applies
 
 Many assume UTPR is rare. While less common than IIR, UTPR applies in all split-ownership scenarios where minority interests exist.
+
+The ordering rules transform what could be a chaotic multi-jurisdictional grab for taxing rights into an orderly, predictable system. Each layer builds on the previous: QDMTT satisfies the source jurisdiction's claim, IIR satisfies the parent jurisdiction's claim on the residual, and UTPR catches anything remaining. The coordination mechanisms ensure that no single euro of low-taxed profit bears Top-Up Tax twice. This elegance comes at the cost of complexity—calculating the correct amounts requires knowing which jurisdictions have implemented which rules, the ownership percentages at each level, and the sequencing of multiple offset calculations. But the alternative—uncoordinated competing claims—would be far worse for both tax authorities and MNE groups.
