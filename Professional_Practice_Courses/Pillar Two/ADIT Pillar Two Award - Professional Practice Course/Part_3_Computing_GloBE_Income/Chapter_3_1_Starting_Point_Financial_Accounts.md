@@ -4,6 +4,10 @@
 
 After completing this chapter, you will be able to identify the correct financial accounts to use as the starting point for GloBE Income calculations and navigate the hierarchy of accounting standard options.
 
+## Introduction
+
+The GloBE Rules' decision to anchor calculations in financial accounting rather than tax accounting represents one of the framework's most significant design choices. This approach reflects a pragmatic recognition: financial accounts are prepared consistently across jurisdictions using comparable standards, audited for reliability, and already available—whereas tax computations vary dramatically by country, use different bases, and would require harmonisation efforts beyond the scope of Pillar Two. By starting with Financial Accounting Net Income, the GloBE framework leverages decades of accounting standard convergence while making targeted adjustments for items where book treatment diverges from tax policy objectives.
+
 ## 1. The Starting Point: Financial Accounting Net Income or Loss
 
 GloBE Income or Loss begins with **Financial Accounting Net Income or Loss** *(Article 3.1.1)*. This is the "below the line" net income or loss of the Constituent Entity—the figure after tax expense in the financial accounts.
@@ -15,6 +19,8 @@ GloBE Income or Loss begins with **Financial Accounting Net Income or Loss** *(A
 | Use consolidated P&L for GloBE Income | Use each CE's individual P&L before consolidation eliminations |
 | Group adjustments don't matter | Each CE's accounts must be evaluated separately |
 | Errors that net to zero at group level are fine | Entity-level errors affect that jurisdiction's ETR |
+
+The use of entity-level rather than consolidated accounts may seem counterintuitive—after all, the revenue threshold test and other scoping rules focus on consolidated figures. But this entity-level approach is essential to the GloBE framework's goal of measuring effective taxation jurisdiction by jurisdiction. Consolidated accounts eliminate intercompany transactions and present the group as if it were a single entity; such elimination would obscure the profit actually earned in each jurisdiction. By using pre-elimination figures, Pillar Two ensures that arm's-length intercompany transactions—properly priced and taxed locally—are captured in each jurisdiction's GloBE Income.
 
 ## 2. Article 3.1 Hierarchy
 
@@ -38,6 +44,8 @@ The GloBE Rules establish a hierarchy for determining which financial accounts t
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+This hierarchy reflects a tension in the GloBE framework's design: the desire for consistency (using one standard across all entities) versus pragmatism (not forcing costly conversions for every subsidiary). The primary rule—using the UPE's accounting standard throughout—ensures that profit recognition, expense timing, and valuation methods are comparable across the group, making jurisdictional ETRs genuinely comparable. But the alternative rule recognises that full accounting standard conversion is expensive and time-consuming; for newly acquired entities or those in jurisdictions with different statutory requirements, forcing immediate conversion would impose costs disproportionate to the benefit.
 
 ## 3. Step 1: Identify the UPE's Accounting Standard
 
@@ -86,6 +94,8 @@ For each Constituent Entity, use the **net income or loss determined in preparin
 | **Correct:** Use pre-elimination accounts | €5M included in German GloBE Income; €5M cost in French GloBE Income |
 
 **Result:** Each entity's GloBE Income reflects the arm's-length intra-group transaction.
+
+The preservation of intra-group transactions in GloBE Income has profound implications for transfer pricing. If intercompany prices are set artificially—too high or too low—the resulting profit allocation will flow directly into jurisdictional ETRs. An inflated charge from a low-tax entity to a high-tax entity shifts profit to the low-tax jurisdiction; that shifted profit becomes GloBE Income in the recipient jurisdiction and may trigger Top-Up Tax. This creates a natural alignment between Pillar Two and transfer pricing compliance: groups with arm's-length pricing will see their GloBE Income appropriately distributed, while those with aggressive positions face potential Top-Up Tax on inappropriately shifted profits.
 
 ## 5. Step 3: Apply the Alternative Standard Exception (If Needed)
 
@@ -192,6 +202,8 @@ When using an Authorised (but not Acceptable) standard, check whether applicatio
 | No Material Competitive Distortion | ≤€75M aggregate variance | No adjustment required |
 
 **Note:** The €75M threshold applies at the MNE Group level, not per entity.
+
+The distinction between "Acceptable" and "Authorised" standards reflects the reality of global accounting convergence—or its absence. IFRS and US GAAP have been refined through decades of standard-setter dialogue to produce comparable economic representations. Other national standards, while perfectly legitimate for their intended purposes, may produce materially different income figures due to different principles for revenue recognition, asset valuation, or expense timing. The €75 million threshold for Material Competitive Distortion is set high enough to avoid burdening groups with immaterial differences, but low enough to catch cases where an authorised standard could meaningfully distort GloBE calculations.
 
 ## 7. Decision Tree: Which Financial Accounts to Use
 
@@ -392,4 +404,6 @@ For TechStart Ltd, Stratos must document why the Article 3.1.3 exception applies
 **Wrong:** Using an Authorised standard without checking for the €75M distortion threshold.
 
 **Correct:** Comparing key principles to IFRS and quantifying any aggregate variance.
+
+Establishing the correct financial account starting point may seem like a preliminary administrative step, but it fundamentally shapes all subsequent GloBE calculations. An error at this stage—using the wrong accounts, applying incorrect eliminations, or failing to adjust permanent differences—propagates through the entire ETR computation. For groups with complex structures, the interplay between consolidation reporting, statutory accounts, and GloBE requirements demands careful coordination between group accounting, local finance teams, and tax departments. Investing time to establish clear processes and documentation at this foundational stage pays dividends in accuracy and audit-readiness throughout the GloBE compliance cycle.
 
