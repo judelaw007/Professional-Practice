@@ -4,6 +4,7 @@
 
 After completing this chapter, you will be able to identify payments subject to the Subject to Tax Rule (STTR), calculate the adjusted nominal tax rate and STTR specified rate, apply the mark-up proxy to exclude low-risk transactions, and understand how STTR interacts with existing tax treaties and the GloBE Rules.
 
+```
 ┌─────────────────────────────────────────────────────────────────────┐
 │ PILLAR TWO: TWO COMPLEMENTARY MECHANISMS                            │
 │                                                                     │
@@ -30,13 +31,13 @@ The STTR addresses a specific concern of **developing countries**:
 
 | Concern | STTR Response |
 |---------|---------------|
-| Developing countries often serve as **source** jurisdictions for payments | STTR grants source countries the right to "tax back" undertaxed payments |
+| Developing countries often serve as **source** jurisdictions | STTR grants source countries the right to "tax back" undertaxed payments |
 | Existing treaties may limit withholding tax rates | STTR overrides treaty limits for covered payments |
 | GloBE Rules primarily benefit **residence** jurisdictions (via IIR) | STTR ensures source countries capture some minimum tax |
 
-## STTR Scope: Covered Income
+## 1. STTR Scope: Covered Income
 
-### What Payments Are Covered?
+### 1.1 What Payments Are Covered?
 
 The STTR applies to specific categories of **intra-group payments** when paid to connected persons in a jurisdiction with a nominal tax rate below 9%.
 
@@ -80,7 +81,7 @@ STTR COVERED INCOME TYPES
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Connected Persons Definition
+### 1.2 Connected Persons Definition
 
 The STTR applies only to payments between **connected persons**:
 
@@ -104,9 +105,9 @@ Result: SG Ireland and SG Luxembourg are CONNECTED PERSONS
         → Royalty payment is within STTR scope
 ```
 
-## The 9% Nominal Rate Threshold
+## 2. The 9% Nominal Rate Threshold
 
-### Adjusted Nominal Rate
+### 2.1 Adjusted Nominal Rate
 
 The STTR applies when the **adjusted nominal tax rate** in the recipient jurisdiction is below **9%**.
 
@@ -130,7 +131,7 @@ Step 4: Compare to 9% THRESHOLD
         → If ≥ 9%: STTR does not apply
 ```
 
-### Examples of Adjusted Nominal Rates
+### 2.2 Examples of Adjusted Nominal Rates
 
 | Jurisdiction | Statutory Rate | Preferential Regime | Adjusted Nominal Rate | STTR Applies? |
 |--------------|----------------|--------------------|-----------------------|---------------|
@@ -141,7 +142,7 @@ Step 4: Compare to 9% THRESHOLD
 | Switzerland | 14% | Patent box (90% relief) | **1.4%** | **Yes** |
 | UK | 25% | Patent box (10% rate) | **10%** | No |
 
-### Preferential Adjustments
+### 2.3 Preferential Adjustments
 
 The adjusted nominal rate accounts for **preferential adjustments** that permanently reduce the tax base:
 
@@ -154,11 +155,11 @@ The adjusted nominal rate accounts for **preferential adjustments** that permane
 | **Notional interest deduction** | Preferential adjustment |
 | **Tax holidays** | Apply 0% rate for holiday period |
 
-## STTR Specified Rate Calculation
+## 3. STTR Specified Rate Calculation
 
 When the STTR applies, the **source country** may impose additional tax up to the **specified rate**.
 
-### Formula
+### 3.1 Formula
 
 ```
 STTR SPECIFIED RATE = 9% − Adjusted Nominal Rate − Existing Treaty WHT Rate
@@ -169,7 +170,7 @@ Where:
 • Existing Treaty WHT = Withholding tax rate permitted under other treaty articles
 ```
 
-### Worked Example: Royalty Payment
+### 3.2 Worked Example: Royalty Payment
 
 **Scenario:** SG Germany GmbH (source) pays €5 million royalties to SG Singapore Pte Ltd (recipient).
 
@@ -185,7 +186,7 @@ Where:
 | Royalty payment | €5,000,000 |
 | **STTR tax (Germany collects)** | €5,000,000 × 9% = **€450,000** |
 
-### Worked Example: Interest Payment with Existing WHT
+### 3.3 Worked Example: Interest Payment with Existing WHT
 
 **Scenario:** SG Ireland Ltd (source) pays €2 million interest to a Luxembourg financing entity.
 
@@ -201,36 +202,11 @@ Where:
 | Interest payment | €2,000,000 |
 | **STTR tax (Ireland collects)** | €2,000,000 × 9% = **€180,000** |
 
-### Interaction with Existing WHT
+### 3.4 Interaction with Existing WHT
 
-If the existing treaty already permits withholding tax, the STTR **tops up** to 9%:
+If the existing treaty already permits withholding tax, the STTR **tops up** to ensure a combined 9% minimum rate.
 
 **Example:** Source country treaty permits 5% WHT on royalties; recipient nominal rate is 2%.
-
-```
-STTR specified rate = 9% − 2% − 5% = 2%
-
-Result: Source country can impose:
-• 5% under existing treaty Article
-• 2% additional under STTR
-• Total: 7% (not 9%, because treaty already permits 5%)
-
-Wait — let's recalculate:
-The STTR allows collection of the DIFFERENCE between 9% and the sum of:
-- Adjusted nominal rate (2%)
-- Existing WHT under treaty (5%)
-
-STTR specified rate = 9% − 2% − 5% = 2%
-
-Source country total collection:
-• 5% (existing treaty) + 2% (STTR) = 7%
-
-Note: If treaty already permits 5% WHT, total tax is 5% + 2% = 7%
-      This is because the payment is subject to 5% + 2% = 7% total
-      The remaining 2% is subject to nominal rate (2%), so total = 9%
-```
-
-Actually, let me clarify the STTR mechanism more precisely:
 
 ```
 STTR COLLECTION MECHANISM
@@ -238,33 +214,35 @@ STTR COLLECTION MECHANISM
 The STTR specified rate represents the ADDITIONAL tax the source
 country may impose BEYOND what it can already collect under the treaty.
 
-If:
+Given:
 • Adjusted nominal rate in recipient = 2%
 • Existing treaty WHT permitted = 5%
 • Combined: 2% + 5% = 7%
 
-STTR allows source country to top up to 9%:
+STTR calculation:
 • STTR specified rate = 9% − 2% − 5% = 2%
 
 Source country collects:
-• 5% under treaty + 2% under STTR = 7%
+• 5% under existing treaty + 2% under STTR = 7% total
 
-Recipient bears:
-• 2% domestic tax + 7% source WHT = 9% total
+Total tax on payment:
+• 2% domestic tax (recipient jurisdiction)
+• 7% withholding tax (source jurisdiction)
+• Combined: 9% minimum achieved
 
 The 9% minimum is achieved through combination of:
-1. Recipient jurisdiction tax
-2. Source jurisdiction WHT under treaty
-3. Source jurisdiction STTR top-up
+1. Recipient jurisdiction tax (adjusted nominal rate)
+2. Source jurisdiction WHT under existing treaty
+3. Source jurisdiction STTR top-up (if needed)
 ```
 
-## Mark-up Proxy: Substantial Activities Test
+## 4. Mark-up Proxy: Substantial Activities Test
 
-### Purpose
+### 4.1 Purpose
 
 The **mark-up threshold** excludes low-margin payments from the STTR, serving as a proxy for **substantial activities**. If the recipient earns only a modest return, the BEPS risk is considered limited.
 
-### Application
+### 4.2 Application
 
 ```
 MARK-UP THRESHOLD
@@ -278,7 +256,7 @@ If YES: Mark-up exceeds threshold → STTR may apply
 If NO:  Mark-up within threshold → STTR does NOT apply
 ```
 
-### Calculation
+### 4.3 Calculation
 
 ```
 MARK-UP THRESHOLD CALCULATION
@@ -299,7 +277,7 @@ Step 4: Apply TEST
         → If Gross Income ≤ Threshold: STTR does not apply
 ```
 
-### Worked Example: Service Fee
+### 4.4 Worked Example: Service Fee
 
 **Scenario:** SG Singapore Pte Ltd provides management services to SG Ireland Ltd.
 
@@ -317,7 +295,7 @@ Step 4: Apply TEST
 | | |
 | **Result:** Mark-up (20%) exceeds 8.5% → **STTR may apply** |
 
-### Worked Example: Low-Margin Service
+### 4.5 Worked Example: Low-Margin Service
 
 **Scenario:** Same service, but lower fee.
 
@@ -333,7 +311,7 @@ Step 4: Apply TEST
 | | |
 | **Result:** Mark-up (5%) within 8.5% → **STTR does NOT apply** |
 
-### Summary: Mark-up Threshold
+### 4.6 Summary: Mark-up Threshold
 
 | Payment Type | Mark-up Threshold Applies? |
 |--------------|---------------------------|
@@ -344,9 +322,9 @@ Step 4: Apply TEST
 | Distribution rights | **Yes** (8.5%) |
 | Insurance premiums | **Yes** (8.5%) |
 
-## Materiality Threshold
+## 5. Materiality Threshold
 
-### De Minimis Exclusion
+### 5.1 De Minimis Exclusion
 
 The STTR includes a **materiality threshold** to exclude small payments:
 
@@ -355,7 +333,7 @@ The STTR includes a **materiality threshold** to exclude small payments:
 | ≥ €40 billion | **€1,000,000** per year |
 | < €40 billion | **€250,000** per year |
 
-### Application
+### 5.2 Application
 
 The threshold applies to the **aggregate** of all covered payments from the source country to connected persons in the recipient jurisdiction during the fiscal year.
 
@@ -374,9 +352,9 @@ Result: Total (€900,000) < Threshold (€1,000,000)
         → STTR does NOT apply to any payments
 ```
 
-## Treaty Interaction
+## 6. Treaty Interaction
 
-### STTR and Existing Treaty Articles
+### 6.1 STTR and Existing Treaty Articles
 
 The STTR operates as a **new article** inserted into existing bilateral tax treaties. It does not replace existing provisions but adds an additional taxing right.
 
@@ -395,7 +373,7 @@ NEW STTR Article:
     → On covered income taxed below 9% in recipient country
 ```
 
-### Priority Rules
+### 6.2 Priority Rules
 
 ```
 STTR PRIORITY AND INTERACTION
@@ -423,7 +401,7 @@ For GloBE purposes:
 • ETR increased by STTR credit
 ```
 
-### GloBE Interaction Example
+### 6.3 GloBE Interaction Example
 
 **Before STTR:**
 ```
@@ -452,9 +430,9 @@ Total tax on payment:
 • Total: €1,500,000 (15% effective rate achieved)
 ```
 
-## STTR Impact Assessment Framework
+## 7. STTR Impact Assessment Framework
 
-### Step-by-Step Assessment
+### 7.1 Step-by-Step Assessment
 
 ```
 STTR IMPACT ASSESSMENT FRAMEWORK
@@ -535,9 +513,9 @@ For each intercompany payment:
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-## 7. Stratos Worked Example: STTR Assessment
+## 8. Stratos Worked Example: STTR Assessment
 
-### 7.1 Background
+### 8.1 Background
 
 Stratos Holdings plc assesses STTR exposure on intercompany payments for FY 2025.
 
@@ -550,7 +528,7 @@ Stratos Holdings plc assesses STTR exposure on intercompany payments for FY 2025
 | SG Germany | SG Ireland | Service fees | 1,800,000 | Shared services |
 | SG UK | SG Singapore | Distribution rights | 800,000 | Product distribution |
 
-### Assessment 1: Royalties (Germany → Singapore)
+### 8.3 Assessment 1: Royalties (Germany → Singapore)
 
 | Step | Assessment |
 |------|------------|
@@ -563,7 +541,7 @@ Stratos Holdings plc assesses STTR exposure on intercompany payments for FY 2025
 
 **STTR Tax:** €2,500,000 × 9% = **€225,000** (collected by Germany)
 
-### Assessment 2: Interest (Ireland → Luxembourg)
+### 8.4 Assessment 2: Interest (Ireland → Luxembourg)
 
 | Step | Assessment |
 |------|------------|
@@ -576,7 +554,7 @@ Stratos Holdings plc assesses STTR exposure on intercompany payments for FY 2025
 
 **STTR Tax:** €3,000,000 × 9% = **€270,000** (collected by Ireland)
 
-### Assessment 3: Service Fees (Germany → Ireland)
+### 8.5 Assessment 3: Service Fees (Germany → Ireland)
 
 | Step | Assessment |
 |------|------------|
@@ -589,7 +567,7 @@ Stratos Holdings plc assesses STTR exposure on intercompany payments for FY 2025
 
 **STTR Tax:** €0
 
-### Assessment 4: Distribution Rights (UK → Singapore)
+### 8.6 Assessment 4: Distribution Rights (UK → Singapore)
 
 | Step | Assessment |
 |------|------------|
@@ -600,7 +578,7 @@ Stratos Holdings plc assesses STTR exposure on intercompany payments for FY 2025
 
 **STTR Tax:** €0
 
-### Summary: Stratos STTR Exposure
+### 8.7 Summary: Stratos STTR Exposure
 
 | Payment | Payer | Recipient | STTR Tax (€) | Collecting Jurisdiction |
 |---------|-------|-----------|--------------|------------------------|
@@ -610,7 +588,7 @@ Stratos Holdings plc assesses STTR exposure on intercompany payments for FY 2025
 | Distribution | UK | Singapore | 0 | — |
 | **Total** | | | **€495,000** | |
 
-### GloBE Impact
+### 8.8 GloBE Impact
 
 The STTR taxes increase Covered Taxes in the recipient jurisdictions:
 
@@ -625,39 +603,39 @@ The STTR taxes increase Covered Taxes in the recipient jurisdictions:
 
 **Result:** Singapore no longer generates GloBE Top-Up Tax after STTR credit.
 
-## 8. Common Pitfalls
+## 9. Common Pitfalls
 
-### Pitfall 1: Ignoring Preferential Regimes
+### 9.1 Pitfall 1: Ignoring Preferential Regimes
 
 **Error:** Assuming the statutory rate is the adjusted nominal rate.
 
 **Correct approach:** Identify all preferential adjustments (IP boxes, tax holidays, notional deductions) that reduce the effective rate on the specific payment.
 
-### Pitfall 2: Applying Mark-up Test to Interest/Royalties
+### 9.2 Pitfall 2: Applying Mark-up Test to Interest/Royalties
 
 **Error:** Excluding interest or royalty payments because the mark-up is below 8.5%.
 
 **Correct approach:** The mark-up threshold does **not apply** to interest and royalties. These payments are subject to STTR regardless of the margin.
 
-### Pitfall 3: Forgetting Materiality Aggregation
+### 9.3 Pitfall 3: Forgetting Materiality Aggregation
 
 **Error:** Testing each payment individually against the materiality threshold.
 
 **Correct approach:** Aggregate **all** covered payments from the source country to connected persons in the recipient jurisdiction. Test the total against the threshold.
 
-### Pitfall 4: Double-Counting STTR in GloBE
+### 9.4 Pitfall 4: Double-Counting STTR in GloBE
 
 **Error:** Not crediting STTR tax as Covered Taxes under GloBE.
 
 **Correct approach:** STTR taxes paid are creditable under the GloBE Rules. They increase Covered Taxes and thus increase the ETR in the recipient jurisdiction.
 
-### Pitfall 5: Assuming STTR Applies to All Treaties
+### 9.5 Pitfall 5: Assuming STTR Applies to All Treaties
 
 **Error:** Calculating STTR exposure without confirming the treaty has been modified.
 
 **Correct approach:** STTR only applies if the relevant bilateral treaty has been amended (via MLI or bilateral negotiation) to include the STTR provision. Check implementation status.
 
-## 9. STTR Assessment Checklist
+## 10. STTR Assessment Checklist
 
 ```
 STTR ASSESSMENT CHECKLIST
