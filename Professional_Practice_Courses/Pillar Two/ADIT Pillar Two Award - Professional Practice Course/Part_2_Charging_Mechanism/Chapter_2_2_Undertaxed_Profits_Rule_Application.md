@@ -4,6 +4,10 @@
 
 After completing this chapter, you will be able to determine when the UTPR applies, calculate the UTPR Top-Up Tax Amount, and allocate it across jurisdictions using the substance-based formula.
 
+## Introduction
+
+If the Income Inclusion Rule is Pillar Two's primary enforcement mechanism, the Undertaxed Profits Rule is its safety net. The UTPR exists because the architects of the global minimum tax recognised that the IIR alone would leave gaps—minority interests not captured by parent entities, groups headquartered in non-implementing jurisdictions, and other scenarios where Top-Up Tax would otherwise go uncollected. The UTPR addresses these gaps through an entirely different mechanism: rather than charging the parent, it denies deductions in jurisdictions where the MNE group has real economic presence. This creates a distributed collection system that, while more complex, ensures the global minimum tax cannot be avoided simply by locating the ultimate parent in a non-cooperating jurisdiction.
+
 ## 1. How the UTPR Works
 
 The **Undertaxed Profits Rule (UTPR)** is the backstop mechanism under GloBE. It applies when Top-Up Tax on low-taxed income is **not fully collected** through the Income Inclusion Rule.
@@ -27,6 +31,8 @@ The UTPR applies when there is **residual Top-Up Tax** not collected under the I
 ### 2.2 UTPR Priority
 
 The IIR always has priority over the UTPR. The UTPR only applies to the **residual amount** not already taxed under the IIR.
+
+The IIR-first principle reflects both policy and pragmatism. Conceptually, taxing the parent on its subsidiaries' undertaxed income makes intuitive sense—the parent controls and benefits from those subsidiaries. Practically, collecting tax at a single point (the parent entity's jurisdiction) is simpler than distributing collection across multiple jurisdictions. The UTPR's role as residual collector means it operates only at the margins of most groups' Pillar Two calculations, though for groups with UPEs in non-implementing jurisdictions or significant minority interests, it becomes the primary collection mechanism.
 
 **Example:**
 - LTCE Top-Up Tax: €1,000,000
@@ -125,6 +131,8 @@ Where:
 
 **Excluded from tangible assets:** Intangible assets, financial assets, goodwill
 
+The substance-based allocation formula represents a deliberate policy choice about where UTPR collections should flow. By weighting employees and tangible assets equally, the formula directs Top-Up Tax to jurisdictions where the MNE group has genuine economic presence—factories, offices, and workforces—rather than to holding company jurisdictions with minimal real activity. This design serves multiple objectives: it rewards jurisdictions that host substantive operations, it makes UTPR difficult to avoid through paper transactions, and it creates rough proportionality between a jurisdiction's contribution to group value creation and its share of the collected tax. The exclusion of intangibles prevents intellectual property holding jurisdictions from capturing UTPR allocations—a deliberate choice given that IP-heavy structures are often at the heart of the profit-shifting arrangements Pillar Two seeks to address.
+
 ## 7. Worked Example: UTPR Allocation Across Jurisdictions
 
 **Scenario:** Stratos Group has a UTPR Top-Up Tax Amount of €100,000 to allocate. The group has Constituent Entities in four jurisdictions with Qualified UTPR.
@@ -201,6 +209,8 @@ Deduction denied = UTPR allocation ÷ Local tax rate
 
 The jurisdiction applies an adjustment that achieves the same result as deduction denial (e.g., direct tax charge, deemed income inclusion).
 
+The mechanics of UTPR collection illustrate why this rule is considered more intrusive than the IIR. Rather than simply adding an amount to the parent's tax bill, the UTPR reaches into the local entity's tax computation and alters it—denying deductions that would otherwise be legitimate. This intervention in domestic tax calculations requires careful legislative drafting and can create practical challenges, particularly when determining which specific deductions to deny. The "equivalent adjustment" alternative gives jurisdictions flexibility in implementation, but the end result must be identical: additional tax equal to the UTPR allocation.
+
 ## 9. UTPR Carve-Out Rule
 
 A jurisdiction is **excluded** from the UTPR allocation if, in the **prior year**, the UTPR Top-Up Tax allocated to that jurisdiction did not result in an actual cash tax expense *(Article 2.6.3)*.
@@ -238,6 +248,8 @@ For most MNE groups with UPEs in major developed economies (UK, US, most EU coun
 ### 10.4 After Transition Period
 
 From 2026 onwards, the safe harbour no longer applies. UTPR may apply to UPE jurisdictions regardless of their statutory tax rate.
+
+The transitional safe harbour reflects diplomatic sensitivity around the UTPR's potential reach. Without it, the UTPR could—in the early years of Pillar Two—impose additional tax on groups headquartered in countries that have not yet implemented domestic legislation, effectively allowing implementing countries to tax income connected to non-implementing jurisdictions. This raised sovereignty concerns, particularly in the United States, which has been slower to adopt Pillar Two than the EU or other major economies. The safe harbour provides breathing room for countries to implement, while the 20% threshold ensures it benefits only jurisdictions with genuinely substantive tax systems. After the transition period, the full UTPR applies—creating pressure for remaining holdouts to join the framework or see their groups' undertaxed income subject to UTPR collection elsewhere.
 
 ## 11. UTPR and QDMTT Interaction
 
@@ -328,3 +340,5 @@ Always check if the low-taxed jurisdiction has a QDMTT. If so, calculate UTPR on
 ### 13.5 Pitfall 5: Applying UTPR During Transition Period
 
 During the transition period (through 2025/2026), the UTPR safe harbour applies to UPE jurisdictions with ≥20% tax rate. Don't calculate UTPR for the UPE jurisdiction in these years.
+
+The UTPR represents perhaps the most innovative—and controversial—element of the Pillar Two architecture. Its substance-based allocation formula, deduction denial mechanics, and distributed collection across multiple jurisdictions mark a significant departure from traditional international tax principles, which generally respect the primacy of residence and source taxation. For practitioners, the UTPR demands careful attention to which jurisdictions have implemented qualified rules, to the annual updating of employee and asset data, and to the interplay with QDMTT and IIR. For MNE groups, it underscores the importance of the IIR capturing as much Top-Up Tax as possible at the parent level—avoiding the fragmentation and complexity that UTPR collection entails.

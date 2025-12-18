@@ -4,11 +4,17 @@
 
 After completing this chapter, you will be able to determine which entity in an MNE group is liable to apply the Income Inclusion Rule and calculate its Allocable Share of Top-Up Tax.
 
+## Introduction
+
+The Income Inclusion Rule represents the linchpin of Pillar Two's enforcement architecture. While Part 1 determined which groups fall within scope, and Part 3-5 will calculate the Top-Up Tax amounts, the IIR answers the critical question: who actually pays? The rule's design reflects a fundamental insight about multinational tax compliance—that parent entities, sitting at the apex of corporate structures with visibility over global operations, are best positioned to ensure minimum taxation throughout their groups. By making the ultimate parent responsible for "topping up" the tax on low-taxed subsidiaries, the IIR aligns economic control with tax responsibility.
+
 ## 1. How the IIR Works
 
 The Income Inclusion Rule (IIR) is the **primary charging mechanism** under GloBE. It requires a parent entity to include its share of Top-Up Tax arising from low-taxed constituent entities in its own tax liability.
 
 The IIR follows a **top-down approach**: the Ultimate Parent Entity (UPE) has first priority to apply the rule. If the UPE's jurisdiction does not have a Qualified IIR, the obligation cascades down to the next parent entity in the ownership chain.
+
+The top-down design serves multiple purposes. It concentrates compliance at the entity with fullest visibility over group-wide operations, avoiding the complexity of multiple entities independently calculating and paying overlapping Top-Up Tax obligations. It also creates a "carrot" for countries to implement Pillar Two: jurisdictions that adopt a Qualified IIR capture the Top-Up Tax revenue that would otherwise flow elsewhere. For multinational groups, this means the UPE's jurisdiction choice—often made decades ago for unrelated reasons—now carries significant Pillar Two implications.
 
 ## 2. Step 1: Identify the Entity That Must Apply the IIR
 
@@ -27,6 +33,8 @@ The IPE applies the IIR only with respect to LTCEs it directly or indirectly own
 ### 2.3 Exception: IPE Excluded When UPE Applies
 
 If the UPE applies a Qualified IIR, lower-tier IPEs are **excluded** from applying the IIR *(Article 2.1.3)*. This prevents double taxation within the same ownership chain.
+
+The cascading mechanism from UPE to IPE reflects a pragmatic recognition that global adoption of Pillar Two will be neither instantaneous nor universal. Some major economies may delay implementation; others may never adopt. Without the IPE fallback, groups headquartered in non-implementing jurisdictions would escape the minimum tax entirely—a gap that would undermine the framework's effectiveness and create competitive distortions. By allowing IPEs in implementing jurisdictions to step into the UPE's shoes, the rules ensure broader coverage while preserving the simplicity of single-point compliance where possible.
 
 ## 3. Decision Flowchart: Which Entity Applies the IIR?
 
@@ -76,6 +84,8 @@ The **Inclusion Ratio** represents the parent entity's proportionate interest in
 | Split ownership through multiple parents | Pro-rata based on each parent's share |
 
 *The exact calculation uses GloBE Income allocation, not just ownership percentage. In most cases with straightforward structures, these align closely.
+
+The Allocable Share concept ensures that the IIR charges Top-Up Tax proportionally to economic ownership. A parent owning 60% of a low-taxed subsidiary should bear 60% of the resulting Top-Up Tax—no more, no less. This proportionality prevents the IIR from either under-collecting (leaving minority interests untaxed) or over-collecting (taxing the parent on income economically belonging to others). The use of GloBE Income rather than legal ownership percentages for the Inclusion Ratio adds precision, accommodating structures where profit-sharing differs from capital ownership.
 
 ### 4.3 Worked Example: Simple Ownership
 
@@ -137,6 +147,8 @@ Even when a UPE applies the IIR, a POPE must **separately** apply the IIR with r
 
 If one POPE is wholly owned by another POPE, only the higher-tier POPE applies the IIR *(Article 2.1.5)*. This prevents multiple POPEs in a chain from each applying the IIR on the same income.
 
+The POPE rules address a structural gap in the standard IIR mechanism. When an intermediate holding company has significant third-party ownership, the UPE's Inclusion Ratio captures only its proportionate share of the low-taxed income—the third parties' share would escape the IIR entirely. By requiring POPEs to apply the IIR separately, the rules ensure that the third parties' economic interest in low-taxed profits is also subject to minimum taxation. This creates complexity—two layers of IIR application require careful coordination—but closes what would otherwise be a significant planning opportunity for groups with listed or joint-venture holding structures.
+
 ## 7. IIR Offset Mechanism
 
 When multiple entities in the ownership chain apply the IIR (e.g., a UPE and a POPE both applying to the same LTCE), the **IIR offset** prevents double taxation *(Article 2.3)*.
@@ -179,6 +191,8 @@ Stratos reduces its Allocable Share by the portion already taxed at POPE level:
 **Stratos's final Allocable Share: €180,000 − €180,000 = €0**
 
 The IIR offset eliminates Stratos's Top-Up Tax liability because the full amount has been charged at the POPE level. No double taxation occurs.
+
+The IIR offset mechanism embodies a core principle of the GloBE framework: ensuring the right amount of Top-Up Tax is collected once, and only once. Without this coordination, a UPE with a POPE subsidiary could face Top-Up Tax at both levels on the same underlying low-taxed income—an outcome that would be both unfair and economically inefficient. The offset mechanism traces through the ownership chain to identify where tax has already been paid and reduces the higher-tier charge accordingly. This mechanical elegance comes at the cost of calculation complexity, but it preserves the integrity of the single-tax principle.
 
 ## 8. Multi-Tier Ownership Chains
 
@@ -236,6 +250,8 @@ The IIR application depends on which jurisdictions have implemented a **Qualifie
 
 **Key point:** Check the OECD's published list of qualified jurisdictions, as this is updated periodically following peer reviews.
 
+The "Qualified" designation matters critically. A jurisdiction might implement domestic legislation labelled as an IIR, but unless that legislation passes the OECD Inclusive Framework's peer review—confirming consistency with the Model Rules—it does not receive Qualified status. Other jurisdictions would then treat that non-Qualified IIR as if it did not exist, potentially applying their own IIR or UTPR to collect Top-Up Tax on the group's low-taxed entities. The peer review process thus creates both quality assurance and coordination: MNE groups can rely on a single authoritative list rather than analysing each jurisdiction's legislation independently.
+
 ## 10. Stratos Example: Complete IIR Application
 
 **Stratos Group Structure (simplified for IIR analysis):**
@@ -282,3 +298,5 @@ The Inclusion Ratio is based on GloBE Income allocation, not just legal ownershi
 ### 11.4 Pitfall 4: Ignoring the IIR Offset
 
 When both UPE and POPE apply IIR, the offset prevents double taxation. Failing to apply the offset overstates the UPE's liability.
+
+Mastering the IIR requires understanding both its mechanical operation and its underlying logic. The rule is designed to be comprehensive yet avoid double taxation, to function even with imperfect global adoption, and to trace Top-Up Tax responsibility through complex ownership structures to the appropriate parent. Groups with straightforward structures—100% ownership through a single chain from a UPE in an implementing jurisdiction—will find IIR application relatively simple. Those with POPEs, split ownership, or UPEs in non-implementing jurisdictions face greater complexity but can navigate it by systematically working through the decision flowchart and applying the offset mechanisms as designed.
