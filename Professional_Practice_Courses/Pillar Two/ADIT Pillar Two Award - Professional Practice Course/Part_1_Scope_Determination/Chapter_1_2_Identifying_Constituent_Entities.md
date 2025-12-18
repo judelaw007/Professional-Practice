@@ -4,11 +4,17 @@
 
 After completing this chapter, you will be able to identify which entities within an MNE group qualify as Constituent Entities for GloBE purposes and document the classification for each entity.
 
+## Introduction
+
+Once an MNE group crosses the revenue threshold, the next critical question becomes: which entities within the group structure are subject to GloBE calculations? This is not merely an administrative mapping exercise—it fundamentally determines where Top-Up Tax liabilities can arise and which jurisdictions' effective tax rates must be computed. The concept of "Constituent Entity" reflects a deliberate design choice to anchor the GloBE Rules in existing financial reporting frameworks, using the consolidation perimeter as the natural boundary of the MNE group. This approach leverages the substantial body of accounting standards on control and consolidation, avoiding the need to create an entirely new definition of what constitutes a group member for tax purposes.
+
 ## 1. The Starting Point: Consolidation Perimeter
 
 A **Constituent Entity** is any entity that is included in the consolidated financial statements of the MNE group, plus any entity that is excluded solely due to size or materiality grounds *(Article 1.3.1)*.
 
 Begin your identification process with the group's consolidation schedule—this is typically found in the notes to the consolidated financial statements or maintained separately by group finance.
+
+The inclusion of entities "excluded solely due to size or materiality" is an important anti-avoidance feature. Without this provision, groups could avoid bringing low-taxed entities into GloBE calculations simply by keeping them below consolidation materiality thresholds—a relatively easy manipulation. By treating such entities as Constituent Entities regardless, the rules ensure that genuine commercial decisions about consolidation materiality do not create opportunities to shelter profits from the minimum tax.
 
 ## 2. Step-by-Step Identification Process
 
@@ -43,6 +49,8 @@ For each entity, determine:
 
 A PE exists for GloBE purposes if it is treated as a PE under an applicable tax treaty, or if the jurisdiction taxes the entity on a net basis due to business presence *(Commentary, para. 28)*.
 
+The treatment of PEs as separate Constituent Entities reflects a fundamental principle of international tax: taxing rights follow where economic activity occurs. A German subsidiary with a French PE creates profit in both jurisdictions; if the PE's income were simply pooled with its German head office, France's taxation of the PE profits would be obscured in a blended German ETR. By separating the PE, Pillar Two ensures that each jurisdiction's taxing rights—and the effective rate of tax imposed—are measured accurately. This mirrors the approach long taken in tax treaties, where PE profits are attributed and taxed as if the PE were a distinct enterprise.
+
 ### 2.4 Step 4: Identify Flow-Through Entities
 
 A flow-through entity is tax transparent—its income is taxed in the hands of its owners rather than at entity level *(Article 10.1)*.
@@ -53,6 +61,8 @@ Common examples:
 - Certain trusts
 
 Flow-through entities are Constituent Entities, but their income may be allocated to their owners for ETR calculation purposes—this is addressed in Part 3.
+
+Flow-through treatment creates one of the more conceptually challenging areas of the GloBE framework. The entity exists for consolidated financial statement purposes—it has assets, liabilities, and income—but the tax on that income may be paid by its owners rather than by the entity itself. The GloBE Rules must therefore "push up" this income and the associated tax to the owner level to avoid either double-counting or missing the income entirely. For groups using US LLCs, UK LLPs, or similar structures, mapping these flow-through relationships is essential to accurate ETR computation.
 
 ## 3. Decision Flowchart: Is This Entity a Constituent Entity?
 
@@ -101,6 +111,8 @@ Entities over which the UPE has control are fully consolidated and are Constitue
 ### 4.3 Significant Influence (20-50%)
 
 Associates accounted for under the equity method are generally **not** Constituent Entities. Their profits are not included in GloBE Income; instead, dividends received from them may be excluded under Article 3.2.1(b).
+
+The distinction between controlled entities and equity method investees represents a policy choice about the reach of the minimum tax. Where an MNE group has control, it can direct the activities and tax affairs of the subsidiary—Pillar Two therefore holds the parent responsible for ensuring minimum taxation. But where the group holds only significant influence, it cannot unilaterally determine the investee's tax position. Extending Top-Up Tax liability to profits over which the MNE lacks control would be both practically difficult and arguably unfair. The exclusion of equity method associates from CE status thus reflects the limits of what can reasonably be expected of a minority investor.
 
 ## 5. Worked Example: Stratos's Constituent Entity Mapping
 
@@ -186,6 +198,8 @@ Dormant entities that remain in the consolidation schedule are Constituent Entit
 
 In stapled structures where two or more entities are contractually bound and traded as a single unit, the structure may constitute a single MNE group. Each stapled entity is a Constituent Entity *(Article 6.5)*.
 
+These special cases illustrate a recurring theme in the GloBE framework: the rules attempt to align tax outcomes with economic substance rather than legal form. When an entity joins a group mid-year, only the period of group membership creates obligations—but the acquiring group cannot escape responsibility by delaying technical completion until year-end. Similarly, stapled structures that function economically as single enterprises are treated as such, preventing artificial separation of what is, in commercial reality, one business. This substance-over-form orientation runs throughout Pillar Two and should guide practitioners in resolving ambiguous situations.
+
 ## 7. Documentation Requirements
 
 Maintain a **Constituent Entity Register** containing:
@@ -203,3 +217,5 @@ Maintain a **Constituent Entity Register** containing:
 | PE indicator | Yes / No; if Yes, list PE jurisdictions |
 
 **Update frequency:** Review and update the register at each fiscal year-end and upon any acquisition, disposal, or restructuring.
+
+The Constituent Entity register is not merely a compliance checklist—it forms the foundation upon which all subsequent GloBE calculations are built. An error in CE identification propagates through the entire framework: miss a CE, and its income escapes the jurisdictional ETR; incorrectly include an equity method associate, and you may compute Top-Up Tax on profits the group cannot control. For complex groups with hundreds of entities, this register becomes a critical piece of tax governance infrastructure, requiring clear ownership, regular review, and integration with M&A processes to ensure new acquisitions are captured promptly. The investment in maintaining an accurate register pays dividends throughout the GloBE compliance cycle.
