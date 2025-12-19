@@ -4,6 +4,10 @@
 
 After completing this chapter, you will be able to allocate Covered Taxes between Constituent Entities using the Article 4.3 framework, including PE tax allocation, CFC tax push-down with passive income limitation, hybrid entity allocations, and distribution tax reallocation.
 
+## Introduction
+
+The GloBE framework's fundamental premise—that effective tax rate should be measured at the jurisdictional level—creates a matching requirement: taxes should be counted in the same jurisdiction as the income that generated them. Reality complicates this. A UK parent paying CFC tax on a Singapore subsidiary's passive income records that tax in its UK accounts, even though the income remains in Singapore for GloBE purposes. A main entity taxed on PE profits must allocate that tax to the PE's jurisdiction. Withholding tax on dividends is often recorded by the recipient, even though it relates to the distributor's profits. Without reallocation rules, ETRs would be systematically distorted—some jurisdictions would show high ETRs due to taxes that don't belong there, while others would show artificially low ETRs despite genuine taxation occurring at parent level. Article 4.3 provides the machinery to correct these mismatches, pushing taxes to the jurisdictions where the underlying income is located. This preserves the jurisdictional ETR's integrity as a measure of actual taxation.
+
 ## 1. When Tax Allocation Is Required
 
 Article 4.3 requires tax allocation in five scenarios:
@@ -218,6 +222,8 @@ Result:
 | Gains | Gains on assets producing above income |
 
 **Note:** Active business income is NOT subject to the passive income limitation—full push-down is permitted.
+
+The passive income limitation reflects a policy judgment about the appropriate scope of CFC tax push-down. Without the limitation, a parent in a high-tax jurisdiction could effectively eliminate all Top-Up Tax on a low-tax subsidiary simply by having a robust CFC regime. The subsidiary could have a 0% local ETR, but if the parent's CFC tax on the subsidiary's income equalled or exceeded 15%, full push-down would produce a 15% ETR after allocation—leaving no Top-Up Tax. This would undermine the minimum tax's purpose: the income would remain in a zero-tax jurisdiction, with the minimum tax obligation fully displaced by CFC taxation at the parent level. By capping the push-down to the subsidiary's actual Top-Up Tax exposure, Article 4.3.3 ensures that the minimum tax functions as intended—low-tax jurisdictions face Top-Up Tax unless they impose sufficient local taxation. The limitation applies only to passive income because passive income CFC rules are typically broader and more aggressive than rules targeting active business income.
 
 ## 5. Hybrid Entity Allocations (Article 4.3.2(d))
 
@@ -504,3 +510,37 @@ Allocation:
 - [ ] Maintain workpapers for each allocation type
 
 ## 12. Common Pitfalls
+
+### 12.1 Pitfall 1: Ignoring Passive Income Limitation
+
+**Issue:** Pushing down full CFC tax without calculating Article 4.3.3 cap
+
+**Impact:** Overstates subsidiary's Covered Taxes; understates parent's Covered Taxes
+
+**Solution:** Always calculate and apply the passive income limitation for CFC push-downs
+
+### 12.2 Pitfall 2: Misallocating Distribution WHT
+
+**Issue:** Leaving dividend withholding tax in recipient's Covered Taxes
+
+**Impact:** Wrong jurisdiction receives tax credit; both ETRs distorted
+
+**Solution:** Always allocate dividend WHT to the distributing entity
+
+### 12.3 Pitfall 3: Double-Counting PE Tax
+
+**Issue:** Including PE tax in both main entity and PE Covered Taxes
+
+**Impact:** Total group Covered Taxes overstated
+
+**Solution:** Always remove allocated tax from source entity when adding to recipient
+
+### 12.4 Pitfall 4: Missing GILTI Special Rules
+
+**Issue:** Applying June 2024 formula to US GILTI
+
+**Impact:** Incorrect allocation; potential compliance failure
+
+**Solution:** Use February 2023 temporary allocation rule for GILTI; apply separately
+
+Tax allocation represents the mechanical heart of the GloBE framework's matching principle. The rules are detailed and technical, but the underlying logic is straightforward: taxes should be counted where the income is counted. Groups with complex structures—multiple CFC exposures, hybrid entities, cross-border PE networks—must build systematic processes to identify, calculate, and document each allocation. The verification step is essential: total group Covered Taxes should remain unchanged after all allocations; the exercise merely redistributes taxes across jurisdictions. Any change in the total signals an error. For groups with US parents subject to GILTI, the interplay between the general CFC rules and the GILTI-specific temporary rules requires careful attention. Building allocation workpapers that clearly distinguish between allocation types—and between passive and active income for CFC purposes—is essential for audit defence and ongoing compliance management.
