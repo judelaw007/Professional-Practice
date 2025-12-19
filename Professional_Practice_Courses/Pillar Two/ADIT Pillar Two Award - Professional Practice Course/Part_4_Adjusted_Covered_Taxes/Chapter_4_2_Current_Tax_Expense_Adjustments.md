@@ -4,6 +4,10 @@
 
 This chapter provides the methodology for adjusting the current tax expense starting point to arrive at Adjusted Covered Taxes. The current tax expense from financial accounts requires modifications to align with GloBE principles—certain items must be added, others subtracted. Mastering these adjustments prevents both overstating and understating the ETR numerator.
 
+## Introduction
+
+Financial accounting captures tax expense using principles designed for investor reporting—emphasising prudence, matching, and fair presentation of obligations. The GloBE framework has different objectives: measuring actual taxation of income to determine whether a jurisdiction meets the 15% minimum. These objectives don't always align. Accounting standards may record taxes in equity rather than profit and loss; they may include uncertain tax provisions that may never be paid; they may exclude taxes that have been paid but relate to prior periods. The adjustment framework in Articles 4.1.2 and 4.1.3 bridges this gap, adding items that represent genuine taxation not captured in current P&L expense, and subtracting items that overstate actual taxation. The result—Adjusted Covered Taxes—represents a more accurate picture of taxes that will actually be paid on current-year income, which is precisely what the minimum tax calculation requires.
+
 ## 1. The Adjustment Framework
 
 Article 4.1.1 establishes that Adjusted Covered Taxes begin with the current tax expense from financial accounts. Articles 4.1.2 and 4.1.3 then prescribe specific additions and subtractions.
@@ -108,6 +112,8 @@ Corresponding GloBE Income adjustment:
 
 **Application:** Only relevant for entities in EDTS jurisdictions. See Chapter 4.1 for EDTS mechanics.
 
+The additions framework reflects a fundamental principle: taxes should be counted in the year they relate to the underlying income, not necessarily the year they appear in the P&L line for current tax expense. Taxes recorded in OCI relate to income items that bypass P&L—recording them elsewhere doesn't make them any less real. GloBE Loss DTA utilisation represents the realisation of previously accumulated tax benefits—the loss reduced future taxes, and that reduction must flow through Covered Taxes when realised. UTP settlements represent taxes that were previously uncertain but are now paid—reality has replaced estimation. QRTC reversals ensure that refundable credits are treated as income rather than tax reductions, producing the favourable ETR treatment that policy intends. Each addition corrects for an accounting presentation that would otherwise understate the taxes actually paid.
+
 ## 3. Subtractions from Covered Taxes (Article 4.1.3)
 
 Five categories of subtractions ensure taxes are not counted when they relate to income excluded from GloBE or when payment is uncertain.
@@ -196,6 +202,8 @@ Tax under appeal (payment suspended):  €1,200,000
 If resolution expected beyond FY 2027:
   Covered Taxes for 2024: €6,000,000 − €1,200,000 = €4,800,000
 ```
+
+The subtractions share a common logic: they prevent overstating the taxes that genuinely count toward the 15% minimum. Taxes on excluded income must be removed because the income itself is excluded—including only the tax would artificially inflate the ETR. Uncertain tax positions represent contingencies, not settled liabilities—counting them would credit taxes that may never be paid. Taxes not expected to be paid within three years are too speculative to rely upon. Each subtraction ensures that Covered Taxes reflects economic reality rather than accounting constructs. The matching principle that underlies these rules is symmetrical: just as GloBE Income excludes certain items, Covered Taxes must exclude the taxes on those items. The result is an ETR that accurately measures the taxation of included income.
 
 ## 4. CFC Tax Push-Down (Article 4.3.2(c))
 
@@ -486,3 +494,18 @@ Adjusted GloBE Income:              €53,880,000
 **Impact:** Understates Covered Taxes
 
 **Solution:** Review full tax reconciliation in notes; include taxes in equity/OCI
+
+The current tax adjustment process ultimately serves the goal of ensuring that Covered Taxes accurately reflects the taxes that will actually be paid on current-year income. This requires looking beyond the P&L tax line to capture taxes recorded elsewhere, while simultaneously excluding items that represent uncertainty or relate to excluded income. Groups developing GloBE compliance processes should establish systematic workpapers that address each adjustment category, with clear documentation of the analysis performed. The CFC push-down rules add particular complexity for groups with extensive CFC exposure, requiring coordination between the parent entity's analysis and subsidiary-level calculations. The three-year recapture monitoring obligation creates an ongoing compliance burden that extends well beyond the initial filing year. Building robust tracking systems from the outset is essential to avoid recapture surprises in future periods.
+
+## Key References
+
+**OECD GloBE Model Rules:**
+- Article 4.1.2 — Additions to Covered Taxes
+- Article 4.1.3 — Subtractions from Covered Taxes
+- Article 4.3.2(c) — CFC Tax Push-Down
+- Article 4.3.3 — Passive Income Limitation
+- Article 4.6.4 — Three-Year Recapture
+
+**Administrative Guidance:**
+- February 2023 Guidance — GILTI Allocation
+- June 2024 Guidance — CFC Tax Allocation Formula
