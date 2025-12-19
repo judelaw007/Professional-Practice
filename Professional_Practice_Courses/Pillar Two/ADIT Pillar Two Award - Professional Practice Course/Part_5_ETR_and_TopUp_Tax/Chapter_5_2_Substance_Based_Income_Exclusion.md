@@ -4,24 +4,9 @@
 
 After completing this chapter, you will be able to calculate the Substance-Based Income Exclusion (SBIE) using the payroll and tangible asset carve-outs, apply the correct transition rates for each fiscal year, and determine the Excess Profit subject to Top-Up Tax.
 
-## Key References
+## Introduction
 
-**OECD GloBE Model Rules:**
-- Article 5.3.1 — SBIE amount definition
-- Article 5.3.2 — Exclusion calculation (sum of carve-outs)
-- Article 5.3.3 — Payroll carve-out
-- Article 5.3.4 — Tangible asset carve-out
-- Article 5.3.5 — Location rules (50% threshold)
-- Article 9.2.1 — Transition payroll rates
-- Article 9.2.2 — Transition tangible asset rates
-- Article 10.1 — Definitions (Eligible Payroll Costs, Eligible Tangible Assets, Eligible Employees)
-
-**Administrative Guidance:**
-- June 2024: SBIE uses accounting carrying value, not GloBE carrying value
-- February 2023: Mobile employee allocation clarification
-
-**OECD Commentary:**
-- Chapter 5, paragraphs 52-95 — SBIE calculation methodology
+The Substance-Based Income Exclusion represents one of Pillar Two's most significant concessions to business reality. The framework's architects recognised that not all income in a low-tax jurisdiction represents tax-advantaged "excess profits." A manufacturing plant employing hundreds of workers, a distribution centre holding substantial inventory, a research facility with expensive equipment—these operations generate returns attributable to genuine economic activity, not to tax planning. Subjecting such "normal" returns to minimum taxation would unfairly penalise groups that have located real substance in countries with competitive tax rates. The SBIE addresses this by carving out a fixed percentage of payroll costs and tangible asset values from the Top-Up Tax base. The result: only "Excess Profit"—income beyond what normal returns on employees and physical assets would justify—is subject to Top-Up Tax. This design rewards substance and penalises hollow structures, aligning the framework's incentives with the broader goal of ensuring that taxing rights follow real economic activity.
 
 ## 1. What SBIE Does
 
@@ -97,6 +82,8 @@ The SBIE percentages are **higher** in early years and **reduce** over a 10-year
 | **2034+** | **5.0%** | **5.0%** |
 
 **Practical implication:** In early transition years, the higher rates provide greater SBIE—reducing Top-Up Tax exposure. As rates decline, more income becomes subject to Top-Up Tax.
+
+The ten-year transition period serves a deliberate policy purpose: giving MNE Groups time to restructure their operations in response to the new rules. Groups with substantial low-tax operations based on genuine substance receive significant protection in early years, with that protection gradually declining as the framework matures. The transition rates also acknowledge that the "correct" percentage—the normal return on substance—is inherently uncertain. Starting high and reducing over time allows real-world experience to inform whether the permanent 5% rates are appropriate. Groups should factor the declining rates into long-term planning: an operation that generates no Top-Up Tax today due to generous SBIE may trigger liability in future years as the carve-out shrinks. This creates natural pressure to either increase substance or accept rising Top-Up Tax exposure.
 
 ### 3.2 Which Year's Rate Applies?
 
@@ -490,3 +477,5 @@ The rates approximate a "normal" return on these investments, excluding it from 
 | Tech (asset-light) | Medium | Low | **Low-Medium** |
 
 **Practical implication:** MNEs with significant manufacturing or distribution operations in low-tax jurisdictions benefit most from SBIE.
+
+The SBIE represents Pillar Two's recognition that a global minimum tax should target undertaxation of mobile profits, not genuine business returns on local investment. By excluding a fixed percentage of payroll and tangible assets, the framework ensures that operations with real employees and physical infrastructure receive proportionate relief. This design choice has profound implications for business strategy: groups considering where to locate new operations can now factor SBIE into their analysis, potentially favouring jurisdictions where substantial investment produces meaningful carve-outs. The exclusion of intangible assets from SBIE is equally deliberate—IP-heavy structures without corresponding human capital or physical presence receive minimal protection, reflecting the framework's skepticism of profit allocations disconnected from genuine activity. For compliance purposes, groups must build robust data collection processes to capture payroll costs, track asset carrying values, and apply location rules for mobile employees and assets. The SBIE calculation is only as accurate as the underlying substance data, making investment in HR and fixed asset systems essential for accurate Pillar Two reporting.

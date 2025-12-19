@@ -4,20 +4,9 @@
 
 After completing this chapter, you will be able to calculate the jurisdictional Effective Tax Rate (ETR) by applying the Article 5.1 formula, understand jurisdictional blending, and handle special cases including loss scenarios and negative covered taxes.
 
-## Key References
+## Introduction
 
-**OECD GloBE Model Rules:**
-- Article 5.1.1 — ETR formula
-- Article 5.1.2 — Jurisdictional Net GloBE Income
-- Article 5.1.3 — Adjusted Covered Taxes for ETR
-- Article 5.1.4 — ETR rounding (four decimal places)
-
-**Administrative Guidance:**
-- February 2023: Negative tax expense treatment
-- December 2023: Loss carry-forward interaction clarification
-
-**OECD Commentary:**
-- Chapter 5, paragraphs 1-25 — ETR calculation methodology
+The entire edifice of Pillar Two rests on a deceptively simple calculation: dividing Adjusted Covered Taxes by Net GloBE Income to produce an effective tax rate for each jurisdiction where the MNE Group operates. If that rate falls below 15%, the jurisdiction is "low-taxed" and Top-Up Tax applies; if it meets or exceeds 15%, no further action is required. Yet behind this simplicity lies a fundamental design choice that shapes the entire framework: jurisdictional blending. The OECD could have measured ETR globally—averaging all taxes against all income worldwide—or entity-by-entity—examining each subsidiary in isolation. Instead, they chose the middle path: all entities in the same country are blended together for a single jurisdictional ETR. This choice balances comprehensiveness with administrability, allowing within-country variations to offset each other while preventing high-tax countries from sheltering low-tax countries elsewhere. Understanding ETR mechanics—and the blending principle that underlies them—is essential because the outcome of this calculation determines whether tens or hundreds of millions in Top-Up Tax applies.
 
 ## 1. The ETR Formula
 
@@ -73,6 +62,8 @@ When assessing Top-Up Tax exposure:
 - Do **not** calculate ETR per entity
 - Calculate ETR per **jurisdiction** (aggregate all CEs in that country)
 - A single high-taxed entity can eliminate Top-Up Tax for the entire jurisdiction
+
+The jurisdictional blending rule creates both planning opportunities and compliance considerations. On the opportunity side, a group with a low-taxed IP holding company in Ireland might reduce or eliminate its Top-Up Tax exposure by expanding substantive operations—manufacturing, R&D, distribution—in the same jurisdiction. The high taxes on those substantive activities blend with the low taxes on IP income, potentially raising the jurisdictional ETR above 15%. On the compliance side, groups must carefully aggregate all entities in each jurisdiction, including those that might seem immaterial individually. A small loss-making subsidiary affects the denominator; a small but heavily taxed service company affects the numerator. The blending calculation only works correctly when every Constituent Entity is properly identified and included.
 
 ## 3. Calculating Jurisdictional Net GloBE Income
 
@@ -426,4 +417,6 @@ Blending **within** a jurisdiction is intentional:
 - Reflects economic reality (entities in the same country face similar tax environments)
 - Simplifies compliance (one calculation per jurisdiction, not per entity)
 - Allows temporary losses to offset profitable entities
+
+The ETR calculation represents the culmination of all the technical work in Parts 3 and 4—GloBE Income computation, Covered Tax adjustments, tax allocations, and deferred tax modifications all feed into this single ratio. Getting this calculation right requires both technical accuracy and conceptual clarity. Groups should establish clear processes for identifying all Constituent Entities in each jurisdiction, aggregating their GloBE Income and Covered Taxes, and applying the formula consistently. The four-decimal-place rounding requirement may seem technical, but it matters: at the margin, rounding can determine whether a jurisdiction triggers Top-Up Tax. Perhaps most importantly, the ETR calculation should be viewed not as the end of the process but as the gateway to the next steps—SBIE computation, Top-Up Tax calculation, and charging mechanism application. Only jurisdictions with ETRs below 15% proceed to these subsequent steps, making the ETR threshold the critical first filter in determining Pillar Two liability.
 
