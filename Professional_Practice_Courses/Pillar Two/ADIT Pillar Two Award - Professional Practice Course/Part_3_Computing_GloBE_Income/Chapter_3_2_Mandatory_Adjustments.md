@@ -4,6 +4,10 @@
 
 After completing this chapter, you will be able to identify and apply all mandatory adjustments required to convert Financial Accounting Net Income or Loss into GloBE Income or Loss.
 
+## Introduction
+
+While the GloBE framework takes financial accounting as its starting point, it does not accept that starting point uncritically. Article 3.2 prescribes a series of mandatory adjustments that transform Financial Accounting Net Income into GloBE Income—a measure specifically designed for minimum tax purposes. These adjustments reflect policy judgments about which items should be included in the profit base subject to the 15% floor, and which should be excluded or modified. Understanding the rationale behind each adjustment illuminates not just what to do mechanically, but why the framework treats different income types differently.
+
 ## 1. Overview of Article 3.2 Adjustments
 
 Article 3.2 requires specific adjustments to Financial Accounting Net Income or Loss. These adjustments eliminate common book-to-tax differences where policy justification exists.
@@ -22,6 +26,8 @@ Article 3.2 requires specific adjustments to Financial Accounting Net Income or 
 | Art. 3.2.1(h) | Prior Period Errors and Changes in Accounting Principles | Adjust |
 | Art. 3.2.1(i) | Accrued Pension Expense | Adjust |
 | Art. 3.2.2 | Stock-Based Compensation (elective) | Substitute |
+
+These adjustments share a common theme: they modify the financial accounting result to create a profit measure that better aligns with the policy objectives of minimum taxation. Some adjustments prevent double-counting (excluding dividends and equity method income already taxed at source). Others address timing mismatches between accounting and tax (pension expenses, stock-based compensation). Still others enforce public policy (disallowing bribes and significant fines). Together, they transform a general-purpose accounting measure into one tailored for global minimum tax calculations.
 
 ## 2. Adjustment 1: Net Taxes Expense *(Article 3.2.1(a))*
 
@@ -132,6 +138,8 @@ An MNE Group may elect to **include** all Portfolio Shareholding dividends in Gl
 - High volume of portfolio investments
 - Administrative burden of tracking holding periods exceeds tax benefit
 - Portfolio dividends are minimal relative to total income
+
+The dividend exclusion implements a fundamental principle of international tax: avoiding double taxation of corporate profits. When a subsidiary earns profit and pays tax, then distributes that profit as a dividend to its parent, taxing the parent on the dividend effectively taxes the same economic profit twice. The 10%/12-month tests act as filters: substantial, long-term shareholdings represent genuine investment relationships where double taxation concerns are strongest, while short-term portfolio holdings look more like trading positions where inclusion is appropriate. This framework mirrors participation exemption systems found in many domestic tax codes.
 
 ## 4. Adjustment 3: Excluded Equity Gain or Loss *(Article 3.2.1(c))*
 
@@ -320,6 +328,8 @@ Certain expenses are **added back** to GloBE Income because they are disallowed 
 
 **Net adjustment:** Add back €180,000
 
+The policy disallowed expenses adjustment reflects a normative judgment: certain expenditures should not reduce the profit base against which minimum taxation is measured, regardless of their accounting or even local tax treatment. Bribes and illegal payments represent conduct that no tax system should subsidise; disallowing their deduction for GloBE purposes ensures that undertaxed profits cannot be inflated by such payments. The €50,000 threshold for fines balances the administrative burden of tracking minor regulatory penalties against the policy goal of not allowing significant sanctions to reduce taxable profits. The explicit exclusion of contractual penalties and compensatory damages recognises that these represent legitimate business costs rather than regulatory or legal sanctions.
+
 ## 9. Adjustment 8: Prior Period Errors and Changes in Accounting Principles *(Article 3.2.1(h))*
 
 ### The Rule
@@ -409,6 +419,8 @@ If negative (contribution > accrual): **Add** to GloBE Income
 | Contributions to external pension fund | **Yes** |
 | Contributions to in-house pension fund | **Yes** |
 | Direct payments to employees/retirees | **No** (not within Art. 3.2.1(i)) |
+
+The pension adjustment addresses one of the most significant book-tax timing differences that defined benefit schemes create. Under IAS 19, pension expense reflects actuarial estimates—interest on obligations, service costs, remeasurements—that may bear little relationship to cash actually flowing to the pension fund. Most tax systems, by contrast, allow deduction when contributions are paid rather than when accounting expense is recognised. Without this adjustment, a company with substantial IAS 19 accruals but modest cash contributions would show lower GloBE Income (due to the accrual expense) but potentially lower Covered Taxes (based on actual contributions), artificially depressing the ETR. Aligning GloBE Income with contributions paid produces a more accurate picture of taxable capacity.
 
 ## 11. Adjustment 10: Stock-Based Compensation *(Article 3.2.2)* — Elective
 
@@ -568,3 +580,5 @@ Use this checklist for each Constituent Entity:
 **Error:** Automatically electing SBC substitution.
 
 **Correct:** In low-tax jurisdictions, the higher accounting expense may be preferable to reduce Top-Up Tax.
+
+The mandatory adjustments in Article 3.2 transform a general-purpose accounting measure into a tax base specifically calibrated for minimum taxation purposes. While the adjustments may seem mechanical—add this back, exclude that, adjust this timing difference—understanding their policy rationale helps practitioners apply them correctly in novel situations. The framework's architects made deliberate choices: they preserved the dividend exemption principle, aligned certain timing differences with tax treatment, and disallowed expenses that public policy considerations suggest should not reduce taxable profits. These choices reflect a tax policy framework, not merely an accounting exercise, and should be interpreted with that purpose in mind.

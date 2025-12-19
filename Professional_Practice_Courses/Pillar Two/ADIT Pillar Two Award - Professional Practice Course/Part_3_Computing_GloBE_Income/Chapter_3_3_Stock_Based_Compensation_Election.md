@@ -4,6 +4,10 @@
 
 After completing this chapter, you will be able to evaluate whether the stock-based compensation election is beneficial for each jurisdiction and apply the election mechanics correctly, including recapture provisions.
 
+## Introduction
+
+Stock-based compensation creates one of the most persistent and material book-tax differences in corporate taxation. The accounting profession, following IFRS 2 and similar standards, requires companies to expense share options and equity awards at fair value over the vesting period—a measure designed to reflect economic cost to shareholders. Tax authorities, by contrast, typically defer the deduction until exercise or vesting and measure it at intrinsic value—the actual benefit realised by the employee. In a rising share price environment, this creates a permanent gap: the tax deduction at exercise substantially exceeds the cumulative accounting expense. The GloBE framework must grapple with this divergence, and the Article 3.2.2 election represents its solution.
+
 ## 1. The Stock-Based Compensation Problem
 
 Stock-based compensation (SBC) creates a significant book-to-tax difference that can distort the GloBE ETR calculation.
@@ -60,6 +64,8 @@ Top-Up Tax                      Top-Up Tax
 
 **Key insight:** When tax deduction exceeds accounting expense, the election typically **decreases** GloBE Income (larger deduction reduces net income), which **increases** ETR and **reduces** Top-Up Tax risk.
 
+The election exists because the framework's architects recognised that SBC timing differences, if left unaddressed, could trigger Top-Up Tax in situations where no genuine undertaxation exists. Consider a technology company granting options when its share price is low; years later, when options vest at a much higher price, the tax deduction significantly exceeds the original accounting expense. Without the election, the ETR calculation would show Covered Taxes (reflecting the large tax deduction) divided by a GloBE Income base reduced only by the smaller accounting expense—producing an artificially low ETR. The election aligns both numerator and denominator to the same basis, revealing the true effective rate on operating profits.
+
 ## Election Mechanics
 
 ### Scope
@@ -94,6 +100,8 @@ Only **one** Constituent Entity may deduct SBC in excess of the financial accoun
 **Example:** If UK parent grants options to employees of German subsidiary:
 - Germany must have a local tax deduction for the SBC
 - Only the German CE can claim the excess deduction for GloBE purposes
+
+The five-year lock-in period serves an anti-avoidance function. Without it, groups could opportunistically elect or revoke the election year by year, choosing whichever treatment produces the more favourable ETR in each period. This would undermine the consistency that the GloBE framework requires for meaningful comparisons over time. The lock-in also provides administrative simplicity: once elected, the approach is fixed for a meaningful period, reducing the need for annual re-evaluation. The prohibition on re-election within five years of revocation prevents churning between regimes to cherry-pick favourable outcomes.
 
 ## Timing Scenarios
 
@@ -148,6 +156,8 @@ Only **one** Constituent Entity may deduct SBC in excess of the financial accoun
 - Year 5: Options expire → Must **add back** €400,000 to GloBE Income
 
 **Recapture rule:** If options expire without exercise, the total amount previously deducted under the election must be included in GloBE Income for the fiscal year of expiry *(Article 3.2.2)*.
+
+The recapture rule prevents the election from creating a permanent benefit where none should exist. Under the election, no deduction flows through GloBE Income until options are exercised and a tax deduction crystalises. If options expire worthless—because the share price never exceeded the exercise price, or employees left before vesting—no tax deduction ever materialises. Without recapture, the entity would have benefited from not deducting the accounting expense in prior years while never facing the corresponding tax deduction. Recapture corrects this by adding back an amount equal to the accounting expense that would have been deducted without the election, ensuring symmetric treatment over the full option lifecycle.
 
 ## Mid-Stream Election Adjustment
 
@@ -402,6 +412,8 @@ Stratos Group plc has a global equity incentive programme granting stock options
 **Error:** Using standard accounting deferred tax figures when election is made.
 
 **Problem:** Deferred tax must be recalculated using GloBE carrying values.
+
+The SBC election exemplifies a broader theme in the GloBE framework: the tension between following financial accounting as the starting point and adjusting for known book-tax differences that would otherwise distort the minimum tax calculation. Unlike the mandatory adjustments in Article 3.2, the SBC election is discretionary—groups can choose to live with the default treatment if it suits their circumstances. This optionality requires careful analysis: the election that benefits a high-growth technology company with appreciating share prices may disadvantage a mature company with stable or declining equity values. The decision framework outlined in this chapter provides a structured approach to that analysis, but ultimately each group must evaluate its own SBC programmes, share price trajectory, and jurisdictional ETR positions to determine whether the election serves its interests.
 
 ## Documentation Requirements
 
