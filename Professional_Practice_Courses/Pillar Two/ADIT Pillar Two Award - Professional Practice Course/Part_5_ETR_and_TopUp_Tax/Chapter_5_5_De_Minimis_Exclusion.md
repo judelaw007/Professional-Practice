@@ -4,18 +4,11 @@
 
 After completing this chapter, you will be able to apply the De Minimis Exclusion to eliminate Top-Up Tax liability for jurisdictions with minimal operations, calculate the three-year average thresholds, and determine which jurisdictions qualify for exclusion.
 
-## Key References
+## Introduction
 
-**OECD GloBE Model Rules:**
-- Article 5.5.1 — De Minimis Exclusion criteria (revenue and income thresholds)
-- Article 5.5.2 — Excluded years from averaging calculation
-- Article 5.5.3 — Currency conversion for thresholds
+The global minimum tax framework was designed to address profit shifting by large multinational enterprises, yet its jurisdictional scope means that even modest operations can fall within the calculation requirements. Without appropriate relief, MNE Groups would face disproportionate compliance burdens for jurisdictions where their presence is minimal—perhaps a single representative office, a dormant entity retained for historical reasons, or a small service company supporting regional operations. The De Minimis Exclusion addresses this by creating objective thresholds below which jurisdictions are simply excluded from the ETR and Top-Up Tax calculation entirely.
 
-**OECD Commentary:**
-- Chapter 5, paragraphs 146-162 — De Minimis Exclusion methodology
-
-**Administrative Guidance:**
-- December 2023: Transitional CbCR Safe Harbour De Minimis Test (simplified single-year test)
+This chapter examines the De Minimis Exclusion as a compliance simplification mechanism. The exclusion reflects a proportionality principle: the administrative cost of performing full GloBE calculations for a jurisdiction with €8 million in revenue and €500,000 in profit would likely exceed any Top-Up Tax that might result. By deeming such jurisdictions to have zero GloBE Income and zero Top-Up Tax, the framework focuses compliance resources where they matter most—on jurisdictions with material operations that could genuinely generate significant undertaxed income.
 
 ## 1. The De Minimis Exclusion Purpose
 
@@ -57,6 +50,8 @@ A jurisdiction qualifies for the De Minimis Exclusion if **both** thresholds are
 3. **GloBE amounts used** — Not local GAAP or CbCR figures (except under Safe Harbour)
 4. **Annual election** — Must be elected each year; not automatic
 
+The dual-threshold requirement serves an important purpose: it prevents gaming through either of the two measures alone. A jurisdiction might have low revenue but high profit margins (suggesting valuable intellectual property or similar income), or high revenue with minimal profits (suggesting transfer pricing arrangements that compress local margins). By requiring both tests to pass, the exclusion targets genuinely small operations rather than artificially structured arrangements. The loss-qualification for Test 2 recognises that loss-making operations, by definition, cannot generate undertaxed profits—there is no excess profit to subject to the 15% floor.
+
 ## 3. Three-Year Averaging (Article 5.5.1 and 5.5.2)
 
 The De Minimis thresholds use a **three-year average** of the current fiscal year and the two preceding fiscal years:
@@ -90,6 +85,8 @@ Average GloBE Income = ───────────────────
 | Income | €1,950,000 ÷ 3 | €650,000 | < €1 million | ✓ Yes |
 
 **Result:** Luxembourg qualifies for De Minimis Exclusion in FY 2025.
+
+The three-year averaging mechanism serves to smooth fluctuations in revenue and income that might otherwise cause jurisdictions to oscillate between qualifying and not qualifying. Many small operations experience year-to-year variability due to contract timing, one-off transactions, or cyclical factors unrelated to their underlying substance. Without averaging, a jurisdiction might qualify in year one, fail in year two due to a single large contract, and qualify again in year three—creating unpredictable compliance burdens. The three-year window provides stability while still allowing the thresholds to adapt over time as operations grow or shrink.
 
 ## 4. Excluded Years (Article 5.5.2)
 
@@ -130,6 +127,8 @@ If the current fiscal year is the **first year** with Constituent Entities:
 - Only the current year's figures are used
 - No averaging required
 
+The excluded years provisions prevent artificial distortion of the averaging calculation. Without these rules, a newly established entity might benefit from including "phantom" zero-revenue years that would artificially depress the three-year average and allow qualification even when current-year operations exceed the thresholds. Conversely, a jurisdiction where operations have wound down to dormancy should not be penalised by historical years of larger activity. The exclusion rules ensure that the averaging calculation reflects the genuine operational footprint during periods when the MNE Group actually had functioning Constituent Entities in the jurisdiction.
+
 ## 5. Currency Conversion (Article 5.5.3)
 
 The €10 million and €1 million thresholds are in **euros**. If the MNE Group's Consolidated Financial Statements use a different presentation currency:
@@ -150,6 +149,8 @@ Convert thresholds using:
 |-----------------|-----------------|
 | €10 million | €10M × 1.08 = **$10.8 million** |
 | €1 million | €1M × 1.08 = **$1.08 million** |
+
+The currency conversion mechanism ensures that the De Minimis thresholds function equivalently regardless of an MNE Group's reporting currency. Using the December average rate from the year before the fiscal year begins provides certainty—the converted thresholds can be determined in advance, rather than waiting for year-end exchange rates. This forward-looking approach allows MNE Groups to anticipate whether jurisdictions are likely to qualify for De Minimis and plan their compliance efforts accordingly. Exchange rate fluctuations can cause marginal jurisdictions to move in or out of qualification, making regular monitoring important for groups with operations near the thresholds.
 
 ## 6. Entities Excluded from De Minimis (Article 5.5.1)
 
@@ -177,6 +178,8 @@ When calculating whether a jurisdiction qualifies:
 
 **Result:** InvestCo excluded from calculation; jurisdiction may still qualify on OpCo A's figures.
 
+The exclusion of Stateless and Investment Entities from the De Minimis calculation reflects their special treatment elsewhere in the GloBE Rules. Stateless Entities—those without a tax residence—present unique concerns because they have no jurisdiction that can impose the minimum tax, making them subject to specific anti-avoidance provisions. Investment Entities are governed by separate rules in Articles 7.4 and 7.5 that address their particular characteristics. Including either category in the De Minimis calculation would distort the measurement of ordinary operating activity in a jurisdiction and could create opportunities for structuring around the thresholds by adding or removing such entities.
+
 ## 7. Annual Election Requirement
 
 The De Minimis Exclusion is an **annual election** *(Article 5.5.1)*:
@@ -196,6 +199,8 @@ The De Minimis Exclusion is an **annual election** *(Article 5.5.1)*:
 | FY 2027 | €8.9M | €0.7M | Yes | Yes |
 
 **Practical implication:** Monitor thresholds annually; eligibility can change.
+
+The elective nature of the De Minimis Exclusion reflects a recognition that circumstances vary across MNE Groups. In most cases, electing the exclusion for qualifying jurisdictions reduces compliance burden without adverse consequences. However, there may be situations where an MNE Group prefers to perform the full calculation—perhaps to generate documentation supporting a low-risk tax position, or where the jurisdiction's ETR is comfortably above 15% and the group wants to demonstrate this affirmatively. The annual election mechanism ensures flexibility while requiring conscious decision-making for each fiscal year and each qualifying jurisdiction.
 
 ## 8. Transitional CbCR Safe Harbour De Minimis Test
 
@@ -219,6 +224,8 @@ The Transitional CbCR Safe Harbour De Minimis Test is advantageous when:
 - The jurisdiction would clearly pass the CbCR-based thresholds
 
 **Example:** Use CbCR Revenue (€6.5M) and CbCR Profit Before Tax (€0.4M) instead of calculating GloBE amounts.
+
+The Transitional CbCR Safe Harbour De Minimis Test provides meaningful simplification during the initial implementation years. Many MNE Groups already prepare Country-by-Country Reports as part of their BEPS compliance obligations, making CbCR data readily available without additional calculation. While CbCR revenue and profit figures differ from GloBE Revenue and GloBE Income (due to the various GloBE adjustments), they provide a reasonable proxy for identifying small jurisdictions. The single-year measurement eliminates the averaging calculation entirely. For jurisdictions clearly below both thresholds based on CbCR data, this offers substantial compliance savings during the transition period while the full GloBE calculation infrastructure is being developed.
 
 ## 9. Decision Flowchart: De Minimis Qualification
 
@@ -358,6 +365,8 @@ If De Minimis were **not** elected:
 | **Luxembourg** | N/A | N/A | N/A | **Yes** | **€0** |
 | **Total** | | | | | **€197,498** |
 
+The Stratos example demonstrates the practical value of the De Minimis Exclusion in action. Luxembourg's small treasury operation, while generating positive income at a low effective rate (8.73%), would produce only approximately €39,500 in Top-Up Tax if fully calculated. The administrative effort required to compute GloBE Income, Adjusted Covered Taxes, SBIE, and allocate any resulting Top-Up Tax far exceeds the economic significance of this amount. By electing the De Minimis Exclusion, Stratos eliminates this compliance burden entirely while focusing its GloBE resources on jurisdictions with material exposure—Singapore's €197,498 IIR liability and Ireland's QDMTT calculation.
+
 ## 11. Common Pitfalls
 
 ### 11.1 Pitfall 1: Using CbCR Data Without Safe Harbour Election
@@ -439,4 +448,12 @@ RESULT:
 □ De Minimis Exclusion APPLIES — No ETR or Top-Up Tax calculation required
 □ De Minimis Exclusion does NOT apply — Proceed with full GloBE calculations
 ```
+
+## Concluding Discussion
+
+The De Minimis Exclusion exemplifies the pragmatic approach that permeates the GloBE framework. While the global minimum tax represents an ambitious attempt to establish a floor on corporate taxation worldwide, the Inclusive Framework recognised that mechanically applying this floor to every jurisdiction—regardless of the operational footprint—would create disproportionate compliance burdens without commensurate policy benefits. Small jurisdictions with minimal GloBE Income generate minimal Top-Up Tax liability; the De Minimis Exclusion simply acknowledges this reality and provides appropriate relief.
+
+For MNE Groups with extensive geographic footprints, the De Minimis Exclusion can significantly reduce compliance complexity. A group operating in forty jurisdictions might find that ten to fifteen qualify for De Minimis treatment, eliminating the need for full GloBE calculations in those locations. This allows tax departments to concentrate resources on jurisdictions that present genuine exposure—those with material operations and ETRs below the 15% threshold. The annual election requirement ensures that this assessment happens regularly, catching jurisdictions as they grow beyond the thresholds or shrink back below them.
+
+Practitioners should maintain systematic processes for De Minimis monitoring. As the three-year averaging window rolls forward, jurisdictions near the thresholds may move in or out of qualification. Currency movements can shift the converted thresholds for non-euro reporters. The Transitional CbCR Safe Harbour offers additional simplification during the implementation period but will eventually expire, requiring groups to build full GloBE calculation capabilities even for small jurisdictions if they want to demonstrate qualification. Effective De Minimis management thus becomes an ongoing compliance discipline rather than a one-time assessment.
 

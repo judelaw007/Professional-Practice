@@ -4,21 +4,11 @@
 
 After completing this chapter, you will be able to identify Minority-Owned Constituent Entities (MOCEs), apply the separate ETR calculation requirement, compute Top-Up Tax for MOCEs and Minority-Owned Sub-Groups, and allocate Top-Up Tax liability between the main MNE Group and minority interests.
 
-## Key References
+## Introduction
 
-**OECD GloBE Model Rules:**
-- Article 5.6.1 — Treatment of Minority-Owned Sub-Groups
-- Article 5.6.2 — Treatment of stand-alone MOCEs
-- Article 10.1 — Definition of Minority-Owned Constituent Entity
-- Article 10.1 — Definition of Minority-Owned Parent Entity (MOPE)
-- Article 10.1 — Definition of Minority-Owned Sub-Group
+The standard jurisdictional blending approach works well when an MNE Group wholly owns its Constituent Entities—the group benefits from the income and bears the tax burden in proportionate measure. However, corporate structures frequently include entities where the Ultimate Parent Entity holds control but minority shareholders retain significant economic interests. Joint ventures, partially-owned subsidiaries consolidated under variable interest arrangements, and entities controlled through voting agreements all present situations where the economic ownership diverges from accounting consolidation. The MOCE rules address this divergence by carving out entities with 30% or less ownership from standard jurisdictional blending.
 
-**OECD Commentary:**
-- Chapter 5, paragraphs 163-182 — Minority-Owned Entity rules
-- Chapter 10 — Definitions (MOCE, MOPE, Minority-Owned Sub-Group)
-
-**Administrative Guidance:**
-- February 2023: MOCE indirect ownership calculation clarifications
+This chapter examines how Minority-Owned Constituent Entities receive separate treatment under Article 5.6. Understanding these rules is essential because failing to identify and correctly process MOCEs can lead to material errors in ETR calculations—either by inappropriately blending MOCE results with the main group or by miscalculating the Top-Up Tax allocation. The complexity increases when MOCEs form their own sub-groups with tiered ownership structures. Practitioners must develop systematic processes for identifying MOCEs at the outset of GloBE compliance work and applying the separate calculation methodology correctly.
 
 ## 1. Why Separate Treatment for MOCEs?
 
@@ -42,6 +32,8 @@ The standard jurisdictional blending rule combines all Constituent Entities in a
 ```
 
 **Solution:** MOCEs are **excluded** from standard jurisdictional blending and have their own separate ETR calculation.
+
+The separate treatment reflects a fundamental principle of equity within the GloBE framework. When minority shareholders hold 70% or more of an entity's economic interest, it would be inappropriate for the UPE to benefit from that entity's taxes shielding other group income from Top-Up Tax—taxes that minority shareholders effectively bore. Equally, minority shareholders should not be indirectly burdened by Top-Up Tax triggered because the MOCE's low rate dragged down a jurisdictional ETR calculated across entities they have no stake in. By requiring separate calculation, the rules ensure that each MOCE stands on its own merits, with its ETR determined independently and any Top-Up Tax attributable specifically to its undertaxed profits.
 
 ## 2. Definition: Minority-Owned Constituent Entity (Article 10.1)
 
@@ -92,6 +84,8 @@ MOCEs arise when accounting standards require consolidation despite ≤30% owner
 | De facto control | 28% equity | Remaining ownership widely dispersed |
 | Contractual arrangements | 15% equity | Management contracts give effective control |
 
+The scenarios where MOCE status arises highlight the tension between accounting consolidation and economic ownership. Modern financial reporting standards—IFRS 10 and ASC 810—focus on control rather than majority ownership when determining consolidation. A company might consolidate an entity in which it holds only 20% of the equity because it serves as the primary beneficiary of a variable interest entity, controls the entity through contractual arrangements, or exercises de facto control due to dispersed minority holdings. While such consolidation makes sense for financial reporting purposes—presenting a complete picture of the economic activities the parent controls—it creates mismatches for tax purposes where economic ownership traditionally determines who bears the tax burden. The MOCE rules bridge this gap by requiring separate calculation for entities where consolidation exists but majority economic ownership does not.
+
 ## 3. Related Definitions
 
 ### 3.1 Minority-Owned Parent Entity (MOPE)
@@ -125,6 +119,8 @@ A **Minority-Owned Sub-Group** consists of:
     └──────────────────────────────────┘
               Minority-Owned Sub-Group
 ```
+
+The distinction between MOPEs and stand-alone MOCEs matters for determining the calculation methodology. A stand-alone MOCE—one without any subsidiaries—has its ETR calculated on an individual entity basis. A MOPE, by contrast, heads a Minority-Owned Sub-Group that is treated as if it were a separate MNE Group for GloBE purposes. This means jurisdictional blending applies within the sub-group: if the MOPE in Ireland has a wholly-owned subsidiary also in Ireland, those two entities blend their results for the sub-group's Ireland ETR calculation—but entirely separately from any main group entities that might also be located in Ireland. The sub-group effectively operates as a parallel GloBE calculation track.
 
 ## 4. Separate ETR Calculation (Article 5.6)
 
@@ -195,6 +191,8 @@ Ireland Jurisdiction
     └── Ireland JV Co (25% owned, no subsidiaries)
     └── ETR Calculation #3: Stand-alone MOCE
 ```
+
+The possibility of multiple ETR calculations for a single jurisdiction represents one of the more complex aspects of GloBE compliance. Practitioners accustomed to thinking in terms of "the Ireland ETR" must adjust their mental model to recognise that there may be several Ireland ETRs within the same MNE Group. Documentation and calculation systems need to track which entities fall into which calculation pool. Errors at this stage—misclassifying an entity as main group when it should be MOCE, or vice versa—propagate through all subsequent calculations. Robust entity classification at the start of the GloBE process, with clear documentation of ownership percentages and consolidation bases, becomes essential for managing this complexity.
 
 ## 6. Worked Example: MOCE ETR Computation
 
@@ -280,6 +278,8 @@ Net Top-Up Tax:     €0
 
 **Key insight:** Without MOCE separation, Atlas Ireland's 12% ETR would have been blended with the main group's 11.80%, potentially affecting both calculations unfairly.
 
+The Atlas Ireland example illustrates both the mechanics and the policy rationale of MOCE treatment. If Atlas Ireland's 12% ETR were blended with the main group's 11.80% Ireland ETR, the combined result would be a weighted average somewhere between these figures—slightly higher than 11.80%. This would marginally reduce the main group's Top-Up Tax liability, with the benefit flowing to Stratos despite the fact that 72% of Atlas Ireland's taxes were economically borne by minority shareholders who have no stake in the main group's Ireland operations. The separate calculation prevents this cross-subsidisation. Importantly, Ireland's QDMTT captures both Top-Up Tax amounts (€426,394 for main group, €66,600 for the MOCE), meaning the revenue stays in Ireland regardless of the separate calculation requirement—but the separate calculation ensures accurate attribution of the minimum tax burden.
+
 ## 7. Minority-Owned Sub-Group Example
 
 ### 6.1 Scenario
@@ -341,6 +341,8 @@ Stratos's main group also has entities in Germany (SG Germany GmbH):
 
 **Important:** Nexus Germany GmbH is **excluded** from Main Group Germany's blending.
 
+The Nexus Sub-Group example demonstrates how the MOCE rules create entirely parallel calculation tracks within a single MNE Group. Stratos effectively runs two complete GloBE calculations: one for its main group (which includes its wholly-owned subsidiaries across various jurisdictions) and one for the Nexus Sub-Group (comprising Nexus Holdings BV and Nexus Germany GmbH, treated as if they were a separate MNE). The sub-group's high ETRs (25% in Netherlands, 28% in Germany) result in no Top-Up Tax for either jurisdiction within the sub-group. Meanwhile, the main group's Germany calculation covers only SG Germany GmbH. If Nexus Germany's 28% ETR were incorrectly included in the main group's Germany blending, it would artificially inflate the main group's Germany ETR—potentially shielding any German entities that might otherwise be low-taxed.
+
 ## 8. Top-Up Tax Allocation for MOCEs
 
 ### 8.1 Who Pays the Top-Up Tax?
@@ -388,6 +390,8 @@ Note: The full €66,600 is still computed and potentially collected
       via QDMTT, but the UPE's economic exposure is 28%.
 ```
 
+The allocation mechanics reveal an important nuance: while the UPE bears the legal obligation to pay Top-Up Tax on MOCEs through IIR, the economic burden should be understood in proportion to ownership. The full €66,600 Top-Up Tax exists because Atlas Ireland's overall operations generated undertaxed excess profits. Where Ireland collects this through QDMTT, the tax is paid locally by Atlas Ireland itself (reducing returns available to all shareholders proportionally). Where IIR applies instead (in jurisdictions without QDMTT), the UPE pays but its economic exposure is limited to its ownership share. In practice, joint venture agreements and shareholder arrangements may need to address how GloBE Top-Up Tax obligations are shared among the various parties with interests in the MOCE.
+
 ## 9. MOCE Interaction with Other Rules
 
 ### 9.1 De Minimis Exclusion
@@ -419,6 +423,8 @@ If a MOCE is an **Investment Entity**:
 |-------------|------------------|
 | MOCE (not Investment Entity) | Article 5.6 |
 | MOCE that is Investment Entity | Articles 7.4/7.5 (priority) |
+
+The interaction between MOCE rules and other GloBE provisions requires careful attention to ordering. For De Minimis purposes, MOCE revenue and income count toward the jurisdictional thresholds—this ensures that the De Minimis exclusion reflects the full scope of group activity in a jurisdiction, not artificially reduced figures that exclude MOCEs. However, if the jurisdiction does not qualify for De Minimis, the MOCE then receives separate ETR treatment. The Investment Entity priority rule addresses situations where an entity might technically meet both definitions: if it is both a MOCE (≤30% ownership, consolidated) and an Investment Entity (meeting the Article 7.4 criteria), the Investment Entity rules take precedence because they provide specialised treatment designed for the particular circumstances of investment funds and similar vehicles.
 
 ## 10. Decision Flowchart: MOCE Identification and Treatment
 
@@ -590,4 +596,12 @@ PART D: TOP-UP TAX ATTRIBUTION
 □ UPE Attributed Share:             €__________________
 □ Mechanism: IIR / QDMTT offset
 ```
+
+## Concluding Discussion
+
+The MOCE rules represent one of the more technically demanding aspects of GloBE compliance, requiring careful analysis of ownership structures and consolidation bases that may not be immediately apparent from standard tax documentation. Many MNE Groups include entities consolidated under control principles that result in minority economic ownership—joint ventures, variable interest entities, and arrangements where voting control differs from equity ownership. Each such entity must be evaluated against the MOCE criteria, with separate calculation tracks established where the 30% threshold is met.
+
+For practitioners, the MOCE rules demand integration between tax and accounting functions. The determination of whether an entity is consolidated—and on what basis—typically resides with the financial reporting team. The calculation of direct and indirect ownership percentages requires tracing through potentially complex ownership chains. Once MOCEs are identified, the GloBE calculation effectively bifurcates into main group and MOCE/sub-group tracks, each requiring its own jurisdictional blending, ETR computation, SBIE calculation, and Top-Up Tax determination. Documentation must clearly identify which entities fall into which calculation pool and demonstrate that the separate calculations were performed correctly.
+
+Looking forward, the MOCE rules may become increasingly relevant as MNE Groups adapt their structures to the Pillar Two environment. Joint ventures and minority investments have traditionally offered flexibility in structuring, but the GloBE implications of such arrangements now require explicit consideration. An entity that qualifies as a MOCE cannot benefit from blending with higher-taxed main group entities in the same jurisdiction—its low-tax status stands alone. Conversely, high-taxed MOCEs cannot shield main group entities from Top-Up Tax exposure. Understanding these dynamics becomes essential for both compliance accuracy and strategic structuring decisions in the post-GloBE landscape.
 

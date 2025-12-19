@@ -4,21 +4,9 @@
 
 After completing this chapter, you will be able to calculate the Top-Up Tax Percentage, compute Jurisdictional Top-Up Tax from Excess Profit, apply QDMTT offsets, and allocate Top-Up Tax to Low-Taxed Constituent Entities.
 
-## Key References
+## Introduction
 
-**OECD GloBE Model Rules:**
-- Article 5.2.1 — Top-Up Tax Percentage
-- Article 5.2.2 — Jurisdictional Top-Up Tax
-- Article 5.2.3 — Additional Current Top-Up Tax
-- Article 5.2.4 — Allocation to Low-Taxed Constituent Entities
-- Article 5.4.1 — ETR recalculation for prior periods
-
-**Administrative Guidance:**
-- February 2023: QDMTT offset mechanics
-- December 2023: Additional Current Top-Up Tax timing
-
-**OECD Commentary:**
-- Chapter 5, paragraphs 96-145 — Top-Up Tax computation methodology
+The Top-Up Tax computation translates the ETR shortfall identified in Chapter 5.1 into an actual tax liability. The process is straightforward in concept: multiply the gap between 15% and the actual ETR by the Excess Profit remaining after SBIE. Yet this mechanical calculation carries significant economic consequences. The resulting liability determines how much additional tax the MNE Group pays—and crucially, where that tax is collected. Jurisdictions that have implemented QDMTTs can intercept the Top-Up Tax, retaining the revenue domestically rather than ceding it to parent entity jurisdictions through the IIR or to UTPR jurisdictions. For groups with multiple low-taxed jurisdictions, the computation must be performed separately for each, and the resulting Top-Up Tax must be allocated to specific Constituent Entities within the jurisdiction—a step that matters for determining which parent in the ownership chain bears the IIR liability. Understanding these mechanics is essential for financial planning, provision calculations, and strategic responses to Pillar Two exposure.
 
 ## 1. The Complete Top-Up Tax Computation
 
@@ -124,6 +112,8 @@ Ireland has implemented a QDMTT. If Ireland collects the full Top-Up Tax domesti
 
 **Result:** No Top-Up Tax flows to parent entity under IIR—Ireland retains the tax.
 
+The QDMTT priority rule reflects a fundamental policy choice in the GloBE architecture: allowing source jurisdictions to collect the minimum tax themselves before ceding revenue to residence jurisdictions. This design respects sovereign taxing rights while still achieving the minimum rate objective. For the MNE Group, QDMTT makes little difference to the total tax bill—the same Top-Up Tax is paid either way. But for competing jurisdictions, the difference is significant: Ireland collecting its own QDMTT retains revenue that would otherwise flow to the UK parent's treasury through the IIR. This dynamic has driven rapid QDMTT adoption, with most low-tax jurisdictions implementing or planning domestic minimum taxes. For compliance purposes, groups must track which jurisdictions have QDMTTs, verify that the QDMTT is actually "qualified" under GloBE rules (meaning it calculates liability consistently with GloBE principles), and offset the QDMTT paid against IIR liability.
+
 ## 5. Step 4: Allocation to Low-Taxed Constituent Entities (Article 5.2.4)
 
 The Jurisdictional Top-Up Tax is allocated to Constituent Entities **in proportion to their GloBE Income**:
@@ -173,6 +163,8 @@ If a Constituent Entity has a **GloBE Loss**, it receives **no allocation**—lo
 
 **Allocation base:** €5,000,000 + €2,000,000 = €7,000,000
 
+The allocation step matters because it determines which entity—and therefore which parent in the ownership chain—bears the IIR liability. In a simple structure with one parent owning all subsidiaries directly, this may seem academic. But in complex group structures with multiple intermediate holding companies, the allocation can affect which jurisdiction's IIR applies and which entity must include the Top-Up Tax in its tax return. The exclusion of loss entities from the allocation denominator prevents a situation where entities with no income would nevertheless be assigned a share of the Top-Up Tax—a result that would be economically incoherent.
+
 ## 6. Additional Current Top-Up Tax (Article 5.2.3)
 
 Additional Current Top-Up Tax arises in specific situations:
@@ -215,6 +207,8 @@ When Additional Current Top-Up Tax is triggered:
 - Top-Up Tax % = 0.5%
 - Excess Profit (assume SBIE applied) = €40,000,000
 - Additional Current Top-Up Tax = €200,000 (payable in FY 2029)
+
+The Additional Current Top-Up Tax mechanism ensures that the GloBE framework operates correctly over time, not just at the moment of initial calculation. DTL recapture addresses the risk that entities claim deferred tax benefits that never actually materialise as tax payments. Post-filing adjustments address the reality that tax positions change after returns are filed. Without these retrospective corrections, groups could manipulate their ETR calculations knowing that initial claims would never be verified. The practical consequence for compliance teams is significant: they must maintain tracking systems that monitor prior-year positions for years after the original calculation, triggering recalculations when circumstances change.
 
 ## 7. Stratos Worked Example: Complete Top-Up Tax Computation
 
@@ -366,6 +360,8 @@ If UPE is NOT in an IIR jurisdiction:
     → UTPR jurisdictions collect Top-Up Tax via denied deductions
 ```
 
+The IIR-first, UTPR-backstop design reflects the framework's preference for residence-based collection while ensuring that the minimum tax cannot be avoided simply by locating the parent in a non-participating jurisdiction. For most MNE Groups with UPEs in OECD countries that have implemented Pillar Two, the IIR will be the primary collection mechanism. The UTPR becomes relevant primarily for groups headquartered in non-adopting jurisdictions—most notably, as of late 2024, the United States. Understanding which mechanism applies matters for financial statement provisioning, cash flow planning, and determining which tax authority will ultimately receive the Top-Up Tax.
+
 ## 10. Computation Flowchart
 
 ```
@@ -510,3 +506,5 @@ G1  UPE in IIR jurisdiction?                      YES / NO
     If YES: IIR applies → UPE pays Top-Up Tax
     If NO:  UTPR applies → Allocated to UTPR jurisdictions
 ```
+
+The Top-Up Tax computation brings together all the preceding analysis—GloBE Income, Covered Taxes, ETR calculation, and SBIE—into a final liability figure. For many groups, this number will be the most important outcome of the entire Pillar Two compliance process, directly affecting financial statements, cash flows, and strategic decisions. The QDMTT offset adds a layer of complexity that requires monitoring jurisdictional adoption and implementation timing. The allocation rules matter primarily for IIR purposes, determining which parent entity in potentially complex ownership structures bears the tax liability. Perhaps most importantly, the Top-Up Tax computation is not a one-time exercise: the Additional Current Top-Up Tax rules mean that groups must continue monitoring prior-year calculations for DTL recapture, post-filing adjustments, and other triggers that can create liability in subsequent years. Building systems that track these ongoing obligations is as important as performing the initial computation correctly.

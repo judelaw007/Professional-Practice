@@ -4,24 +4,9 @@
 
 After completing this chapter, you will be able to calculate the Substance-Based Income Exclusion (SBIE) using the payroll and tangible asset carve-outs, apply the correct transition rates for each fiscal year, and determine the Excess Profit subject to Top-Up Tax.
 
-## Key References
+## Introduction
 
-**OECD GloBE Model Rules:**
-- Article 5.3.1 — SBIE amount definition
-- Article 5.3.2 — Exclusion calculation (sum of carve-outs)
-- Article 5.3.3 — Payroll carve-out
-- Article 5.3.4 — Tangible asset carve-out
-- Article 5.3.5 — Location rules (50% threshold)
-- Article 9.2.1 — Transition payroll rates
-- Article 9.2.2 — Transition tangible asset rates
-- Article 10.1 — Definitions (Eligible Payroll Costs, Eligible Tangible Assets, Eligible Employees)
-
-**Administrative Guidance:**
-- June 2024: SBIE uses accounting carrying value, not GloBE carrying value
-- February 2023: Mobile employee allocation clarification
-
-**OECD Commentary:**
-- Chapter 5, paragraphs 52-95 — SBIE calculation methodology
+The Substance-Based Income Exclusion represents one of Pillar Two's most significant concessions to business reality. The framework's architects recognised that not all income in a low-tax jurisdiction represents tax-advantaged "excess profits." A manufacturing plant employing hundreds of workers, a distribution centre holding substantial inventory, a research facility with expensive equipment—these operations generate returns attributable to genuine economic activity, not to tax planning. Subjecting such "normal" returns to minimum taxation would unfairly penalise groups that have located real substance in countries with competitive tax rates. The SBIE addresses this by carving out a fixed percentage of payroll costs and tangible asset values from the Top-Up Tax base. The result: only "Excess Profit"—income beyond what normal returns on employees and physical assets would justify—is subject to Top-Up Tax. This design rewards substance and penalises hollow structures, aligning the framework's incentives with the broader goal of ensuring that taxing rights follow real economic activity.
 
 ## 1. What SBIE Does
 
@@ -98,6 +83,8 @@ The SBIE percentages are **higher** in early years and **reduce** over a 10-year
 
 **Practical implication:** In early transition years, the higher rates provide greater SBIE—reducing Top-Up Tax exposure. As rates decline, more income becomes subject to Top-Up Tax.
 
+The ten-year transition period serves a deliberate policy purpose: giving MNE Groups time to restructure their operations in response to the new rules. Groups with substantial low-tax operations based on genuine substance receive significant protection in early years, with that protection gradually declining as the framework matures. The transition rates also acknowledge that the "correct" percentage—the normal return on substance—is inherently uncertain. Starting high and reducing over time allows real-world experience to inform whether the permanent 5% rates are appropriate. Groups should factor the declining rates into long-term planning: an operation that generates no Top-Up Tax today due to generous SBIE may trigger liability in future years as the carve-out shrinks. This creates natural pressure to either increase substance or accept rising Top-Up Tax exposure.
+
 ### 3.2 Which Year's Rate Applies?
 
 Use the rate for the **fiscal year** being calculated based on when the fiscal year **begins**:
@@ -171,6 +158,8 @@ Carrying Value = Cost − Accumulated Depreciation − Impairment
 
 **June 2024 Administrative Guidance clarification:** Use the **accounting** carrying value, not GloBE-adjusted carrying value. Any adjustments to derive GloBE Income do not affect SBIE calculation.
 
+The distinction between tangible and intangible assets is fundamental to SBIE's policy design. Tangible assets—factories, equipment, buildings—represent physical investment that is inherently tied to a location. An MNE cannot move a manufacturing plant as easily as it can relocate IP ownership. By rewarding tangible assets but not intangibles, the framework incentivises the kind of investment that creates local jobs, requires local suppliers, and contributes to the local economy. Intangible assets, by contrast, have historically been the vehicle for profit shifting—easy to relocate, difficult to value, and often generating returns disproportionate to any local presence. Their exclusion from SBIE is intentional and reflects the framework's skepticism of profit allocations based primarily on IP ownership.
+
 ### 5.4 Average Carrying Value
 
 Article 5.3.4 requires using the **average** of opening and closing carrying values:
@@ -216,6 +205,8 @@ If an employee or tangible asset is located in a jurisdiction for **50% or less*
 | Netherlands | 200 | 55% | 55% of carrying value → Netherlands |
 | Belgium | 165 | 45% | 45% of carrying value → Belgium |
 
+The location rules for mobile employees and assets create practical compliance challenges but serve an important purpose: ensuring that substance is credited where it actually operates, not merely where it is legally based. A sales executive who spends most of their time visiting customers in multiple countries contributes substance to each of those countries, not just their home jurisdiction. Similarly, a fleet of trucks that operates across borders generates economic activity wherever they are used. These rules require groups to track employee time and asset locations with greater precision than many HR and asset management systems currently provide—an operational investment that Pillar Two compliance demands.
+
 ## 7. SBIE Cannot Create a Loss
 
 **Critical rule:** The SBIE cannot reduce Excess Profit below zero.
@@ -237,6 +228,8 @@ If SBIE exceeds Net GloBE Income, the excess is **lost**—it cannot be carried 
 | Excess Profit | MAX(0, €2M − €3.3M) = **€0** |
 
 **Result:** No Top-Up Tax, but €1,300,000 of "wasted" SBIE cannot be used elsewhere.
+
+The "no loss" rule and the prohibition on carrying forward excess SBIE reflect a deliberate policy choice: substance should shield income from Top-Up Tax, but it should not create negative Top-Up Tax or be transferable across jurisdictions or time periods. This prevents groups from accumulating substance in one jurisdiction and using it to shelter income in others, or from building up SBIE "credits" during low-profit years to offset high-profit years. Each year and each jurisdiction stands on its own. Groups with high-substance, low-profit operations may find this frustrating—they have genuine investment but cannot fully utilise the SBIE benefit—but the alternative would create opportunities for manipulation that the framework seeks to prevent.
 
 ## 8. Stratos Worked Example: Complete SBIE Calculation
 
@@ -490,3 +483,5 @@ The rates approximate a "normal" return on these investments, excluding it from 
 | Tech (asset-light) | Medium | Low | **Low-Medium** |
 
 **Practical implication:** MNEs with significant manufacturing or distribution operations in low-tax jurisdictions benefit most from SBIE.
+
+The SBIE represents Pillar Two's recognition that a global minimum tax should target undertaxation of mobile profits, not genuine business returns on local investment. By excluding a fixed percentage of payroll and tangible assets, the framework ensures that operations with real employees and physical infrastructure receive proportionate relief. This design choice has profound implications for business strategy: groups considering where to locate new operations can now factor SBIE into their analysis, potentially favouring jurisdictions where substantial investment produces meaningful carve-outs. The exclusion of intangible assets from SBIE is equally deliberate—IP-heavy structures without corresponding human capital or physical presence receive minimal protection, reflecting the framework's skepticism of profit allocations disconnected from genuine activity. For compliance purposes, groups must build robust data collection processes to capture payroll costs, track asset carrying values, and apply location rules for mobile employees and assets. The SBIE calculation is only as accurate as the underlying substance data, making investment in HR and fixed asset systems essential for accurate Pillar Two reporting.
