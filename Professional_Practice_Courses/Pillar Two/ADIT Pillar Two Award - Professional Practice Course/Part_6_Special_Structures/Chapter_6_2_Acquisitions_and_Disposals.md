@@ -4,6 +4,12 @@
 
 After completing this chapter, you will be able to apply GloBE rules to entity-level acquisitions and disposals, determine when share deals are treated as asset deals, apply the basis step-up election, calculate partial-year adjustments for SBIE, and handle deferred tax attribute transfers correctly.
 
+## Introduction
+
+The GloBE framework was designed primarily for groups with stable corporate structures—where the same Constituent Entities exist throughout the fiscal year and their income flows predictably through the consolidation process. Reality, of course, differs substantially. MNE Groups routinely acquire new businesses, dispose of underperforming divisions, and restructure their portfolios in response to market conditions. Each such transaction disrupts the steady-state assumption and raises questions about how to allocate GloBE Income, Covered Taxes, and SBIE benefits between periods of different ownership.
+
+This chapter addresses the Article 6.2 and 6.3 rules governing entity-level acquisitions and disposals. Unlike the merger rules in Chapter 6.1—which address the combination of entire groups—these provisions deal with individual entity transactions that change the composition of an existing MNE Group. The rules must accomplish several objectives simultaneously: ensuring that GloBE calculations accurately reflect economic substance during the consolidated period, preventing manipulation through transaction timing, and providing clarity about how deferred tax attributes transfer between groups. The framework's solution involves following consolidated financial statement treatment as the primary reference point, with specific adjustments for historical carrying values, tangible asset measurement, and deferred tax attribute transfers.
+
 ## 1. The Steady-State Assumption
 
 The GloBE Rules are generally drafted assuming the MNE Group has the **same Constituent Entities throughout the entire Fiscal Year**. Special rules address what happens when entities **join** or **leave** during the year.
@@ -78,6 +84,8 @@ Entity joins on 1 September (4 months in group):
 - SBIE asset amount: €10,000,000 × (4/12) = €3,333,333
 - Asset carve-out (7.8% for 2025): €3,333,333 × 7.8% = €260,000
 
+The requirement to use historical carrying values rather than purchase accounting fair values represents a significant departure from consolidated financial statement treatment. Under acquisition accounting, the acquired entity's assets are marked to fair value in the consolidated accounts, often creating step-ups that increase depreciation charges and reduce consolidated earnings. For GloBE purposes, however, the rules require looking through this accounting treatment to the entity's own historical basis. This prevents groups from artificially reducing GloBE Income through timing acquisitions to maximise fair value step-ups. It also ensures that the same economic profits generate consistent GloBE treatment regardless of whether they arise before or after an ownership change. The practical consequence is that GloBE Income for acquired entities may materially differ from their contribution to consolidated accounting profit.
+
 ## 3. Deferred Tax Attribute Transfer *(Article 6.2.1(f))*
 
 ### General Rule: Attributes Carry Over
@@ -121,6 +129,8 @@ When a target with existing DTLs joins an MNE Group:
 | Year 8 | — | **Recapture if not reversed** |
 
 The acquiring group has a full 5 years from acquisition to reverse the DTL.
+
+The DTL clock reset mechanism deserves particular attention because it creates both opportunities and obligations. When a target entity carries DTLs from temporary differences—perhaps from accelerated tax depreciation or deferred revenue recognition—those liabilities reflect future tax payments that reduce the entity's true after-tax value. Under GloBE, these DTLs contribute to Adjusted Covered Taxes in the year they arise, but they must reverse within five years or face recapture. The clock reset means the acquiring group receives a fresh five-year window regardless of how long the selling group had tracked the DTL. This is fair to the acquirer, who should not inherit a ticking clock they had no opportunity to manage, but it also means careful due diligence is required: acquiring a target with significant DTLs creates a five-year tracking obligation that must be built into the group's GloBE compliance processes from the transaction date.
 
 ## 4. Share Deals vs Asset Deals
 
@@ -196,6 +206,8 @@ Where local tax law treats share deal as asset deal:
 - Covered Taxes include the tax on deemed disposal
 - Acquiring group uses fair value basis for future GloBE calculations
 
+The Article 6.2.2 rule aligning GloBE treatment with local tax treatment for deemed asset disposals reflects the framework's broader approach of following economic substance as recognised by tax law. Certain jurisdictions—including the United States under Section 338(h)(10) elections—allow or require share purchases to be treated as asset acquisitions for tax purposes, typically resulting in a taxable gain or loss at the target level and a stepped-up tax basis for the acquirer. When this local tax treatment applies, it would be incongruous for GloBE to treat the transaction differently: the target genuinely recognises income for tax purposes and pays tax on that income, so both should flow through the GloBE calculation. The alignment also provides planning flexibility, as groups can consider whether making available local elections (like 338 elections) produces a more favourable GloBE outcome compared to standard share deal treatment.
+
 ## 5. Basis Step-Up Election *(Article 6.3.4)*
 
 ### When the Election Applies
@@ -266,6 +278,8 @@ If the entity leaves the MNE Group before the 5-year period ends, the **remainin
 - Year 1: €3,000,000 recognized
 - Year 2: €3,000,000 recognized
 - Year 3: €9,000,000 recognized (remaining €9M accelerated)
+
+The five-year spreading option for basis step-up elections addresses a genuine commercial concern: immediate recognition of a large gain could cause severe ETR distortion in the acquisition year. Consider a target with €15 million of built-in gain: immediate recognition would add €15 million to GloBE Income in a single year, potentially overwhelming other items in the jurisdictional calculation. If the corresponding tax (at, say, 12.5%) is €1.875 million, the step-up transaction itself has a 12.5% effective rate—but the impact on the overall jurisdictional ETR depends on the proportion this represents of total activity. Spreading over five years smooths this impact, allowing the gain recognition to blend more naturally with ongoing operations. The early exit acceleration rule prevents abuse: groups cannot spread the gain over five years and then sell the entity after year two to avoid recognising the remaining gain.
 
 ## 6. Comparison: Asset Deal vs Share Deal vs Step-Up Election
 
@@ -592,3 +606,11 @@ SECTION E: SUMMARY
 □ Elections made: _________________________
 □ Documentation complete?                        YES / NO
 ```
+
+## Concluding Discussion
+
+Acquisitions and disposals represent the most common form of corporate restructuring, and the GloBE rules governing these transactions reflect careful balancing of competing concerns. The framework must accurately measure minimum tax exposure during periods of partial-year ownership, prevent manipulation through strategic transaction timing, and provide workable rules for practitioners who must apply them in real-time deal contexts. The result is a system that follows consolidated financial statement treatment as its anchor point while layering specific GloBE adjustments for historical carrying values, deferred tax attributes, and basis step-ups.
+
+The distinction between share deals and asset deals—and the various permutations including deemed asset deals under Article 6.2.2 and voluntary step-up elections under Article 6.3.4—creates a matrix of possible treatments that practitioners must navigate carefully. The choice among these options affects not only the acquisition year but future years as well: a step-up election that increases GloBE Income in year one may reduce it in subsequent years through higher depreciation deductions on the stepped-up basis. Multi-year modelling is essential for any significant acquisition where these elections are available.
+
+For M&A practitioners, integrating GloBE analysis into deal execution has become essential. The due diligence process must now include detailed review of the target's deferred tax positions (particularly DTLs approaching their five-year recapture deadline), assessment of whether local law provides asset deal treatment or step-up elections, and modelling of the GloBE implications under different transaction structures. The closing process must capture precise asset values and payroll costs as of the transaction date for SBIE purposes. Post-closing integration must establish DTL tracking from day one. These requirements have made Pillar Two a standard element of M&A tax planning alongside traditional considerations of purchase price allocation and deal structuring.

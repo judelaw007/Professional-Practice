@@ -4,6 +4,12 @@
 
 After completing this chapter, you will be able to assess the impact of mergers and demergers on the €750 million revenue threshold, apply the retrospective combination rule for mergers, determine when demerged groups remain in scope, and handle partial-year treatment for entities entering or leaving an MNE Group.
 
+## Introduction
+
+Corporate restructuring—mergers, demergers, and group reorganisations—creates fundamental challenges for any tax regime built on annual consolidated accounts. The GloBE framework's reliance on a €750 million revenue threshold tested over four preceding years assumes a relatively stable corporate perimeter. When that perimeter changes mid-year through a major transaction, the question arises: which group exists, and for how long? Without special rules, sophisticated taxpayers could engineer transactions specifically designed to fall outside Pillar Two's scope—merging two sub-threshold groups post year-end to claim another year free of minimum tax obligations, or demerging profitable divisions to scatter taxable presence across multiple nominally independent groups.
+
+This chapter addresses Article 6.1's response to these concerns. The rules adopt contrasting approaches for mergers versus demergers, reflecting the different planning opportunities each presents. Mergers trigger retrospective combination—reconstructing history as if the merged group had always existed—to prevent avoidance through strategic timing. Demergers, by contrast, apply forward-looking tests that give emerging groups a chance to demonstrate their own revenue profile while ensuring genuinely large groups cannot escape the regime through structural fragmentation. Understanding these mechanics is essential for any practitioner advising on M&A transactions involving groups near the €750 million threshold.
+
 ## 1. The Revenue Threshold Challenge
 
 The standard €750 million threshold test looks at **revenue in 2 of 4 preceding fiscal years**. But what happens when:
@@ -78,6 +84,8 @@ exceed €750M in 2 of 4 preceding years.
 There is no transition period or phase-in for mergers.
 ```
 
+The retrospective combination approach reflects a deliberate anti-avoidance design. Consider the alternative: if merger scope were tested only on post-merger actual revenues, two groups each with €600 million in historical revenues could merge on 1 January of a fiscal year, operate as a combined €1.2 billion group for the entire year, yet claim exemption because the "merged group" had no historical revenues of its own. This would create an obvious planning opportunity—delay GloBE compliance by a full year simply by structuring the transaction date appropriately. By reconstructing history, the rules eliminate this timing arbitrage entirely. The merged group is treated as having always existed in its current form, and the threshold test applies to that reconstructed reality.
+
 ## 3. Demerger Rules *(Article 6.1.2)*
 
 ### 3.1 The Forward-Looking Test
@@ -124,6 +132,8 @@ When a group demerges, each resulting group is tested **forward** rather than re
 
 A group cannot avoid Pillar Two by demerging and then immediately re-merging. The combination rules would apply to reconstruct revenues.
 
+The forward-looking approach for demergers differs fundamentally from the retrospective merger treatment because the policy concerns differ. A demerger genuinely creates new, independent corporate groups—the demerged entities have their own management, their own boards, and their own economic trajectories. Reconstructing artificial "historical" revenues for entities that never existed as independent groups would be conceptually problematic. Instead, the rules give demerged groups a fresh start while ensuring that genuinely large operations cannot escape GloBE through artificial fragmentation. The Year 1 single-year test catches groups that immediately exceed €750 million, while the subsequent years test using the "2 of X" methodology ensures that groups with sustained large-scale operations come into scope even if their first year was anomalous. The anti-avoidance rule preventing immediate re-merger closes the obvious loophole: one cannot demerge to escape GloBE and then immediately reconstitute the original group.
+
 ## 4. Partial Year Treatment *(Article 6.2.1)*
 
 ### 4.1 Entities Joining Mid-Year
@@ -164,6 +174,8 @@ For SBIE purposes, tangible assets are **not prorated** like payroll. Instead:
 - Add €1,800,000 to Irish payroll for SBIE
 - Add €8,000,000 to Irish tangible assets for SBIE
 
+The different treatment of payroll versus tangible assets for partial-year SBIE purposes reflects practical considerations about how these expenses and assets should be measured. Payroll is a flow measure—wages paid during a period—so proration follows naturally: if the entity was consolidated for six months, include six months of payroll costs. Tangible assets, however, present a snapshot-in-time measurement challenge. The rules resolve this by using the asset value at the transaction date rather than attempting to construct an artificial "average" that spans periods of different ownership. This approach also has anti-avoidance benefits: it prevents manipulation through timing the acquisition to maximise the annual average tangible asset figure while bearing costs for only part of the year. The joined-date valuation provides a clear, auditable reference point.
+
 ## Deferred Tax Attributes *(Article 6.2.1(f))*
 
 ### 5.1 General Rule: Carry Over
@@ -194,6 +206,8 @@ If the selling group used the GloBE Loss Election, the acquiring group **cannot 
 1. Determine whether to make its own GloBE Loss Election for that jurisdiction, OR
 2. Apply the standard DTA approach
 
+The non-transferability of the GloBE Loss Election reflects its character as a jurisdictional-level group election rather than an entity-level attribute. The GloBE Loss Election represents a choice by the selling group about how to measure minimum tax exposure in a particular jurisdiction—a choice that balanced the selling group's circumstances, risk tolerance, and multi-year planning. When control changes, those considerations no longer apply. The acquiring group faces different circumstances and must make its own election based on its own assessment. Allowing automatic transfer would also create practical difficulties: the acquiring group might not even know whether the selling group had made the election, or might inherit an election that produces adverse results given the acquirer's different jurisdictional mix. Requiring a fresh election decision ensures conscious choice by the group that will bear the consequences.
+
 ## 6. Accounting Treatment: Merger vs Acquisition Accounting
 
 The accounting treatment of a business combination affects GloBE calculations:
@@ -220,6 +234,8 @@ The accounting treatment of a business combination affects GloBE calculations:
 Under acquisition accounting, the fair value step-up creates new temporary differences. These affect:
 - Future depreciation/amortisation (GloBE Income adjustments)
 - Deferred tax calculations (Covered Tax adjustments)
+
+The distinction between merger and acquisition accounting has significant GloBE implications that practitioners must carefully evaluate. Under merger accounting (increasingly rare under IFRS, which generally requires purchase accounting), assets retain their historical carrying values and no new basis differences arise. The acquired entity simply continues as before, with its existing depreciation schedules and tax attributes intact. Under acquisition accounting—the more common treatment—assets are marked to fair value, often creating step-ups that increase future depreciation charges in the acquiring group's consolidated accounts. For GloBE purposes, these higher depreciation charges reduce GloBE Income, but the corresponding deferred tax liabilities (reflecting the temporary difference between new book basis and unchanged tax basis) must be tracked under the five-year recapture rules. The choice of accounting treatment thus cascades through the entire GloBE calculation for years following the acquisition.
 
 ## 7. Decision Flowchart: Merger/Demerger Impact
 
@@ -494,3 +510,11 @@ SECTION E: SUMMARY
 □ Special elections needed?                    YES / NO
 □ Documentation complete?                      YES / NO
 ```
+
+## Concluding Discussion
+
+Mergers and demergers sit at the intersection of M&A practice and Pillar Two compliance, creating challenges that require coordination between deal teams, tax advisors, and finance functions. The retrospective combination rule for mergers eliminates what would otherwise be an obvious planning opportunity—delaying GloBE application by timing the merger date—but it also creates practical difficulties. Acquiring groups must reconstruct the target's historical revenues, often from limited due diligence information, to determine whether the combined group immediately falls within scope. This analysis should form part of standard Pillar Two due diligence for any significant acquisition.
+
+For demergers, the forward-looking test provides emerging groups with a genuine opportunity to establish their own GloBE position based on actual performance. However, this also creates uncertainty: a demerged group will not know with certainty whether it remains in scope until it has sufficient post-demerger history to apply the threshold tests. This uncertainty affects everything from compliance system design to financial statement disclosures.
+
+The partial-year rules and deferred tax attribute transfers add further complexity. Practitioners must carefully distinguish between items that prorate (payroll), items that use transaction-date values (tangible assets), items that transfer but reset (DTLs with their five-year clocks), and items that do not transfer at all (GloBE Loss Election). Building these distinctions into M&A integration checklists ensures that GloBE compliance starts correctly from day one of the combined group's existence. Failure to address these issues at the transaction stage can create compliance gaps that prove difficult to remedy retrospectively.

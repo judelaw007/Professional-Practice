@@ -4,6 +4,12 @@
 
 After completing this chapter, you will be able to identify when an entity qualifies as a Joint Venture for GloBE purposes, apply the separate ETR calculation requirement, allocate Top-Up Tax to the UPE based on ownership share, and distinguish JV treatment from MOCE and regular Constituent Entity treatment.
 
+## Introduction
+
+Joint ventures occupy a unique position in corporate group structures. Unlike fully-owned subsidiaries that are consolidated line-by-line in the parent's financial statements, joint ventures are typically equity-accounted—meaning the investor recognises only its share of the JV's profit or loss as a single line item, without consolidating individual assets, liabilities, revenues, and expenses. This accounting treatment reflects the economic reality that the investor shares control with one or more partners and cannot unilaterally direct the JV's activities. For GloBE purposes, however, equity accounting creates a potential gap: entities that escape line-by-line consolidation fall outside the standard definition of Constituent Entity, which could allow MNE Groups to shelter low-taxed income in joint venture structures.
+
+Article 6.4 addresses this gap by bringing joint ventures with at least 50% ownership into GloBE scope through special rules that treat the JV and its subsidiaries as a separate MNE Group. This chapter examines these rules in detail, including the criteria for JV classification, the separate ETR calculation methodology, and the mechanics of Top-Up Tax allocation to joint venture investors. Understanding JV treatment is essential because it differs meaningfully from both regular Constituent Entity treatment (with jurisdictional blending) and MOCE treatment (with entity-level separate calculation)—creating a third category with its own distinct rules.
+
 ## 1. Why Special Rules for Joint Ventures?
 
 Joint Ventures present a unique challenge for Pillar Two:
@@ -56,6 +62,8 @@ UPE Ownership < 50%  →  Does NOT qualify as JV
 
 **Important:** The ≥50% threshold brings **non-consolidated** entities into GloBE scope. Without this rule, an MNE could shelter income in 50/50 JVs that escape Pillar Two.
 
+The 50% ownership threshold represents a deliberate policy choice about where to draw the line for GloBE's extended reach. At 50% or more, the investor has sufficient ownership to benefit materially from the JV's low-taxed profits—and to influence, if not control, the JV's tax planning decisions. Below 50%, the ownership becomes more analogous to a portfolio investment where the investor is a passive recipient of returns rather than an active participant in the enterprise. The threshold also aligns roughly with accounting significance: investments of 20-50% typically receive equity-method treatment under IAS 28, while investments below 20% are often treated as fair value through P&L. By capturing entities at 50% and above, GloBE ensures that meaningful joint venture arrangements cannot be used to circumvent the minimum tax while avoiding extension to passive minority investments that present less policy concern.
+
 ## 3. Comparison: JV vs MOCE vs Regular CE
 
 | Feature | Joint Venture | MOCE | Regular CE |
@@ -92,6 +100,8 @@ JOINT VENTURE (50% owned, equity-accounted):
 │   JV Sub        │
 └─────────────────┘
 ```
+
+The distinction between these three categories—Regular CE, MOCE, and JV—reflects the framework's attempt to match GloBE treatment to economic substance. Regular Constituent Entities are fully within the group's control and consolidated; they blend with other entities in their jurisdiction because the UPE bears all the consequences of their combined performance. MOCEs are consolidated despite minority economic ownership, so they require separate calculation to prevent the UPE from benefiting from taxes borne by minority shareholders. JVs present the opposite situation: they are not consolidated despite significant ownership, so they require inclusion through the separate MNE Group mechanism to prevent undertaxed profits from escaping GloBE entirely. Each category receives treatment calibrated to its ownership and accounting characteristics.
 
 ## 4. The JV as a Separate MNE Group *(Article 6.4.1(a))*
 
@@ -150,6 +160,8 @@ JV Group Germany calculation:
 → Blend JV Entity + JV Sub 1 (both in Germany)
 → JV Sub 2 (Ireland) calculated separately within JV Group
 ```
+
+The "separate MNE Group" treatment for JVs creates a parallel calculation universe that operates independently from the main group. This has significant practical implications. The JV Group must maintain its own GloBE data collection, perform its own adjustments to arrive at GloBE Income and Adjusted Covered Taxes, and apply SBIE based on its own payroll and tangible assets. Where the JV has multiple subsidiaries, jurisdictional blending applies within the JV Group—but always separately from any main group entities in the same jurisdiction. This segregation ensures that a high-taxed JV cannot shield low-taxed main group entities (or vice versa) simply because they happen to operate in the same country. The complexity increases when multiple MNE Groups each have significant stakes in the same JV, as each must perform its own GloBE analysis from its own perspective as an investor.
 
 ## 6. Top-Up Tax Allocation *(Article 6.4.1(c))*
 
@@ -228,6 +240,8 @@ If the JV itself qualifies as a **POPE** (owned less than 80% by the main UPE), 
 │ → NOT allocated to Main UPE                                         │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+
+The POPE rules add another layer of complexity to JV treatment, shifting the charging mechanism when the main UPE's ownership falls below the 80% threshold. The policy rationale is consistency with the broader IIR architecture: POPEs with significant minority shareholders should collect Top-Up Tax on their subsidiaries directly, rather than having that tax liability flow up to a UPE that owns less than 80% of the intermediate parent. For JVs, this means distinguishing between Top-Up Tax on the JV entity itself (allocated to investors based on ownership percentage) and Top-Up Tax on JV subsidiaries (borne by the JV as POPE if ownership is below 80%). In practice, most 50/50 joint ventures will trigger POPE treatment, meaning each investor is only directly responsible for its share of the JV entity's own Top-Up Tax, with the JV itself bearing responsibility for subsidiary-level Top-Up Tax.
 
 ## 8. QDMTT Interaction
 
@@ -500,3 +514,11 @@ SECTION F: SUMMARY
 
 □ Documentation complete?                        YES / NO
 ```
+
+## Concluding Discussion
+
+Joint ventures represent one of the more complex areas of GloBE compliance, combining the challenges of non-consolidated entities, shared ownership, and multi-party coordination. The Article 6.4 rules bring JVs into scope through the "separate MNE Group" mechanism, but this creates significant practical hurdles. Each JV investor must independently gather the data needed to compute the JV Group's GloBE position, apply adjustments from the investor's own perspective, and determine its allocable share of any Top-Up Tax. Where multiple investors have GloBE obligations, coordination becomes essential—particularly for consistent treatment of elections and accounting policies within the JV.
+
+The interaction between JV rules and other GloBE provisions adds further complexity. QDMTT priority means that JV jurisdictions with domestic minimum taxes may collect Top-Up Tax locally, offsetting investors' IIR obligations. The POPE rules shift responsibility for subsidiary-level Top-Up Tax to the JV itself when ownership falls below 80%. The distinction between JVs (≥50% ownership, equity-accounted) and MOCEs (≤30% ownership, consolidated) requires careful attention to both ownership thresholds and accounting treatment.
+
+For groups with significant JV investments, building JV-specific GloBE processes is essential. This includes establishing data-sharing arrangements with JV partners, agreeing on methodologies for computing JV Group GloBE amounts, and developing systems to track the investor's allocable share of Top-Up Tax across potentially numerous JV investments. The compliance burden scales with the number and complexity of JV arrangements. Groups that historically treated JVs as "off-balance sheet" investments must now integrate them fully into their Pillar Two compliance infrastructure, recognising that significant JV ownership carries with it significant GloBE obligations.
