@@ -4,6 +4,10 @@
 
 After completing this chapter, you will be able to apply Article 4.6's asymmetric treatment rules for post-filing adjustments, distinguishing between increases (added to current year) and decreases (requiring prior-year recalculation) in Covered Taxes, and understand the immaterial exception, rate change rules, and recapture mechanisms.
 
+## Introduction
+
+Tax positions are rarely final when GloBE Information Returns are filed. Audits conclude years later; transfer pricing disputes are settled; uncertain positions are resolved; refunds are received. The GloBE framework must address how these post-filing developments affect ETR calculations that were completed using the best information available at the time. The solution—asymmetric treatment of increases versus decreases—reflects both practical and policy considerations. For increases in prior-year Covered Taxes, adding them to the current year is simple and works in the taxpayer's favour (improving current ETR). For decreases, however, simple current-year reduction would allow manipulation: groups could overstate Covered Taxes initially, then later obtain refunds while retaining the benefit of the original high ETR. Requiring recalculation for decreases prevents this gaming while ensuring accurate Top-Up Tax collection. The €1 million immaterial exception provides administrative relief for small adjustments that don't merit the compliance burden of prior-year recalculation.
+
 ## 1. The Asymmetric Treatment Principle
 
 GloBE treats increases and decreases in prior-year Covered Taxes differently:
@@ -221,6 +225,8 @@ Recapture triggered:
 | Recapture period | 3 years | 5 years |
 | Threshold | €1 million | No threshold |
 | Exceptions | None | Recapture Exception Accruals (REAs) |
+
+The recapture rules address a fundamental concern: that Covered Taxes should represent taxes that are actually paid, not merely accrued. Without recapture, groups could record optimistic current tax accruals to inflate their ETR, then quietly fail to pay those taxes—or claim DTL benefits for liabilities that never reverse. The three-year period for current tax and five-year period for deferred tax provide reasonable windows for payment or reversal while acknowledging that tax positions take time to resolve. The €1 million threshold for current tax recapture provides administrative relief for minor variances, recognising that perfect matching between accruals and payments is often impractical. The absence of a threshold for DTL recapture reflects greater concern about permanent deferrals—DTLs that simply never reverse represent claimed benefits without corresponding tax payments.
 
 ## 7. Transfer Pricing Adjustments
 
@@ -465,4 +471,6 @@ Article 4.6.1 applies:
 **Impact:** Incorrect use of exception
 
 **Solution:** Aggregate all CEs in jurisdiction when assessing threshold
+
+Post-filing adjustments create an ongoing compliance obligation that extends well beyond initial GIR preparation. Groups must establish monitoring systems to track audits, refunds, transfer pricing settlements, and payment status across all jurisdictions. The asymmetric treatment rules—seemingly straightforward in concept—create complexity in practice, particularly for groups with multiple simultaneous adjustments across different jurisdictions. The interplay with recapture rules adds another dimension: groups must track not only post-filing adjustments but also the underlying payment and reversal status of previously claimed taxes. Building robust tracking systems and maintaining clear documentation of each adjustment's treatment is essential. Groups should also consider the strategic implications: knowing that decreases trigger recalculation may influence decisions about whether to seek refunds, accept audit settlements, or pursue aggressive positions that might later be reversed.
 

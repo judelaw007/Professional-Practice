@@ -4,6 +4,10 @@
 
 This chapter provides a decision framework for the GloBE Loss Election under Article 4.5. The election offers an alternative to standard deferred tax accounting—creating a deemed 15% DTA on losses regardless of local tax treatment. Understanding when this election is beneficial versus detrimental is critical for optimising an MNE Group's Pillar Two position.
 
+## Introduction
+
+The GloBE framework's reliance on deferred tax accounting creates an inherent problem for entities in zero-tax or very low-tax jurisdictions: losses incurred there may generate no deferred tax asset under local accounting rules, leaving groups unable to offset past losses against future profits when calculating the jurisdictional ETR. A zero-tax jurisdiction has no tax base against which to recognise a DTA, meaning losses simply evaporate for GloBE purposes while profits trigger full top-up tax exposure. The GloBE Loss Election addresses this asymmetry by allowing groups to create a deemed DTA at the 15% minimum rate, regardless of local tax treatment. This election offers genuine benefits for zero-tax jurisdictions but comes with a significant trade-off: all other deferred tax attributes in the jurisdiction are ignored. Groups must carefully analyse their position before electing—the simplicity and loss benefits may be outweighed by the loss of valuable DTLs that would otherwise increase Covered Taxes.
+
 ## 1. What Is the GloBE Loss Election?
 
 The GloBE Loss Election allows an MNE Group to replace the standard deferred tax rules (Article 4.4) with a simplified loss carryforward mechanism that values losses at the 15% minimum rate.
@@ -137,6 +141,8 @@ Decision: Standard approach is €400K better → DO NOT ELECT
 **Rule:** Article 4.5 explicitly prohibits the GloBE Loss Election for EDTS jurisdictions
 
 **Reason:** EDTS has its own special treatment under Article 7.3
+
+The decision framework reveals that the GloBE Loss Election is not a universally beneficial choice—it is a targeted solution for specific circumstances. Zero-tax jurisdictions present the clearest case for election: without it, losses provide no GloBE benefit whatsoever. Low-tax jurisdictions below 15% represent a nuanced middle ground where the election may or may not be beneficial depending on the presence of DTLs. High-tax jurisdictions almost never benefit from election because the loss DTA is already capped at 15% under standard rules, while election would forfeit valuable DTLs. The critical insight is that election is an all-or-nothing choice for a jurisdiction—groups cannot cherry-pick the loss DTA benefit while retaining other deferred tax benefits. This forces a comprehensive analysis of the jurisdiction's expected deferred tax profile over time.
 
 ## 3. Decision Framework Flowchart
 
@@ -500,3 +506,29 @@ ETR impact: +13.1% (€1,050,000 ÷ €8,000,000)
 **Impact:** No benefit (DTA rate same); potential loss of DTLs
 
 **Solution:** Only elect for zero-tax or very low-tax jurisdictions after analysis
+
+### 12.2 Pitfall 2: Ignoring DTL Forfeit
+
+**Issue:** Electing without analysing existing or expected DTLs
+
+**Impact:** Valuable DTLs that would increase Covered Taxes are permanently lost
+
+**Solution:** Model both approaches before making election; quantify DTL benefit
+
+### 12.3 Pitfall 3: Making Entity-Level Election
+
+**Issue:** Attempting to elect for specific entities rather than jurisdiction
+
+**Impact:** Election is invalid; must apply to all CEs in jurisdiction
+
+**Solution:** Understand jurisdictional scope; accept all-or-nothing nature
+
+### 12.4 Pitfall 4: Forgetting Irrevocability Consequences
+
+**Issue:** Revoking election without understanding DTA forfeiture
+
+**Impact:** Accumulated GloBE Loss DTA balance goes to zero upon revocation
+
+**Solution:** Only revoke when DTA balance is depleted or when rate change makes revocation clearly beneficial
+
+The GloBE Loss Election represents one of the most consequential elections available under Pillar Two, and its impact compounds over time. For groups with substantial operations in zero-tax jurisdictions, election can prevent millions in otherwise unavoidable Top-Up Tax. For groups that elect prematurely or in inappropriate jurisdictions, the election can permanently destroy value by forfeiting DTLs that would have reduced Top-Up Tax exposure. The key to sound decision-making is rigorous financial modelling that projects both approaches over a meaningful time horizon—typically five to ten years. This modelling should incorporate expected losses and profits, anticipated timing differences, and potential changes in local tax regimes. The decision should also factor in compliance simplification value: for groups with complex deferred tax positions, the election's elimination of tracking requirements may have genuine operational value beyond the pure ETR impact.
