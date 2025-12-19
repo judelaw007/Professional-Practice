@@ -416,10 +416,3 @@ All **direct and indirect costs** attributable to shipping income must also be e
 **Problem:** Inland waterways within same jurisdiction are explicitly excluded.
 
 The international shipping exclusion rewards groups that structure their maritime operations thoughtfully, maintain genuine substance in shipping jurisdictions, and understand the precise boundaries of qualifying activities. It is not a blanket exemption for anything labelled "shipping" but a carefully circumscribed carve-out for traditional oceangoing transport and closely related ancillary activities. Groups entering or expanding in the maritime sector should build Pillar Two analysis into their structuring from the outset, ensuring that new activities are classified correctly and that strategic management requirements can be satisfied where exclusion is sought. For existing operators, a comprehensive mapping exercise—comparing current structures against Article 3.3's requirements—is an essential first step in managing Pillar Two exposure.
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 3.3.1 — Basic exclusion rule
-- Article 3.3.2 — International Shipping Income definition
-- Article 3.3.3 — Qualified Ancillary International Shipping Income

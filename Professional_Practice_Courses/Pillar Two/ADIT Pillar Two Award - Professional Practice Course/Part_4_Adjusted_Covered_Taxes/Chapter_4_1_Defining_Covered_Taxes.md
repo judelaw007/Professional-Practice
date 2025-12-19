@@ -4,6 +4,10 @@
 
 This chapter provides a practical framework for identifying which taxes qualify as "Covered Taxes" for GloBE purposes. The correct classification of taxes directly impacts the ETR numerator—include a non-qualifying tax and you overstate coverage; exclude a qualifying tax and you understate it. Both errors lead to incorrect top-up tax calculations.
 
+## Introduction
+
+The effective tax rate calculation that lies at the heart of Pillar Two requires two inputs: GloBE Income in the denominator and Covered Taxes in the numerator. While Part 3 addressed how to compute GloBE Income, this chapter tackles the equally important question of which taxes count toward meeting the 15% minimum. The answer is not as straightforward as it might seem. Countries impose a bewildering variety of levies—corporate income taxes, withholding taxes, turnover taxes, property taxes, digital services taxes, tonnage taxes, and countless others. Some clearly measure the taxation of corporate profits; others do not. Some substitute for income taxes; others exist alongside them. The GloBE framework must draw principled lines, crediting taxes that genuinely represent taxation of corporate income while excluding levies that serve other purposes. The four-category structure of Article 4.2.1 provides this architecture, distinguishing taxes on income, distribution taxes under special regimes, taxes imposed in lieu of corporate income tax, and taxes on retained earnings. Understanding these categories—and the exclusions that accompany them—is essential for accurate ETR computation.
+
 ## 1. The Starting Point: Current Tax Expense
 
 The Covered Taxes analysis begins with the current tax expense recorded in financial accounts (Article 4.1.1). This is the same financial accounting starting point used for GloBE Income under Article 3.1.
@@ -95,6 +99,8 @@ Taxes levied by reference to retained earnings or corporate equity, including mu
 - Must have income or retained earnings as a measurement component
 - Pure property or wealth taxes on assets (not equity) do not qualify
 
+The four-category structure reflects a deliberate policy choice to credit taxes that genuinely measure the taxation of corporate profits—whether imposed directly on net income, upon distribution of profits, as a substitute for net income taxation, or on accumulated earnings that represent undistributed profits. The common thread is that each category captures a levy whose base relates to what the company earns, not what it owns, sells, or consumes. This distinction matters because the 15% minimum rate is conceived as a floor on income taxation specifically. Crediting unrelated levies—however substantial—would undermine the framework's coherence. A company paying heavy property taxes but minimal income taxes is not meeting the policy objective, even if its total tax burden is significant.
+
 ## 3. What is NOT a Covered Tax
 
 Equally important is knowing what to exclude. The following are explicitly non-qualifying:
@@ -160,6 +166,8 @@ The QRTC treatment results in **8.2 percentage points higher ETR**—potentially
 | Is the refund amount limited to tax liability? | No |
 
 If all conditions are met → QRTC → Treat as GloBE Income, not reduction of Covered Taxes
+
+The QRTC distinction illustrates a nuanced policy choice within the GloBE framework. Refundable credits that can be converted to cash within four years are economically equivalent to government grants—the company receives value regardless of its tax liability. Treating such credits as income rather than as reductions in tax ensures they increase the ETR denominator rather than decrease the numerator, producing a higher ETR and reducing top-up tax exposure. This favourable treatment reflects recognition that refundable credits represent genuine support for activities like R&D, not tax gaming. By contrast, non-refundable credits merely reduce taxes otherwise payable—they provide no benefit if the company has insufficient tax liability. Treating them as reductions in Covered Taxes accurately reflects their economic effect. The four-year refundability window prevents jurisdictions from structuring credits to technically qualify as refundable while making actual refunds practically unavailable.
 
 ## 5. CFC Regime Taxes and Attribution
 
@@ -356,3 +364,14 @@ With QRTC adjustment:
 Note: This interacts with the International Shipping Exclusion (Article 3.3)—if shipping income is excluded from GloBE Income, the related tonnage tax should also be excluded from Covered Taxes.
 
 ### 8.4 Challenge 4: Branch Profits Tax
+
+**Issue:** Some jurisdictions impose a second-tier tax on profits remitted by a branch to its foreign head office.
+
+**Analysis:**
+- Branch profits tax is imposed on the repatriation of profits, not on the earning of profits
+- It is economically similar to withholding tax on dividends
+- Generally levied on gross remittances
+
+**Result:** Branch profits tax is generally a **Covered Tax** (Category 1 or 3, depending on structure)
+
+These classification challenges highlight a recurring theme in Covered Tax analysis: the need to look beyond a tax's label to understand its economic substance. A "digital services tax" may sound like a modern income tax but operates as a turnover levy. A "tonnage tax" may seem unrelated to income but functions as a substitute for corporate income tax. The GloBE framework demands substance-over-form analysis, examining whether each levy genuinely represents taxation of corporate profits. Groups with diverse operations across multiple jurisdictions must develop systematic approaches to classification, documenting the analysis for each tax type and jurisdiction. The stakes are significant—miscategorising a substantial tax can swing the ETR by several percentage points, potentially transforming a compliant jurisdiction into one triggering top-up tax.

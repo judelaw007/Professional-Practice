@@ -508,14 +508,3 @@ Stratos Group plc (UK)
 **Correct:** Reduce GloBE Income by share attributable to non-CE owners.
 
 The PE and flow-through allocation rules reveal the GloBE framework's fundamental commitment to jurisdictional accuracy over simplicity. The drafters could have imposed uniform classifications—treating all PEs as part of their main entities, or mandating that all flow-throughs are transparent. Instead, they chose to work with the rich diversity of existing domestic and treaty classifications, creating a set of allocation rules that respect those classifications while ensuring comprehensive coverage. The result is a technically demanding area of compliance that requires groups to understand not just their own legal structures, but how each jurisdiction in their chain views every entity. For groups with complex PE networks or multi-tier flow-through structures, building and maintaining accurate classification databases is essential. The June 2024 Administrative Guidance on chain resolution provides welcome clarification, but the fundamental challenge remains: the GloBE calculation is only as accurate as the underlying entity classification analysis.
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 3.4 — Permanent Establishment Income Allocation
-- Article 3.5 — Flow-Through Entity Treatment
-- Article 10.1 — PE Definition
-- Article 10.2 — Flow-Through Entity Definitions
-
-**Administrative Guidance:**
-- June 2024 Guidance — Chain Resolution for Stacked Flow-Throughs
