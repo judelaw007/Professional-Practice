@@ -165,6 +165,8 @@ When GloBE Income is small, even modest Covered Taxes can produce very high ETRs
 
 **Practical note:** Small jurisdictions with minimal activity often have high ETRs due to fixed minimum taxes or registration fees. The De Minimis Exclusion (Chapter 5.5) addresses this.
 
+These special cases reveal the mathematical edge conditions that the ETR formula must handle. The negative denominator rule is straightforward—you cannot meaningfully measure a tax rate on negative income. The negative numerator scenario is more interesting: it produces a negative ETR, which is mathematically valid and indicates that the jurisdiction is definitely low-taxed (indeed, it is effectively subsidising the entity). The very small income scenario creates the opposite problem—extremely high ETRs that may not reflect the economic reality of the jurisdiction's tax regime. These edge cases require practitioners to exercise judgment, not just apply formulas mechanically.
+
 ## 5. The Complete ETR Calculation Process
 
 ### 5.1 ETR Calculation Flowchart
@@ -275,6 +277,8 @@ ETR (Ireland) = ─────────────────── = 0.11
 | Singapore | €4,000,000 | €392,206 | 9.81% | **Low-taxed** |
 | Ireland | €15,000,000 | €1,770,000 | 11.80% | **Low-taxed** |
 
+The Stratos example illustrates how the same multinational can have dramatically different outcomes across jurisdictions. Germany's substantial manufacturing operations generate sufficient tax to exceed the 15% threshold comfortably. Singapore and Ireland—despite being home to valuable IP and significant business activity—fall short of the minimum rate. This pattern is common: jurisdictions with preferential tax regimes for certain income types often produce below-threshold ETRs even when the MNE has genuine substance there. The ETR calculation makes no distinction between "good" and "bad" low taxation—it simply measures whether the jurisdiction meets the minimum rate.
+
 ## 7. Multi-Entity Jurisdictions: Blending in Practice
 
 ### 7.1 Scenario: UK Jurisdiction with Multiple Entities
@@ -344,6 +348,8 @@ ETR (UK) = ───────────── = 29.08%
 **Error:** Using GloBE Income from Case Study 3 without the QRTC addition.
 
 **Correct approach:** If QRTCs were identified in Part 4, the corresponding addition to GloBE Income (Article 3.2.10) must be reflected in the denominator.
+
+These pitfalls share a common theme: they arise from treating the ETR calculation as a simple division rather than as the culmination of a complex, interconnected process. The jurisdictional aggregation requirement means that groups cannot isolate problematic entities—they must understand their entire footprint in each country. The rounding precision matters because the 15% threshold is absolute, not approximate. The QRTC coordination requirement reflects the dual nature of refundable credits in the GloBE framework. Each error can cascade into incorrect Top-Up Tax determinations, making attention to detail essential.
 
 ## 9. ETR Calculation Worksheet
 

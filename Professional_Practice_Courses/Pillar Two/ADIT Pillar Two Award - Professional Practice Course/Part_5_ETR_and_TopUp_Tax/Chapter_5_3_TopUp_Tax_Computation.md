@@ -163,6 +163,8 @@ If a Constituent Entity has a **GloBE Loss**, it receives **no allocation**—lo
 
 **Allocation base:** €5,000,000 + €2,000,000 = €7,000,000
 
+The allocation step matters because it determines which entity—and therefore which parent in the ownership chain—bears the IIR liability. In a simple structure with one parent owning all subsidiaries directly, this may seem academic. But in complex group structures with multiple intermediate holding companies, the allocation can affect which jurisdiction's IIR applies and which entity must include the Top-Up Tax in its tax return. The exclusion of loss entities from the allocation denominator prevents a situation where entities with no income would nevertheless be assigned a share of the Top-Up Tax—a result that would be economically incoherent.
+
 ## 6. Additional Current Top-Up Tax (Article 5.2.3)
 
 Additional Current Top-Up Tax arises in specific situations:
@@ -205,6 +207,8 @@ When Additional Current Top-Up Tax is triggered:
 - Top-Up Tax % = 0.5%
 - Excess Profit (assume SBIE applied) = €40,000,000
 - Additional Current Top-Up Tax = €200,000 (payable in FY 2029)
+
+The Additional Current Top-Up Tax mechanism ensures that the GloBE framework operates correctly over time, not just at the moment of initial calculation. DTL recapture addresses the risk that entities claim deferred tax benefits that never actually materialise as tax payments. Post-filing adjustments address the reality that tax positions change after returns are filed. Without these retrospective corrections, groups could manipulate their ETR calculations knowing that initial claims would never be verified. The practical consequence for compliance teams is significant: they must maintain tracking systems that monitor prior-year positions for years after the original calculation, triggering recalculations when circumstances change.
 
 ## 7. Stratos Worked Example: Complete Top-Up Tax Computation
 
@@ -355,6 +359,8 @@ The **UTPR** applies if:
 If UPE is NOT in an IIR jurisdiction:
     → UTPR jurisdictions collect Top-Up Tax via denied deductions
 ```
+
+The IIR-first, UTPR-backstop design reflects the framework's preference for residence-based collection while ensuring that the minimum tax cannot be avoided simply by locating the parent in a non-participating jurisdiction. For most MNE Groups with UPEs in OECD countries that have implemented Pillar Two, the IIR will be the primary collection mechanism. The UTPR becomes relevant primarily for groups headquartered in non-adopting jurisdictions—most notably, as of late 2024, the United States. Understanding which mechanism applies matters for financial statement provisioning, cash flow planning, and determining which tax authority will ultimately receive the Top-Up Tax.
 
 ## 10. Computation Flowchart
 

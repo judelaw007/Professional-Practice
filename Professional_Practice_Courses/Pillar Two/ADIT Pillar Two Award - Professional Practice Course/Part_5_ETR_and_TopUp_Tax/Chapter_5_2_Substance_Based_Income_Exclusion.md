@@ -158,6 +158,8 @@ Carrying Value = Cost − Accumulated Depreciation − Impairment
 
 **June 2024 Administrative Guidance clarification:** Use the **accounting** carrying value, not GloBE-adjusted carrying value. Any adjustments to derive GloBE Income do not affect SBIE calculation.
 
+The distinction between tangible and intangible assets is fundamental to SBIE's policy design. Tangible assets—factories, equipment, buildings—represent physical investment that is inherently tied to a location. An MNE cannot move a manufacturing plant as easily as it can relocate IP ownership. By rewarding tangible assets but not intangibles, the framework incentivises the kind of investment that creates local jobs, requires local suppliers, and contributes to the local economy. Intangible assets, by contrast, have historically been the vehicle for profit shifting—easy to relocate, difficult to value, and often generating returns disproportionate to any local presence. Their exclusion from SBIE is intentional and reflects the framework's skepticism of profit allocations based primarily on IP ownership.
+
 ### 5.4 Average Carrying Value
 
 Article 5.3.4 requires using the **average** of opening and closing carrying values:
@@ -203,6 +205,8 @@ If an employee or tangible asset is located in a jurisdiction for **50% or less*
 | Netherlands | 200 | 55% | 55% of carrying value → Netherlands |
 | Belgium | 165 | 45% | 45% of carrying value → Belgium |
 
+The location rules for mobile employees and assets create practical compliance challenges but serve an important purpose: ensuring that substance is credited where it actually operates, not merely where it is legally based. A sales executive who spends most of their time visiting customers in multiple countries contributes substance to each of those countries, not just their home jurisdiction. Similarly, a fleet of trucks that operates across borders generates economic activity wherever they are used. These rules require groups to track employee time and asset locations with greater precision than many HR and asset management systems currently provide—an operational investment that Pillar Two compliance demands.
+
 ## 7. SBIE Cannot Create a Loss
 
 **Critical rule:** The SBIE cannot reduce Excess Profit below zero.
@@ -224,6 +228,8 @@ If SBIE exceeds Net GloBE Income, the excess is **lost**—it cannot be carried 
 | Excess Profit | MAX(0, €2M − €3.3M) = **€0** |
 
 **Result:** No Top-Up Tax, but €1,300,000 of "wasted" SBIE cannot be used elsewhere.
+
+The "no loss" rule and the prohibition on carrying forward excess SBIE reflect a deliberate policy choice: substance should shield income from Top-Up Tax, but it should not create negative Top-Up Tax or be transferable across jurisdictions or time periods. This prevents groups from accumulating substance in one jurisdiction and using it to shelter income in others, or from building up SBIE "credits" during low-profit years to offset high-profit years. Each year and each jurisdiction stands on its own. Groups with high-substance, low-profit operations may find this frustrating—they have genuine investment but cannot fully utilise the SBIE benefit—but the alternative would create opportunities for manipulation that the framework seeks to prevent.
 
 ## 8. Stratos Worked Example: Complete SBIE Calculation
 
