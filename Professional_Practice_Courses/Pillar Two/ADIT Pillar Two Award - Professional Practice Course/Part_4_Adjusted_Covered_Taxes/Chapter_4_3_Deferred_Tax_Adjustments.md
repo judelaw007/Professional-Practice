@@ -596,18 +596,3 @@ Update annually with actual reversals. If balance remains at Y5 end, calculate U
 **Solution:** Document specific REA category for each DTL with supporting analysis
 
 The deferred tax adjustment process represents one of the most technically demanding aspects of GloBE compliance. Unlike current tax expense—which derives from a single P&L line with defined adjustments—the DTAA requires detailed analysis of every deferred tax item in the balance sheet. Groups must understand their deferred tax positions at a granular level: what each item represents, what rate it's measured at, whether it falls within an exclusion category, whether it qualifies as an REA, and if not, whether it will reverse within five years. This granularity often reveals gaps in underlying tax accounting that may not have mattered for financial reporting but become critical for GloBE. Building the systems and processes to generate, track, and maintain this information is a significant undertaking—but one that cannot be deferred once GloBE obligations begin.
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 4.4.1 — Deferred Tax Adjustment Rules
-- Article 4.4.3 — GloBE Loss DTA Recasting
-- Article 4.4.4 — DTL Recapture Rule
-- Article 4.4.5 — Recapture Exception Accruals
-- Article 4.4.7 — Unclaimed Accrual Election
-- Article 4.5 — GloBE Loss Election
-- Article 9.1 — Transition Year Rules
-
-**Administrative Guidance:**
-- February 2023 Guidance — Rate Cap Application
-- June 2024 Guidance — Leased Asset REA Treatment

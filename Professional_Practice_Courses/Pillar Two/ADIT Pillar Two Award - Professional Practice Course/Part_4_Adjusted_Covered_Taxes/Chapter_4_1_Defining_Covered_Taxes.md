@@ -375,15 +375,3 @@ Note: This interacts with the International Shipping Exclusion (Article 3.3)—i
 **Result:** Branch profits tax is generally a **Covered Tax** (Category 1 or 3, depending on structure)
 
 These classification challenges highlight a recurring theme in Covered Tax analysis: the need to look beyond a tax's label to understand its economic substance. A "digital services tax" may sound like a modern income tax but operates as a turnover levy. A "tonnage tax" may seem unrelated to income but functions as a substitute for corporate income tax. The GloBE framework demands substance-over-form analysis, examining whether each levy genuinely represents taxation of corporate profits. Groups with diverse operations across multiple jurisdictions must develop systematic approaches to classification, documenting the analysis for each tax type and jurisdiction. The stakes are significant—miscategorising a substantial tax can swing the ETR by several percentage points, potentially transforming a compliant jurisdiction into one triggering top-up tax.
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 4.1 — Adjusted Covered Taxes
-- Article 4.2 — Covered Taxes Definition
-- Article 3.2.10 — QRTC Treatment
-- Article 4.3.2(c) — CFC Tax Push-Down
-
-**Administrative Guidance:**
-- February 2023 Guidance — QRTC Classification
-- June 2024 Guidance — CFC Tax Allocation

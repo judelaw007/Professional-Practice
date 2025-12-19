@@ -496,16 +496,3 @@ Adjusted GloBE Income:              €53,880,000
 **Solution:** Review full tax reconciliation in notes; include taxes in equity/OCI
 
 The current tax adjustment process ultimately serves the goal of ensuring that Covered Taxes accurately reflects the taxes that will actually be paid on current-year income. This requires looking beyond the P&L tax line to capture taxes recorded elsewhere, while simultaneously excluding items that represent uncertainty or relate to excluded income. Groups developing GloBE compliance processes should establish systematic workpapers that address each adjustment category, with clear documentation of the analysis performed. The CFC push-down rules add particular complexity for groups with extensive CFC exposure, requiring coordination between the parent entity's analysis and subsidiary-level calculations. The three-year recapture monitoring obligation creates an ongoing compliance burden that extends well beyond the initial filing year. Building robust tracking systems from the outset is essential to avoid recapture surprises in future periods.
-
-## Key References
-
-**OECD GloBE Model Rules:**
-- Article 4.1.2 — Additions to Covered Taxes
-- Article 4.1.3 — Subtractions from Covered Taxes
-- Article 4.3.2(c) — CFC Tax Push-Down
-- Article 4.3.3 — Passive Income Limitation
-- Article 4.6.4 — Three-Year Recapture
-
-**Administrative Guidance:**
-- February 2023 Guidance — GILTI Allocation
-- June 2024 Guidance — CFC Tax Allocation Formula
