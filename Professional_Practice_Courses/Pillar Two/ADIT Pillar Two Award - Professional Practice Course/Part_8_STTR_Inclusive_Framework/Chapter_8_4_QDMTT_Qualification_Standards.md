@@ -4,6 +4,14 @@
 
 After completing this chapter, you will be able to apply the three qualification standards (Accounting, Consistency, Administration) that determine whether a jurisdiction's QDMTT qualifies for Safe Harbour status, understand the peer review process for QDMTT qualification, identify jurisdictions with qualified QDMTT status, and monitor for ongoing qualification changes.
 
+## Introduction
+
+The QDMTT qualification framework represents one of Pillar Two's most significant practical innovations. Without it, MNE groups operating in jurisdictions with domestic minimum top-up taxes would face a compliance nightmare: calculating Top-Up Tax twice using potentially different methodologies, then reconciling the results to determine any residual IIR liability. The qualification standards and Safe Harbour mechanism eliminate this burden for jurisdictions that implement QDMTT consistently with GloBE Rules.
+
+Understanding why qualification matters requires appreciating the relationship between domestic and international collection mechanisms. A QDMTT allows jurisdictions to retain Top-Up Tax revenue locally rather than ceding it to UPE jurisdictions through IIR. But this preferential treatment only makes sense if the domestic tax actually achieves Pillar Two's objectives—taxing undertaxed profits at an effective rate reaching 15%. The three qualification standards ensure that a jurisdiction's QDMTT delivers equivalent outcomes to GloBE calculations, preventing regimes that nominally comply while practically falling short.
+
+The peer review process that determines qualified status reveals Pillar Two's reliance on multilateral coordination. Individual jurisdictions cannot unilaterally declare their QDMTT qualified; they must submit to Inclusive Framework scrutiny. This mechanism creates accountability while maintaining flexibility for legitimate implementation variations. For practitioners, monitoring qualified status is not optional—changes directly affect whether Safe Harbour applies and whether residual IIR calculations are required.
+
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │ QDMTT QUALIFICATION FRAMEWORK                                       │
@@ -140,6 +148,8 @@ ONGOING MONITORING:
 | **Consistency** | Calculation methodology | Aligns with GloBE Rules |
 | **Administration** | Practical application | Applied consistently, no circumvention |
 
+The three standards address different dimensions of QDMTT integrity. The Accounting Standard ensures calculations rest on reliable financial data—the same quality of information that underlies GloBE calculations at group level. The Consistency Standard prevents jurisdictions from cherry-picking favourable aspects of the GloBE methodology while discarding others that might increase liability. The Administration Standard guards against the risk that well-designed legislation is undermined by lax enforcement or administrative practices that effectively nullify the minimum tax. Together, these standards create a framework where MNE groups can trust that QDMTT paid in a qualified jurisdiction genuinely satisfies Pillar Two requirements.
+
 ## QDMTT Safe Harbour
 
 ### What Is the QDMTT Safe Harbour?
@@ -188,6 +198,8 @@ For QDMTT Safe Harbour to apply:
 | **Accounting Standard** | Financial accounts audited or required by law |
 | **No MNE exclusion** | MNE must actually be subject to the QDMTT |
 | **Central Record listing** | Jurisdiction listed on OECD Central Record |
+
+The Safe Harbour's practical significance extends beyond eliminating residual IIR. It removes the compliance burden of performing parallel calculations—one under local QDMTT rules, another under GloBE methodology—and reconciling differences. For groups with operations across multiple qualified QDMTT jurisdictions, this represents substantial administrative relief. The Safe Harbour also provides certainty: once a jurisdiction achieves qualified status and is listed on the Central Record, MNE groups can rely on QDMTT as the exclusive minimum tax obligation for that jurisdiction without concern that minor methodology differences will trigger unexpected IIR liability.
 
 ## Peer Review Process
 
@@ -286,6 +298,8 @@ EFFECT OF SWITCH-OFF:
 NOTE: Switch-off is jurisdictional, not entity-specific
       All MNEs in that jurisdiction affected
 ```
+
+The switch-off mechanism creates powerful incentives for jurisdictions to maintain QDMTT integrity. Losing qualified status means revenue leakage to UPE jurisdictions—a tangible economic consequence that concentrates political attention on compliance. For MNE groups, the mechanism introduces risk that must be monitored: a jurisdiction's qualified status today does not guarantee status tomorrow. Legislative amendments, administrative practice changes, or the introduction of offsetting tax benefits can all trigger switch-off. The jurisdictional rather than entity-specific nature of switch-off means that all affected MNE groups lose Safe Harbour simultaneously, making this a systemic rather than individual compliance risk.
 
 ## Central Record of Qualified Jurisdictions
 
@@ -506,9 +520,9 @@ List all jurisdictions where group has low-taxed entities:
 
 | Jurisdiction | ETR < 15%? | Has QDMTT? | Effective Date |
 |--------------|------------|------------|----------------|
-| | | | |
-| | | | |
-| | | | |
+| — | — | — | — |
+| — | — | — | — |
+| — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION B: THREE STANDARDS ASSESSMENT
@@ -543,8 +557,8 @@ SECTION C: CENTRAL RECORD VERIFICATION
 
 | Jurisdiction | Listed on Central Record? | Safe Harbour Status? | Verified Date |
 |--------------|--------------------------|---------------------|---------------|
-| | | | |
-| | | | |
+| — | — | — | — |
+| — | — | — | — |
 
 Central Record URL checked: _________________________
 Date of Central Record version: _________________________
@@ -555,8 +569,8 @@ SECTION D: SAFE HARBOUR APPLICATION
 
 | Jurisdiction | QDMTT Qualified? | Safe Harbour Applies? | IIR Result |
 |--------------|-----------------|----------------------|------------|
-| | | | |
-| | | | |
+| — | — | — | — |
+| — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION E: COMPLIANCE IMPACT
@@ -571,3 +585,10 @@ Total IIR payable to UPE jurisdiction: €__________________
 Next review date: _________________________
 ```
 
+## Concluding Discussion
+
+QDMTT qualification standards represent the mechanism through which Pillar Two balances domestic sovereignty with international coordination. Jurisdictions retain the right to collect minimum top-up tax locally, but only if their legislation and administration meet internationally agreed standards. This compromise enables the system to function without forcing revenue entirely to UPE jurisdictions while ensuring that domestic collection achieves Pillar Two's objectives.
+
+For MNE groups, the practical impact of qualified QDMTT status is substantial. Operations in jurisdictions like Ireland, Germany, and Singapore—all with qualified QDMTT from their respective effective dates—benefit from streamlined compliance: pay the local QDMTT, claim Safe Harbour, and eliminate residual IIR liability. Operations in jurisdictions without QDMTT, or with non-qualified domestic minimum taxes, require full GloBE calculations with Top-Up Tax flowing to the UPE jurisdiction.
+
+The qualification landscape will continue to evolve as more jurisdictions implement QDMTT and as the peer review process matures from transitional self-certification to comprehensive legislative review. Groups should build monitoring processes that track Central Record updates, anticipate qualification changes, and maintain flexibility to adjust compliance approaches when jurisdictional status changes. The investment in understanding qualification standards pays dividends across every jurisdiction where QDMTT applies—translating into both compliance simplification and certainty about where minimum tax obligations lie.

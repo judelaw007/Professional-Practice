@@ -4,6 +4,14 @@
 
 After completing this chapter, you will be able to identify payments subject to the Subject to Tax Rule (STTR), calculate the adjusted nominal tax rate and STTR specified rate, apply the mark-up proxy to exclude low-risk transactions, and understand how STTR interacts with existing tax treaties and the GloBE Rules.
 
+## Introduction
+
+The Subject to Tax Rule (STTR) addresses a fundamental concern that emerged during Pillar Two's development: while the GloBE Rules primarily benefit residence jurisdictions through the Income Inclusion Rule, developing countries that serve as source jurisdictions risk seeing minimal benefit from the global minimum tax framework. The STTR responds to this by granting source countries an additional taxing right over certain intra-group payments that would otherwise flow to low-tax jurisdictions with minimal taxation at either end.
+
+Understanding the STTR requires recognising its distinct character within the Pillar Two architecture. Unlike the GloBE Rules, which operate through domestic legislation and measure effective taxation at the jurisdictional level, the STTR is a treaty-based mechanism that applies payment-by-payment to specific categories of mobile income. The 9% threshold reflects a deliberate policy choice—set below the 15% GloBE minimum to ensure the STTR captures only the most egregious cases of base erosion through intra-group payments to very low-tax jurisdictions.
+
+The STTR's significance extends beyond its direct revenue impact. It represents a political compromise ensuring developing countries remain committed to the Two-Pillar Solution, recognising that these jurisdictions often lack the corporate presence necessary to benefit from IIR collections. For MNE groups, the STTR introduces compliance complexity for cross-border payments, requiring analysis of recipient jurisdiction tax treatment, treaty modifications, and interaction with GloBE calculations.
+
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │ PILLAR TWO: TWO COMPLEMENTARY MECHANISMS                            │
@@ -34,6 +42,8 @@ The STTR addresses a specific concern of **developing countries**:
 | Developing countries often serve as **source** jurisdictions | STTR grants source countries the right to "tax back" undertaxed payments |
 | Existing treaties may limit withholding tax rates | STTR overrides treaty limits for covered payments |
 | GloBE Rules primarily benefit **residence** jurisdictions (via IIR) | STTR ensures source countries capture some minimum tax |
+
+The STTR's design reflects the reality of global tax treaty networks. Many developing countries entered into bilateral treaties that reduced or eliminated withholding taxes on royalties, interest, and service fees to attract inward investment. These concessions made economic sense when the payments flowed to jurisdictions that would tax them at normal corporate rates. However, the rise of IP holding structures and financing hubs in low-tax jurisdictions exploited these treaty networks, allowing income to flow from developing country sources to group entities with minimal effective taxation. The STTR provides a correction mechanism: where the recipient jurisdiction taxes covered payments below 9%, the source country regains taxing rights it previously surrendered.
 
 ## 1. STTR Scope: Covered Income
 
@@ -180,9 +190,7 @@ Where:
 | Singapore applies pioneer status to IP income | 0% effective rate |
 | **Adjusted nominal rate** | **0%** |
 | Germany-Singapore treaty WHT on royalties | 0% |
-| | |
 | **STTR specified rate** | 9% − 0% − 0% = **9%** |
-| | |
 | Royalty payment | €5,000,000 |
 | **STTR tax (Germany collects)** | €5,000,000 × 9% = **€450,000** |
 
@@ -196,9 +204,7 @@ Where:
 | Luxembourg applies participation exemption financing rules | 0% on intra-group interest |
 | **Adjusted nominal rate** | **0%** |
 | Ireland-Luxembourg treaty WHT on interest | 0% |
-| | |
 | **STTR specified rate** | 9% − 0% − 0% = **9%** |
-| | |
 | Interest payment | €2,000,000 |
 | **STTR tax (Ireland collects)** | €2,000,000 × 9% = **€180,000** |
 
@@ -287,13 +293,10 @@ Step 4: Apply TEST
 | Direct costs (personnel, travel) | €800,000 |
 | Indirect costs (allocated overhead) | €200,000 |
 | **Total attributable costs** | **€1,000,000** |
-| | |
 | **Threshold calculation** | €1,000,000 × 1.085 = €1,085,000 |
-| | |
 | **Test:** Is €1,200,000 > €1,085,000? | **Yes** |
 | **Mark-up:** (€1,200,000 − €1,000,000) / €1,000,000 | **20%** |
-| | |
-| **Result:** Mark-up (20%) exceeds 8.5% → **STTR may apply** |
+| **Result:** Mark-up exceeds 8.5% | **STTR may apply** |
 
 ### 4.5 Worked Example: Low-Margin Service
 
@@ -303,13 +306,10 @@ Step 4: Apply TEST
 |------|--------|
 | Service fee received | €1,050,000 |
 | Total attributable costs | €1,000,000 |
-| | |
 | **Threshold calculation** | €1,000,000 × 1.085 = €1,085,000 |
-| | |
 | **Test:** Is €1,050,000 > €1,085,000? | **No** |
 | **Mark-up:** (€1,050,000 − €1,000,000) / €1,000,000 | **5%** |
-| | |
-| **Result:** Mark-up (5%) within 8.5% → **STTR does NOT apply** |
+| **Result:** Mark-up within 8.5% | **STTR does NOT apply** |
 
 ### 4.6 Summary: Mark-up Threshold
 
@@ -321,6 +321,8 @@ Step 4: Apply TEST
 | Equipment rental | **Yes** (8.5%) |
 | Distribution rights | **Yes** (8.5%) |
 | Insurance premiums | **Yes** (8.5%) |
+
+The mark-up threshold serves a carefully calibrated policy function. Interest and royalties face no mark-up test because these payments represent pure returns on capital or intangible assets—the recipient may contribute minimal activity while extracting significant value. By contrast, service fees, equipment rental, and distribution arrangements typically involve genuine economic activity that justifies a return. The 8.5% mark-up threshold allows routine, arm's-length services to escape STTR scrutiny while catching arrangements where inflated fees transfer excess profits to low-tax recipients. This approach avoids penalising legitimate business operations while maintaining the rule's effectiveness against abusive structures.
 
 ## 5. Materiality Threshold
 
@@ -429,6 +431,8 @@ Total tax on payment:
 • GloBE Top-up (UPE): €600,000
 • Total: €1,500,000 (15% effective rate achieved)
 ```
+
+The STTR's interaction with GloBE demonstrates how Pillar Two operates as an integrated system. The STTR collects tax at source on undertaxed payments, and this collection becomes a Covered Tax credit in the recipient jurisdiction's ETR calculation. The total tax burden remains constrained to 15% of GloBE Income, but the distribution shifts—source countries receive a larger share through STTR, while residual GloBE Top-Up Tax flowing to the UPE jurisdiction decreases correspondingly. For MNE groups, this redistribution affects cash tax planning but not total liability; the 15% minimum is achieved regardless, merely through different collection mechanisms. However, the STTR does change which jurisdictions receive revenue and may affect working capital requirements due to differing payment timing.
 
 ## 7. STTR Impact Assessment Framework
 
@@ -650,9 +654,9 @@ List all intercompany payments between connected group entities:
 
 | # | Payer | Recipient | Type | Amount (€) |
 |---|-------|-----------|------|------------|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
+| 1 | — | — | — | — |
+| 2 | — | — | — | — |
+| 3 | — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION B: FILTER FOR STTR SCOPE
@@ -670,8 +674,8 @@ SECTION C: AGGREGATE BY RECIPIENT JURISDICTION
 
 | Recipient Jurisdiction | Total Covered Payments (€) | Materiality Threshold (€) | Exceeds? |
 |------------------------|---------------------------|--------------------------|----------|
-| | | | |
-| | | | |
+| — | — | — | — |
+| — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION D: APPLY MARK-UP TEST (Services/Rental Only)
@@ -679,7 +683,7 @@ SECTION D: APPLY MARK-UP TEST (Services/Rental Only)
 
 | Payment | Gross (€) | Costs (€) | Threshold (€) | Mark-up % | Applies? |
 |---------|-----------|-----------|---------------|-----------|----------|
-| | | | | | |
+| — | — | — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION E: DETERMINE ADJUSTED NOMINAL RATES
@@ -687,7 +691,7 @@ SECTION E: DETERMINE ADJUSTED NOMINAL RATES
 
 | Recipient Jurisdiction | Statutory Rate | Preferential Regime | Adjusted Rate | < 9%? |
 |------------------------|----------------|--------------------|--------------:|-------|
-| | | | | |
+| — | — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION F: CALCULATE STTR TAX
@@ -695,7 +699,7 @@ SECTION F: CALCULATE STTR TAX
 
 | Payment | Amount (€) | Adj. Nom. Rate | Treaty WHT | Specified Rate | STTR Tax (€) |
 |---------|------------|----------------|------------|----------------|--------------|
-| | | | | | |
+| — | — | — | — | — | — |
 
 TOTAL STTR EXPOSURE: €__________________
 
@@ -705,8 +709,15 @@ SECTION G: GloBE IMPACT
 
 | Recipient Jurisdiction | Pre-STTR ETR | STTR Credit (€) | Post-STTR ETR |
 |------------------------|--------------|-----------------|---------------|
-| | | | |
+| — | — | — | — |
 
 □ STTR credits recorded as Covered Taxes in GloBE calculation
 ```
 
+## Concluding Discussion
+
+The STTR represents a carefully designed mechanism that balances multiple competing objectives within the Pillar Two framework. It provides developing countries with a meaningful taxing right over intra-group payments to low-tax jurisdictions, addressing concerns that the GloBE Rules disproportionately benefit residence jurisdictions. At the same time, the rule's design features—the 9% threshold, mark-up test, materiality exclusions, and connected persons requirement—ensure it targets genuine base erosion rather than burdening routine commercial transactions.
+
+For MNE groups, the STTR introduces another layer of compliance analysis for cross-border payments. The payment-by-payment approach differs fundamentally from the jurisdictional blending in GloBE calculations, requiring transaction-level tracking of covered income flows. The practical impact depends heavily on group structure: organisations with significant payments to entities in preferential tax regimes face material STTR exposure, while those operating primarily in standard-rate jurisdictions may encounter minimal impact.
+
+The STTR also demonstrates the interconnected nature of Pillar Two. STTR taxes collected at source flow through to GloBE calculations as Covered Tax credits, affecting ETR computations and potentially eliminating GloBE Top-Up Tax in recipient jurisdictions. Understanding this interaction is essential for comprehensive Pillar Two planning, as the total tax burden remains consistent while the distribution among collecting jurisdictions shifts based on STTR application.

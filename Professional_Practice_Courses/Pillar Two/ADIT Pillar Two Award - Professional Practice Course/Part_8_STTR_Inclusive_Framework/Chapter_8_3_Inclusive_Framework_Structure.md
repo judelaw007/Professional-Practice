@@ -4,6 +4,14 @@
 
 After completing this chapter, you will be able to describe the governance structure of the OECD/G20 Inclusive Framework on BEPS, understand how Administrative Guidance is developed and issued, navigate the peer review process for qualified status determinations, and identify official resources for staying current with Pillar Two developments.
 
+## Introduction
+
+The Inclusive Framework represents an unprecedented experiment in global tax governance. For the first time, tax rules affecting multinational enterprises worldwide are being developed through a process where developing countries participate on equal footing with traditional OECD members. This inclusive approach shapes not only the substance of Pillar Two rules but also the processes by which those rules evolve—through Administrative Guidance, peer review, and ongoing interpretation.
+
+For practitioners, understanding the Inclusive Framework matters beyond mere institutional awareness. The IF produces the authoritative interpretations that determine how GloBE Rules apply in practice. Administrative Guidance releases can resolve ambiguities in the Model Rules, introduce new compliance requirements, or provide relief from unexpected rule interactions. The peer review process determines which jurisdictions' legislation qualifies for preferential treatment under the ordering rules. Staying current with IF developments is not optional for competent Pillar Two compliance.
+
+The Inclusive Framework's structure also reveals Pillar Two's political dimensions. The consensus-based approach, while ensuring broad buy-in, can slow guidance development as diverse member interests must be reconciled. The peer review mechanism creates incentives for jurisdictions to implement rules consistently, while the switch-off mechanism provides enforcement teeth. Understanding these dynamics helps practitioners anticipate how the framework will evolve and where interpretive flexibility exists.
+
 The **OECD/G20 Inclusive Framework on BEPS** is the global body responsible for developing, implementing, and monitoring the Two-Pillar Solution to address tax challenges arising from digitalisation.
 
 ```
@@ -102,6 +110,8 @@ INCLUSIVE FRAMEWORK GOVERNANCE STRUCTURE
 | **CTPA Secretariat** | Administrative support | Drafts documents, manages processes |
 | **Task Force on the Digital Economy** | Pillar One/Two coordination | Oversees implementation |
 
+The governance structure reflects a deliberate balance between efficiency and inclusivity. Technical work flows through Working Parties staffed by subject matter experts, allowing detailed issues to receive sustained attention. The Inclusive Framework plenary serves as the decision-making body where consensus is sought, ensuring all member jurisdictions have voice in final outcomes. The CTPA Secretariat provides continuity and institutional memory, drafting documents and managing processes while member delegates rotate. This structure enables reasonably rapid guidance development—Administrative Guidance releases have emerged roughly quarterly—while maintaining the broad-based legitimacy that political buy-in requires.
+
 ### Membership Composition
 
 The Inclusive Framework includes:
@@ -174,6 +184,8 @@ Step 6: INTEGRATION
 | **AG3** | December 2023 | Simplified Calculations framework, DTA issues |
 | **AG4** | June 2024 | Allocation rules, STTR interaction |
 | **AG5** | January 2025 | Central Record, Article 9.1 clarifications |
+
+The frequency and substance of Administrative Guidance releases underscore that Pillar Two remains a work in progress. Each guidance document has addressed issues that emerged from implementation experience—questions that were not apparent when the Model Rules were drafted but became critical as jurisdictions enacted legislation and MNE groups began compliance. This pattern will likely continue: as more jurisdictions implement rules and the first GIR filings occur, new interpretive questions will surface requiring IF resolution. Practitioners must treat the guidance documents as living authorities that will evolve, not as static interpretive aids.
 
 ### Binding Effect of Guidance
 
@@ -265,6 +277,8 @@ The OECD maintains a **Central Record** listing jurisdictions with qualified sta
 | **IIR Transitional Qualified** | IIR legislation meets GloBE standards | 27 jurisdictions |
 | **QDMTT Safe Harbour** | QDMTT qualifies for Safe Harbour | 28 jurisdictions |
 | **UTPR Qualified** | UTPR legislation meets standards | TBD |
+
+The peer review process embodies the Inclusive Framework's commitment to consistent global implementation. Without qualified status determinations, each jurisdiction could claim its legislation complies with GloBE Rules while introducing variations that undermine the system's coherence. The transitional qualification mechanism—allowing jurisdictions to self-certify subject to member challenge—provides a pragmatic balance between speed and rigour during initial implementation. As the system matures, more comprehensive legislative reviews will likely become the norm, and the IF may tighten standards as experience reveals which variations are acceptable and which create material distortions.
 
 ### Importance of Qualified Status
 
@@ -534,9 +548,9 @@ SECTION C: QUALIFIED STATUS TRACKING
 
 | Jurisdiction | IIR Qualified? | QDMTT SH? | Last Verified |
 |--------------|----------------|-----------|---------------|
-| | | | |
-| | | | |
-| | | | |
+| — | — | — | — |
+| — | — | — | — |
+| — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION D: UPCOMING EVENTS
@@ -556,3 +570,10 @@ SECTION E: INTERNAL PROCESSES
 □ Policy update procedure                         YES / NO
 ```
 
+## Concluding Discussion
+
+The Inclusive Framework represents both the governance mechanism for Pillar Two and an ongoing experiment in multilateral tax coordination. Its success will ultimately be measured not by the sophistication of the rules it produces but by whether 145+ jurisdictions implement those rules consistently enough that the global minimum tax achieves its objectives. The peer review process, the qualified status determinations, and the switch-off mechanism all serve this consistency objective—creating incentives for jurisdictions to follow agreed rules and consequences for those that deviate.
+
+For practitioners, the Inclusive Framework is the authoritative source for Pillar Two interpretation. Domestic legislation may implement the GloBE Rules, but questions about how those rules apply are resolved through IF guidance. Administrative Guidance releases carry practical authority regardless of their formal legal status—jurisdictions that ignore them risk losing qualified status, and MNE groups that disregard them risk challenges from tax authorities. Building monitoring processes to track IF developments is as essential as tracking domestic legislation changes.
+
+The Inclusive Framework's future evolution bears watching. As implementation experience accumulates, pressure will build to address gaps and inconsistencies in the current rules. The balance between simplification and precision will continue to shift as stakeholders advocate for both more detailed guidance and more practical safe harbours. The peer review process may become more rigorous as the IF develops capacity for comprehensive legislative assessment. Practitioners who understand the IF's structure and processes can better anticipate where the rules are heading and position their organisations accordingly.

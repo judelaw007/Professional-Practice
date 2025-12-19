@@ -4,6 +4,14 @@
 
 After completing this chapter, you will be able to distinguish between the Multilateral Convention and bilateral treaty approaches to STTR implementation, understand the ratification and entry into force process, identify which jurisdictions have committed to implement the STTR, and determine when the STTR will apply to specific bilateral treaty relationships.
 
+## Introduction
+
+The STTR's implementation path differs fundamentally from the GloBE Rules. While jurisdictions can unilaterally enact domestic legislation implementing IIR, UTPR, and QDMTT, the STTR requires modification of bilateral tax treaties—a process that inherently involves two sovereign parties and established diplomatic procedures. This distinction creates both challenges and opportunities: the bilateral nature slows implementation but also ensures that STTR obligations arise only where both parties have explicitly agreed.
+
+The OECD developed the STTR Multilateral Convention (STTR MLI) to accelerate this process, recognising that bilateral renegotiation of thousands of treaties would take decades. The STTR MLI allows jurisdictions to modify multiple treaties simultaneously through a single instrument, dramatically reducing the administrative burden. However, the mechanism still requires matching commitments from both treaty partners—a treaty only becomes covered when both parties have signed, ratified, and notified that specific treaty.
+
+Understanding the implementation timeline is essential for compliance planning. The STTR will not affect most MNE groups immediately; the first Covered Tax Agreements will likely take effect in 2026 at the earliest, and the network will expand gradually as more jurisdictions complete ratification. Practitioners must monitor this evolving landscape to anticipate when specific bilateral relationships will trigger STTR obligations.
+
 ## Overview: Two Implementation Paths
 
 The STTR is a **treaty-based rule**. Unlike the GloBE Rules (implemented through domestic legislation), the STTR must be incorporated into bilateral tax treaties. There are two implementation paths:
@@ -35,6 +43,8 @@ The STTR is a **treaty-based rule**. Unlike the GloBE Rules (implemented through
 │ MOST JURISDICTIONS EXPECTED TO USE PATH 1 (STTR MLI)                │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+
+The choice between implementation paths reflects practical considerations about treaty network management. Jurisdictions with extensive treaty networks—particularly developing countries seeking to implement STTR across multiple relationships—find the MLI approach attractive because it achieves modifications efficiently. The bilateral approach remains relevant where one treaty partner has not signed the MLI, where jurisdictions prefer customised terms, or where diplomatic relationships favour traditional negotiation. In practice, most STTR implementation will occur through the MLI, with bilateral amendments filling gaps for specific treaty relationships.
 
 ## The STTR Multilateral Convention (STTR MLI)
 
@@ -149,6 +159,8 @@ On **19 September 2024**, the OECD held the first formal signing ceremony for th
 
 Twenty-four jurisdictions not in scope of the STTR commitment signed a **statement of support**, signalling political endorsement without becoming parties.
 
+The September 2024 signing ceremony revealed important patterns about STTR implementation. The initial signatories were predominantly developing countries—precisely those jurisdictions the STTR was designed to benefit. Notable absences included major developed country source jurisdictions like Germany, the UK, and the United States. This distribution reflects the STTR's targeting: developed countries with high corporate tax rates have limited motivation to sign, since the STTR primarily affects their outbound payments to low-tax jurisdictions rather than their domestic revenue. The European signatories (Romania, Türkiye) represent exceptions with specific policy interests in source taxation. The pace of additional signatures will determine how quickly the STTR network expands.
+
 ### Ratification Progress
 
 As of early 2025:
@@ -259,6 +271,8 @@ A jurisdiction qualifies as a **developing country** for STTR purposes if its Gr
 | High income | > $12,535 | **Not eligible** |
 
 **Note:** Over **70 Inclusive Framework members** qualify as developing countries for this purpose.
+
+The developing country eligibility criteria embed an important limitation: the STTR commitment only requires low-tax jurisdictions to implement the rule when requested by qualifying developing countries. High-income jurisdictions cannot compel STTR inclusion in their treaties, even if they would benefit from additional source taxation rights. This asymmetry reflects the STTR's origin as a concession to developing country concerns about the GloBE Rules' residence-country bias. In practical terms, MNE groups with payment flows exclusively among high-income jurisdictions may never encounter STTR obligations, regardless of how low recipient jurisdiction tax rates fall.
 
 ## Bilateral Treaty Modification
 
@@ -558,9 +572,9 @@ List all intercompany payments potentially subject to STTR:
 
 | # | Payer Jurisdiction | Recipient Jurisdiction | Payment Type | Amount |
 |---|-------------------|------------------------|--------------|--------|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
+| 1 | — | — | — | — |
+| 2 | — | — | — | — |
+| 3 | — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION B: RECIPIENT JURISDICTION ANALYSIS
@@ -570,7 +584,7 @@ For each recipient jurisdiction:
 
 | Jurisdiction | Nominal Rate | < 9%? | Developing Country? | STTR Risk |
 |--------------|--------------|-------|---------------------|-----------|
-| | | | | |
+| — | — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION C: STTR MLI STATUS TRACKING
@@ -578,7 +592,7 @@ SECTION C: STTR MLI STATUS TRACKING
 
 | Jurisdiction | Signed? | Date | Ratified? | Date | EIF Date |
 |--------------|---------|------|-----------|------|----------|
-| | | | | | |
+| — | — | — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION D: COVERED TAX AGREEMENT STATUS
@@ -586,7 +600,7 @@ SECTION D: COVERED TAX AGREEMENT STATUS
 
 | Treaty | Party A Status | Party B Status | CTA? | Effect Date |
 |--------|----------------|----------------|------|-------------|
-| | | | | |
+| — | — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION E: ACTION ITEMS
@@ -600,3 +614,10 @@ SECTION E: ACTION ITEMS
 Next review date: _________________________
 ```
 
+## Concluding Discussion
+
+STTR implementation represents an evolving landscape that will develop gradually over the coming years. Unlike the GloBE Rules, which many jurisdictions implemented simultaneously for fiscal years beginning in 2024, the STTR's treaty-based nature means its network will expand incrementally as jurisdictions sign, ratify, and complete the domestic processes necessary for entry into force. This phased implementation provides MNE groups with time to prepare but also creates uncertainty about which bilateral relationships will ultimately be affected.
+
+The current signatory list—dominated by developing countries—reveals the STTR's political foundations. Developed countries serving primarily as source jurisdictions have less incentive to participate, since the rule primarily benefits developing country sources at the expense of MNE compliance burden. The major European economies, including Germany, the UK, and France, have not signed the STTR MLI, limiting its immediate practical impact on many MNE groups with European operations. However, this calculus may shift as political pressure mounts and as MNE groups begin channelling payments through structures designed to minimise STTR exposure.
+
+For practitioners, the key discipline is monitoring. The STTR landscape will change as additional jurisdictions sign and ratify, as treaties become Covered Tax Agreements, and as entry-into-effect dates approach. Establishing systematic tracking processes—monitoring OECD depositary updates, tracking bilateral amendment negotiations, and maintaining current status assessments for relevant treaty relationships—enables groups to anticipate STTR obligations before they materialise. The cost of being surprised by an unexpected STTR liability significantly exceeds the investment in proactive monitoring.
