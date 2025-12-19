@@ -572,9 +572,9 @@ List all intercompany payments potentially subject to STTR:
 
 | # | Payer Jurisdiction | Recipient Jurisdiction | Payment Type | Amount |
 |---|-------------------|------------------------|--------------|--------|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
+| 1 | — | — | — | — |
+| 2 | — | — | — | — |
+| 3 | — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION B: RECIPIENT JURISDICTION ANALYSIS
@@ -584,7 +584,7 @@ For each recipient jurisdiction:
 
 | Jurisdiction | Nominal Rate | < 9%? | Developing Country? | STTR Risk |
 |--------------|--------------|-------|---------------------|-----------|
-| | | | | |
+| — | — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION C: STTR MLI STATUS TRACKING
@@ -592,7 +592,7 @@ SECTION C: STTR MLI STATUS TRACKING
 
 | Jurisdiction | Signed? | Date | Ratified? | Date | EIF Date |
 |--------------|---------|------|-----------|------|----------|
-| | | | | | |
+| — | — | — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION D: COVERED TAX AGREEMENT STATUS
@@ -600,7 +600,7 @@ SECTION D: COVERED TAX AGREEMENT STATUS
 
 | Treaty | Party A Status | Party B Status | CTA? | Effect Date |
 |--------|----------------|----------------|------|-------------|
-| | | | | |
+| — | — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION E: ACTION ITEMS

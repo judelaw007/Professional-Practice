@@ -548,9 +548,9 @@ SECTION C: QUALIFIED STATUS TRACKING
 
 | Jurisdiction | IIR Qualified? | QDMTT SH? | Last Verified |
 |--------------|----------------|-----------|---------------|
-| | | | |
-| | | | |
-| | | | |
+| — | — | — | — |
+| — | — | — | — |
+| — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION D: UPCOMING EVENTS

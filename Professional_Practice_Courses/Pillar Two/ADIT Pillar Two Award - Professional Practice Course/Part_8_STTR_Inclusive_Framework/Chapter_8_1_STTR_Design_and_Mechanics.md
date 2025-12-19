@@ -654,9 +654,9 @@ List all intercompany payments between connected group entities:
 
 | # | Payer | Recipient | Type | Amount (€) |
 |---|-------|-----------|------|------------|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
+| 1 | — | — | — | — |
+| 2 | — | — | — | — |
+| 3 | — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION B: FILTER FOR STTR SCOPE
@@ -674,8 +674,8 @@ SECTION C: AGGREGATE BY RECIPIENT JURISDICTION
 
 | Recipient Jurisdiction | Total Covered Payments (€) | Materiality Threshold (€) | Exceeds? |
 |------------------------|---------------------------|--------------------------|----------|
-| | | | |
-| | | | |
+| — | — | — | — |
+| — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION D: APPLY MARK-UP TEST (Services/Rental Only)
@@ -683,7 +683,7 @@ SECTION D: APPLY MARK-UP TEST (Services/Rental Only)
 
 | Payment | Gross (€) | Costs (€) | Threshold (€) | Mark-up % | Applies? |
 |---------|-----------|-----------|---------------|-----------|----------|
-| | | | | | |
+| — | — | — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION E: DETERMINE ADJUSTED NOMINAL RATES
@@ -691,7 +691,7 @@ SECTION E: DETERMINE ADJUSTED NOMINAL RATES
 
 | Recipient Jurisdiction | Statutory Rate | Preferential Regime | Adjusted Rate | < 9%? |
 |------------------------|----------------|--------------------|--------------:|-------|
-| | | | | |
+| — | — | — | — | — |
 
 ═══════════════════════════════════════════════════════════════════════
 SECTION F: CALCULATE STTR TAX
@@ -699,7 +699,7 @@ SECTION F: CALCULATE STTR TAX
 
 | Payment | Amount (€) | Adj. Nom. Rate | Treaty WHT | Specified Rate | STTR Tax (€) |
 |---------|------------|----------------|------------|----------------|--------------|
-| | | | | | |
+| — | — | — | — | — | — |
 
 TOTAL STTR EXPOSURE: €__________________
 
@@ -709,7 +709,7 @@ SECTION G: GloBE IMPACT
 
 | Recipient Jurisdiction | Pre-STTR ETR | STTR Credit (€) | Post-STTR ETR |
 |------------------------|--------------|-----------------|---------------|
-| | | | |
+| — | — | — | — |
 
 □ STTR credits recorded as Covered Taxes in GloBE calculation
 ```
