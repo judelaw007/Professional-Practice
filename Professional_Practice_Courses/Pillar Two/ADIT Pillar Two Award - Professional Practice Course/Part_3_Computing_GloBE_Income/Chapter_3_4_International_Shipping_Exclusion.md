@@ -4,6 +4,10 @@
 
 After completing this chapter, you will be able to identify qualifying international shipping income, apply the ancillary income cap, and exclude eligible shipping income from GloBE calculations while meeting substance requirements.
 
+## Introduction
+
+The international shipping exclusion represents one of the most significant carve-outs from the global minimum tax framework. Its inclusion in Article 3.3 reflects decades of international consensus that shipping—an inherently mobile, capital-intensive industry essential to global trade—requires special tax treatment to remain commercially viable. Nearly every major maritime nation operates some form of tonnage tax or preferential shipping regime, and subjecting these regimes to the 15% minimum would have effectively dismantled them overnight. The exclusion preserves this status quo while carefully defining boundaries to prevent abuse and ensure the benefit flows only to genuine shipping operations.
+
 ## Why Shipping Gets Special Treatment
 
 The international shipping industry has unique characteristics that have led many jurisdictions to adopt special tax regimes:
@@ -20,6 +24,8 @@ Many countries operate **tonnage tax** regimes that tax shipping based on vessel
 **Without an exclusion:** Shipping companies would face Top-Up Tax on virtually all profits, undermining the policy rationale behind tonnage tax regimes.
 
 **Article 3.3 solution:** Exclude qualifying international shipping income from GloBE calculations entirely.
+
+The shipping industry's political weight in maritime nations—combined with the genuine economic case for stable, predictable taxation of long-lived mobile assets—made this exclusion one of the less contested elements of the Pillar Two negotiations. Countries like Greece, Denmark, Norway, and Singapore have built substantial maritime clusters around their favourable shipping regimes; dismantling these through Pillar Two would have redistributed not just tax revenue but economic activity. The compromise reached—preserving existing benefits for genuine shipping while requiring substance and limiting ancillary activities—reflects a pragmatic accommodation of maritime interests within the broader minimum tax framework.
 
 ## The Basic Exclusion Rule *(Article 3.3.1)*
 
@@ -142,6 +148,8 @@ Excess:            €5,000,000
 | Non-shipping income | — | €15,000,000 |
 | **Total GloBE Income** | | **€20,000,000** |
 
+The 50% ancillary cap serves as an anti-avoidance mechanism, preventing shipping groups from sheltering unlimited amounts of non-core income under the shipping exclusion umbrella. Without this limit, a company could structure extensive container logistics, port services, or investment activities through its shipping entity and claim full exclusion. The 50% threshold acknowledges that genuine shipping operations do generate ancillary income—container handling, crew services, short-term investments of working capital—but ensures the tail cannot wag the dog. Where ancillary income exceeds core shipping income, the excess clearly represents a separate business line that should face the same minimum tax rules as any other enterprise.
+
 ## Treatment of Losses *(Article 3.3.1)*
 
 ### The Symmetry Rule
@@ -217,6 +225,8 @@ To qualify for the shipping exclusion, a Constituent Entity must demonstrate tha
 | Operational reports | Management reports prepared/reviewed locally |
 | Correspondence | Day-to-day management communications |
 
+The strategic management requirement ensures that the shipping exclusion benefits jurisdictions where genuine maritime management occurs, not those that merely offer convenient registration. This prevents the proliferation of "brass plate" shipping entities that register vessels and claim exclusion while all real decisions are made elsewhere. The test looks to where capital expenditure is approved, where major contracts are negotiated and signed, where commercial strategy is developed—in essence, where the mind and management of the shipping enterprise resides. For groups with complex operations spanning multiple jurisdictions, this may require careful consideration of where decision-making authority genuinely sits, and potentially restructuring to ensure substance matches claimed exclusions.
+
 ## Interaction with Tonnage Tax Regimes
 
 ### The Potential Gap
@@ -246,6 +256,8 @@ MNE Groups with shipping operations should:
 2. **Identify** activities in tonnage tax that don't qualify for GloBE exclusion
 3. **Calculate** potential Top-Up Tax exposure on non-qualifying activities
 4. **Consider** restructuring if exposure is material
+
+The gap between domestic tonnage tax scope and Article 3.3 scope creates a compliance trap for unwary shipping groups. An operator that has structured its affairs to maximise tonnage tax benefits domestically may find that a significant portion of its activities—offshore support, towage, cable-laying, domestic coastal routes—falls outside the GloBE exclusion. These activities remain subject to the full Pillar Two calculation, and if the tonnage tax regime produces an ETR below 15% on this income, Top-Up Tax will arise. Groups should not assume that domestic tonnage tax qualification automatically confers GloBE exclusion; a line-by-line analysis against Article 3.3's more restrictive definitions is essential.
 
 ## Stratos Worked Example
 
@@ -402,6 +414,8 @@ All **direct and indirect costs** attributable to shipping income must also be e
 **Error:** Treating river barge operations as international shipping.
 
 **Problem:** Inland waterways within same jurisdiction are explicitly excluded.
+
+The international shipping exclusion rewards groups that structure their maritime operations thoughtfully, maintain genuine substance in shipping jurisdictions, and understand the precise boundaries of qualifying activities. It is not a blanket exemption for anything labelled "shipping" but a carefully circumscribed carve-out for traditional oceangoing transport and closely related ancillary activities. Groups entering or expanding in the maritime sector should build Pillar Two analysis into their structuring from the outset, ensuring that new activities are classified correctly and that strategic management requirements can be satisfied where exclusion is sought. For existing operators, a comprehensive mapping exercise—comparing current structures against Article 3.3's requirements—is an essential first step in managing Pillar Two exposure.
 
 ## Key References
 
