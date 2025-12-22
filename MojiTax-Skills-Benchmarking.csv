@@ -1,7 +1,7 @@
 Skill,Course/Courses,Course Description (Knowledge),Tools,Tool Description (Application)
-Pillar Two Implementation,CIOT Pillar Two Award Course,"I can determine Pillar Two scope, calculate GloBE Income and Adjusted Covered Taxes, compute ETR and top-up tax, and prepare compliant GIR filings for MNE groups.",GIR-001: GloBE Calculator,"I can perform end-to-end Pillar Two calculations including ETR, SBIE, and top-up tax computation."
-Pillar Two Implementation,,,GIR-002: Safe Harbour Qualifier,"I can assess jurisdictions against Transitional CbCR Safe Harbour criteria to identify simplified reporting eligibility."
-Pillar Two Implementation,,,GIR-003: Filing Deadline Calculator,"I can determine correct GIR filing deadlines accounting for transitional extensions and jurisdiction-specific rules."
-Pillar Two Implementation,,,GIR-004: GIR Practice Form,"I can complete GloBE Information Return forms with accurate data entry and validation."
-Pillar Two Implementation,,,GIR-005: DFE Assessment Tool,"I can evaluate Designated Filing Entity election options and determine optimal filing strategies."
-Pillar Two Implementation,,,GIR-006: Audit File Checklist,"I can prepare audit-ready documentation packages that support GIR positions."
+Pillar Two,CIOT Pillar Two Award Course,"I can determine Pillar Two scope, calculate GloBE Income and Adjusted Covered Taxes, compute ETR and top-up tax, and prepare compliant GIR filings for MNE groups.",GIR-001: GloBE Calculator,"I can perform end-to-end Pillar Two calculations including ETR, SBIE, and top-up tax computation."
+Pillar Two,,,GIR-002: Safe Harbour Qualifier,"I can assess jurisdictions against Transitional CbCR Safe Harbour criteria to identify simplified reporting eligibility."
+Pillar Two,,,GIR-003: Filing Deadline Calculator,"I can determine correct GIR filing deadlines accounting for transitional extensions and jurisdiction-specific rules."
+Pillar Two,,,GIR-004: GIR Practice Form,"I can complete GloBE Information Return forms with accurate data entry and validation."
+Pillar Two,,,GIR-005: DFE Assessment Tool,"I can evaluate Designated Filing Entity election options and determine optimal filing strategies."
+Pillar Two,,,GIR-006: Audit File Checklist,"I can prepare audit-ready documentation packages that support GIR positions."
